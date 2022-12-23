@@ -1,0 +1,7 @@
+.imageholder {
+  height: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
