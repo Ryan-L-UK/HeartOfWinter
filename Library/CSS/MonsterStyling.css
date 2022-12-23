@@ -16,7 +16,7 @@ html {
   align-items: center;
   color: black;
   padding: 0;
-  background-image: url("Library/ImageAssets/Background_page.jpg");
+  background-image: url("../ImageAssets/Background_page.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -80,11 +80,21 @@ p.footer {
 }
 
 .oval {
-  margin: 2px;
+  margin: 2px auto;
   height: 5px;
   width: 450px;
-  background-color: #1d7335;
+  background-color: #c0ad6a;
   border-radius: 150%;
+  align-items: center;
+}
+
+.divider {
+  margin: 2px auto;
+  width: 0;
+  height: 0;
+  border-top: 3px solid transparent;
+  border-left: 475px solid #1d7335;
+  border-bottom: 3px solid transparent;
   align-items: center;
   justify-items: center;
 }
@@ -92,7 +102,7 @@ p.footer {
 .border {
   height: 6px;
   width: 500px;
-  background-image: url("Library/ImageAssets/itembackground.jpeg");
+  background-image: url("../ImageAssets/itembackground.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -103,13 +113,13 @@ p.footer {
   border: 2px solid black;
 }
 
-.itemcontainer {
+.monstercontainer {
   width: 490px;
   display: block;
   align-items: center;
   justify-items: center;
   margin: 0 auto;
-  background-image: url("Library/ImagesParchment/mm_background_base.png");
+  background-image: url("../ImagesParchment/mm_background_base.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -117,7 +127,7 @@ p.footer {
   display: block;
 }
 
-h1.itemheading {
+h1.monstername {
   text-align: left;
   font-size: 1.6em;
   font-family: Garamond, serif;
@@ -125,7 +135,7 @@ h1.itemheading {
   padding-top: 1%;
 }
 
-h2.itemtype {
+h2.monstertype {
   text-align: left;
   font-size: 1em;
   font-style: italic;
@@ -133,22 +143,50 @@ h2.itemtype {
   margin: 0% 1.5% 1%;
 }
 
-h3.weapon {
-  text-align: right;
-  font-size: 1em;
-  font-family: Garamond, serif;
-  margin: 0% 1.5% 1%;
-}
-
-p.itembody {
+.monsterbold {
   text-align: left;
   font-size: 1em;
-  margin: 0% 1.5% 2%;
+  margin: 0% 1.5%;
+  font-weight: bold;
 }
 
-p.itemfooter {
+.monsterbody {
   text-align: left;
   font-size: 1em;
-  margin: 0% 1.5% 0%;
-  padding-bottom: 1%;
+}
+
+.grid-container {
+  display: grid;
+  width: 100%;
+  justify-content: space-evenly;
+  align-content: space-evenly;
+  column-gap: 1%;
+  grid-template-columns: auto;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "STR DEX CON INT WIS CHA"
+    "STRn DEXn CONn INTn WISn CHAn";
+}
+
+.STR,
+.DEX,
+.CON,
+.INT,
+.WIS,
+.CHA {
+  justify-items: center;
+  align-items: center;
+  font-weight: bold;
+  margin: auto;
+}
+
+.STRn,
+.DEXn,
+.CONn,
+.INTn,
+.WISn,
+.CHAn {
+  justify-items: center;
+  align-items: center;
+  margin: auto;
 }
