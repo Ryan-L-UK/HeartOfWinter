@@ -1,0 +1,183 @@
+/* Background Colour */
+html {
+  background: rgb(20, 23, 27);
+  height: 100%;
+  max-width: 1500px;
+  margin: auto;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  height: fit-content;
+  margin: 7% auto 0;
+  align-items: center;
+  color: black;
+  padding: 0;
+  background-image: url("Library/ImageAssets/Background_page.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logo,
+.footer {
+  width: 100%;
+  align-items: center;
+  justify-items: center;
+  margin: 0;
+  padding: 0;
+}
+.footer {
+  filter: hue-rotate(270deg);
+}
+
+h1.header,
+h2.header {
+  font-family: Garamond, serif;
+  color: #0f4025;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+h1.header {
+  font-size: 3.75em;
+  text-align: center;
+  align-items: center;
+}
+
+h2.header {
+  font-size: 1.75em;
+  text-align: left;
+  align-items: left;
+  border-bottom: 3px solid #1d7335;
+}
+
+p.subheading {
+  width: 80%;
+  text-align: center;
+  align-items: center;
+  font-family: "Lora", Times, serif;
+  color: #000000;
+  margin-top: 0px;
+}
+
+p.subheading {
+  font-size: 1.25em;
+}
+
+p.footer {
+  width: 80%;
+  text-align: center;
+  align-items: center;
+  font-family: "Lora", Times, serif;
+  color: #000000;
+  margin-top: 2%;
+  margin-bottom: -2%;
+  font-size: 1em;
+}
+
+.divider {
+  margin: 2px auto;
+  width: 0;
+  height: 0;
+  border-top: 3px solid transparent;
+  border-left: 475px solid #1d7335;
+  border-bottom: 3px solid transparent;
+  align-items: center;
+  justify-items: center;
+}
+
+.border {
+  height: 6px;
+  width: 500px;
+  background-image: url("Library/ImageAssets/itembackground.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  justify-items: center;
+  display: block;
+  margin: 0%;
+  border: 2px solid black;
+}
+
+.monstercontainer {
+  width: 490px;
+  display: block;
+  align-items: center;
+  justify-items: center;
+  margin: 0 auto;
+  background-image: url("Library/ImagesParchment/mm_background_base.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #000000;
+  display: block;
+}
+
+h1.monstername {
+  text-align: left;
+  font-size: 1.6em;
+  font-family: Garamond, serif;
+  margin: 0% 1.5% 0%;
+  padding-top: 1%;
+}
+
+h2.monstertype {
+  text-align: left;
+  font-size: 1em;
+  font-style: italic;
+  font-family: Garamond, serif;
+  margin: 0% 1.5% 1%;
+}
+
+.monsterbold {
+  text-align: left;
+  font-size: 1em;
+  margin: 0% 1.5%;
+  font-weight: bold;
+}
+
+.monsterbody {
+  text-align: left;
+  font-size: 1em;
+}
+
+.grid-container {
+  display: grid;
+  width: 100%;
+  justify-content: space-evenly;
+  align-content: space-evenly;
+  column-gap: 1%;
+  grid-template-columns: auto;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "STR DEX CON INT WIS CHA"
+    "STRn DEXn CONn INTn WISn CHAn";
+}
+
+.STR,
+.DEX,
+.CON,
+.INT,
+.WIS,
+.CHA {
+  justify-items: center;
+  align-items: center;
+  font-weight: bold;
+  margin: auto;
+}
+
+.STRn,
+.DEXn,
+.CONn,
+.INTn,
+.WISn,
+.CHAn {
+  justify-items: center;
+  align-items: center;
+  margin: auto;
+}

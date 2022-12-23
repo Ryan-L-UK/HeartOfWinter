@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="Library/html2canvas.js"></script>
+    <script src="https://superal.github.io/canvas2image/canvas2image.js"></script>
+
+    <link rel="stylesheet" href="ItemStyling.css" />
+
+    <title>ItemFrame</title>
+    <link
+      rel="shortcut icon"
+      type="image/jpg"
+      href="Library/ImageAssets/favicon.ico"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <img
+        src="library/ImageAssets/masthead.png"
+        alt="5e Logo"
+        width="auto"
+        class="logo"
+      />
+      <h1 class="header">Magical Items Shell</h1>
+      <div class="oval"></div>
+      <br />
+      <p class="subheading">
+        Here is a shell generator for items to be created in the correct format
+        for printing.
+      </p>
+
+      <div id="photo">
+        <div class="border"></div>
+        <div class="itemcontainer">
+          <!--ITEM NAME-->
+          <h1 class="itemheading">Wand of Snowballs</h1>
+
+          <!--ITEM TYPE-->
+          <h2 class="itemtype">Wand, Very Rare</h2>
+          <!--<h2 class="itemtype">
+            Harp/Bow +1, Artefact (requires attunement)
+          </h2>-->
+
+          <!--ITEM DESCRIPTION-->
+          <p class="itembody">
+            This wand has 7 charges. While holding it, you can use an action to
+            expend 1 or more of its charges to cast the Snilloc's snowball swarm
+            (XGtE) spell (DC 15) from it. For 1 charge, you cast the 2nd-level
+            version of the spell. You can increase the spell slot level by one
+            for each additional charge you expend.
+            <br /><br />
+            The wand regains 1d6 + 1 expended charges daily at dawn. If you
+            expend the wand's last charge, roll a d20. On a 1, the wand crumbles
+            into a flurry of snowflakes and is destroyed.
+          </p>
+          <br />
+          <!--ITEM DESCRIPTION-->
+          <p class="itemfooter">Source: Homebrew.</p>
+        </div>
+        <div class="border"></div>
+      </div>
+      <br />
+
+      <div>
+        <!-- Define the button
+      that will be used to
+      take the screenshot -->
+        <button onclick="takeshot()">Export At PNG</button>
+      </div>
+      <h1>Screenshot:</h1>
+      <div id="output"></div>
+
+      <!--Footer-->
+      <p class="footer">
+        DUNGEONS & DRAGONS, D&D, Wizards of the Coast, Forgotten Realms, the
+        dragon ampersand, Player’s Handbook, Monster Manual, Dungeon Master’s
+        Guide, D&D Adventurers League, all other Wizards of the Coast product
+        names, and their respective logos are trademarks of Wizards of the Coast
+        in the USA and other countries. All characters and their distinctive
+        likenesses are property of Wizards of the Coast.
+      </p>
+      <img src="Library/ImageAssets/footer.png" alt="5e Logo" class="footer" />
+
+      <!--END-->
+    </div>
+  </body>
+</html>
+
+<script src="Library/myscripts.js"></script>
