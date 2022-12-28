@@ -8,6 +8,9 @@ function showInput() {
   document.getElementById("WType_output").innerHTML =
     document.getElementById("WType_input").value;
 
+  document.getElementById("WDmg_output").innerHTML =
+    document.getElementById("WDmg_input").value;
+
   document.getElementById("Desc1_output").innerHTML =
     document.getElementById("Desc1_input").value;
 

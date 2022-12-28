@@ -1,338 +1,673 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="UTF-8" />
+    <title>The Tainted Catnip</title>
+    <style>
+      /* From extension vscode.github */
+      /*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+      .vscode-dark img[src$="\#gh-light-mode-only"],
+      .vscode-light img[src$="\#gh-dark-mode-only"] {
+        display: none;
+      }
+    </style>
+
     <link rel="stylesheet" href="../Library/CSS/AdventureStyling.css" />
+    <style>
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI",
+          system-ui, "Ubuntu", "Droid Sans", sans-serif;
+        font-size: 14px;
+        line-height: 1.6;
+      }
+    </style>
+    <style>
+      .task-list-item {
+        list-style-type: none;
+      }
+
+      .task-list-item-checkbox {
+        margin-left: -20px;
+        vertical-align: middle;
+        pointer-events: none;
+      }
+    </style>
   </head>
-
-  <body>
-    <div class="container">
-      <h1 class="header">A Gullet Cove Hello</h1>
-
-      <p class="subheading">
-        Player Level: Sunny, with a light breeze. <br />
-        Weather Forecast: Sunny, with a light breeze. <br />
-        Moon Cycle:
-      </p>
-      <br />
-
-      <h2 class="header">The Next Day</h2>
-      <p class="body">
-        The adventure begins with a scream from several rooms down the hall from
-        yourselves. It is a sudden awakening.
-      </p>
-
-      <h3 class="header">A Rude Awakening</h3>
-
-      <dl>
-        <li>A scream can be heard from several rooms down the hall.</li>
-        <li>
-          A two naked cats can be found dead.
-          <dd>
-            Male Cat: Apex
-            <li>Tabby with a white spot on his tail.</li>
-            <li>Large hat and rest of sailor attire on the table</li>
-          </dd>
-          <br />
-          <dd>
-            Female Cat: Bait
-            <li>White, but has a level of mange.</li>
-            <li>Wearing a novelty eye patch</li>
-            <li>Clothes thrown/scattered around the room.</li>
-          </dd>
-        </li>
-        <li>A pouch of open cat nip spread across the table, partly used.</li>
-        <li>Small pouch of gold on the table with the catnip.</li>
-        <li>A ship manifesto with a note on the back can be found.</li>
-      </dl>
-
-      <h3 class="header">The Cut</h3>
-      <dl>
-        <li>Perception/Wisdom (DC15)</li>
-        <dd>
+  <body class="vscode-body vscode-light">
+    <h1 id="the-tainted-catnip">The Tainted Catnip</h1>
+    <p>
+      <strong>Weather Forecast:</strong> Sunny, the hottest day of the season so
+      far.
+    </p>
+    <p><strong>Moon Cycle:</strong> Waxing Crescent Moon</p>
+    <hr />
+    <h2 id="the-next-day">The Next Day</h2>
+    <p>A Rude Awakening</p>
+    <ul>
+      <li>A scream can be heard from several rooms down the hall.</li>
+      <li>
+        A two naked cats can be found dead in
+        <ul>
+          <li>Male Cat: Apex</li>
+        </ul>
+      </li>
+      <li>Tabby with a white spot on his tail.</li>
+      <li>Large hat and rest of sailor attire on the table</li>
+      <li>Female Cat: Bait</li>
+      <li>White, but has a level of mange.</li>
+      <li>wearing a novelty eye patch</li>
+      <li>clothes thrown/scattered around the room.</li>
+      <li>A pouch of open cat nip spread across the table, partly used.</li>
+      <li>Small pouch of gold on the table with the catnip.</li>
+      <li>A ship manifesto (Name TBC) with a note on the back can be found.</li>
+    </ul>
+    <p>The Cut</p>
+    <ul>
+      <li>
+        Perception/Wisdom (DC15)
+        <ul>
           <li>
             An inspection of the cat nip will find that it has been cut with
-            both Poinsettia & Variety of lily’s.
+            both Poinsettia &amp; Variety of lily’s.
           </li>
           <li>
             It is also evident this this catnip, before being cut would offer
             better highs then standard.
           </li>
           <li>There is also a faint smell of ‘Star Anise’</li>
-        </dd>
-      </dl>
-
-      <h2 class="header">The Day About Town</h2>
-      The Celebration
-      <dl>
-        <li>
-          Various banners and decorations will be being hung around the town.
-        </li>
-        <li>Townsfolk will be a buzz.</li>
-        <li>The famous explorer ship the Serpent’s Cry has returned.</li>
-        <li>There will be a tent that has been erected in the market space.</li>
-        <li>
-          A buzz of a new type of cat nip will make its way around the felines.
-        </li>
-        <li>
-          A buzz of a new type of high will buzz around the canines (Anise)
-        </li>
-        <li>Wisdom Saving Throw</li>
-        <dd>
+        </ul>
+      </li>
+    </ul>
+    <hr />
+    <h2 id="the-day-about-town">The Day About Town</h2>
+    <p>The Celebration</p>
+    <ul>
+      <li>
+        Various banners and decorations will be being hung around the town.
+      </li>
+      <li>Townsfolk will be a buzz.</li>
+      <li>The famous explorer ship the Serpent’s Cry has returned.</li>
+      <li>There will be a tent that has been erected in the market space.</li>
+      <li>
+        A buzz of a new type of cat nip will make its way around the felines.
+      </li>
+      <li>A buzz of a new type of high will buzz around the canines (Anise)</li>
+      <li>
+        Wisdom Saving Throw
+        <ul>
           <li>
-            The lowest person will have a street peddler for ‘Nip & Tuck’ the
-            local recreation drug sellers. (it is legal) He will offer them a
-            sample of something new they have in stock.
+            The lowest person will have a street peddler for ‘Nip &amp; Tuck’
+            the local recreation drug sellers. (it is legal) He will offer them
+            a sample of something new they have in stock.
           </li>
           <li>
             These will be tainted and should be treated as a poison if they are
             consumed ain any way. (1d6 poison damage per snort)
           </li>
-        </dd>
-      </dl>
-
-      <h3 class="header">The Tent</h3>
-      <dl>
-        <li>
-          The market area has been covered with a giant tent which spans the
-          entire market place. A multicoloured magic fabric sparkles and lights
-          the inside.
-        </li>
-        <li>
-          Looking up from the inside, the entire top of the tent is bewitched
-          with a variety of magical effects and lights. It looks like the night
-          sky with dancing lights, sparkles and magical fireworks cascading
-          through the air.
-        </li>
-        <li>
-          Inside the regular market stalls can be found, along with some new and
-          exciting ones.
-        </li>
-      </dl>
-
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-
-      <h2 class="header">The Cradles Employment</h2>
-      <dl>
-        <li>
-          The cradle are one of the older guilds in the region and a cat
-          focussed guild.
-        </li>
-        <li>
-          The head of the cradle will explain that someone has broken into the
-          store of one of their members, Master Pettifer’s Emporium and that
-          they have attempted to frame the cradle for their wrong doing.
-        </li>
-        <li>
-          He will offer a pretty sizeable reward of 200gp each for the
-          completion of the task.
-        </li>
-        <li>
-          They will disappear into the shadows and will offer Juseff’s help if
-          the party want it. Although he really doesnt have much to offer in
-          that regard.
-        </li>
-      </dl>
-
-      <h2 class="header">Master Pettifer’s Emporium</h2>
-      <dl>
-        <li>
-          Upon arriving at the ship they will find that there is a variety of
-          broken glass inside and the place is a bit of a mess. Inside will be
-          Master Pettifer & Rufus attempting to clean the mess. The shop is
-          always somewhat of a mess, but this is something else.
-        </li>
-        <li>
-          Three of his items, and a small pouch of gold 30gp will have been
-          stolen.
-        </li>
-        <li>
-          A search within the shop will reveal a set of boot prints, as well as
-          some string on the jagged glass.
-        </li>
-        <li>
-          Whilst both will be keen to help find the missing items, neither of
-          them will be particularly happy about speaking to the new arrivals.
-        </li>
-        <li>
-          The Watch House have been informed of the break in, however they are
-          renoun for not being that good with ‘gang crimes’. They are too
-          focused on other issues.
-        </li>
-      </dl>
-
-      <h2 class="header">The Masters Retreat</h2>
-      <dl>
-        <li>
-          Arriving at Seilf Emit will reveal a pretty run down place, with a
-          strong dislike for any animal that is awoken. Patrons will tut and
-          spit at any animal who gets too close to them.
-        </li>
-        <li>The barman will be less than forthcoming with any information.</li>
-        <li>
-          With an investigation check (DC14), players can find a trapdoor to the
-          cellar hidden underneath a table in the room off to the side. It would
-          require stealth to enter without detection.
-        </li>
-        <li>
-          There is also a beer garden where Swindell & Buller can be found,
-          discussing with 3 goblins about the plans for the Cunning Man.
-        </li>
-      </dl>
-
-      <h2 class="header">The Cellar</h2>
-      <dl>
-        <li>
-          Upon entering the cellar players will note that it is a relatively
-          simple hole underneath the tavern.
-        </li>
-        <li>
-          Downstairs they will find a few empty crates in a variety of sizes.
-          They will have traces of animal hair inside with the a high
-          investigation check.
-        </li>
-        <li>
-          There will also be shreds of paper around the floor. They have a
-          variety of nail marks through them suggested they have been pinned and
-          removed multiple times. The pages also show multiple names. A nature
-          check will reveal these are actually breeds and species of animal and
-          these were the name tags on the cages.
-        </li>
-      </dl>
-
-      <h2 class="header">The Garden</h2>
-      <dl>
-        <li>
-          The garden is quite simple, little more than a few picnic benches
-          surrounded by a tall, 7ft high wall.
-        </li>
-        <li>
-          Sitting at one bench, two humans can be found, Swindel & Buller. Close
-          by on a second table can be found 3x Goblins who are just sitting
-          listening to them discuss.
-        </li>
-        <li>
-          If they detect anyone, roll for initiative and a fight will break out.
-          Both Swindel & Buller will attempt to surrender, if they are given the
-          chance to, depending how blood thirsty the party are.
-        </li>
-        <li>
-          Once defeated the inn will erupt into chaos. Now that Swindel & Buller
-          are dead, it would seem the patrons no longer care about the place and
-          are robbing it blind.
-        </li>
-        <li>
-          On the bodies the following can be found:
-          <dd><input type="checkbox" />Money Pouch (30gp)</dd>
-          <dd><input type="checkbox" />Money Pouch (20gp)</dd>
-          <dd><input type="checkbox" />Receipt ‘Timorys Shipyard Wonders’</dd>
-          <dd><input type="checkbox" />Badly Written Note, from CM.</dd>
-        </li>
-      </dl>
-
-      <h2 class="header">Back Inside</h2>
-      <dl>
-        <li>
-          The inn has emptied, leaving behind a pile of broken glass. It would
-          appear more than just the ones thrown at Elvis. Clearly several fights
-          took place, the tables are over turned.
-        </li>
-        <li>
-          The cash register has been emptied and most of the strong alcohol has
-          been taken. Word travels fast that Swindel and Buller have died. There
-          are no patrons at all, and no one will arrive, its clear that the
-          place is now ‘shut’.
-        </li>
-      </dl>
-
-      <h2 class="header">Timorys Shipyard Wonders</h2>
-      <dl>
-        <li>
-          Timorys Shipyard Wonders honestly looks like a junk yard. A look
-          around the place will reveal a variety of half started and poorly
-          finished projects.
-        </li>
-        <li>
-          It is also clear to see that Timory clearly keeps things close to his
-          chest and a variety of the projects have got large sheets to cover
-          them away from prying eyes.
-        </li>
-        <li>
-          The items stolen from Master Pettifers were deemed useless and have
-          been sold on to Timory, who will be more than willing to sell them
-          back, for a fair profit in his mind. The current asking price is
-          double their original sold value on the receipt.
-          <dd><input type="checkbox" />Handsized Chest (10GP – 20GP)</dd>
-          <dd>
-            <input type="checkbox" />Teeth Of The Kraken (done) (5GP – 10GP)
-          </dd>
-          <dd><input type="checkbox" />Eyes of Longing (done) (5GP – 10GP)</dd>
-        </li>
-      </dl>
-
-      <h2 class="header">Master Pettifer’s Emporium</h2>
-      <dl>
-        <li>
-          Master Pettifer will be surprisingly grateful that they are party have
-          returned. He will also comment on the speed at which they have
-          achieved the result. Given his experience with The Watch, he will be
-          very happy. Well, at least as happy as he gets…
-        </li>
-        <li>
-          A reward of the following will be provided:
-          <dd><input type="checkbox" />A small money pouch with 6gp.</dd>
-          <dd>
-            <input type="checkbox" /> If all 3 items a returned, he will offer
-            them one free of charge. He will however offer no explanation as of
-            what they do.
-          </dd>
-        </li>
-      </dl>
-
-      <h2 class="header">The Cradle</h2>
-      <dl>
-        <li>
-          Approaching the safehouse to claim your reward, a severe lack of
-          movement will be noticed. Previously there were signs of life, but now
-          there is nothing. The cradle themselves appear to have moved on from
-          this safehouse for now, relocating to a new and undisclosed location.
-        </li>
-        <li>
-          A hidden sign will be found painted on the wall, which will advise
-          that the cradle will be found when they are needed. Until then
-          however, thank you for your work.
-        </li>
-      </dl>
-
-      <h2 class="header">The Scratch Post</h2>
-      <dl>
-        <li>
-          The scratching post is full of patrons, and is surprisingly busy for
-          the season and time of year. A few people are discussing an event
-          tomorrow, although its not evidently clear what that is.
-        </li>
-        <li>
-          There will be some additional pouches of money given to each person
-          they will not find until the morning. There will also be an entire Ham
-          Hock, as well as a tray of a new form of catnip placed on the table
-          for the players enjoyment.
-        </li>
-        <li>
-          Overnight there will be some crashing and banging from many streets
-          away, it doesn’t sound harrowing but does wake you a couple of times.
-          (doesn’t impact long rest)
-        </li>
-      </dl>
-
-      <h2 class="header">Level Up</h2>
-      <dl>
-        <li>Characters should advance from level 1, to level 2.</li>
-      </dl>
-    </div>
+        </ul>
+      </li>
+    </ul>
+    <p>The Tent</p>
+    <ul>
+      <li>
+        The market area has been covered with a giant tent which spans the
+        entire market place. A multicoloured magic fabric sparkles and lights
+        the inside.
+      </li>
+      <li>
+        Looking up from the inside, the entire top of the tent is bewitched with
+        a variety of magical effects and lights. It looks like the night sky
+        with dancing lights, sparkles and magical fireworks cascading through
+        the air.
+      </li>
+      <li>
+        Inside the regular market stalls can be found, along with some new and
+        exciting ones.
+        <ul>
+          <li>
+            <strong>Hometown Hook -</strong> fish stall, with magical cooling
+            units keeping the fish fresh. Owned by Brume Copperwelt, a halfling
+            with a huge belly and a pipe never out of his lips.
+          </li>
+          <li>
+            <strong>The Night's Brooch -</strong> A small, mobile cart selling
+            jewellery, particularly pearls pressed into seashells. Owned by
+            Felicity Flop, a tiny cat who tinkles when she moves, her ginger fur
+            braided with dozens of gems.
+          </li>
+          <li>
+            <strong>Smell My Posy -</strong> A small flower stand, with artfully
+            arranged bouquets of roses, delicately laced with dried seaweed.
+            Owned by McIvor Glistenhame, a half-elf with a constant frown of
+            concentration.
+          </li>
+          <li>
+            <strong>Nip &amp; Tuck</strong> – Shares a table with Smell My Posy,
+            and specialises in legal drugs and narcotics. These will be tainted
+            and if asked where they got it from they will just say they bought a
+            crate from the harbour masters seller and look very terrified if
+            threatened.
+          </li>
+          <li>
+            <strong>The Copper Pitcher -</strong> A bric-a-brac stand, with
+            dozens of different items all in differing states of disrepair.
+            Owned by Oakie Thompson and Mokie Thompson; a pair of twin spaniels
+            who finish each other’s sentences.
+          </li>
+          <li>
+            <strong>Souvenirs</strong> - A stall selling artfully crafted hats
+            and cloaks for dogs and cats, each woven or knitted from the finest
+            of fabrics. Owned by Oshe, a large brown labrador with only one ear.
+            These are all themed for the event.
+          </li>
+          <li>
+            <strong>Blacksmith: The Fighter's Sword</strong> – A twin pair of
+            labs run the blacksmith. Hammer &amp; Anvil. There is only half a
+            brain cell between them. They have been selling decorative weapons
+            today, but they do have a few ‘Silver’ weapons. They also offer to
+            silver weapons, or 10 ‘ammo’ for 100gp.
+          </li>
+          <li>
+            <strong>Spot The Mimic</strong> – 1Gp to play, 10Gp if you find the
+            mimic in a variety of random objects. Perception/Investigation 15.
+            The mimic is perfectly tame.
+          </li>
+          <li>
+            <strong>Timory’s Shipyard Wonders</strong> – 5Sp to ride, and it’s a
+            catapult that shoots you into the air and catches you again, but you
+            are able to fly through the magical sky at the top of the tent. Roll
+            a D20 to see if someone takes damage from the splinter caused the
+            day before.
+          </li>
+          <li>
+            A fortune-teller who uses divination magic to actually tell your
+            fortune.
+          </li>
+          <li>
+            A few shops are sadly closed, and it would appear they have been for
+            some time, the recession has hit hard everywhere. Some of the names
+            do catch your eye. ‘The Screaming Hog’, ‘The Calm Train’ &amp;
+            ‘Florist Gump’ to name a few.
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <p>The Main Event</p>
+    <ul>
+      <li>
+        Several cages can be seen, they are partially covered with a black sheet
+        but you can see in side and they appear empty. There are LOTS of guards
+        blocking the way with a staff only sign, and instructions that no one is
+        to go on the stage unless they are the guest of honour himself.
+      </li>
+      <li>
+        Before players try to enter the pet shop secret location. The guest of
+        honour will arrive on his dog and there will be the big cheer and a lot
+        of excitement.
+      </li>
+      <li>
+        He will walk onto the stage and dismount the dog who will sit at
+        attention off to the side.
+      </li>
+      <li>
+        There will be a big charismatic speech of the journey through the many
+        seas. He will talk of the struggles, the days that went by where urine
+        was the only drink they had. Essentially tales of torment and woe. Until
+        at last they landed on a new island, inhabited by a brand new species.
+      </li>
+      <li>
+        Like David Copperfield, there will be the big reveal as the cloaks are
+        draped back over the three large cages and with some magical sparks, the
+        cloaks will be removed to reveal three cages one with a fully grown
+        Tabaxi, another with an Aarakocra and the third with a Harengon.
+      </li>
+      <li>
+        Gasps and oohs will be heard from the audience, along with protests from
+        the respective animals.
+      </li>
+    </ul>
+    <hr />
+    <h2 id="the-ship-the-serpents-cry">The Ship (The Serpent’s Cry)</h2>
+    <p>The Crew In General</p>
+    <ul>
+      <li>
+        Most of the crew will be ashore at this point. What crew remain appear
+        to be the unlucky few who need to stay and man the ship ensuring she is
+        ready to go at a moments notice.
+      </li>
+      <li>
+        They will appear pleased to be in port, but upset they will miss the
+        celebrations.
+      </li>
+      <li>
+        Advise the captain can be found in his cabin, but warn that he can be a
+        little, much.
+      </li>
+      <li>
+        They will also advise of the bonus he gave all the crew for their hard
+        work on this voyage, and that most of the crew have gone ashore, no
+        doubt most will return penniless.
+      </li>
+    </ul>
+    <p>The Captains Cabin</p>
+    <ul>
+      <li>Upon knocking there will be a lot of barking.</li>
+      <li>
+        Monsieur Le-Furr (Le-Fair) can be found sat behind his chair at his
+        desk, quill in hand counting coins with the first mate.
+      </li>
+      <li>
+        He is a fat white cat with a pair of black spots around his eyes. His
+        hat is huge, with a giant feather. He looks over a set of crescent moon
+        glasses perched upon the end of his nose. With the most ornate purple
+        captains jacket you have ever seen.
+      </li>
+      <li>
+        Glenn is a pretty normal looking human, a little smaller than average.
+        His eyes bloodshot as if he hasn’t slept in a while, but overall in fair
+        shape. Whilst he may not be the captain, you would be willing to bet he
+        has done a fair amount of work as the captain.
+      </li>
+      <li>
+        Sir Barks-A-Lot is a tall, non-awakened Doberman, with a look constant
+        stern look and a serious case of resting ‘I will fuck you up’ face.
+      </li>
+      <li>
+        He will instruct that all loyal fans should away him at the tent for the
+        celebrations.
+      </li>
+      <li>
+        If questioned on the death of his crew member, he will just suggest they
+        clearly done too much of stuff they shouldn’t, and that there is nothing
+        wrong with their goods, and to stop spreading false rumours.
+        <ul>
+          <li>
+            He will provide a small sample he has stashed in his office for
+            later, and it will be perfectly fine and not tampered with.
+          </li>
+        </ul>
+      </li>
+      <li>
+        If there is nothing else, they should go to the tent he will be along
+        shortly for the celebrations as he has a big surprise for everyone. A
+        new species has been discovered.
+      </li>
+    </ul>
+    <hr />
+    <h2 id="the-drug-fuel">The Drug Fuel</h2>
+    <p>Murder On The Docks</p>
+    <ul>
+      <li>
+        A fat gnome will be found on the dock by the harbourmaster. He is the
+        Harbourmasters assistant and you remember him from your arrival looking
+        a little, shady. But given some people just have that look, you paid him
+        no real attention.
+      </li>
+      <li>
+        He is dead and with foam coming from the mouth. His face quite puffy,
+        although given his stature its hard to say if that’s the cause of death,
+        or just one too many doughnuts.
+      </li>
+      <li>
+        On his body you will find a note in his pocket, as well as a small coin
+        pouch with 2 gold coins in it, all covered in a curious dust. What ever
+        poison was on this page was slow acting enough that he likely didn’t
+        know he was poisoned until it was too late.
+      </li>
+      <li>
+        The note is from the cunning man advising of the fact that the cut was
+        meant to make animals a little more menial, not a little more dead. That
+        he has displeased the cunning man, and that he will pay the price.
+      </li>
+      <li>
+        On the back will be the faint writing of an old closed up shop in the
+        market place. ‘The Calm Train’
+      </li>
+      <li>
+        A closer look of the man will also reveal a death certificate for a dog,
+        and on the other side, a note written and signed by the dog.
+      </li>
+    </ul>
+    <p>The Calm Train</p>
+    <ul>
+      <li>
+        Will be closed up tight and there will be a sign saying out of business
+        on the door. The paper looks similar to that of the note you have. There
+        is a further sign saying deliveries round the back.
+      </li>
+      <li>
+        A very flimsy looking door is round the back which is unlocked and entry
+        is granted easily to a back room of the establishment.
+      </li>
+      <li>
+        The smell of old tobacco and smokable cat nip fills your lungs. You
+        start to understand where the name ‘Calm Train’ came from.
+      </li>
+      <li>
+        After a short look around, a cupboard will reveal a stair way down
+        underneath the calm train. An initial glance at the walls suggest that
+        this is a feature added after the closure of the Calm Train. The tunnel
+        has been carved out of the rock by hand and would have taken a fair
+        amount of time. So whoever has done this, clearly had a good reason too.
+      </li>
+    </ul>
+    <hr />
+    <h2 id="the-pet-shop">The Pet Shop</h2>
+    <p>The Calm Train</p>
+    <ul>
+      <li>
+        Will be closed up tight and there will be a sign saying out of business
+        on the door. The paper looks similar to that of the note you have. There
+        is a further sign saying deliveries round the back.
+      </li>
+      <li>
+        A very flimsy looking door is round the back which is unlocked and entry
+        is granted easily to a back room of the establishment.
+      </li>
+      <li>
+        The smell of old tobacco and smokable cat nip fills your lungs. You
+        start to understand where the name ‘Calm Train’ came from.
+      </li>
+      <li>
+        After a short look around, a cupboard will reveal a stair way down
+        underneath the calm train. An initial glance at the walls suggest that
+        this is a feature added after the closure of the Calm Train. The tunnel
+        has been carved out of the rock by hand and would have taken a fair
+        amount of time. So whoever has done this, clearly had a good reason too.
+      </li>
+      <li>
+        The tunnel appears to have been carved from the very rock itself, fairly
+        recently. There are no stairs, simple a slope tunnel down.
+      </li>
+    </ul>
+    <p>The Pet Shop</p>
+    <ul>
+      <li>The tunnel is dark, reducing visibility to 5 feet.</li>
+      <li>
+        DC 14 Wisdom (Perception) check enables the player characters to hear a
+        heated conversation ahead of them, where the darkness of the tunnel is
+        replaced by a glint of light.
+      </li>
+      <li>
+        One of the voices is raging, demanding immediate violence. The other is
+        calming and is attempting to ask the first voice to be calm and to trust
+        him.
+      </li>
+      <li>
+        You see two figures leave the bar area at the bottom of the stars. A
+        tall well-built human and a small dwarf.
+      </li>
+      <li>
+        In the central room and auction is taking place with over 30 various
+        clients all sat in the tables being served drinks by waiters and
+        waitresses in rather revealing attire.
+      </li>
+      <li>
+        The clients appear to be a variety of races, however none appear
+        awakened animals. The are all dressed in amazingly fabulous attire,
+        however each wears a ornate and elaborate mask. The mask covers their
+        whole head and each appears to be a different mythical creature.
+      </li>
+      <li>
+        The bidding will begin on a rather small scared looking puppy, and there
+        will be low numbers, 2’s, 3’s &amp; 4’s. It is actually in the hundreds
+        of gold pieces.
+      </li>
+      <li>
+        Four goblin guards are stationed at various points around the main cave,
+        with one behind the bar.
+      </li>
+      <li>
+        Inside the cage A large dog can be seen, the father of the puppy up for
+        auction, as well as two small cats. All appear visibly distressed and
+        not happy to be here. The dog holds on to the ‘death certificate’ of his
+        wife.
+      </li>
+    </ul>
+    <p>A Fight Breaks Out</p>
+    <ul>
+      <li>
+        As soon as combat is looming, the Cunning Man will announce loudly:
+      </li>
+    </ul>
+    <aside>
+      🪧 *My deepest apologies, we will have to forgo todays sales. Please brace
+      for immediate departure*
+    </aside>
+    <ul>
+      <li>
+        The goblin behind the bar can be seen smashing a piece of glass covering
+        some form of button. Once this button is pressed, what appears to be an
+        arcane liquid is dropped from the ceiling upon each of the clients. The
+        moment it touches them they immediately blink out of existence.
+      </li>
+      <li>
+        The cunning man will make a leaping dive to the nearest one to also make
+        his escape, leaving behind Requin. The random person will appear
+        disgusted at being touched by the Cunning Man.
+      </li>
+      <li>
+        Requin won’t flee, no matter the circumstances. He fights with reckless
+        abandon, enjoying himself intensely. He will also turn into his
+        wereshark almost instantly. The goblins provide support to the
+        wereshark, but he leads the combat, snapping at the player characters
+        with his vast jaws or bludgeoning them with the anchor he carries
+        everywhere.
+      </li>
+      <li>
+        Upon his defeat he does need to be stabbed with something silver
+        ideally, if the party have worked that out. If not, he may come back at
+        a later date, who is to say.
+      </li>
+      <li>
+        Upon his death he will return to a (dead) version of his human form.
+      </li>
+    </ul>
+    <h2 id="the-loot">The Loot</h2>
+    <p>The Goblins:</p>
+    <ul>
+      <li>Jar Of Pickled Toes -&gt; A common goblin delicacy</li>
+      <li>Pocket of sand -&gt; To throw at enemies</li>
+      <li>Various coin purses -&gt; 23 CP</li>
+      <li>A standard dagger</li>
+    </ul>
+    <p>Requin</p>
+    <ul>
+      <li>Coin Purse -&gt; 10GP</li>
+      <li>Note of thanks for all his hard work, signed by ‘The Cunning Man’</li>
+    </ul>
+    <p>The Pet Shop</p>
+    <ul>
+      <li>Small stash of paperwork (various death certificates)</li>
+      <li>A book can be found entitled ‘Prophecies Of The Wise’</li>
+      <li>
+        Inside a book, a page will be marked. Entirely blank, except these
+        words:
+      </li>
+      <li>
+        The Lord of Murder shall perish. But in his doom he shall spawn a score
+        of mortal progeny. Chaos will be sown from their passing, So sayeth the
+        wise Alaundo.
+      </li>
+      <li>
+        A check will reveal knowledge that Alaundo was a seer many years ago in
+        the sword coast, but he is known to have travelled the world, it seems
+        only plausible that his work would have made its way here.
+      </li>
+      <li>Order Forms For Animals</li>
+    </ul>
+    <p>Special Items</p>
+    <ul>
+      <li>A reasonably large clay pot – Pot Of Awakening (XGE 138)</li>
+      <li>A 6 sided Die - Charlatan's Die (XGE 136)</li>
+    </ul>
+    <p>Freeing The Captives</p>
+    <ul>
+      <li>
+        Freeing the animals will of course cheer the various animals up, except
+        the father dog, Maximus, who will be holding on to the death certificate
+        of his wife. He will explain that they write out the death certificates
+        of the animals to explain their disappearance.
+      </li>
+      <li>
+        The death certificate will be signed in the Cunning Mans true name.
+        Gadrin Hillbane.
+      </li>
+    </ul>
+    <hr />
+    <h2 id="a-return-to-the-surface">A Return To The Surface</h2>
+    <p>The Calm Before The Storm</p>
+    <ul>
+      <li>
+        Just as you left it, the Calm Train will be quiet, although impossible
+        to seal shut after you splintered the door into a million pieces with a
+        1 inch punch.
+      </li>
+      <li>
+        The area of the Market will still have a variety of people in it,
+        although most will have dispersed now that the show from Le-Furr is
+        over.
+      </li>
+      <li>
+        The stalls will be there, although given the lack of custom, most will
+        also be closing up at this point.
+      </li>
+      <li>
+        But this is not the end of the merriment. A short while later a canon
+        shot can be heard. It would appear that your companion,
+        <em>Kerwyn (Kirsty)</em>, headed back to the ship, freed the three
+        captives and they have taken it upon themselves to get some revenge. By
+        shooting canons at the Serpents Cry.
+      </li>
+      <li>
+        The ship would appear to have made a somewhat of a hasty exit to the
+        sea, however it is now under fire from one of the larger and more
+        special of the of the cannons on the edge of the harbour.
+      </li>
+    </ul>
+    <p>The warehouse</p>
+    <ul>
+      <li>Little more in here can be found than general store of stock.</li>
+      <li>
+        Hidden behind one of the crates on the upper story however is a small
+        barrel of catnip, along with a bag of what appears to be, various
+        poisons. This is clearly where the gnome was blending the Narcotics with
+        something more sinister.
+      </li>
+    </ul>
+    <hr />
+    <h2 id="the-breakout">The Breakout</h2>
+    <p>The Serpents Cry</p>
+    <ul>
+      <li>
+        Manned by a skeleton crew, but still enough to make way. There are
+        various people on and around the ship
+        <ul>
+          <li>
+            Monseur LeFurr is in his cabin. He is initially shouting at Glenn
+            before banishing him.
+          </li>
+          <li>Glenn will leave the captains quarters before heading down</li>
+          <li>
+            Below decks two crew members will be seen patrolling the cannons.
+            (Dainard 'Brown-eyes' Acton &amp; Wiley 'Dead Eyes' Blakemore
+          </li>
+          <li>
+            Down in the bilge at the bottom will be the three cages and a single
+            half-orc on guard. She will be asleep, with the keys in hand. Nex.
+          </li>
+        </ul>
+      </li>
+      <li>
+        You can escape be incapacitating all the guards, you can escape through
+        one of the canon port holes. You can also escape by fighting your way
+        out.
+      </li>
+      <li>
+        Potentially spotted by the lookout on the ship, depending on the
+        stealth.
+        <ul>
+          <li>If spotted the captain will be notified</li>
+          <li>He will come on deck to find crew in various conditions.</li>
+          <li>
+            Glenn will try to hide as he knows he will get beaten for this.
+          </li>
+        </ul>
+      </li>
+      <li>
+        The Triple gun is one of Timorys prized ideas and comprised of three
+        large cannons mounted on a rotating gearing system. Once fired, the
+        cannon recoils and the gearing automatically rotates to the next. This
+        allows the spend cannon to be reloaded whilst two shots remain
+        chambered. Used to protect the harbour from Men-O-War, it would appear
+        to be making mincemeat of the Serpents Cry.
+      </li>
+      <li>
+        Ptolemeow (Aaron) Will very much like this design and im sure would love
+        the opportunity to copy it.
+      </li>
+      <li>
+        The harbour master will rush with 2 human members of the watch to stop
+        them, however between the Aarakocra, is able to fend off the watch, who
+        decide that this really isn’t worth their time, and much to the distress
+        of the harbour master, walk off.
+      </li>
+      <li>
+        The tabaxi will be casting spells like a trooper and monsieur lefurr
+        will be fighting back. Check the character sheets for her stats.
+      </li>
+      <li>
+        You can only imagine how upset this must be making Monsieur LeFurr.
+      </li>
+    </ul>
+    <hr />
+    <h2 id="the-scratching-post">The Scratching Post</h2>
+    <ul>
+      <li>Inside The Inn</li>
+      <li>
+        A little quieter inside, less sailers and nautical vibes than the
+        previous night.
+      </li>
+      <li>
+        A few people can talk about the random appearance of some dwarf who
+        appeared out of thin air.
+      </li>
+      <li>
+        They will say he looked concerned and shocked, but seemed to run off in
+        the direction of some back streets.
+        <ul>
+          <li>
+            If on the chance the party try searching for him, the smell will
+            have gone by now thanks to the overwhelming smell of gunpowder.
+          </li>
+          <li>
+            They will not there were lots of various routes and double backs to
+            ensure he wasn’t followed.
+          </li>
+        </ul>
+      </li>
+      <li>
+        The inn ALREADY has (A Dog) talent on the stage, a bardic rhyme battle
+        can be carried out.
+      </li>
+    </ul>
+    <hr />
+    <p>Read:</p>
+    <p>
+      <em
+        >The scent of the room as you entered is unbelievable<br />
+        How I didn’t vomit on my lute, is inconceivable.<br />
+        You think yourself wise to stand upon my stage,<br />
+        But I have just started, consider a disengage.<br />
+        Is there any cat nip in the house, for my friend, he looks nervous,<br />
+        Although given his tiny stature, it’s a wonder he gets service.<br />
+        My Friend, re-evaluate your life and your existence,<br />
+        I bet you talk a good game, but can you go the distance…</em
+      >
+    </p>
   </body>
 </html>

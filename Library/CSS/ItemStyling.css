@@ -115,7 +115,6 @@ p.footer {
 
 .itemcontainer {
   width: 490px;
-  display: block;
   align-items: center;
   justify-items: center;
   margin: 0 auto;
@@ -125,6 +124,24 @@ p.footer {
   background-size: cover;
   color: #000000;
   display: block;
+}
+
+.line {
+  display: flex;
+  height: auto;
+  width: 98%;
+  align-items: center;
+  justify-items: center;
+  border-bottom: 3px solid #1d7335;
+  margin: auto auto 2%;
+}
+
+.Damage {
+  margin: 0% 1.5% 0%;
+  padding-bottom: 1%;
+  text-align: right;
+  align-items: right;
+  justify-items: right;
 }
 
 h1.itemheading {
