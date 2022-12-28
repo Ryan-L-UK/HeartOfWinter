@@ -31,6 +31,8 @@ for (i = 0; i < toggler.length; i++) {
 //-----------------------------------------
 
 function takeshot() {
+  document.getElementById("output").innerHTML = "";
+
   let div = document.getElementById("photo");
 
   // Use the html2canvas

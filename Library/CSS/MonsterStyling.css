@@ -158,7 +158,18 @@ h2.monstertype {
   font-size: 1em;
 }
 
-.grid-container {
+.main-container {
+  display: grid;
+  width: 100%;
+  justify-content: space-evenly;
+  align-content: space-evenly;
+  column-gap: 0.2%;
+  grid-template-columns: auto;
+  grid-auto-flow: row;
+  grid-template-areas: "Form Output";
+}
+
+.stat-container {
   display: grid;
   width: 100%;
   justify-content: space-evenly;
@@ -201,6 +212,25 @@ p.itemfooter {
   padding-bottom: 1%;
 }
 
+.submitbutton {
+  background: linear-gradient(
+    180deg,
+    rgba(240, 202, 71, 1) 0%,
+    rgba(192, 173, 106, 1)
+  );
+  color: black;
+  border-radius: 4px;
+  padding: 5px 10px;
+  text-align: center;
+  justify-items: center;
+  align-items: center;
+  text-decoration: none;
+  display: block;
+  font-size: 13px;
+
+  margin: auto;
+}
+
 .button {
   background: linear-gradient(
     180deg,
@@ -219,7 +249,14 @@ p.itemfooter {
   margin-right: auto;
 }
 
-.button:hover {
-  padding-left: 17px;
-  padding-right: 17px;
+.button:hover,
+.submitbutton:hover {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+input[type="text"] {
+  box-sizing: border-box;
+
+  width: 100%;
 }

@@ -2,7 +2,6 @@
 <html>
   <head>
     <script src="Library/JavaScript/html2canvas.js"></script>
-    <script src="https://superal.github.io/canvas2image/canvas2image.js"></script>
 
     <link rel="stylesheet" href="Library/CSS/MonsterStyling.css" />
 
@@ -31,130 +30,236 @@
         correct format for printing.
       </p>
 
-      <div id="photo">
-        <div class="border"></div>
-        <div class="monstercontainer">
-          <div class="bodycontainer">
-            <!--Monster NAME-->
-            <h1 class="monstername">Nullificer</h1>
+      <button class="submitbutton" onclick="showInput();takeshot()">
+        Export Creature</button
+      ><br />
 
-            <!--Monster TYPE-->
-            <h2 class="monstertype">Large Aberration, Chaotic Evil</h2>
-            <div class="divider"></div>
-            <p>
-              <span class="monsterbold">Armour Class:</span>
-              <span class="monsterbody">12 (Natural Armor)</span>
-              <br />
-              <span class="monsterbold">Hit Points:</span>
-              <span class="monsterbody">58 (9d8+18)</span>
-              <br />
-              <span class="monsterbold">Speed:</span>
-              <span class="monsterbody">10 ft.</span>
-            </p>
-            <div class="divider"></div>
+      <div class="main-container">
+        <div class="Form">
+          <form>
+            <div class="border"></div>
+            <div class="monstercontainer">
+              <div class="bodycontainer">
+                <!--Monster NAME-->
+                <label><b>Name:</b></label>
+                <input type="text" id="MName_input" />
+                <br />
 
-            <!--Monster Stats-->
-            <div class="grid-container">
-              <div class="STR">STR</div>
-              <div class="DEX">DEX</div>
-              <div class="CON">CON</div>
-              <div class="INT">INT</div>
-              <div class="WIS">WIS</div>
-              <div class="CHA">CHA</div>
+                <!--Monster TYPE-->
+                <label><b>Type:</b></label>
+                <input type="text" id="MType_input" />
 
-              <!--Change Details Here-->
-              <div class="STRn">17 (+3)</div>
-              <div class="DEXn">17 (+3)</div>
-              <div class="CONn">17 (+3)</div>
-              <div class="INTn">17 (+3)</div>
-              <div class="WISn">17 (+3)</div>
-              <div class="CHAn">17 (+3)</div>
+                <label><b>Alignment:</b></label>
+                <input type="text" id="MAlign_input" />
+
+                <div class="divider"></div>
+                <p>
+                  <label><b>Armour Class:</b></label>
+                  <input type="text" size="7" id="AC_input" /><br />
+                  <label><b>Hit Points:</b></label>
+                  <input type="text" size="7" id="HP_input" /><br />
+                  <label><b>Speed:</b></label>
+                  <input type="text" size="7" id="FT_input" /><br />
+                </p>
+                <div class="divider"></div>
+
+                <!--Monster Stats-->
+                <div class="stat-container">
+                  <div class="STR">STR</div>
+                  <div class="DEX">DEX</div>
+                  <div class="CON">CON</div>
+                  <div class="INT">INT</div>
+                  <div class="WIS">WIS</div>
+                  <div class="CHA">CHA</div>
+
+                  <!--Change Details Here-->
+                  <div class="STRn">
+                    <input type="text" size="7" id="STR_input" />
+                  </div>
+                  <div class="DEXn">
+                    <input type="text" size="7" id="DEX_input" />
+                  </div>
+                  <div class="CONn">
+                    <input type="text" size="7" id="CON_input" />
+                  </div>
+                  <div class="INTn">
+                    <input type="text" size="7" id="INT_input" />
+                  </div>
+                  <div class="WISn">
+                    <input type="text" size="7" id="WIS_input" />
+                  </div>
+                  <div class="CHAn">
+                    <input type="text" size="7" id="CHA_input" />
+                  </div>
+                </div>
+
+                <div class="divider"></div>
+
+                <p>
+                  <label><b>Skills:</b></label>
+                  <input type="text" id="Skills_input" />
+                  <br />
+                  <label><b>Damage Immunities:</b></label>
+                  <input type="text" id="DmgImmune_input" />
+                  <br />
+                  <label><b>Condition Immunities:</b></label>
+                  <input type="text" id="ConImmune_input" />
+                  <br />
+                  <label><b>Senses:</b></label>
+                  <input type="text" id="Senses_input" />
+                </p>
+
+                <div class="divider"></div>
+
+                <p>
+                  <label><b>Trait 1 Name:</b></label>
+                  <input type="text" id="T1H_input" /><br />
+                  <label><b>Trait 1 Action:</b></label>
+                  <textarea id="T1D_input" cols="56" rows="3"></textarea><br />
+
+                  <label><b>Trait 2 Name:</b></label>
+                  <input type="text" id="T2H_input" /><br />
+                  <label><b>Trait 2 Action:</b></label>
+                  <textarea id="T2D_input" cols="56" rows="3"></textarea><br />
+
+                  <label><b>Trait 3 Name:</b></label>
+                  <input type="text" id="T3H_input" /><br />
+                  <label><b>Trait 3 Action:</b></label>
+                  <textarea id="T3D_input" cols="56" rows="3"></textarea><br />
+
+                  <label><b>Trait 4 Name:</b></label>
+                  <input type="text" id="T4H_input" /><br />
+                  <label><b>Trait 4 Action:</b></label>
+                  <textarea id="T4D_input" cols="56" rows="3"></textarea><br />
+                </p>
+
+                <h2 class="header">Actions</h2>
+
+                <p>
+                  <label><b>Attack 1 Name:</b></label>
+                  <input type="text" id="Atk1H_input" /><br />
+                  <label><b>Attack 1 Action:</b></label>
+                  <textarea id="Atk1D_input" cols="56" rows="3"></textarea
+                  ><br />
+                  <label><b>Attack 2 Name:</b></label>
+                  <input type="text" id="Atk2H_input" /><br />
+                  <label><b>Attack 2 Action:</b></label>
+                  <textarea id="Atk2D_input" cols="56" rows="3"></textarea
+                  ><br />
+                  <label><b>Attack 3 Name:</b></label>
+                  <input type="text" id="Atk3H_input" /><br />
+                  <label><b>Attack 3 Action:</b></label>
+                  <textarea id="Atk3D_input" cols="56" rows="3"></textarea
+                  ><br />
+                  <label><b>Attack 4 Name:</b></label>
+                  <input type="text" id="Atk4H_input" /><br />
+                  <label><b>Attack 4 Action:</b></label>
+                  <textarea id="Atk4D_input" cols="56" rows="3"></textarea
+                  ><br />
+                </p>
+                <!--ITEM DESCRIPTION-->
+                <p class="itemfooter"></p>
+              </div>
             </div>
-
-            <div class="divider"></div>
-
-            <p>
-              <span class="monsterbold">Skills</span>
-              <span class="monsterbody">Stealth +5</span>
-              <br />
-              <span class="monsterbold">Damage Immunities</span>
-              <span class="monsterbody">58 (9d8+18)Acid</span>
-              <br />
-              <span class="monsterbold">Condition Immunities</span>
-              <span class="monsterbody">Prone</span>
-              <br />
-              <span class="monsterbold">Senses</span>
-              <span class="monsterbody"
-                >Darkvision 60 Ft., passive Perception 11
-              </span>
-            </p>
-
-            <div class="divider"></div>
-
-            <p>
-              <span class="monsterbold">Shapechanger.</span>
-              <span class="monsterbody"
-                >The mimic can use its action to polymorph into an object or
-                back into its true, amorphous form. Its statistics are the same
-                in each form. Any equipment it is wearing or carrying isn 't
-                transformed. It reverts to its true form if it dies.</span
-              >
-              <br />
-              <span class="monsterbold">Adhesive (Object Form Only).</span>
-              <span class="monsterbody"
-                >The mimic adheres to anything that touches it. A Huge or
-                smaller creature adhered to the mimic is also grappled by it
-                (escape DC 13). Ability checks made to escape this grapple have
-                disadvantage.</span
-              >
-              <br />
-              <span class="monsterbold"
-                >False Appearance (Object Form Only).</span
-              >
-              <span class="monsterbody"
-                >While the mimic remains motionless, it is indistinguishable
-                from an ordinary object.</span
-              >
-              <br />
-              <span class="monsterbold">Grappler.</span>
-              <span class="monsterbody"
-                >The mimic has advantage on attack rolls against any creature
-                grappled by it
-              </span>
-            </p>
-
-            <h2 class="header">Actions</h2>
-
-            <p>
-              <span class="monsterbold">Pseudopod.</span>
-              <span class="monsterbody"
-                >Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit:
-                (1d8 + 3) bludgeoning damage. If the mimic is in object form,
-                the target is subjected to its Adhesive trait</span
-              >
-              <br />
-              <span class="monsterbold">Bite.</span>
-              <span class="monsterbody"
-                >Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit:
-                (1d8 + 3) piercing damage plus (1d8)acid damage.</span
-              >
-            </p>
-            <!--ITEM DESCRIPTION-->
-            <p class="itemfooter"></p>
-          </div>
+            <div class="border"></div>
+          </form>
+          <br />
         </div>
-        <div class="border"></div>
-      </div>
-      <br />
+        <div class="Output">
+          <div id="photo">
+            <div class="border"></div>
+            <div class="monstercontainer">
+              <div class="bodycontainer">
+                <!--Monster NAME-->
+                <h1 class="monstername" id="MName_output"></h1>
 
-      <div>
-        <!-- Define the button
-      that will be used to
-      take the screenshot -->
-        <button onclick="takeshot()">Export At PNG</button>
+                <!--Monster TYPE-->
+                <h2 class="monstertype" id="MTypeAlign_output"></h2>
+                <div class="divider"></div>
+                <p>
+                  <span class="monsterbold">Armour Class:</span>
+                  <span class="monsterbody" id="AC_output"></span>
+                  <br />
+                  <span class="monsterbold">Hit Points:</span>
+                  <span class="monsterbody" id="HP_output"></span>
+                  <br />
+                  <span class="monsterbold">Speed:</span>
+                  <span class="monsterbody" id="FT_output"></span>
+                </p>
+                <div class="divider"></div>
+
+                <!--Monster Stats-->
+                <div class="stat-container">
+                  <div class="STR">STR</div>
+                  <div class="DEX">DEX</div>
+                  <div class="CON">CON</div>
+                  <div class="INT">INT</div>
+                  <div class="WIS">WIS</div>
+                  <div class="CHA">CHA</div>
+
+                  <!--Change Details Here-->
+                  <div class="STRn" id="STR_output"></div>
+                  <div class="DEXn" id="DEX_output"></div>
+                  <div class="CONn" id="CON_output"></div>
+                  <div class="INTn" id="INT_output"></div>
+                  <div class="WISn" id="WIS_output"></div>
+                  <div class="CHAn" id="CHA_output"></div>
+                </div>
+
+                <div class="divider"></div>
+
+                <p>
+                  <span class="monsterbold">Skills</span>
+                  <span class="monsterbody" id="Skills_output"></span>
+                  <br />
+                  <span class="monsterbold">Damage Immunities</span>
+                  <span class="monsterbody" id="DmgImmune_output"></span>
+                  <br />
+                  <span class="monsterbold">Condition Immunities</span>
+                  <span class="monsterbody" id="ConImmune_output"></span>
+                  <br />
+                  <span class="monsterbold">Senses</span>
+                  <span class="monsterbody" id="Senses_output"></span>
+                </p>
+
+                <div class="divider"></div>
+
+                <p>
+                  <span class="monsterbold" id="T1H_output"></span>
+                  <span class="monsterbody" id="T1D_output"></span> <br />
+                  <span class="monsterbold" id="T2H_output"></span>
+                  <span class="monsterbody" id="T2D_output"></span> <br />
+                  <span class="monsterbold" id="T3H_output"></span>
+                  <span class="monsterbody" id="T3D_output"></span> <br />
+                  <span class="monsterbold" id="T4H_output"></span>
+                  <span class="monsterbody" id="T4D_output"></span> <br />
+                </p>
+
+                <h2 class="header">Actions</h2>
+
+                <p>
+                  <span class="monsterbold" id="Atk1H_output"></span>
+                  <span class="monsterbody" id="Atk1D_output"></span> <br />
+                  <span class="monsterbold" id="Atk2H_output"></span>
+                  <span class="monsterbody" id="Atk2D_output"></span> <br />
+                  <span class="monsterbold" id="Atk3H_output"></span>
+                  <span class="monsterbody" id="Atk3D_output"></span> <br />
+                  <span class="monsterbold" id="Atk4H_output"></span>
+                  <span class="monsterbody" id="Atk4D_output"></span> <br />
+                </p>
+
+                <!--ITEM DESCRIPTION-->
+                <p class="itemfooter"></p>
+              </div>
+            </div>
+            <div class="border"></div>
+          </div>
+          <br />
+          <h2 class="header">Image Render:</h2>
+          <br />
+          <div id="output"></div>
+        </div>
       </div>
-      <h1>Screenshot:</h1>
-      <div id="output"></div>
 
       <!--Footer-->
       <p class="footer">
@@ -173,3 +278,4 @@
 </html>
 
 <script src="Library/JavaScript/myscripts.js"></script>
+<script src="Library/JavaScript/MonsterScripts.js"></script>
