@@ -120,6 +120,16 @@ p.footer {
   align-items: center;
 }
 
+.line {
+  display: flex;
+  height: auto;
+  width: 98%;
+  align-items: center;
+  justify-items: center;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.18);
+  margin: auto auto 10px;
+}
+
 /* ----------------------------------- */
 /* This section controls the Grid view */
 /* ----------------------------------- */
@@ -270,10 +280,10 @@ a.button {
 .clearbutton {
   background: linear-gradient(
     180deg,
-    rgba(76, 175, 80, 1) 0%,
-    rgba(43, 115, 46, 1) 100%
+    rgba(240, 202, 71, 1) 0%,
+    rgba(192, 173, 106, 1)
   );
-  color: white;
+  color: black;
   border-radius: 4px;
   padding: 5px 10px;
   text-align: center;

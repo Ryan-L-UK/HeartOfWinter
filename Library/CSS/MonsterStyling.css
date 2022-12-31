@@ -52,7 +52,7 @@ h2.header {
   font-size: 1.75em;
   text-align: left;
   align-items: left;
-  border-bottom: 3px solid #1d7335;
+  border-bottom: 3px solid #127688;
 }
 
 p.subheading {
@@ -93,7 +93,7 @@ p.footer {
   width: 0;
   height: 0;
   border-top: 3px solid transparent;
-  border-left: 475px solid #1d7335;
+  border-left: 475px solid #1d6673;
   border-bottom: 3px solid transparent;
   align-items: center;
   justify-items: center;
@@ -102,7 +102,7 @@ p.footer {
 .border {
   height: 6px;
   width: 500px;
-  background-image: url("../ImageAssets/itembackground.jpeg");
+  background-image: url("../ImageAssets/monsterbackground.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -119,7 +119,7 @@ p.footer {
   align-items: center;
   justify-items: center;
   margin: 0 auto;
-  background-image: url("../ImagesParchment/mm_background_base.png");
+  background-image: url("../ImagesParchment/sword_meow_background_base.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -151,11 +151,13 @@ h2.monstertype {
   text-align: left;
   font-size: 1em;
   font-weight: bold;
+  padding-bottom: 0%;
 }
 
 .monsterbody {
   text-align: left;
   font-size: 1em;
+  padding-bottom: 0%;
 }
 
 .main-container {

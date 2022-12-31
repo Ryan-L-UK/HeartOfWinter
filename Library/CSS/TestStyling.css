@@ -1,0 +1,222 @@
+/* Background Colour */
+html {
+  background: rgb(20, 23, 27);
+  height: 100%;
+  max-width: 1500px;
+  margin: auto;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  height: fit-content;
+  margin: 4% auto 0;
+  align-items: center;
+  color: black;
+  padding: 0;
+  background-image: url("../ImageAssets/Background_page.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logo,
+.footer {
+  width: 100%;
+  align-items: center;
+  justify-items: center;
+  margin: 0;
+  padding: 0;
+}
+.footer {
+  filter: hue-rotate(270deg);
+}
+
+h1.header,
+h2.header {
+  font-family: Garamond, serif;
+  color: #0f4025;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+h1.header {
+  font-size: 3.75em;
+  text-align: center;
+  align-items: center;
+}
+
+h2.header {
+  font-size: 1.75em;
+  text-align: left;
+  align-items: left;
+  border-bottom: 3px solid #127688;
+}
+
+p.subheading {
+  width: 80%;
+  text-align: center;
+  align-items: center;
+  font-family: "Lora", Times, serif;
+  color: #000000;
+  margin-top: 0px;
+}
+
+p.subheading {
+  font-size: 1.25em;
+}
+
+p.footer {
+  width: 80%;
+  text-align: center;
+  align-items: center;
+  font-family: "Lora", Times, serif;
+  color: #000000;
+  margin-top: 2%;
+  margin-bottom: -2%;
+  font-size: 1em;
+}
+
+.oval {
+  margin: 2px auto;
+  height: 5px;
+  width: 450px;
+  background-color: #c0ad6a;
+  border-radius: 150%;
+  align-items: center;
+}
+
+p.itemfooter {
+  text-align: left;
+  font-size: 1em;
+  margin: 0% 1.5% 0%;
+  padding-bottom: 1%;
+}
+
+.submitbutton {
+  background: linear-gradient(
+    180deg,
+    rgba(240, 202, 71, 1) 0%,
+    rgba(192, 173, 106, 1)
+  );
+  color: black;
+  border-radius: 4px;
+  padding: 5px 10px;
+  text-align: center;
+  justify-items: center;
+  align-items: center;
+  text-decoration: none;
+  display: block;
+  font-size: 13px;
+
+  margin: auto;
+}
+
+.button {
+  background: linear-gradient(
+    180deg,
+    rgba(76, 175, 80, 1) 0%,
+    rgba(43, 115, 46, 1) 100%
+  );
+  color: white;
+  border-radius: 0 4px 4px 0;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.5);
+  margin-top: -20px;
+  margin-right: auto;
+}
+
+.button:hover,
+.submitbutton:hover {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.clearbutton {
+  background: linear-gradient(
+    180deg,
+    rgba(240, 202, 71, 1) 0%,
+    rgba(192, 173, 106, 1)
+  );
+  color: black;
+  border-radius: 4px;
+  padding: 5px 10px;
+  text-align: center;
+  align-items: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.5);
+  margin: auto;
+}
+
+.clearbutton:hover {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* -------------------------------------- */
+/* This section controls iframe container */
+/* -------------------------------------- */
+
+.iframecontainer {
+  background-image: url("../ImagesParchment/sword_meow_background_base.png");
+  border-left: 2px solid #000000;
+  border-right: 2px solid #000000;
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  margin: 1% 1% auto;
+  align-items: center;
+  justify-items: center;
+  padding: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.dot {
+  height: 8px;
+  width: 8px;
+  margin: -5px;
+  border-radius: 100%;
+  background: black;
+  position: absolute;
+}
+
+.lefttop {
+  top: 0;
+  left: 0;
+}
+
+.left {
+  left: 0;
+  position: relative;
+}
+
+.leftbottom {
+  bottom: 0;
+  left: 0;
+}
+
+.righttop {
+  right: 0;
+  top: 0;
+}
+
+.rightbottom {
+  right: 0;
+  bottom: 0;
+}
+
+.frame {
+  width: auto;
+  height: auto;
+  background-color: #0f4025;
+}
