@@ -14,6 +14,21 @@ document.querySelectorAll(".youtube").forEach((element) => {
 });
 
 //-----------------------------------------
+
+//get all buttons and iterate through them (not i have added a class to only get youtube buttons
+document.querySelectorAll(".clear").forEach((element) => {
+  //add an event listener to each one
+  element.addEventListener("click", (event) => {
+    //prevent the default behaviour of the event (in this instance it would reload the page with url parameters set)
+    event.preventDefault();
+    //set the attribute src on the frame element to the target href (target being the a tag)
+    document
+      .getElementById("frame")
+      .setAttribute("src", event.target.getAttribute("href"));
+  });
+});
+
+//-----------------------------------------
 //Expandable Columns
 //-----------------------------------------
 var toggler = document.getElementsByClassName("expandable");
