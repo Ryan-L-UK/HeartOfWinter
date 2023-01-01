@@ -1,10 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <script src="Library/JavaScript/html2canvas.js"></script>
-    <script src="https://superal.github.io/canvas2image/canvas2image.js"></script>
-
-    <link rel="stylesheet" href="Library/CSS/ItemStyling.css" />
+    <link rel="stylesheet" href="Library/CSS/GeneratorStyling.css"" />
 
     <title>The Elfsong Tavern</title>
     <link
@@ -30,16 +27,32 @@
         Here is a shell generator for items to be created in the correct format
         for printing.
       </p>
-
-      <button class="submitbutton" onclick="showInput();takeshot()">
+      <p class="subheading">Other shells are avaliable:</p>
+      <div class="tabs"></div>
+      <span>
+        <button
+          onclick="window.location.href='SpellPage.html';"
+          class="spellbutton"
+        >
+          Arcane Magics
+        </button>
+        <button
+          onclick="window.location.href='MonsterPage.html';"
+          class="monsterbutton"
+        >
+          Bestiary
+        </button>
+      </span>
+      <br />
+      <button class="submititem" onclick="showInput();takeshot()">
         Export Item</button
       ><br />
 
       <div class="main-container">
         <div class="Form">
           <form>
-            <div class="border"></div>
-            <div class="itemcontainer">
+            <div class="iborder"></div>
+            <div class="framecontainer">
               <div class="bodycontainer">
                 <!--ITEM NAME-->
                 <label><b>Item Name:</b></label>
@@ -55,41 +68,46 @@
 
                 <label><b>Weapon Damage:</b></label>
                 <input type="text" id="WDmg_input" />
+
+                <br />
+                <br />
+
+                <div class="line"></div>
+
+                <p>
+                  <label><b>Item Description P1:</b></label>
+                  <textarea id="Desc1_input" cols="58" rows="6"></textarea
+                  ><br />
+                </p>
+
+                <p>
+                  <label><b>Item Description P2:</b></label>
+                  <textarea id="Desc2_input" cols="58" rows="6"></textarea
+                  ><br />
+                </p>
+
+                <p>
+                  <label><b>Item Description P3:</b></label>
+                  <textarea id="Desc3_input" cols="58" rows="6"></textarea
+                  ><br />
+                </p>
+
+                <!--ITEM DESCRIPTION-->
+
+                <label><b>Source:</b></label>
+                <input type="text" id="Source_input" />
+                <br />
+                <br />
               </div>
-              <br />
-
-              <div class="line"></div>
-
-              <p>
-                <label><b>Item Description P1:</b></label>
-                <textarea id="Desc1_input" cols="58" rows="6"></textarea><br />
-              </p>
-
-              <p>
-                <label><b>Item Description P2:</b></label>
-                <textarea id="Desc2_input" cols="58" rows="6"></textarea><br />
-              </p>
-
-              <p>
-                <label><b>Item Description P3:</b></label>
-                <textarea id="Desc3_input" cols="58" rows="6"></textarea><br />
-              </p>
-
-              <!--ITEM DESCRIPTION-->
-
-              <label><b>Source:</b></label>
-              <input type="text" id="Source_input" />
-              <br />
-              <br />
             </div>
-            <div class="border"></div>
+            <div class="iborder"></div>
           </form>
           <br />
         </div>
         <div class="Output">
           <div id="photo">
-            <div class="border"></div>
-            <div class="itemcontainer">
+            <div class="iborder"></div>
+            <div class="framecontainer">
               <div class="bodycontainer">
                 <!--ITEM NAME-->
                 <h1 class="itemheading" id="IName_output"></h1>
@@ -116,7 +134,7 @@
                 </p>
               </div>
             </div>
-            <div class="border"></div>
+            <div class="iborder"></div>
           </div>
           <br />
           <h2 class="header">Image Render:</h2>
@@ -143,3 +161,4 @@
 
 <script src="Library/JavaScript/myscripts.js"></script>
 <script src="Library/JavaScript/ItemScripts.js"></script>
+<script src="Library/JavaScript/html2canvas.js"></script>

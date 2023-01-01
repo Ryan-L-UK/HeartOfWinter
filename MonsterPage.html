@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <script src="Library/JavaScript/html2canvas.js"></script>
-
-    <link rel="stylesheet" href="Library/CSS/MonsterStyling.css" />
+    <link rel="stylesheet" href="Library/CSS/GeneratorStyling.css" />
 
     <title>The Elfsong Tavern</title>
     <link
@@ -25,20 +23,40 @@
       <h1 class="header">Creature Stat Blocks</h1>
       <div class="oval"></div>
       <br />
-      <p class="subheading">
-        Here is a shell generator for creature stat blocks to be created in the
-        correct format for printing.
-      </p>
 
-      <button class="submitbutton" onclick="showInput();takeshot()">
+      <p class="subheading">
+        This is a shell generator for all maner of magical creatures, beasts and
+        NPCs created in the optimum format for printing.
+      </p>
+      <p class="subheading">Other shells are avaliable:</p>
+      <div class="tabs"></div>
+
+      <span>
+        <button
+          onclick="window.location.href='SpellPage.html';"
+          class="spellbutton"
+        >
+          Arcane Magics
+        </button>
+        <button
+          onclick="window.location.href='ItemPage.html';"
+          class="itembutton"
+        >
+          Magical Items
+        </button>
+      </span>
+
+      <br />
+
+      <button class="submitmonster" onclick="showInput();takeshot()">
         Export Creature</button
       ><br />
 
       <div class="main-container">
         <div class="Form">
           <form>
-            <div class="border"></div>
-            <div class="monstercontainer">
+            <div class="mborder"></div>
+            <div class="framecontainer">
               <div class="bodycontainer">
                 <!--Monster NAME-->
                 <label><b>Name:</b></label>
@@ -52,7 +70,7 @@
                 <label><b>Alignment:</b></label>
                 <input type="text" id="MAlign_input" />
 
-                <div class="divider"></div>
+                <div class="mdivider"></div>
                 <p>
                   <label><b>Armour Class:</b></label>
                   <input type="text" size="7" id="AC_input" /><br />
@@ -61,7 +79,7 @@
                   <label><b>Speed:</b></label>
                   <input type="text" size="7" id="FT_input" /><br />
                 </p>
-                <div class="divider"></div>
+                <div class="mdivider"></div>
 
                 <!--Monster Stats-->
                 <div class="stat-container">
@@ -93,7 +111,7 @@
                   </div>
                 </div>
 
-                <div class="divider"></div>
+                <div class="mdivider"></div>
 
                 <p>
                   <label><b>Skills:</b></label>
@@ -109,7 +127,7 @@
                   <input type="text" id="Senses_input" />
                 </p>
 
-                <div class="divider"></div>
+                <div class="mdivider"></div>
 
                 <p>
                   <label><b>Trait 1 Name:</b></label>
@@ -161,32 +179,32 @@
                 <p class="itemfooter"></p>
               </div>
             </div>
-            <div class="border"></div>
+            <div class="mborder"></div>
           </form>
           <br />
         </div>
         <div class="Output">
           <div id="photo">
-            <div class="border"></div>
-            <div class="monstercontainer">
+            <div class="mborder"></div>
+            <div class="framecontainer">
               <div class="bodycontainer">
                 <!--Monster NAME-->
                 <h1 class="monstername" id="MName_output"></h1>
 
                 <!--Monster TYPE-->
                 <h2 class="monstertype" id="MTypeAlign_output"></h2>
-                <div class="divider"></div>
+                <div class="mdivider"></div>
                 <p>
-                  <span class="monsterbold">Armour Class:</span>
-                  <span class="monsterbody" id="AC_output"></span>
+                  <span class="sbold">Armour Class:</span>
+                  <span class="sbody" id="AC_output"></span>
                   <br />
-                  <span class="monsterbold">Hit Points:</span>
-                  <span class="monsterbody" id="HP_output"></span>
+                  <span class="sbold">Hit Points:</span>
+                  <span class="sbody" id="HP_output"></span>
                   <br />
-                  <span class="monsterbold">Speed:</span>
-                  <span class="monsterbody" id="FT_output"></span>
+                  <span class="sbold">Speed:</span>
+                  <span class="sbody" id="FT_output"></span>
                 </p>
-                <div class="divider"></div>
+                <div class="mdivider"></div>
 
                 <!--Monster Stats-->
                 <div class="stat-container">
@@ -206,68 +224,68 @@
                   <div class="CHAn" id="CHA_output"></div>
                 </div>
 
-                <div class="divider"></div>
+                <div class="mdivider"></div>
 
                 <p>
-                  <span class="monsterbold">Skills</span>
-                  <span class="monsterbody" id="Skills_output"></span>
+                  <span class="sbold">Skills</span>
+                  <span class="sbody" id="Skills_output"></span>
                   <br />
-                  <span class="monsterbold">Damage Immunities</span>
-                  <span class="monsterbody" id="DmgImmune_output"></span>
+                  <span class="sbold">Damage Immunities</span>
+                  <span class="sbody" id="DmgImmune_output"></span>
                   <br />
-                  <span class="monsterbold">Condition Immunities</span>
-                  <span class="monsterbody" id="ConImmune_output"></span>
+                  <span class="sbold">Condition Immunities</span>
+                  <span class="sbody" id="ConImmune_output"></span>
                   <br />
-                  <span class="monsterbold">Senses</span>
-                  <span class="monsterbody" id="Senses_output"></span>
+                  <span class="sbold">Senses</span>
+                  <span class="sbody" id="Senses_output"></span>
                 </p>
 
-                <div class="divider"></div>
+                <div class="mdivider"></div>
 
                 <p>
-                  <span class="monsterbold" id="T1H_output"></span>
-                  <span class="monsterbody" id="T1D_output"></span>
+                  <span class="sbold" id="T1H_output"></span>
+                  <span class="sbody" id="T1D_output"></span>
                 </p>
                 <p>
-                  <span class="monsterbold" id="T2H_output"></span>
-                  <span class="monsterbody" id="T2D_output"></span>
+                  <span class="sbold" id="T2H_output"></span>
+                  <span class="sbody" id="T2D_output"></span>
                 </p>
                 <p>
-                  <span class="monsterbold" id="T3H_output"></span>
-                  <span class="monsterbody" id="T3D_output"></span>
+                  <span class="sbold" id="T3H_output"></span>
+                  <span class="sbody" id="T3D_output"></span>
                 </p>
                 <p>
-                  <span class="monsterbold" id="T4H_output"></span>
-                  <span class="monsterbody" id="T4D_output"></span>
+                  <span class="sbold" id="T4H_output"></span>
+                  <span class="sbody" id="T4D_output"></span>
                 </p>
 
-                <h2 class="header">Actions</h2>
+                <h2 class="mheader">Actions</h2>
 
                 <p>
-                  <span class="monsterbold" id="Atk1H_output"></span>
-                  <span class="monsterbody" id="Atk1D_output"></span>
+                  <span class="sbold" id="Atk1H_output"></span>
+                  <span class="sbody" id="Atk1D_output"></span>
                 </p>
                 <p>
-                  <span class="monsterbold" id="Atk2H_output"></span>
-                  <span class="monsterbody" id="Atk2D_output"></span>
+                  <span class="sbold" id="Atk2H_output"></span>
+                  <span class="sbody" id="Atk2D_output"></span>
                 </p>
                 <p>
-                  <span class="monsterbold" id="Atk3H_output"></span>
+                  <span class="sbold" id="Atk3H_output"></span>
                   <span class="monsterbody" id="Atk3D_output"></span>
                 </p>
                 <p>
-                  <span class="monsterbold" id="Atk4H_output"></span>
-                  <span class="monsterbody" id="Atk4D_output"></span>
+                  <span class="sbold" id="Atk4H_output"></span>
+                  <span class="sbody" id="Atk4D_output"></span>
                 </p>
 
                 <!--ITEM DESCRIPTION-->
                 <p class="itemfooter"></p>
               </div>
             </div>
-            <div class="border"></div>
+            <div class="mborder"></div>
           </div>
           <br />
-          <h2 class="header">Image Render:</h2>
+          <h2 class="mheader">Image Render:</h2>
           <br />
           <div id="output"></div>
         </div>
@@ -291,3 +309,4 @@
 
 <script src="Library/JavaScript/myscripts.js"></script>
 <script src="Library/JavaScript/MonsterScripts.js"></script>
+<script src="Library/JavaScript/html2canvas.js"></script>

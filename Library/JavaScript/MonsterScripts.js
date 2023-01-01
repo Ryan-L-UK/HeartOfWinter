@@ -16,18 +16,64 @@ function showInput() {
   document.getElementById("FT_output").innerHTML =
     document.getElementById("FT_input").value;
 
-  document.getElementById("STR_output").innerHTML =
-    document.getElementById("STR_input").value;
-  document.getElementById("DEX_output").innerHTML =
-    document.getElementById("DEX_input").value;
-  document.getElementById("CON_output").innerHTML =
-    document.getElementById("CON_input").value;
-  document.getElementById("INT_output").innerHTML =
-    document.getElementById("INT_input").value;
-  document.getElementById("WIS_output").innerHTML =
-    document.getElementById("WIS_input").value;
-  document.getElementById("CHA_output").innerHTML =
-    document.getElementById("CHA_input").value;
+  function checkstatrole(modifier) {
+    var checkresult = "";
+    var output = "";
+    var lookup = {
+      "": "Error",
+      1: "1 (-5)",
+      2: "2 (-4)",
+      3: "3 (-4)",
+      4: "4 (-3)",
+      5: "5 (-3)",
+      6: "6 (-2)",
+      7: "7 (-2)",
+      8: "8 (-1)",
+      9: "9 (-1)",
+      10: "10 (+0)",
+      11: "11 (+0)",
+      12: "12 (+1)",
+      13: "13 (+1)",
+      14: "14 (+2)",
+      15: "15 (+2)",
+      16: "16 (+3)",
+      17: "17 (+3)",
+      18: "18 (+4)",
+      19: "19 (+4)",
+      20: "20 (+5)",
+      21: "21 (+5)",
+      22: "22 (+6)",
+      23: "23 (+6)",
+      24: "24 (+7)",
+      25: "25 (+7)",
+      26: "26 (+8)",
+      27: "27 (+8)",
+      28: "28 (+9)",
+      29: "29 (+9)",
+      30: "30 (+10)",
+    };
+    checkresult = lookup[modifier];
+    console.log(checkresult);
+    StatOut = checkresult;
+  }
+
+  checkstatrole(document.getElementById("STR_input").value);
+  document.getElementById("STR_output").innerHTML = StatOut;
+
+  checkstatrole(document.getElementById("DEX_input").value);
+  document.getElementById("DEX_output").innerHTML = StatOut;
+
+  checkstatrole(document.getElementById("CON_input").value);
+  document.getElementById("CON_output").innerHTML = StatOut;
+
+  checkstatrole(document.getElementById("INT_input").value);
+  document.getElementById("INT_output").innerHTML = StatOut;
+
+  checkstatrole(document.getElementById("WIS_input").value);
+  document.getElementById("WIS_output").innerHTML = StatOut;
+
+  checkstatrole(document.getElementById("CHA_input").value);
+  document.getElementById("CHA_output").innerHTML = StatOut;
 
   document.getElementById("Skills_output").innerHTML =
     document.getElementById("Skills_input").value;

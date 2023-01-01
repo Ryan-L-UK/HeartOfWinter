@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="Library/CSS/GeneratorStyling.css" />
+
+    <title>The Elfsong Tavern</title>
+    <link
+      rel="shortcut icon"
+      type="image/jpg"
+      href="Library/ImageAssets/favicon.ico"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <img
+        src="library/ImageAssets/masthead.png"
+        alt="5e Logo"
+        width="auto"
+        class="logo"
+      />
+      <a href="Homepage.html" class="button">Go Back To Homepage</a>
+      <h1 class="header">Arcane Energy Shell</h1>
+      <div class="oval"></div>
+      <br />
+      <p class="subheading">
+        Here is a shell generator for magical spells and arcane energy to be
+        created in the correct format for printing.
+      </p>
+      <p class="subheading">Other shells are avaliable:</p>
+      <div class="tabs"></div>
+
+      <span>
+        <button
+          onclick="window.location.href='MonsterPage.html';"
+          class="monsterbutton"
+        >
+          Bestiary
+        </button>
+        <button
+          onclick="window.location.href='ItemPage.html';"
+          class="itembutton"
+        >
+          Magical Items
+        </button>
+      </span>
+
+      <br />
+      <button class="submitspell" onclick="showInput();takeshot()">
+        Export Spell</button
+      ><br />
+
+      <div class="main-container">
+        <div class="Form">
+          <form>
+            <div class="sborder"></div>
+            <div class="framecontainer">
+              <div class="bodycontainer">
+                <!--SPELL NAME-->
+                <label><b>Spell Name:</b></label>
+                <input type="text" id="SName_input" />
+                <br />
+
+                <!--SPELL TYPE & LEVEL-->
+                <label><b>Spell Level:</b></label
+                ><br />
+                <input type="number" id="SL_input" /><br />
+
+                <label><b>Spell Type:</b></label
+                ><br />
+                <input list="SpellTypes" id="SType_input" />
+
+                <datalist id="SpellTypes">
+                  <option value="Abjuration"></option>
+                  <option value="Conjuration"></option>
+                  <option value="Divination"></option>
+                  <option value="Enchantment"></option>
+                  <option value="Evocation"></option>
+                  <option value="Illusion"></option>
+                  <option value="Necromancy"></option>
+                  <option value="Transmutation"></option>
+                </datalist>
+
+                <br />
+
+                <p>
+                  <label><b>Casting Times:</b></label>
+                  <input type="text" size="7" id="CT_input" /><br />
+                  <label><b>Range:</b></label>
+                  <input type="text" size="7" id="Range_input" /><br />
+                  <label><b>Components:</b></label>
+                  <input type="text" size="7" id="Comp_input" /><br />
+                  <label><b>Duration:</b></label>
+                  <input type="text" size="7" id="Dur_input" /><br />
+                </p>
+
+                <div class="sdivider"></div>
+
+                <!--SPELL DESCRIPTION-->
+                <h2 class="spellheading">Spell Action</h2>
+                <label><b>Paragraph 1:</b></label>
+                <textarea id="P1D_input" cols="56" rows="3"></textarea><br />
+
+                <label><b>Paragraph 2:</b></label>
+                <textarea id="P2D_input" cols="56" rows="3"></textarea><br />
+
+                <label><b>Paragraph 3:</b></label>
+                <textarea id="P3D_input" cols="56" rows="3"></textarea><br />
+
+                <label><b>Paragraph 4:</b></label>
+                <textarea id="P4D_input" cols="56" rows="3"></textarea><br />
+
+                <div class="sdivider"></div>
+
+                <!--SPELL FOOTER-->
+
+                <label><b>Class:</b></label
+                ><br />
+                <input list="ClassTypes" id="Class1_input" />
+                <input list="ClassTypes" id="Class2_input" />
+                <input list="ClassTypes" id="Class3_input" />
+                <input list="ClassTypes" id="Class4_input" />
+                <input list="ClassTypes" id="Class5_input" />
+                <input list="ClassTypes" id="Class6_input" />
+                <input list="ClassTypes" id="Class7_input" />
+
+                <datalist id="ClassTypes">
+                  <option value="Artificer"></option>
+                  <option value="Bard"></option>
+                  <option value="Cleric"></option>
+                  <option value="Druid"></option>
+                  <option value="Paladin"></option>
+                  <option value="Ranger"></option>
+                  <option value="Sorcerer"></option>
+                  <option value="Warlock"></option>
+                  <option value="Wizard"></option>
+                </datalist>
+                <br />
+
+                <label><b>Source:</b></label>
+                <input type="text" id="Source_input" />
+
+                <br />
+              </div>
+            </div>
+            <div class="sborder"></div>
+          </form>
+          <br />
+        </div>
+        <div class="Output">
+          <div id="photo">
+            <div class="sborder"></div>
+            <div class="framecontainer">
+              <div class="bodycontainer">
+                <!--SPELL NAME-->
+                <h1 class="spellname" id="SName_output"></h1>
+
+                <!--SPELL TYPE & LEVEL-->
+                <h2 class="spelltype" id="SLvlType_output"></h2>
+
+                <p>
+                  <span class="sbold">Casting Time:</span>
+                  <span class="sbody" id="CT_output"></span>
+                  <br />
+                  <span class="sbold">Range:</span>
+                  <span class="sbody" id="Range_output"></span>
+                  <br />
+                  <span class="sbold">Components:</span>
+                  <span class="sbody" id="Comp_output"></span>
+                  <br />
+                  <span class="sbold">Duration:</span>
+                  <span class="sbody" id="Dur_output"></span>
+                </p>
+
+                <p>
+                  <span class="sbody" id="P1D_output"></span>
+                </p>
+                <p>
+                  <span class="sbody" id="P2D_output"></span>
+                </p>
+                <p>
+                  <span class="sbody" id="P3D_output"></span>
+                </p>
+                <p>
+                  <span class="sbody" id="P4D_output"></span>
+                </p>
+                <p>
+                  <span class="cClass" id="Class1_output"></span>
+                  <span class="cClass" id="Class2_output"></span>
+                  <span class="cClass" id="Class3_output"></span>
+                  <span class="cClass" id="Class4_output"></span>
+                  <span class="cClass" id="Class5_output"></span>
+                  <span class="cClass" id="Class6_output"></span>
+                  <span class="cClass" id="Class7_output"></span>
+                  <span class="cSource" id="Source_output"></span>
+                </p>
+              </div>
+            </div>
+            <div class="sborder"></div>
+          </div>
+          <br />
+          <h2 class="iheader">Image Render:</h2>
+          <br />
+          <div id="output"></div>
+        </div>
+      </div>
+
+      <!--Footer-->
+      <p class="footer">
+        DUNGEONS & DRAGONS, D&D, Wizards of the Coast, Forgotten Realms, the
+        dragon ampersand, Player’s Handbook, Monster Manual, Dungeon Master’s
+        Guide, D&D Adventurers League, all other Wizards of the Coast product
+        names, and their respective logos are trademarks of Wizards of the Coast
+        in the USA and other countries. All characters and their distinctive
+        likenesses are property of Wizards of the Coast.
+      </p>
+      <img src="Library/ImageAssets/footer.png" alt="5e Logo" class="footer" />
+
+      <!--END-->
+    </div>
+  </body>
+</html>
+
+<script src="Library/JavaScript/myscripts.js"></script>
+<script src="Library/JavaScript/SpellScripts.js"></script>
+<script src="Library/JavaScript/html2canvas.js"></script>

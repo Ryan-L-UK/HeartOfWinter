@@ -1,0 +1,443 @@
+/*-----------------------------------------------------------*/
+/*Main Containers*/
+/*-----------------------------------------------------------*/
+html {
+  background: #14171b;
+  height: 100%;
+  max-width: 1500px;
+  margin: auto;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  height: fit-content;
+  margin: 4% auto 0;
+  align-items: center;
+  padding: 0;
+  background-image: url(../ImageAssets/Background_page.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*This replaces Item, Monster & Spell Containers*/
+.framecontainer {
+  width: 490px;
+  align-items: center;
+  justify-items: center;
+  display: block;
+  margin: 0 auto;
+  background-image: url(../ImagesParchment/sword_meow_background_base.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #000;
+}
+
+.bodycontainer {
+  padding: 2%;
+}
+
+/*-----------------------------------------------------------*/
+/*Grid Containers */
+/*-----------------------------------------------------------*/
+.main-container {
+  display: grid;
+  width: 100%;
+  justify-content: space-evenly;
+  align-content: space-evenly;
+  column-gap: 0.2%;
+  grid-template-columns: auto;
+  grid-auto-flow: row;
+  grid-template-areas: "Form Output";
+}
+
+.stat-container {
+  display: grid;
+  width: 100%;
+  justify-content: space-evenly;
+  align-content: space-evenly;
+  column-gap: 0.2%;
+  grid-template-columns: auto;
+  grid-auto-flow: row;
+  grid-template-areas: "STR DEX CON INT WIS CHA" "STRn DEXn CONn INTn WISn CHAn";
+}
+
+.CHA,
+.CON,
+.DEX,
+.INT,
+.STR,
+.WIS {
+  justify-items: center;
+  align-items: center;
+  font-weight: 700;
+  margin: auto;
+}
+.CHAn,
+.CONn,
+.DEXn,
+.INTn,
+.STRn,
+.WISn {
+  justify-items: center;
+  align-items: center;
+  margin: auto;
+}
+
+/*-----------------------------------------------------------*/
+/*Buttons & Inputs */
+/*-----------------------------------------------------------*/
+
+/* Submit Button changed to individuals */
+.submititem,
+.submitmonster,
+.submitspell,
+.monsterbutton,
+.spellbutton,
+.itembutton {
+  color: #fff;
+  padding: 5px 10px;
+  text-align: center;
+  justify-items: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.submititem,
+.submitmonster,
+.submitspell {
+  border-radius: 4px;
+  display: block;
+  margin: auto;
+}
+
+.monsterbutton,
+.spellbutton,
+.itembutton {
+  border-radius: 0 0 4px 4px;
+  display: inline;
+  margin: -3px 5px;
+}
+
+.button,
+.submititem,
+.itembutton {
+  background: linear-gradient(
+    180deg,
+    rgba(76, 175, 80, 1) 0,
+    rgba(43, 115, 46, 1) 100%
+  );
+}
+.submitmonster,
+.monsterbutton {
+  background: linear-gradient(
+    180deg,
+    rgba(75, 147, 175, 1) 0,
+    rgba(43, 56, 115, 1) 98%
+  );
+}
+.submitspell,
+.spellbutton {
+  background: linear-gradient(
+    180deg,
+    rgba(168, 2, 141, 1) 0,
+    rgba(58, 25, 59, 1) 98%
+  );
+}
+
+.itembutton:hover,
+.spellbutton:hover,
+.monsterbutton:hover {
+  color: #000;
+}
+
+.button {
+  background: linear-gradient(
+    180deg,
+    rgba(76, 175, 80, 1) 0,
+    rgba(43, 115, 46, 1) 100%
+  );
+  color: #fff;
+  border-radius: 0 4px 4px 0;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.5);
+  margin-top: -20px;
+  margin-right: auto;
+}
+
+.button:hover,
+.submititem:hover,
+.submitmonster:hover,
+.submitspell:hover {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+input[type="text"] {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+/*-----------------------------------------------------------*/
+/*Font Styling*/
+/*-----------------------------------------------------------*/
+
+h1.header,
+h1.itemheading,
+h1.monstername,
+h1.spellname,
+h2.header,
+h2.itemtype,
+h2.monstertype,
+h2.spelltype,
+h3.weapon {
+  font-family: Garamond, serif;
+}
+
+h1.header,
+h2.header {
+  color: #0f4025;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h1.header {
+  font-size: 3.75em;
+  text-align: center;
+  align-items: center;
+}
+
+h1.itemheading {
+  text-align: left;
+  font-size: 1.6em;
+  margin: 0 1.5%;
+  padding-top: 1%;
+}
+h1.monstername {
+  text-align: left;
+  font-size: 1.6em;
+  margin: 0;
+  padding-top: 1%;
+}
+h1.spellname {
+  color: #760d81;
+  text-align: left;
+  font-size: 1.6em;
+  margin: 0;
+  padding-top: 0;
+}
+
+h2.header,
+h2.iheader,
+h2.mheader {
+  font-size: 1.75em;
+  text-align: left;
+  align-items: left;
+}
+
+h2.header {
+  border-bottom: 3px solid #c0ad6a;
+}
+
+h2.mheader {
+  color: black;
+  border-bottom: 3px solid #1d6673;
+}
+
+h2.iheader {
+  color: black;
+  border-bottom: 3px solid #760d81;
+}
+
+h2.itemtype {
+  text-align: left;
+  font-size: 1em;
+  font-style: italic;
+  margin: 0 1.5% 1%;
+}
+h2.monstertype {
+  text-align: left;
+  font-size: 1em;
+  font-style: italic;
+  margin: 0;
+}
+h2.spelltype {
+  text-align: left;
+  font-size: 1em;
+  font-style: italic;
+  margin: 0;
+  padding: 0;
+}
+
+h3.weapon {
+  text-align: right;
+  font-size: 1em;
+  margin: 0 1.5% 1%;
+}
+
+p.footer {
+  width: 80%;
+  text-align: center;
+  align-items: center;
+  font-family: Lora, Times, serif;
+  color: #000;
+  margin-top: 2%;
+  margin-bottom: -2%;
+  font-size: 1em;
+}
+p.itembody {
+  text-align: left;
+  font-size: 1em;
+  margin: 0 1.5% 2%;
+}
+p.itemfooter {
+  text-align: left;
+  font-size: 1em;
+  margin: 0 1.5%;
+  padding-bottom: 1%;
+}
+
+p.subheading {
+  width: 80%;
+  text-align: center;
+  align-items: center;
+  font-family: Lora, Times, serif;
+  color: #000;
+  margin-top: 0;
+  font-size: 1.25em;
+}
+
+/*replaces monster body and bold, and spell body and bold */
+.sbody {
+  text-align: left;
+  font-size: 1em;
+  padding-bottom: 0;
+}
+.sbold {
+  text-align: left;
+  font-size: 1em;
+  font-weight: 700;
+  padding-bottom: 0;
+}
+
+.cClass {
+  padding: 0;
+  background-color: #760d81;
+
+  color: #fff;
+}
+.cSource {
+  padding: 0;
+  color: #760d81;
+
+  background-color: #fff;
+}
+.Damage {
+  margin: 0 1.5%;
+  padding-bottom: 1%;
+  text-align: right;
+  align-items: right;
+  justify-items: right;
+}
+
+/*-----------------------------------------------------------*/
+/*Images*/
+/*-----------------------------------------------------------*/
+
+.logo,
+.footer {
+  width: 100%;
+  align-items: center;
+  justify-items: center;
+  margin: 0;
+  padding: 0;
+}
+.footer {
+  filter: hue-rotate(270deg);
+}
+
+/*-----------------------------------------------------------*/
+/*Dividers & Other Assets*/
+/*-----------------------------------------------------------*/
+
+/*new divider classes*/
+.mborder,
+.iborder,
+.sborder {
+  height: 6px;
+  width: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  justify-items: center;
+  display: block;
+  margin: 0;
+  border: 2px solid #000;
+}
+
+.mborder {
+  background-image: url(../ImageAssets/monsterbackground.jpeg);
+}
+.iborder {
+  background-image: url(../ImageAssets/itembackground.jpeg);
+}
+.sborder {
+  background-image: url(../ImageAssets/spellbackground.jpg);
+}
+
+.tabs {
+  margin: 0 auto;
+  height: 5px;
+  width: 350px;
+  background-color: #b8b8b8;
+  border-radius: 150%;
+  align-items: center;
+  position: relative;
+}
+.oval {
+  margin: 2px auto;
+  height: 5px;
+  width: 450px;
+  background-color: #c0ad6a;
+  border-radius: 150%;
+  align-items: center;
+}
+
+.line {
+  display: flex;
+  height: auto;
+  width: 98%;
+  align-items: center;
+  justify-items: center;
+  border-bottom: 3px solid #1d7335;
+  margin: auto auto 2%;
+}
+
+.mdivider,
+.sdivider {
+  margin: 4px auto;
+  width: 0;
+  height: 0;
+  border-top: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  align-items: center;
+  justify-items: center;
+}
+
+.mdivider {
+  border-left: 475px solid #1d6673;
+}
+
+.sdivider {
+  border-left: 475px solid #54062b;
+}

@@ -15,19 +15,19 @@
   "use strict";
 
   /*! *****************************************************************************
-    Copyright (c) Microsoft Corporation.
+  Copyright (c) Microsoft Corporation.
 
-    Permission to use, copy, modify, and/or distribute this software for any
-    purpose with or without fee is hereby granted.
+  Permission to use, copy, modify, and/or distribute this software for any
+  purpose with or without fee is hereby granted.
 
-    THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
-    REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
-    AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
-    INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
-    LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
-    OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
-    PERFORMANCE OF THIS SOFTWARE.
-    ***************************************************************************** */
+  THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
+  REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
+  AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
+  INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
+  LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
+  OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+  PERFORMANCE OF THIS SOFTWARE.
+  ***************************************************************************** */
   /* global Reflect, Promise */
 
   var extendStatics = function (d, b) {
@@ -6466,8 +6466,8 @@
       var cloneWindow = iframe.contentWindow;
       var documentClone = cloneWindow.document;
       /* Chrome doesn't detect relative background-images assigned in inline <style> sheets when fetched through getComputedStyle
-             if window url is about:blank, we can assign the url to current by writing onto the document
-             */
+           if window url is about:blank, we can assign the url to current by writing onto the document
+           */
       var iframeLoad = iframeLoader(iframe).then(function () {
         return __awaiter(_this, void 0, void 0, function () {
           var onclone, referenceElement;
