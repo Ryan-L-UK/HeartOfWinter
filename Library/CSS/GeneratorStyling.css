@@ -316,6 +316,12 @@ p.subheading {
   font-size: 1.25em;
 }
 
+p.status {
+  text-align: left;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
 /*replaces monster body and bold, and spell body and bold */
 .sbody {
   text-align: left;

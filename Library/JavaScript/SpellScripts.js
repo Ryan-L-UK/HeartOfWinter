@@ -2,12 +2,31 @@ function showInput() {
   document.getElementById("SName_output").innerHTML =
     document.getElementById("SName_input").value;
 
+  function checklevel(lvl) {
+    var checkresult = "";
+    var lookup = {
+      "": "Error",
+      0: "cantrip",
+      1: "1st level",
+      2: "2nd level",
+      3: "3rd level",
+      4: "4th level",
+      5: "5th level",
+      6: "6th level",
+      7: "7th level",
+      8: "8th level",
+      9: "9th level",
+      10: "10th level",
+    };
+    checkresult = lookup[lvl];
+    console.log(checkresult);
+    LvlOut = checkresult;
+  }
+
+  checklevel(document.getElementById("SL_input").value);
+
   var SVarLvlType =
-    "level " +
-    document.getElementById("SL_input").value +
-    "-" +
-    " " +
-    document.getElementById("SType_input").value;
+    LvlOut + " " + "-" + " " + document.getElementById("SType_input").value;
   document.getElementById("SLvlType_output").innerHTML = SVarLvlType;
 
   document.getElementById("CT_output").innerHTML =
@@ -33,6 +52,18 @@ function showInput() {
 
   document.getElementById("P4D_output").innerHTML =
     document.getElementById("P4D_input").value;
+
+  let output = document.getElementById("HL1D_input").value;
+  if (output != "") {
+    console.log("At higher levels contains DATA");
+    document.getElementById("HL1H_output").innerHTML = "At Higher Levels:";
+  } else {
+    console.log("At higher levels is NULL");
+    document.getElementById("HL1H_output").innerHTML = "";
+  }
+
+  document.getElementById("HL1D_output").innerHTML =
+    document.getElementById("HL1D_input").value;
 
   document.getElementById("Class1_output").innerHTML =
     document.getElementById("Class1_input").value;

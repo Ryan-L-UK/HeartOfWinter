@@ -75,14 +75,86 @@ function showInput() {
   checkstatrole(document.getElementById("CHA_input").value);
   document.getElementById("CHA_output").innerHTML = StatOut;
 
+  let skillsoutput = document.getElementById("Skills_input").value;
+  if (skillsoutput != "") {
+    console.log("Skills contains DATA");
+    document.getElementById("SkillsH_output").innerHTML = "Skills:";
+  } else {
+    console.log("Skills is NULL");
+    document.getElementById("SkillsH_output").innerHTML = "";
+  }
+
+  let resistoutput = document.getElementById("DmgResist_input").value;
+  if (resistoutput != "") {
+    console.log("Damage Resistances contains DATA");
+    document.getElementById("DmgResistH_output").innerHTML =
+      "Damage Resistances:";
+  } else {
+    console.log("Damage Resistances is NULL");
+    document.getElementById("DmgResistH_output").innerHTML = "";
+  }
+
+  let immuneoutput = document.getElementById("DmgImmune_input").value;
+  if (immuneoutput != "") {
+    console.log("Damage Immunities contains DATA");
+    document.getElementById("DmgImmuneH_output").innerHTML =
+      "Damage Immunities:";
+  } else {
+    console.log("Damage Immunities is NULL");
+    document.getElementById("DmgImmuneH_output").innerHTML = "";
+  }
+
+  let vulnoutput = document.getElementById("DmgVuln_input").value;
+  if (vulnoutput != "") {
+    console.log("Damage Vulnerabilities contains DATA");
+    document.getElementById("DmgVulnH_output").innerHTML =
+      "Damage Vulnerabilities:";
+  } else {
+    console.log("Damage Vulnerabilities is NULL");
+    document.getElementById("DmgVulnH_output").innerHTML = "";
+  }
+  let condoutput = document.getElementById("ConImmune_input").value;
+  if (condoutput != "") {
+    console.log("Condition Immunities contains DATA");
+    document.getElementById("ConImmuneH_output").innerHTML =
+      "Condition Immunities:";
+  } else {
+    console.log("Condition Immunities is NULL");
+    document.getElementById("ConImmuneH_output").innerHTML = "";
+  }
+
+  let Sensesoutput = document.getElementById("Senses_input").value;
+  if (Sensesoutput != "") {
+    console.log("Senses contains DATA");
+    document.getElementById("SensesH_output").innerHTML = "Senses:";
+  } else {
+    console.log("Senses is NULL");
+    document.getElementById("SensesH_output").innerHTML = "";
+  }
+
+  let Langoutput = document.getElementById("Lang_input").value;
+  if (Langoutput != "") {
+    console.log("Languages contains DATA");
+    document.getElementById("LangH_output").innerHTML = "Languages:";
+  } else {
+    console.log("Languages is NULL");
+    document.getElementById("LangH_output").innerHTML = "";
+  }
+
   document.getElementById("Skills_output").innerHTML =
     document.getElementById("Skills_input").value;
   document.getElementById("DmgImmune_output").innerHTML =
     document.getElementById("DmgImmune_input").value;
+  document.getElementById("DmgResist_output").innerHTML =
+    document.getElementById("DmgResist_input").value;
+  document.getElementById("DmgVuln_output").innerHTML =
+    document.getElementById("DmgVuln_input").value;
   document.getElementById("ConImmune_output").innerHTML =
     document.getElementById("ConImmune_input").value;
   document.getElementById("Senses_output").innerHTML =
     document.getElementById("Senses_input").value;
+  document.getElementById("Lang_output").innerHTML =
+    document.getElementById("Lang_input").value;
 
   document.getElementById("T1H_output").innerHTML =
     document.getElementById("T1H_input").value;
