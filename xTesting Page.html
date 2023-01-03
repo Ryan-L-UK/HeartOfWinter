@@ -3,7 +3,7 @@
   <head>
     <script src="Library/JavaScript/html2canvas.js"></script>
 
-    <link rel="stylesheet" href="Library/CSS/TestStyling.css" />
+    <link rel="stylesheet" href="Library/CSS/GeneratorStyling.css" />
 
     <title>The Elfsong Tavern</title>
     <link
@@ -21,13 +21,51 @@
         width="auto"
         class="logo"
       />
+
       <a href="Homepage.html" class="button">Go Back To Homepage</a>
+      <br />
+
       <h1 class="header">Testing Page</h1>
       <div class="oval"></div>
       <br />
       <p class="subheading">
         Here is the testing page<br />Currently in test: TBC
       </p>
+      <br />
+
+      <br />
+
+      <button class="submitspell" onclick="randomship()">Create New Ship</button
+      ><br />
+
+      <div id="photo">
+        <div class="mborder"></div>
+        <div class="framecontainer">
+          <div class="bodycontainer">
+            <p>
+              <span class="sbody"
+                >A <span class="sbold" id="SType_output"></span> called
+                <span class="sbold">!Name</span> sits in the dock. It is
+                <span class="sbold" id="SSize_output"></span>and is currently
+                <span class="sbold" id="SCargo_output"></span>. The captain is
+                <span class="sbold" id="SCap_output"></span>with
+                <span class="sbold" id="SCapDesc_output"></span>. The ships crew
+                are <span class="sbold" id="SCrew_output"></span>and wish to
+                <span class="sbold" id="SGoals_output"></span>. The
+                <span class="sbold">!Name</span> is notorious for
+                <span class="sbold" id="SNotoriety_output"></span>
+              </span>
+              <br />
+            </p>
+          </div>
+        </div>
+        <div class="mborder"></div>
+      </div>
+      <br />
+      <h2 class="mheader">Image Render:</h2>
+      <br />
+      <div id="output"></div>
+
       <br />
 
       <!--Footer-->
@@ -47,4 +85,4 @@
 </html>
 
 <script src="Library/JavaScript/myscripts.js"></script>
-<script src="Library/JavaScript/MonsterScripts.js"></script>
+<script src="Library/random.js"></script>
