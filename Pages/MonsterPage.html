@@ -1,25 +1,111 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="Library/CSS/GeneratorStyling.css" />
+    <link rel="stylesheet" href="../Library/CSS/GeneratorStyling.css" />
 
     <title>The Elfsong Tavern</title>
     <link
       rel="shortcut icon"
       type="image/jpg"
-      href="Library/ImageAssets/favicon.ico"
+      href="../Library/ImageAssets/favicon.ico"
     />
   </head>
 
   <body>
     <div class="container">
       <img
-        src="library/ImageAssets/masthead.png"
+        src="../library/ImageAssets/masthead.png"
         alt="5e Logo"
         width="auto"
         class="logo"
       />
-      <a href="Homepage.html" class="button">Go Back To Homepage</a>
+      <!---------------------------------------->
+      <!--Nav Bar-->
+      <!---------------------------------------->
+      <div class="line"></div>
+      <div class="navbar">
+        <a class="stdbtn" href="../Index.html">Home</a>
+        <!---------------------------------------->
+        <a class="stdbtn" href="AdventurePage.html">Adventures</a>
+        <!---------------------------------------->
+        <div class="dropdown">
+          <button class="dropbtn">Arcane Spells</button>
+          <div class="dropdown-content">
+            <a href="SpellPage.html">Arcane Shell</a>
+            <a
+              href="https://www.aidedd.org/dnd-filters/spells-5e.php"
+              target="_blank"
+              >Tome of Spells</a
+            >
+          </div>
+        </div>
+        <!---------------------------------------->
+        <div class="dropdown">
+          <button class="dropbtn">Bestiary</button>
+          <div class="dropdown-content">
+            <a href="MonsterPage.html">Creature Shell</a>
+            <a
+              href="https://www.aidedd.org/dnd-filters/monsters.php"
+              target="_blank"
+              >Tome Of Foes</a
+            >
+          </div>
+        </div>
+        <!---------------------------------------->
+        <a class="stdbtn" href="DreamPage.html">The Dreaming</a>
+        <!---------------------------------------->
+        <a class="stdbtn" href="ShipPage.html">The Harbour</a>
+        <!---------------------------------------->
+        <div class="dropdown">
+          <button class="dropbtn">Magical Items</button>
+          <div class="dropdown-content">
+            <a href="ItemPage.html">Item Shell</a>
+            <a href="https://5e.tools/items.html#abacus_phb" target="_blank"
+              >Tome Of Items</a
+            >
+          </div>
+        </div>
+        <!---------------------------------------->
+        <div class="dropdown">
+          <button class="dropbtn">Useful Links</button>
+          <div class="dropdown-content">
+            <a
+              href="https://www.worldanvil.com/w/faerun-tatortotzke"
+              target="_blank"
+              class="weblink"
+              >The World Of Faerûn</a
+            >
+
+            <a
+              href="https://www.notion.so/rmlgraphical/Secrets-Of-Gullet-Cove-b0ac43e0f4d747e78bce6f49efc26ba9"
+              target="_blank"
+              class="weblink"
+              >Master Campaign Notes</a
+            >
+
+            <a
+              href="https://homebrewery.naturalcrit.com/user/RyanLewery"
+              target="_blank"
+              class="weblink"
+              >Homebrewery</a
+            >
+
+            <a href="https://dnd-maps.com/" target="_blank" class="weblink"
+              >BattleMaps 1</a
+            >
+
+            <a
+              href="https://www.kassoon.com/dnd/battle-maps/"
+              target="_blank"
+              class="weblink"
+              >BattleMaps 2</a
+            >
+          </div>
+        </div>
+        <!---------------------------------------->
+      </div>
+      <br />
+
       <h1 class="header">Creature Stat Blocks</h1>
       <div class="oval"></div>
       <br />
@@ -28,23 +114,6 @@
         This is a shell generator for all maner of magical creatures, beasts and
         NPCs created in the optimum format for printing.
       </p>
-      <p class="subheading">Other shells are avaliable:</p>
-      <div class="tabs"></div>
-
-      <span>
-        <button
-          onclick="window.location.href='SpellPage.html';"
-          class="spellbutton"
-        >
-          Arcane Magics
-        </button>
-        <button
-          onclick="window.location.href='ItemPage.html';"
-          class="itembutton"
-        >
-          Magical Items
-        </button>
-      </span>
 
       <br />
 
@@ -324,13 +393,17 @@
         in the USA and other countries. All characters and their distinctive
         likenesses are property of Wizards of the Coast.
       </p>
-      <img src="Library/ImageAssets/footer.png" alt="5e Logo" class="footer" />
+      <img
+        src="../Library/ImageAssets/footer.png"
+        alt="5e Logo"
+        class="footer"
+      />
 
       <!--END-->
     </div>
   </body>
 </html>
 
-<script src="Library/JavaScript/myscripts.js"></script>
-<script src="Library/JavaScript/MonsterScripts.js"></script>
-<script src="Library/JavaScript/html2canvas.js"></script>
+<script src="../Library/JavaScript/myscripts.js"></script>
+<script src="../Library/JavaScript/MonsterScripts.js"></script>
+<script src="../Library/JavaScript/html2canvas.js"></script>

@@ -37,6 +37,20 @@ html {
   color: #000;
 }
 
+/*This replaces Item, Monster & Spell Containers*/
+.dreamcontainer {
+  width: 490px;
+  align-items: center;
+  justify-items: center;
+  display: block;
+  margin: 0 auto;
+  background-image: url(../ImageAssets/Dreamshellbackground.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
 .bodycontainer {
   padding: 2%;
 }
@@ -89,60 +103,161 @@ html {
 }
 
 /*-----------------------------------------------------------*/
-/*Buttons & Inputs */
+/*Menu Bar*/
 /*-----------------------------------------------------------*/
 
-/* Submit Button changed to individuals */
-.submititem,
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: #26282a;
+  font-family: Garamond, serif;
+  margin-top: 0;
+  width: 100%;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 18px;
+  text-align: center;
+  padding: 7px 16px;
+  text-decoration: none;
+}
+.line,
+.iline {
+  display: flex;
+  height: auto;
+  width: 100%;
+  align-items: center;
+  justify-items: center;
+
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.5);
+  margin: 0;
+}
+
+.line {
+  border-bottom: 2px solid #63cfc0;
+}
+
+.iline {
+  border-bottom: 2px solid #0c782b;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 18px;
+  border: none;
+  outline: none;
+  color: #a7afb9;
+  padding: 7px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+/* Individual Buttons */
+.stdbtn,
+.dropbtn {
+  font-size: 18px;
+  border: none;
+  outline: none;
+  padding: 7px 16px;
+  font-family: Garamond, serif;
+  margin: 0;
+  color: #a7afb9;
+}
+
+/* Hover Rules Buttons */
+.stdbtn:hover,
+.dropbtn:hover {
+  color: #fff;
+}
+
+/* Hover Rules Buttons */
+.dropbtn::after {
+  content: "\25BC";
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 8px;
+  margin-left: 4px;
+  margin-right: 7px;
+  align-items: center;
+  justify-items: center;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #1c1d1e;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: #a7afb9;
+  padding: 7px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  color: #fff;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/*-----------------------------------------------------------*/
+/*Buttons & Inputs */
+/*-----------------------------------------------------------*/
 .submitmonster,
 .submitspell,
-.monsterbutton,
-.spellbutton,
-.itembutton {
+.submititem,
+.submitdream,
+.submitship {
   color: #fff;
-  padding: 5px 10px;
+  padding: 7px 10px;
   text-align: center;
   justify-items: center;
   align-items: center;
   text-decoration: none;
-  font-size: 13px;
-}
-
-.submititem,
-.submitmonster,
-.submitspell {
+  font-size: 16px;
   border-radius: 4px;
-  display: block;
-  margin: auto;
-}
-
-.monsterbutton,
-.spellbutton,
-.itembutton {
-  border-radius: 0 0 4px 4px;
   display: inline;
-  margin: -3px 5px;
+  margin: -3px 1px;
+  width: 150px;
+  font-family: Garamond, serif;
 }
 
-.button,
-.submititem,
-.itembutton {
+.submititem {
   background: linear-gradient(
     180deg,
     rgba(76, 175, 80, 1) 0,
     rgba(43, 115, 46, 1) 100%
   );
 }
-.submitmonster,
-.monsterbutton {
+.submitmonster {
   background: linear-gradient(
     180deg,
     rgba(75, 147, 175, 1) 0,
     rgba(43, 56, 115, 1) 98%
   );
 }
-.submitspell,
-.spellbutton {
+.submitspell {
   background: linear-gradient(
     180deg,
     rgba(168, 2, 141, 1) 0,
@@ -150,36 +265,24 @@ html {
   );
 }
 
-.itembutton:hover,
-.spellbutton:hover,
-.monsterbutton:hover {
-  color: #000;
+.submitship {
+  background: linear-gradient(180deg, rgb(168, 115, 2) 0, rgb(59, 37, 25) 98%);
 }
 
-.button {
+.submitdream {
   background: linear-gradient(
     180deg,
-    rgba(76, 175, 80, 1) 0,
-    rgba(43, 115, 46, 1) 100%
+    rgb(189, 189, 189) 0,
+    rgb(63, 63, 63) 98%
   );
-  color: #fff;
-  border-radius: 0 4px 4px 0;
-  padding: 5px 10px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.5);
-  margin-top: -20px;
-  margin-right: auto;
 }
 
-.button:hover,
 .submititem:hover,
+.submitspell:hover,
 .submitmonster:hover,
-.submitspell:hover {
-  padding-left: 20px;
-  padding-right: 20px;
+.shipbutton:hover,
+.submitdream:hover {
+  color: #000;
 }
 
 input[type="text"] {
@@ -199,7 +302,8 @@ h2.header,
 h2.itemtype,
 h2.monstertype,
 h2.spelltype,
-h3.weapon {
+h3.weapon,
+h1.dreamname {
   font-family: Garamond, serif;
 }
 
@@ -235,10 +339,18 @@ h1.spellname {
   margin: 0;
   padding-top: 0;
 }
+h1.dreamname {
+  color: #fff;
+  text-align: center;
+  font-size: 1.6em;
+  margin: 0;
+  padding-top: 0;
+}
 
 h2.header,
 h2.iheader,
-h2.mheader {
+h2.mheader,
+h2.dheader {
   font-size: 1.75em;
   text-align: left;
   align-items: left;
@@ -256,6 +368,10 @@ h2.mheader {
 h2.iheader {
   color: black;
   border-bottom: 3px solid #760d81;
+}
+h2.dheader {
+  color: black;
+  border-bottom: 3px solid #414141;
 }
 
 h2.itemtype {
@@ -378,7 +494,8 @@ p.status {
 /*new divider classes*/
 .mborder,
 .iborder,
-.sborder {
+.sborder,
+.dborder {
   height: 6px;
   width: 500px;
   background-position: center;
@@ -400,16 +517,10 @@ p.status {
 .sborder {
   background-image: url(../ImageAssets/spellbackground.jpg);
 }
-
-.tabs {
-  margin: 0 auto;
-  height: 5px;
-  width: 350px;
-  background-color: #b8b8b8;
-  border-radius: 150%;
-  align-items: center;
-  position: relative;
+.dborder {
+  background-image: url(../ImageAssets/dreambackground.png);
 }
+
 .oval {
   margin: 2px auto;
   height: 5px;
@@ -417,16 +528,6 @@ p.status {
   background-color: #c0ad6a;
   border-radius: 150%;
   align-items: center;
-}
-
-.line {
-  display: flex;
-  height: auto;
-  width: 98%;
-  align-items: center;
-  justify-items: center;
-  border-bottom: 3px solid #1d7335;
-  margin: auto auto 2%;
 }
 
 .mdivider,

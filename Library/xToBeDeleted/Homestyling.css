@@ -115,8 +115,8 @@ p.footer {
   width: 100%;
   justify-content: space-evenly;
   align-content: space-evenly;
-  column-gap: 50px;
-  grid-template-columns: 30% 60%;
+  column-gap: 10px;
+  grid-template-columns: 25% 65%;
   grid-auto-flow: row;
   grid-template-areas: "col1 col2";
 }
