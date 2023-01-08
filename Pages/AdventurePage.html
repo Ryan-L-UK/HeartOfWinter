@@ -52,6 +52,13 @@
           </div>
         </div>
         <!---------------------------------------->
+        <a
+          class="stdbtn"
+          href="https://homebrewery.naturalcrit.com/print/xvQoj90aQZe6"
+          target="_blank"
+          >Crits & Fails</a
+        >
+        <!---------------------------------------->
         <a class="stdbtn" href="DreamPage.html">The Dreaming</a>
         <!---------------------------------------->
         <a class="stdbtn" href="ShipPage.html">The Harbour</a>
@@ -60,6 +67,7 @@
           <button class="dropbtn">Magical Items</button>
           <div class="dropdown-content">
             <a href="ItemPage.html">Item Shell</a>
+            <a href="ViewCrimsonStone.html">The Crimson Stone</a>
             <a href="https://5e.tools/items.html#abacus_phb" target="_blank"
               >Tome Of Items</a
             >
@@ -110,119 +118,38 @@
       <div class="oval"></div>
       <br />
       <p class="subheading">
-        Various adventures, quests and tales from the world of Faerûn.
+        Various adventures, quests and tales from the world of Faerûn. Select
+        from the drop down below to display the adventure.
       </p>
-
       <br />
+      <span
+        ><input list="ClassTypes" id="Adv_input" /><button
+          class="submit"
+          onclick="showInput();"
+        >
+          View Adventure
+        </button></span
+      >
+
+      <datalist id="ClassTypes">
+        <option value="Adv 1.1"></option>
+        <option value="Adv 2.1"></option>
+        <option value="Adv 2.2"></option>
+        <option value="Adv 3.1"></option>
+        <option value="Adv 3.2"></option>
+        <option value="Adv 4.1"></option>
+      </datalist>
       <br />
+      <iframe
+        id="frame"
+        allow="autoplay"
+        width="98%"
+        height=""
+        frameborder="0"
+        src=""
+      >
+      </iframe>
 
-      <!--Grid Container-->
-      <div class="grid-container">
-        <div class="col1">
-          <h2 class="header">Adventures</h2>
-          <ul>
-            <li>
-              <a
-                href="https://homebrewery.naturalcrit.com/print/xvQoj90aQZe6"
-                target="_blank"
-                class="button youtube"
-                >Critical Hit & Fail Table</a
-              >
-            </li>
-            <li>
-              <a
-                href="../Assets/Adventures/Adv 1.1 A Gullet Cove Hello.html"
-                target="_blank"
-                class="button youtube"
-                >Adv 1.1: A Gullet Cove Hello</a
-              >
-            </li>
-            <li>
-              <a
-                href="../Assets/Adventures/Adv 2.1 The Tainted Catnip.html"
-                target="_blank"
-                class="button youtube"
-                >Adv 2.1: The Tainted Catnip</a
-              >
-            </li>
-            <li>
-              <a
-                href="../Assets/Adventures/Adv 2.2 Quest For Atonement.html"
-                target="_blank"
-                class="button youtube"
-                >Adv 2.2: Quest For Atonement</a
-              >
-            </li>
-            <li>
-              <a
-                href="../Assets/Adventures/Adv 3.1 The Sleep Of The Dreamless.html"
-                target="_blank"
-                class="button youtube"
-                >Adv 3.1: The Sleep Of The Dreamless</a
-              >
-            </li>
-            <li>
-              <a
-                href="../Assets/Adventures/Adv 3.2 Solstice Shenanigans.html"
-                target="_blank"
-                class="button youtube"
-                >Adv 3.2: Solstice Shenanigans</a
-              >
-            </li>
-            <li>
-              <a
-                href="../Assets/Adventures/Adv 3.3 The Brink Of War.html"
-                target="_blank"
-                class="button youtube"
-                >Adv 4.1: The Brink Of War</a
-              >
-            </li>
-          </ul>
-          <br />
-
-          <br />
-          <h2 class="header">The Lunar Cycle</h2>
-          <br />
-          <p class="body">
-            1: New Moon <br />
-            2: Waxing crescent Moon<br />
-            3: First quarter Moon<br />
-            4: Waxing gibbous Moon<br />
-            5: Full Moon<br />
-            6: Waning gibbous Moon<br />
-            7: Last quarter Moon<br />
-            8: Waning crescent Moon<br />
-          </p>
-        </div>
-
-        <!--iframe-->
-        <div class="col2">
-          <div class="iframecontainer">
-            <div class="lefttop dot"></div>
-            <div class="leftbottom dot"></div>
-            <div class="righttop dot"></div>
-            <div class="rightbottom dot"></div>
-            <br />
-
-            <iframe
-              id="frame"
-              allow="autoplay"
-              width="98%"
-              height="700px"
-              frameborder="0"
-              src="xiFramePlaceholder.html"
-            >
-            </iframe>
-            <div class="line"></div>
-            <span>
-              <button onclick="history.back()" class="clearbutton clear">
-                Go Back
-              </button>
-            </span>
-            <br />
-          </div>
-        </div>
-      </div>
       <br />
       <br />
       <!--Footer-->

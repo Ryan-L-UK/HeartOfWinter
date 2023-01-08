@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="../Library/CSS/GeneratorStyling.css" />
+    <link rel="stylesheet" href="../Library/CSS/AdvPageStyling.css" />
 
     <title>The Elfsong Tavern</title>
     <link
@@ -113,95 +113,26 @@
         <!---------------------------------------->
       </div>
       <br />
-      <h1 class="header">Dream Shell</h1>
+
+      <h1 class="header">The Crimson Stone</h1>
       <div class="oval"></div>
       <br />
-      <p class="subheading">
-        Here is a shell generator for dreams to be created in the correct format
-        for printing.
-      </p>
+      <iframe
+        id="frame"
+        allow="autoplay"
+        width="98%"
+        height="1500"
+        frameborder="0"
+        src="../Assets/Magic Items/Crimson Stone.html"
+      >
+      </iframe>
 
       <br />
-      <button class="submitdream" onclick="showInput();takeshot()">
-        Export Dream</button
-      ><br />
-
-      <div class="main-container">
-        <div class="Form">
-          <form>
-            <div class="dborder"></div>
-            <div class="framecontainer">
-              <div class="bodycontainer">
-                <label><b>Name:</b></label>
-                <input type="text" id="DName_input" />
-                <br />
-
-                <p>
-                  <label><b>Description P1:</b></label>
-                  <textarea id="Desc1_input" cols="56" rows="6"></textarea
-                  ><br />
-                </p>
-
-                <p>
-                  <label><b>Description P2:</b></label>
-                  <textarea id="Desc2_input" cols="56" rows="6"></textarea
-                  ><br />
-                </p>
-
-                <p>
-                  <label><b>Description P3:</b></label>
-                  <textarea id="Desc3_input" cols="56" rows="6"></textarea
-                  ><br />
-                </p>
-                <p>
-                  <label><b>Description P4:</b></label>
-                  <textarea id="Desc4_input" cols="56" rows="6"></textarea
-                  ><br />
-                </p>
-              </div>
-            </div>
-            <div class="dborder"></div>
-          </form>
-          <br />
-        </div>
-        <div class="Output">
-          <div id="photo">
-            <div class="dborder"></div>
-            <div class="dreamcontainer">
-              <div class="bodycontainer">
-                <img
-                  src="../library/ImageAssets/Dreaming Masthead.png"
-                  alt="5e Logo"
-                  width="auto"
-                  class="logo"
-                />
-                <br />
-                <!--Monster NAME-->
-                <h1 class="dreamname" id="DName_output"></h1>
-
-                <!--ITEM DESCRIPTION-->
-                <p class="sbody" id="Desc1_output"></p>
-
-                <p class="sbody" id="Desc2_output"></p>
-
-                <p class="sbody" id="Desc3_output"></p>
-
-                <p class="sbody" id="Desc4_output"></p>
-              </div>
-            </div>
-            <div class="dborder"></div>
-          </div>
-          <br />
-          <h2 class="dheader">Image Render:</h2>
-          <br />
-          <div id="output"></div>
-        </div>
-      </div>
-
+      <br />
       <!--Footer-->
       <p class="footer">
         DUNGEONS & DRAGONS, D&D, Wizards of the Coast, Forgotten Realms, the
-        dragon ampersand, Player’s Handbook, Monster Manual, Dungeon Master’s
+        dragon ampersand, Player's Handbook, Monster Manual, Dungeon Master’s
         Guide, D&D Adventurers League, all other Wizards of the Coast product
         names, and their respective logos are trademarks of Wizards of the Coast
         in the USA and other countries. All characters and their distinctive
@@ -219,5 +150,3 @@
 </html>
 
 <script src="../Library/JavaScript/myscripts.js"></script>
-<script src="../Library/JavaScript/DreamScripts.js"></script>
-<script src="../Library/JavaScript/html2canvas.js"></script>

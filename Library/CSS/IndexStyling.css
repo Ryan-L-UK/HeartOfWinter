@@ -185,3 +185,9 @@ p.footer {
   border-radius: 150%;
   align-items: center;
 }
+
+object {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}

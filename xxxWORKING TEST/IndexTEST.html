@@ -1,25 +1,33 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="Library/CSS/IndexStyling.css" />
+    <link rel="stylesheet" href="../Library/CSS/IndexStyling.css" />
 
     <title>The Elfsong Tavern</title>
     <link
       rel="shortcut icon"
       type="image/jpg"
-      href="Library/ImageAssets/favicon.ico"
+      href="../Library/ImageAssets/favicon.ico"
     />
   </head>
 
   <body>
     <div class="container">
       <img
-        src="library/ImageAssets/masthead.png"
+        src="../library/ImageAssets/masthead.png"
         alt="5e Logo"
         width="auto"
         class="logo"
       />
-      <div id="menu"></div>
+      <!---------------------------------------->
+      <!--Nav Bar-->
+      <!---------------------------------------->
+
+      <div id="Nav_output"></div>
+      <br />
+      <div id="NavFileRead" href="test.html" />
+      <input type="file" id="inputFileToRead" />
+      <br />
 
       <br />
 
@@ -50,15 +58,6 @@
       </p>
       <br />
 
-      <li>
-        <a
-          href="https://homebrewery.naturalcrit.com/print/xvQoj90aQZe6"
-          target="_blank"
-          class="button youtube"
-          >Critical Hit & Fail Table</a
-        >
-      </li>
-
       <!--Footer-->
       <p class="footer">
         DUNGEONS & DRAGONS, D&D, Wizards of the Coast, Forgotten Realms, the
@@ -68,18 +67,32 @@
         in the USA and other countries. All characters and their distinctive
         likenesses are property of Wizards of the Coast.
       </p>
-      <img src="Library/ImageAssets/footer.png" alt="5e Logo" class="footer" />
+      <img
+        src="../Library/ImageAssets/footer.png"
+        alt="5e Logo"
+        class="footer"
+      />
 
       <!--END-->
     </div>
   </body>
 </html>
 
-<script src="Library/JavaScript/myscripts.js"></script>
-<script src="Library/JavaScript/SpellScripts.js"></script>
-<script src="Library/JavaScript/html2canvas.js"></script>
-<script
-  type="text/javascript"
-  src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"
-></script>
-<script type="text/javascript" src="script.js"></script>
+<script>
+  window.addEventListener("load", (event) => {
+    console.log("starting");
+    console.log("Finish");
+  });
+
+  document
+    .getElementById("inputFileToRead")
+    .addEventListener("change", function () {
+      var fr = new FileReader();
+      fr.readAsText(this.files[0]);
+      console.log(this.files[0]);
+      fr.onload = function () {
+        console.log(fr.result);
+        document.getElementById("Nav_output").innerHTML = fr.result;
+      };
+    });
+</script>

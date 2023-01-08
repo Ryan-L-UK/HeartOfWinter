@@ -59,6 +59,7 @@ video {
 
 a {
   text-decoration: none;
+  position: relative;
 }
 
 a:hover {
@@ -71,6 +72,16 @@ select:focus,
 textarea:focus {
   outline: 1px solid -webkit-focus-ring-color;
   outline-offset: -1px;
+}
+
+a span {
+  position: absolute;
+  display: none;
+  z-index: 99;
+}
+a:hover span {
+  display: block;
+  width: 525px;
 }
 
 p {
