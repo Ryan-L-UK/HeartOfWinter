@@ -465,6 +465,13 @@ p.status {
   border-radius: 150%;
   align-items: center;
 }
+.logo {
+  width: 100%;
+  align-items: center;
+  justify-items: center;
+  margin: 0;
+  padding: 0;
+}
 .mdivider,
 .sdivider {
   margin: 4px auto;
