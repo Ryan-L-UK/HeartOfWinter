@@ -1,14 +1,17 @@
-const http = require("http");
+var fs = require("fs"),
+  http = require("http");
 
-const hostname = "127.0.0.1";
-const port = 3000;
-
-const server = http.createServer((req, res) => {
-  res.statusCode = 200;
-  res.setHeader("Content-Type", "text/plain");
-  res.end("Hello World\n");
-});
-
-server.listen(port, hostname, () => {
-  console.log(`Server running at http://${hostname}:${port}/`);
-});
+http
+  .createServer(function (req, res) {
+    fs.readFile(__dirname + decodeURI(req.url), function (err, data) {
+      if (err) {
+        res.writeHead(404);
+        res.end(JSON.stringify(err));
+        return;
+      }
+      res.writeHead(200);
+      res.end(data);
+    });
+  })
+  .listen(8080);
+console.log("Server started successfully, do not close this terminal");

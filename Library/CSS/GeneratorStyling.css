@@ -4,57 +4,77 @@
 html {
   background: #14171b;
   height: 100%;
-  max-width: 1500px;
+  width: 100%;
   margin: auto;
   padding: 0;
+  background-image: url(../BackgroundParchment/BackgroundImage.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top;
+  background-size: cover;
 }
-
 .container {
   display: flex;
   flex-direction: column;
-  width: 95%;
+  width: 1250px;
   height: fit-content;
   margin: 4% auto 0;
-  align-items: center;
   padding: 0;
-  background-image: url(../ImageAssets/Background_page.jpg);
+  align-items: center;
+  justify-items: center;
+  background-image: url(../BackgroundParchment/dmg_background_base.png);
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 /*This replaces Item, Monster & Spell Containers*/
-.framecontainer {
-  width: 490px;
-  align-items: center;
-  justify-items: center;
-  display: block;
-  margin: 0 auto;
-  background-image: url(../ImagesParchment/sword_meow_background_base.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: #000;
-}
-
-/*This replaces Item, Monster & Spell Containers*/
+.framecontainer,
 .dreamcontainer {
   width: 490px;
   align-items: center;
   justify-items: center;
   display: block;
   margin: 0 auto;
-  background-image: url(../ImageAssets/Dreamshellbackground.jpeg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.framecontainer {
+  background-image: url(../BackgroundParchment/sword_meow_background_base.png);
+  color: #000;
+}
+
+/*This replaces Item, Monster & Spell Containers*/
+.dreamcontainer {
+  background-image: url(../BackgroundParchment/DreamShellBackground.jpeg);
   color: #fff;
+}
+
+/*This replaces Item, Monster & Spell Containers*/
+.shipcontainer {
+  width: 800px;
+  align-items: center;
+  justify-items: center;
+  display: block;
+  margin: 0 auto;
+  background-image: url(../BackgroundParchment/sword_meow_background_base.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #000;
 }
 
 .bodycontainer {
   padding: 2%;
 }
 
+object {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
 /*-----------------------------------------------------------*/
 /*Grid Containers */
 /*-----------------------------------------------------------*/
@@ -100,125 +120,6 @@ html {
   justify-items: center;
   align-items: center;
   margin: auto;
-}
-
-/*-----------------------------------------------------------*/
-/*Menu Bar*/
-/*-----------------------------------------------------------*/
-
-/* Navbar container */
-.navbar {
-  overflow: hidden;
-  background-color: #26282a;
-  font-family: Garamond, serif;
-  margin-top: 0;
-  width: 100%;
-}
-
-/* Links inside the navbar */
-.navbar a {
-  float: left;
-  font-size: 18px;
-  text-align: center;
-  padding: 7px 16px;
-  text-decoration: none;
-}
-.line,
-.iline {
-  display: flex;
-  height: auto;
-  width: 100%;
-  align-items: center;
-  justify-items: center;
-
-  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.5);
-  margin: 0;
-}
-
-.line {
-  border-bottom: 2px solid #63cfc0;
-}
-
-.iline {
-  border-bottom: 2px solid #0c782b;
-}
-
-/* The dropdown container */
-.dropdown {
-  float: left;
-  overflow: hidden;
-}
-
-/* Dropdown button */
-.dropdown .dropbtn {
-  font-size: 18px;
-  border: none;
-  outline: none;
-  color: #a7afb9;
-  padding: 7px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
-}
-
-/* Individual Buttons */
-.stdbtn,
-.dropbtn {
-  font-size: 18px;
-  border: none;
-  outline: none;
-  padding: 7px 16px;
-  font-family: Garamond, serif;
-  margin: 0;
-  color: #a7afb9;
-}
-
-/* Hover Rules Buttons */
-.stdbtn:hover,
-.dropbtn:hover {
-  color: #fff;
-}
-
-/* Hover Rules Buttons */
-.dropbtn::after {
-  content: "\25BC";
-  display: inline-block;
-  vertical-align: middle;
-  font-size: 8px;
-  margin-left: 4px;
-  margin-right: 7px;
-  align-items: center;
-  justify-items: center;
-}
-
-/* Dropdown content (hidden by default) */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #1c1d1e;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-  float: none;
-  color: #a7afb9;
-  padding: 7px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-/* Add a grey background color to dropdown links on hover */
-.dropdown-content a:hover {
-  color: #fff;
-}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-  display: block;
 }
 
 /*-----------------------------------------------------------*/
@@ -285,6 +186,17 @@ html {
   color: #000;
 }
 
+.sline {
+  display: flex;
+  height: auto;
+  width: 100%;
+  align-items: center;
+  justify-items: center;
+  border-bottom: 2px solid #484848;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.5);
+  margin: 0;
+}
+
 input[type="text"] {
   box-sizing: border-box;
   width: 100%;
@@ -303,7 +215,8 @@ h2.itemtype,
 h2.monstertype,
 h2.spelltype,
 h3.weapon,
-h1.dreamname {
+h1.dreamname,
+h1.shipheading {
   font-family: Garamond, serif;
 }
 
@@ -344,6 +257,13 @@ h1.dreamname {
   text-align: center;
   font-size: 1.6em;
   margin: 0;
+  padding-top: 0;
+}
+h1.shipname {
+  text-align: left;
+  font-size: 2.4em;
+  margin-top: 0;
+  margin-bottom: 10px;
   padding-top: 0;
 }
 
@@ -444,6 +364,26 @@ p.status {
   font-size: 1em;
   padding-bottom: 0;
 }
+@font-face {
+  font-family: Solbera Imitation;
+  src: local("Solbera Imitation"),
+    url("../Fonts/Solbera\ Imitation\ Display.otf");
+}
+.DropCap {
+  color: #000;
+  float: left;
+  font-family: Solbera Imitation;
+  font-size: 10em;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+}
+.hbody {
+  text-align: left;
+  font-size: 1.1em;
+  line-height: 1.7em;
+  padding-bottom: 0;
+}
 .sbold {
   text-align: left;
   font-size: 1em;
@@ -472,22 +412,6 @@ p.status {
 }
 
 /*-----------------------------------------------------------*/
-/*Images*/
-/*-----------------------------------------------------------*/
-
-.logo,
-.footer {
-  width: 100%;
-  align-items: center;
-  justify-items: center;
-  margin: 0;
-  padding: 0;
-}
-.footer {
-  filter: hue-rotate(270deg);
-}
-
-/*-----------------------------------------------------------*/
 /*Dividers & Other Assets*/
 /*-----------------------------------------------------------*/
 
@@ -509,18 +433,30 @@ p.status {
 }
 
 .mborder {
-  background-image: url(../ImageAssets/monsterbackground.jpeg);
+  background-image: url(../ImageAssets/GeneratorBorderMonster.jpeg);
 }
 .iborder {
-  background-image: url(../ImageAssets/itembackground.jpeg);
+  background-image: url(../ImageAssets/GeneratorBorderItem.jpeg);
 }
 .sborder {
-  background-image: url(../ImageAssets/spellbackground.jpg);
+  background-image: url(../ImageAssets/GeneratorBorderSpell.jpg);
 }
 .dborder {
-  background-image: url(../ImageAssets/dreambackground.png);
+  background-image: url(../ImageAssets/GeneratorBorderDream.png);
 }
-
+.Hborder {
+  height: 6px;
+  width: 825px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  justify-items: center;
+  display: block;
+  margin: 0;
+  border: 2px solid #000;
+  background-image: url(../ImageAssets/GeneratorBorderDream.png);
+}
 .oval {
   margin: 2px auto;
   height: 5px;
@@ -529,7 +465,6 @@ p.status {
   border-radius: 150%;
   align-items: center;
 }
-
 .mdivider,
 .sdivider {
   margin: 4px auto;
@@ -540,11 +475,17 @@ p.status {
   align-items: center;
   justify-items: center;
 }
-
 .mdivider {
   border-left: 475px solid #1d6673;
 }
-
 .sdivider {
   border-left: 475px solid #54062b;
+}
+
+.shipfooter {
+  width: 100%;
+  align-items: center;
+  justify-items: center;
+  margin: 0;
+  padding: 0;
 }
