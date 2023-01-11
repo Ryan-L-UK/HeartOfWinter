@@ -18,7 +18,6 @@ function showInput() {
 
   function checkstatrole(modifier) {
     var checkresult = "";
-    var output = "";
     var lookup = {
       "": "Error",
       1: "1 (-5)",

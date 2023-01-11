@@ -66,6 +66,21 @@ html {
   color: #000;
 }
 
+/*This replaces Item, Monster & Spell Containers*/
+.potioncontainer {
+  width: 800px;
+  align-items: center;
+  justify-items: center;
+  display: block;
+  margin: 0 auto;
+
+  background-image: url(../BackgroundParchment/phb_background_base.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #000;
+}
+
 .bodycontainer {
   padding: 2%;
 }
@@ -87,6 +102,17 @@ object {
   grid-template-columns: auto;
   grid-auto-flow: row;
   grid-template-areas: "Form Output";
+}
+
+.potion-container {
+  display: grid;
+  width: 100%;
+  justify-content: space-evenly;
+  align-content: space-evenly;
+  column-gap: 0.2%;
+  grid-template-columns: 60% 35%;
+  grid-auto-flow: row;
+  grid-template-areas: "Desc Image";
 }
 
 .stat-container {
@@ -210,6 +236,7 @@ h1.header,
 h1.itemheading,
 h1.monstername,
 h1.spellname,
+h1.PotionName,
 h2.header,
 h2.itemtype,
 h2.monstertype,
@@ -266,6 +293,14 @@ h1.shipname {
   margin-bottom: 10px;
   padding-top: 0;
 }
+h1.PotionName {
+  text-align: left;
+  font-size: 1.5em;
+  margin-top: 0;
+  margin-bottom: 10px;
+  padding-top: 0;
+  color: #8b0000;
+}
 
 h2.header,
 h2.iheader,
@@ -292,6 +327,11 @@ h2.iheader {
 h2.dheader {
   color: black;
   border-bottom: 3px solid #414141;
+}
+h2.pheader {
+  color: black;
+  font-size: 1.25em;
+  border-bottom: 3px solid #8b0000;
 }
 
 h2.itemtype {
@@ -369,19 +409,22 @@ p.status {
   src: local("Solbera Imitation"),
     url("../Fonts/Solbera\ Imitation\ Display.otf");
 }
+
 .DropCap {
-  color: #000;
+  background-image: url(../ImageAssets/T.png);
+  background-size: contain;
+  background-repeat: no-repeat;
   float: left;
-  font-family: Solbera Imitation;
-  font-size: 10em;
-  padding-top: 4px;
-  padding-right: 8px;
-  padding-left: 3px;
+  font-size: 10rem;
+  line-height: 0.6;
+  color: transparent;
+  margin-right: -0.1em;
 }
+
 .hbody {
   text-align: left;
-  font-size: 1.1em;
-  line-height: 1.7em;
+  font-size: 1.2em;
+  line-height: 1.8em;
   padding-bottom: 0;
 }
 .sbold {
@@ -444,7 +487,7 @@ p.status {
 .dborder {
   background-image: url(../ImageAssets/GeneratorBorderDream.png);
 }
-.Hborder {
+.ShipBorder {
   height: 6px;
   width: 825px;
   background-position: center;
@@ -456,6 +499,20 @@ p.status {
   margin: 0;
   border: 2px solid #000;
   background-image: url(../ImageAssets/GeneratorBorderDream.png);
+}
+
+.PotionBorder {
+  height: 6px;
+  width: 825px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  justify-items: center;
+  display: block;
+  margin: 0;
+  border: 2px solid #000;
+  background-image: url(../ImageAssets/GeneratorBorderAlchemy.webp);
 }
 .oval {
   margin: 2px auto;
@@ -473,7 +530,8 @@ p.status {
   padding: 0;
 }
 .mdivider,
-.sdivider {
+.sdivider,
+.pdivider {
   margin: 4px auto;
   width: 0;
   height: 0;
@@ -488,6 +546,9 @@ p.status {
 .sdivider {
   border-left: 475px solid #54062b;
 }
+.pdivider {
+  border-left: 475px solid #8b0000;
+}
 
 .shipfooter {
   width: 100%;
@@ -495,4 +556,10 @@ p.status {
   justify-items: center;
   margin: 0;
   padding: 0;
+}
+
+.PotionImage {
+  mix-blend-mode: multiply;
+  width: 100%;
+  height: 425px;
 }

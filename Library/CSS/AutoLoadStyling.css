@@ -35,7 +35,7 @@
   border: none;
   outline: 0;
   color: #a7afb9;
-  padding: 7px 16px;
+  padding: 7px 10px;
   background-color: inherit;
   font-family: inherit;
   margin: 0;
@@ -45,7 +45,7 @@
   font-size: 18px;
   border: none;
   outline: 0;
-  padding: 7px 16px;
+  padding: 7px 12px;
   font-family: Garamond, serif;
   margin: 0;
   color: #a7afb9;
@@ -77,7 +77,7 @@
 .dropdown-content a {
   float: none;
   color: #a7afb9;
-  padding: 7px 16px;
+  padding: 7px 12px;
   text-decoration: none;
   display: block;
   text-align: left;
@@ -104,7 +104,7 @@ p.footer {
 }
 
 .footer {
-  width: 100px;
+  width: 100%;
   align-items: center;
   justify-items: center;
   margin: 0;

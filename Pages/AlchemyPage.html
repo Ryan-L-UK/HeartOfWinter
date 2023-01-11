@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="../Library/CSS/GeneratorStyling.css" />
+
+    <title>The Elfsong Tavern</title>
+    <link
+      rel="shortcut icon"
+      type="image/jpg"
+      href="../Library/ImageAssets/favicon.ico"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <img
+        src="../library/ImageAssets/HeroMasthead.png"
+        alt="5e Logo"
+        width="auto"
+        class="logo"
+      />
+      <!---------------------------------------->
+      <!--Nav Bar-->
+      <!---------------------------------------->
+      <object id="Nav_output"></object>
+      <br />
+
+      <h1 class="header">Alchemical Wonders</h1>
+      <div class="oval"></div>
+      <br />
+
+      <body onload="randompotion()"></body>
+
+      <div id="photo">
+        <div class="PotionBorder"></div>
+        <div class="potioncontainer">
+          <div class="bodycontainer">
+            <div class="potion-container">
+              <div class="Desc">
+                <h1 class="PotionName" id="PotionTitleOut"></h1>
+                <div class="pdivider"></div>
+                <br />
+                <h2 class="pheader">Description</h2>
+                <p>
+                  <span class="hbody"> <span id="PotionDescOut"></span></span>
+                </p>
+                <h2 class="pheader">Effect</h2>
+                <p>
+                  <span class="hbody"> <span id="PotionEffectOut"></span></span>
+                </p>
+              </div>
+              <div class="Image">
+                <img
+                  src=""
+                  alt="5e Logo"
+                  class="PotionImage"
+                  id="PotionImage"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="PotionBorder"></div>
+      </div>
+      <br />
+
+      <br />
+
+      <!--Footer-->
+      <object id="Ftr_output"></object>
+      <!--END-->
+    </div>
+  </body>
+</html>
+
+<script src="../Library/JavaScript/CoreScripts.js"></script>
+<script src="../Library/JavaScript/html2canvas.js"></script>
+<script src="../Library/JavaScript/PotionsScript.js"></script>
