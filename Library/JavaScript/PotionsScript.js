@@ -25,28 +25,7 @@ function randompotion() {
   ];
   var TypeOut = getRandomItem(Type);
 
-  var Container = [
-    "This conical smooth glass bottle",
-    "This square glass bottle",
-    "This not quite watertight leather waterskin",
-    "This stone flask",
-    "This metal thermos",
-    "This glass syringe",
-    "This small medical vial",
-    "This small shot sized bottle",
-    "This large metal bottle",
-    "This capped horn",
-    "This ornate very decorated glass bottle",
-    "This geometric diamond shaped bottle",
-    "This translucent long wine bottle",
-    "This translucent beer bottle",
-    "This leather pouch",
-    "This coloured bottle",
-    "This bone flask",
-    "This small metal vial",
-    "This large bottle that can be swigged several times",
-  ];
-  var ContainerOut = getRandomItem(Container);
+  document.getElementById("PotionTypeOut").innerHTML = TypeOut;
 
   var MainEffectTitle = [
     "Healing",
@@ -235,12 +214,12 @@ function randompotion() {
         "Makes the enemies take damage as they deal it to the user",
       Invisibility: "Makes the user invisible",
       "Wild Magic":
-        "Taps into wild magic making an absolutely random thing happen",
+        "Taps into wild magic making an absolutely random things happen",
       Fame: "Makes the user more famous",
       "Goats Trek":
         "Makes the user immune to the toils of long travels and bad weather",
       "Gargoyle Toughness": "Increases the users constitution",
-      "Atomic Clock": "Lets the user know the exact tme and date",
+      "Atomic Clock": "Lets the user know the exact time and date",
       Transmutation:
         "Lets the user have the ability to change somethings properties",
       "Iron Skin": "Turns the users skin to metal giving them many resistances",
@@ -345,7 +324,7 @@ function randompotion() {
     "the urge to fight",
     "the need to make friends",
     "nausea",
-    "mood swings",
+    "violent mood swings",
     "addiction",
     "alcoholism",
     "drunkeness",
@@ -359,12 +338,57 @@ function randompotion() {
   ];
   var SideEffectOut = getRandomItem(SideEffect);
 
+  var DurationClock = ["Minute(s)", "Hour(s)", "Day(s)"];
+  var DurationClockOut1 = getRandomItem(DurationClock);
+  var DurationClockOut2 = getRandomItem(DurationClock);
+
+  var DurationMins = ["10", "20", "30", "40", "50"];
+  var DurationHours = [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+  ];
+  var DurationDays = ["1", "2", "3", "4"];
+
+  if (DurationClockOut1 == "Minute(s)") {
+    var DurationTimeOut1 = getRandomItem(DurationMins);
+  } else if (DurationClockOut1 == "Hour(s)") {
+    var DurationTimeOut1 = getRandomItem(DurationHours);
+  } else {
+    var DurationTimeOut1 = getRandomItem(DurationDays);
+  }
+
+  if (DurationClockOut2 == "Minute(s)") {
+    var DurationTimeOut2 = getRandomItem(DurationMins);
+  } else if (DurationClockOut2 == "Hour(s)") {
+    var DurationTimeOut2 = getRandomItem(DurationHours);
+  } else {
+    var DurationTimeOut2 = getRandomItem(DurationDays);
+  }
+
   if (SideEffectOut == "Nothing bad at all!") {
     var SideEffectsSentence =
       "This " + TypeOut + " has no negative side effects.";
   } else {
     var SideEffectsSentence =
-      "This " + TypeOut + " also causes " + SideEffectOut + " (temporarily).";
+      "This " +
+      TypeOut +
+      " also causes " +
+      SideEffectOut +
+      " for " +
+      DurationTimeOut2 +
+      " " +
+      DurationClockOut2 +
+      ".";
   }
 
   var Appearance1 = [
@@ -377,8 +401,6 @@ function randompotion() {
     "light blue",
     "white",
     "black",
-    "dark grey",
-    "light grey",
     "yellow",
     "gold",
     "bronze",
@@ -597,7 +619,7 @@ function randompotion() {
     "a note saying that it never should have been made and copius blood stains over the bottle.",
     "it says youre being watched. when the person checks it instead says just kidding.",
     "its description in druidic.",
-    "its description in orcish",
+    "its description in orcish.",
     "its description in goblin.",
     "its description in halfling.",
     "its description in celestial.",
@@ -640,24 +662,22 @@ function randompotion() {
   function checkcolour(colour) {
     var checkcolour = "";
     var lookup = {
-      clear: "../library/PotionAssets/TealBottle1.png",
-      blue: "../library/PotionAssets/BlueBottle2.png",
-      green: "../library/PotionAssets/GreenBottle1.jpeg",
-      red: "../library/PotionAssets/RedBottle2.png",
-      "pale green": "../library/PotionAssets/GreenBottle1.jpeg",
-      pink: "../library/PotionAssets/TealBottle1.png",
-      "light blue": "../library/PotionAssets/TealBottle1.png",
-      white: "../library/PotionAssets/TealBottle1.png",
-      black: "../library/PotionAssets/TealBottle1.png",
-      "dark grey": "../library/PotionAssets/TealBottle1.png",
-      "light grey": "../library/PotionAssets/TealBottle1.png",
-      yellow: "../library/PotionAssets/TealBottle1.png",
-      gold: "../library/PotionAssets/TealBottle1.png",
-      bronze: "../library/PotionAssets/TealBottle1.png",
-      metallic: "../library/PotionAssets/TealBottle1.png",
-      purple: "../library/PotionAssets/PurpleBottle1.webp",
-      brown: "../library/PotionAssets/TealBottle1.png",
-      "dark red": "../library/PotionAssets/RedBottle1.png",
+      clear: "../library/PotionAssets/Clear1.png",
+      blue: "../library/PotionAssets/Blue1.png",
+      green: "../library/PotionAssets/Green1.png",
+      red: "../library/PotionAssets/Red1.png",
+      "pale green": "../library/PotionAssets/PaleGreen1.png",
+      pink: "../library/PotionAssets/Pink1.png",
+      "light blue": "../library/PotionAssets/Cyan1.png",
+      white: "../library/PotionAssets/White1.png",
+      black: "../library/PotionAssets/Black1.png",
+      yellow: "../library/PotionAssets/Yellow1.png",
+      gold: "../library/PotionAssets/Gold1.png",
+      bronze: "../library/PotionAssets/Bronze1.png",
+      metallic: "../library/PotionAssets/Metallic1.png",
+      purple: "../library/PotionAssets/Purple1.png",
+      brown: "../library/PotionAssets/Brown1.png",
+      "dark red": "../library/PotionAssets/DarkRed1.png",
     };
     checkcolour = lookup[colour];
     console.log("Effect Colour: ", checkcolour);
@@ -672,8 +692,9 @@ function randompotion() {
   document.getElementById("PotionTitleOut").innerHTML = PotionTitleOut;
   //Potion Description
   var PotionDescOut =
-    ContainerOut +
-    " contains a " +
+    "This glass " +
+    TypeOut +
+    " bottle contains a " +
     AppearanceOut1 +
     " liquid with " +
     AppearanceOut2 +
@@ -695,6 +716,10 @@ function randompotion() {
     TypeOut +
     " it " +
     MainEffectBodyOut +
+    " for " +
+    DurationTimeOut1 +
+    " " +
+    DurationClockOut1 +
     ". " +
     SideEffectsSentence;
   document.getElementById("PotionEffectOut").innerHTML = PotionEffectOut;

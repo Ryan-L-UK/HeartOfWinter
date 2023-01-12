@@ -22,7 +22,7 @@
   width: 100%;
   align-items: center;
   justify-items: center;
-  border-bottom: 2px solid #63cfc0;
+  border-bottom: 2px solid #9d0661;
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.5);
   margin: 0;
 }
@@ -109,5 +109,5 @@ p.footer {
   justify-items: center;
   margin: 0;
   padding: 0;
-  filter: hue-rotate(180deg);
+  filter: hue-rotate(280deg);
 }

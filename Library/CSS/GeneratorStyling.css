@@ -1,17 +1,24 @@
 /*-----------------------------------------------------------*/
+/*-----------------------------------------------------------*/
 /*Main Containers*/
 /*-----------------------------------------------------------*/
+/*-----------------------------------------------------------*/
+html,
+.container,
+.framecontainer,
+.dreamcontainer {
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0;
+}
 html {
   background: #14171b;
   height: 100%;
   width: 100%;
   margin: auto;
-  padding: 0;
   background-image: url(../BackgroundParchment/BackgroundImage.jpg);
-  background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: top;
-  background-size: cover;
 }
 .container {
   display: flex;
@@ -19,147 +26,116 @@ html {
   width: 1250px;
   height: fit-content;
   margin: 4% auto 0;
-  padding: 0;
   align-items: center;
-  justify-items: center;
   background-image: url(../BackgroundParchment/dmg_background_base.png);
   background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
-
-/*This replaces Item, Monster & Spell Containers*/
-.framecontainer,
-.dreamcontainer {
-  width: 490px;
-  align-items: center;
-  justify-items: center;
-  display: block;
-  margin: 0 auto;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.framecontainer {
-  background-image: url(../BackgroundParchment/sword_meow_background_base.png);
-  color: #000;
-}
-
-/*This replaces Item, Monster & Spell Containers*/
-.dreamcontainer {
-  background-image: url(../BackgroundParchment/DreamShellBackground.jpeg);
-  color: #fff;
-}
-
-/*This replaces Item, Monster & Spell Containers*/
-.shipcontainer {
-  width: 800px;
-  align-items: center;
-  justify-items: center;
-  display: block;
-  margin: 0 auto;
-  background-image: url(../BackgroundParchment/sword_meow_background_base.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: #000;
-}
-
-/*This replaces Item, Monster & Spell Containers*/
-.potioncontainer {
-  width: 800px;
-  align-items: center;
-  justify-items: center;
-  display: block;
-  margin: 0 auto;
-
-  background-image: url(../BackgroundParchment/phb_background_base.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: #000;
-}
-
 .bodycontainer {
   padding: 2%;
 }
-
 object {
   margin: 0;
   padding: 0;
   width: 100%;
 }
 /*-----------------------------------------------------------*/
+.framecontainer,
+.dreamcontainer,
+.shipcontainer,
+.potioncontainer {
+  align-items: center;
+  display: block;
+  margin: 0 auto;
+  background-position: center;
+}
+.framecontainer,
+.dreamcontainer {
+  width: 490px;
+}
+.framecontainer {
+  background-image: url(../BackgroundParchment/sword_meow_background_base.png);
+  color: #000;
+}
+.dreamcontainer {
+  background-image: url(../BackgroundParchment/DreamShellBackground.jpeg);
+  color: #fff;
+}
+.shipcontainer,
+.potioncontainer {
+  width: 800px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #000;
+}
+.shipcontainer {
+  background-image: url(../BackgroundParchment/sword_meow_background_base.png);
+}
+.potioncontainer {
+  background-image: url(../BackgroundParchment/phb_background_base.png);
+}
+/*-----------------------------------------------------------*/
+/*-----------------------------------------------------------*/
 /*Grid Containers */
 /*-----------------------------------------------------------*/
-.main-container {
-  display: grid;
-  width: 100%;
-  justify-content: space-evenly;
-  align-content: space-evenly;
-  column-gap: 0.2%;
-  grid-template-columns: auto;
-  grid-auto-flow: row;
-  grid-template-areas: "Form Output";
-}
-
-.potion-container {
-  display: grid;
-  width: 100%;
-  justify-content: space-evenly;
-  align-content: space-evenly;
-  column-gap: 0.2%;
-  grid-template-columns: 60% 35%;
-  grid-auto-flow: row;
-  grid-template-areas: "Desc Image";
-}
-
+/*-----------------------------------------------------------*/
+.main-container,
+.potion-container,
 .stat-container {
   display: grid;
   width: 100%;
   justify-content: space-evenly;
   align-content: space-evenly;
   column-gap: 0.2%;
-  grid-template-columns: auto;
   grid-auto-flow: row;
+}
+.main-container {
+  grid-template-columns: auto;
+  grid-template-areas: "Form Output";
+}
+.potion-container {
+  grid-template-columns: 60% 35%;
+  grid-template-areas: "Desc Image";
+}
+.stat-container {
+  grid-template-columns: auto;
   grid-template-areas: "STR DEX CON INT WIS CHA" "STRn DEXn CONn INTn WISn CHAn";
 }
-
+/*-----------------------------------------------------------*/
 .CHA,
 .CON,
 .DEX,
 .INT,
 .STR,
-.WIS {
-  justify-items: center;
-  align-items: center;
-  font-weight: 700;
-  margin: auto;
-}
+.WIS,
 .CHAn,
 .CONn,
 .DEXn,
 .INTn,
 .STRn,
 .WISn {
-  justify-items: center;
   align-items: center;
   margin: auto;
 }
-
+.CHA,
+.CON,
+.DEX,
+.INT,
+.STR,
+.WIS {
+  font-weight: 700;
+}
+/*-----------------------------------------------------------*/
 /*-----------------------------------------------------------*/
 /*Buttons & Inputs */
+/*-----------------------------------------------------------*/
 /*-----------------------------------------------------------*/
 .submitmonster,
 .submitspell,
 .submititem,
-.submitdream,
-.submitship {
+.submitdream {
   color: #fff;
   padding: 7px 10px;
   text-align: center;
-  justify-items: center;
   align-items: center;
   text-decoration: none;
   font-size: 16px;
@@ -169,7 +145,6 @@ object {
   width: 150px;
   font-family: Garamond, serif;
 }
-
 .submititem {
   background: linear-gradient(
     180deg,
@@ -191,11 +166,6 @@ object {
     rgba(58, 25, 59, 1) 98%
   );
 }
-
-.submitship {
-  background: linear-gradient(180deg, rgb(168, 115, 2) 0, rgb(59, 37, 25) 98%);
-}
-
 .submitdream {
   background: linear-gradient(
     180deg,
@@ -203,71 +173,75 @@ object {
     rgb(63, 63, 63) 98%
   );
 }
-
 .submititem:hover,
 .submitspell:hover,
 .submitmonster:hover,
-.shipbutton:hover,
 .submitdream:hover {
   color: #000;
 }
-
-.sline {
-  display: flex;
-  height: auto;
-  width: 100%;
-  align-items: center;
-  justify-items: center;
-  border-bottom: 2px solid #484848;
-  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.5);
-  margin: 0;
-}
-
+/*-----------------------------------------------------------*/
 input[type="text"] {
   box-sizing: border-box;
   width: 100%;
 }
-
+/*-----------------------------------------------------------*/
 /*-----------------------------------------------------------*/
 /*Font Styling*/
 /*-----------------------------------------------------------*/
-
+/*-----------------------------------------------------------*/
+@font-face {
+  font-family: Solbera Imitation;
+  src: local("Solbera Imitation"),
+    url("../Fonts/Solbera\ Imitation\ Display.otf");
+}
+/*-----------------------------------------------------------*/
+.DropCap {
+  background-image: url(../ImageAssets/T.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  float: left;
+  font-size: 10rem;
+  line-height: 0.6;
+  color: transparent;
+  margin-right: -0.1em;
+}
+/*-----------------------------------------------------------*/
 h1.header,
 h1.itemheading,
 h1.monstername,
 h1.spellname,
 h1.PotionName,
+h1.dreamname,
+h1.shipheading,
 h2.header,
 h2.itemtype,
 h2.monstertype,
 h2.spelltype,
-h3.weapon,
-h1.dreamname,
-h1.shipheading {
+h3.weapon {
   font-family: Garamond, serif;
 }
-
-h1.header,
-h2.header {
+/*-----------------------------------------------------------*/
+h1.header {
   color: #0f4025;
   margin-top: 0;
   margin-bottom: 0;
-}
-
-h1.header {
   font-size: 3.75em;
   text-align: center;
   align-items: center;
 }
-
-h1.itemheading {
+h1.itemheading,
+h1.monstername,
+h1.spellname,
+h1.shipname,
+h1.PotionName {
   text-align: left;
+}
+h1.itemheading {
   font-size: 1.6em;
   margin: 0 1.5%;
   padding-top: 1%;
 }
 h1.monstername {
-  text-align: left;
   font-size: 1.6em;
   margin: 0;
   padding-top: 1%;
@@ -287,21 +261,24 @@ h1.dreamname {
   padding-top: 0;
 }
 h1.shipname {
-  text-align: left;
   font-size: 2.4em;
   margin-top: 0;
   margin-bottom: 10px;
   padding-top: 0;
 }
 h1.PotionName {
-  text-align: left;
   font-size: 1.5em;
   margin-top: 0;
   margin-bottom: 10px;
   padding-top: 0;
   color: #8b0000;
 }
-
+/*-----------------------------------------------------------*/
+h2.header {
+  color: #0f4025;
+  margin-top: 0;
+  margin-bottom: 0;
+}
 h2.header,
 h2.iheader,
 h2.mheader,
@@ -310,16 +287,13 @@ h2.dheader {
   text-align: left;
   align-items: left;
 }
-
 h2.header {
   border-bottom: 3px solid #c0ad6a;
 }
-
 h2.mheader {
   color: black;
   border-bottom: 3px solid #1d6673;
 }
-
 h2.iheader {
   color: black;
   border-bottom: 3px solid #760d81;
@@ -333,7 +307,6 @@ h2.pheader {
   font-size: 1.25em;
   border-bottom: 3px solid #8b0000;
 }
-
 h2.itemtype {
   text-align: left;
   font-size: 1em;
@@ -353,13 +326,12 @@ h2.spelltype {
   margin: 0;
   padding: 0;
 }
-
+/*-----------------------------------------------------------*/
 h3.weapon {
   text-align: right;
   font-size: 1em;
   margin: 0 1.5% 1%;
 }
-
 p.footer {
   width: 80%;
   text-align: center;
@@ -381,7 +353,6 @@ p.itemfooter {
   margin: 0 1.5%;
   padding-bottom: 1%;
 }
-
 p.subheading {
   width: 80%;
   text-align: center;
@@ -391,36 +362,16 @@ p.subheading {
   margin-top: 0;
   font-size: 1.25em;
 }
-
 p.status {
   text-align: left;
   margin-bottom: 5px;
   margin-top: 5px;
 }
-
-/*replaces monster body and bold, and spell body and bold */
 .sbody {
   text-align: left;
   font-size: 1em;
   padding-bottom: 0;
 }
-@font-face {
-  font-family: Solbera Imitation;
-  src: local("Solbera Imitation"),
-    url("../Fonts/Solbera\ Imitation\ Display.otf");
-}
-
-.DropCap {
-  background-image: url(../ImageAssets/T.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  float: left;
-  font-size: 10rem;
-  line-height: 0.6;
-  color: transparent;
-  margin-right: -0.1em;
-}
-
 .hbody {
   text-align: left;
   font-size: 1.2em;
@@ -433,7 +384,6 @@ p.status {
   font-weight: 700;
   padding-bottom: 0;
 }
-
 .cClass {
   padding: 0;
   background-color: #760d81;
@@ -453,12 +403,11 @@ p.status {
   align-items: right;
   justify-items: right;
 }
-
+/*-----------------------------------------------------------*/
 /*-----------------------------------------------------------*/
 /*Dividers & Other Assets*/
 /*-----------------------------------------------------------*/
-
-/*new divider classes*/
+/*-----------------------------------------------------------*/
 .mborder,
 .iborder,
 .sborder,
@@ -469,12 +418,10 @@ p.status {
   background-repeat: no-repeat;
   background-size: cover;
   align-items: center;
-  justify-items: center;
   display: block;
   margin: 0;
   border: 2px solid #000;
 }
-
 .mborder {
   background-image: url(../ImageAssets/GeneratorBorderMonster.jpeg);
 }
@@ -494,13 +441,11 @@ p.status {
   background-repeat: no-repeat;
   background-size: cover;
   align-items: center;
-  justify-items: center;
   display: block;
   margin: 0;
   border: 2px solid #000;
   background-image: url(../ImageAssets/GeneratorBorderDream.png);
 }
-
 .PotionBorder {
   height: 6px;
   width: 825px;
@@ -508,11 +453,29 @@ p.status {
   background-repeat: no-repeat;
   background-size: cover;
   align-items: center;
-  justify-items: center;
   display: block;
   margin: 0;
   border: 2px solid #000;
   background-image: url(../ImageAssets/GeneratorBorderAlchemy.webp);
+}
+.mdivider,
+.sdivider,
+.pdivider {
+  margin: 4px auto;
+  width: 0;
+  height: 0;
+  border-top: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  align-items: center;
+}
+.mdivider {
+  border-left: 475px solid #1d6673;
+}
+.sdivider {
+  border-left: 475px solid #54062b;
+}
+.pdivider {
+  border-left: 475px solid #8b0000;
 }
 .oval {
   margin: 2px auto;
@@ -525,39 +488,24 @@ p.status {
 .logo {
   width: 100%;
   align-items: center;
-  justify-items: center;
   margin: 0;
   padding: 0;
 }
-.mdivider,
-.sdivider,
-.pdivider {
-  margin: 4px auto;
-  width: 0;
-  height: 0;
-  border-top: 3px solid transparent;
-  border-bottom: 3px solid transparent;
+.sline {
+  display: flex;
+  height: auto;
+  width: 100%;
   align-items: center;
-  justify-items: center;
+  border-bottom: 2px solid #484848;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.5);
+  margin: 0;
 }
-.mdivider {
-  border-left: 475px solid #1d6673;
-}
-.sdivider {
-  border-left: 475px solid #54062b;
-}
-.pdivider {
-  border-left: 475px solid #8b0000;
-}
-
 .shipfooter {
   width: 100%;
   align-items: center;
-  justify-items: center;
   margin: 0;
   padding: 0;
 }
-
 .PotionImage {
   mix-blend-mode: multiply;
   width: 100%;

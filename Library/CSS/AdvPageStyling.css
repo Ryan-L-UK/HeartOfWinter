@@ -151,3 +151,12 @@ p.footer {
 .listbox {
   width: 250px;
 }
+
+.CritFail {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  width: 825px;
+  justify-items: center;
+  align-items: center;
+}
