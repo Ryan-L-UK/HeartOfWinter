@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="../Library/CSS/iFramePageStyling.css" />
+    <link rel="stylesheet" href="../Library/CSS/CoreStyling.css" />
+    <link rel="stylesheet" href="../Library/CSS/ObjectStyling.css" />
 
     <title>The Elfsong Tavern</title>
     <link
@@ -24,17 +25,150 @@
       <object id="Nav_output"></object>
       <br />
       <br />
-      <h1>Gods, Demigods & Pantheons</h1>
+      <h1>Map of Gullet Cove</h1>
       <p class="subheading">
-        Throughout the history of Faer&#251;n, many cultures have claimed their
-        pantheon is correct. Here is a brief history on each of diety and who
-        generally looks upon them.
+        Found on the east side of the Moonshae Isles is Gullet Cove, a city on
+        the coast of the Sea of Swords.
       </p>
       <div class="divider"></div>
-      body
+      <br />
+      <br />
+      <img
+        src="../Sources/Gullet Cove Map/00_Maps.png"
+        class="mapstyle"
+        usemap="#gullet-map"
+      />
+      <map name="gullet-map">
+        <area
+          class="mapbutton"
+          title="The Old Lighthouse"
+          href="../Sources/Gullet Cove Map/TheOldLighthouse.html"
+          coords="696,608,34"
+          shape="circle"
+        />
+        <area
+          class="mapbutton"
+          title="Main Harbour"
+          href="../Sources/Gullet Cove Map/MainHarbour.html"
+          coords="609,787,58"
+          shape="circle"
+        />
+        <area
+          class="mapbutton"
+          title="Golden Collar"
+          href="../Sources/Gullet Cove Map/GoldenCollar.html"
+          coords="408,267,57"
+          shape="circle"
+        />
+        <area
+          class="mapbutton"
+          title="Temple and Grand Library"
+          href="../Sources/Gullet Cove Map/TempleAndLibrary.html"
+          coords="910,302,65"
+          shape="circle"
+        />
+        <area
+          class="mapbutton"
+          title="The Scratching Post"
+          href="../Sources/Gullet Cove Map/TheScratchingPost.html"
+          coords="354,482,33"
+          shape="circle"
+        />
+        <area
+          class="mapbutton"
+          title="The Murky Retreat"
+          href="../Sources/Gullet Cove Map/TheMurkyRetreat.html"
+          coords="469,637,36"
+          shape="circle"
+        />
+        <area
+          class="mapbutton"
+          title="The Silver Sovereign"
+          href="../Sources/Gullet Cove Map/TheSilverSovereign.html"
+          coords="960,579,34"
+          shape="circle"
+        />
+        <area
+          class="mapbutton"
+          title="The Water Bowl"
+          href="../Sources/Gullet Cove Map/TheWaterBowl.html"
+          coords="771,532,28"
+          shape="circle"
+        />
+        <area
+          class="mapbutton"
+          title="City Council"
+          href="../Sources/Gullet Cove Map/CityCouncil.html"
+          coords="1067,551,30"
+          shape="circle"
+        />
+        <area
+          class="mapbutton"
+          title="Grimmsmouth Hall"
+          href="../Sources/Gullet Cove Map/GrimmsmouthHall.html"
+          coords="1119,505,41"
+          shape="circle"
+        />
+        <area
+          class="mapbutton"
+          title="The Market District"
+          href="../Sources/Gullet Cove Map/TheMarketDistrict.html"
+          coords="491,301,335,396,449,477,595,377"
+          shape="poly"
+        />
+        <area
+          class="mapbutton"
+          title="Thieves Guild"
+          href="../Sources/Gullet Cove Map/ThievesGuild.html"
+          coords="278,270,29"
+          shape="circle"
+        />
+        <area
+          class="mapbutton"
+          title="Seafarers Guild"
+          href="../Sources/Gullet Cove Map/SeafarersGuild.html"
+          coords="441,742,28"
+          shape="circle"
+        />
+        <area
+          class="mapbutton"
+          title="Adventurers Guild"
+          href="../Sources/Gullet Cove Map/AdventurersGuild.html"
+          coords="1148,249,43"
+          shape="circle"
+        />
+        <area
+          class="mapbutton"
+          title="Wizards Tower"
+          href="../Sources/Gullet Cove Map/WizardsTower.html"
+          coords="1192,830,36"
+          shape="circle"
+        />
+        <area
+          class="mapbutton"
+          title="Seilf Emit"
+          href="../Sources/Gullet Cove Map/SeilfEmit.html"
+          coords="519,478,38"
+          shape="circle"
+        />
+        <area
+          class="mapbutton"
+          title="Graveyard"
+          href="../Sources/Gullet Cove Map/Graveyard.html"
+          coords="1021,165,1081,266"
+          shape="rect"
+        />
+      </map>
+      <img src="../library/ImageAssets/HarbourFooter.png" class="shipfooter" />
+
+      <!---------------------------------------->
+      <!--Nav Bar-->
+      <!---------------------------------------->
+      <object class="LocationOutput" id="Loc_output"></object>
 
       <br />
       <br />
+
       <!--Footer-->
       <object id="Ftr_output"></object>
 
@@ -44,3 +178,4 @@
 </html>
 
 <script src="../Library/JavaScript/CoreScripts.js"></script>
+<script src="../Library/JavaScript/Map.js"></script>
