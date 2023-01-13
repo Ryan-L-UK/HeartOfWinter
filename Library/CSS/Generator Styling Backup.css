@@ -183,7 +183,7 @@ object {
   margin-right: -0.1em;
 }
 /*-----------------------------------------------------------*/
-/*NEW MASTER*/
+/*NEW Styling*/
 /*-----------------------------------------------------------*/
 h1.mainheading,
 p.subheading {
@@ -279,7 +279,11 @@ h1.PotionName {
   color: #8b0000;
 }
 /*-----------------------------------------------------------*/
-
+h2.header {
+  color: #0f4025;
+  margin-top: 0;
+  margin-bottom: 0;
+}
 h2.header,
 h2.iheader,
 h2.mheader,
@@ -289,9 +293,6 @@ h2.dheader {
   align-items: left;
 }
 h2.header {
-  color: #0f4025;
-  margin-top: 0;
-  margin-bottom: 0;
   border-bottom: 3px solid #c0ad6a;
 }
 h2.mheader {
@@ -311,20 +312,22 @@ h2.pheader {
   font-size: 1.25em;
   border-bottom: 3px solid #8b0000;
 }
-h2.itemtype,
-h2.monstertype,
+h2.itemtype {
+  text-align: left;
+  font-size: 1em;
+  font-style: italic;
+  margin: 0 1.5% 1%;
+}
+h2.monstertype {
+  text-align: left;
+  font-size: 1em;
+  font-style: italic;
+  margin: 0;
+}
 h2.spelltype {
   text-align: left;
   font-size: 1em;
   font-style: italic;
-}
-h2.itemtype {
-  margin: 0 1.5% 1%;
-}
-h2.monstertype {
-  margin: 0;
-}
-h2.spelltype {
   margin: 0;
   padding: 0;
 }
@@ -466,17 +469,7 @@ input[type="text"] {
   box-sizing: border-box;
   width: 100%;
 }
-input[type="checkbox"] {
-  float: right;
-}
-.quotetick {
-  float: right;
-}
-.quotetext {
-  text-align: center;
-  font-style: italic;
-  font-size: 1.2em;
-}
+
 /*-----------------------------------------------------------*/
 /*-----------------------------------------------------------*/
 /*Dividers & Other Assets*/
@@ -485,9 +478,7 @@ input[type="checkbox"] {
 .mborder,
 .iborder,
 .sborder,
-.dborder,
-.ShipBorder,
-.PotionBorder {
+.dborder {
   height: 6px;
   width: 500px;
   background-position: center;
@@ -497,22 +488,6 @@ input[type="checkbox"] {
   display: block;
   margin: 0;
   border: 2px solid #000;
-}
-.ShipBorder,
-.PotionBorder {
-  width: 825px;
-}
-.ShipBorder {
-  background-image: url(../ImageAssets/GeneratorBorderDream.png);
-}
-.PotionBorder {
-  background-image: url(../ImageAssets/GeneratorBorderAlchemy.webp);
-}
-.mborder,
-.iborder,
-.sborder,
-.dborder {
-  width: 500px;
 }
 .mborder {
   background-image: url(../ImageAssets/GeneratorBorderMonster.jpeg);
@@ -526,7 +501,30 @@ input[type="checkbox"] {
 .dborder {
   background-image: url(../ImageAssets/GeneratorBorderDream.png);
 }
-/*-----------------------------------------------------------*/
+.ShipBorder {
+  height: 6px;
+  width: 825px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  display: block;
+  margin: 0;
+  border: 2px solid #000;
+  background-image: url(../ImageAssets/GeneratorBorderDream.png);
+}
+.PotionBorder {
+  height: 6px;
+  width: 825px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  display: block;
+  margin: 0;
+  border: 2px solid #000;
+  background-image: url(../ImageAssets/GeneratorBorderAlchemy.webp);
+}
 .mdivider,
 .sdivider,
 .pdivider {
@@ -546,7 +544,20 @@ input[type="checkbox"] {
 .pdivider {
   border-left: 475px solid #8b0000;
 }
-/*-----------------------------------------------------------*/
+.oval {
+  margin: 2px auto;
+  height: 5px;
+  width: 450px;
+  background-color: #c0ad6a;
+  border-radius: 150%;
+  align-items: center;
+}
+.logo {
+  width: 100%;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
 .sline {
   display: flex;
   height: auto;
@@ -562,7 +573,6 @@ input[type="checkbox"] {
   margin: 0;
   padding: 0;
 }
-/*-----------------------------------------------------------*/
 .PotionImage {
   mix-blend-mode: multiply;
   width: 100%;

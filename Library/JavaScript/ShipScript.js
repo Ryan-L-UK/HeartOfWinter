@@ -154,7 +154,7 @@ function randomship() {
     "Rats Nest",
     "Evader",
     "Mistreaver",
-    "Ven’r",
+
     "Vicious",
     "Dream of Melora",
     "Shensari",

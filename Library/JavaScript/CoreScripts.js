@@ -54,6 +54,7 @@ fetch("http://localhost:8080/Footer.html")
 //iFrame Watcher
 //-----------------------------------------
 
+/*
 //get all buttons and iterate through them (not i have added a class to only get youtube buttons
 document.querySelectorAll(".youtube").forEach((element) => {
   //add an event listener to each one
@@ -66,6 +67,7 @@ document.querySelectorAll(".youtube").forEach((element) => {
       .setAttribute("src", event.target.getAttribute("href"));
   });
 });
+*/
 
 //-----------------------------------------
 //HTML2Canvas Columns

@@ -1,19 +1,17 @@
 /*-----------------------------------------------------------*/
-/*-----------------------------------------------------------*/
 /*Main Containers*/
-/*-----------------------------------------------------------*/
 /*-----------------------------------------------------------*/
 html {
   background: #14171b;
   height: 100%;
   width: 100%;
   margin: auto;
-  padding: 0;
-  background-image: url(../BackgroundParchment/BackgroundImage.jpg);
-  background-repeat: no-repeat;
+  background-image: url(../BackgroundParchment/BackgroundImage.jpeg);
   background-attachment: fixed;
   background-position: top;
+  background-repeat: no-repeat;
   background-size: cover;
+  padding: 0;
 }
 .container {
   display: flex;
@@ -21,6 +19,8 @@ html {
   width: 1250px;
   height: fit-content;
   margin: 4% auto 0;
+  align-items: center;
+  color: #fff;
   padding: 0;
   background-image: url(../BackgroundParchment/dmg_background_base.png);
   background-position: top;
@@ -29,27 +29,35 @@ html {
 }
 /*-----------------------------------------------------------*/
 /*-----------------------------------------------------------*/
-/*Grid Containers */
+/*Images & Other Assets*/
 /*-----------------------------------------------------------*/
 /*-----------------------------------------------------------*/
-.main-container {
-  display: grid;
+.masthead,
+object {
   width: 100%;
-  justify-content: space-evenly;
-  align-content: space-evenly;
-  column-gap: 3%;
-  grid-auto-flow: row;
-  grid-template-columns: 30% 30% 30%;
-  grid-template-areas: "left centre right";
+  margin: 0;
+  padding: 0;
 }
-
-.left,
-.centre,
-.right {
-  text-align: center;
+.masthead {
+  align-items: center;
+  justify-items: center;
+}
+.divider {
+  margin: 0 auto;
+  height: 3px;
+  width: 650px;
+  background-color: #860954;
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.5);
   align-items: center;
 }
-
+.underline {
+  margin: 0 auto;
+  height: 3px;
+  width: 300px;
+  background-color: #860954;
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.5);
+  align-items: center;
+}
 /*-----------------------------------------------------------*/
 /*-----------------------------------------------------------*/
 /*Font Styling*/
@@ -63,83 +71,55 @@ html {
   font-family: MoonDance;
   src: local("Moon Dance"), url("../Fonts/MoonDance-Regular.ttf");
 }
-@font-face {
-  font-family: Solbera Imitation;
-  src: local("Solbera Imitation"),
-    url("../Fonts/Solbera\ Imitation\ Display.otf");
-}
-
-h1.header,
-h2.header {
-  color: #0f4025;
-  margin-top: 0;
+h1 {
+  text-align: center;
+  align-items: center;
   margin-bottom: 0;
-}
-h1.header {
   font-family: Cinzel1;
-  font-weight: bold;
   text-transform: capitalize;
   font-variant: small-caps;
-  font-size: 4.25em;
-  text-align: center;
-  align-items: center;
-}
-h2.header {
-  font-family: Garamond, serif;
-  font-size: 1.75em;
-  text-align: left;
-  align-items: left;
-  border-bottom: 3px solid #c0ad6a;
+  color: #860954;
+  font-weight: bold;
+  font-size: 4.4em;
+  margin-top: 0;
 }
 p.subheading {
-  width: 60%;
+  width: 50%;
+  color: #000;
+  margin: 0 auto;
   text-align: center;
   align-items: center;
   font-family: Lora, Times, serif;
-  color: #000;
-  margin: 0 auto;
   font-size: 1.25em;
+  margin-bottom: 15px;
 }
-.quote {
-  width: 60%;
-  text-align: right;
-  align-items: right;
-  font-family: MoonDance;
-  color: #000;
-  margin: 0 auto;
-  font-size: 1.5em;
-  font-style: italic;
-}
-p.body {
-  text-align: left;
-  font-family: Lora, Times, serif;
-  color: #000;
-  margin: 0 auto;
-  font-size: 1.1em;
-}
-
 /*-----------------------------------------------------------*/
-/*Images & Over Assets*/
 /*-----------------------------------------------------------*/
-.logo {
-  width: 100%;
-  align-items: center;
+/*Buttons & Inputs */
+/*-----------------------------------------------------------*/
+/*-----------------------------------------------------------*/
+.submit {
+  color: #fff;
+  padding: 0px 6px;
+  text-align: center;
   justify-items: center;
-  margin: 0;
-  padding: 0;
-}
-
-.oval {
-  margin: 2px auto;
-  height: 5px;
-  width: 450px;
-  background-color: #c0ad6a;
-  border-radius: 150%;
   align-items: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 4px;
+  display: inline;
+  margin: 0px 10px;
+  width: 150px;
+  font-family: Garamond, serif;
+  background: linear-gradient(
+    180deg,
+    rgb(159, 159, 159) 0,
+    rgb(58, 58, 58) 100%
+  );
 }
-
-object {
-  width: 100%;
-  margin: 0;
-  padding: 0;
+.submit:hover {
+  color: #000;
+}
+.listbox {
+  width: 250px;
 }

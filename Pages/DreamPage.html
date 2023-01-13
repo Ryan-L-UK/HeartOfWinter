@@ -15,23 +15,21 @@
     <div class="container">
       <img
         src="../library/ImageAssets/HeroMasthead.png"
-        alt="5e Logo"
         width="auto"
-        class="logo"
+        class="masthead"
       />
       <!---------------------------------------->
       <!--Nav Bar-->
       <!---------------------------------------->
       <object id="Nav_output"></object>
       <br />
-      <h1 class="header">Dream Shell</h1>
-      <div class="oval"></div>
       <br />
+      <h1 class="mainheading">Dream Shell</h1>
       <p class="subheading">
         Here is a shell generator for dreams to be created in the correct format
         for printing.
       </p>
-
+      <div class="divider"></div>
       <br />
       <button class="submitdream" onclick="showInput();takeshot()">
         Export Dream</button
@@ -48,25 +46,93 @@
                 <br />
 
                 <p>
-                  <label><b>Description P1:</b></label>
+                  <span
+                    ><label><b>Description P1:</b></label
+                    ><input type="checkbox" id="Quote1" /><label
+                      class="quotetick"
+                      ><b>Quote</b></label
+                    ></span
+                  >
                   <textarea id="Desc1_input" cols="56" rows="6"></textarea
                   ><br />
                 </p>
 
                 <p>
-                  <label><b>Description P2:</b></label>
+                  <span
+                    ><label><b>Description P2:</b></label
+                    ><input type="checkbox" id="Quote2" /><label
+                      class="quotetick"
+                      ><b>Quote</b></label
+                    ></span
+                  >
                   <textarea id="Desc2_input" cols="56" rows="6"></textarea
                   ><br />
                 </p>
 
                 <p>
-                  <label><b>Description P3:</b></label>
+                  <span
+                    ><label><b>Description P3:</b></label
+                    ><input type="checkbox" id="Quote3" /><label
+                      class="quotetick"
+                      ><b>Quote</b></label
+                    ></span
+                  >
                   <textarea id="Desc3_input" cols="56" rows="6"></textarea
                   ><br />
                 </p>
                 <p>
-                  <label><b>Description P4:</b></label>
+                  <span
+                    ><label><b>Description P4:</b></label
+                    ><input type="checkbox" id="Quote4" /><label
+                      class="quotetick"
+                      ><b>Quote</b></label
+                    ></span
+                  >
                   <textarea id="Desc4_input" cols="56" rows="6"></textarea
+                  ><br />
+                </p>
+                <p>
+                  <span
+                    ><label><b>Description P5:</b></label
+                    ><input type="checkbox" id="Quote5" /><label
+                      class="quotetick"
+                      ><b>Quote</b></label
+                    ></span
+                  >
+                  <textarea id="Desc5_input" cols="56" rows="6"></textarea
+                  ><br />
+                </p>
+                <p>
+                  <span
+                    ><label><b>Description P6:</b></label
+                    ><input type="checkbox" id="Quote6" /><label
+                      class="quotetick"
+                      ><b>Quote</b></label
+                    ></span
+                  >
+                  <textarea id="Desc6_input" cols="56" rows="6"></textarea
+                  ><br />
+                </p>
+                <p>
+                  <span
+                    ><label><b>Description P7:</b></label
+                    ><input type="checkbox" id="Quote7" /><label
+                      class="quotetick"
+                      ><b>Quote</b></label
+                    ></span
+                  >
+                  <textarea id="Desc7_input" cols="56" rows="6"></textarea
+                  ><br />
+                </p>
+                <p>
+                  <span
+                    ><label><b>Description P8:</b></label
+                    ><input type="checkbox" id="Quote8" /><label
+                      class="quotetick"
+                      ><b>Quote</b></label
+                    ></span
+                  >
+                  <textarea id="Desc8_input" cols="56" rows="6"></textarea
                   ><br />
                 </p>
               </div>
@@ -82,9 +148,8 @@
               <div class="bodycontainer">
                 <img
                   src="../Library/ImageAssets/DreamingMasthead.png"
-                  alt="5e Logo"
                   width="auto"
-                  class="logo"
+                  class="masthead"
                 />
                 <br />
                 <!--Monster NAME-->
@@ -92,12 +157,13 @@
 
                 <!--ITEM DESCRIPTION-->
                 <p class="sbody" id="Desc1_output"></p>
-
                 <p class="sbody" id="Desc2_output"></p>
-
                 <p class="sbody" id="Desc3_output"></p>
-
                 <p class="sbody" id="Desc4_output"></p>
+                <p class="sbody" id="Desc5_output"></p>
+                <p class="sbody" id="Desc6_output"></p>
+                <p class="sbody" id="Desc7_output"></p>
+                <p class="sbody" id="Desc8_output"></p>
               </div>
             </div>
             <div class="dborder"></div>
