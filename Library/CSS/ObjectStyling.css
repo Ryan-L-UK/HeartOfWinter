@@ -120,8 +120,17 @@ li {
   text-align: left;
   align-items: left;
   font-family: Lora, Times, serif;
-  font-size: 1.25em;
-  margin-bottom: 10px;
+  font-size: 1.1em;
+  margin-bottom: 8px;
+}
+ul {
+  color: #000;
+  margin: 0 auto;
+  text-align: left;
+  align-items: left;
+  font-family: Lora, Times, serif;
+  font-size: 1em;
+  margin-bottom: 8px;
 }
 /*-----------------------------------------------------------
 Borders
@@ -250,6 +259,17 @@ input[type="checkbox"] {
 }
 .LocationOutput {
   width: 90%;
+}
+.AdventureOutput {
+  width: 95%;
+}
+li.task-list-item {
+  text-align: left;
+  font-family: Lora, Times, serif;
+  margin: 0 auto;
+  font-size: 1em;
+  margin-bottom: 8px;
+  list-style-type: circle;
 }
 .quotetick {
   float: right;

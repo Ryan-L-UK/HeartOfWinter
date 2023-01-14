@@ -2,6 +2,15 @@
 
 A Central Hub for all the world information for adventures in Gullet Cove and the land of Faerûn. You can also find a collection of useful notes and information here.
 
+## When Pulling Notes From Notion
+
+Run the following find and replaces, replacing with "":
+->class="contains-task-list"
+->class="task-list-item enabled"
+
+And to link any item, creature or other page use the following template:
+http://localhost:8080/Sources/Magic Items/
+
 ## Locations To Write
 
 - The Grand Library (Blank)
@@ -11,22 +20,3 @@ A Central Hub for all the world information for adventures in Gullet Cove and th
 ## Running The Server
 
 To run the server, launch a terminal and run the alias command 'ServerStart' (OSX)
-
-## Setting up Hover URL's
-
-```html
-<a href="#">
-  NAME OF HYPERLINK
-  <span> <img src="URL" /></span
-></a>
-```
-
-      <iframe
-        id="frame"
-        allow="autoplay"
-        width="98%"
-        height=""
-        frameborder="0"
-        src=""
-      >
-      </iframe>

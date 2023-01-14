@@ -24,27 +24,27 @@ function showInput() {
     console.log(advresult);
     AdvOut = advresult;
   }
-
   checkadv(document.getElementById("Adv_input").value);
-  document.getElementById("frame").setAttribute("src", AdvOut);
+  fetch(AdvOut)
+    .then(function (Lresponse) {
+      // When the page is loaded convert it to text
+      return Lresponse.text();
+    })
+    .then(function (AdventureHTML) {
+      // Initialize the DOM parser
+      var parser = new DOMParser();
 
-  function checkheight(height) {
-    var heightresult = "";
-    var lookup = {
-      "": "Error",
-      "Adv 1.1 A Gullet Cove Hello": "2800px",
-      "Adv 2.1 The Tainted Catnip": "5850px",
-      "Adv 2.2 Quest For Atonement": "6750px",
-      "Adv 3.1 The Sleep Of The Dreamless": "5200px",
-      "Adv 3.2 Solstice Shenanigans": "9300px",
-      "Adv 4.1 The Brink Of War": "5000px",
-      "Adv 4.1 The Brink Of War": "5000px",
-    };
-    heightresult = lookup[height];
-    console.log(heightresult);
-    HeightOut = heightresult;
-  }
+      // Parse the text
+      var AdventureDoc = parser.parseFromString(AdventureHTML, "text/html");
 
-  checkheight(document.getElementById("Adv_input").value);
-  document.getElementById("frame").setAttribute("height", HeightOut);
+      // You can now even select part of that html as you would in the regular DOM
+      // Example:
+      var AdventureArticle = AdventureDoc.querySelector("html").innerHTML;
+      document.getElementById("Adv_output").innerHTML = AdventureArticle;
+      console.log(AdventureDoc);
+      console.log("Adventure Loaded Successfully...");
+    })
+    .catch(function (err) {
+      console.log("ERROR: Adventure failed to load: ", err);
+    });
 }

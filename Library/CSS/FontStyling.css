@@ -137,9 +137,6 @@ h1.creaturename,
 h1.spellname,
 h1.PotionName,
 h1.shipname,
-h2.mheader,
-h2.iheader,
-h2.dheader,
 h2.pheader,
 h2.itemtype,
 h2.creaturetype,
@@ -246,18 +243,39 @@ h2.creaturetype,
 h2.spelltype {
   font-style: italic;
 }
-h2.mheader,
-h2.iheader,
-h2.dheader {
-  color: black;
-  font-size: 1.75em;
+/*-----------------------------------------------------------
+LocationStylings
+The site has lots of additional requirements from the various
+locations it uses. here are the controls for each of them. 
+-----------------------------------------------------------*/
+h2.location {
+  color: #000;
+  margin-top: 25px;
+  font-size: 1.6em;
+  text-align: left;
+  align-items: left;
+  margin-bottom: 0;
+  font-family: Cinzel1;
+  text-transform: capitalize;
+  font-variant: small-caps;
 }
-h2.mheader {
-  border-bottom: 3px solid #1d6673;
+h3.location {
+  margin-top: 10px;
+  font-size: 1.5em;
+  margin-bottom: 5px;
+  color: #860954;
+  text-align: left;
+  align-items: left;
+  font-family: Lora, Times, serif;
 }
-h2.iheader {
-  border-bottom: 3px solid #760d81;
-}
-h2.dheader {
-  border-bottom: 3px solid #414141;
+h4.location {
+  margin-top: 10px;
+  font-size: 1.1em;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: #000;
+  text-align: left;
+  align-items: left;
+  font-family: Lora, Times, serif;
 }
