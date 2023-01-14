@@ -176,7 +176,7 @@ function randomship() {
     "Thunderchaser",
     "Heartless",
     "Shrike",
-    "Moraks Boat",
+
     "Mar-Turang",
     "Will-o’-wisp",
     "Asha-Naga",

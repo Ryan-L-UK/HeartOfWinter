@@ -283,7 +283,7 @@ function randompotion() {
     "a loss of strength",
     "a loss of speed",
     "a loss of charisma",
-    "sudden moustache",
+    "a sudden moustache",
     "fidgeting",
     "itchiness",
     "baldness",

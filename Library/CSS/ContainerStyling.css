@@ -1,0 +1,169 @@
+/*-----------------------------------------------------------
+Main Containers
+These are the main containers which power the entire site:
+-The HTML container is designed to power the backdrop and general sizes and colour. 
+-The container is then what limits the sites width and margins. Every page should be contained within this. 
+-Body containter is used only for the margin inside any of the shell generators to prevent edge to edge. 
+-----------------------------------------------------------*/
+html {
+  background: #14171b;
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  background-image: url(../BackgroundParchment/BackgroundImage.jpeg);
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 1250px;
+  height: fit-content;
+  margin: 4% auto 0;
+  align-items: center;
+  background-image: url(../BackgroundParchment/dmg_background_base.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0;
+}
+.bodycontainer {
+  padding: 2%;
+}
+/*-----------------------------------------------------------
+Grid Containers
+These are the various grid containers used across the site:
+-Main Containter is used on the home page to split the three columns of icons apart from one another. 
+-Generator container, potion container and stat containers are all used on the shell generators.
+-----------------------------------------------------------*/
+.main-container {
+  display: grid;
+  width: 100%;
+  justify-content: space-evenly;
+  align-content: space-evenly;
+  column-gap: 1%;
+  grid-auto-flow: row;
+  grid-template-columns: 30% 30% 30%;
+  grid-template-areas: "left centre right";
+}
+.left,
+.centre,
+.right {
+  text-align: center;
+  align-items: center;
+}
+.generator-container,
+.potion-container,
+.stat-container {
+  display: grid;
+  width: 100%;
+  justify-content: space-evenly;
+  align-content: space-evenly;
+  column-gap: 0.2%;
+  grid-auto-flow: row;
+}
+.generator-container {
+  grid-template-columns: auto;
+  grid-template-areas: "Form Output";
+}
+.potion-container {
+  grid-template-columns: 60% 35%;
+  grid-template-areas: "Desc Image";
+}
+.stat-container {
+  grid-template-columns: auto;
+  grid-template-areas: "STR DEX CON INT WIS CHA" "STRn DEXn CONn INTn WISn CHAn";
+}
+.CHA,
+.CON,
+.DEX,
+.INT,
+.STR,
+.WIS,
+.CHAn,
+.CONn,
+.DEXn,
+.INTn,
+.STRn,
+.WISn {
+  align-items: center;
+  margin: auto;
+}
+.CHA,
+.CON,
+.DEX,
+.INT,
+.STR,
+.WIS {
+  font-weight: 700;
+}
+.framecontainer,
+.dreamcontainer,
+.shipcontainer,
+.potioncontainer {
+  align-items: center;
+  display: block;
+  margin: 0 auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0;
+}
+.shipcontainer,
+.potioncontainer {
+  width: 800px;
+  color: #000;
+}
+.framecontainer,
+.dreamcontainer {
+  width: 490px;
+}
+.framecontainer {
+  background-image: url(../BackgroundParchment/sword_meow_background_base.png);
+  color: #000;
+}
+.dreamcontainer {
+  background-image: url(../BackgroundParchment/DreamShellBackground.jpeg);
+  color: #fff;
+}
+.shipcontainer {
+  background-image: url(../BackgroundParchment/sword_meow_background_base.png);
+}
+.potioncontainer {
+  background-image: url(../BackgroundParchment/phb_background_base.png);
+}
+/*-----------------------------------------------------------
+Quote Container
+This is used specifically for the quote used on the home page, 
+the formatting is occassionally referenced on other pages. 
+-----------------------------------------------------------*/
+p.quotebody,
+p.quotesignature {
+  width: 50%;
+  color: #000;
+  margin: 0 auto;
+}
+p.quotebody {
+  text-align: center;
+  align-items: center;
+  font-family: Lora, Times, serif;
+  font-size: 1.25em;
+}
+p.quotesignature {
+  text-align: right;
+  align-items: right;
+  font-family: MoonDance;
+  font-size: 1.5em;
+  font-style: italic;
+}
+.QuoteDivider {
+  margin: 0 auto;
+  height: 3px;
+  width: 650px;
+  background-color: #860954;
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.5);
+  align-items: center;
+}

@@ -1,11 +1,4 @@
 /*-----------------------------------------------------------*/
-/*Main Containers*/
-/*-----------------------------------------------------------*/
-html {
-  height: 100%;
-  width: 100%;
-}
-/*-----------------------------------------------------------*/
 /*-----------------------------------------------------------*/
 /*Images & Other Assets*/
 /*-----------------------------------------------------------*/
@@ -23,49 +16,26 @@ html {
 /*Font Styling*/
 /*-----------------------------------------------------------*/
 /*-----------------------------------------------------------*/
-@font-face {
-  font-family: Cinzel1;
-  src: local("Cinzel1"), url("../Fonts/Cinzel-VariableFont_wght.ttf");
-}
-@font-face {
-  font-family: MoonDance;
-  src: local("Moon Dance"), url("../Fonts/MoonDance-Regular.ttf");
-}
-h1 {
+
+h1,
+h2,
+h3,
+h4 {
   text-align: left;
   align-items: left;
   margin-bottom: 0;
   font-family: Cinzel1;
   text-transform: capitalize;
   font-variant: small-caps;
+}
+h1,
+h3,
+h4 {
   color: #860954;
+}
+h1 {
   font-weight: bold;
   font-size: 3.5em;
-}
-h1,
-h2,
-h3,
-h4 {
-  text-align: left;
-  align-items: left;
-  margin-bottom: 0;
-}
-h1,
-h2,
-h3,
-h4 {
-  font-family: Cinzel1;
-  text-transform: capitalize;
-  font-variant: small-caps;
-}
-h1,
-h3,
-h4 {
-  color: #860954;
-}
-h1 {
-  font-weight: bold;
-  font-size: 4.4em;
   margin-top: 10px;
 }
 h2 {
@@ -93,44 +63,6 @@ li {
   font-family: Lora, Times, serif;
   font-size: 1.25em;
   margin-bottom: 10px;
-}
-
-/* ----------------------------------- */
-/* This section controls the tree view */
-/* ----------------------------------- */
-
-li {
-  list-style-type: none;
-  justify-items: left;
-}
-
-.expandable {
-  cursor: pointer;
-  user-select: none; /* Prevent text selection */
-  text-align: left;
-  font-size: 1.2em;
-  font-family: "Lora", Times, serif;
-  color: #860954;
-}
-
-.expandable::before {
-  content: "\1f4dc";
-  display: inline-block;
-  margin-right: 6px;
-}
-
-.expandable-down::before {
-  content: "\1F9ed";
-  display: inline-block;
-  margin-right: 6px;
-}
-
-.nested {
-  display: none;
-}
-
-.active {
-  display: block;
 }
 
 table,

@@ -76,7 +76,6 @@ p.menu {
   margin-top: 5px;
   font-family: Lora, Times, serif;
   font-size: 1.1em;
-  color: #000;
 }
 p.readme {
   text-align: right;
@@ -128,7 +127,12 @@ Borders
 On most of the generator pages, borders are used to frame the
 output, her are the controls for each of them. 
 -----------------------------------------------------------*/
-.border {
+.mborder,
+.iborder,
+.sborder,
+.dborder,
+.ShipBorder,
+.PotionBorder {
   height: 6px;
   width: 500px;
   background-position: center;
@@ -139,24 +143,32 @@ output, her are the controls for each of them.
   margin: 0;
   border: 2px solid #000;
 }
-.creatureBG {
-  background-image: url(../ImageAssets/GeneratorBorderMonster.jpeg);
+.ShipBorder,
+.PotionBorder {
+  width: 825px;
 }
-.itemBG {
-  background-image: url(../ImageAssets/GeneratorBorderItem.jpeg);
-}
-.spellBG {
-  background-image: url(../ImageAssets/GeneratorBorderSpell.jpg);
-}
-.dreamBG {
+.ShipBorder {
   background-image: url(../ImageAssets/GeneratorBorderDream.png);
 }
-.potionBG {
-  width: 825px;
+.PotionBorder {
   background-image: url(../ImageAssets/GeneratorBorderAlchemy.webp);
 }
-.shipBG {
-  width: 825px;
+.mborder,
+.iborder,
+.sborder,
+.dborder {
+  width: 500px;
+}
+.mborder {
+  background-image: url(../ImageAssets/GeneratorBorderMonster.jpeg);
+}
+.iborder {
+  background-image: url(../ImageAssets/GeneratorBorderItem.jpeg);
+}
+.sborder {
+  background-image: url(../ImageAssets/GeneratorBorderSpell.jpg);
+}
+.dborder {
   background-image: url(../ImageAssets/GeneratorBorderDream.png);
 }
 /*-----------------------------------------------------------
@@ -164,7 +176,9 @@ Dividers & Spacers
 Across the site it is often necessary to provide spacers and
 dividers, here are the controls for each. 
 -----------------------------------------------------------*/
-.triangleDIV {
+.mdivider,
+.sdivider,
+.pdivider {
   margin: 4px auto;
   width: 0;
   height: 0;
@@ -172,46 +186,37 @@ dividers, here are the controls for each.
   border-bottom: 3px solid transparent;
   align-items: center;
 }
-.creatureDIV {
+.mdivider {
   border-left: 475px solid #1d6673;
 }
-.spellDIV {
+.sdivider {
   border-left: 475px solid #54062b;
 }
-.potionDIV {
+.pdivider {
   border-left: 475px solid #8b0000;
 }
-.line {
-  display: flex;
-  height: 4px;
-  width: 100%;
-  align-items: center;
-  border-bottom: 2px solid #484848;
-  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.5);
-  margin: 0 auto;
-}
-.purpleL {
-  height: 3px;
-  width: 300px;
-  background-color: #860954;
-}
-.greenline {
-  margin-top: 0 auto;
-  height: 4px;
-  width: 100%;
-  background-color: #098643;
-  align-items: center;
-}
-.greyline {
-  background-color: #484848;
-  margin-top: 2px;
-  margin-bottom: 9px;
+.sline {
   display: flex;
   height: auto;
   width: 100%;
   align-items: center;
   border-bottom: 2px solid #484848;
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.5);
+  margin: 0;
+}
+.shipfooter {
+  width: 80%;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.divider {
+  margin: 0 auto;
+  height: 3px;
+  width: 650px;
+  background-color: #860954;
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.5);
+  align-items: center;
 }
 .underline {
   margin: 0 auto;
@@ -221,17 +226,12 @@ dividers, here are the controls for each.
   box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.5);
   align-items: center;
 }
-.mapfooter {
-  width: 80%;
-  align-items: center;
-  margin: 0;
-  padding: 0;
-}
-.shipfooter {
+.greenline {
+  margin: 0 auto;
+  height: 4px;
   width: 100%;
+  background-color: #098643;
   align-items: center;
-  margin: 0;
-  padding: 0;
 }
 /*-----------------------------------------------------------
 Inputs & Outputs
@@ -244,12 +244,6 @@ input[type="text"] {
 }
 input[type="checkbox"] {
   float: right;
-}
-.listbox {
-  width: 250px;
-}
-.LocationOutput {
-  width: 90%;
 }
 .quotetick {
   float: right;
@@ -280,6 +274,12 @@ input[type="checkbox"] {
 }
 .submit:hover {
   color: #000;
+}
+.listbox {
+  width: 250px;
+}
+.LocationOutput {
+  width: 90%;
 }
 .submitcreature,
 .submitspell,

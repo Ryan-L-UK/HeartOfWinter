@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="../Library/CSS/CoreStyling.css" />
-    <link rel="stylesheet" href="../Library/CSS/GeneratorStyling.css" />
+    <link rel="stylesheet" href="../Library/CSS/ContainerStyling.css" />
+    <link rel="stylesheet" href="../Library/CSS/ObjectStyling.css" />
+    <link rel="stylesheet" href="../Library/CSS/FontStyling.css" />
 
     <title>The Elfsong Tavern</title>
     <link
@@ -39,7 +40,7 @@
       <div class="generator-container">
         <div class="Form">
           <form>
-            <div class="sborder"></div>
+            <div class="border spellBG"></div>
             <div class="framecontainer">
               <div class="bodycontainer">
                 <!--SPELL NAME-->
@@ -80,10 +81,10 @@
                   <input type="text" size="7" id="Dur_input" /><br />
                 </p>
 
-                <div class="sdivider"></div>
+                <div class="triangleDIV spellDIV"></div>
 
                 <!--SPELL DESCRIPTION-->
-                <h2 class="spellheading">Spell Action</h2>
+                <h1 class="spellname">Spell Action</h1>
                 <label><b>Paragraph 1:</b></label>
                 <textarea id="P1D_input" cols="56" rows="3"></textarea><br />
 
@@ -97,11 +98,11 @@
                 <textarea id="P4D_input" cols="56" rows="3"></textarea><br />
 
                 <!--SPELL DESCRIPTION-->
-                <h2 class="spellheading">At Higher Levels</h2>
+                <h1 class="spellname">At Higher Levels</h1>
                 <label><b>Paragraph 1:</b></label>
                 <textarea id="HL1D_input" cols="56" rows="3"></textarea><br />
 
-                <div class="sdivider"></div>
+                <div class="triangleDIV spellDIV"></div>
 
                 <!--SPELL FOOTER-->
 
@@ -134,13 +135,13 @@
                 <br />
               </div>
             </div>
-            <div class="sborder"></div>
+            <div class="border spellBG"></div>
           </form>
           <br />
         </div>
         <div class="Output">
           <div id="photo">
-            <div class="sborder"></div>
+            <div class="border spellBG"></div>
             <div class="framecontainer">
               <div class="bodycontainer">
                 <!--SPELL NAME-->
@@ -150,34 +151,34 @@
                 <h2 class="spelltype" id="SLvlType_output"></h2>
 
                 <p>
-                  <span class="sbold">Casting Time:</span>
-                  <span class="sbody" id="CT_output"></span>
+                  <span class="standardbold">Casting Time:</span>
+                  <span class="standard" id="CT_output"></span>
                   <br />
-                  <span class="sbold">Range:</span>
-                  <span class="sbody" id="Range_output"></span>
+                  <span class="standardbold">Range:</span>
+                  <span class="standard" id="Range_output"></span>
                   <br />
-                  <span class="sbold">Components:</span>
-                  <span class="sbody" id="Comp_output"></span>
+                  <span class="standardbold">Components:</span>
+                  <span class="standard" id="Comp_output"></span>
                   <br />
-                  <span class="sbold">Duration:</span>
-                  <span class="sbody" id="Dur_output"></span>
+                  <span class="standardbold">Duration:</span>
+                  <span class="standard" id="Dur_output"></span>
                 </p>
 
                 <p>
-                  <span class="sbody" id="P1D_output"></span>
+                  <span class="standard" id="P1D_output"></span>
                 </p>
                 <p>
-                  <span class="sbody" id="P2D_output"></span>
+                  <span class="standard" id="P2D_output"></span>
                 </p>
                 <p>
-                  <span class="sbody" id="P3D_output"></span>
+                  <span class="standard" id="P3D_output"></span>
                 </p>
                 <p>
-                  <span class="sbody" id="P4D_output"></span>
+                  <span class="standard" id="P4D_output"></span>
                 </p>
                 <p>
-                  <span class="sbold" id="HL1H_output"></span>
-                  <span class="sbody" id="HL1D_output"></span>
+                  <span class="standardbold" id="HL1H_output"></span>
+                  <span class="standard" id="HL1D_output"></span>
                 </p>
                 <p>
                   <span class="cClass" id="Class1_output"></span>
@@ -191,10 +192,10 @@
                 </p>
               </div>
             </div>
-            <div class="sborder"></div>
+            <div class="border spellBG"></div>
           </div>
           <br />
-          <h2 class="iheader">Image Render:</h2>
+          <h1 class="spellname">Image Render:</h1>
           <br />
           <div id="output"></div>
         </div>

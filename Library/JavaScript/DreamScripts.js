@@ -27,7 +27,7 @@ function showInput() {
     document.getElementById("Desc1_output").setAttribute("class", "quotetext");
     document.getElementById("Desc1_output").innerHTML = '"' + input1 + '"';
   } else {
-    document.getElementById("Desc1_output").setAttribute("class", "sbody");
+    document.getElementById("Desc1_output").setAttribute("class", "standard");
     document.getElementById("Desc1_output").innerHTML = input1;
   }
 
@@ -38,7 +38,7 @@ function showInput() {
 
     document.getElementById("Desc2_output").innerHTML = '"' + input2 + '"';
   } else {
-    document.getElementById("Desc2_output").setAttribute("class", "sbody");
+    document.getElementById("Desc2_output").setAttribute("class", "standard");
     document.getElementById("Desc2_output").innerHTML = input2;
   }
 
@@ -48,7 +48,7 @@ function showInput() {
     document.getElementById("Desc3_output").setAttribute("class", "quotetext");
     document.getElementById("Desc3_output").innerHTML = '"' + input3 + '"';
   } else {
-    document.getElementById("Desc3_output").setAttribute("class", "sbody");
+    document.getElementById("Desc3_output").setAttribute("class", "standard");
     document.getElementById("Desc3_output").innerHTML = input3;
   }
 
@@ -58,7 +58,7 @@ function showInput() {
     document.getElementById("Desc4_output").setAttribute("class", "quotetext");
     document.getElementById("Desc4_output").innerHTML = '"' + input4 + '"';
   } else {
-    document.getElementById("Desc4_output").setAttribute("class", "sbody");
+    document.getElementById("Desc4_output").setAttribute("class", "standard");
     document.getElementById("Desc4_output").innerHTML = input4;
   }
 
@@ -68,7 +68,7 @@ function showInput() {
     document.getElementById("Desc5_output").setAttribute("class", "quotetext");
     document.getElementById("Desc5_output").innerHTML = '"' + input5 + '"';
   } else {
-    document.getElementById("Desc5_output").setAttribute("class", "sbody");
+    document.getElementById("Desc5_output").setAttribute("class", "standard");
     document.getElementById("Desc5_output").innerHTML = input5;
   }
 
@@ -78,7 +78,7 @@ function showInput() {
     document.getElementById("Desc6_output").setAttribute("class", "quotetext");
     document.getElementById("Desc6_output").innerHTML = '"' + input6 + '"';
   } else {
-    document.getElementById("Desc6_output").setAttribute("class", "sbody");
+    document.getElementById("Desc6_output").setAttribute("class", "standard");
     document.getElementById("Desc6_output").innerHTML = input6;
   }
 
@@ -88,7 +88,7 @@ function showInput() {
     document.getElementById("Desc7_output").setAttribute("class", "quotetext");
     document.getElementById("Desc7_output").innerHTML = '"' + input7 + '"';
   } else {
-    document.getElementById("Desc7_output").setAttribute("class", "sbody");
+    document.getElementById("Desc7_output").setAttribute("class", "standard");
     document.getElementById("Desc7_output").innerHTML = input7;
   }
 
@@ -98,7 +98,7 @@ function showInput() {
     document.getElementById("Desc8_output").setAttribute("class", "quotetext");
     document.getElementById("Desc8_output").innerHTML = '"' + input8 + '"';
   } else {
-    document.getElementById("Desc8_output").setAttribute("class", "sbody");
+    document.getElementById("Desc8_output").setAttribute("class", "standard");
     document.getElementById("Desc8_output").innerHTML = input8;
   }
 }

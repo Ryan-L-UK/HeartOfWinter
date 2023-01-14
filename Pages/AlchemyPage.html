@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="../Library/CSS/CoreStyling.css" />
-    <link rel="stylesheet" href="../Library/CSS/GeneratorStyling.css" />
+    <link rel="stylesheet" href="../Library/CSS/ContainerStyling.css" />
+    <link rel="stylesheet" href="../Library/CSS/ObjectStyling.css" />
+    <link rel="stylesheet" href="../Library/CSS/FontStyling.css" />
 
     <title>The Elfsong Tavern</title>
     <link
@@ -33,13 +34,13 @@
       <br />
 
       <div id="photo">
-        <div class="PotionBorder"></div>
+        <div class="border potionBG"></div>
         <div class="potioncontainer">
           <div class="bodycontainer">
             <div class="potion-container">
               <div class="Desc">
                 <h1 class="PotionName" id="PotionTitleOut"></h1>
-                <div class="pdivider"></div>
+                <div class="triangleDIV potionDIV"></div>
                 <br />
                 <h2 class="pheader">Description</h2>
                 <p>
@@ -51,22 +52,17 @@
                 </p>
               </div>
               <div class="Image">
-                <img
-                  src=""
-                  alt="5e Logo"
-                  class="PotionImage"
-                  id="PotionImage"
-                />
+                <img src="" class="PotionImage" id="PotionImage" />
               </div>
             </div>
           </div>
         </div>
 
-        <div class="PotionBorder"></div>
+        <div class="border potionBG"></div>
       </div>
 
       <br />
-      <h2 class="iheader"><span id="PotionTypeOut"></span> Render:</h2>
+      <h2 class="pheader"><span id="PotionTypeOut"></span> Render:</h2>
       <br />
       <div id="output"></div>
 

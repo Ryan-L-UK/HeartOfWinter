@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="../Library/CSS/CoreStyling.css" />
-    <link rel="stylesheet" href="../Library/CSS/GeneratorStyling.css" />
+    <link rel="stylesheet" href="../Library/CSS/ContainerStyling.css" />
+    <link rel="stylesheet" href="../Library/CSS/ObjectStyling.css" />
+    <link rel="stylesheet" href="../Library/CSS/FontStyling.css" />
 
     <title>The Elfsong Tavern</title>
     <link
@@ -32,29 +33,29 @@
       </p>
       <div class="divider"></div>
       <br />
-      <button class="submitmonster" onclick="showInput();takeshot()">
+      <button class="submitcreature" onclick="showInput();takeshot()">
         Export Creature</button
       ><br />
 
       <div class="generator-container">
         <div class="Form">
           <form>
-            <div class="mborder"></div>
+            <div class="border creatureBG"></div>
             <div class="framecontainer">
               <div class="bodycontainer">
-                <!--Monster NAME-->
+                <!--creature NAME-->
                 <label><b>Name:</b></label>
                 <input type="text" id="MName_input" />
                 <br />
 
-                <!--Monster TYPE-->
+                <!--creature TYPE-->
                 <label><b>Type:</b></label>
                 <input type="text" id="MType_input" />
 
                 <label><b>Alignment:</b></label>
                 <input type="text" id="MAlign_input" />
 
-                <div class="mdivider"></div>
+                <div class="triangleDIV creatureDIV"></div>
                 <p>
                   <label><b>Armour Class:</b></label>
                   <input type="text" size="7" id="AC_input" /><br />
@@ -63,9 +64,9 @@
                   <label><b>Speed:</b></label>
                   <input type="text" size="7" id="FT_input" /><br />
                 </p>
-                <div class="mdivider"></div>
+                <div class="triangleDIV creatureDIV"></div>
 
-                <!--Monster Stats-->
+                <!--creature Stats-->
                 <div class="stat-container">
                   <div class="STR">STR</div>
                   <div class="DEX">DEX</div>
@@ -95,7 +96,7 @@
                   </div>
                 </div>
 
-                <div class="mdivider"></div>
+                <div class="triangleDIV creatureDIV"></div>
 
                 <p>
                   <label><b>Skills:</b></label>
@@ -120,7 +121,7 @@
                   <input type="text" id="Lang_input" />
                 </p>
 
-                <div class="mdivider"></div>
+                <div class="triangleDIV creatureDIV"></div>
 
                 <p>
                   <label><b>Trait 1 Name:</b></label>
@@ -144,7 +145,7 @@
                   <textarea id="T4D_input" cols="56" rows="3"></textarea><br />
                 </p>
 
-                <h2 class="mheader">Actions</h2>
+                <h1 class="creaturename">Actions</h1>
 
                 <p>
                   <label><b>Attack 1 Name:</b></label>
@@ -172,34 +173,34 @@
                 <p class="itemfooter"></p>
               </div>
             </div>
-            <div class="mborder"></div>
+            <div class="border creatureBG"></div>
           </form>
           <br />
         </div>
         <div class="Output">
           <div id="photo">
-            <div class="mborder"></div>
+            <div class="border creatureBG"></div>
             <div class="framecontainer">
               <div class="bodycontainer">
-                <!--Monster NAME-->
-                <h1 class="monstername" id="MName_output"></h1>
+                <!--creature NAME-->
+                <h1 class="creaturename" id="MName_output"></h1>
 
-                <!--Monster TYPE-->
-                <h2 class="monstertype" id="MTypeAlign_output"></h2>
-                <div class="mdivider"></div>
+                <!--creature TYPE-->
+                <h2 class="creaturetype" id="MTypeAlign_output"></h2>
+                <div class="triangleDIV creatureDIV"></div>
                 <p>
-                  <span class="sbold">Armour Class:</span>
-                  <span class="sbody" id="AC_output"></span>
+                  <span class="standardbold">Armour Class:</span>
+                  <span class="standard" id="AC_output"></span>
                   <br />
-                  <span class="sbold">Hit Points:</span>
-                  <span class="sbody" id="HP_output"></span>
+                  <span class="standardbold">Hit Points:</span>
+                  <span class="standard" id="HP_output"></span>
                   <br />
-                  <span class="sbold">Speed:</span>
-                  <span class="sbody" id="FT_output"></span>
+                  <span class="standardbold">Speed:</span>
+                  <span class="standard" id="FT_output"></span>
                 </p>
-                <div class="mdivider"></div>
+                <div class="triangleDIV creatureDIV"></div>
 
-                <!--Monster Stats-->
+                <!--creature Stats-->
                 <div class="stat-container">
                   <div class="STR">STR</div>
                   <div class="DEX">DEX</div>
@@ -217,83 +218,83 @@
                   <div class="CHAn" id="CHA_output"></div>
                 </div>
 
-                <div class="mdivider"></div>
+                <div class="triangleDIV creatureDIV"></div>
 
                 <p class="status">
-                  <span class="sbold" id="SkillsH_output"></span>
-                  <span class="sbody" id="Skills_output"></span>
+                  <span class="standardbold" id="SkillsH_output"></span>
+                  <span class="standard" id="Skills_output"></span>
                 </p>
                 <p class="status">
-                  <span class="sbold" id="DmgResistH_output"></span>
-                  <span class="sbody" id="DmgResist_output"></span>
+                  <span class="standardbold" id="DmgResistH_output"></span>
+                  <span class="standard" id="DmgResist_output"></span>
                 </p>
                 <p class="status">
-                  <span class="sbold" id="DmgImmuneH_output"></span>
-                  <span class="sbody" id="DmgImmune_output"></span>
+                  <span class="standardbold" id="DmgImmuneH_output"></span>
+                  <span class="standard" id="DmgImmune_output"></span>
                 </p>
                 <p class="status">
-                  <span class="sbold" id="DmgVulnH_output"></span>
-                  <span class="sbody" id="DmgVuln_output"></span>
+                  <span class="standardbold" id="DmgVulnH_output"></span>
+                  <span class="standard" id="DmgVuln_output"></span>
                 </p>
                 <p class="status">
-                  <span class="sbold" id="ConImmuneH_output"></span>
-                  <span class="sbody" id="ConImmune_output"></span>
+                  <span class="standardbold" id="ConImmuneH_output"></span>
+                  <span class="standard" id="ConImmune_output"></span>
                 </p>
                 <p class="status">
-                  <span class="sbold" id="SensesH_output"></span>
-                  <span class="sbody" id="Senses_output"></span>
+                  <span class="standardbold" id="SensesH_output"></span>
+                  <span class="standard" id="Senses_output"></span>
                 </p>
                 <p class="status">
-                  <span class="sbold" id="LangH_output"></span>
-                  <span class="sbody" id="Lang_output"></span>
+                  <span class="standardbold" id="LangH_output"></span>
+                  <span class="standard" id="Lang_output"></span>
                 </p>
 
-                <div class="mdivider"></div>
+                <div class="triangleDIV creatureDIV"></div>
 
                 <p>
-                  <span class="sbold" id="T1H_output"></span>
-                  <span class="sbody" id="T1D_output"></span>
+                  <span class="standardbold" id="T1H_output"></span>
+                  <span class="standard" id="T1D_output"></span>
                 </p>
                 <p>
-                  <span class="sbold" id="T2H_output"></span>
-                  <span class="sbody" id="T2D_output"></span>
+                  <span class="standardbold" id="T2H_output"></span>
+                  <span class="standard" id="T2D_output"></span>
                 </p>
                 <p>
-                  <span class="sbold" id="T3H_output"></span>
-                  <span class="sbody" id="T3D_output"></span>
+                  <span class="standardbold" id="T3H_output"></span>
+                  <span class="standard" id="T3D_output"></span>
                 </p>
                 <p>
-                  <span class="sbold" id="T4H_output"></span>
-                  <span class="sbody" id="T4D_output"></span>
+                  <span class="standardbold" id="T4H_output"></span>
+                  <span class="standard" id="T4D_output"></span>
                 </p>
 
-                <h2 class="mheader">Actions</h2>
+                <h1 class="creaturename">Actions</h1>
 
                 <p>
-                  <span class="sbold" id="Atk1H_output"></span>
-                  <span class="sbody" id="Atk1D_output"></span>
+                  <span class="standardbold" id="Atk1H_output"></span>
+                  <span class="standard" id="Atk1D_output"></span>
                 </p>
                 <p>
-                  <span class="sbold" id="Atk2H_output"></span>
-                  <span class="sbody" id="Atk2D_output"></span>
+                  <span class="standardbold" id="Atk2H_output"></span>
+                  <span class="standard" id="Atk2D_output"></span>
                 </p>
                 <p>
-                  <span class="sbold" id="Atk3H_output"></span>
-                  <span class="monsterbody" id="Atk3D_output"></span>
+                  <span class="standardbold" id="Atk3H_output"></span>
+                  <span class="standard" id="Atk3D_output"></span>
                 </p>
                 <p>
-                  <span class="sbold" id="Atk4H_output"></span>
-                  <span class="sbody" id="Atk4D_output"></span>
+                  <span class="standardbold" id="Atk4H_output"></span>
+                  <span class="standard" id="Atk4D_output"></span>
                 </p>
 
                 <!--ITEM DESCRIPTION-->
                 <p class="itemfooter"></p>
               </div>
             </div>
-            <div class="mborder"></div>
+            <div class="border creatureBG"></div>
           </div>
           <br />
-          <h2 class="mheader">Image Render:</h2>
+          <h1 class="creaturename">Image Render:</h1>
           <br />
           <div id="output"></div>
         </div>
