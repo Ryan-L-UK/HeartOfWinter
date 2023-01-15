@@ -4,6 +4,18 @@ These are the main containers which power the entire site:
 -The container is then what limits the sites width and margins. Every page should be contained within this. 
 -Body containter is used only for the margin inside any of the shell generators to prevent edge to edge. 
 -----------------------------------------------------------*/
+html {
+  background: #14171b;
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  background-image: url(../BackgroundParchment/BackgroundImage.jpeg);
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0;
+}
 .container {
   display: flex;
   flex-direction: column;
@@ -137,13 +149,13 @@ p.quotebody {
   text-align: center;
   align-items: center;
   font-family: Lora, Times, serif;
-  font-size: 1.25em;
+  font-size: 1.25rem;
 }
 p.quotesignature {
   text-align: right;
   align-items: right;
   font-family: MoonDance;
-  font-size: 1.5em;
+  font-size: 1.5rem;
   font-style: italic;
 }
 .QuoteDivider {
@@ -170,6 +182,6 @@ em {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  font-size: 1.1em;
+  font-size: 1.1rem;
   font-family: Lora, Times, serif;
 }

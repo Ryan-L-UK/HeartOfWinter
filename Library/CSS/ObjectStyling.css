@@ -15,6 +15,7 @@ object {
 .masthead {
   align-items: center;
   justify-items: center;
+  margin-bottom: -1px;
 }
 .mapstyle {
   width: 1229px;
@@ -70,12 +71,12 @@ h1.menu {
   font-variant: small-caps;
   color: #860954;
   font-weight: bold;
-  font-size: 1.5em;
+  font-size: 1.4rem;
 }
 p.menu {
   margin-top: 5px;
   font-family: Lora, Times, serif;
-  font-size: 1.1em;
+  font-size: 1rem;
   color: #000;
 }
 p.readme {
@@ -84,7 +85,7 @@ p.readme {
   font-family: Lora, Times, serif;
   text-transform: capitalize;
   color: #860954;
-  font-size: 1em;
+  font-size: 1rem;
 }
 a:link {
   text-decoration: none;
@@ -120,7 +121,7 @@ li {
   text-align: left;
   align-items: left;
   font-family: Lora, Times, serif;
-  font-size: 1.1em;
+  font-size: 1.1rem;
   margin-bottom: 8px;
 }
 ul {
@@ -129,7 +130,7 @@ ul {
   text-align: left;
   align-items: left;
   font-family: Lora, Times, serif;
-  font-size: 1em;
+  font-size: 1rem;
   margin-bottom: 8px;
 }
 /*-----------------------------------------------------------
@@ -267,7 +268,7 @@ li.task-list-item {
   text-align: left;
   font-family: Lora, Times, serif;
   margin: 0 auto;
-  font-size: 1em;
+  font-size: 1rem;
   margin-bottom: 8px;
   list-style-type: circle;
 }
@@ -277,7 +278,7 @@ li.task-list-item {
 .quotetext {
   text-align: center;
   font-style: italic;
-  font-size: 1.2em;
+  font-size: 1.2rem;
 }
 .submit {
   color: #fff;

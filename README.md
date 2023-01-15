@@ -2,21 +2,39 @@
 
 A Central Hub for all the world information for adventures in Gullet Cove and the land of Faerûn. You can also find a collection of useful notes and information here.
 
-## When Pulling Notes From Notion
+---
 
-Run the following find and replaces, replacing with "":
-->class="contains-task-list"
-->class="task-list-item enabled"
+## Running The Server
 
-And to link any item, creature or other page use the following template:
-http://localhost:8080/Sources/Magic Items/
+- ### OSX
+  To run the server, launch a terminal and run the alias command 'ServerStart'
+- ### Win11
+  To run the server, launch a terminal and cd into the elfsong folder. Once inside run the command: `node server.js`
+
+---
+
+## Notion Markdown Load Commands
+
+- Export the file from notion using the 'export Markdown/CSV'
+- Load file into the Adv 0.0 MDConvert.md file
+- Run CMD+SHIFT+P and run the all in one macro
+
+---
+
+- When the file has loaded, firsly delete the entire: `</head>` from the document.
+- Run the following Find & Replace commands, replacing with "":
+  - class="contains-task-list"
+  - class="task-list-item enabled"
+
+---
+
+- To add a link to any item, creature, spell, etc, replace the `<a href="#">` with a absolute link to the file. Which looks like this:
+  'http://localhost:8080/Sources/Magic Items/'
+
+---
 
 ## Locations To Write
 
 - The Grand Library (Blank)
 - The Old Lighthouse (Ripped From Book)
-- -Harbour (Ripped from book, missing info on sunk ship and the tripple cannons)
-
-## Running The Server
-
-To run the server, launch a terminal and run the alias command 'ServerStart' (OSX)
+- Harbour (Ripped from book, missing info on sunk ship and the tripple cannons)

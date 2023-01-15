@@ -2,18 +2,7 @@
 MasterHTML Container
 These is the main containers which powers the entire site
 -----------------------------------------------------------*/
-html {
-  background: #14171b;
-  height: 100%;
-  width: 100%;
-  margin: auto;
-  background-image: url(../BackgroundParchment/BackgroundImage.jpeg);
-  background-attachment: fixed;
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 0;
-}
+
 /*-----------------------------------------------------------*/
 /*Menu Bar*/
 /*-----------------------------------------------------------*/
