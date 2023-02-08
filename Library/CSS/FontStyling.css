@@ -187,6 +187,9 @@ h1.creaturename {
   padding-top: 1%;
   color: #000;
 }
+h1.creaturename {
+  border-bottom: 3px solid #1d6673;
+}
 p.status {
   margin-bottom: 5px;
   margin-top: 5px;
