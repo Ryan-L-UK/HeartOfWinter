@@ -197,7 +197,7 @@ dividers, here are the controls for each.
   border-left: 475px solid #1d6673;
 }
 .spellDIV {
-  border-left: 475px solid #54062b;
+  border-left: 475px solid #781464;
 }
 .potionDIV {
   border-left: 475px solid #8b0000;
@@ -314,6 +314,26 @@ li.task-list-item {
 .submit:hover {
   color: #000;
 }
+input::file-selector-button {
+  color: #fff;
+  padding: 0px 6px;
+  text-align: center;
+  justify-items: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 4px;
+  display: inline;
+  align-items: center;
+  margin: 0, auto;
+  width: 100%;
+  font-family: Garamond, serif;
+  background: linear-gradient(
+    180deg,
+    rgb(159, 159, 159) 0,
+    rgb(58, 58, 58) 100%
+  );
+}
+
 .submitcreature,
 .submitspell,
 .submititem,

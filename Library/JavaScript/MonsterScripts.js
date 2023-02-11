@@ -201,96 +201,35 @@ function showInput() {
     document.getElementById("Atk4D_input").value;
 }
 
-function exportcreature() {
+//EXPORT SOURCE CODE
+document.getElementById("form-submit").addEventListener("click", (event) => {
+  var form = new FormData(document.getElementById("creatureform")); //loads the document into a form object based on it being the parent of the button (button is the div here because i'm lazy)
+  let outputObject = {};
+  for (var [key, value] of form) {
+    //loop the form data
+    if (value != null) {
+      //if the key exists
+      outputObject[key] = value; //store it in the object
+    }
+  }
+  let outputJson = JSON.stringify(outputObject); //turn the object into json
   var hiddenElement = document.createElement("a");
   var filename = document.getElementById("MName_input").value;
-  var textToSave =
-    " |name| " +
-    document.getElementById("MName_input").value +
-    " |Type| " +
-    document.getElementById("MType_input").value +
-    " |Align| " +
-    document.getElementById("MAlign_input").value +
-    " |ArmourClass| " +
-    document.getElementById("AC_input").value +
-    " |HitPoints| " +
-    document.getElementById("HP_input").value +
-    " |Speed| " +
-    document.getElementById("FT_input").value +
-    " |Str| " +
-    document.getElementById("STR_input").value +
-    " |Dex| " +
-    document.getElementById("DEX_input").value +
-    " |Con| " +
-    document.getElementById("CON_input").value +
-    " |Int| " +
-    document.getElementById("INT_input").value +
-    " |Wis| " +
-    document.getElementById("WIS_input").value +
-    " |Cha| " +
-    document.getElementById("CHA_input").value +
-    " |Saves| " +
-    document.getElementById("Saves_input").value +
-    " |Skills| " +
-    document.getElementById("Skills_input").value +
-    " |DmgResist| " +
-    document.getElementById("DmgResist_input").value +
-    " |DmgImmune| " +
-    document.getElementById("DmgImmune_input").value +
-    " |DmgVuln| " +
-    document.getElementById("DmgVuln_input").value +
-    " |ConImmune| " +
-    document.getElementById("ConImmune_input").value +
-    " |Senses| " +
-    document.getElementById("Senses_input").value +
-    " |Languages| " +
-    document.getElementById("Lang_input").value +
-    " |T1H| " +
-    document.getElementById("T1H_input").value +
-    " |T1D| " +
-    document.getElementById("T1D_input").value +
-    " |T2H| " +
-    document.getElementById("T2H_input").value +
-    " |T2D| " +
-    document.getElementById("T2D_input").value +
-    " |T3H| " +
-    document.getElementById("T3H_input").value +
-    " |T3D| " +
-    document.getElementById("T3D_input").value +
-    " |T4H| " +
-    document.getElementById("T4H_input").value +
-    " |T4D| " +
-    document.getElementById("T4D_input").value +
-    " |AT1H| " +
-    document.getElementById("Atk1H_input").value +
-    " |AT1D| " +
-    document.getElementById("Atk1D_input").value +
-    " |AT2H| " +
-    document.getElementById("Atk2H_input").value +
-    " |AT2D| " +
-    document.getElementById("Atk2D_input").value +
-    " |AT3H| " +
-    document.getElementById("Atk3H_input").value +
-    " |AT3D| " +
-    document.getElementById("Atk3D_input").value +
-    " |AT4H| " +
-    document.getElementById("Atk4H_input").value +
-    " |AT4D| " +
-    document.getElementById("Atk4D_input").value;
 
-  hiddenElement.href = "data:attachment/text," + encodeURI(textToSave);
+  hiddenElement.href = "data:attachment/text," + encodeURI(outputJson);
   hiddenElement.target = "_blank";
-  hiddenElement.download = filename + ".txt";
+  hiddenElement.download = filename + ".creature";
   hiddenElement.click();
-}
+});
 
-function insertInput() {
-  document.getElementById("Atk1H_input").value = "successful";
-}
+//IMPORT SOURCECODE
+async function readText(event) {
+  const file = event.target.files.item(0);
+  const text = await file.text();
+  const obj = JSON.parse(text);
 
-const inputElement = document.getElementById("input");
-inputElement.addEventListener("change", handleFiles, false);
-function handleFiles() {
-  const fileList = this.files; /* now you can work with the file list */
-  console.log(fileList);
+  for (const prop in obj) {
+    console.log(`${prop} = ${obj[prop]}`);
+    document.getElementById(`${prop}`).value = `${obj[prop]}`;
+  }
 }

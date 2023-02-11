@@ -33,29 +33,34 @@
       </p>
       <div class="divider"></div>
       <br />
-      <button class="submitspell" onclick="showInput();takeshot()">
-        Export Spell</button
+      <span>
+        <button class="submitspell" onclick="showInput();takeshot()">
+          Export Spell</button
+        ><button class="submitspell" id="form-submit">Source Code</button></span
       ><br />
+      <input type="file" id="input" onchange="readText(event)" />
+
+      <br />
 
       <div class="generator-container">
         <div class="Form">
-          <form>
-            <div class="border spellBG"></div>
-            <div class="framecontainer">
-              <div class="bodycontainer">
+          <div class="border spellBG"></div>
+          <div class="framecontainer">
+            <div class="bodycontainer">
+              <form id="spellform">
                 <!--SPELL NAME-->
                 <label><b>Spell Name:</b></label>
-                <input type="text" id="SName_input" />
+                <input type="text" id="SName_input" name="SName_input" />
                 <br />
 
                 <!--SPELL TYPE & LEVEL-->
                 <label><b>Spell Level:</b></label
                 ><br />
-                <input type="number" id="SL_input" /><br />
+                <input type="number" id="SL_input" name="SL_input" /><br />
 
                 <label><b>Spell Type:</b></label
                 ><br />
-                <input list="SpellTypes" id="SType_input" />
+                <input list="SpellTypes" id="SType_input" name="SType_input" />
 
                 <datalist id="SpellTypes">
                   <option value="Abjuration"></option>
@@ -72,13 +77,33 @@
 
                 <p>
                   <label><b>Casting Times:</b></label>
-                  <input type="text" size="7" id="CT_input" /><br />
+                  <input
+                    type="text"
+                    size="7"
+                    id="CT_input"
+                    name="CT_input"
+                  /><br />
                   <label><b>Range:</b></label>
-                  <input type="text" size="7" id="Range_input" /><br />
+                  <input
+                    type="text"
+                    size="7"
+                    id="Range_input"
+                    name="Range_input"
+                  /><br />
                   <label><b>Components:</b></label>
-                  <input type="text" size="7" id="Comp_input" /><br />
+                  <input
+                    type="text"
+                    size="7"
+                    id="Comp_input"
+                    name="Comp_input"
+                  /><br />
                   <label><b>Duration:</b></label>
-                  <input type="text" size="7" id="Dur_input" /><br />
+                  <input
+                    type="text"
+                    size="7"
+                    id="Dur_input"
+                    name="Dur_input"
+                  /><br />
                 </p>
 
                 <div class="triangleDIV spellDIV"></div>
@@ -86,21 +111,51 @@
                 <!--SPELL DESCRIPTION-->
                 <h1 class="spellname">Spell Action</h1>
                 <label><b>Paragraph 1:</b></label>
-                <textarea id="P1D_input" cols="56" rows="3"></textarea><br />
+                <textarea
+                  id="P1D_input"
+                  name="P1D_input"
+                  cols="56"
+                  rows="3"
+                ></textarea
+                ><br />
 
                 <label><b>Paragraph 2:</b></label>
-                <textarea id="P2D_input" cols="56" rows="3"></textarea><br />
+                <textarea
+                  id="P2D_input"
+                  name="P2D_input"
+                  cols="56"
+                  rows="3"
+                ></textarea
+                ><br />
 
                 <label><b>Paragraph 3:</b></label>
-                <textarea id="P3D_input" cols="56" rows="3"></textarea><br />
+                <textarea
+                  id="P3D_input"
+                  name="P3D_input"
+                  cols="56"
+                  rows="3"
+                ></textarea
+                ><br />
 
                 <label><b>Paragraph 4:</b></label>
-                <textarea id="P4D_input" cols="56" rows="3"></textarea><br />
+                <textarea
+                  id="P4D_input"
+                  name="P4D_input"
+                  cols="56"
+                  rows="3"
+                ></textarea
+                ><br />
 
                 <!--SPELL DESCRIPTION-->
                 <h1 class="spellname">At Higher Levels</h1>
                 <label><b>Paragraph 1:</b></label>
-                <textarea id="HL1D_input" cols="56" rows="3"></textarea><br />
+                <textarea
+                  id="HL1D_input"
+                  name="HL1D_input"
+                  cols="56"
+                  rows="3"
+                ></textarea
+                ><br />
 
                 <div class="triangleDIV spellDIV"></div>
 
@@ -108,13 +163,41 @@
 
                 <label><b>Class:</b></label
                 ><br />
-                <input list="ClassTypes" id="Class1_input" />
-                <input list="ClassTypes" id="Class2_input" />
-                <input list="ClassTypes" id="Class3_input" />
-                <input list="ClassTypes" id="Class4_input" />
-                <input list="ClassTypes" id="Class5_input" />
-                <input list="ClassTypes" id="Class6_input" />
-                <input list="ClassTypes" id="Class7_input" />
+                <input
+                  list="ClassTypes"
+                  id="Class1_input"
+                  name="Class1_input"
+                />
+                <input
+                  list="ClassTypes"
+                  id="Class2_input"
+                  name="Class2_input"
+                />
+                <input
+                  list="ClassTypes"
+                  id="Class3_input"
+                  name="Class3_input"
+                />
+                <input
+                  list="ClassTypes"
+                  id="Class4_input"
+                  name="Class4_input"
+                />
+                <input
+                  list="ClassTypes"
+                  id="Class5_input"
+                  name="Class5_input"
+                />
+                <input
+                  list="ClassTypes"
+                  id="Class6_input"
+                  name="Class6_input"
+                />
+                <input
+                  list="ClassTypes"
+                  id="Class7_input"
+                  name="Class7_input"
+                />
 
                 <datalist id="ClassTypes">
                   <option value="Artificer"></option>
@@ -130,13 +213,14 @@
                 <br />
 
                 <label><b>Source:</b></label>
-                <input type="text" id="Source_input" />
+                <input type="text" id="Source_input" name="Source_input" />
 
                 <br />
-              </div>
+              </form>
             </div>
-            <div class="border spellBG"></div>
-          </form>
+          </div>
+          <div class="border spellBG"></div>
+
           <br />
         </div>
         <div class="Output">

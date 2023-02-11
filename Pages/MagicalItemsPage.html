@@ -33,30 +33,37 @@
       </p>
       <div class="divider"></div>
       <br />
-      <button class="submititem" onclick="showInput();takeshot()">
-        Export Item</button
+      <span>
+        <button class="submititem" onclick="showInput();takeshot()">
+          Export Item
+        </button>
+
+        <button class="submititem" id="form-submit">Source Code</button></span
       ><br />
+      <input type="file" id="input" onchange="readText(event)" />
+
+      <br />
 
       <div class="generator-container">
         <div class="Form">
-          <form>
-            <div class="border itemBG"></div>
-            <div class="framecontainer">
-              <div class="bodycontainer">
+          <div class="border itemBG"></div>
+          <div class="framecontainer">
+            <div class="bodycontainer">
+              <form id="itemform">
                 <!--ITEM NAME-->
                 <label><b>Item Name:</b></label>
-                <input type="text" id="IName_input" />
+                <input type="text" id="IName_input" name="IName_input" />
                 <br />
 
                 <!--ITEM TYPE-->
                 <label><b>Type:</b></label>
-                <input type="text" id="IType_input" />
+                <input type="text" id="IType_input" name="IType_input" />
 
                 <label><b>Weapon Type:</b></label>
-                <input type="text" id="WType_input" />
+                <input type="text" id="WType_input" name="WType_input" />
 
                 <label><b>Weapon Damage:</b></label>
-                <input type="text" id="WDmg_input" />
+                <input type="text" id="WDmg_input" name="WDmg_input" />
 
                 <br />
                 <br />
@@ -65,32 +72,48 @@
 
                 <p>
                   <label><b>Item Description P1:</b></label>
-                  <textarea id="Desc1_input" cols="58" rows="6"></textarea
+                  <textarea
+                    id="Desc1_input"
+                    name="Desc1_input"
+                    cols="58"
+                    rows="6"
+                  ></textarea
                   ><br />
                 </p>
 
                 <p>
                   <label><b>Item Description P2:</b></label>
-                  <textarea id="Desc2_input" cols="58" rows="6"></textarea
+                  <textarea
+                    id="Desc2_input"
+                    name="Desc2_input"
+                    cols="58"
+                    rows="6"
+                  ></textarea
                   ><br />
                 </p>
 
                 <p>
                   <label><b>Item Description P3:</b></label>
-                  <textarea id="Desc3_input" cols="58" rows="6"></textarea
+                  <textarea
+                    id="Desc3_input"
+                    name="Desc3_input"
+                    cols="58"
+                    rows="6"
+                  ></textarea
                   ><br />
                 </p>
 
                 <!--ITEM DESCRIPTION-->
 
                 <label><b>Source:</b></label>
-                <input type="text" id="Source_input" />
+                <input type="text" id="Source_input" name="Source_input" />
                 <br />
                 <br />
-              </div>
+              </form>
             </div>
-            <div class="border itemBG"></div>
-          </form>
+          </div>
+          <div class="border itemBG"></div>
+
           <br />
         </div>
         <div class="Output">
