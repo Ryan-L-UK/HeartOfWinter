@@ -1,7 +1,9 @@
 //-----------------------------------------
 //Adventure Placeholder
 //-----------------------------------------
-fetch("http://localhost:8080/Sources/Adventures/Adv 0.0 Placeholder.html")
+fetch(
+  "http://localhost:8080/Sources/Adventures/Adv 4.2 The Chapel Of Summoning.html"
+)
   .then(function (Aresponse) {
     // When the page is loaded convert it to text
     return Aresponse.text();

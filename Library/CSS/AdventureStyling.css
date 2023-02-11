@@ -1,136 +1,43 @@
-html,
-body {
-  font-family: var(
-    --markdown-font-family,
-    -apple-system,
-    BlinkMacSystemFont,
-    "Segoe WPC",
-    "Segoe UI",
-    system-ui,
-    "Ubuntu",
-    "Droid Sans",
-    sans-serif
-  );
-  font-size: var(--markdown-font-size, 14px);
-  padding: 0 26px;
-  line-height: var(--markdown-line-height, 22px);
-  word-wrap: break-word;
-}
-body {
-  padding-top: 1em;
-}
-/*-----------------------------------------------------------*/
-/*-----------------------------------------------------------*/
-/*Font Styling*/
-/*-----------------------------------------------------------*/
-/*-----------------------------------------------------------*/
-@font-face {
-  font-family: Cinzel1;
-  src: local("Cinzel1"), url("../Fonts/Cinzel-VariableFont_wght.ttf");
-}
-@font-face {
-  font-family: MoonDance;
-  src: local("Moon Dance"), url("../Fonts/MoonDance-Regular.ttf");
-}
-
+/*****************************
+/*           HEADERS
+/*****************************/
 h1,
 h2,
-h3 {
-  font-family: Cinzel1;
-  text-transform: capitalize;
-  font-variant: small-caps;
+h3,
+h4 {
+  margin-bottom: 0.2em;
+  font-weight: 800;
   color: #860954;
-  font-weight: normal;
-  margin-bottom: 0px;
+  text-align: left;
+  font-family: MrEaves;
 }
+
 h1 {
-  padding-bottom: 0.3em;
-  line-height: 1.2;
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-  margin-top: 0%;
-  font-size: 3em;
+  margin-top: 1em;
+  column-span: all;
+  font-size: 2.75rem;
 }
 h2 {
-  margin-top: 3%;
-  font-size: 1.75em;
-  border-bottom: 3px solid #000;
-  margin-bottom: 0.2em;
+  margin-top: 0.2em;
+  font-size: 1.75rem;
+  border-bottom: 2px solid #c9ad6a;
 }
 h3 {
-  margin-top: 1%;
-  font-size: 1.5em;
-  margin-bottom: 0.2em;
+  margin-top: 0.2em;
+  font-size: 1.5rem;
 }
-p,
-ul {
-  margin-top: 0;
+h4 {
+  margin-top: 0.2em;
+  margin-bottom: 0em;
+  font-size: 0.458cm;
 }
-p {
-  margin-bottom: 0.7em;
-}
-ul {
-  margin-bottom: 0.7em;
-}
-img,
-video {
-  max-width: 100%;
-  max-height: 100%;
-}
-a {
-  text-decoration: none;
-  position: relative;
-}
-a:hover {
-  text-decoration: underline;
-}
-a:focus,
-input:focus,
-select:focus,
-textarea:focus {
-  outline: 1px solid -webkit-focus-ring-color;
-  outline-offset: -1px;
-}
-a span {
-  position: absolute;
-  display: none;
-  z-index: 99;
-}
-a:hover span {
-  display: block;
-  width: 525px;
-}
-hr {
-  border: 0;
-  height: 2px;
-  border-bottom: 2px solid;
-}
-table {
-  border-collapse: collapse;
-  margin-bottom: 0.7em;
-}
-th {
-  text-align: left;
-  border-bottom: 1px solid;
-}
-th,
-td {
-  padding: 5px 10px;
-}
-table > tbody > tr + tr > td {
-  border-top: 1px solid;
-}
-blockquote {
-  margin: 0 7px 0 5px;
-  padding: 0 16px 0 10px;
-  border-left-width: 5px;
-  border-left-style: solid;
-}
-/*----------------------------------*/
-em {
-  background: rgb(225, 234, 225);
-  border-left: 2px solid #000000;
-  border-right: 2px solid #000000;
+
+/*****************************
+/*         OBJECTS
+/*****************************/
+
+/*em {
+  
   display: flex;
   flex-direction: column;
   width: 95%;
@@ -139,30 +46,49 @@ em {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  font-size: 1.1rem;
   font-family: Lora, Times, serif;
 }
-/*----------------------------------*/
-code {
-  font-family: var(
-    --vscode-editor-font-family,
-    "SF Mono",
-    Monaco,
-    Menlo,
-    Consolas,
-    "Ubuntu Mono",
-    "Liberation Mono",
-    "DejaVu Sans Mono",
-    "Courier New",
-    monospace
-  );
-  font-size: 1em;
-  line-height: 1.357em;
+*/
+em {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  margin: 2% auto 2%;
+  background: #e8e8e8;
+  border-style: solid;
+  border-width: 1px;
+  border-image: url(../ImageAssets/noteBorder.png) 12 stretch;
+  border-image-outset: 9px 0px;
+  border-image-width: 11px;
+  padding: 1%;
+  filter: drop-shadow(1px 4px 6px #888);
+  font-size: 1.1rem;
+  font-family: Lora, Times, serif;
 }
 
-/** Theming */
+/*-----------------------------------------------------------
+Tables
+Many of the documents loaded contain tables, here are the
+various table stylings that control them. 
+-----------------------------------------------------------*/
+table,
+th,
+td {
+  border: 1px solid;
+  border-collapse: collapse;
+}
+tbody,
+th {
+  text-align: left;
+  padding: 5px 10px;
+  min-width: 50px;
+}
 
-.vscode-light h1,
-.vscode-light hr,
-.vscode-light td {
-  border-color: rgba(0, 0, 0, 0.18);
+td {
+  padding: 3px 10px;
+}
+
+hr {
+  border-top: 1px solid #555555;
 }

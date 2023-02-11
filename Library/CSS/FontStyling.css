@@ -11,6 +11,10 @@ the site
   font-family: MoonDance;
   src: local("Moon Dance"), url("../Fonts/MoonDance-Regular.ttf");
 }
+@font-face {
+  font-family: MrEaves;
+  src: local("Moon Dance"), url("../Fonts/Mr\ Eaves\ Small\ Caps.otf");
+}
 /*-----------------------------------------------------------
 DropCap Styling
 On a limited number of pages, a drop cap is used. here is the

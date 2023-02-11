@@ -1,206 +1,208 @@
-# Adv 4.1: The Brink Of War
+# The Chapel Of Summoning
 
-**Weather Forecast:** Snow, Severe Windchill
+**Weather Forecast:** Overcast, Strong Wind
 
-**Moon Cycle:** Last Quarter Moon
-
----
-
-## The Sound Of War
-
-You awaken in your room with somewhat of a start. A look to the window shows that the sun is barely above the horizon this morning, but there is a lot of noise outside. It would also appear a fair amount of screaming. The war on making its way to Gullet Cove appears to have arrived to the north and the wall is under siege.
-
-### The Scratching Post
-
-You hear a collection of screaming from downstairs.
-
-- You go down to find that the scratching post has been turned into a makeshift hospital of sorts.
-- The various tables have been covered in sheets and you can see members of the town soldiers laying upon them.
-- The owner of the Scratching Post, as well as several townsfolk appear to be dealing with the wounds with limited skill and ability.
-- On the table one over dog appears heavily bandaged, and currently they are working on a cat. But given the amount of fur lost and bandages in place, you would be forgiven for mistaking it.
-  - Perez was a tabby cat, when he had fur, but right now he has a rather nasty set of wounds.
-- At this moment a human is rushed in on a stretcher, they appear to be bleeding heavily. They are placed on an empty table and several people rush over to help.
-  - They find the man barely alive, unconscious with what remains of a ballista siege bolt poking out of his chest.
-- The injured keep coming in, its not a pretty sight.
-
-Outside you hear calls to anyone able to defend the city, but no one is answering…
-
-You go outside and find a junior member of the golden collar standing calling for any and all help. Little more than a squire, their training would be minimal and their use less so, they are calling for anyone to help defend the wall to the north.
+**Moon Cycle:** Waxing gibbous Moon
 
 ---
 
-## The Attackers
-
-You make your way towards the wall, the sound of fighting can be heard and it sounds fairly intense. The sound of screaming and violence increases as you get closer, the defences are crumbling and they are in dire need for help. Upon the wall you can see what remains of the fractured guard:
-
-- 3 Guards
-- 2 Squires
-
-Atop the wall you can see the enemy forces:
-
-- Aarakocra (+ General)
-- Harengon
-- Tabaxi
-- 2 Golems
-- 2 Seige Weapons
-
-A negotiation with the enemy is possible, although they will want to fight and kill you without a good reason to not do so. A discussion will be aggressive and they will want the full surrender of the city, freedom to search the city for what ever they are looking for unimpeded (Le-Furr). They are willing to compromise and allow the party to search the city for them.
-
----
-
-## The Spicy Rat Caper
-
-Around the area of gullet cove, there are plenty of options to find rats who will be more than willing to betray Le-Furr who has taken to hiding in the sewers. Although the best chance of finding them will be at the docks, which are currently on lock down.
-
-### The Harbour
-
-In the harbour you can find a few boats which have been here for a few days with crew that appear to be pretty annoyed about the situation. Most can be found on the decks laying in hammocks or in general carrying out maintenance on the ship. The three ships in dock currently are:
-
-- The Fated Dream
-  This merchant ship has an elegant hull. The ship's commander is a woman named Wynna. The ship's main hold is filled with bales of hide.
-- The Green Arrow
-  This merchant ship has a broad hull. The ship's captain is a male rogue named Atwic. The ship's lower hold is filled with bales of parchment.
-- The Sea Queen
-  This merchant ship has a broad hull. The ship's captain is a male rogue named Atwic. The ship's lower hold is actually virtually empty, all that remains is a few questionable barrels, and the remains of some spoils of ill-gotten gains. She poses as a merchant ship who tackles the task of going too and from the mainland of gullet cove and the Moonshae islands, but really she sails the sea of swords taking ships who least expect it.
-  The crew and the captain will be a little unease about being in dock for this long, as people tend to ask a few too many questions. It also doesnt help that a few of Le-Furrs crew have made their way onboard the ship after the Serpents Cry was sunk.
-- The Serpents Cry (Wreck)
-  Inside the harbour is what remains of the serpents cry. The ship was well and truly shelled and little remains poking above the surface. Anything the ship was carrying is the property of the sea now.
-
-### The Vermin
-
-- There are plenty of vermin around which can be used to find the way to Le-Furr. One of the rats (Tid-Bit\***\*)\*\*** will be of note however, he will be fairly clean, slightly out of the ordinary, he will also smell strangely spicy. A courtesey of one of the crew of LeFurr, Corazón de León.
-- If caught he will be quite hungry and will only help if offered food, normally stowing away on the ships holds and eating all they like, but this hasnt been the case for a while. He was filthy like the other rats, until some strange guy in a hat caught him and suggested they cook him and eat him down in the sewers. Some cat a man in a funny looking hat, and a big long scaly thing, some kind of big overgrown snake with legs. Breathed fire by the looks of it.
-- He will lead them to a sewer drain before heading off to do his own thing on the quest for food, as he will be distracted by a great smell coming from one of the inns, and run off. This will be a constant theme for him leading them slightly astray.
-
-### \***\*The Murky Retreat\*\***
-
-A wooden building with a straw roof, the Murky Retreat Inn stands one story tall. This place is regularly crowded with lots of guests. Inside, this tavern smells of ale, fish, and worse. As you approach, you notice the tavern has a fun atmosphere. The patrons are all sharing humorous stories with each other.
-
-This tavern is owned by a male human named **Kierat Tarth**.
-
-Patrons:
-
-- **Maecy Baratheon**: A middle-aged female human is sitting at a table, drinking alone.
-- **Teryani Moonbow**: An adolescent female elf is sitting at a table, arm wrestling someone else.
-- **Lyklor Tsornyl**: An older male elf is sitting near the fireplace, trying to sell something to someone.
-- **Emilee Thenn**: A frail female human is sitting near the fireplace, singing a beautiful song.
-- **Daisy Montajay**: A powerful female halfling is standing by the bar, eating a hearty meal.
-
----
-
-## To The Sewers
-
-When players enter read:
+# The Siege Is Over
 
 <aside>
-🪧 As you walk into the sewer you are surprised to see that it is actually incredibly well built. Significantly better than some parts of gullet cove. It would appear great care and attention was placed upon the layout of the sewers and how they would work.
-
-What is not a surprise however, is the onslaught to your senses. It hits you like an Owlbear. The smell alone is enough to provoke your gag reflex, it also stings your eyes to have them wide open and you find yourself squinting to reduce the pain. Everything seems to have a slippery and slimy quality and the sound, the sound is just horrible. The echo and reverberation of sewage moving through the tunnel system is a sound like nothing else. What would drive a person to come down here.
-
-As a side note: DM - > Players, please assume all these doorways you see on the map are open, unless I tell you otherwise.
+🪧 The crisis of war has been adverted, by your respective hands no less, and the criminal Le-Furr is heading off to answer his crimes. Well more like he is going to lose his head BECAUSE of his crimes, but either way, you have not heard anything since, which you can only assumed is someone good news, in its own little way. Each of you took some well deserved time off over the past few weeks and decided to pursue some of your own interests. Your paths no doubt crossed at points, but you each tended to go your own way. You all agreed to meet mid morning today at The Water Bowl as last night it appeared to be the scene of a lot of commotion. On your respective walks over, a couple of you heard the townsfolk telling stories of what happened.
 
 </aside>
 
-### The First Area
+---
 
-- There are a few caskets down here which seem to be something to do with the builders of the sewers, what a strange final resting place, althought a couple appear to have been disturbed.
-  - Investigation of the tombs will highlight that 2 of them actually have way more bodies in there than there should be.
-  - They have been looted, all that remains is bones and some very tattered and ruined clothes. Including what appears to be a very old robe from the temple.
-  - Thieves cant is around the wall, it looks old. but reads
-    <aside>
-    🪧 “Dead Men Tell No Tales. “
-    
-    </aside>
+# You Dropped This?
 
-- You can see a small floating wooden board on the water which is somehow managing to avoid the corrosion from the water. You are a little concern however if the water may or may not be toxic. Best not to touch it.
-  - A DC 15 wisdom (perception) or intelligence (investigation) check will notice two shapes moving about underneath the water, this being two **TBC.**
-  - Regardless of whether or not the players are aware of these two creatures, the **TBC** will notice them, and will remain passive until a creature touches the water. The only way to avoid them is to either exit the sewers or not touch the water.
-- There are a couple of side tunnels, these will contain some old crates and barrels, all of which are empty. With an investigation check they will find that they once held spice, rum and other desirable goods, but they have long since been emptied.
+## Inside The Inn
+
+- The Water Bowl is a well-kept tavern with just enough frills and rough edges to make most feel comfortable.
+- The dining room has a bar and several tables, enough to comfortably hold up to 30. The morning meal here is a pleasant combination of bread and honey mixed with cinnamon.
+- Between the outside light through the open windows or the green driftglobe over the bar, the dining room is brightly lit. These may be used to reveal title mark glyphs’ nature (see sidebar) such as the one on the map given to the adventurers.
+- A handful of commoners are here eating breakfast.
+- Duric Green the co-owner of the inn tends the bar.
+  - He welcomes the adventures back, even though they have never been here and asks if they have come back to get their document?
+  - Last night, cleaning up after a bar brawl, Zel found a strange looking page with no names or recognizable marks but possessive of a curious glow. The inn had no other overnight customers last night, so Duric believes that it belongs to one of the adventurers and will hand it too them. Otherwise he doesn’t have the slightest clue as to whom it may belong.
+  - Duric suggests they see where the page leads, offering them a free meal and drinks at the inn if they come back with an entertaining story (and a cut of whatever treasure they happen to find, you know, “a finder’s fee!” of sorts. He winks knowingly).
+- The page clearly doesn’t belong to the adventurers, but finding the actual owners is impossible, The Water Bowl was simply too busy last night. Plus, with all of the rumors about treasure in town, most folks would claim the paper in the hope it might lead them to the loot. As far as Duric is concerned, the page belongs to the adventurers now.
 
 ---
 
-### A Blacksmith?
-
-As you approach the next section you find what appears to be some form of blacksmith/armoury. It has certainly seen better days, but what is more worrying, is it appears to have been used a fair amount, and more importantly, recently. The quality of the gear it could make, is certainly lacking somewhat, but the fact that its not only down here, but that people use it is what is most impressive.
-
-They appear to have set up the water wheel to actually power the furnace and keep air flowing into it. You are somewhat concerned about the gasses down here and an open flame, but so far, so good. Somehow…
-
-The actual forge itself is still warm, and you can see the anvil and wet stones have been used to reforge something recently.
-
-In the corner a pile of old rusted weapons can be found. There is nothing major of note here, but it would seem they are used for spares to be melted down into something new. This is an old smuggers hideout and is clearly used infrequently by only those who know how to use it. It may have belonged to one of the guilds at one point, but now it seems its only used by the odd passing thief or rogue.
-
-- A search will find a few ingots of metal, which could be worth money, but they are incredibly heavy to move. You would need to take them to a blacksmith to have them valued. Each one weighs around 40lb’s, and depending on the purity, and the metal, could range in price from a few silver, up to maybe a few platinum for something rare or valuable. They are each unmarked
-  | Roll  | Metal    | Cost per lb. | Value   | Ferrus?     | Description                                                                                                                                                            |
-  | ----- | -------- | ------------ | ------- | ----------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-  | 1-5   | Iron     | 1 sp         | 4 gp    | ferrous     | Iron is a silver-white malleable metal that readily rusts in moist air, occurs native in meteorites and combined in most igneous rocks. It is the most used of metals. |
-  | 6-10  | Brass    | 3 sp         | 12 gp   | Non-ferrous | A yellow-ish metal that somewhat resembles gold. An alloy of copper and zinc.                                                                                          |
-  | 11-15 | Bronze   | 4 sp         | 16 gp   | Non-ferrous | A red-ish brown metal. An alloy of copper and tin                                                                                                                      |
-  | 16-17 | Steel    | 4 gp         | 160 gp  | ferrous     | Steel is an alloy made out of Iron and Carbon.                                                                                                                         |
-  | 18-19 | Silver   | 5 gp         | 200 gp  | Non-ferrous | This relatively common valuable metal is the most associated with and suitable for magic.                                                                              |
-  | 20    | Electrum | 25 gp        | 1000 gp | Non-ferrous | A natural alloy of silver and gold.                                                                                                                                    |
-
----
-
-### The Corner Of Secrets
-
-This is where the smugglers check for one of their own with a series of traps and snares. As the players are walking along, one will step onto a pressure plate floor tile which will shoot them with a crossbow bolt. They can make a Dex save DC15 or get hit by the wall mounted crossbow bolt. 1D8 piercing. It will also no doubt make a loud noise as its triggered.
-
-There will also be a load more barrels around here, some old and some newer, most empty but each one clearly has been used for something or another illegal. You can also find a few small barrels, scattered around, one with Catnip, another with anise, and a third with tobacco leaf. Each one of which was part of the laced set from an earlier campaign. Should someone wish to sample, they will pay the price. (1d6 poison per snort/puff.)
-
-There will also be a strange barrel around the corner with one small pouch in it. On the side of the barrel the label reads:
+## The Cypher
 
 <aside>
-🪧 Whilst you can avoid things being seen if you wish, making them disappear entirely, that is a rare gift.
+🧩 The map is on an interesting and unusual paper. The paper itself possesses some form of strange shimmer about it, its also unusually thick. I takes little intelligence to realise this paper is far from ordinary. But the problem is its complete blank, less some strange circles and crescent moons around the edge of the page.
 
 </aside>
 
-Inside is a single pouch of ‘Dust Of Disappearance’.
+- The Magical Page after light exposure:
+  - Under green light the following appears: **AWEMRWNETASNYUPAPKRDAEOE**
+  - Under direct sunlight: **FOUR AT A TIME. READ TOP TO BOTTOM.**
+  - Under firelight: **ARRANGE IN SIX ROWS.**
+- A character with a successful DC 10 Intelligence (Arcana) check recognizes that magical light causes the glyph’s glow.
+- In near total darkness, a faint lettering will appear that reads ‘******\*\*******\*\*\*\*******\*\*******A secret only light can tell…’******\*\*******\*\*\*\*******\*\*******
+
+To solve, take the first 4 letters from the first clue and then write down the next 4 letters in a row underneath. This arranges the letters into 6 rows that looks like this:
+
+| A   | W   | E   | M   |
+| --- | --- | --- | --- |
+| R   | W   | N   | E   |
+| T   | A   | S   | N   |
+| Y   | U   | P   | A   |
+| P   | K   | R   | D   |
+| A   | E   | O   | E   |
+
+When read from the first column, top to bottom, it reads: **“Arty Paw Waukeens Promenade.”**
+
+The Art Paw is an Art Shop in the market district ‘Waukeens Promenade’
 
 ---
 
-### The Shutoff Room
+# A Crypt Portrait
 
-This room is little more than a strange valve control room, and it would appear you can use the values to control various flows of the sewage throughout the system. Each is clearly marked.
+### The Arty Paw
 
-- Left - Shuts off the flow from the left side of the city.
-- Middle - Master shut off valve.
-- Right - Shuts off the flow from the right side of the city.
+- The shop is on the first floor of a small 2 story building. A small, standard apartment is upstairs, and is the residence of the shop owner, Gath (a secret member of the Ouroboros).
+- The shop itself is a display room, 15 feet wide by 50 feet long, with shelves spread throughout.
+- A shop counter is along the back wall, next to a door leading to the back.
+- Canvas artwork and painted trinkets are on display throughout.
+  - Most of the art includes a white full moon, and everything inside is pure white.
+- The clue the adventurers seek is the wall mounted crypt portrait behind the shop counter. ‘Full Moon Crypt’
+  - The portrait features a statue pointing to a mausoleum crypt highlighted by a full moon in the background. In the centre of the painting several circles and crescent moons can be seen thanks to the pure white light, which match that same pattern of the page they have in front of them.
+- No windows are present on the first floor. A chandelier candelabra provides bright white light.
+  - The rope holding the candelabra can be cut, dealing 1d10 bludgeoning damage to a creature standing under it. A successful DC 15 Dexterity
+    save halves the damage.
+- The Location. The crypt looks like many others.
+  - The adventures must either take the painting or study it long enough to note small identifying landmarks for locating the actual crypt.
+  - It is common knowledge that many of the art work in the gallery were painted by local artists. There will also be memories of the graveyard from the solstice and that there were several crypts like this. Perhaps its one of them.
 
-Each valve can be turned, most will be quite stiff and will require either a DC18 Strength check, or two people to work. They will work as expected, but will alert both Le-Furr and the crew of their presence. Not to mention cause issues for the city above under siege.
+### Some Resistance
 
----
-
-## The Main Room
-
-This is the section which will no doubt result in some form of brawl.
-
-### The Platform (Left)
-
-Upon this is a small table, with four old chairs which are barely holding together. Upon the table appears to be a blend of maps and charts ranging in ages. One of the oldest maps appears to list the whereabouts of some treasure chest marked with an ‘X’. Although that has been ringed, and a further note added to explain its not there any more and was taken by a ship.
-
-A glance of one of the other maps, appears to highlight the route that ship was due to take, and an X on the map where it was sunk, marked with ‘treasure now here’.
-
-Several of these pages seem to be various routes, charts and maps of hidden pathways across the sea of swords and where certain ships seem to travel.
-
-The main and more important thing of note, is that there appears to be a map of gullet cove, along with several potential exits from the city. Each one has systematically be crossed off.
-
----
-
-### The Rooms (Right)
-
-These rooms have been used as the bunk option for Le-Furr and his two crewmates. They are nothing special, but it would appear each has a bed which each look quite old and moth bitten, a small space for a candle, and in general somewhere to sleep. You imagine this would have been where smugglers would have stayed.
+- At first, Gath acts as a normal shopkeep. When the adventurers show great interest in the crypt portrait, he views them as threats to his master
+  to stop at all costs. He refuses all offers to sell the portrait.
+- The crypt in the portrait belongs to his master, who values his privacy. Gath knows it will be a fatal mistake if his master discovers his portrait led
+  others to his crypt. Gath knows nothing about the symbols on the piece, and is shocked by its resemblance to their page.
+- The City Watch. If loud sounds result from a combat in the gallery, passers-by hear the disturbance. Fearing for Gath’s life, they call for the City Watch who arrive minutes later.
 
 ---
 
-### The Well
+# The City of the Dead
 
-This is where you will find lefurr and his companions sitting around the edge. One of the companions will be sitting with his feet dangling over the edge. Le-furr and Corazón will be standing there, discussing the plan now that all the exits have been blocked and there appears to be an army of people trying to hunt them.
+### Location Description
 
-- Le-Furr will not want to go alive.
-- The Crew Mates will defend le-furr, until it looks like its going south. They will both blame le-furr and agree to go quietly.
+The walled cemetery is a public park by day with the gates opening at dawn and closing at dusk. As you approach the graveyard you are greeted with an old sign carved into the stone holding the gate which reads ‘The City Of The Dead’. The last time you came here, you were on the hunt of some runaway Christmas trees and the whole land was covered in a blanket of snow. Its easy to see how that detail was overlooked.
 
-### The Loot
+Any character who succeeds on a DC 10 Intelligence (History) check recalls the City of the Dead is the only place in Gullet Cove where the deceased can be buried legally. The cemetery is vast and would take days to examine.
 
-- [ ] Barrel Of Sunset
-- [ ] Badly written sorry note
-- [ ] 25gp
+The City of the Dead is surrounded by a wall of cobbled stone. Inside, gravel pathways lead throughout the well-manicured gardens. Elegant mausoleums, ornate gravestones and mournful statues adorn the public park.
+
+### **The Painting**
+
+The image contains clues to the crypt entrance. The painting features a stone statue of a cloaked figure pointing toward a mausoleum in the foreground. The statue in the painting is easily found on a northeastern hill in the City of the Dead. From there, the mausoleum can be found by following the direction that the hand on the statue points toward.
+
+### The Mausoleum
+
+The mausoleum depicted in the painting is located west of the statue in the Lords’ Respite area of the cemetery and belongs to a wealthy family. The area has the following features:
+
+- Mausoleum. This 10-foot by 15- foot mausoleum is a marble structure erected in the likeness of a stately house. Above its metal doors is a stone banner inscribed with the name “Gost.” It is 10-feet wide by 15-feet long. Inside are four alcoves with grave markers for members of the Gost family. Some of the tiles have been broken.
+- Pointing Statue. The statue of a cloaked figure stands on a 5-foot square, 10-foot tall plinth, and points toward the Gost mausoleum (which is a ruse; the mausoleum isn’t the entrance to the crypts). A successful DC 10 Wisdom (Perception) check, reveals the statue is a new addition to the cemetery. Any character who closely investigates the statue and succeeds on a DC 15 Intelligence (Investigation) check locates a catch inside a fold of its robe that opens a secret door at its base. Otherwise, it takes an hour for them to find the way in without making checks.
+- NPC’s: Commoner (Blitz - Medium Sized Mongrel) warns the adventures to be careful there have been a lot of grave robbers around of late, and that the city guard have been extra vigilant of late.
+
+---
+
+# The Great Sigil
+
+### Location Description
+
+The first chamber of the Chapel of Summoning is an enormous rectangular room with a carved mural on the floor depicting the Ouroboros. The great twin-headed serpentine wyverns meet face to face at the far end of the hall, their teeth wrapped around the other’s neck. Their twisting bodies, complete with two feet and two wings each cascade down the relief in mesmerizing fluid shapes ending at their tails which are conjoined at the bottom. The bound tails form a bond that cannot be broken, and from which there can be discerned no beginning or end. Six braziers (three to a side) light up the mural. The walls are lined with pillars, each of which has a word and number etched into it. The far door is firmly locked shut.
+
+### Unlocking The Door
+
+The pillars on the left side are numbered with odd numbers from 1 to 13 (top is 1, bottom is 13). The right side are numbered with even numbers from 2 to 14 (top is 2, bottom is 14). The words etched are as follows:
+
+<aside>
+🧩 The words etched are as follows:
+
+1. Prime
+2. Light
+3. Must
+4. Top
+5. Be
+6. King
+7. Conquered
+8. Rage
+9. Serpent
+10. Bellows
+11. By
+12. Overlord
+13. Dark
+14. Numbers
+</aside>
+
+### Solutions
+
+The first and last words are “Prime Numbers”, and are a hint to form a phrase using only the prime numbered words (2, 3, 5, 7, 11, 13). The sentence forms “Light Must Be Conquered By Dark”, which is a clue to snuff out the braziers.
+
+You may choose to roll Intelligence Checks if your adventurers cannot come to the solution. Roll with advantage if your player characters have relevant mathematical, numeromancy, or cryptographic skills, or are proficient in Navigator’s Tools, for example.
+
+<aside>
+🧩 Upon solving the puzzle by clouding the room in darkness or snuffing the braziers out, the mural will light up with an ethereal blue glow. Tracing the outline of the mural will reveal a dark spot just at the base where both tails meet. Tampering with this reveals a loose tile under which can be found the lever to open the far door.
+
+</aside>
+
+### ****\*\*\*\*****\*\*****\*\*\*\*****Alternative Solution****\*\*\*\*****\*\*****\*\*\*\*****
+
+A crafty rogue or anybody with an affinity for detecting traps and secrets can bypass this puzzle by carefully examining the mural and inspecting for secrets (Investigation Check DC: 17). However, if the room is not totally dark when the door is opened, the room’s guardian, **An’kheria**, will reveal itself and attack the party. This battle will also occur if the party relights the braziers once the far door is open. The doors will swing shut immediately and battle will commence.
+
+---
+
+# An’kheria
+
+A great trap door will open from above, and into the room will drop what appears to be a hideously deformed drake. Its scales are blackened with fire and its body scarred from being used as a guardian by the cult for centuries. It is missing one eye and detests the light, particularly fire light. This is the light that had been used to scar it during its brutal training as a wyrmling. Now all its beastly heart is sworn to is revenge on any who bring the fire. Once a white dragon, its wings were clipped and cauterized, but it still has teeth, fangs and its hoary ice breath, all the better to snuff out even the most resilient blaze.
+
+### Battling The Drake
+
+An’kheria is massive and ever in a blind rage. He takes up nearly half the floor space of the Great Sigil and will make his first priority to cast the room into darkness by targeting the blaze. Should anybody be foolish enough to attack him with fire, they will be relentlessly targeted by the dragon until they are subdued.
+
+Once the fires are out, the dragon will be calmer and more methodical in his attacks, seeking out the greatest threat first. If the players can blind his other eye, he still can detect creatures within 10 feet of him with blindsight. This dragon will not yield, and unfortunately, the only hope for the creature is to bring an end to its misery.
+
+When the battle is over, your heroes may proceed.
+
+---
+
+# The Summoning Circle
+
+### Location Description
+
+The latter chamber of the chapel is a hallway just as long as the great sigil. Six pillars line the walls closest to the door, with four braziers lighting the way to the center of the room. A massive summoning circle, threatening to call forth a beast of titanic scale, glows ominously, bathing the chamber in unholy cerulean light. On closer inspection, the circle is actually made up of six smaller circles with a void in the center where they connect. Each circle is manned by a hooded summoner on the far end. While only four summoners are visible, you notice two small chambers branch off from the center of the summoning circle, where the other two remain in wait.
+
+At the far end of the hall is an altar with an unfortunate victim awaiting sacrifice. The young man has blond hair and wears the armor of the Ouroboros Knights, though he has removed his breastplate. Considering he is unbound, the only conclusion could be that he is a willing sacrifice to call forth his master. The great priest behind the altar wears a similar horned helmet to the knights who guarded this place, and sets down his ceremonial dagger in favor of a monstrous battle axe.
+
+<aside>
+🧩 Interlopers. You dare to profane this sacred ground with your unhallowed flesh! I shall strike you down and your blood will slake the thirst of the mighty Ouroboros!”
+
+</aside>
+
+### Battle With The Great Priest
+
+Despite being present, the summoners nor the sacrifice will come to Ralof’s aid, as they are preoccupied with their duties. The party shall face Ralof Serpentsworn alone. If the party consists of four or more players, you can add one or two Ouroboros Knights to the battle. As the battle presses on, one of the summoners will collapse from the exertion, having fallen unconscious. The first summoner shall fall on the conclusion of the third round, and one summoner will fall each round until all six have fainted.
+
+If all six summoners faint, the sacrifice is bathed in a vile cerulean light, before being consumed entirely and bringing forth the Ouroboros Emissary. If the party can defeat Ralof before the battle is over, the Summoning Ritual will fail. Even if the summoners are attacked by the party, their work will still continue from the afterlife. Any attempt to aid or remove the sacrificial Knight from the slab will have him engulfed in light early, and bring forth the Ouroboros emissary immediately.
+
+No matter what the party does to try and tamper with proceedings, the only way to stop the summoning is to kill Ralof (or subdue him) before the summoning is complete.
+
+### Battle With The Emissary Of TBC
+
+Upon summoning the Ouroboros Emissary, Ralof Serpentsworn will fall dead, his life force having been consumed in the summoning of the great beast. The creature is not the true Ouroboros, but a lesser creature that serves him, taking the same shape of a twin-headed dragon. While no dragon god, it is nonetheless a powerful foe that must be destroyed lest it continues the work and calls forth the true beast himself. Its twin heads will attack the party, each snapping after its own target. It is capable of utilizing a lightning breath attack from its blue head (on the left) and a flame breath attack from its red head (on the right).
+
+Upon the defeat of either Ralof or the Ouroboros Emissary, the temple will begin to collapse under the strain from the summoning effort. A great tremor will quake the entire structure and the party shall have to run to escape.
+**Note**: While escape should be fairly straightforward, you can spice this section up with some skill challenges if you are so inclined.
+
+---
+
+When the party is outside, the chapel will be buried beneath the twin peaks that once towered overhead as the staggeringly high cliffs tear themselves apart under the weight of the earth. All that shall remain of the structure are the stone steps which will have cracked and risen significantly. The rise shall be so sharp as to reveal a nook on a lower level that was previously buried beneath the dirt. In this small nook is a stone chest where offerings were once placed for the mighty Ouroboros.
+
+Opening the chest reveals a bounty of 850 gold pieces, a golden holy symbol with the Ouroboros etching (125 gp value), and four random gemstones worth 50 gp.

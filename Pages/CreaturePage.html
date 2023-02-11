@@ -36,6 +36,18 @@
       <button class="submitcreature" onclick="showInput();takeshot()">
         Export Creature</button
       ><br />
+      <br />
+      <button class="exportcreature" onclick="exportcreature()">
+        Export Creature</button
+      ><br />
+      <button
+        class="importcreature"
+        onclick="insertInput();showInput();takeshot()"
+      >
+        Import Creature</button
+      ><br />
+
+      <input type="file" id="input" />
 
       <div class="generator-container">
         <div class="Form">
@@ -99,6 +111,9 @@
                 <div class="triangleDIV creatureDIV"></div>
 
                 <p>
+                  <label><b>Saving Throws:</b></label>
+                  <input type="text" id="Saves_input" />
+                  <br />
                   <label><b>Skills:</b></label>
                   <input type="text" id="Skills_input" />
                   <br />
@@ -219,7 +234,10 @@
                 </div>
 
                 <div class="triangleDIV creatureDIV"></div>
-
+                <p class="status">
+                  <span class="standardbold" id="SavesH_output"></span>
+                  <span class="standard" id="Saves_output"></span>
+                </p>
                 <p class="status">
                   <span class="standardbold" id="SkillsH_output"></span>
                   <span class="standard" id="Skills_output"></span>

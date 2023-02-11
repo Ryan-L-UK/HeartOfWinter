@@ -21,10 +21,12 @@ A Central Hub for all the world information for adventures in Gullet Cove and th
 
 ---
 
-- When the file has loaded, firsly delete the entire: `</head>` from the document.
-- Run the following Find & Replace commands, replacing with "":
-  - class="contains-task-list"
-  - class="task-list-item enabled"
+- When the file has loaded, firstly delete the entire: `</head>` from the document. Leave only the link to the stylesheet
+- Run the following Find & Replace commands:
+  - class="contains-task-list" replacing with ""
+  - class="task-list-item enabled" replacing with ""
+  - `<aside>` replacing with `<em>`
+  - `</aside>` replacing with `</em>`
 
 ---
 

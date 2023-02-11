@@ -90,26 +90,7 @@ p.readme {
 a:link {
   text-decoration: none;
 }
-/*-----------------------------------------------------------
-Tables
-Many of the documents loaded contain tables, here are the
-various table stylings that control them. 
------------------------------------------------------------*/
-table,
-th,
-td {
-  border: 1px solid;
-  border-collapse: collapse;
-}
-th {
-  text-align: left;
-  padding: 5px 10px;
-  color: #860954;
-  min-width: 50px;
-}
-td {
-  padding: 3px 10px;
-}
+
 /*-----------------------------------------------------------
 Lists
 Many of the documents loaded contain lists, here are the
