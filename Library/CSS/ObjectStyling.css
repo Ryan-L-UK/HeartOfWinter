@@ -166,10 +166,10 @@ TBC
 }
 .advnavbar {
   overflow: hidden;
-  background-color: #26282a;
+  background-color: #15283b;
   padding-left: 5px;
   padding-right: 5px;
-  border-radius: 0px 0px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
 }
 .advnavbar a {
   justify-items: center;

@@ -32,115 +32,163 @@
         for printing.
       </p>
       <div class="divider"></div>
+
       <br />
-      <button class="submitdream" onclick="showInput();takeshot()">
-        Export Dream</button
+      <span>
+        <button class="submitdream" onclick="showInput();takeshot()">
+          Export Dream
+        </button>
+
+        <button class="submitdream" id="form-submit">Source Code</button></span
       ><br />
+      <input type="file" id="input" onchange="readText(event)" />
+      <br />
 
       <div class="generator-container">
         <div class="Form">
-          <form>
-            <div class="border dreamBG"></div>
-            <div class="framecontainer">
-              <div class="bodycontainer">
+          <div class="border dreamBG"></div>
+          <div class="framecontainer">
+            <div class="bodycontainer">
+              <form id="dreamform">
                 <label><b>Name:</b></label>
-                <input type="text" id="DName_input" />
+                <input type="text" id="DName_input" name="DName_input" />
                 <br />
 
                 <p>
                   <span
                     ><label><b>Description P1:</b></label
-                    ><input type="checkbox" id="Quote1" /><label
+                    ><input type="checkbox" id="Quote1" name="Quote1" /><label
                       class="quotetick"
                       ><b>Quote</b></label
                     ></span
                   >
-                  <textarea id="Desc1_input" cols="56" rows="6"></textarea
+                  <textarea
+                    id="Desc1_input"
+                    name="Desc1_input"
+                    cols="56"
+                    rows="6"
+                  ></textarea
                   ><br />
                 </p>
 
                 <p>
                   <span
                     ><label><b>Description P2:</b></label
-                    ><input type="checkbox" id="Quote2" /><label
+                    ><input type="checkbox" id="Quote2" name="Quote2" /><label
                       class="quotetick"
                       ><b>Quote</b></label
                     ></span
                   >
-                  <textarea id="Desc2_input" cols="56" rows="6"></textarea
+                  <textarea
+                    id="Desc2_input"
+                    name="Desc2_input"
+                    cols="56"
+                    rows="6"
+                  ></textarea
                   ><br />
                 </p>
 
                 <p>
                   <span
                     ><label><b>Description P3:</b></label
-                    ><input type="checkbox" id="Quote3" /><label
+                    ><input type="checkbox" id="Quote3" name="Quote3" /><label
                       class="quotetick"
                       ><b>Quote</b></label
                     ></span
                   >
-                  <textarea id="Desc3_input" cols="56" rows="6"></textarea
+                  <textarea
+                    id="Desc3_input"
+                    name="Desc3_input"
+                    cols="56"
+                    rows="6"
+                  ></textarea
                   ><br />
                 </p>
                 <p>
                   <span
                     ><label><b>Description P4:</b></label
-                    ><input type="checkbox" id="Quote4" /><label
+                    ><input type="checkbox" id="Quote4" name="Quote4" /><label
                       class="quotetick"
                       ><b>Quote</b></label
                     ></span
                   >
-                  <textarea id="Desc4_input" cols="56" rows="6"></textarea
+                  <textarea
+                    id="Desc4_input"
+                    name="Desc4_input"
+                    cols="56"
+                    rows="6"
+                  ></textarea
                   ><br />
                 </p>
                 <p>
                   <span
                     ><label><b>Description P5:</b></label
-                    ><input type="checkbox" id="Quote5" /><label
+                    ><input type="checkbox" id="Quote5" name="Quote5" /><label
                       class="quotetick"
                       ><b>Quote</b></label
                     ></span
                   >
-                  <textarea id="Desc5_input" cols="56" rows="6"></textarea
+                  <textarea
+                    id="Desc5_input"
+                    name="Desc5_input"
+                    cols="56"
+                    rows="6"
+                  ></textarea
                   ><br />
                 </p>
                 <p>
                   <span
                     ><label><b>Description P6:</b></label
-                    ><input type="checkbox" id="Quote6" /><label
+                    ><input type="checkbox" id="Quote6" name="Quote6" /><label
                       class="quotetick"
                       ><b>Quote</b></label
                     ></span
                   >
-                  <textarea id="Desc6_input" cols="56" rows="6"></textarea
+                  <textarea
+                    id="Desc6_input"
+                    name="Desc6_input"
+                    cols="56"
+                    rows="6"
+                  ></textarea
                   ><br />
                 </p>
                 <p>
                   <span
                     ><label><b>Description P7:</b></label
-                    ><input type="checkbox" id="Quote7" /><label
+                    ><input type="checkbox" id="Quote7" name="Quote7" /><label
                       class="quotetick"
                       ><b>Quote</b></label
                     ></span
                   >
-                  <textarea id="Desc7_input" cols="56" rows="6"></textarea
+                  <textarea
+                    id="Desc7_input"
+                    name="Desc7_input"
+                    cols="56"
+                    rows="6"
+                  ></textarea
                   ><br />
                 </p>
                 <p>
                   <span
                     ><label><b>Description P8:</b></label
-                    ><input type="checkbox" id="Quote8" /><label
+                    ><input type="checkbox" id="Quote8" name="Quote8" /><label
                       class="quotetick"
                       ><b>Quote</b></label
                     ></span
                   >
-                  <textarea id="Desc8_input" cols="56" rows="6"></textarea
+                  <textarea
+                    id="Desc8_input"
+                    name="Desc8_input"
+                    cols="56"
+                    rows="6"
+                  ></textarea
                   ><br />
                 </p>
-              </div>
+              </form>
             </div>
-            <div class="border dreamBG"></div>
-          </form>
+          </div>
+          <div class="border dreamBG"></div>
+
           <br />
         </div>
         <div class="Output">

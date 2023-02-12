@@ -286,3 +286,24 @@ h4.location {
   align-items: left;
   font-family: Lora, Times, serif;
 }
+
+table,
+th,
+td {
+  border: 1px solid;
+  border-collapse: collapse;
+}
+tbody,
+th {
+  text-align: left;
+  padding: 5px 10px;
+  min-width: 50px;
+}
+
+td {
+  padding: 3px 10px;
+}
+
+hr {
+  border-top: 1px solid #555555;
+}

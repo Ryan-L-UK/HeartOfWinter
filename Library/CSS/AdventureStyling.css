@@ -36,26 +36,12 @@ h4 {
 /*         OBJECTS
 /*****************************/
 
-/*em {
-  
-  display: flex;
-  flex-direction: column;
-  width: 95%;
-  margin: 1% auto 1%;
-  padding: 1%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  font-size: 1.1rem;
-  font-family: Lora, Times, serif;
-}
-*/
 em {
   display: flex;
   flex-direction: column;
   width: 95%;
   margin: 2% auto 2%;
-  background: #e8e8e8;
+  background: #eff3f5;
   border-style: solid;
   border-width: 1px;
   border-image: url(../ImageAssets/noteBorder.png) 12 stretch;
