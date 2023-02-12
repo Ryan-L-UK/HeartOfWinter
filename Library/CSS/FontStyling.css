@@ -35,42 +35,42 @@ Header Stylings
 The site uses a markdown tier of header styling from H1-H4,
 here are the controls for each. 
 -----------------------------------------------------------*/
-h1,
-h2,
-h3,
-h4 {
+h1.main,
+h2.main,
+h3.main,
+h4.main {
   text-align: center;
   align-items: center;
   margin-bottom: 0;
 }
-h1,
-h2,
-h3 {
+h1.main,
+h2.main,
+h3.main {
   font-family: Cinzel1;
   text-transform: capitalize;
   font-variant: small-caps;
 }
-h1,
-h3,
-h4 {
+h1.main,
+h3.main,
+h4.main {
   color: #860954;
 }
-h1 {
+h1.main {
   font-weight: bold;
   font-size: 4.4rem;
   margin-top: 0;
 }
-h2 {
+h2.main {
   color: #000;
   margin-top: -10px;
   font-size: 1.75rem;
 }
-h3,
-h4 {
+h3.main,
+h4.main {
   margin-top: -5px;
   font-size: 1.5rem;
 }
-h4 {
+h4.main {
   font-family: MoonDance;
   font-style: italic;
 }

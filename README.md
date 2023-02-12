@@ -27,6 +27,9 @@ A Central Hub for all the world information for adventures in Gullet Cove and th
   - class="task-list-item enabled" replacing with ""
   - `<aside>` replacing with `<em>`
   - `</aside>` replacing with `</em>`
+- Then load the file into word and run a find, replacing with ""
+  - ` id="*"`
+  - Ensure the advanced options are enabled, and wildcard use is selected.
 
 ---
 
@@ -35,8 +38,37 @@ A Central Hub for all the world information for adventures in Gullet Cove and th
 
 ---
 
-## Locations To Write
+## TTD Notes
 
-- The Grand Library (Blank)
-- The Old Lighthouse (Ripped From Book)
-- Harbour (Ripped from book, missing info on sunk ship and the tripple cannons)
+- Harbour requires some updates, current file is ripped direct from TSGC book.
+- Crimson Stone rework.
+- Adjust the map to use URL parameters to call for page names.
+
+## Locations & Districts To Write
+
+- BlackDragonGate.md
+- Cliffgate.md
+- Heapside.md
+- Manorborn.md
+- Norchapel.md
+- Rivington.md
+- Sea Tower.md
+- TempleDistrict.md
+- WaukeensPromenade.md
+- Whitekeep.md
+- WyrmsRock.md
+- AdventurersGuild.md
+- CityCouncil.md
+- GoldenCollar.md
+- Graveyard.md
+- GrimmsmouthHall.md
+- MainHarbour.md
+- SeafarersGuild.md
+- SeilfEmit.md
+- TempleAndLibrary.md
+- TheMurkyRetreat.md
+- TheScratchingPost.md
+- TheSilverSovereign.md
+- TheWaterBowl.md
+- ThievesGuild.md
+- WizardsTower.md
