@@ -44,3 +44,23 @@ heroes are doing so he can report it back to The Xanathar. The thieflings want t
 Krystaleen buys adventuring gear and tools from visitors at half price but sells at 5x normal cost. Other than adventuring gear and tools, she sells tiny clockwork toys (as described in the rock gnome entry in the Player’s Handbook) for 50 gp each. She has a decorative metal tin containing 10 random trinkets (Player’s Handbook, Chapter 5) for sale for 1 gp each.
 
 </em>
+
+## Creatures/NPCs
+
+**Krystaleen** (a female rock gnome noble) has two **stone defenders** sunk into the floor and two clockwork mobiles hung from the ceiling that are actually **oaken bolters**. Krystaleen slaps the ledger closed when the characters enter, leaving it by the cashbox. If the characters buy anything, she enters the item in question, the price paid, and the name and address of the purchaser in her ledger. Then she writes a receipt on a scrap of paper.
+
+**Objectives/Goals.** Krystaleen wants the heroes to either buy something or leave quietly. She is reluctant to tell them who she sold the key to because she values her clients’ privacy.
+
+**What Does She Know?** Krystaleen sold the key yesterday to an orc named Mugrub who lives on Skull Square.
+
+**Suggested Clue.** An orc named Mugrub bought the key and lives on the border between Skull Square & Waukeens Promenade.
+
+<em>
+
+### Playing the Pillars (Seilf Emit Pawnshop)
+
+| Combat                                                                                                                                                                                           | Exploration                                                                                                                                                                                                                                                                                                                                                                                                                                    | Social                                                                                                                                                                                                                                                                                                                                                                                         |
+| :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| The clockworks only attack in response to Krystaleen being injured. Krystaleen will flee the shop. The clockworks have been instructed to do nonlethal damage unless Krystaleen has been killed. | The ledger is next to the cashbox when Krystaleen is in the shop. When she is not there, it is locked in a cashbox which requires a set of thieves’ tools and a successful DC 14 check to open. The lock on the front door requires these tools as well, but only a successful DC 12 Dexterity check to open. Sneaking past her might be easier if she’s distracted (by someone haggling with her, for example). Her passive perception is 12. | Krystaleen is proud of the privacy her clients enjoy. The characters must succeed on a DC 13 Charisma (Deception or Persuasion) check to convince her to tell them who bought the key. A bribe of at least 50 gp allows the character to make the check with advantage. She flees if the characters attempt to intimidate her. If charmed, Krystaleen tells the characters whatever she knows. |
+
+<em>
