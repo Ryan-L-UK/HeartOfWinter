@@ -37,6 +37,10 @@ font controls. Normally these would be spread out, but this
 is to make editing or changing any aspect of them easier by
 putting it all in one place. 
 -----------------------------------------------------------*/
+.menuitem-shadow {
+  filter: drop-shadow(0 8px 12px rgba(0, 0, 0, 0.5));
+}
+
 .menuitem {
   background-image: url(../BackgroundParchment/sword_meow_background_base.png);
   background-color: #fff;
@@ -45,8 +49,9 @@ putting it all in one place.
   margin: 0;
   margin-bottom: 25px;
   padding: 0;
-  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.5);
+  clip-path: polygon(100% 0, 100% 93%, 93% 100%, 0 100%, 0 0);
 }
+
 .menuitemimage {
   width: 375px;
   margin: 0;
@@ -66,27 +71,38 @@ p.menu {
 }
 h1.menu {
   margin-top: 0px;
-  font-family: Cinzel1;
+  font-family: MrEaves;
   text-transform: capitalize;
   font-variant: small-caps;
   color: #860954;
   font-weight: bold;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
 }
 p.menu {
-  margin-top: 5px;
+  margin-top: -10px;
   font-family: Lora, Times, serif;
   font-size: 1rem;
   color: #000;
 }
 p.readme {
-  text-align: right;
+  vertical-align: bottom;
   margin: 10px;
-  font-family: Lora, Times, serif;
+  font-family: MrEaves;
   text-transform: capitalize;
+  font-variant: small-caps;
   color: #860954;
-  font-size: 1rem;
+  font-size: 1.3rem;
+  vertical-align: text-bottom;
 }
+p.readme::after {
+  content: "\27B5";
+  transform: scale(1.75);
+  color: #000;
+  display: inline-block;
+  margin-left: 210px;
+  align-items: right;
+}
+
 a:link {
   text-decoration: none;
 }
@@ -149,35 +165,6 @@ output, her are the controls for each of them.
 .shipBG {
   width: 825px;
   background-image: url(../ImageAssets/GeneratorBorderDream.png);
-}
-/*-----------------------------------------------------------
-Adevnture Menu
-TBC
------------------------------------------------------------*/
-.adventureline {
-  display: flex;
-  height: auto;
-  width: 100%;
-  align-items: center;
-  justify-items: center;
-  border-bottom: 2px solid #484848;
-  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.5);
-  margin: 0;
-}
-.advnavbar {
-  overflow: hidden;
-  background-color: #15283b;
-  padding-left: 5px;
-  padding-right: 5px;
-  border-radius: 5px 5px 5px 5px;
-}
-.advnavbar a {
-  justify-items: center;
-  align-content: center;
-  font-size: 18px;
-  text-align: center;
-  padding: 7px 14px;
-  text-decoration: none;
 }
 
 /*-----------------------------------------------------------
@@ -315,68 +302,99 @@ li.task-list-item {
   color: #000;
 }
 input::file-selector-button {
-  color: #fff;
-  padding: 0px 6px;
-  text-align: center;
-  justify-items: center;
-  text-decoration: none;
-  font-size: 16px;
-  border-radius: 4px;
-  display: inline;
+  --button-crop-size: 16px;
   align-items: center;
-  margin: 0, auto;
-  width: 100%;
-  font-family: Garamond, serif;
-  background: linear-gradient(
-    180deg,
-    rgb(159, 159, 159) 0,
-    rgb(58, 58, 58) 100%
+  cursor: pointer;
+  display: inline-flex;
+  justify-content: center;
+  min-height: 35px;
+  vertical-align: middle;
+  padding: 10px 35px;
+  color: #fff;
+  font-size: 16px;
+  letter-spacing: 2.26px;
+  font-family: MrEaves;
+  font-variant: small-caps;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1;
+  border-radius: 0;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.1s ease-out;
+  position: relative;
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% calc(100% - var(--button-crop-size)),
+    calc(100% - var(--button-crop-size)) 100%,
+    0 100%
   );
+  z-index: 2;
+  margin-left: 10px;
+  margin-right: 10px;
+  background: #3a3a3a;
+  background-image: linear-gradient(90deg, #3a3a3a, #9f9f9f);
+  border: 2px solid #bcbcbc;
 }
 
 .submitcreature,
 .submitspell,
-.submititem,
-.submitdream {
-  color: #fff;
-  padding: 7px 10px;
-  text-align: center;
-  align-items: center;
-  text-decoration: none;
-  font-size: 16px;
-  border-radius: 4px;
-  display: inline;
-  margin: -3px 1px;
-  width: 150px;
-  font-family: Garamond, serif;
-}
+.submitdream,
 .submititem {
-  background: linear-gradient(
-    180deg,
-    rgba(76, 175, 80, 1) 0,
-    rgba(43, 115, 46, 1) 100%
+  --button-crop-size: 16px;
+  align-items: center;
+  cursor: pointer;
+  display: inline-flex;
+  justify-content: center;
+  min-height: 35px;
+  vertical-align: middle;
+  padding: 10px 35px;
+  color: #fff;
+  font-size: 16px;
+  letter-spacing: 2.26px;
+  font-family: MrEaves;
+  font-variant: small-caps;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1;
+  border-radius: 0;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.1s ease-out;
+  position: relative;
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% calc(100% - var(--button-crop-size)),
+    calc(100% - var(--button-crop-size)) 100%,
+    0 100%
   );
+  z-index: 2;
+  margin-left: 10px;
+  margin-right: 10px;
 }
+
+.submititem {
+  background: #2b732e;
+  background-image: linear-gradient(90deg, #2b732e, #4ead52);
+  border: 2px solid #4caf50;
+}
+
 .submitcreature {
-  background: linear-gradient(
-    180deg,
-    rgba(75, 147, 175, 1) 0,
-    rgba(43, 56, 115, 1) 98%
-  );
+  background: #2b3873;
+  background-image: linear-gradient(90deg, #2b3873, #4b93af);
+  border: 2px solid #59b5da;
 }
 .submitspell {
-  background: linear-gradient(
-    180deg,
-    rgba(168, 2, 141, 1) 0,
-    rgba(58, 25, 59, 1) 98%
-  );
+  background: #3a193b;
+  background-image: linear-gradient(90deg, #3a193b, #a8028d);
+  border: 2px solid #c909a9;
 }
 .submitdream {
-  background: linear-gradient(
-    180deg,
-    rgb(189, 189, 189) 0,
-    rgb(63, 63, 63) 98%
-  );
+  background: #3a3a3a;
+  background-image: linear-gradient(90deg, #3a3a3a, #9f9f9f);
+  border: 2px solid #bcbcbc;
 }
 .submititem:hover,
 .submitspell:hover,
