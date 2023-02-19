@@ -42,7 +42,6 @@ putting it all in one place.
 }
 
 .menuitem {
-  background-image: url(../BackgroundParchment/sword_meow_background_base.png);
   background-color: #fff;
   width: 100%;
   height: 300px;
@@ -60,8 +59,7 @@ putting it all in one place.
   object-fit: cover;
 }
 .menuitem:hover {
-  transform: scale(1.05);
-  background-image: url(../BackgroundParchment/mm_background_base.png);
+  transform: scale(1.02);
 }
 h1.menu,
 p.menu {
@@ -117,16 +115,17 @@ li {
   margin: 0 auto;
   text-align: left;
   align-items: left;
-  font-family: Lora, Times, serif;
-  font-size: 1.1rem;
+  font-family: roboto;
+  font-size: 1rem;
   margin-bottom: 8px;
 }
+
 ul {
   color: #000;
   margin: 0 auto;
   text-align: left;
   align-items: left;
-  font-family: Lora, Times, serif;
+  font-family: roboto;
   font-size: 1rem;
   margin-bottom: 8px;
 }
@@ -247,6 +246,7 @@ Inputs & Outputs
 These are the various input fields, tick boxes and buttons 
 used across the site. 
 -----------------------------------------------------------*/
+
 input[type="text"] {
   box-sizing: border-box;
   width: 100%;
@@ -257,20 +257,7 @@ input[type="checkbox"] {
 .listbox {
   width: 250px;
 }
-.LocationOutput {
-  width: 90%;
-}
-.AdventureOutput {
-  width: 95%;
-}
-li.task-list-item {
-  text-align: left;
-  font-family: Lora, Times, serif;
-  margin: 0 auto;
-  font-size: 1rem;
-  margin-bottom: 8px;
-  list-style-type: circle;
-}
+
 .quotetick {
   float: right;
 }
@@ -401,4 +388,68 @@ input::file-selector-button {
 .submitcreature:hover,
 .submitdream:hover {
   color: #000;
+}
+
+/*****************************
+/*           CONTAINER
+/*****************************/
+.document-container {
+  display: grid;
+  width: 100%;
+  justify-content: space-evenly;
+  align-content: space-evenly;
+  column-gap: 25px;
+  grid-auto-flow: row;
+  grid-template-columns: 250px 950px;
+  grid-template-areas: "secondary-content primary-content";
+}
+
+.sidenav {
+  width: 230px;
+  /* position: fixed;*/
+  background: #fff;
+  overflow-x: hidden;
+  padding: 10px 0 10px;
+  margin: 10px;
+  border: 1.5px solid #bcbcbc;
+  filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.5));
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  display: block;
+  font-family: roboto;
+  color: #000;
+}
+
+.sidenav a:hover {
+  color: #a8028d;
+  border-left: 3px solid #a8028d;
+}
+
+.LocationOutput {
+  width: 90%;
+}
+
+a.menuhead {
+  font-family: Roboto-bold;
+  text-decoration: none;
+  font-size: 1.05rem;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+a.menu {
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+a.submenu {
+  text-decoration: none;
+  padding-left: 30px;
+  font-size: 0.75rem;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
 }

@@ -74,3 +74,7 @@ for (i = 0; i < toggler.length; i++) {
     this.classList.toggle("expandable-down");
   });
 }
+
+function scrollTop() {
+  console.log("Crew Generator Starting");
+}

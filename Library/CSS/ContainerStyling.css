@@ -8,7 +8,7 @@ html {
   background: #14171b;
   height: 100%;
   width: 100%;
-  margin: auto;
+  margin: 0;
   background-image: url(../BackgroundParchment/BackgroundImage.jpeg);
   background-attachment: fixed;
   background-position: top;
@@ -21,16 +21,24 @@ html {
   flex-direction: column;
   width: 1250px;
   height: fit-content;
-  margin: 4% auto 0;
+  margin-top: 4%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
   align-items: center;
-  background-image: url(../BackgroundParchment/dmg_background_base.png);
+  background-image: url(../BackgroundParchment/background_texture.png);
   background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-repeat: repeat;
+
   padding: 0;
 }
 .bodycontainer {
   padding: 2%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
 }
 /*-----------------------------------------------------------
 Grid Containers

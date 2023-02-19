@@ -13,7 +13,15 @@ the site
 }
 @font-face {
   font-family: MrEaves;
-  src: local("Moon Dance"), url("../Fonts/Mr\ Eaves\ Small\ Caps.otf");
+  src: local("Mr Eaves"), url("../Fonts/Mr\ Eaves\ Small\ Caps.otf");
+}
+@font-face {
+  font-family: Roboto;
+  src: local("Roboto Regular"), url("../Fonts/Roboto-Regular.ttf");
+}
+@font-face {
+  font-family: Roboto-bold;
+  src: local("Roboto Medium"), url("../Fonts/Roboto-Medium.ttf");
 }
 /*-----------------------------------------------------------
 DropCap Styling
@@ -81,9 +89,9 @@ here are the controls for each.
 -----------------------------------------------------------*/
 p {
   text-align: left;
-  font-family: Lora, Times, serif;
+  font-family: roboto;
   margin: 0 auto;
-  font-size: 1.1rem;
+  font-size: 1rem;
   margin-bottom: 8px;
 }
 p.subheading {

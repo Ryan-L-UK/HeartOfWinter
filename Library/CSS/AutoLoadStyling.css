@@ -9,16 +9,16 @@ These is the main containers which powers the entire site
 .navbar {
   overflow: hidden;
   background-color: #26282a;
-  font-family: Garamond, serif;
+  font-family: Roboto;
   margin-top: 0;
-  padding: 0;
+  padding: 0px;
   width: 100%;
 }
 .navbar a {
   float: left;
-  font-size: 18px;
+  font-size: 1rem;
   text-align: center;
-  padding: 7px 14px;
+
   text-decoration: none;
 }
 .line {
@@ -27,7 +27,7 @@ These is the main containers which powers the entire site
   width: 100%;
   align-items: center;
   justify-items: center;
-  border-bottom: 2px solid #bd0875;
+  border-bottom: 1px solid #bd0875;
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.5);
   margin: 0;
 }
@@ -36,22 +36,22 @@ These is the main containers which powers the entire site
   overflow: hidden;
 }
 .dropdown .dropbtn {
-  font-size: 18px;
+  font-size: 1rem;
   border: none;
   outline: 0;
   color: #a7afb9;
-  padding: 7px 8px;
   background-color: inherit;
   font-family: inherit;
   margin: 0;
 }
+
 .dropbtn,
 .stdbtn {
-  font-size: 18px;
+  font-size: 1rem;
   border: none;
   outline: 0;
-  padding: 7px 12px;
-  font-family: Garamond, serif;
+  padding: 13px 12px 13px;
+  font-family: Roboto;
   margin: 0;
   color: #a7afb9;
 }
@@ -68,16 +68,18 @@ These is the main containers which powers the entire site
   margin-right: 7px;
   align-items: center;
   justify-items: center;
+  color: #616f7e;
 }
 .dropdown-content {
   display: none;
   position: absolute;
   background-color: #1c1d1e;
-  min-width: 225px;
+  min-width: 265px;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
   z-index: 1;
   align-items: center;
   justify-items: center;
+  /*margin-top: 9px;*/
 }
 .dropdown-content a {
   float: none;
@@ -98,21 +100,104 @@ These is the main containers which powers the entire site
 /*Footer*/
 /*-----------------------------------------------------------*/
 
+.footerbox {
+  width: 100%;
+  height: auto;
+  background-color: #242527;
+  background-size: cover;
+  color: #fff;
+  padding: 0;
+  margin: 0;
+}
+
+.footerbase {
+  background-color: #191a1b;
+  background-size: cover;
+  color: #9b9aa7;
+}
+
+.iconlogo {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-container {
+  display: grid;
+  width: 100%;
+  justify-content: space-evenly;
+  align-content: space-evenly;
+  column-gap: 1%;
+  grid-auto-flow: row;
+  grid-template-columns: 30% 60%;
+  grid-template-areas: "footerlogo footerlinks";
+}
+
+.footerlogo,
+.footerlinks {
+  text-align: center;
+  align-items: center;
+}
+
+.footer-links-container {
+  display: grid;
+  width: 100%;
+  justify-content: space-evenly;
+  align-content: space-evenly;
+  column-gap: 1%;
+  grid-auto-flow: row;
+  grid-template-columns: 30% 30% 30%;
+  grid-template-areas: "linksleft linkscentre linksright";
+}
+.linksleft,
+.linkscentre,
+.linksright {
+  text-align: center;
+  align-items: center;
+}
+
+li.footer {
+  margin: 0 auto;
+  text-align: left;
+  align-items: left;
+  font-size: 0.8rem;
+  font-family: Roboto;
+  margin-bottom: 8px;
+}
+ul.footer {
+  margin: 0 auto;
+  text-align: left;
+  align-items: left;
+  font-size: 0.8rem;
+  font-family: Roboto;
+  margin-bottom: 8px;
+  list-style: none;
+  list-style-image: none;
+}
+
+li.heading {
+  color: #9b9aa7;
+  font-size: 0.8rem;
+}
+
+.ftrlink {
+  color: #fff;
+  text-decoration: none;
+}
+
+.ftrlink:hover {
+  color: #9b9aa7;
+}
+
 p.footer {
   width: 80%;
   text-align: center;
   align-items: center;
-  font-family: Lora, Times, serif;
-  color: #000;
-  margin: 0 auto -2%;
-  font-size: 1em;
-}
-
-.footer {
-  width: 100%;
-  align-items: center;
-  justify-items: center;
-  margin: 0;
-  padding: 0;
-  filter: hue-rotate(280deg);
+  font-size: 0.9rem;
+  font-family: Roboto;
+  color: #9b9aa7;
+  margin: 0 auto 0;
 }
