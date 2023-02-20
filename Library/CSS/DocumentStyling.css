@@ -42,6 +42,13 @@ p.caption {
   text-align: center;
   font-style: italic;
 }
+p {
+  text-align: left;
+  font-family: roboto;
+  margin: 0 auto;
+  font-size: 1rem;
+  margin-bottom: 8px;
+}
 
 .center {
   align-items: center;
