@@ -22,7 +22,10 @@ After years of financial hardship due to their stolen fortune, the mountain dwar
 
 ## Varrin’s Proposition
 
-Varrin (lawful good, tiefling noble) contacts the characters to enlist their aid in retrieving the key. Varrin’s braided hair is black with streaks of gray. He wears a loose, comfortable robe over a steel breastplate. Whether Varrin approaches the characters or invites them to a meeting, read the following text:
+Varrin (lawful good, tiefling <a
+        href="http://localhost:8080/Sources/Creatures/Noble.png"
+        >noble</a
+      >) contacts the characters to enlist their aid in retrieving the key. Varrin’s braided hair is black with streaks of gray. He wears a loose, comfortable robe over a steel breastplate. Whether Varrin approaches the characters or invites them to a meeting, read the following text:
 
 <em>
 “Thank you for hearing me out. My name is Varrin, and I have a proposition for you. The Axbreaker clan, my old allies, have located wealth stolen from them many years ago, but it’s sealed in a vault that’s magically locked. If you can recover the key—whatever it is—we can unlock the vault and I can finally claim the treasure that is rightfully mine. I’ll cut you in for a percentage of the recovered treasure, of course."

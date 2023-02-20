@@ -453,3 +453,7 @@ a.submenu {
   position: fixed;
   top: 0;
 }
+
+.hideme {
+  display: none;
+}

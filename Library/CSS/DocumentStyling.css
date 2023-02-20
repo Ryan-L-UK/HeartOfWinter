@@ -36,6 +36,16 @@ h4 {
   margin-bottom: 0em;
   font-size: 1.125rem;
 }
+p.caption {
+  font-family: roboto-bold;
+  font-weight: 800;
+  text-align: center;
+  font-style: italic;
+}
+
+.center {
+  align-items: center;
+}
 
 /*****************************
 /*         OBJECTS
@@ -54,7 +64,7 @@ em {
   border-image-width: 11px;
   padding: 1%;
   filter: drop-shadow(1px 4px 6px #888);
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-family: Lora, Times, serif;
 }
 
