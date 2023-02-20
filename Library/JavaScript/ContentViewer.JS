@@ -1,45 +1,53 @@
 //-----------------------------------------
-//Adventure Selector
+//Map Selector
 //-----------------------------------------
-
 const queryString = window.location.search;
-console.log(queryString);
 
 const urlParams = new URLSearchParams(queryString);
 
-const Adv = urlParams.get("Adventure");
-console.log(Adv);
+const Type = urlParams.get("Type");
+console.log("Type: " + Type);
+const FileName = urlParams.get("FileName");
+console.log("FileName: " + FileName);
 
-var AdvOut = "";
-AdvOut = "http://localhost:8080/Sources/Adventures/" + Adv + ".html";
-console.log(AdvOut);
+if (Type == "Location") {
+  var ContentView = "Gullet Cove Map/Location/" + FileName;
+} else if (Type == "District") {
+  var ContentView = "Gullet Cove Map/District/" + FileName;
+} else if (Type == "Faerun") {
+  var ContentView = FileName + "/" + FileName;
+} else if (Type == "Item") {
+  var ContentView = "Magic Items/" + FileName;
+} else {
+  console.error("Shes Dead Jim");
+}
 
-fetch(AdvOut)
+var ContentViewOut = "";
+
+ContentViewOut =
+  "http://localhost:8080/Sources/Faerun/" + ContentView + ".html";
+
+fetch(ContentViewOut)
   .then(function (Lresponse) {
     // When the page is loaded convert it to text
     return Lresponse.text();
   })
-  .then(function (AdventureHTML) {
+  .then(function (ContentViewHTML) {
     // Initialize the DOM parser
     var parser = new DOMParser();
 
     // Parse the text
-    var AdventureDoc = parser.parseFromString(AdventureHTML, "text/html");
+    var ContentViewDoc = parser.parseFromString(ContentViewHTML, "text/html");
 
     // You can now even select part of that html as you would in the regular DOM
     // Example:
-    var AdventureArticle = AdventureDoc.querySelector("html").innerHTML;
-    document.getElementById("Adv_output").innerHTML = AdventureArticle;
-    console.log(AdventureDoc);
-    console.log("Adventure Loaded Successfully...");
+    var ContentViewArticle = ContentViewDoc.querySelector("html").innerHTML;
+    document.getElementById("Content_output").innerHTML = ContentViewArticle;
+    console.log(ContentViewDoc);
   })
   .catch(function (err) {
-    console.log("ERROR: Adventure failed to load: ", err);
+    console.log("ERROR: District/Location failed to load: ", err);
   })
-
-  //-----------------------------------------
-  //Menu Creator Selector
-  //-----------------------------------------
 
   .then(function () {
     console.warn("Menu Builder Starting...");
@@ -75,7 +83,17 @@ fetch(AdvOut)
 
       addElement(menuselector);
     }
-    console.warn("Menu Builder Complete.");
+  })
+  .then(function () {
+    const checker = document.getElementsByClassName("sidenav");
+    const menucheck = checker.item(0).innerHTML;
+    if (menucheck == 0) {
+      sidenav.classList.add("hideme");
+      console.warn("Menu Blank -> Status: Hidden");
+    } else {
+      sidenav.classList.remove("hideme");
+      console.warn("Menu Populated -> Status: Revealed");
+    }
   });
 
 //-----------------------------------------
