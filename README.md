@@ -27,9 +27,6 @@ A Central Hub for all the world information for adventures in Gullet Cove and th
   - class="task-list-item enabled" replacing with ""
   - `<aside>` replacing with `<em>`
   - `</aside>` replacing with `</em>`
-- Then load the file into word and run a find, replacing with ""
-  - ` id="*"`
-  - Ensure the advanced options are enabled, and wildcard use is selected.
 
 ---
 
