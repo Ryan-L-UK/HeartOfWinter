@@ -22,15 +22,12 @@ After years of financial hardship due to their stolen fortune, the mountain dwar
 
 ## Varrin’s Proposition
 
-Varrin (lawful good, tiefling <a
-        href="http://localhost:8080/Sources/Creatures/Noble.png"
-        >noble</a
-      >) contacts the characters to enlist their aid in retrieving the key. Varrin’s braided hair is black with streaks of gray. He wears a loose, comfortable robe over a steel breastplate. Whether Varrin approaches the characters or invites them to a meeting, read the following text:
+Varrin (lawful good, tiefling noble) contacted the characters to enlist their aid in retrieving the key. Varrin’s braided hair is black with streaks of gray. He wears a loose, comfortable robe over a steel breastplate. Whether Varrin approaches the characters or invites them to a meeting, read the following text:
 
 <em>
 “Thank you for hearing me out. My name is Varrin, and I have a proposition for you. The Axbreaker clan, my old allies, have located wealth stolen from them many years ago, but it’s sealed in a vault that’s magically locked. If you can recover the key—whatever it is—we can unlock the vault and I can finally claim the treasure that is rightfully mine. I’ll cut you in for a percentage of the recovered treasure, of course."
 
-“The catch here is Korda is the person who knows how to open the vault is rotting away in the prison of Revel’s End. She's proved uncooperative in the past, but as the dwarves and myself have recently discovered the vault where she hid what she stole. I need you to question her and learn how to open the vault. How you do that is up to you; if you need to spring her from the prison in exchange for this information, please do so. I can provide you with a way in, as well as the layout of Revel’s End and a few useful tricks.”
+“The catch here is Korda is the only person who knows how to open the vault, and she is currently rotting away in the prison of Revel’s End. She's proved uncooperative in the past, but as the dwarves and myself have recently discovered the vault where she hid what she stole. I need you to question her and learn how to open the vault. How you do that is up to you; if you need to spring her from the prison in exchange for this information, please do so. I can provide you with a way in, as well as the layout of Revel’s End and a few useful tricks.”
 </em>
 
 Give the players a copy of map, and read the following text:
@@ -118,10 +115,6 @@ Characters approaching from the north can also see the prison’s northern entra
 
 Characters approaching from the south can see the prison’s south entrance and the trail that leads up to it.
 
-### Extreme Cold
-
-The temperature outside is at or below 0 degrees Fahrenheit (−18 degrees Celsius) while the characters are at the prison. A creature exposed to the cold must succeed on a DC 10 Constitution saving throw at the end of each hour or gain 1 level of exhaustion. Creatures with resistance or immunity to cold damage automatically succeed on the saving throw, as do creatures wearing cold-weather gear (thick coats, gloves, and the like) and creatures naturally adapted to cold climates.
-
 ### Guards on Watch
 
 The prison has four guard towers (see area R9), and three guards in cold-weather clothing are stationed atop each one. If you need to make Wisdom (Perception) checks for the guards to determine if they notice something, make only one roll with advantage.
@@ -139,56 +132,6 @@ If the characters have sled dogs or pack animals, a guard grants the party acces
 After relinquishing their weapons and securing their animals, the characters are escorted by one of the guards to the meeting room (area R12), where they must wait one hour for the warden to greet them. During this time, the characters are unattended and can attempt to sneak into the prison at large. Doing so without alerting the guards requires a successful DC 13 Dexterity (Stealth) check. Recovering the characters’ weapons from the lockbox requires a successful DC 16 Dexterity check with thieves’ tools. If the characters are caught attempting either of these tasks, the guards return them to the meeting room and wait with them for the warden, who throws them out unless they provide a satisfactory reason for their visit and subterfuge.
 
 The warden only accepts the characters’ presence if they are seeking shelter. In that case, she grants them temporary accommodations (in area R7) for up to two days and two nights, and the characters receive three meals a day during their stay. If the characters fail to provide a satisfactory reason for their visit, the warden has their weapons and animals returned to them before throwing them out.
-
-## Suspicion
-
-Activities outside the daily routine of the prison draw attention from the guards and what few other staff members there are. Suspicion is measured in levels from 1 to 6. When the characters arrive at the prison, the suspicion level is 1.
-
-Suspicion can increase when prison staff members witness or find evidence of behavior outside the norm. Circumstances that increase the suspicion level include the following:
-
-- Using a prisoner’s real name while in the guise of prison staff
-- Getting caught by a patrol (see Patrol Routes)
-- Casting a spell that has perceptible components or effects in sight of a guard
-- Conversing with a prisoner about anything other than prison business (such as giving them instructions for tasks)
-
-For suspicion to increase, prison staff members must witness the characters performing unusual activity, and any witnesses must report their observations. If the characters can convince the witness what they saw was justified, the suspicion level doesn’t increase.
-
-### Distractions
-
-A character can create a distraction, giving themself or an ally time to undertake a suspicious activity without being witnessed. If the distracting character succeeds on a Charisma (Deception) check against a DC set by the current suspicion level (see the Suspicion table), the suspicious activity goes unnoticed. Use your discretion to decide if any given activity is subtle enough to be covered by a distraction. For example, a glib conversation can’t cover up an explosion.
-
-### Effects of Suspicion
-
-As the suspicion level increases, patrols become more frequent, and the prison staff become increasingly vigilant. At suspicion level 6, the warden puts the prison on high alert.
-
-#### Suspicion
-
-| Level | Patrol Die | DC  |
-| :---: | :--------: | :-: |
-|   1   |    d20     | 10  |
-|   2   |    d12     | 12  |
-|   3   |    d10     | 14  |
-|   4   |     d8     | 16  |
-|   5   |     d6     | 18  |
-|   6   |     d4     | 20  |
-
-**Level.** The current suspicion level is reduced by 1 (to a minimum of 1) every 8 hours if the prison staff detects no suspicious activity during that time.
-
-**Patrol Die.** Roll a die based on the current suspicion level when characters enter the patrol route to see if they encounter a guard patrol (see “Patrol Routes”).
-
-**DC.** The DC of Charisma checks made against prison staff and of ability checks made to avoid patrols is set by the current suspicion level.
-
-## High Alert
-
-When a matter of concern is brought to her attention, the warden (see area R21) decides whether to place the prison on high alert. Circumstances that warrant taking such action include a prisoner revolt, an escape, the approach of an unfamiliar ship, a dragon sighting, an attack, discovering a dead body, or suspicious activity (see “Suspicion” above).
-
-By speaking the command word, “maristo,” the warden—and only the warden—can place the prison on high alert (or speak it again to end the high alert), with the following effects:
-
-**High-Alert Signals.** For 1 minute, a warning horn blares throughout the prison, and all light created by continual flame spells in the prison takes on a reddish hue.
-
-**Prison Deployment.** The guards in area R19 don their armor, arm themselves, and move to area R18. The warden does the same and commands the garrison from there. Members of the Absolution Council retreat to area R20.
-
-**See Invisibility.** The warden and all prison guards gain the benefit of a see invisibility spell.
 
 ## Patrol Routes
 
@@ -372,7 +315,7 @@ warden’s office (area R22).
 
 Warden Marthannis is secretly a member of the Harpers, a faction that works behind the scenes to keep power out of the hands of evildoers. In her current position, she works to keep some of the Sword Coast’s worst malefactors behind bars. So far, the warden has managed to conceal her Harper affiliation from everyone else in the prison.
 
-**Marthannis’s Possession.** Unlike her membership in the Harpers, Marthannis hasn’t concealed the fact that she is periodically possessed. Lodged inside her is the spirit of a deceased adventuring companion: a lawful good, shield tiefling fighter named Vlax Brawnanvil. The spirit of Vlax takes control of Warden Marthannis once or twice a day, each time for an hour or two—though never while she’s performing important duties, such as supervising prisoner meetings with visitors.
+**Marthannis’s Possession.** Unlike her membership in the Harpers, Marthannis hasn’t concealed the fact that she is periodically possessed. Lodged inside her is the spirit of a deceased adventuring companion: a lawful good, shield dwarvish fighter named Vlax Brawnanvil. The spirit of Vlax takes control of Warden Marthannis once or twice a day, each time for an hour or two—though never while she’s performing important duties, such as supervising prisoner meetings with visitors.
 
 While under Vlax’s control, the warden can’t cast her prepared spells or use the command word for high alert (see the “High Alert“ section), speaks only Dwarvish, and occasionally indulges Vlax’s vice for ale and spirits.
 
@@ -403,10 +346,14 @@ No guards are stationed here. If the guards in the prison watchtowers (area R9) 
 # Prisoner 13
 
 The first time the characters encounter Prisoner 13, read the following:
-This tightly muscled tiefling woman keeps her red hair cut short. Her bronze skin is covered in tattoos that stretch from her collarbone to her ankles. She surveys you with unimpressed eyes.
+
+<em>
+This tightly muscled tiefling woman keeps her red hair cut short. Her bronze skin is covered in tattoos that stretch from her collarbone to her ankles. She surveys you with unimpressed eyes.</em>
 
 Prisoner 13 is a cunning schemer, ruthless and patient. She listens and watches, absorbing every detail she can, and shares as little as she can get away with.
+
 Prisoner 13 is comfortable with her lot in life, enjoying the anonymity and ironic protection of Revel’s End like a warm blanket on a winter night. While confined to her antimagic cell, she is cautious since she can’t rely on her magic tattoos to defend herself. Outside her cell, she grows overly confident and even banters if she’s able to do so without being caught by guards. In battle she poses a potent threat, creating blasts of flame and striking with magical force in both melee and ranged combat.
+
 She spends her time contemplating the web of schemes she learns through the eyes, ears, and hands of her agents outside the prison. While outside her cell during daily exercise in the courtyard or during chores, she contacts her agents for updates and makes arrangements that keep her network running.
 
 ## Prisoner 13’s Tattoos
@@ -434,6 +381,8 @@ Traced among Prisoner 13’s tattoos are tiny magical sigils, each one matching 
 If she’s approached with the possibility of freedom, Prisoner 13 looks genuinely surprised but quickly assumes her usual neutral mask. Here’s how she responds to some likely questions:
 
 **What do you know about the vault and key?** She plays coy: “I don’t know what you mean.” If pressed further, she shrugs. “I’ve been asked about this vault and key before. Assuming I did know where the key might be, what would be in it for me to tell you?”
+
+**Why did you steal from the dwarves?** She spits a little venom and says: “Its perfectly simple, vengence. I worked with them, to build that wealth, watched as they tore through a goblin settlement, needlessly killing. Watched as they hunted the drow, before they turned on my own people, their allies. Using my network, over years of scheming I took it all. But they caught me and tortured me, and no I am here.”
 
 **Do you want to be set free?** “As flattered as I am that you care, I’m afraid I must decline. I’m fine where I am, thanks.”
 

@@ -11,21 +11,22 @@ const FileName = urlParams.get("FileName");
 console.log("FileName: " + FileName);
 
 if (Type == "Location") {
-  var ContentView = "Gullet Cove Map/Location/" + FileName;
+  var ContentView = "Faerun/Gullet Cove Map/Location/" + FileName;
 } else if (Type == "District") {
-  var ContentView = "Gullet Cove Map/District/" + FileName;
+  var ContentView = "Faerun/Gullet Cove Map/District/" + FileName;
 } else if (Type == "Faerun") {
-  var ContentView = FileName + "/" + FileName;
+  var ContentView = "Faerun/" + FileName + "/" + FileName;
 } else if (Type == "Item") {
   var ContentView = "Magic Items/" + FileName;
+} else if (Type == "Ruleset") {
+  var ContentView = "Rules/" + FileName;
 } else {
   console.error("Shes Dead Jim");
 }
 
 var ContentViewOut = "";
 
-ContentViewOut =
-  "http://localhost:8080/Sources/Faerun/" + ContentView + ".html";
+ContentViewOut = "http://localhost:8080/Sources/" + ContentView + ".html";
 
 fetch(ContentViewOut)
   .then(function (Lresponse) {
