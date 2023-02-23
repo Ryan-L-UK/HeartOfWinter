@@ -20,8 +20,12 @@ the site
   src: local("Roboto Regular"), url("../Fonts/Roboto-Regular.ttf");
 }
 @font-face {
-  font-family: Roboto-bold;
+  font-family: Roboto-medium;
   src: local("Roboto Medium"), url("../Fonts/Roboto-Medium.ttf");
+}
+@font-face {
+  font-family: Roboto-bold;
+  src: local("Roboto Bold"), url("../Fonts/RobotoCondensed-Bold.ttf");
 }
 /*-----------------------------------------------------------
 DropCap Styling

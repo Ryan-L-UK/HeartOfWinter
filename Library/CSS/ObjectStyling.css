@@ -68,6 +68,7 @@ putting it all in one place.
 
 .menuitem {
   background-color: #fff;
+  position: relative;
   width: 100%;
   margin: 0 0 25px;
   padding: 0;
@@ -77,20 +78,20 @@ putting it all in one place.
 
 .menuitem:nth-child(-n + 2) {
   grid-column: span 3;
-  height: 350px;
+  height: 420px;
   width: auto;
 }
 
 .menuitem:nth-child(n + 3) {
   grid-column: span 2;
-  height: 300px;
+  height: 325px;
 }
 
 .menuitemimage {
   width: 100%;
   margin: 0;
   padding: 0;
-  height: 150px;
+  height: 55%;
   object-fit: cover;
 }
 h1.menu,
@@ -101,30 +102,31 @@ p.menu {
 }
 h1.menu {
   margin-top: 0;
-  font-weight: 700;
-  font-size: 1.6rem;
+  font-family: bold;
+  font-size: 1.75rem;
+  font-family: roboto-bold;
+  color: #000;
 }
 p.menu {
   margin-top: -10px;
-  font-family: Lora, Times, serif;
+  font-family: roboto;
   font-size: 1rem;
   color: #000;
 }
-h1.menu,
+
 p.readme {
-  font-family: MrEaves;
+  align-items: center;
+  position: absolute;
+  bottom: 10px;
+  display: flexbox;
+  text-align: left;
+  margin: 0 10px 0px;
+  font-size: 1.1rem;
+  vertical-align: bottom;
+  font-family: roboto-bold;
   text-transform: capitalize;
   font-variant: small-caps;
   color: #860954;
-}
-p.readme {
-  align-items: center;
-  bottom: 0;
-  display: flex;
-  text-align: left;
-  margin: 0 10px 40px;
-  font-size: 1.3rem;
-  vertical-align: baseline;
 }
 
 a:link {
@@ -466,7 +468,7 @@ input::file-selector-button {
 }
 
 a.menuhead {
-  font-family: Roboto-bold;
+  font-family: Roboto-medium;
   text-decoration: none;
   font-size: 1.05rem;
   border-bottom: 1px solid #e6e6e6;
