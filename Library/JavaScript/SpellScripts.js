@@ -1,3 +1,7 @@
+window.onload = function () {
+  document.getElementById("line").setAttribute("class", "pinkline");
+};
+
 function showInput() {
   document.getElementById("SName_output").innerHTML =
     document.getElementById("SName_input").value;

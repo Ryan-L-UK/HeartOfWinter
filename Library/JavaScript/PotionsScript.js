@@ -1,3 +1,7 @@
+window.onload = function () {
+  document.getElementById("line").setAttribute("class", "crimsonline");
+};
+
 function randompotion() {
   console.log("Potion Generator Starting");
   function getRandomItem(itemList) {

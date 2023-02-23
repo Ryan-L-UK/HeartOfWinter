@@ -1,3 +1,7 @@
+window.onload = function () {
+  document.getElementById("line").setAttribute("class", "blueline");
+};
+
 //-----------------------------------------
 //Adventure Selector
 //-----------------------------------------
@@ -34,7 +38,10 @@ fetch(AdvOut)
     console.log("Adventure Loaded Successfully...");
   })
   .catch(function (err) {
-    console.log("ERROR: Adventure failed to load: ", err);
+    console.log(
+      "Librarians: If it is not in our records, it does not exist. ",
+      err
+    );
   })
 
   //-----------------------------------------
@@ -42,7 +49,7 @@ fetch(AdvOut)
   //-----------------------------------------
 
   .then(function () {
-    console.warn("Menu Builder Starting...");
+    console.warn("Sourceror: Constructing Menu...");
     const collection = document.querySelectorAll("h1,h2");
 
     function addElement(menuselector) {
@@ -55,7 +62,7 @@ fetch(AdvOut)
       var jumplinkspec = menuselector.replace(/[^a-zA-Z0-9 ]/g, "");
       var jumplinkCap = "#" + jumplinkspec.replaceAll(" ", "-");
       var jumplink = jumplinkCap.toLowerCase();
-      console.log(menuselector + " ---> " + jumplink);
+      console.log(elementtag + ": " + menuselector + " ---> " + jumplink);
       newAnchor.setAttribute("href", jumplink);
       if (headingtest == 0) {
         newAnchor.setAttribute("class", "menuhead");
@@ -75,7 +82,7 @@ fetch(AdvOut)
 
       addElement(menuselector);
     }
-    console.warn("Menu Builder Complete.");
+    console.warn("Sourceror: Menu Constructed.");
   });
 
 //-----------------------------------------
@@ -93,13 +100,15 @@ var sidenav = document.getElementById("sidenav");
 // Get the offset position of the sidenav
 var sticky = sidenav.offsetTop;
 
-var stickyos = sticky - 120;
+var stickyos = sticky - 70;
 
 // Add the sticky class to the sidenav when you reach its scroll position. Remove "sticky" when you leave the scroll position
 function myFunction() {
   if (window.pageYOffset >= stickyos) {
+    console.log("Sourceror: Menu Locked...");
     sidenav.classList.add("sticky");
   } else {
     sidenav.classList.remove("sticky");
+    console.log("Sourceror: Menu Unlocked...");
   }
 }

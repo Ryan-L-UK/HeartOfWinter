@@ -80,11 +80,22 @@ Tables
 Many of the documents loaded contain tables, here are the
 various table stylings that control them. 
 -----------------------------------------------------------*/
+table {
+  margin-bottom: 25px;
+  margin-top: 10px;
+}
 table,
-th,
-td {
-  border: 1px solid;
+td,
+th {
+  border: 1px solid #eceae8;
   border-collapse: collapse;
+}
+table,
+td {
+  font-family: roboto;
+}
+thead {
+  border-bottom: 3px solid #d0cac5;
 }
 tbody,
 th {
@@ -92,11 +103,19 @@ th {
   padding: 5px 10px;
   min-width: 50px;
 }
-
+th {
+  background-color: #fff;
+  font-family: Roboto-bold;
+}
+hr {
+  border-top: 1px solid #555;
+}
 td {
   padding: 3px 10px;
 }
-
-hr {
-  border-top: 1px solid #555555;
+tr:nth-child(even) {
+  background-color: #f1f4f1;
+}
+tr:nth-child(odd) {
+  background-color: #dce3db;
 }

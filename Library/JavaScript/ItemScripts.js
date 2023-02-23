@@ -1,3 +1,6 @@
+window.onload = function () {
+  document.getElementById("line").setAttribute("class", "greenline");
+};
 function showInput() {
   document.getElementById("IName_output").innerHTML =
     document.getElementById("IName_input").value;

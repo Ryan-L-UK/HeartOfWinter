@@ -1,3 +1,6 @@
+window.onload = function () {
+  document.getElementById("line").setAttribute("class", "whiteline");
+};
 function showInput() {
   let playername = document.getElementById("DName_input").value.toUpperCase();
 
@@ -105,6 +108,7 @@ function showInput() {
 
 //EXPORT SOURCE CODE
 document.getElementById("form-submit").addEventListener("click", (event) => {
+  console.log("Lucienne: Just noting down this dream in the archive...");
   var form = new FormData(document.getElementById("dreamform")); //loads the document into a form object based on it being the parent of the button (button is the div here because i'm lazy)
   let outputObject = {};
   for (var [key, value] of form) {
@@ -122,16 +126,31 @@ document.getElementById("form-submit").addEventListener("click", (event) => {
   hiddenElement.target = "_blank";
   hiddenElement.download = filename + ".dream";
   hiddenElement.click();
+  console.log("Lucienne: Dream has been catalogued and stored.");
 });
 
 //IMPORT SOURCECODE
 async function readText(event) {
+  console.log("Lucienne: Just finding the dream archive...");
   const file = event.target.files.item(0);
   const text = await file.text();
   const obj = JSON.parse(text);
 
   for (const prop in obj) {
-    console.log(`${prop} = ${obj[prop]}`);
     document.getElementById(`${prop}`).value = `${obj[prop]}`;
+    if (`${obj[prop]}` == "on") {
+      console.warn(
+        "Dungeon Master: Its worth noting that " +
+          `${prop}` +
+          " should be ticked."
+      );
+
+      window.alert(
+        "Dungeon Master: Its worth noting that " +
+          `${prop}` +
+          " should be ticked."
+      );
+    }
   }
+  console.log("Lucienne: Dream archive located, enjoy.");
 }

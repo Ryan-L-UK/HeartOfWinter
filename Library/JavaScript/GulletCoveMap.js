@@ -6,7 +6,7 @@ const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
 
 const Type = urlParams.get("Type");
-console.log("Type: " + Type);
+console.log("Cartographer: This is a " + Type + " map.");
 
 if (Type == "Location") {
   document
@@ -34,6 +34,7 @@ if (Type == "Location") {
 }
 
 console.log(
-  "Image Map Loaded: " +
-    document.getElementById("mainmap").getAttribute("usemap")
+  "Cartographer: " +
+    document.getElementById("mainmap").getAttribute("usemap") +
+    " map located."
 );

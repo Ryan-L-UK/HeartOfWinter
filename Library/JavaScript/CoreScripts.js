@@ -1,6 +1,7 @@
 //-----------------------------------------
 //Menu Load
 //-----------------------------------------
+console.log("Wizard: Summoning menu...");
 fetch("http://localhost:8080/Menu.html")
   .then(function (Mresponse) {
     // When the page is loaded convert it to text
@@ -17,8 +18,7 @@ fetch("http://localhost:8080/Menu.html")
     // Example:
     var MenuArticle = MenuDoc.querySelector("html").innerHTML;
     document.getElementById("Nav_output").innerHTML = MenuArticle;
-    console.log(MenuDoc);
-    console.log("Menu Loaded Successfully...");
+    console.log("Wizard: Menu Appeared.");
   })
   .catch(function (err) {
     console.log("ERROR: Failed load menu bar: ", err);
@@ -29,6 +29,7 @@ fetch("http://localhost:8080/Menu.html")
 //-----------------------------------------
 fetch("http://localhost:8080/Footer.html")
   .then(function (Fresponse) {
+    console.log("Wizard: Summoning footer...");
     // When the page is loaded convert it to text
     return Fresponse.text();
   })
@@ -43,8 +44,7 @@ fetch("http://localhost:8080/Footer.html")
     // Example:
     var FooterArticle = FooterDoc.querySelector("html").innerHTML;
     document.getElementById("Ftr_output").innerHTML = FooterArticle;
-    console.log(FooterDoc);
-    console.log("Footer Loaded Successfully...");
+    console.log("Wizard: Footer Appeared.");
   })
   .catch(function (err) {
     console.log("ERROR: Failed load footer: ", err);
@@ -55,26 +55,11 @@ fetch("http://localhost:8080/Footer.html")
 //-----------------------------------------
 
 function takeshot() {
+  console.log("Artificier: Taking Notes...");
   document.getElementById("output").innerHTML = "";
   let div = document.getElementById("photo");
   html2canvas(div).then(function (canvas) {
     document.getElementById("output").appendChild(canvas);
   });
-}
-
-//-----------------------------------------
-//Expandable Columns
-//-----------------------------------------
-var toggler = document.getElementsByClassName("expandable");
-var i;
-
-for (i = 0; i < toggler.length; i++) {
-  toggler[i].addEventListener("click", function () {
-    this.parentElement.querySelector(".nested").classList.toggle("active");
-    this.classList.toggle("expandable-down");
-  });
-}
-
-function scrollTop() {
-  console.log("Crew Generator Starting");
+  console.log("Artificier: Notes Taken.");
 }

@@ -4,11 +4,11 @@
 const queryString = window.location.search;
 
 const urlParams = new URLSearchParams(queryString);
-
 const Type = urlParams.get("Type");
-console.log("Type: " + Type);
 const FileName = urlParams.get("FileName");
-console.log("FileName: " + FileName);
+console.log(
+  "Librarians: Looking in the '" + Type + "' section, for '" + FileName + "'"
+);
 
 if (Type == "Location") {
   var ContentView = "Faerun/Gullet Cove Map/Location/" + FileName;
@@ -25,7 +25,6 @@ if (Type == "Location") {
 }
 
 var ContentViewOut = "";
-
 ContentViewOut = "http://localhost:8080/Sources/" + ContentView + ".html";
 
 fetch(ContentViewOut)
@@ -44,14 +43,20 @@ fetch(ContentViewOut)
     // Example:
     var ContentViewArticle = ContentViewDoc.querySelector("html").innerHTML;
     document.getElementById("Content_output").innerHTML = ContentViewArticle;
-    console.log(ContentViewDoc);
   })
   .catch(function (err) {
-    console.log("ERROR: District/Location failed to load: ", err);
+    console.log(
+      "Librarians: If it is not in our records, it does not exist. ",
+      err
+    );
   })
 
+  //-----------------------------------------
+  //Menu Creator Selector
+  //-----------------------------------------
+
   .then(function () {
-    console.warn("Menu Builder Starting...");
+    console.warn("Sourceror: Constructing Menu...");
     const collection = document.querySelectorAll("h1,h2");
 
     function addElement(menuselector) {
@@ -64,7 +69,7 @@ fetch(ContentViewOut)
       var jumplinkspec = menuselector.replace(/[^a-zA-Z0-9 ]/g, "");
       var jumplinkCap = "#" + jumplinkspec.replaceAll(" ", "-");
       var jumplink = jumplinkCap.toLowerCase();
-      console.log(menuselector + " ---> " + jumplink);
+      console.log(elementtag + ": " + menuselector + " ---> " + jumplink);
       newAnchor.setAttribute("href", jumplink);
       if (headingtest == 0) {
         newAnchor.setAttribute("class", "menuhead");
@@ -84,6 +89,7 @@ fetch(ContentViewOut)
 
       addElement(menuselector);
     }
+    console.warn("Sourceror: Menu Constructed.");
   })
   .then(function () {
     const checker = document.getElementsByClassName("sidenav");
@@ -93,7 +99,7 @@ fetch(ContentViewOut)
       console.warn("Menu Blank -> Status: Hidden");
     } else {
       sidenav.classList.remove("hideme");
-      console.warn("Menu Populated -> Status: Revealed");
+      console.log("Menu Populated -> Status: Revealed");
     }
   });
 
@@ -112,13 +118,15 @@ var sidenav = document.getElementById("sidenav");
 // Get the offset position of the sidenav
 var sticky = sidenav.offsetTop;
 
-var stickyos = sticky - 120;
+var stickyos = sticky - 70;
 
 // Add the sticky class to the sidenav when you reach its scroll position. Remove "sticky" when you leave the scroll position
 function myFunction() {
   if (window.pageYOffset >= stickyos) {
+    console.log("Sourceror: Menu Locked...");
     sidenav.classList.add("sticky");
   } else {
     sidenav.classList.remove("sticky");
+    console.log("Sourceror: Menu Unlocked...");
   }
 }
