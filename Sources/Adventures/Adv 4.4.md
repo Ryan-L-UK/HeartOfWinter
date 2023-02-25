@@ -4,8 +4,6 @@
 
 **Moon Cycle:** Waxing gibbous Moon
 
-# The Prison Break
-
 ## Adventure Background
 
 Prisoner 13 is a tiefling named Korda Glintstone. Prior to her incarceration years ago, Korda was an ally and agent of Clan Axebreaker, a moderately influential dwarf clan in a stronghold called Gauntlgrym. Korda built a network of informants and agents, ostensibly all to the benefit of Clan Axebreaker. With each success, she paid tattooists to inscribe a memorial of her triumph onto her skin. Using ancient rituals, Korda infused many of these artful etchings with the magic of Gauntlgrym’s forges, granting her wondrous gifts.
@@ -149,19 +147,19 @@ The following locations are keyed to Revel’s End, as shown on map 4.2.
 
 ### R1: Dock
 
-Ships dock here to offload prisoners and supplies.
+Ships dock here to offload prisoners and supplies. The sea is rough virtually all the time, and with the spray of the sea, along with the wind chill, no one wants to stand here for too long.
 
 ### R2: Elevator
 
-A sturdy wooden scaffold clings to the 160-foot-high cliff separating the prison from the dock. Looming above the scaffolding is a wooden crane that is controlled from area R3. The crane raises and lowers an elevator car that has a retractable wooden gate on the side opposite the crane. The elevator car is a hollow wooden cube measuring 10 feet on each side. It takes 1 minute for the car to travel all the way up or down the scaffold.
+A sturdy wooden scaffold clings to the 160-foot-high cliff separating the prison from the dock. Looming above the scaffolding is a wooden crane that is controlled from area R3. The crane raises and lowers an elevator car that has a retractable wooden gate on the side opposite the crane. The elevator car is a hollow wooden cube measuring 10 feet on each side. It takes 1 minute for the car to travel all the way up or down the scaffold. The entire time the sound of the wood groans and creaks. None of these sounds are in the least bit reassuring.
 
 ### R3: Guard Rooms
 
 <em>
-This room contains a table with four chairs, and a cabinet holding whetstones and other simple supplies for repairing armor and weapons.
+This room contains a table with four chairs, and a cabinet holding whetstones and other simple supplies for repairing armor and weapons. It is a simple room, there is minimal decoration inside. This is also where you can find the controls for the elevator.
 </em>
 
-Three guards (veterans) are stationed in each of these two rooms. The guards pass the time by playing cards, sharpening their weapons, and complaining about the weather.
+Three guards (veterans) are stationed in each of these two rooms. The guards pass the time by playing cards, sharpening their weapons, and complaining about the weather. Which as per usual, is cold, damp and miserable.
 
 Embedded in the north wall of the northern guard room is an iron lever that raises and lowers the elevator in area R2. During a patrol, two of the guards leave the room to make their rounds for 4 minutes.
 
@@ -175,11 +173,11 @@ Some of these substances are poisonous if ingested in the wrong proportion. A ch
 
 ### R5: Stables
 
-Visitors who bring mounts, sled dogs, pack animals, or pets to Revel’s End can keep their animals here. The prison doesn’t supply food for animals, however.
+Visitors who bring mounts, sled dogs, pack animals, or pets to Revel’s End can keep their animals here. The prison doesn’t supply food for animals, however. Currently the stables are empty, but the smell of animal waste is pungent. You imagine this area has not been cleaned for a long time, coupled with the constant damp and wet weather makes for a rather unpleasant space.
 
 ### R6: Mess Hall
 
-Prison personnel dine here. Tables and benches fill the room, and dishes and dulled cutlery are stored in cabinets along the south wall. The mess hall serves breakfast, lunch, and dinner. The characters can meet here without arousing any suspicion.
+Prison personnel dine here. Tables and benches fill the room, and dishes and dulled cutlery are stored in cabinets along the south wall. The mess hall serves breakfast, lunch, and dinner. The characters can meet here without arousing any suspicion. The walls are lined with some very old looking candle brackets, each one lit by the continual flame spells that can be suppressed or activated by uttering the command word, “lights.”
 
 ### R7: Councilors’ Quarters
 
@@ -187,7 +185,9 @@ These ten rooms are furnished identically. Each contains a bed, a desk with matc
 
 These rooms are set aside for the ten members of the Absolution Council, though only three rooms are currently in use. The other seven members of the council are absent, so the warden lets visitors use the spare rooms.
 
-**Council Members.** These three members of the Absolution Council are at Revel’s End:
+#### Council Members.
+
+These three members of the Absolution Council are at Revel’s End:
 
 **Councilor Voss Anderton.** Voss represents the city of Neverwinter. He is a lawful neutral, human noncombatant who has a precise, lawyerly way of speaking. He never misses a council meeting or parole hearing. He votes with his head, not his heart, and he always weighs the ramifications of commuting a prisoner’s sentence.
 
@@ -197,8 +197,9 @@ These rooms are set aside for the ten members of the Absolution Council, though 
 
 ### R8: Kitchen and Side Rooms
 
-Six cooks (neutral, human commoners) take shifts here, working in pairs to produce meals for the prisoners and staff. The kitchen contains everything one would expect to see, as well as an iron stove and a pump that draws water from a magically heated cistern on the roof.
+Six cooks (neutral, commoners) take shifts here, working in pairs to produce meals for the prisoners and staff. The kitchen contains everything one would expect to see, as well as an iron stove and a pump that draws water from a magically heated cistern on the roof.
 Off-duty cooks sleep in the largest of the three rooms west of the kitchen. This side room is lit by continual flame spells that can be suppressed or activated by uttering the command word, “lights.”
+
 The middle side room—not heated, unlike the rest of the prison—is used for cold storage.
 The smallest side room is a well-stocked pantry.
 
@@ -214,7 +215,7 @@ The inventory is nonmagical and includes twenty halberds, fifteen longswords, fi
 
 The armory is guarded by a spectator that treats the weapons as treasure. It knows every member of the prison staff on sight. It won’t leave the room and attacks anyone it doesn’t recognize.
 
-Hatch. A wooden ladder leads to an iron hatch in the ceiling. An arcane lock spell seals the hatch (see the “Prison Features” section for more details), which opens onto the roof.
+**Hatch.** A wooden ladder leads to an iron hatch in the ceiling. An arcane lock spell seals the hatch (see the “Prison Features” section for more details), which opens onto the roof.
 
 ### R11: Courtyard
 
@@ -230,7 +231,7 @@ This room holds a large, rectangular table with a single chair on one long side 
 
 ### R13: Storeroom
 
-Supplies are stored here in crates and other containers. At present, the prison has stockpiled enough necessities to continue operations for six months.
+Supplies are stored here in crates and other containers. At present, the prison has stockpiled enough necessities to continue operations for six months. It is mostly food, but if you look closely you may find that there is a small stash of alcohol. This seems to have been smuggled here by a few of the guards, to make the cold dark nights slightly more enjoyable.
 
 ### R14: Privy
 
@@ -254,23 +255,24 @@ The prisoners are kept in these unlit cells (effectively illuminated by the ligh
 
 Bolted to the back wall of each cell is an iron bunk bed with thin mattresses and a waste bucket nearby. Prisoners take their meals in their cells.
 
-**Prisoners.** Each of the twenty-four cells can hold one or two prisoners. Roll 4d10 to determine the number of prisoners currently incarcerated at Revel’s End, give each one an identification number, and distribute them in the cells as you see fit. Numbers are assigned in the order in which the prisoners arrive and are never reused. The longest-serving prisoner currently incarcerated at Revel’s End is Prisoner 6, and the newest one is Prisoner 299. Prisoner 13 (see the “Roleplaying Prisoner 13” section later in this adventure for more details) has no cellmate. Her cell is marked on map 4.1.
+**Prisoners.** Each of the twenty-four cells can hold one or two prisoners. There are 11 prisoners currently within Revel's End. Numbers are assigned in the order in which the prisoners arrive and are never reused. The longest-serving prisoner currently incarcerated at Revel’s End is Prisoner 6, and the newest one is Prisoner 299. Prisoner 13 (see the “Roleplaying Prisoner 13” section later in this adventure for more details) has no cellmate. Her cell is marked on map 4.1.
 
 To add detail to other inmates, roll on the Prisoners table or choose entries you like. If a prisoner’s game statistics become necessary, choose an appropriate stat block from the Monster Manual, and remove armor, weapons, and other gear.
 
 #### Prisoners
 
-| Number | Prisoner Description                                                                                                                                                             |
-| :----: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|   69   | Igor Hogcollar (Chaotic Evil Halfling), convicted of enjoying decadent pleasures, has served 49 years of a 57-year setence.                                                      |
-|  168   | Ishar (chaotic evil elf), convicted of conspiracy to murder members of a noble family, has served 19 years of a life sentence.                                                   |
-|  197   | Gallia Strand (neutral evil human), convicted of smuggling contraband luxuries, has served 8 years of a 10-year sentence.                                                        |
-|  237   | Grix (neutral goblin), convicted of espionage, has served 5 years of a 10-year sentence.                                                                                         |
-|  243   | Pirouette (chaotic evil tiefling), a thieves’ guild leader convicted of multiple crimes, has served 5 years of a life sentence.                                                  |
-|  260   | Barlo Rageblade (chaotic good human), a famous adventurer convicted of reckless endangerment, has served 3 years of a 5-year sentence.                                           |
-|  275   | Quillion Sardo (lawful neutral halfling), convicted of using magic to influence others, has served 2 years of a 5-year sentence.                                                 |
-|  276   | Holg (Chaotic Good Half-Orc), convicted of strangling 3 people, has served 2 years of a 40-year setence.                                                                         |
-|  298   | Gimble Middlambuss (Lawful Evil Forest Gnome), convicted of a scandal involve 3 nobels, a priest, and a large collection of vegatables, has served 3 months of a 3-year setence. |
+| Number | Prisoner Description                                                                                                                                                                                                                                                                                            |
+| :----: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|   6    | Finaeli Talthanryl (Chaotic Good Firbolg), convicted of attempting the largest bank robbery in Faeruns History. The take would have been an approximate value of 138,000 of coins in a variety of currencies from the Sword Coast Traders Bank in Waterdeep. Finaeli has served 73 years of a 95-year sentence. |
+|   69   | Igor Hogcollar (Chaotic Evil Halfling), convicted of enjoying decadent pleasures, has served 49 years of a 57-year sentence.                                                                                                                                                                                    |
+|  168   | Ishar (chaotic evil elf), convicted of conspiracy to murder members of a noble family, has served 19 years of a life sentence.                                                                                                                                                                                  |
+|  197   | Gallia Strand (neutral evil human), convicted of smuggling contraband luxuries, has served 8 years of a 10-year sentence.                                                                                                                                                                                       |
+|  237   | Grix (neutral goblin), convicted of espionage, has served 5 years of a 10-year sentence.                                                                                                                                                                                                                        |
+|  243   | Pirouette (chaotic evil tiefling), a thieves’ guild leader convicted of multiple crimes, has served 5 years of a life sentence.                                                                                                                                                                                 |
+|  260   | Barlo Rageblade (chaotic good human), a famous adventurer convicted of reckless endangerment, has served 3 years of a 5-year sentence.                                                                                                                                                                          |
+|  275   | Quillion Sardo (lawful neutral halfling), convicted of using magic to influence others, has served 2 years of a 5-year sentence.                                                                                                                                                                                |
+|  276   | Holg (Chaotic Good Half-Orc), convicted of strangling 3 people, has served 2 years of a 40-year sentence.                                                                                                                                                                                                       |
+|  299   | Gimble Middlambuss (Lawful Evil Forest Gnome), convicted of a scandal involve 3 nobels, a priest, and a large collection of vegatables, has served 3 months of a 3-year sentence.                                                                                                                               |
 
 ### R18: Surveillance Hub
 
@@ -323,7 +325,7 @@ Warden Marthannis knows that to rid herself of Vlax’s spirit, she must visit t
 
 **Treasure.** Among the chamber’s furnishings is a locked wooden chest, for which the warden carries the only key. A character using thieves’ tools can use an action to try to pick the lock, doing so with a successful DC 20 Dexterity check.
 
-The chest holds a set of calligrapher’s supplies, a sack containing 750 gp (money that’s used mainly to pay ship captains who drop off prisoners and cargo), and a silver cloak pin (25 gp) bearing the symbol of the Harpers: a tiny harp nestled between the horns of a crescent moon.
+The chest holds a set of calligrapher’s supplies, a sack containing 750 sp (money that’s used mainly to pay ship captains who drop off prisoners and cargo), and a silver cloak pin (25 sp) bearing the symbol of the Harpers: a tiny harp nestled between the horns of a crescent moon.
 
 Any character who searches the chest for secret compartments finds one in the lid. It holds a wand of binding that the warden keeps for emergencies.
 
@@ -380,15 +382,17 @@ Traced among Prisoner 13’s tattoos are tiny magical sigils, each one matching 
 
 If she’s approached with the possibility of freedom, Prisoner 13 looks genuinely surprised but quickly assumes her usual neutral mask. Here’s how she responds to some likely questions:
 
-**What do you know about the vault and key?** She plays coy: “I don’t know what you mean.” If pressed further, she shrugs. “I’ve been asked about this vault and key before. Assuming I did know where the key might be, what would be in it for me to tell you?”
+**Why did you steal from the dwarves?** She spits a little venom and says: “Its perfectly simple, they deserved it. I worked with them, to build that wealth, watched as they tore through a goblin settlement, needlessly killing. Watched as they hunted the drow, schemed against the elves and hoarded wealth like dragons. But then they turned on my own people, their own allies who helped them build this wealth. For years i planted my own people in their organisation, my luetenants if you will, and when the time was right we took it all. But sadly i was caught, tortured, and sent here to rot.”
 
-**Why did you steal from the dwarves?** She spits a little venom and says: “Its perfectly simple, vengence. I worked with them, to build that wealth, watched as they tore through a goblin settlement, needlessly killing. Watched as they hunted the drow, before they turned on my own people, their allies. Using my network, over years of scheming I took it all. But they caught me and tortured me, and no I am here.”
+**What do you know about the vault and key?** She plays coy: “I don’t know what you mean.” If pressed further, she shrugs. “I’ve been asked about this vault and key before. Assuming I did know where the key might be, what would be in it for me to tell you?”
 
 **Do you want to be set free?** “As flattered as I am that you care, I’m afraid I must decline. I’m fine where I am, thanks.”
 
 **What do you want for the key?** She ponders for a moment before answering: “The warden has a ledger, probably in her office. It contains all the names, crimes, and prisoner numbers of everyone ever incarcerated at Revel’s End. Bring me that list, and I’ll see to it that you get your key.”
 
 In response to a verbal threat, Prisoner 13 shakes her head and says, “I could make quite a scene and bring the guards down on you. Maybe even the warden herself. You really don’t have anything to threaten me with.”
+
+**Why the ledger?** A sly smile crosses her face. You dont honestly think that someone that stole this much from the dwarves would come here without a reason, do you? I have friends on the outside, and unlike my various prison mates here, I use my time in the yard, and outside the antimagic zone wisely. She runs her hands along her tattoos.
 
 **Finding the Key.** When Prisoner 13 talks about the key, each character present can make a DC 19 Wisdom (Insight) check. If the check is successful, the character notices Prisoner 13 flexing her right hand and tracing a fingertip across the tattoo there when she mentions the key. The character deduces that the tattoo is the key.
 

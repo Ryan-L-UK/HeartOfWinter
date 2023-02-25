@@ -47,7 +47,7 @@ fetch("http://localhost:8080/Footer.html")
     console.log("Wizard: Footer Appeared.");
   })
   .catch(function (err) {
-    console.log("ERROR: Failed load footer: ", err);
+    console.log("Wizard: Casting Failure... ", err);
   });
 
 //-----------------------------------------

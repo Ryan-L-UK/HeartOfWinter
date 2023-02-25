@@ -1,7 +1,3 @@
-window.onload = function () {
-  document.getElementById("line").setAttribute("class", "blueline");
-};
-
 //-----------------------------------------
 //Adventure Selector
 //-----------------------------------------

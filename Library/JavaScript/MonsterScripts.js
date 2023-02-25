@@ -1,7 +1,3 @@
-window.onload = function () {
-  document.getElementById("line").setAttribute("class", "darkblueline");
-};
-
 function showInput() {
   document.getElementById("MName_output").innerHTML =
     document.getElementById("MName_input").value;

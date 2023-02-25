@@ -141,6 +141,7 @@ generators it uses. here are the controls for each of them.
 .cSource {
   color: #760d81;
   background-color: #fff;
+  text-align: right;
 }
 .Damage {
   margin: 0 1.5%;
@@ -221,6 +222,7 @@ p.itemfooter {
   padding-bottom: 1%;
 }
 h1.spellname {
+  display: inline-block;
   color: #760d81;
   padding-top: 0;
 }

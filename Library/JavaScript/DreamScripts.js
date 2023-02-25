@@ -1,6 +1,3 @@
-window.onload = function () {
-  document.getElementById("line").setAttribute("class", "whiteline");
-};
 function showInput() {
   let playername = document.getElementById("DName_input").value.toUpperCase();
 
