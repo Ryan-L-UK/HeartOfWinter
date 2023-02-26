@@ -204,7 +204,7 @@ h1.creaturename {
   padding-top: 1%;
   color: #000;
 }
-h1.creaturename {
+.blueunderline {
   border-bottom: 3px solid #1d6673;
 }
 p.status {
@@ -299,25 +299,4 @@ h4.location {
   text-align: left;
   align-items: left;
   font-family: Lora, Times, serif;
-}
-
-table,
-th,
-td {
-  border: 1px solid;
-  border-collapse: collapse;
-}
-tbody,
-th {
-  text-align: left;
-  padding: 5px 10px;
-  min-width: 50px;
-}
-
-td {
-  padding: 3px 10px;
-}
-
-hr {
-  border-top: 1px solid #555555;
 }

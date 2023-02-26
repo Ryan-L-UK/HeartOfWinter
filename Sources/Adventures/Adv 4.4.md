@@ -404,18 +404,13 @@ In response to a verbal threat, Prisoner 13 shakes her head and says, “I could
 
 # Conclusion
 
-When the characters successfully deliver the key (Prisoner 13’s keystone tattoo), Varrin’s joy and relief crack his usually reserved exterior, and he sends his agents to open the vault and reveal the lost Axebreaker treasure (he won’t allow the characters to be present for the vault opening). While much of the clan’s stolen wealth has been spent, there’s still a great fortune remaining. Varrin makes good on his bargain and gives a fair share to the characters as promised. The reward includes the following coins and gems (use the amounts in brackets if the characters negotiated a 5 percent fee):
+<em>
+Before you Varrin's joy and relief crack his usually reserved exterior, and he generally appears over the moon. A man of his word, he insists there is no time to lose and leads you on your way to the vault. You take a journey into the mountains to the north of gullet, deep into Fairheight Range. The route is a little perilous, but you expect nothing less from someone who has tried to hide an enormous wealth stolen from the dwarves.
 
-- 925 cp (972 cp)
-- 333 sp (350 sp)
-- 48 gp (51 gp)
-- 3 (4) bloodstones worth 10 gp each
+You arrive after a few days travel, feeling a little less rested, but interested to see if this whole adventure has been worth it. Arriving to the newly excavated vault, you notice several other Thieflings around clearly on the look out for the dwarves, along with a small collection of beasts of burden with carts ready to haul whatever is inside away before thw dwarves even get here.
 
-The characters can also choose one magic items from the following list, or two items if they successfully negotiated for a bigger reward from Varrin:
+Before you stands an enormous silver and gold circular door, which clearly has been cleaned in the hope they would find a lock. With this Varrin Looks to yourselves. </em>
 
-- Cap of water breathing
-- Dust of disappearance
-- Gem of brightness
-- Mithral Half Plate (15+Dex no Stealth D/Adv)
-- Potion of Goblin Climb
-- Slippers of spider climbing
+The party will not need to look too hard to find the pattern from the arm of Prisoner 13. Once they interact with it, in virtually anyway, see how they choose. The door will open.
+
+<em> The huge vault door begins to make a collection of both mechanical unlocking sounds, along with a variety of dispell effects. The door was clearly protected by a lot of mechanisms. The vault has been opened. While much of the clan’s stolen wealth has been spent, there’s still a good fortune remaining. Varrin of course makes good on his bargain, offering a more than fair share for your work. He, and the other theiflings will take the gold, but there are a collection of magical items. Varrin offers each of you the choice of an item to take, the ones you dont pick, he will take to the guild as payment for thier services. </em>

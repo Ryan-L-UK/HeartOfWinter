@@ -1,3 +1,11 @@
+# Critical Hits & Critical Fails
+
+Sometimes fate blesses or curses a combatant, causing the novice to hit and the veteran to miss.
+
+If the d20 roll for an attack is a 20, the attack hits regardless of any modifiers or the target's AC. The attacker then rolls a second d20 and depending on the attack type, refers to the table below.
+
+If the d20 roll for an attack is a 1, the attack misses regardless of any modifiers or the target's AC.
+
 ## Melee Weapon Attacks
 
 | Number | Effect                                                                                                                                                                                   |

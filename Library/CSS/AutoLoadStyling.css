@@ -60,6 +60,7 @@ menus and footers
   margin: auto;
   display: flex;
   position: relative;
+  z-index: 99 !important;
 }
 /*-----------------------------------------------------------*/
 /*Menu Font Stylings*/
