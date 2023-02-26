@@ -10,7 +10,7 @@ function showInput() {
     var checkresult = "";
     var lookup = {
       "": "Error",
-      0: "cantrip",
+      0: "Cantrip",
       1: "1st level",
       2: "2nd level",
       3: "3rd level",
