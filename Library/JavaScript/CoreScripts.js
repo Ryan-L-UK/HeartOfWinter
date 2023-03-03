@@ -21,7 +21,7 @@ fetch("http://localhost:8080/Menu.html")
     console.log("Wizard: Menu Appeared.");
   })
   .catch(function (err) {
-    console.log("ERROR: Failed load menu bar: ", err);
+    console.log("Wizard: Casting Failure... ", err);
   });
 
 //-----------------------------------------
