@@ -130,6 +130,9 @@ generators it uses. here are the controls for each of them.
   font-size: 1.2rem;
   line-height: 1.8rem;
 }
+.capitalize {
+  text-transform: capitalize;
+}
 .cClass,
 .cSource {
   padding: 0;

@@ -39,7 +39,15 @@
           Source Code
         </button></span
       ><br />
-      <input type="file" id="input" onchange="readText(event)" />
+      <span>
+        <label class="standardbold">Upload File: </label>
+        <input type="file" id="creatureinput" onchange="readText(event)"
+      /></span>
+      <br />
+      <span>
+        <label class="standardbold">Convert File: </label>
+        <input type="file" id="jsoninput" onchange="readTextConvert(event)"
+      /></span>
       <br />
 
       <br />
@@ -52,39 +60,24 @@
               <form id="creatureform">
                 <!--creature NAME-->
                 <label><b>Name:</b></label>
-                <input type="text" id="MName_input" name="MName_input" />
+                <input type="text" id="Name-in" name="Name-in" />
                 <br />
 
                 <!--creature TYPE-->
                 <label><b>Type:</b></label>
-                <input type="text" id="MType_input" name="MType_input" />
+                <input type="text" id="Type-in" name="Type-in" />
 
                 <label><b>Alignment:</b></label>
-                <input type="text" id="MAlign_input" name="MAlign_input" />
+                <input type="text" id="Alignment-in" name="Alignment-in" />
 
                 <div class="triangleDIV creatureDIV"></div>
                 <p>
                   <label><b>Armour Class:</b></label>
-                  <input
-                    type="text"
-                    size="7"
-                    id="AC_input"
-                    name="AC_input"
-                  /><br />
+                  <input type="text" size="7" id="AC-in" name="AC-in" /><br />
                   <label><b>Hit Points:</b></label>
-                  <input
-                    type="text"
-                    size="7"
-                    id="HP_input"
-                    name="HP_input"
-                  /><br />
+                  <input type="text" size="7" id="HP-in" name="HP-in" /><br />
                   <label><b>Speed:</b></label>
-                  <input
-                    type="text"
-                    size="7"
-                    id="FT_input"
-                    name="FT_input"
-                  /><br />
+                  <input type="text" size="7" id="FT-in" name="FT-in" /><br />
                 </p>
                 <div class="triangleDIV creatureDIV"></div>
 
@@ -99,52 +92,22 @@
 
                   <!--Change Details Here-->
                   <div class="STRn">
-                    <input
-                      type="text"
-                      size="7"
-                      id="STR_input"
-                      name="STR_input"
-                    />
+                    <input type="text" size="7" id="STR-in" name="STR-in" />
                   </div>
                   <div class="DEXn">
-                    <input
-                      type="text"
-                      size="7"
-                      id="DEX_input"
-                      name="DEX_input"
-                    />
+                    <input type="text" size="7" id="DEX-in" name="DEX-in" />
                   </div>
                   <div class="CONn">
-                    <input
-                      type="text"
-                      size="7"
-                      id="CON_input"
-                      name="CON_input"
-                    />
+                    <input type="text" size="7" id="CON-in" name="CON-in" />
                   </div>
                   <div class="INTn">
-                    <input
-                      type="text"
-                      size="7"
-                      id="INT_input"
-                      name="INT_input"
-                    />
+                    <input type="text" size="7" id="INT-in" name="INT-in" />
                   </div>
                   <div class="WISn">
-                    <input
-                      type="text"
-                      size="7"
-                      id="WIS_input"
-                      name="WIS_input"
-                    />
+                    <input type="text" size="7" id="WIS-in" name="WIS-in" />
                   </div>
                   <div class="CHAn">
-                    <input
-                      type="text"
-                      size="7"
-                      id="CHA_input"
-                      name="CHA_input"
-                    />
+                    <input type="text" size="7" id="CHA-in" name="CHA-in" />
                   </div>
                 </div>
 
@@ -152,145 +115,281 @@
 
                 <p>
                   <label><b>Saving Throws:</b></label>
-                  <input type="text" id="Saves_input" name="Saves_input" />
+                  <input type="text" id="Saves-in" name="Saves-in" />
                   <br />
                   <label><b>Skills:</b></label>
-                  <input type="text" id="Skills_input" name="Skills_input" />
+                  <input type="text" id="Skills-in" name="Skills-in" />
                   <br />
                   <label><b>Damage Resistances:</b></label>
-                  <input
-                    type="text"
-                    id="DmgResist_input"
-                    name="DmgResist_input"
-                  />
+                  <input type="text" id="Resist-in" name="Resist-in" />
                   <br />
                   <label><b>Damage Immunities:</b></label>
-                  <input
-                    type="text"
-                    id="DmgImmune_input"
-                    name="DmgImmune_input"
-                  />
+                  <input type="text" id="Immune-in" name="Immune-in" />
                   <br />
                   <label><b>Damage Vulnerabilities:</b></label>
-                  <input type="text" id="DmgVuln_input" name="DmgVuln_input" />
+                  <input type="text" id="Vulnerable-in" name="Vulnerable-in" />
                   <br />
                   <label><b>Condition Immunities:</b></label>
                   <input
                     type="text"
-                    id="ConImmune_input"
-                    name="ConImmune_input"
+                    id="conditionImmune-in"
+                    name="conditionImmune-in"
                   />
                   <br />
                   <label><b>Senses:</b></label>
-                  <input type="text" id="Senses_input" name="Senses_input" />
+                  <input type="text" id="Senses-in" name="Senses-in" />
                   <br />
                   <label><b>Languages:</b></label>
-                  <input type="text" id="Lang_input" name="Lang_input" />
+                  <input type="text" id="languages-in" name="languages-in" />
                 </p>
 
                 <div class="triangleDIV creatureDIV"></div>
 
                 <p>
                   <label><b>Trait 1 Name:</b></label>
-                  <input type="text" id="T1H_input" name="T1H_input" /><br />
+                  <input type="text" id="T1H-in" name="T1H-in" /><br />
                   <label><b>Trait 1 Action:</b></label>
                   <textarea
-                    id="T1D_input"
-                    name="T1D_input"
+                    id="T1D-in"
+                    name="T1D-in"
                     cols="56"
                     rows="3"
                   ></textarea
                   ><br />
 
                   <label><b>Trait 2 Name:</b></label>
-                  <input type="text" id="T2H_input" name="T2H_input" /><br />
+                  <input type="text" id="T2H-in" name="T2H-in" /><br />
                   <label><b>Trait 2 Action:</b></label>
                   <textarea
-                    id="T2D_input"
-                    name="T2D_input"
+                    id="T2D-in"
+                    name="T2D-in"
                     cols="56"
                     rows="3"
                   ></textarea
                   ><br />
 
                   <label><b>Trait 3 Name:</b></label>
-                  <input type="text" id="T3H_input" name="T3H_input" /><br />
+                  <input type="text" id="T3H-in" name="T3H-in" /><br />
                   <label><b>Trait 3 Action:</b></label>
                   <textarea
-                    id="T3D_input"
-                    name="T3D_input"
+                    id="T3D-in"
+                    name="T3D-in"
                     cols="56"
                     rows="3"
                   ></textarea
                   ><br />
 
                   <label><b>Trait 4 Name:</b></label>
-                  <input type="text" id="T4H_input" name="T4H_input" /><br />
+                  <input type="text" id="T4H-in" name="T4H-in" /><br />
                   <label><b>Trait 4 Action:</b></label>
                   <textarea
-                    id="T4D_input"
-                    name="T4D_input"
+                    id="T4D-in"
+                    name="T4D-in"
                     cols="56"
                     rows="3"
                   ></textarea
                   ><br />
                 </p>
 
+                <div class="list">
+                  <label><b>Spell Caster?</b></label>
+                  <input
+                    type="checkbox"
+                    id="spellcasting"
+                    name="spellcasting"
+                  />
+                </div>
+                <div class="triangleDIV creatureDIV"></div>
+                <div class="spells">
+                  <div id="spell-list" style="display: none">
+                    <p>
+                      <label><b>Spellcaster/Innate:</b></label>
+                      <input
+                        list="CasterInnate"
+                        id="CasterInnate-in"
+                        name="CasterInnate-in"
+                      />
+
+                      <datalist id="CasterInnate">
+                        <option value="Spellcaster"></option>
+                        <option value="Innate"></option>
+                      </datalist>
+                    </p>
+                    <p>
+                      <label><b>Header Entry:</b></label>
+                      <textarea
+                        id="headerentry-in"
+                        name="headerentry-in"
+                        cols="56"
+                        rows="3"
+                      ></textarea
+                      ><br />
+                    </p>
+
+                    <p>
+                      <label><b>Cantrips:</b></label>
+                    </p>
+                    <p>
+                      <input type="text" id="cantrip-in" name="cantrip-in" />
+                    </p>
+                    <p>
+                      <span>
+                        <input
+                          type="number"
+                          id="lvl1slots-in"
+                          name="lvl1slots-in"
+                          min="0"
+                          max="10"
+                          value="0"
+                        /><label><b>1st Level Spell Slots.</b></label>
+                      </span>
+                    </p>
+                    <p>
+                      <input
+                        type="text"
+                        id="lvl1spells-in"
+                        name="lvl1spells-in"
+                      />
+                    </p>
+                    <p>
+                      <span>
+                        <input
+                          type="number"
+                          id="lvl2slots-in"
+                          name="lvl2slots-in"
+                          min="0"
+                          max="10"
+                          value="0"
+                        /><label><b>2nd Level Spell Slots.</b></label>
+                      </span>
+                    </p>
+                    <p>
+                      <input
+                        type="text"
+                        id="lvl2spells-in"
+                        name="lvl2spells-in"
+                      />
+                    </p>
+                    <p>
+                      <span>
+                        <input
+                          type="number"
+                          id="lvl3slots-in"
+                          name="lvl3slots-in"
+                          min="0"
+                          max="10"
+                          value="0"
+                        /><label><b>3rd Level Spell Slots.</b></label>
+                      </span>
+                    </p>
+                    <p>
+                      <input
+                        type="text"
+                        id="lvl3spells-in"
+                        name="lvl3spells-in"
+                      />
+                    </p>
+                    <p>
+                      <span>
+                        <input
+                          type="number"
+                          id="lvl4slots-in"
+                          name="lvl4slots-in"
+                          min="0"
+                          max="10"
+                          value="0"
+                        /><label><b>4th Level Spell Slots.</b></label>
+                      </span>
+                    </p>
+                    <p>
+                      <input
+                        type="text"
+                        id="lvl4spells-in"
+                        name="lvl4spells-in"
+                      />
+                    </p>
+                    <p>
+                      <span>
+                        <input
+                          type="number"
+                          id="lvl5slots-in"
+                          name="lvl5slots-in"
+                          min="0"
+                          max="10"
+                          value="0"
+                        /><label><b>5th Level Spell Slots.</b></label>
+                      </span>
+                    </p>
+                    <p>
+                      <input
+                        type="text"
+                        id="lvl5spells-in"
+                        name="lvl5spells-in"
+                      />
+                    </p>
+
+                    <p>
+                      <label><b>Footer Entry:</b></label>
+                      <textarea
+                        id="footerentry-in"
+                        name="footerentry-in"
+                        cols="56"
+                        rows="3"
+                      ></textarea
+                      ><br />
+                    </p>
+                  </div>
+                </div>
+
                 <h1 class="creaturename blueunderline">Actions</h1>
 
                 <p>
                   <label><b>Attack 1 Name:</b></label>
-                  <input
-                    type="text"
-                    id="Atk1H_input"
-                    name="Atk1H_input"
-                  /><br />
+                  <input type="text" id="A1H-in" name="A1H-in" /><br />
                   <label><b>Attack 1 Action:</b></label>
                   <textarea
-                    id="Atk1D_input"
-                    name="Atk1D_input"
+                    id="A1D-in"
+                    name="A1D-in"
                     cols="56"
                     rows="3"
                   ></textarea
                   ><br />
                   <label><b>Attack 2 Name:</b></label>
-                  <input
-                    type="text"
-                    id="Atk2H_input"
-                    name="Atk2H_input"
-                  /><br />
+                  <input type="text" id="A2H-in" name="A2H-in" /><br />
                   <label><b>Attack 2 Action:</b></label>
                   <textarea
-                    id="Atk2D_input"
-                    name="Atk2D_input"
+                    id="A2D-in"
+                    name="A2D-in"
                     cols="56"
                     rows="3"
                   ></textarea
                   ><br />
                   <label><b>Attack 3 Name:</b></label>
-                  <input
-                    type="text"
-                    id="Atk3H_input"
-                    name="Atk3H_input"
-                  /><br />
+                  <input type="text" id="A3H-in" name="A3H-in" /><br />
                   <label><b>Attack 3 Action:</b></label>
                   <textarea
-                    id="Atk3D_input"
-                    name="Atk3D_input"
+                    id="A3D-in"
+                    name="A3D-in"
                     cols="56"
                     rows="3"
                   ></textarea
                   ><br />
                   <label><b>Attack 4 Name:</b></label>
-                  <input
-                    type="text"
-                    id="Atk4H_input"
-                    name="Atk4H_input"
-                  /><br />
+                  <input type="text" id="A4H-in" name="A4H-in" /><br />
                   <label><b>Attack 4 Action:</b></label>
                   <textarea
-                    id="Atk4D_input"
-                    name="Atk4D_input"
+                    id="A4D-in"
+                    name="A4D-in"
+                    cols="56"
+                    rows="3"
+                  ></textarea
+                  ><br />
+                  <label><b>Attack 5 Name:</b></label>
+                  <input type="text" id="A5H-in" name="A5H-in" /><br />
+                  <label><b>Attack 5 Action:</b></label>
+                  <textarea
+                    id="A5D-in"
+                    name="A5D-in"
                     cols="56"
                     rows="3"
                   ></textarea
@@ -311,20 +410,20 @@
             <div class="framecontainer">
               <div class="bodycontainer">
                 <!--creature NAME-->
-                <h1 class="creaturename" id="MName_output"></h1>
+                <h1 class="creaturename" id="Name-out"></h1>
 
                 <!--creature TYPE-->
-                <h2 class="creaturetype" id="MTypeAlign_output"></h2>
+                <h2 class="creaturetype" id="TypeAlign-out"></h2>
                 <div class="triangleDIV creatureDIV"></div>
                 <p>
                   <span class="standardbold">Armour Class:</span>
-                  <span class="standard" id="AC_output"></span>
+                  <span class="standard" id="AC-out"></span>
                   <br />
                   <span class="standardbold">Hit Points:</span>
-                  <span class="standard" id="HP_output"></span>
+                  <span class="standard" id="HP-out"></span>
                   <br />
                   <span class="standardbold">Speed:</span>
-                  <span class="standard" id="FT_output"></span>
+                  <span class="standard" id="FT-out"></span>
                 </p>
                 <div class="triangleDIV creatureDIV"></div>
 
@@ -338,84 +437,129 @@
                   <div class="CHA">CHA</div>
 
                   <!--Change Details Here-->
-                  <div class="STRn" id="STR_output"></div>
-                  <div class="DEXn" id="DEX_output"></div>
-                  <div class="CONn" id="CON_output"></div>
-                  <div class="INTn" id="INT_output"></div>
-                  <div class="WISn" id="WIS_output"></div>
-                  <div class="CHAn" id="CHA_output"></div>
+                  <div class="STRn" id="STR-out"></div>
+                  <div class="DEXn" id="DEX-out"></div>
+                  <div class="CONn" id="CON-out"></div>
+                  <div class="INTn" id="INT-out"></div>
+                  <div class="WISn" id="WIS-out"></div>
+                  <div class="CHAn" id="CHA-out"></div>
                 </div>
 
                 <div class="triangleDIV creatureDIV"></div>
                 <p class="status">
-                  <span class="standardbold" id="SavesH_output"></span>
-                  <span class="standard" id="Saves_output"></span>
+                  <span class="standardbold" id="SavesH-out"></span>
+                  <span class="standard capitalize" id="Saves-out"></span>
                 </p>
                 <p class="status">
-                  <span class="standardbold" id="SkillsH_output"></span>
-                  <span class="standard" id="Skills_output"></span>
+                  <span class="standardbold" id="SkillsH-out"></span>
+                  <span class="standard capitalize" id="Skills-out"></span>
                 </p>
                 <p class="status">
-                  <span class="standardbold" id="DmgResistH_output"></span>
-                  <span class="standard" id="DmgResist_output"></span>
+                  <span class="standardbold" id="ResistH-out"></span>
+                  <span class="standard capitalize" id="Resist-out"></span>
                 </p>
                 <p class="status">
-                  <span class="standardbold" id="DmgImmuneH_output"></span>
-                  <span class="standard" id="DmgImmune_output"></span>
+                  <span class="standardbold" id="ImmuneH-out"></span>
+                  <span class="standard capitalize" id="Immune-out"></span>
                 </p>
                 <p class="status">
-                  <span class="standardbold" id="DmgVulnH_output"></span>
-                  <span class="standard" id="DmgVuln_output"></span>
+                  <span class="standardbold" id="VulnerableH-out"></span>
+                  <span class="standard capitalize" id="Vulnerable-out"></span>
                 </p>
                 <p class="status">
-                  <span class="standardbold" id="ConImmuneH_output"></span>
-                  <span class="standard" id="ConImmune_output"></span>
+                  <span class="standardbold" id="conditionImmuneH-out"></span>
+                  <span
+                    class="standard capitalize"
+                    id="conditionImmune-out"
+                  ></span>
                 </p>
                 <p class="status">
-                  <span class="standardbold" id="SensesH_output"></span>
-                  <span class="standard" id="Senses_output"></span>
+                  <span class="standardbold" id="SensesH-out"></span>
+                  <span class="standard capitalize" id="Senses-out"></span>
                 </p>
                 <p class="status">
-                  <span class="standardbold" id="LangH_output"></span>
-                  <span class="standard" id="Lang_output"></span>
+                  <span class="standardbold" id="languagesH-out"></span>
+                  <span class="standard" id="languages-out"></span>
                 </p>
 
                 <div class="triangleDIV creatureDIV"></div>
 
                 <p>
-                  <span class="standardbold" id="T1H_output"></span>
-                  <span class="standard" id="T1D_output"></span>
+                  <span class="standardbold" id="T1H-out"></span>
+                  <span class="standard" id="T1D-out"></span>
                 </p>
                 <p>
-                  <span class="standardbold" id="T2H_output"></span>
-                  <span class="standard" id="T2D_output"></span>
+                  <span class="standardbold" id="T2H-out"></span>
+                  <span class="standard" id="T2D-out"></span>
                 </p>
                 <p>
-                  <span class="standardbold" id="T3H_output"></span>
-                  <span class="standard" id="T3D_output"></span>
+                  <span class="standardbold" id="T3H-out"></span>
+                  <span class="standard" id="T3D-out"></span>
                 </p>
                 <p>
-                  <span class="standardbold" id="T4H_output"></span>
-                  <span class="standard" id="T4D_output"></span>
+                  <span class="standardbold" id="T4H-out"></span>
+                  <span class="standard" id="T4D-out"></span>
+                </p>
+
+                <p>
+                  <span class="standardbold" id="CasterInnateH-out"></span>
+                  <span class="standard" id="headerentry-out"></span>
+                </p>
+
+                <p>
+                  <span class="standard" id="CantripH-out"></span>
+                  <span class="standard capitalize" id="cantrip-out"></span>
+                </p>
+
+                <p>
+                  <span class="standard" id="lvl1spellsH"></span>
+                  <span class="standard capitalize" id="lvl1spells-out"></span>
+                </p>
+                <p>
+                  <span class="standard" id="lvl2spellsH"></span>
+                  <span class="standard capitalize" id="lvl2spells-out"></span>
+                </p>
+                <p>
+                  <span class="standard" id="lvl3spellsH"></span>
+                  <span class="standard capitalize" id="lvl3spells-out"></span>
+                </p>
+                <p>
+                  <span class="standard" id="lvl4spellsH"></span>
+                  <span class="standard capitalize" id="lvl4spells-out"></span>
+                </p>
+                <p>
+                  <span class="standard" id="lvl5spellsH"></span>
+                  <span class="standard capitalize" id="lvl5spells-out"></span>
+                </p>
+                <p>
+                  <span class="standard" id="footerentry-out"></span>
+                </p>
+
+                <p>
+                  <span class="standard" id="lvl5spells-out"></span>
                 </p>
 
                 <h1 class="creaturename blueunderline">Actions</h1>
 
                 <p>
-                  <span class="standardbold" id="Atk1H_output"></span>
-                  <span class="standard" id="Atk1D_output"></span>
+                  <span class="standardbold" id="A1H-out"></span>
+                  <span class="standard" id="A1D-out"></span>
                 </p>
                 <p>
-                  <span class="standardbold" id="Atk2H_output"></span>
-                  <span class="standard" id="Atk2D_output"></span>
+                  <span class="standardbold" id="A2H-out"></span>
+                  <span class="standard" id="A2D-out"></span>
                 </p>
                 <p>
-                  <span class="standardbold" id="Atk3H_output"></span>
-                  <span class="standard" id="Atk3D_output"></span>
+                  <span class="standardbold" id="A3H-out"></span>
+                  <span class="standard" id="A3D-out"></span>
                 </p>
                 <p>
-                  <span class="standardbold" id="Atk4H_output"></span>
-                  <span class="standard" id="Atk4D_output"></span>
+                  <span class="standardbold" id="A4H-out"></span>
+                  <span class="standard" id="A4D-out"></span>
+                </p>
+                <p>
+                  <span class="standardbold" id="A5H-out"></span>
+                  <span class="standard" id="A5D-out"></span>
                 </p>
 
                 <!--ITEM DESCRIPTION-->
@@ -438,5 +582,6 @@
 </html>
 
 <script src="../Library/JavaScript/CoreScripts.js"></script>
-<script src="../Library/JavaScript/MonsterScripts.js"></script>
+<script src="../Library/JavaScript/CreatureScripts.js"></script>
+<script src="../Library/JavaScript/CreatureConverterScript.js"></script>
 <script src="https://html2canvas.hertzen.com/dist/html2canvas.js"></script>
