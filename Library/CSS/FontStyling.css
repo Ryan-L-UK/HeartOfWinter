@@ -27,6 +27,15 @@ the site
   font-family: Roboto-bold;
   src: local("Roboto Bold"), url("../Fonts/RobotoCondensed-Bold.ttf");
 }
+@font-face {
+  font-family: RuneD;
+  src: local("RuneD"), url("../Fonts/RUNE_D.TTF");
+}
+
+.code {
+  font-family: RuneD;
+  font-size: 0.9rem;
+}
 /*-----------------------------------------------------------
 DropCap Styling
 On a limited number of pages, a drop cap is used. here is the
