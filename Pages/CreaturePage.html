@@ -39,15 +39,7 @@
           Source Code
         </button></span
       ><br />
-      <span>
-        <label class="standardbold">Upload File: </label>
-        <input type="file" id="creatureinput" onchange="readText(event)"
-      /></span>
-      <br />
-      <span>
-        <label class="standardbold">Convert File: </label>
-        <input type="file" id="jsoninput" onchange="readTextConvert(event)"
-      /></span>
+      <input type="file" id="input" onchange="readText(event)" />
       <br />
 
       <br />
@@ -190,155 +182,169 @@
                   ></textarea
                   ><br />
                 </p>
-
-                <div class="list">
-                  <label><b>Spell Caster?</b></label>
-                  <input
-                    type="checkbox"
-                    id="spellcasting"
-                    name="spellcasting"
-                  />
-                </div>
                 <div class="triangleDIV creatureDIV"></div>
+                <div class="list">
+                  <h1 class="creaturename blueunderline">Spell Caster?</h1>
+                </div>
+                <br />
                 <div class="spells">
-                  <div id="spell-list" style="display: none">
-                    <p>
-                      <label><b>Spellcaster/Innate:</b></label>
-                      <input
-                        list="CasterInnate"
-                        id="CasterInnate-in"
-                        name="CasterInnate-in"
-                      />
+                  <p>
+                    <label><b>Spellcaster/Innate:</b></label>
+                    <input
+                      list="CasterInnate"
+                      id="CasterInnate-in"
+                      name="CasterInnate-in"
+                    />
 
-                      <datalist id="CasterInnate">
-                        <option value="Spellcaster"></option>
-                        <option value="Innate"></option>
-                      </datalist>
-                    </p>
-                    <p>
-                      <label><b>Header Entry:</b></label>
-                      <textarea
-                        id="headerentry-in"
-                        name="headerentry-in"
-                        cols="56"
-                        rows="3"
-                      ></textarea
-                      ><br />
-                    </p>
+                    <datalist id="CasterInnate">
+                      <option value="Spellcaster"></option>
+                      <option value="Innate"></option>
+                    </datalist>
+                  </p>
+                  <p>
+                    <label><b>Header Entry:</b></label>
+                    <textarea
+                      id="headerentry-in"
+                      name="headerentry-in"
+                      cols="56"
+                      rows="3"
+                    ></textarea
+                    ><br />
+                  </p>
+                  <h1 class="creaturename blueunderline">Spell Slots</h1>
+                  <br />
+                  <p>
+                    <label><b>Cantrips:</b></label>
 
-                    <p>
-                      <label><b>Cantrips:</b></label>
-                    </p>
-                    <p>
-                      <input type="text" id="cantrip-in" name="cantrip-in" />
-                    </p>
-                    <p>
-                      <span>
-                        <input
-                          type="number"
-                          id="lvl1slots-in"
-                          name="lvl1slots-in"
-                          min="0"
-                          max="10"
-                          value="0"
-                        /><label><b>1st Level Spell Slots.</b></label>
-                      </span>
-                    </p>
-                    <p>
+                    <input type="text" id="cantrip-in" name="cantrip-in" />
+                  </p>
+                  <p>
+                    <span>
                       <input
-                        type="text"
-                        id="lvl1spells-in"
-                        name="lvl1spells-in"
-                      />
-                    </p>
-                    <p>
-                      <span>
-                        <input
-                          type="number"
-                          id="lvl2slots-in"
-                          name="lvl2slots-in"
-                          min="0"
-                          max="10"
-                          value="0"
-                        /><label><b>2nd Level Spell Slots.</b></label>
-                      </span>
-                    </p>
-                    <p>
+                        type="number"
+                        id="lvl1slots-in"
+                        name="lvl1slots-in"
+                        min="0"
+                        max="10"
+                        value="0"
+                      /><label><b>1st Level Spell Slots.</b></label>
+                    </span>
+                  </p>
+                  <p>
+                    <input
+                      type="text"
+                      id="lvl1spells-in"
+                      name="lvl1spells-in"
+                    />
+                  </p>
+                  <p>
+                    <span>
                       <input
-                        type="text"
-                        id="lvl2spells-in"
-                        name="lvl2spells-in"
-                      />
-                    </p>
-                    <p>
-                      <span>
-                        <input
-                          type="number"
-                          id="lvl3slots-in"
-                          name="lvl3slots-in"
-                          min="0"
-                          max="10"
-                          value="0"
-                        /><label><b>3rd Level Spell Slots.</b></label>
-                      </span>
-                    </p>
-                    <p>
+                        type="number"
+                        id="lvl2slots-in"
+                        name="lvl2slots-in"
+                        min="0"
+                        max="10"
+                        value="0"
+                      /><label><b>2nd Level Spell Slots.</b></label>
+                    </span>
+                  </p>
+                  <p>
+                    <input
+                      type="text"
+                      id="lvl2spells-in"
+                      name="lvl2spells-in"
+                    />
+                  </p>
+                  <p>
+                    <span>
                       <input
-                        type="text"
-                        id="lvl3spells-in"
-                        name="lvl3spells-in"
-                      />
-                    </p>
-                    <p>
-                      <span>
-                        <input
-                          type="number"
-                          id="lvl4slots-in"
-                          name="lvl4slots-in"
-                          min="0"
-                          max="10"
-                          value="0"
-                        /><label><b>4th Level Spell Slots.</b></label>
-                      </span>
-                    </p>
-                    <p>
+                        type="number"
+                        id="lvl3slots-in"
+                        name="lvl3slots-in"
+                        min="0"
+                        max="10"
+                        value="0"
+                      /><label><b>3rd Level Spell Slots.</b></label>
+                    </span>
+                  </p>
+                  <p>
+                    <input
+                      type="text"
+                      id="lvl3spells-in"
+                      name="lvl3spells-in"
+                    />
+                  </p>
+                  <p>
+                    <span>
                       <input
-                        type="text"
-                        id="lvl4spells-in"
-                        name="lvl4spells-in"
-                      />
-                    </p>
-                    <p>
-                      <span>
-                        <input
-                          type="number"
-                          id="lvl5slots-in"
-                          name="lvl5slots-in"
-                          min="0"
-                          max="10"
-                          value="0"
-                        /><label><b>5th Level Spell Slots.</b></label>
-                      </span>
-                    </p>
-                    <p>
+                        type="number"
+                        id="lvl4slots-in"
+                        name="lvl4slots-in"
+                        min="0"
+                        max="10"
+                        value="0"
+                      /><label><b>4th Level Spell Slots.</b></label>
+                    </span>
+                  </p>
+                  <p>
+                    <input
+                      type="text"
+                      id="lvl4spells-in"
+                      name="lvl4spells-in"
+                    />
+                  </p>
+                  <p>
+                    <span>
                       <input
-                        type="text"
-                        id="lvl5spells-in"
-                        name="lvl5spells-in"
-                      />
-                    </p>
+                        type="number"
+                        id="lvl5slots-in"
+                        name="lvl5slots-in"
+                        min="0"
+                        max="10"
+                        value="0"
+                      /><label><b>5th Level Spell Slots.</b></label>
+                    </span>
+                  </p>
+                  <p>
+                    <input
+                      type="text"
+                      id="lvl5spells-in"
+                      name="lvl5spells-in"
+                    />
+                  </p>
 
-                    <p>
-                      <label><b>Footer Entry:</b></label>
-                      <textarea
-                        id="footerentry-in"
-                        name="footerentry-in"
-                        cols="56"
-                        rows="3"
-                      ></textarea
-                      ><br />
-                    </p>
-                  </div>
+                  <h1 class="creaturename blueunderline">Innate Spells</h1>
+                  <p>
+                    <label><b>At Will</b></label>
+                    <input type="text" id="atwill-in" name="atwill-in" />
+                  </p>
+
+                  <p>
+                    <label><b>1/Day</b></label>
+                    <input type="text" id="daily1e-in" name="daily1e-in" />
+                  </p>
+
+                  <p>
+                    <label><b>2/Day</b></label>
+                    <input type="text" id="daily2e-in" name="daily2e-in" />
+                  </p>
+
+                  <p>
+                    <label><b>3/Day</b></label>
+                    <input type="text" id="daily3e-in" name="daily3e-in" />
+                  </p>
+
+                  <p>
+                    <label><b>Footer Entry:</b></label>
+                    <textarea
+                      id="footerentry-in"
+                      name="footerentry-in"
+                      cols="56"
+                      rows="3"
+                    ></textarea
+                    ><br />
+                  </p>
                 </div>
 
                 <h1 class="creaturename blueunderline">Actions</h1>
@@ -531,6 +537,27 @@
                   <span class="standard" id="lvl5spellsH"></span>
                   <span class="standard capitalize" id="lvl5spells-out"></span>
                 </p>
+
+                <p>
+                  <span class="standard" id="atwillH-out"></span>
+                  <span class="standard capitalize" id="atwill-out"></span>
+                </p>
+
+                <p>
+                  <span class="standard" id="daily1eH"></span>
+                  <span class="standard capitalize" id="daily1e-out"></span>
+                </p>
+
+                <p>
+                  <span class="standard" id="daily2eH"></span>
+                  <span class="standard capitalize" id="daily2e-out"></span>
+                </p>
+
+                <p>
+                  <span class="standard" id="daily3eH"></span>
+                  <span class="standard capitalize" id="daily3e-out"></span>
+                </p>
+
                 <p>
                   <span class="standard" id="footerentry-out"></span>
                 </p>
