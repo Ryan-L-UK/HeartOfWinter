@@ -1,68 +1,79 @@
+function checkstatrole(modifier) {
+  var checkresult = "";
+  var lookup = {
+    "": "Error",
+    1: "1 (-5)",
+    2: "2 (-4)",
+    3: "3 (-4)",
+    4: "4 (-3)",
+    5: "5 (-3)",
+    6: "6 (-2)",
+    7: "7 (-2)",
+    8: "8 (-1)",
+    9: "9 (-1)",
+    10: "10 (+0)",
+    11: "11 (+0)",
+    12: "12 (+1)",
+    13: "13 (+1)",
+    14: "14 (+2)",
+    15: "15 (+2)",
+    16: "16 (+3)",
+    17: "17 (+3)",
+    18: "18 (+4)",
+    19: "19 (+4)",
+    20: "20 (+5)",
+    21: "21 (+5)",
+    22: "22 (+6)",
+    23: "23 (+6)",
+    24: "24 (+7)",
+    25: "25 (+7)",
+    26: "26 (+8)",
+    27: "27 (+8)",
+    28: "28 (+9)",
+    29: "29 (+9)",
+    30: "30 (+10)",
+  };
+  checkresult = lookup[modifier];
+  return checkresult;
+}
+
 function showInput() {
   document.getElementById("Name-out").innerHTML =
     document.getElementById("Name-in").value;
-  var TypeAlign =
-    document.getElementById("Type-in").value +
-    "," +
+
+  document.getElementById("TypeAlign-out").innerHTML =
+    document.getElementById("Size-in").value +
     " " +
+    document.getElementById("Type-in").value +
+    ", " +
     document.getElementById("Alignment-in").value;
-  document.getElementById("TypeAlign-out").innerHTML = TypeAlign;
+
   document.getElementById("AC-out").innerHTML =
     document.getElementById("AC-in").value;
   document.getElementById("HP-out").innerHTML =
     document.getElementById("HP-in").value;
   document.getElementById("FT-out").innerHTML =
     document.getElementById("FT-in").value;
-  function checkstatrole(modifier) {
-    var checkresult = "";
-    var lookup = {
-      "": "Error",
-      1: "1 (-5)",
-      2: "2 (-4)",
-      3: "3 (-4)",
-      4: "4 (-3)",
-      5: "5 (-3)",
-      6: "6 (-2)",
-      7: "7 (-2)",
-      8: "8 (-1)",
-      9: "9 (-1)",
-      10: "10 (+0)",
-      11: "11 (+0)",
-      12: "12 (+1)",
-      13: "13 (+1)",
-      14: "14 (+2)",
-      15: "15 (+2)",
-      16: "16 (+3)",
-      17: "17 (+3)",
-      18: "18 (+4)",
-      19: "19 (+4)",
-      20: "20 (+5)",
-      21: "21 (+5)",
-      22: "22 (+6)",
-      23: "23 (+6)",
-      24: "24 (+7)",
-      25: "25 (+7)",
-      26: "26 (+8)",
-      27: "27 (+8)",
-      28: "28 (+9)",
-      29: "29 (+9)",
-      30: "30 (+10)",
-    };
-    checkresult = lookup[modifier];
-    StatOut = checkresult;
-  }
-  checkstatrole(document.getElementById("STR-in").value);
-  document.getElementById("STR-out").innerHTML = StatOut;
-  checkstatrole(document.getElementById("DEX-in").value);
-  document.getElementById("DEX-out").innerHTML = StatOut;
-  checkstatrole(document.getElementById("CON-in").value);
-  document.getElementById("CON-out").innerHTML = StatOut;
-  checkstatrole(document.getElementById("INT-in").value);
-  document.getElementById("INT-out").innerHTML = StatOut;
-  checkstatrole(document.getElementById("WIS-in").value);
-  document.getElementById("WIS-out").innerHTML = StatOut;
-  checkstatrole(document.getElementById("CHA-in").value);
-  document.getElementById("CHA-out").innerHTML = StatOut;
+
+  document.getElementById("STR-out").innerHTML = checkstatrole(
+    document.getElementById("STR-in").value
+  );
+  document.getElementById("DEX-out").innerHTML = checkstatrole(
+    document.getElementById("DEX-in").value
+  );
+  document.getElementById("CON-out").innerHTML = checkstatrole(
+    document.getElementById("CON-in").value
+  );
+  document.getElementById("INT-out").innerHTML = checkstatrole(
+    document.getElementById("INT-in").value
+  );
+  document.getElementById("WIS-out").innerHTML = checkstatrole(
+    document.getElementById("WIS-in").value
+  );
+  document.getElementById("CHA-out").innerHTML = checkstatrole(
+    document.getElementById("CHA-in").value
+  );
+
   let savesoutput = document.getElementById("Saves-in").value;
   if (savesoutput != "") {
     document.getElementById("SavesH-out").innerHTML = "Saving Throws:";
@@ -161,10 +172,6 @@ function showInput() {
     // THERE ARE SPELLS
     document.getElementById("headerentry-out").innerHTML =
       document.getElementById("headerentry-in").value;
-    if (document.getElementById("footerentry-in").value != null) {
-      document.getElementById("footerentry-out").innerHTML =
-        document.getElementById("footerentry-in").value;
-    }
     if (document.getElementById("CasterInnate-in").value == "Spellcaster") {
       // SPELL CASTER
       document.getElementById("CasterInnateH-out").innerHTML = "Spellcasting.";
@@ -214,6 +221,11 @@ function showInput() {
         document.getElementById("lvl5spells-out").innerHTML =
           document.getElementById("lvl5spells-in").value;
       }
+
+      if (document.getElementById("spellfooterentry-in").value != null) {
+        document.getElementById("footerentry-out").innerHTML =
+          document.getElementById("spellfooterentry-in").value;
+      }
     }
     if (document.getElementById("CasterInnate-in").value == "Innate") {
       // INNATE CASTER
@@ -237,6 +249,10 @@ function showInput() {
         document.getElementById("daily3eH").innerHTML = "3/Day Each: ";
         document.getElementById("daily3e-out").innerHTML =
           document.getElementById("daily3e-in").value;
+      }
+      if (document.getElementById("innatefooterentry-in").value != null) {
+        document.getElementById("footerentry-out").innerHTML =
+          document.getElementById("innatefooterentry-in").value;
       }
     }
   } else {
@@ -297,7 +313,7 @@ document.getElementById("form-submit").addEventListener("click", (event) => {
   var filename = document.getElementById("Name-in").value;
   hiddenElement.href = "data:attachment/text," + encodeURI(outputJson);
   hiddenElement.target = "_blank";
-  hiddenElement.download = filename + ".creature";
+  hiddenElement.download = filename + ".json";
   hiddenElement.click();
 });
 //IMPORT SOURCECODE

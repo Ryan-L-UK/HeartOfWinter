@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="../Library/CSS/ContainerStyling.css" />
     <link rel="stylesheet" href="../Library/CSS/ObjectStyling.css" />
     <link rel="stylesheet" href="../Library/CSS/FontStyling.css" />
-
+    <link rel="stylesheet" href="../Library/CSS/Sources.css" />
     <title>The Elfsong Tavern</title>
     <link
       rel="shortcut icon"
@@ -12,7 +12,6 @@
       href="../Library/ImageAssets/favicon.ico"
     />
   </head>
-
   <body>
     <!---------------------------------------->
     <!--Nav Bar-->
@@ -35,83 +34,270 @@
         <button class="submititem" onclick="showInput();takeshot()">
           Export Item
         </button>
-
         <button class="submititem" id="form-submit">Source Code</button></span
       ><br />
       <input type="file" id="input" onchange="readText(event)" />
-
       <br />
-
       <div class="generator-container">
         <div class="Form">
-          <div class="border itemBG"></div>
-          <div class="framecontainer">
-            <div class="bodycontainer">
-              <form id="itemform">
-                <!--ITEM NAME-->
-                <label><b>Item Name:</b></label>
-                <input type="text" id="IName_input" name="IName_input" />
+          <form id="itemform">
+            <div class="whitecontainer">
+              <div class="bodycontainer">
+                <!--creature NAME-->
+                <h1 class="creaturename">Basic Details</h1>
                 <br />
-
-                <!--ITEM TYPE-->
-                <label><b>Type:</b></label>
-                <input type="text" id="IType_input" name="IType_input" />
-
-                <label><b>Weapon Type:</b></label>
-                <input type="text" id="WType_input" name="WType_input" />
-
-                <label><b>Weapon Damage:</b></label>
-                <input type="text" id="WDmg_input" name="WDmg_input" />
-
+                <label>Item Name:</label>
+                <input type="text" id="Name-in" name="Name-in" />
                 <br />
-                <br />
+                <div class="tri-container">
+                  <div class="col1">
+                    <label>Type:</label>
+                    <input list="Type" id="Type-in" name="Type-in" />
+                    <datalist id="Type">
+                      <option value="Adventuring gear"></option>
+                      <option value="Ammunition"></option>
+                      <option value="Artisan's Tools"></option>
+                      <option value="Component"></option>
+                      <option value="Explosive"></option>
+                      <option value="Food And Drink"></option>
+                      <option value="Gaming Set"></option>
+                      <option value="Generic Variant"></option>
+                      <option value="Heavy Armour"></option>
+                      <option value="Instrument"></option>
+                      <option value="Light Armour"></option>
 
-                <div class="iline"></div>
+                      <option value="Medium Armour"></option>
 
-                <p>
-                  <label><b>Item Description P1:</b></label>
-                  <textarea
-                    id="Desc1_input"
-                    name="Desc1_input"
-                    cols="58"
-                    rows="6"
-                  ></textarea
-                  ><br />
-                </p>
+                      <option value="Mount"></option>
+                      <option value="Potion"></option>
+                      <option value="Ranged"></option>
+                      <option value="Ring"></option>
+                      <option value="Rod"></option>
+                      <option value="Scroll"></option>
+                      <option value="Shield"></option>
 
-                <p>
-                  <label><b>Item Description P2:</b></label>
-                  <textarea
-                    id="Desc2_input"
-                    name="Desc2_input"
-                    cols="58"
-                    rows="6"
-                  ></textarea
-                  ><br />
-                </p>
-
-                <p>
-                  <label><b>Item Description P3:</b></label>
-                  <textarea
-                    id="Desc3_input"
-                    name="Desc3_input"
-                    cols="58"
-                    rows="6"
-                  ></textarea
-                  ><br />
-                </p>
-
-                <!--ITEM DESCRIPTION-->
-
-                <label><b>Source:</b></label>
-                <input type="text" id="Source_input" name="Source_input" />
-                <br />
-                <br />
-              </form>
+                      <option value="Spellcasting Focus"></option>
+                      <option value="Tack and harness"></option>
+                      <option value="Tools"></option>
+                      <option value="Trade Good"></option>
+                      <option value="Treasure"></option>
+                      <option value="Vehicle (Air)"></option>
+                      <option value="Vehicle (Land)"></option>
+                      <option value="Vehicle (Ship)"></option>
+                      <option value="Wand"></option>
+                      <option value="Weapon"></option>
+                      <option value="Wondrous Item"></option>
+                      <option value="Other"></option>
+                    </datalist>
+                  </div>
+                  <div class="col2">
+                    <label>Rarity:</label>
+                    <input list="Rarity" id="Rarity-in" name="Rarity-in" />
+                    <datalist id="Rarity">
+                      <option value="Common"></option>
+                      <option value="Uncommon"></option>
+                      <option value="Rare"></option>
+                      <option value="Very Rare"></option>
+                      <option value="Legendary"></option>
+                      <option value="Artifact"></option>
+                    </datalist>
+                  </div>
+                  <div class="col3">
+                    <label>Requires Attunement:</label>
+                    <input type="text" id="reqAttune-in" name="reqAttune-in" />
+                  </div>
+                </div>
+                <div class="split-container">
+                  <div class="twofoursplit">
+                    <label>Page:</label><br />
+                    <input type="number" id="Page-in" name="Page-in" />
+                  </div>
+                  <div class="twofoursplit">
+                    <label>Source:</label>
+                    <input type="text" id="Source-in" name="Source-in" />
+                  </div>
+                </div>
+                <div class="split-container">
+                  <div class="twofoursplit">
+                    <label>Other Page:</label><br />
+                    <input
+                      type="number"
+                      id="otherSourcesPage-in"
+                      name="otherSourcesPage-in"
+                    />
+                  </div>
+                  <div class="twofoursplit">
+                    <label>Other Source:</label>
+                    <input
+                      type="text"
+                      id="otherSources-in"
+                      name="otherSources-in"
+                    />
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="border itemBG"></div>
-
+            <br />
+            <div class="whitecontainer">
+              <button type="button" class="collapsible">Weapon Details</button>
+              <div class="content">
+                <div class="bodycontainer">
+                  <div class="tri-container">
+                    <div class="col1">
+                      <label>Staff:</label>
+                      <input list="Staff" id="Staff-in" name="Staff-in" />
+                      <datalist id="Staff">
+                        <option value="Yes"></option>
+                      </datalist>
+                    </div>
+                    <div class="col2">
+                      <label>Weapon Category:</label>
+                      <input
+                        type="text"
+                        id="weaponCategory-in"
+                        name="weaponCategory-in"
+                      />
+                    </div>
+                    <div class="col3">
+                      <label>Damage Type:</label>
+                      <input list="dmgType" id="dmgType-in" name="dmgType-in" />
+                      <datalist id="dmgType">
+                        <option value="Acid"></option>
+                        <option value="Bludgeoning"></option>
+                        <option value="Cold"></option>
+                        <option value="Fire"></option>
+                        <option value="Force"></option>
+                        <option value="Lightning"></option>
+                        <option value="Necrotic"></option>
+                        <option value="Piercing"></option>
+                        <option value="Poison"></option>
+                        <option value="Psychic"></option>
+                        <option value="Radiant"></option>
+                        <option value="Slashing"></option>
+                        <option value="Thunder"></option>
+                      </datalist>
+                    </div>
+                  </div>
+                  <div class="split-container">
+                    <div class="oneonefoursplit">
+                      <label>Damage 1:</label>
+                      <input type="text" id="dmg1-in" name="dmg1-in" />
+                    </div>
+                    <div class="oneonefoursplit">
+                      <label>Damage 2:</label>
+                      <input type="text" id="dmg2-in" name="dmg2-in" />
+                    </div>
+                    <div class="oneonefoursplit">
+                      <label>Properties:</label>
+                      <input type="text" id="property-in" name="property-in" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br />
+            <div class="whitecontainer">
+              <button type="button" class="collapsible">
+                Item Descriptions
+              </button>
+              <div class="content">
+                <div class="bodycontainer">
+                  <p>
+                    <label>Section 1 Name:</label>
+                    <input type="text" id="I0H-in" name="I0H-in" /><br />
+                    <label>Section 1 Description:</label>
+                    <textarea
+                      id="I0D-in"
+                      name="I0D-in"
+                      cols="56"
+                      rows="3"
+                    ></textarea
+                    ><br />
+                    <label>Section 2 Name:</label>
+                    <input type="text" id="I1H-in" name="I1H-in" /><br />
+                    <label>Section 2 Description:</label>
+                    <textarea
+                      id="I1D-in"
+                      name="I1D-in"
+                      cols="56"
+                      rows="3"
+                    ></textarea
+                    ><br />
+                    <label>Section 3 Name:</label>
+                    <input type="text" id="I2H-in" name="I2H-in" /><br />
+                    <label>Section 3 Description:</label>
+                    <textarea
+                      id="I2D-in"
+                      name="I2D-in"
+                      cols="56"
+                      rows="3"
+                    ></textarea
+                    ><br />
+                    <label>Section 4 Name:</label>
+                    <input type="text" id="I3H-in" name="I3H-in" /><br />
+                    <label>Section 4 Description:</label>
+                    <textarea
+                      id="I3D-in"
+                      name="I3D-in"
+                      cols="56"
+                      rows="3"
+                    ></textarea
+                    ><br />
+                    <label>Section 5 Name:</label>
+                    <input type="text" id="I4H-in" name="I4H-in" /><br />
+                    <label>Section 5 Description:</label>
+                    <textarea
+                      id="I4D-in"
+                      name="I4D-in"
+                      cols="56"
+                      rows="3"
+                    ></textarea
+                    ><br />
+                    <label>Section 6 Name:</label>
+                    <input type="text" id="I5H-in" name="I5H-in" /><br />
+                    <label>Section 6 Description:</label>
+                    <textarea
+                      id="I5D-in"
+                      name="I5D-in"
+                      cols="56"
+                      rows="3"
+                    ></textarea
+                    ><br />
+                    <label>Section 7 Name:</label>
+                    <input type="text" id="I6H-in" name="I6H-in" /><br />
+                    <label>Section 7 Description:</label>
+                    <textarea
+                      id="I6D-in"
+                      name="I6D-in"
+                      cols="56"
+                      rows="3"
+                    ></textarea
+                    ><br />
+                    <label>Section 8 Name:</label>
+                    <input type="text" id="I7H-in" name="I7H-in" /><br />
+                    <label>Section 8 Description:</label>
+                    <textarea
+                      id="I7D-in"
+                      name="I7D-in"
+                      cols="56"
+                      rows="3"
+                    ></textarea
+                    ><br />
+                    <label>Section 9 Name:</label>
+                    <input type="text" id="I8H-in" name="I8H-in" /><br />
+                    <label>Section 9 Description:</label>
+                    <textarea
+                      id="I8D-in"
+                      name="I8D-in"
+                      cols="56"
+                      rows="3"
+                    ></textarea
+                    ><br />
+                  </p>
+                </div>
+              </div>
+            </div>
+          </form>
           <br />
         </div>
         <div class="Output">
@@ -120,28 +306,64 @@
             <div class="framecontainer">
               <div class="bodycontainer">
                 <!--ITEM NAME-->
-                <h1 class="itemheading" id="IName_output"></h1>
-
+                <div class="item-container">
+                  <div class="heading">
+                    <h1 class="itemheading" id="Name-out"></h1>
+                  </div>
+                  <div class="sourcegraphic">
+                    <span
+                      ><div class="source" id="Source-out"></div>
+                      <div class="pageno" id="Page-out"></div
+                    ></span>
+                  </div>
+                </div>
                 <!--ITEM TYPE-->
-                <h2 class="itemtype" id="IType_output"></h2>
-                <h2 class="itemtype" id="WType_output"></h2>
-
-                <div class="Damage" id="WDmg_output"></div>
-
+                <h2 class="itemtype" id="Type-out"></h2>
+                <h2 class="itemtype" id="weaponCategory-out"></h2>
+                <div class="Damage" id="dmg-out"></div>
                 <div class="greenline"></div>
-                <br />
-
                 <!--ITEM DESCRIPTION-->
-                <p class="itembody" id="Desc1_output"></p>
-
-                <p class="itembody" id="Desc2_output"></p>
-
-                <p class="itembody" id="Desc3_output"></p>
-
+                <p class="status">
+                  <span class="standardbold" id="I0H-out"></span>
+                  <span class="standard" id="I0D-out"></span>
+                </p>
+                <p class="status">
+                  <span class="standardbold" id="I1H-out"></span>
+                  <span class="standard" id="I1D-out"></span>
+                </p>
+                <p class="status">
+                  <span class="standardbold" id="I2H-out"></span>
+                  <span class="standard" id="I2D-out"></span>
+                </p>
+                <p class="status">
+                  <span class="standardbold" id="I3H-out"></span>
+                  <span class="standard" id="I3D-out"></span>
+                </p>
+                <p class="status">
+                  <span class="standardbold" id="I4H-out"></span>
+                  <span class="standard" id="I4D-out"></span>
+                </p>
+                <p class="status">
+                  <span class="standardbold" id="I5H-out"></span>
+                  <span class="standard" id="I5D-out"></span>
+                </p>
+                <p class="status">
+                  <span class="standardbold" id="I6H-out"></span>
+                  <span class="standard" id="I6D-out"></span>
+                </p>
+                <p class="status">
+                  <span class="standardbold" id="I7H-out"></span>
+                  <span class="standard" id="I7D-out"></span>
+                </p>
+                <p class="status">
+                  <span class="standardbold" id="I8H-out"></span>
+                  <span class="standard" id="I8D-out"></span>
+                </p>
+                <br />
                 <!--ITEM SOURCE-->
                 <p class="itemfooter">
                   Source:
-                  <span class="itembody" id="Source_output"></span>
+                  <span class="itembody" id="FullSource-out"></span>
                 </p>
               </div>
             </div>
@@ -154,12 +376,13 @@
         </div>
       </div>
     </div>
+    <br />
     <!--Footer-->
     <object id="Ftr_output"></object>
     <!--END-->
   </body>
 </html>
-
 <script src="../Library/JavaScript/CoreScripts.js"></script>
 <script src="../Library/JavaScript/ItemScripts.js"></script>
+<script src="../Library/JavaScript/ItemConverterScript.js"></script>
 <script src="https://html2canvas.hertzen.com/dist/html2canvas.js"></script>

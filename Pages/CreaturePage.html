@@ -4,7 +4,6 @@
     <link rel="stylesheet" href="../Library/CSS/ContainerStyling.css" />
     <link rel="stylesheet" href="../Library/CSS/ObjectStyling.css" />
     <link rel="stylesheet" href="../Library/CSS/FontStyling.css" />
-
     <title>The Elfsong Tavern</title>
     <link
       rel="shortcut icon"
@@ -12,7 +11,6 @@
       href="../Library/ImageAssets/favicon.ico"
     />
   </head>
-
   <body>
     <!---------------------------------------->
     <!--Nav Bar-->
@@ -41,47 +39,68 @@
       ><br />
       <input type="file" id="input" onchange="readText(event)" />
       <br />
-
       <br />
-
       <div class="generator-container">
         <div class="Form">
-          <div class="border creatureBG"></div>
-          <div class="framecontainer">
-            <div class="bodycontainer">
-              <form id="creatureform">
+          <form id="creatureform">
+            <div class="whitecontainer">
+              <div class="bodycontainer">
                 <!--creature NAME-->
-                <label><b>Name:</b></label>
+                <h1 class="creaturename">Basic Details</h1>
+                <br />
+                <label>Name:</label>
                 <input type="text" id="Name-in" name="Name-in" />
                 <br />
-
-                <!--creature TYPE-->
-                <label><b>Type:</b></label>
-                <input type="text" id="Type-in" name="Type-in" />
-
-                <label><b>Alignment:</b></label>
-                <input type="text" id="Alignment-in" name="Alignment-in" />
-
-                <div class="triangleDIV creatureDIV"></div>
-                <p>
-                  <label><b>Armour Class:</b></label>
-                  <input type="text" size="7" id="AC-in" name="AC-in" /><br />
-                  <label><b>Hit Points:</b></label>
-                  <input type="text" size="7" id="HP-in" name="HP-in" /><br />
-                  <label><b>Speed:</b></label>
-                  <input type="text" size="7" id="FT-in" name="FT-in" /><br />
-                </p>
-                <div class="triangleDIV creatureDIV"></div>
-
-                <!--creature Stats-->
+                <div class="tri-container">
+                  <div class="col1">
+                    <label>Size:</label>
+                    <input list="Size" id="Size-in" name="Size-in" />
+                    <datalist id="Size">
+                      <option value="Tiny"></option>
+                      <option value="Small"></option>
+                      <option value="Medium"></option>
+                      <option value="Large"></option>
+                      <option value="Huge"></option>
+                      <option value="Gargantuan"></option>
+                    </datalist>
+                  </div>
+                  <div class="col2">
+                    <label>Creature Type:</label>
+                    <input type="text" id="Type-in" name="Type-in" />
+                  </div>
+                  <div class="col3">
+                    <label>Alignment:</label>
+                    <input type="text" id="Alignment-in" name="Alignment-in" />
+                  </div>
+                </div>
+                <div class="tri-container">
+                  <div class="col1">
+                    <label>Armour Class:</label>
+                    <input type="text" size="7" id="AC-in" name="AC-in" />
+                  </div>
+                  <div class="col2">
+                    <label>Hit Points:</label>
+                    <input type="text" size="7" id="HP-in" name="HP-in" />
+                  </div>
+                  <div class="col3">
+                    <label>Speed:</label>
+                    <input type="text" size="7" id="FT-in" name="FT-in" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br />
+            <div class="whitecontainer">
+              <div class="bodycontainer">
+                <h1 class="creaturename">Ability Scores</h1>
+                <br />
                 <div class="stat-container">
-                  <div class="STR">STR</div>
-                  <div class="DEX">DEX</div>
-                  <div class="CON">CON</div>
-                  <div class="INT">INT</div>
-                  <div class="WIS">WIS</div>
-                  <div class="CHA">CHA</div>
-
+                  <div class="STR roboto">STR</div>
+                  <div class="DEX roboto">DEX</div>
+                  <div class="CON roboto">CON</div>
+                  <div class="INT roboto">INT</div>
+                  <div class="WIS roboto">WIS</div>
+                  <div class="CHA roboto">CHA</div>
                   <!--Change Details Here-->
                   <div class="STRn">
                     <input type="text" size="7" id="STR-in" name="STR-in" />
@@ -102,120 +121,199 @@
                     <input type="text" size="7" id="CHA-in" name="CHA-in" />
                   </div>
                 </div>
-
-                <div class="triangleDIV creatureDIV"></div>
-
-                <p>
-                  <label><b>Saving Throws:</b></label>
-                  <input type="text" id="Saves-in" name="Saves-in" />
-                  <br />
-                  <label><b>Skills:</b></label>
-                  <input type="text" id="Skills-in" name="Skills-in" />
-                  <br />
-                  <label><b>Damage Resistances:</b></label>
-                  <input type="text" id="Resist-in" name="Resist-in" />
-                  <br />
-                  <label><b>Damage Immunities:</b></label>
-                  <input type="text" id="Immune-in" name="Immune-in" />
-                  <br />
-                  <label><b>Damage Vulnerabilities:</b></label>
-                  <input type="text" id="Vulnerable-in" name="Vulnerable-in" />
-                  <br />
-                  <label><b>Condition Immunities:</b></label>
-                  <input
-                    type="text"
-                    id="conditionImmune-in"
-                    name="conditionImmune-in"
-                  />
-                  <br />
-                  <label><b>Senses:</b></label>
-                  <input type="text" id="Senses-in" name="Senses-in" />
-                  <br />
-                  <label><b>Languages:</b></label>
-                  <input type="text" id="languages-in" name="languages-in" />
-                </p>
-
-                <div class="triangleDIV creatureDIV"></div>
-
-                <p>
-                  <label><b>Trait 1 Name:</b></label>
-                  <input type="text" id="T1H-in" name="T1H-in" /><br />
-                  <label><b>Trait 1 Action:</b></label>
-                  <textarea
-                    id="T1D-in"
-                    name="T1D-in"
-                    cols="56"
-                    rows="3"
-                  ></textarea
-                  ><br />
-
-                  <label><b>Trait 2 Name:</b></label>
-                  <input type="text" id="T2H-in" name="T2H-in" /><br />
-                  <label><b>Trait 2 Action:</b></label>
-                  <textarea
-                    id="T2D-in"
-                    name="T2D-in"
-                    cols="56"
-                    rows="3"
-                  ></textarea
-                  ><br />
-
-                  <label><b>Trait 3 Name:</b></label>
-                  <input type="text" id="T3H-in" name="T3H-in" /><br />
-                  <label><b>Trait 3 Action:</b></label>
-                  <textarea
-                    id="T3D-in"
-                    name="T3D-in"
-                    cols="56"
-                    rows="3"
-                  ></textarea
-                  ><br />
-
-                  <label><b>Trait 4 Name:</b></label>
-                  <input type="text" id="T4H-in" name="T4H-in" /><br />
-                  <label><b>Trait 4 Action:</b></label>
-                  <textarea
-                    id="T4D-in"
-                    name="T4D-in"
-                    cols="56"
-                    rows="3"
-                  ></textarea
-                  ><br />
-                </p>
-                <div class="triangleDIV creatureDIV"></div>
-                <div class="list">
-                  <h1 class="creaturename blueunderline">Spell Caster?</h1>
-                </div>
-                <br />
-                <div class="spells">
+              </div>
+            </div>
+            <br />
+            <div class="whitecontainer">
+              <button type="button" class="collapsible">Properties</button>
+              <div class="content">
+                <div class="bodycontainer">
                   <p>
-                    <label><b>Spellcaster/Innate:</b></label>
+                    <label>Saving Throws:</label>
+                    <input type="text" id="Saves-in" name="Saves-in" />
+                    <br />
+                    <label>Skills:</label>
+                    <input type="text" id="Skills-in" name="Skills-in" />
+                    <br />
+                    <label>Damage Resistances:</label>
+                    <input type="text" id="Resist-in" name="Resist-in" />
+                    <br />
+                    <label>Damage Immunities:</label>
+                    <input type="text" id="Immune-in" name="Immune-in" />
+                    <br />
+                    <label>Damage Vulnerabilities:</label>
                     <input
-                      list="CasterInnate"
-                      id="CasterInnate-in"
-                      name="CasterInnate-in"
+                      type="text"
+                      id="Vulnerable-in"
+                      name="Vulnerable-in"
                     />
-
-                    <datalist id="CasterInnate">
-                      <option value="Spellcaster"></option>
-                      <option value="Innate"></option>
-                    </datalist>
+                    <br />
+                    <label>Condition Immunities:</label>
+                    <input
+                      type="text"
+                      id="conditionImmune-in"
+                      name="conditionImmune-in"
+                    />
+                    <br />
+                    <label>Senses:</label>
+                    <input type="text" id="Senses-in" name="Senses-in" />
+                    <br />
+                    <label>Languages:</label>
+                    <input type="text" id="languages-in" name="languages-in" />
                   </p>
+                </div>
+              </div>
+            </div>
+            <br />
+            <div class="whitecontainer">
+              <button type="button" class="collapsible">Traits</button>
+              <div class="content">
+                <div class="bodycontainer">
                   <p>
-                    <label><b>Header Entry:</b></label>
+                    <label>Trait 1 Name:</label>
+                    <input type="text" id="T1H-in" name="T1H-in" /><br />
+                    <label>Trait 1 Action:</label>
                     <textarea
-                      id="headerentry-in"
-                      name="headerentry-in"
+                      id="T1D-in"
+                      name="T1D-in"
+                      cols="56"
+                      rows="3"
+                    ></textarea
+                    ><br />
+
+                    <label>Trait 2 Name:</label>
+                    <input type="text" id="T2H-in" name="T2H-in" /><br />
+                    <label>Trait 2 Action:</label>
+                    <textarea
+                      id="T2D-in"
+                      name="T2D-in"
+                      cols="56"
+                      rows="3"
+                    ></textarea
+                    ><br />
+
+                    <label>Trait 3 Name:</label>
+                    <input type="text" id="T3H-in" name="T3H-in" /><br />
+                    <label>Trait 3 Action:</label>
+                    <textarea
+                      id="T3D-in"
+                      name="T3D-in"
+                      cols="56"
+                      rows="3"
+                    ></textarea
+                    ><br />
+
+                    <label>Trait 4 Name:</label>
+                    <input type="text" id="T4H-in" name="T4H-in" /><br />
+                    <label>Trait 4 Action:</label>
+                    <textarea
+                      id="T4D-in"
+                      name="T4D-in"
                       cols="56"
                       rows="3"
                     ></textarea
                     ><br />
                   </p>
-                  <h1 class="creaturename blueunderline">Spell Slots</h1>
-                  <br />
+                </div>
+              </div>
+            </div>
+            <br />
+            <div class="whitecontainer">
+              <button type="button" class="collapsible">Actions</button>
+              <div class="content">
+                <div class="bodycontainer">
                   <p>
-                    <label><b>Cantrips:</b></label>
+                    <label>Attack 1 Name:</label>
+                    <input type="text" id="A1H-in" name="A1H-in" /><br />
+                    <label>Attack 1 Action:</label>
+                    <textarea
+                      id="A1D-in"
+                      name="A1D-in"
+                      cols="56"
+                      rows="3"
+                    ></textarea
+                    ><br />
+                    <label>Attack 2 Name:</label>
+                    <input type="text" id="A2H-in" name="A2H-in" /><br />
+                    <label>Attack 2 Action:</label>
+                    <textarea
+                      id="A2D-in"
+                      name="A2D-in"
+                      cols="56"
+                      rows="3"
+                    ></textarea
+                    ><br />
+                    <label>Attack 3 Name:</label>
+                    <input type="text" id="A3H-in" name="A3H-in" /><br />
+                    <label>Attack 3 Action:</label>
+                    <textarea
+                      id="A3D-in"
+                      name="A3D-in"
+                      cols="56"
+                      rows="3"
+                    ></textarea
+                    ><br />
+                    <label>Attack 4 Name:</label>
+                    <input type="text" id="A4H-in" name="A4H-in" /><br />
+                    <label>Attack 4 Action:</label>
+                    <textarea
+                      id="A4D-in"
+                      name="A4D-in"
+                      cols="56"
+                      rows="3"
+                    ></textarea
+                    ><br />
+                    <label>Attack 5 Name:</label>
+                    <input type="text" id="A5H-in" name="A5H-in" /><br />
+                    <label>Attack 5 Action:</label>
+                    <textarea
+                      id="A5D-in"
+                      name="A5D-in"
+                      cols="56"
+                      rows="3"
+                    ></textarea
+                    ><br />
+                  </p>
+                </div>
+              </div>
+            </div>
+            <br />
+            <div class="whitecontainer">
+              <button type="button" class="collapsible">Spell Caster</button>
+              <div class="content">
+                <div class="bodycontainer">
+                  <p>
+                    <label>Spellcaster/Innate:</label>
+                    <input
+                      list="CasterInnate"
+                      id="CasterInnate-in"
+                      name="CasterInnate-in"
+                    />
+                    <datalist id="CasterInnate">
+                      <option value="Spellcaster"></option>
+                      <option value="Innate"></option>
+                    </datalist>
+                    <br />
+                    <label>Spellcaster Info:</label>
+                    <textarea
+                      id="headerentry-in"
+                      name="headerentry-in"
+                      cols="56"
+                      rows="3"
+                    ></textarea>
 
+                    <br />
+                  </p>
+                </div>
+              </div>
+            </div>
+            <br />
+            <div class="whitecontainer">
+              <button type="button" class="collapsible">Spell Slots</button>
+              <div class="content">
+                <div class="bodycontainer">
+                  <p>
+                    <label>Cantrips:</label>
                     <input type="text" id="cantrip-in" name="cantrip-in" />
                   </p>
                   <p>
@@ -227,7 +325,7 @@
                         min="0"
                         max="10"
                         value="0"
-                      /><label><b>1st Level Spell Slots.</b></label>
+                      /><label>1st Level Spell Slots.</label>
                     </span>
                   </p>
                   <p>
@@ -246,7 +344,7 @@
                         min="0"
                         max="10"
                         value="0"
-                      /><label><b>2nd Level Spell Slots.</b></label>
+                      /><label>2nd Level Spell Slots.</label>
                     </span>
                   </p>
                   <p>
@@ -265,7 +363,7 @@
                         min="0"
                         max="10"
                         value="0"
-                      /><label><b>3rd Level Spell Slots.</b></label>
+                      /><label>3rd Level Spell Slots.</label>
                     </span>
                   </p>
                   <p>
@@ -284,7 +382,7 @@
                         min="0"
                         max="10"
                         value="0"
-                      /><label><b>4th Level Spell Slots.</b></label>
+                      /><label>4th Level Spell Slots.</label>
                     </span>
                   </p>
                   <p>
@@ -303,7 +401,7 @@
                         min="0"
                         max="10"
                         value="0"
-                      /><label><b>5th Level Spell Slots.</b></label>
+                      /><label>5th Level Spell Slots.</label>
                     </span>
                   </p>
                   <p>
@@ -313,101 +411,51 @@
                       name="lvl5spells-in"
                     />
                   </p>
-
-                  <h1 class="creaturename blueunderline">Innate Spells</h1>
                   <p>
-                    <label><b>At Will</b></label>
-                    <input type="text" id="atwill-in" name="atwill-in" />
-                  </p>
-
-                  <p>
-                    <label><b>1/Day</b></label>
-                    <input type="text" id="daily1e-in" name="daily1e-in" />
-                  </p>
-
-                  <p>
-                    <label><b>2/Day</b></label>
-                    <input type="text" id="daily2e-in" name="daily2e-in" />
-                  </p>
-
-                  <p>
-                    <label><b>3/Day</b></label>
-                    <input type="text" id="daily3e-in" name="daily3e-in" />
-                  </p>
-
-                  <p>
-                    <label><b>Footer Entry:</b></label>
-                    <textarea
-                      id="footerentry-in"
-                      name="footerentry-in"
-                      cols="56"
-                      rows="3"
-                    ></textarea
-                    ><br />
+                    <label>Extra Info:</label>
+                    <input
+                      type="text"
+                      id="spellfooterentry-in"
+                      name="spellfooterentry-in"
+                    /><br />
                   </p>
                 </div>
-
-                <h1 class="creaturename blueunderline">Actions</h1>
-
-                <p>
-                  <label><b>Attack 1 Name:</b></label>
-                  <input type="text" id="A1H-in" name="A1H-in" /><br />
-                  <label><b>Attack 1 Action:</b></label>
-                  <textarea
-                    id="A1D-in"
-                    name="A1D-in"
-                    cols="56"
-                    rows="3"
-                  ></textarea
-                  ><br />
-                  <label><b>Attack 2 Name:</b></label>
-                  <input type="text" id="A2H-in" name="A2H-in" /><br />
-                  <label><b>Attack 2 Action:</b></label>
-                  <textarea
-                    id="A2D-in"
-                    name="A2D-in"
-                    cols="56"
-                    rows="3"
-                  ></textarea
-                  ><br />
-                  <label><b>Attack 3 Name:</b></label>
-                  <input type="text" id="A3H-in" name="A3H-in" /><br />
-                  <label><b>Attack 3 Action:</b></label>
-                  <textarea
-                    id="A3D-in"
-                    name="A3D-in"
-                    cols="56"
-                    rows="3"
-                  ></textarea
-                  ><br />
-                  <label><b>Attack 4 Name:</b></label>
-                  <input type="text" id="A4H-in" name="A4H-in" /><br />
-                  <label><b>Attack 4 Action:</b></label>
-                  <textarea
-                    id="A4D-in"
-                    name="A4D-in"
-                    cols="56"
-                    rows="3"
-                  ></textarea
-                  ><br />
-                  <label><b>Attack 5 Name:</b></label>
-                  <input type="text" id="A5H-in" name="A5H-in" /><br />
-                  <label><b>Attack 5 Action:</b></label>
-                  <textarea
-                    id="A5D-in"
-                    name="A5D-in"
-                    cols="56"
-                    rows="3"
-                  ></textarea
-                  ><br />
-                </p>
-                <!--ITEM DESCRIPTION-->
-                <p class="itemfooter"></p>
-              </form>
+              </div>
             </div>
-          </div>
-
-          <div class="border creatureBG"></div>
+            <br />
+            <div class="whitecontainer">
+              <button type="button" class="collapsible">Innate Spells</button>
+              <div class="content">
+                <div class="bodycontainer">
+                  <p>
+                    <label>Cast At Will:</label>
+                    <input type="text" id="atwill-in" name="atwill-in" />
+                  </p>
+                  <p>
+                    <label>1 Per Day:</label>
+                    <input type="text" id="daily1e-in" name="daily1e-in" />
+                  </p>
+                  <p>
+                    <label>2 Per Day:</label>
+                    <input type="text" id="daily2e-in" name="daily2e-in" />
+                  </p>
+                  <p>
+                    <label>3 Per Day:</label>
+                    <input type="text" id="daily3e-in" name="daily3e-in" />
+                  </p>
+                  <p>
+                    <label>Extra Info:</label>
+                    <input
+                      type="text"
+                      id="innatefooterentry-in"
+                      name="innatefooterentry-in"
+                    /><br />
+                  </p>
+                </div>
+              </div>
+            </div>
+          </form>
+          <br />
           <br />
         </div>
         <div class="Output">
@@ -417,7 +465,6 @@
               <div class="bodycontainer">
                 <!--creature NAME-->
                 <h1 class="creaturename" id="Name-out"></h1>
-
                 <!--creature TYPE-->
                 <h2 class="creaturetype" id="TypeAlign-out"></h2>
                 <div class="triangleDIV creatureDIV"></div>
@@ -432,7 +479,6 @@
                   <span class="standard" id="FT-out"></span>
                 </p>
                 <div class="triangleDIV creatureDIV"></div>
-
                 <!--creature Stats-->
                 <div class="stat-container">
                   <div class="STR">STR</div>
@@ -441,7 +487,6 @@
                   <div class="INT">INT</div>
                   <div class="WIS">WIS</div>
                   <div class="CHA">CHA</div>
-
                   <!--Change Details Here-->
                   <div class="STRn" id="STR-out"></div>
                   <div class="DEXn" id="DEX-out"></div>
@@ -450,7 +495,6 @@
                   <div class="WISn" id="WIS-out"></div>
                   <div class="CHAn" id="CHA-out"></div>
                 </div>
-
                 <div class="triangleDIV creatureDIV"></div>
                 <p class="status">
                   <span class="standardbold" id="SavesH-out"></span>
@@ -487,108 +531,94 @@
                   <span class="standardbold" id="languagesH-out"></span>
                   <span class="standard" id="languages-out"></span>
                 </p>
-
                 <div class="triangleDIV creatureDIV"></div>
-
-                <p>
+                <p class="status">
                   <span class="standardbold" id="T1H-out"></span>
                   <span class="standard" id="T1D-out"></span>
                 </p>
-                <p>
+                <p class="status">
                   <span class="standardbold" id="T2H-out"></span>
                   <span class="standard" id="T2D-out"></span>
                 </p>
-                <p>
+                <p class="status">
                   <span class="standardbold" id="T3H-out"></span>
                   <span class="standard" id="T3D-out"></span>
                 </p>
-                <p>
+                <p class="status">
                   <span class="standardbold" id="T4H-out"></span>
                   <span class="standard" id="T4D-out"></span>
                 </p>
-
-                <p>
+                <p class="status">
                   <span class="standardbold" id="CasterInnateH-out"></span>
                   <span class="standard" id="headerentry-out"></span>
                 </p>
-
-                <p>
-                  <span class="standard" id="CantripH-out"></span>
+                <p class="status">
+                  <span class="standard spell" id="CantripH-out"></span>
                   <span class="standard capitalize" id="cantrip-out"></span>
                 </p>
-
-                <p>
-                  <span class="standard" id="lvl1spellsH"></span>
+                <p class="status">
+                  <span class="standard spell" id="lvl1spellsH"></span>
                   <span class="standard capitalize" id="lvl1spells-out"></span>
                 </p>
-                <p>
-                  <span class="standard" id="lvl2spellsH"></span>
+                <p class="status">
+                  <span class="standard spell" id="lvl2spellsH"></span>
                   <span class="standard capitalize" id="lvl2spells-out"></span>
                 </p>
-                <p>
-                  <span class="standard" id="lvl3spellsH"></span>
+                <p class="status">
+                  <span class="standard spell" id="lvl3spellsH"></span>
                   <span class="standard capitalize" id="lvl3spells-out"></span>
                 </p>
-                <p>
-                  <span class="standard" id="lvl4spellsH"></span>
+                <p class="status">
+                  <span class="standard spell" id="lvl4spellsH"></span>
                   <span class="standard capitalize" id="lvl4spells-out"></span>
                 </p>
-                <p>
-                  <span class="standard" id="lvl5spellsH"></span>
+                <p class="status">
+                  <span class="standard spell" id="lvl5spellsH"></span>
                   <span class="standard capitalize" id="lvl5spells-out"></span>
                 </p>
-
-                <p>
-                  <span class="standard" id="atwillH-out"></span>
+                <p class="status">
+                  <span class="standard spell" id="atwillH-out"></span>
                   <span class="standard capitalize" id="atwill-out"></span>
                 </p>
-
-                <p>
+                <p class="status">
                   <span class="standard" id="daily1eH"></span>
                   <span class="standard capitalize" id="daily1e-out"></span>
                 </p>
-
-                <p>
-                  <span class="standard" id="daily2eH"></span>
+                <p class="status">
+                  <span class="standard spell" id="daily2eH"></span>
                   <span class="standard capitalize" id="daily2e-out"></span>
                 </p>
-
-                <p>
-                  <span class="standard" id="daily3eH"></span>
+                <p class="status">
+                  <span class="standard spell" id="daily3eH"></span>
                   <span class="standard capitalize" id="daily3e-out"></span>
                 </p>
-
-                <p>
+                <p class="status">
                   <span class="standard" id="footerentry-out"></span>
                 </p>
-
-                <p>
+                <p class="status">
                   <span class="standard" id="lvl5spells-out"></span>
                 </p>
-
                 <h1 class="creaturename blueunderline">Actions</h1>
-
-                <p>
+                <p class="status">
                   <span class="standardbold" id="A1H-out"></span>
                   <span class="standard" id="A1D-out"></span>
                 </p>
-                <p>
+                <p class="status">
                   <span class="standardbold" id="A2H-out"></span>
                   <span class="standard" id="A2D-out"></span>
                 </p>
-                <p>
+                <p class="status">
                   <span class="standardbold" id="A3H-out"></span>
                   <span class="standard" id="A3D-out"></span>
                 </p>
-                <p>
+                <p class="status">
                   <span class="standardbold" id="A4H-out"></span>
                   <span class="standard" id="A4D-out"></span>
                 </p>
-                <p>
+                <p class="status">
                   <span class="standardbold" id="A5H-out"></span>
                   <span class="standard" id="A5D-out"></span>
                 </p>
-
                 <!--ITEM DESCRIPTION-->
                 <p class="itemfooter"></p>
               </div>
@@ -599,6 +629,7 @@
           <h1 class="creaturename">Image Render:</h1>
           <br />
           <div id="output"></div>
+          <br />
         </div>
       </div>
     </div>
@@ -607,7 +638,6 @@
     <!--END-->
   </body>
 </html>
-
 <script src="../Library/JavaScript/CoreScripts.js"></script>
 <script src="../Library/JavaScript/CreatureScripts.js"></script>
 <script src="../Library/JavaScript/CreatureConverterScript.js"></script>

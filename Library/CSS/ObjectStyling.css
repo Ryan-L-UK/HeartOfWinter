@@ -191,8 +191,8 @@ On most of the generator pages, borders are used to frame the
 output, her are the controls for each of them. 
 -----------------------------------------------------------*/
 .border {
-  height: 6px;
-  width: 500px;
+  height: 7px;
+  width: 540px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -244,13 +244,13 @@ dividers, here are the controls for each.
   align-items: center;
 }
 .creatureDIV {
-  border-left: 475px solid #1d6673;
+  border-left: 515px solid #1d6673;
 }
 .spellDIV {
-  border-left: 475px solid #781464;
+  border-left: 515px solid #781464;
 }
 .potionDIV {
-  border-left: 475px solid #8b0000;
+  border-left: 515px solid #8b0000;
 }
 .line {
   display: flex;
@@ -311,12 +311,49 @@ These are the various input fields, tick boxes and buttons
 used across the site. 
 -----------------------------------------------------------*/
 
+input[type="checkbox"] {
+  float: right;
+}
 input[type="text"] {
   box-sizing: border-box;
   width: 100%;
+  border-radius: 5px;
+  border: 1px solid #d4d4d4;
+  height: 25px;
+  margin-bottom: 5px;
 }
-input[type="checkbox"] {
-  float: right;
+
+input[type="number"] {
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid #d4d4d4;
+  height: 25px;
+
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
+
+textarea {
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #d4d4d4;
+  height: 75px;
+  margin-bottom: 5px;
+}
+
+input[name="Size-in"],
+input[name="CasterInnate-in"],
+input[name="Type-in"],
+input[name="Rarity-in"],
+input[name="dmgType-in"],
+input[name="Staff-in"] {
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #d4d4d4;
+  height: 25px;
+  margin-bottom: 5px;
 }
 .listbox {
   width: 250px;

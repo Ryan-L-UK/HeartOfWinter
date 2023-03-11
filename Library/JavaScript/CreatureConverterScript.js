@@ -28,39 +28,6 @@ function checkalignment(alignment) {
   return checkalignment;
 }
 // ---------------------------------------------------------------------------------------------------------
-function datacleanse(rawdata) {
-  var datacleanse = JSON.stringify(rawdata)
-    .replace(/\[/g, "")
-    .replace(/\]/g, "")
-    .replace(/\\/g, "")
-    .replace(/\{@atk mw,rw\}/g, "Melee or Ranged Weapon Attack:")
-    .replace(/\{@atk mw\}/g, "Melee Weapon Attack:")
-    .replace(/\{@atk rw\}/g, "Ranged Weapon Attack:")
-    .replace(/\{@atk rs\}/g, "Ranged Spell Attack:")
-    .replace(/\{@hit/g, "+")
-    .replace(/\{@h\}/g, "Hit: ")
-    .replace(/\{@damage /g, "")
-    .replace(/\{@dice /g, "")
-    .replace(/\{@dc/g, "DC")
-    .replace(/\{@condition /g, "")
-    .replace(/\{@spell /g, "")
-    .replace(/\{@creature /g, "")
-    .replace(/\{@item /g, "")
-    .replace(/, immune\[/, "; ")
-    .replace(/, note/, " ")
-    .replace(/, condtrue/, "")
-    .replace(/\{@/g, "")
-    .replace(/\|XGE/g, "")
-    .replace(/\|phb}/g, "")
-    .replace(/,/g, ", ")
-    .replace(/"/g, "")
-    .replace(/:/g, "")
-    .replace(/\+/g, " +")
-    .replace(/\{/g, "")
-    .replace(/\}/g, "");
-  return datacleanse;
-}
-// ---------------------------------------------------------------------------------------------------------
 // ---------------------------------------------------------------------------------------------------------
 // ---------------------------------------------------------------------------------------------------------
 // ---------------------------------------------------------------------------------------------------------

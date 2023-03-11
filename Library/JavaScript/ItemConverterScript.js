@@ -20,13 +20,15 @@ function checktype(type) {
     MA: "Medium Armour",
     MNT: "Mount",
     OTH: "Other",
-    R: "Ranged",
+    R: "Ranged Weapon",
+    RG: "Ring",
     S: "Shield",
     SCF: "Spellcasting Focus",
     SHP: "Vehicle (Ship)",
     T: "Tools",
     TAH: "Tack and harness",
     TG: "Trade Good",
+    WD: "Wand",
     VEH: "Vehicle (Land)",
   };
   checktype = lookup[type];
@@ -77,199 +79,252 @@ function checkproperties(property) {
   checkproperties = lookup[property];
   return checkproperties;
 }
-
 //---------------------------------------------------------------------------------------------------------
 //---------------------------------------------------------------------------------------------------------
 //IMPORT SOURCECODE
 //---------------------------------------------------------------------------------------------------------
 //---------------------------------------------------------------------------------------------------------
-
 async function readText(event) {
+  document.getElementById("itemform").reset();
+  console.warn("Cleric: Casting Prestidigitation On Form...");
   const file = event.target.files.item(0);
   const text = await file.text();
   const obj = JSON.parse(text);
 
-  console.log(obj);
-  var object = {};
-  //---------------------------------------------------------------------------------------------------------
-  if (obj.type == undefined) {
-    var type = "";
-  } else {
-    var type = checktype(obj.type);
+  // ---------------------------------------------------------------------------------------------------------
+  //RML CUSTOM JSON
+  // ---------------------------------------------------------------------------------------------------------
+  if (obj.source == undefined) {
+    console.warn("Cleric: Summoning Custom Shell");
+    console.log(obj);
+    for (const prop in obj) {
+      console.log(`${prop} = ${obj[prop]}`);
+      document.getElementById(`${prop}`).value = `${obj[prop]}`;
+    }
+    console.warn("Cleric: Summoning Ritual Complete");
   }
-
-  if (obj.rarity == "none") {
-    var rarity = "";
-  } else {
-    var rarity = obj.rarity;
-  }
-
-  if (obj.wondrous == true) {
-    var wondrous = "Wondrous Item";
-  } else {
-    var wondrous = "";
-  }
-
-  if (obj.otherSources == undefined) {
-    var source = obj.source + ", pg " + obj.page + ".";
-  } else {
-    var source =
-      obj.source +
-      ", pg " +
-      obj.page +
-      ". Also found in " +
-      obj.otherSources[0].source.replace("UA", "") +
-      ", pg " +
-      obj.otherSources[0].page +
-      ".";
-  }
-
-  if (obj.reqAttune == undefined) {
-    var reqAttune = "";
-  } else if (obj.reqAttune == true) {
-    var reqAttune = "(requires attunement)";
-  } else {
-    var reqAttune = "(requires attunement " + obj.reqAttune + ")";
-  }
-
-  if (obj.weaponCategory == undefined) {
-    var staffTrue = "";
-    var weaponTrue = "";
-    var weaponCategory = "";
-    var dmg1 = "";
-    var dmgType = "";
-    var property = "";
-  } else {
-    var dmgType = checkdmgtype(obj.dmgType);
-
-    if (obj.staff == true) {
-      var staffTrue = "Staff";
-      var type = "Melee Weapon";
+  // ---------------------------------------------------------------------------------------------------------
+  //JSON CONVERTER
+  // ---------------------------------------------------------------------------------------------------------
+  else {
+    console.warn("Cleric: Summoning Converter Shell");
+    console.log(obj);
+    var object = {};
+    //---------------------------------------------------------------------------------------------------------
+    if (obj.wondrous == true) {
+      var type = "Wondrous Item";
+    } else if (obj.weaponCategory != undefined) {
+      var type = "Weapon";
+    } else if (obj.type != undefined) {
+      var type = checktype(obj.type);
     } else {
-      var staffTrue = "";
+      var type = "";
     }
-    var weaponTrue = "Weapon";
-    var weaponCategory = obj.weaponCategory + " weapon";
-    var dmg1 = obj.dmg1;
-    if (obj.property[0] != undefined) {
-      if (obj.property[0] == "A") {
-        var property0 =
-          checkproperties(obj.property[0]) + " (" + obj.range + " ft.)";
-      } else {
-        var property0 = checkproperties(obj.property[0]);
-      }
+    if (obj.rarity == "none") {
+      var rarity = "";
     } else {
-      var property0 = "";
+      var rarity = obj.rarity;
     }
-    if (obj.property[1] != undefined) {
-      if (obj.property[1] == "A") {
-        var property1 =
-          ", " + checkproperties(obj.property[1]) + " (" + obj.range + " ft.)";
-      } else {
-        var property1 = ", " + checkproperties(obj.property[1]);
-      }
+    if (obj.otherSources != undefined) {
+      var otherSources = obj.otherSources[0].source.replace("UA", "");
     } else {
-      var property1 = "";
+      var otherSources = undefined;
     }
-    if (obj.property[2] != undefined) {
-      if (obj.property[2] == "A") {
-        var property2 =
-          ", " + checkproperties(obj.property[2]) + " (" + obj.range + " ft.)";
-      } else {
-        var property2 = ", " + checkproperties(obj.property[2]);
-      }
+    if (obj.otherSources != undefined) {
+      var otherSourcesPage = obj.otherSources[0].page;
     } else {
-      var property2 = "";
+      var otherSourcesPage = undefined;
     }
-    var property = property0 + property1 + property2;
+    //------------------------
+    if (obj.reqAttune == undefined) {
+      var reqAttune = "";
+    } else if (obj.reqAttune == true) {
+      var reqAttune = "requires attunement";
+    } else {
+      var reqAttune = "requires attunement " + obj.reqAttune;
+    }
+    if (obj.weaponCategory == undefined) {
+      var staffTrue = undefined;
+      var weaponCategory = "";
+      var dmg1 = "";
+      var dmgType = "";
+      var property = "";
+    } else {
+      var dmgType = checkdmgtype(obj.dmgType);
+      if (obj.staff == true) {
+        var staffTrue = "Yes";
+      } else {
+        var staffTrue = undefined;
+      }
+      var weaponCategory =
+        obj.weaponCategory + " weapon, " + checktype(obj.type);
+      var dmg1 = obj.dmg1;
+      if (obj.dmg2 != undefined) {
+        var dmg2 = obj.dmg2;
+      } else {
+        var dmg2 = undefined;
+      }
+      if (obj.property[0] != undefined) {
+        if (obj.property[0] == "A") {
+          var property0 =
+            checkproperties(obj.property[0]) + " (" + obj.range + " ft.)";
+        } else {
+          var property0 = checkproperties(obj.property[0]);
+        }
+      } else {
+        var property0 = "";
+      }
+      if (obj.property[1] != undefined) {
+        if (obj.property[1] == "A") {
+          var property1 =
+            ", " +
+            checkproperties(obj.property[1]) +
+            " (" +
+            obj.range +
+            " ft.)";
+        } else {
+          var property1 = ", " + checkproperties(obj.property[1]);
+        }
+      } else {
+        var property1 = "";
+      }
+      if (obj.property[2] != undefined) {
+        if (obj.property[2] == "A") {
+          var property2 =
+            ", " +
+            checkproperties(obj.property[2]) +
+            " (" +
+            obj.range +
+            " ft.)";
+        } else {
+          var property2 = ", " + checkproperties(obj.property[2]);
+        }
+      } else {
+        var property2 = "";
+      }
+      var property = property0 + property1 + property2;
+    }
+    //---------------------------------------------------------------------------------------------------------
+    //ENTRIES CODE
+    //---------------------------------------------------------------------------------------------------------
+    if (obj.entries[0] != undefined) {
+      if (obj.entries[0].name != undefined) {
+        var entries0H = obj.entries[0].name;
+        var entries0D = datacleanse(obj.entries[0].entries);
+      } else {
+      }
+      var entries0D = datacleanse(obj.entries[0]);
+    }
+    if (obj.entries[1] != undefined) {
+      if (obj.entries[1].name != undefined) {
+        var entries1H = obj.entries[1].name + ".";
+        var entries1D = datacleanse(obj.entries[1].entries);
+      } else {
+        var entries1D = datacleanse(obj.entries[1]);
+      }
+    }
+    if (obj.entries[2] != undefined) {
+      if (obj.entries[2].name != undefined) {
+        var entries2H = obj.entries[2].name + ".";
+        var entries2D = datacleanse(obj.entries[2].entries);
+      } else {
+        var entries2D = datacleanse(obj.entries[2]);
+      }
+    }
+    if (obj.entries[3] != undefined) {
+      if (obj.entries[3].name != undefined) {
+        var entries3H = obj.entries[3].name + ".";
+        var entries3D = datacleanse(obj.entries[3].entries);
+      } else {
+        var entries3D = datacleanse(obj.entries[3]);
+      }
+    }
+    if (obj.entries[4] != undefined) {
+      if (obj.entries[4].name != undefined) {
+        var entries4H = obj.entries[4].name + ".";
+        var entries4D = datacleanse(obj.entries[4].entries);
+      } else {
+        var entries4D = datacleanse(obj.entries[4]);
+      }
+    }
+    if (obj.entries[5] != undefined) {
+      if (obj.entries[5].name != undefined) {
+        var entries5H = obj.entries[5].name + ".";
+        var entries5D = datacleanse(obj.entries[5].entries);
+      } else {
+        var entries5D = datacleanse(obj.entries[5]);
+      }
+    }
+    if (obj.entries[6] != undefined) {
+      if (obj.entries[6].name != undefined) {
+        var entries6H = obj.entries[6].name + ".";
+        var entries6D = datacleanse(obj.entries[6].entries);
+      } else {
+        var entries6D = datacleanse(obj.entries[6]);
+      }
+    }
+    if (obj.entries[7] != undefined) {
+      if (obj.entries[7].name != undefined) {
+        var entries7H = obj.entries[7].name + ".";
+        var entries7D = datacleanse(obj.entries[7].entries);
+      } else {
+        var entries7D = datacleanse(obj.entries[7]);
+      }
+    }
+    if (obj.entries[8] != undefined) {
+      if (obj.entries[8].name != undefined) {
+        var entries8H = obj.entries[8].name + ".";
+        var entries8D = datacleanse(obj.entries[8].entries);
+      } else {
+        var entries8D = datacleanse(obj.entries[8]);
+      }
+    }
+    //---------------------------------------------------------------------------------------------------------
+    //MAPPING CODE
+    //---------------------------------------------------------------------------------------------------------
+    object["Name-in"] = obj["name"];
+    object["Staff-in"] = staffTrue;
+    object["Type-in"] = type;
+    object["Rarity-in"] = rarity;
+    object["reqAttune-in"] = reqAttune;
+    object["Source-in"] = obj["source"];
+    object["Page-in"] = obj["page"];
+    object["otherSources-in"] = otherSources;
+    object["otherSourcesPage-in"] = otherSourcesPage;
+    object["weaponCategory-in"] = weaponCategory;
+    object["dmg1-in"] = dmg1;
+    object["dmg2-in"] = dmg2;
+    object["dmgType-in"] = dmgType;
+    object["property-in"] = property;
+    object["I0H-in"] = entries0H;
+    object["I0D-in"] = entries0D;
+    object["I1H-in"] = entries1H;
+    object["I1D-in"] = entries1D;
+    object["I2H-in"] = entries2H;
+    object["I2D-in"] = entries2D;
+    object["I3H-in"] = entries3H;
+    object["I3D-in"] = entries3D;
+    object["I4H-in"] = entries4H;
+    object["I4D-in"] = entries4D;
+    object["I5H-in"] = entries5H;
+    object["I5D-in"] = entries5D;
+    object["I6H-in"] = entries6H;
+    object["I6D-in"] = entries6D;
+    object["I7H-in"] = entries7H;
+    object["I7D-in"] = entries7D;
+    object["I8H-in"] = entries8H;
+    object["I8D-in"] = entries8D;
+    console.log(object);
+    // ---------------------------------------------------------------------------------------------------------
+    // Extract File
+    // ---------------------------------------------------------------------------------------------------------
+    let outputJson = JSON.stringify(object); //turn the object into json
+    document.getElementById("itemform").reset();
+    const objct = JSON.parse(outputJson);
+    for (const prop in objct) {
+      console.log(`${objct[prop]}`);
+      document.getElementById(`${prop}`).value = `${objct[prop]}`;
+    }
+    console.warn("Cleric: Summoning Ritual Complete");
   }
-
-  function processDescription(testData) {
-    var inputDescription = testData["entries"];
-    var outputDescription = [];
-
-    outputDescription[0] = {
-      description: "",
-      name: "Main Content", //it may be easier not to set this but either way you'll need to handle not displaying the title on the main block
-    }; //default the object we are generating. this means we don't have to set name if type isn't entries
-    if (testData["type"] === "entries") {
-      outputDescription[0]["name"] = testData["name"];
-    }
-    //if field is a string add it to the description, otherwise create another  and push it to the array
-    for (var index in inputDescription) {
-      var object = inputDescription[index];
-      if (typeof object == "string") {
-        outputDescription[0]["description"] += object;
-      } else {
-        outputDescription.push(...processDescription(object)); //because i'm calling the function recursively, i'm using the spread operator to avoid adding the array to the array
-      }
-    }
-    return outputDescription; //return the array
-  }
-  console.log(obj.entries);
-  var entries = processDescription(obj);
-  console.log(entries);
-
-  //---------------------------------------------------------------------------------------------------------
-  //MAPPING CODE
-  //---------------------------------------------------------------------------------------------------------
-
-  object["Name-in"] = obj["name"];
-  object["Wondrous-in"] = wondrous;
-  object["Staff-in"] = staffTrue;
-  object["weapon-in"] = weaponTrue;
-  object["Type-in"] = type;
-  object["Rarity-in"] = rarity;
-  object["reqAttune-in"] = reqAttune;
-
-  object["weaponCategory-in"] = weaponCategory;
-
-  object["dmg1-in"] = dmg1;
-  object["dmgType-in"] = dmgType;
-  object["property-in"] = property;
-
-  object["entries-in"] = entries;
-
-  object["source-in"] = source;
-
-  console.log(object);
 }
-
-/*
-
-function generateOneEntry(descriptionObject, index){
-	var paragraph = document.createElement("p");
-	var label = document.createElement("label");
-	var b = document.createElement("b");
-	b.innerText =  "Item Description " + index; 
-	label.appendChild(b);
-	
-	var heading = document.createElement("input");
-	heading.setAttribute("id","Desc" + index + "_heading");
-	heading.setAttribute("name","Desc" + index + "_heading");
-	if(descriptionObject["name"] !== undefined){
-		heading.value = descriptionObject["name"];
-	}
-	var content = document.createElement("textarea");
-	content.setAttribute("id", "Desc" + index + "_input");
-	content.setAttribute("name", "Desc" + index + "_input");
-	content.setAttribute("cols","58");
-	content.setAttribute("rows","6");
-	
-	content.value = descriptionObject["description"];
-	
-	paragraph.appendChild(label);
-	paragraph.appendChild(heading);
-	paragraph.appendChild(content);
-	return paragraph;
-}
-
-function displayOnPage(parentElement, descriptionEntries){
-	for(var index in descriptionEntries){
-		parentElement.appendChild(generateOneEntry(descriptionEntries[index], parseInt(index)+1)); //plus 1 because 0 based indexing
-	}
-}
-
-displayOnPage(document.getElementById("content"), processDescription(testData));
-
-*/

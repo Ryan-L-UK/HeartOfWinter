@@ -102,7 +102,6 @@ here are the controls for each.
 -----------------------------------------------------------*/
 p {
   text-align: left;
-
   margin: 0 auto;
   font-size: 1rem;
   margin-bottom: 8px;
@@ -130,7 +129,7 @@ generators it uses. here are the controls for each of them.
 }
 .standard,
 .standardbold {
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 .standardbold {
   font-weight: 700;
@@ -177,7 +176,7 @@ p.status {
 }
 h1.itemheading,
 p.itemfooter {
-  margin: 0 1.5%;
+  margin: 0;
 }
 h2.itemtype,
 h2.creaturetype,
@@ -220,7 +219,7 @@ h1.creaturename {
   border-bottom: 3px solid #1d6673;
 }
 p.status {
-  margin-bottom: 5px;
+  margin-bottom: 1px;
   margin-top: 5px;
 }
 h3.weapon {
@@ -265,7 +264,8 @@ h2.pheader {
   font-family: Lora, Times, serif;
 }
 h2.itemtype {
-  margin: 0 1.5% 1%;
+  margin: 0 0 1%;
+  text-transform: capitalize;
 }
 h2.spelltype {
   padding: 0;
@@ -275,6 +275,10 @@ h2.itemtype,
 h2.creaturetype,
 h2.spelltype {
   font-style: italic;
+}
+.spell {
+  font-style: italic;
+  font-weight: 600;
 }
 /*-----------------------------------------------------------
 LocationStylings
@@ -311,4 +315,11 @@ h4.location {
   text-align: left;
   align-items: left;
   font-family: Lora, Times, serif;
+}
+.roboto {
+  font-family: roboto;
+}
+label {
+  font-family: roboto;
+  font-size: 0.9rem;
 }
