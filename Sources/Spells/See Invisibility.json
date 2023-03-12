@@ -1,0 +1,140 @@
+{
+  "name": "See Invisibility",
+  "source": "PHB",
+  "page": 274,
+  "srd": true,
+  "level": 2,
+  "school": "D",
+  "time": [
+    {
+      "number": 1,
+      "unit": "action"
+    }
+  ],
+  "range": {
+    "type": "point",
+    "distance": {
+      "type": "self"
+    }
+  },
+  "components": {
+    "v": true,
+    "s": true,
+    "m": "a pinch of talc and a small sprinkling of powdered silver"
+  },
+  "duration": [
+    {
+      "type": "timed",
+      "duration": {
+        "type": "hour",
+        "amount": 1
+      }
+    }
+  ],
+  "entries": [
+    "For the duration, you see {@condition invisible} creatures and objects as if they were visible, and you can see into the Ethereal Plane. Ethereal creatures and objects appear ghostly and translucent."
+  ],
+  "classes": {
+    "fromClassList": [
+      {
+        "name": "Bard",
+        "source": "PHB"
+      },
+      {
+        "name": "Sorcerer",
+        "source": "PHB"
+      },
+      {
+        "name": "Wizard",
+        "source": "PHB"
+      },
+      {
+        "name": "Artificer (Revisited)",
+        "source": "UAArtificerRevisited"
+      },
+      {
+        "name": "Artificer",
+        "source": "TCE"
+      }
+    ],
+    "fromSubclass": [
+      {
+        "class": {
+          "name": "Cleric",
+          "source": "PHB"
+        },
+        "subclass": {
+          "name": "Twilight Domain",
+          "shortName": "Twilight",
+          "source": "TCE"
+        }
+      },
+      {
+        "class": {
+          "name": "Cleric",
+          "source": "PHB"
+        },
+        "subclass": {
+          "name": "Fate Domain (UA)",
+          "shortName": "Fate (UA)",
+          "source": "UA2022WondersOfTheMultiverse"
+        }
+      },
+      {
+        "class": {
+          "name": "Fighter",
+          "source": "PHB"
+        },
+        "subclass": {
+          "name": "Eldritch Knight",
+          "shortName": "Eldritch Knight",
+          "source": "PHB"
+        }
+      },
+      {
+        "class": {
+          "name": "Paladin",
+          "source": "PHB"
+        },
+        "subclass": {
+          "name": "Oath of the Watchers",
+          "shortName": "Watchers",
+          "source": "TCE"
+        }
+      },
+      {
+        "class": {
+          "name": "Rogue",
+          "source": "PHB"
+        },
+        "subclass": {
+          "name": "Arcane Trickster",
+          "shortName": "Arcane Trickster",
+          "source": "PHB"
+        }
+      }
+    ]
+  },
+  "races": [
+    {
+      "name": "Half-Elf (Variant; Mark of Detection)",
+      "source": "ERLW",
+      "baseName": "Half-Elf",
+      "baseSource": "PHB"
+    }
+  ],
+  "feats": [
+    {
+      "name": "Adept of the Red Robes",
+      "source": "UA2022HeroesOfKrynn"
+    },
+    {
+      "name": "Adept of the White Robes",
+      "source": "DSotDQ"
+    },
+    {
+      "name": "Adept of the White Robes",
+      "source": "UA2022HeroesOfKrynnRevisited"
+    }
+  ]
+}

@@ -1,184 +1,190 @@
+function checklevel(lvl) {
+  var checklevel = "";
+  var lookup = {
+    "": "Error",
+    0: "Cantrip",
+    1: "1st level",
+    2: "2nd level",
+    3: "3rd level",
+    4: "4th level",
+    5: "5th level",
+    6: "6th level",
+    7: "7th level",
+    8: "8th level",
+    9: "9th level",
+    10: "10th level",
+  };
+  checklevel = lookup[lvl];
+  return checklevel;
+}
+function checktype(type) {
+  var checktype = "";
+  var lookup = {
+    "": "../Library/SpellAssets/placeholder.jpg",
+    Abjuration: "../Library/SpellAssets/abjuration.png",
+    Conjuration: "../Library/SpellAssets/conjuration.png",
+    Divination: "../Library/SpellAssets/divination.png",
+    Enchantment: "../Library/SpellAssets/enchantment.png",
+    Evocation: "../Library/SpellAssets/evocation.png",
+    Illusion: "../Library/SpellAssets/illusion.png",
+    Necromancy: "../Library/SpellAssets/necromancy.png",
+    Transmutation: "../Library/SpellAssets/transmutation.png",
+  };
+  checktype = lookup[type];
+  return checktype;
+}
 function showInput() {
   document.getElementById("SpellImage").setAttribute("src", "");
-  document.getElementById("Conscen_output").setAttribute("src", "");
-  document.getElementById("SaveIcon_output").setAttribute("src", "");
-
-  document.getElementById("SName_output").innerHTML =
-    document.getElementById("SName_input").value;
-
-  function checklevel(lvl) {
-    var checkresult = "";
-    var lookup = {
-      "": "Error",
-      0: "Cantrip",
-      1: "1st level",
-      2: "2nd level",
-      3: "3rd level",
-      4: "4th level",
-      5: "5th level",
-      6: "6th level",
-      7: "7th level",
-      8: "8th level",
-      9: "9th level",
-      10: "10th level",
-    };
-    checkresult = lookup[lvl];
-
-    LvlOut = checkresult;
-  }
-
-  checklevel(document.getElementById("SL_input").value);
-
-  var SVarLvlType =
-    LvlOut + " " + "-" + " " + document.getElementById("SType_input").value;
-  document.getElementById("SLvlType_output").innerHTML = SVarLvlType;
-
-  function checktype(type) {
-    var checktype = "";
-    var lookup = {
-      "": "../Library/SpellAssets/placeholder.jpg",
-      Abjuration: "../Library/SpellAssets/abjuration.png",
-      Conjuration: "../Library/SpellAssets/conjuration.png",
-      Divination: "../Library/SpellAssets/divination.png",
-      Enchantment: "../Library/SpellAssets/enchantment.png",
-      Evocation: "../Library/SpellAssets/evocation.png",
-      Illusion: "../Library/SpellAssets/illusion.png",
-      Necromancy: "../Library/SpellAssets/necromancy.png",
-      Transmutation: "../Library/SpellAssets/transmutation.png",
-    };
-
-    checktype = lookup[type];
-    typeImageOut = checktype;
-  }
-
-  checktype(document.getElementById("SType_input").value);
-  document.getElementById("SpellImage").setAttribute("src", typeImageOut);
-
-  document.getElementById("CT_output").innerHTML =
-    document.getElementById("CT_input").value;
-
-  document.getElementById("Range_output").innerHTML =
-    document.getElementById("Range_input").value;
-
-  document.getElementById("Comp_output").innerHTML =
-    document.getElementById("Comp_input").value;
-
-  var Concentration = document.getElementById("Conscen_input").value;
-  var Duration = document.getElementById("Dur_input").value;
-
+  document.getElementById("concentration-out").setAttribute("src", "");
+  document.getElementById("SaveIcon-out").setAttribute("src", "");
+  document.getElementById("Name-out").innerHTML =
+    document.getElementById("Name-in").value;
+  document.getElementById("SLvlType-out").innerHTML =
+    checklevel(document.getElementById("level-in").value) +
+    " " +
+    "-" +
+    " " +
+    document.getElementById("Type-in").value;
+  document
+    .getElementById("SpellImage")
+    .setAttribute("src", checktype(document.getElementById("Type-in").value));
+  document.getElementById("time-out").innerHTML =
+    document.getElementById("time-in").value;
+  document.getElementById("range-out").innerHTML =
+    document.getElementById("range-in").value;
+  document.getElementById("components-out").innerHTML =
+    document.getElementById("components-in").value;
+  var Concentration = document.getElementById("concentration-in").value;
+  var Duration = document.getElementById("duration-in").value;
   if (Concentration == "Yes") {
     console.log("Sorcerer: This spell requires some serious concentration...");
     document
-      .getElementById("Conscen_output")
+      .getElementById("concentration-out")
       .setAttribute("src", "/Library/SpellIcons/concentration.png");
-    document.getElementById("Conscen_output").setAttribute("class", "conicon");
-    document.getElementById("Dur_output").innerHTML =
+    document
+      .getElementById("concentration-out")
+      .setAttribute("class", "conicon");
+    document.getElementById("duration-out").innerHTML =
       "Concentration, " + Duration;
   } else {
     document
-      .getElementById("Conscen_output")
+      .getElementById("concentration-out")
       .setAttribute("src", "/Library/SpellIcons/concentration.png");
-    document.getElementById("Conscen_output").setAttribute("class", "hidden");
-    document.getElementById("Dur_output").innerHTML = Duration;
+    document
+      .getElementById("concentration-out")
+      .setAttribute("class", "hidden");
+    document.getElementById("duration-out").innerHTML = Duration;
   }
-
-  function checktype(type) {
-    var checktype = "";
-    var lookup = {
-      "": "../Library/SpellAssets/placeholder.jpg",
-      Abjuration: "../Library/SpellAssets/abjuration.png",
-      Conjuration: "../Library/SpellAssets/conjuration.png",
-      Divination: "../Library/SpellAssets/divination.png",
-      Enchantment: "../Library/SpellAssets/enchantment.png",
-      Evocation: "../Library/SpellAssets/evocation.png",
-      Illusion: "../Library/SpellAssets/illusion.png",
-      Necromancy: "../Library/SpellAssets/necromancy.png",
-      Transmutation: "../Library/SpellAssets/transmutation.png",
-    };
-
-    checktype = lookup[type];
-    typeImageOut = checktype;
-  }
-
-  checktype(document.getElementById("SType_input").value);
-  document.getElementById("SpellImage").setAttribute("src", typeImageOut);
-
-  var saveImageOut = document.getElementById("Save_input").value;
-
-  if (saveImageOut == "") {
+  if (document.getElementById("savingThrow-in").value == "") {
     document.getElementById("Save_heading").innerHTML = "Attack/Save: ";
-    document.getElementById("Save_output").innerHTML = "--";
-  } else if (saveImageOut == "Ranged") {
+    document.getElementById("savingThrow-out").innerHTML = "--";
+  } else if (document.getElementById("savingThrow-in").value == "Ranged") {
     document.getElementById("Save_heading").innerHTML = "Attack Type: ";
-    document.getElementById("Save_output").innerHTML =
-      document.getElementById("Save_input").value;
+    document.getElementById("savingThrow-out").innerHTML =
+      document.getElementById("savingThrow-in").value;
     document
-      .getElementById("SaveIcon_output")
+      .getElementById("SaveIcon-out")
       .setAttribute("src", "/Library/SpellIcons/ranged.png");
-    document.getElementById("SaveIcon_output").setAttribute("class", "icon");
-  } else if (saveImageOut == "Melee") {
+    document.getElementById("SaveIcon-out").setAttribute("class", "icon");
+  } else if (document.getElementById("savingThrow-in").value == "Melee") {
     document.getElementById("Save_heading").innerHTML = "Attack Type: ";
-    document.getElementById("Save_output").innerHTML =
-      document.getElementById("Save_input").value;
+    document.getElementById("savingThrow-out").innerHTML =
+      document.getElementById("savingThrow-in").value;
     document
-      .getElementById("SaveIcon_output")
+      .getElementById("SaveIcon-out")
       .setAttribute("src", "/Library/SpellIcons/melee.png");
-    document.getElementById("SaveIcon_output").setAttribute("class", "icon");
+    document.getElementById("SaveIcon-out").setAttribute("class", "icon");
   } else {
     document.getElementById("Save_heading").innerHTML = "Saving Throw: ";
-    document.getElementById("Save_output").innerHTML =
-      document.getElementById("Save_input").value;
+    document.getElementById("savingThrow-out").innerHTML =
+      document.getElementById("savingThrow-in").value;
     document
-      .getElementById("SaveIcon_output")
+      .getElementById("SaveIcon-out")
       .setAttribute("src", "/Library/SpellIcons/melee.png");
-    document.getElementById("SaveIcon_output").setAttribute("class", "hidden");
+    document.getElementById("SaveIcon-out").setAttribute("class", "hidden");
   }
-
-  document.getElementById("P1D_output").innerHTML =
-    document.getElementById("P1D_input").value;
-
-  document.getElementById("P2D_output").innerHTML =
-    document.getElementById("P2D_input").value;
-
-  document.getElementById("P3D_output").innerHTML =
-    document.getElementById("P3D_input").value;
-
-  document.getElementById("P4D_output").innerHTML =
-    document.getElementById("P4D_input").value;
-
-  document.getElementById("P5D_output").innerHTML =
-    document.getElementById("P5D_input").value;
-
-  let output = document.getElementById("HL1D_input").value;
+  document.getElementById("S0H-out").innerHTML =
+    document.getElementById("S0H-in").value;
+  document.getElementById("S0D-out").innerHTML =
+    document.getElementById("S0D-in").value;
+  document.getElementById("S1H-out").innerHTML =
+    document.getElementById("S1H-in").value;
+  document.getElementById("S1D-out").innerHTML =
+    document.getElementById("S1D-in").value;
+  document.getElementById("S2H-out").innerHTML =
+    document.getElementById("S2H-in").value;
+  document.getElementById("S2D-out").innerHTML =
+    document.getElementById("S2D-in").value;
+  document.getElementById("S3H-out").innerHTML =
+    document.getElementById("S3H-in").value;
+  document.getElementById("S3D-out").innerHTML =
+    document.getElementById("S3D-in").value;
+  document.getElementById("S4H-out").innerHTML =
+    document.getElementById("S4H-in").value;
+  document.getElementById("S4D-out").innerHTML =
+    document.getElementById("S4D-in").value;
+  document.getElementById("S5H-out").innerHTML =
+    document.getElementById("S5H-in").value;
+  document.getElementById("S5D-out").innerHTML =
+    document.getElementById("S5D-in").value;
+  document.getElementById("S6H-out").innerHTML =
+    document.getElementById("S6H-in").value;
+  document.getElementById("S6D-out").innerHTML =
+    document.getElementById("S6D-in").value;
+  document.getElementById("S7H-out").innerHTML =
+    document.getElementById("S7H-in").value;
+  document.getElementById("S7D-out").innerHTML =
+    document.getElementById("S7D-in").value;
+  document.getElementById("S8H-out").innerHTML =
+    document.getElementById("S8H-in").value;
+  document.getElementById("S8D-out").innerHTML =
+    document.getElementById("S8D-in").value;
+  let output = document.getElementById("entriesHigherLevel-in").value;
   if (output != "") {
     console.log("Sorcerer: Oh, this is a strong spell...");
-    document.getElementById("HL1H_output").innerHTML = "At Higher Levels:";
+    document.getElementById("HigherLevelH-out").innerHTML = "At Higher Levels:";
   } else {
     console.log("Sorcerer: This spell is for the weak...");
-    document.getElementById("HL1H_output").innerHTML = "";
+    document.getElementById("entriesHigherLevel-out").innerHTML = "";
   }
+  document.getElementById("entriesHigherLevel-out").innerHTML =
+    document.getElementById("entriesHigherLevel-in").value;
+  document.getElementById("class0-out").innerHTML =
+    document.getElementById("class0-in").value;
+  document.getElementById("class1-out").innerHTML =
+    document.getElementById("class1-in").value;
+  document.getElementById("class2-out").innerHTML =
+    document.getElementById("class2-in").value;
+  document.getElementById("class3-out").innerHTML =
+    document.getElementById("class3-in").value;
+  document.getElementById("class4-out").innerHTML =
+    document.getElementById("class4-in").value;
+  document.getElementById("class5-out").innerHTML =
+    document.getElementById("class5-in").value;
+  document.getElementById("class6-out").innerHTML =
+    document.getElementById("class6-in").value;
 
-  document.getElementById("HL1D_output").innerHTML =
-    document.getElementById("HL1D_input").value;
+  var source = document.getElementById("Source-in").value.toUpperCase();
+  document.getElementById("Source-out").innerHTML =
+    document.getElementById("Source-in").value;
+  if (source != "HOMEBREW") {
+    document.getElementById("Page-out").innerHTML =
+      "p" + document.getElementById("Page-in").value;
+  } else {
+    document.getElementById("Page-out").innerHTML = "";
+  }
+  document.getElementById("Source-out").removeAttribute("class");
+  document.getElementById("Source-out").classList.add("source");
 
-  document.getElementById("Class1_output").innerHTML =
-    document.getElementById("Class1_input").value;
-  document.getElementById("Class2_output").innerHTML =
-    document.getElementById("Class2_input").value;
-  document.getElementById("Class3_output").innerHTML =
-    document.getElementById("Class3_input").value;
-  document.getElementById("Class4_output").innerHTML =
-    document.getElementById("Class4_input").value;
-  document.getElementById("Class5_output").innerHTML =
-    document.getElementById("Class5_input").value;
-  document.getElementById("Class6_output").innerHTML =
-    document.getElementById("Class6_input").value;
-  document.getElementById("Class7_output").innerHTML =
-    document.getElementById("Class7_input").value;
-  document.getElementById("Source_output").innerHTML =
-    document.getElementById("Source_input").value;
+  if (source == "HOMEBREW") {
+    document.getElementById("Source-out").classList.add("HMBW");
+    document.getElementById("Source-out").innerHTML = "Homebrew";
+  } else {
+    document
+      .getElementById("Source-out")
+      .classList.add(document.getElementById("Source-in").value);
+  }
 }
-
 //EXPORT SOURCE CODE
 document.getElementById("form-submit").addEventListener("click", (event) => {
   var form = new FormData(document.getElementById("spellform")); //loads the document into a form object based on it being the parent of the button (button is the div here because i'm lazy)
@@ -192,22 +198,9 @@ document.getElementById("form-submit").addEventListener("click", (event) => {
   }
   let outputJson = JSON.stringify(outputObject); //turn the object into json
   var hiddenElement = document.createElement("a");
-  var filename = document.getElementById("SName_input").value;
-
+  var filename = document.getElementById("Name-in").value;
   hiddenElement.href = "data:attachment/text," + encodeURI(outputJson);
   hiddenElement.target = "_blank";
-  hiddenElement.download = filename + ".spell";
+  hiddenElement.download = filename + ".json";
   hiddenElement.click();
 });
-
-//IMPORT SOURCECODE
-async function readText(event) {
-  const file = event.target.files.item(0);
-  const text = await file.text();
-  const obj = JSON.parse(text);
-
-  for (const prop in obj) {
-    console.log(`${prop} = ${obj[prop]}`);
-    document.getElementById(`${prop}`).value = `${obj[prop]}`;
-  }
-}

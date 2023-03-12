@@ -225,6 +225,14 @@ These are the various grid containers used across the site:
   grid-column: span 4;
 }
 
+.fouronesplit:nth-child(n) {
+  grid-column: span 5;
+}
+
+.fouronesplit:nth-child(n + 2) {
+  grid-column: span 1;
+}
+
 .item-container {
   display: grid;
   width: 100%;

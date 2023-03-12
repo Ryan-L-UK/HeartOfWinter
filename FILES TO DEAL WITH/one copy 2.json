@@ -1,0 +1,199 @@
+{
+  "name": "Ray of Frost",
+  "source": "PHB",
+  "page": 271,
+  "srd": true,
+  "basicRules": true,
+  "level": 0,
+  "school": "V",
+  "time": [
+    {
+      "number": 1,
+      "unit": "action"
+    }
+  ],
+  "range": {
+    "type": "point",
+    "distance": {
+      "type": "feet",
+      "amount": 60
+    }
+  },
+  "components": {
+    "v": true,
+    "s": true
+  },
+  "duration": [
+    {
+      "type": "instant"
+    }
+  ],
+  "entries": [
+    "A frigid beam of blue-white light streaks toward a creature within range. Make a ranged spell attack against the target. On a hit, it takes {@damage 1d8} cold damage, and its speed is reduced by 10 feet until the start of your next turn.",
+    "The spell's damage increases by {@dice 1d8} when you reach 5th level ({@damage 2d8}), 11th level ({@damage 3d8}), and 17th level ({@damage 4d8})."
+  ],
+  "scalingLevelDice": {
+    "label": "cold damage",
+    "scaling": {
+      "1": "1d8",
+      "5": "2d8",
+      "11": "3d8",
+      "17": "4d8"
+    }
+  },
+  "damageInflict": ["cold"],
+  "spellAttack": ["R"],
+  "miscTags": ["SCL"],
+  "areaTags": ["ST"],
+  "classes": {
+    "fromClassList": [
+      {
+        "name": "Sorcerer",
+        "source": "PHB"
+      },
+      {
+        "name": "Wizard",
+        "source": "PHB"
+      },
+
+      {
+        "name": "Artificer",
+        "source": "TCE"
+      }
+    ],
+    "fromSubclass": [
+      {
+        "class": {
+          "name": "Cleric",
+          "source": "PHB"
+        },
+        "subclass": {
+          "name": "Arcana Domain",
+          "shortName": "Arcana",
+          "source": "SCAG"
+        }
+      },
+      {
+        "class": {
+          "name": "Fighter",
+          "source": "PHB"
+        },
+        "subclass": {
+          "name": "Eldritch Knight",
+          "shortName": "Eldritch Knight",
+          "source": "PHB"
+        }
+      },
+      {
+        "class": {
+          "name": "Rogue",
+          "source": "PHB"
+        },
+        "subclass": {
+          "name": "Arcane Trickster",
+          "shortName": "Arcane Trickster",
+          "source": "PHB"
+        }
+      },
+      {
+        "class": {
+          "name": "Sorcerer",
+          "source": "PHB"
+        },
+        "subclass": {
+          "name": "Giant Soul (UA)",
+          "shortName": "Giant Soul (UA)",
+          "source": "UAGiantSoulSorcerer",
+          "subSubclass": "Frost"
+        }
+      }
+    ]
+  },
+  "races": [
+    {
+      "name": "Elf (High)",
+      "source": "PHB",
+      "baseName": "Elf",
+      "baseSource": "PHB"
+    },
+    {
+      "name": "Elf (High; Aereni)",
+      "source": "UAWGE",
+      "baseName": "Elf",
+      "baseSource": "PHB"
+    },
+    {
+      "name": "Elf (High; Valenar)",
+      "source": "UAWGE",
+      "baseName": "Elf",
+      "baseSource": "PHB"
+    },
+    {
+      "name": "Half-Elf (Variant; Moon Elf or Sun Elf Descent)",
+      "source": "SCAG",
+      "baseName": "Half-Elf",
+      "baseSource": "PHB"
+    },
+    {
+      "name": "Kobold",
+      "source": "MPMM"
+    },
+    {
+      "name": "Merfolk (Ixalan; Blue)",
+      "source": "PSX",
+      "baseName": "Merfolk (Ixalan)",
+      "baseSource": "PSX"
+    },
+    {
+      "name": "Merfolk (Zendikar; Ula Creed)",
+      "source": "PSZ",
+      "baseName": "Merfolk (Zendikar)",
+      "baseSource": "PSZ"
+    },
+    {
+      "name": "Tiefling (Levistus)",
+      "source": "MTF",
+      "baseName": "Tiefling",
+      "baseSource": "PHB"
+    },
+    {
+      "name": "Tiefling (Levistus)",
+      "source": "UAFiendishOptions",
+      "baseName": "Tiefling",
+      "baseSource": "PHB"
+    }
+  ],
+  "optionalfeatures": [
+    {
+      "name": "Pact of the Tome",
+      "source": "PHB",
+      "featureType": ["PB"]
+    }
+  ],
+  "feats": [
+    {
+      "name": "Aberrant Dragonmark",
+      "source": "ERLW"
+    },
+    {
+      "name": "Artificer Initiate",
+      "source": "TCE"
+    },
+    {
+      "name": "Artificer Initiate",
+      "source": "UA2020Feats"
+    },
+    {
+      "name": "Magic Initiate",
+      "source": "PHB"
+    },
+    {
+      "name": "Spell Sniper",
+      "source": "PHB"
+    },
+    {
+      "name": "Strixhaven Initiate",
+      "source": "SCC"
+    }
+  ]
+}

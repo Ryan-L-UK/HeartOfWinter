@@ -40,9 +40,10 @@ function showInput() {
       document.getElementById("property-in").value +
       dmg2;
   }
+  var source = document.getElementById("Source-in").value.toUpperCase();
   document.getElementById("Source-out").innerHTML =
     document.getElementById("Source-in").value;
-  if (document.getElementById("Source-in").value != "Homebrew") {
+  if (source != "HOMEBREW") {
     document.getElementById("Page-out").innerHTML =
       "p" + document.getElementById("Page-in").value;
   } else {
@@ -50,9 +51,10 @@ function showInput() {
   }
   document.getElementById("Source-out").removeAttribute("class");
   document.getElementById("Source-out").classList.add("source");
-  var source = document.getElementById("Source-in").value.toUpperCase();
+
   if (source == "HOMEBREW") {
     document.getElementById("Source-out").classList.add("HMBW");
+    document.getElementById("Source-out").innerHTML = "Homebrew";
   } else {
     document
       .getElementById("Source-out")
@@ -115,30 +117,10 @@ function showInput() {
       ".";
   }
   document.getElementById("FullSource-out").innerHTML = fullsource;
-
-  /*
-
-  if (document.getElementById("otherSources-in").value == "") {
-    var fullsource =
-      document.getElementById("Source-in").value +
-      ", page " +
-      document.getElementById("Page-in").value;
-  } else if (source == "HOMEBREW") {
-    fullsource = "Homebrew.";
-  } else {
-    var fullsource =
-      document.getElementById("Source-in").value +
-      ", page " +
-      document.getElementById("Page-in").value +
-      ". Also found in " +
-      document.getElementById("otherSources-in").value +
-      ", page " +
-      document.getElementById("otherSourcesPage-in").value +
-      ".";
-  }
-  document.getElementById("FullSource-out").innerHTML = fullsource;*/
 }
+//---------------------------------------------------------------------------------------------------------
 //EXPORT SOURCE CODE
+//---------------------------------------------------------------------------------------------------------
 document.getElementById("form-submit").addEventListener("click", (event) => {
   var form = new FormData(document.getElementById("itemform")); //loads the document into a form object based on it being the parent of the button (button is the div here because i'm lazy)
   let outputObject = {};

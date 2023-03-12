@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="../Library/CSS/ContainerStyling.css" />
+    <link rel="stylesheet" href="../Library/CSS/ObjectStyling.css" />
+    <link rel="stylesheet" href="../Library/CSS/FontStyling.css" />
+    <link rel="stylesheet" href="../Library/CSS/Sources.css" />
+    <title>The Elfsong Tavern</title>
+    <link
+      rel="shortcut icon"
+      type="image/jpg"
+      href="../Library/ImageAssets/favicon.ico"
+    />
+  </head>
+  <body>
+    <!---------------------------------------->
+    <!--Nav Bar-->
+    <!---------------------------------------->
+    <object id="Nav_output"></object>
+    <!---------------------------------------->
+    <!--Content-->
+    <!---------------------------------------->
+    <div class="content-container">
+      <br />
+      <br />
+      <h1 class="main">Arcane Spells & Magical Energy</h1>
+      <p class="subheading">
+        Here is a shell generator for magical spells and arcane energy to be
+        created in the correct format for printing.
+      </p>
+      <div class="divider"></div>
+      <br />
+      <span>
+        <button class="submitspell" onclick="showInput();takeshot()">
+          Export Spell</button
+        ><button class="submitspell" id="form-submit">Source Code</button></span
+      ><br />
+      <input type="file" id="input" onchange="readText(event)" />
+      <br />
+      <div class="generator-container">
+        <div class="Form">
+          <form id="spellform">
+            <div class="whitecontainer">
+              <div class="bodycontainer">
+                <h1 class="creaturename">Basic Details</h1>
+                <br />
+                <div class="split-container">
+                  <div class="fouronesplit">
+                    <label>Spell Name:</label>
+                    <input type="text" id="Name-in" name="Name-in" />
+                  </div>
+                  <div class="fouronesplit">
+                    <label> Spell Level:</label><br />
+                    <input type="number" id="level-in" name="level-in" /><br />
+                  </div>
+                </div>
+                <div class="tri-container">
+                  <div class="col1">
+                    <label>School:</label><br />
+                    <input
+                      class="inputlist"
+                      list="SpellTypes"
+                      id="Type-in"
+                      name="Type-in"
+                    />
+                    <datalist id="SpellTypes">
+                      <option value="Abjuration"></option>
+                      <option value="Conjuration"></option>
+                      <option value="Divination"></option>
+                      <option value="Enchantment"></option>
+                      <option value="Evocation"></option>
+                      <option value="Illusion"></option>
+                      <option value="Necromancy"></option>
+                      <option value="Transmutation"></option>
+                    </datalist>
+                  </div>
+                  <div class="col2">
+                    <label>Concentration:</label><br />
+                    <input
+                      class="inputlist"
+                      list="Concentration"
+                      id="concentration-in"
+                      name="concentration-in"
+                    />
+                    <datalist id="Concentration">
+                      <option value="Yes"></option>
+                    </datalist>
+                  </div>
+                  <div class="col3">
+                    <label>Components:</label>
+                    <input
+                      type="text"
+                      size="7"
+                      id="components-in"
+                      name="components-in"
+                    /><br />
+                  </div>
+                  <div class="col1">
+                    <label>Casting Time:</label>
+                    <input
+                      type="text"
+                      size="7"
+                      id="time-in"
+                      name="time-in"
+                    /><br />
+                  </div>
+                  <div class="col2">
+                    <label>Range:</label>
+                    <input
+                      type="text"
+                      size="7"
+                      id="range-in"
+                      name="range-in"
+                    /><br />
+                  </div>
+                  <div class="col3">
+                    <label>Duration:</label>
+                    <input
+                      type="text"
+                      size="7"
+                      id="duration-in"
+                      name="duration-in"
+                    /><br />
+                  </div>
+                  <div class="col1">
+                    <label>Attack/Save:</label><br />
+                    <input
+                      class="inputlist"
+                      list="AttackSave"
+                      id="savingThrow-in"
+                      name="savingThrow-in"
+                    />
+                    <datalist id="AttackSave">
+                      <option value="Melee"></option>
+                      <option value="Ranged"></option>
+                      <option value="Strength"></option>
+                      <option value="Dexterity"></option>
+                      <option value="Constitution"></option>
+                      <option value="Intelligence"></option>
+                      <option value="Wisdom"></option>
+                      <option value="Charisma"></option>
+                    </datalist>
+                  </div>
+                  <div class="col2">
+                    <label>Source:</label>
+                    <input type="text" id="Source-in" name="Source-in" />
+                  </div>
+                  <div class="col3">
+                    <label>Page Number:</label>
+                    <input type="number" id="Page-in" name="Page-in" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br />
+            <div class="whitecontainer">
+              <button type="button" class="collapsible">Spell Actions</button>
+              <div class="content">
+                <div class="bodycontainer">
+                  <p>
+                    <label>Section 1 Name:</label>
+                    <input type="text" id="S0H-in" name="S0H-in" /><br />
+                    <label>Section 1 Description:</label>
+                    <textarea
+                      id="S0D-in"
+                      name="S0D-in"
+                      cols="56"
+                      rows="3"
+                    ></textarea
+                    ><br />
+                    <label>Section 2 Name:</label>
+                    <input type="text" id="S1H-in" name="S1H-in" /><br />
+                    <label>Section 2 Description:</label>
+                    <textarea
+                      id="S1D-in"
+                      name="S1D-in"
+                      cols="56"
+                      rows="3"
+                    ></textarea
+                    ><br />
+                    <label>Section 3 Name:</label>
+                    <input type="text" id="S2H-in" name="S2H-in" /><br />
+                    <label>Section 3 Description:</label>
+                    <textarea
+                      id="S2D-in"
+                      name="S2D-in"
+                      cols="56"
+                      rows="3"
+                    ></textarea
+                    ><br />
+                    <label>Section 4 Name:</label>
+                    <input type="text" id="S3H-in" name="S3H-in" /><br />
+                    <label>Section 4 Description:</label>
+                    <textarea
+                      id="S3D-in"
+                      name="S3D-in"
+                      cols="56"
+                      rows="3"
+                    ></textarea
+                    ><br />
+                    <label>Section 5 Name:</label>
+                    <input type="text" id="S4H-in" name="S4H-in" /><br />
+                    <label>Section 5 Description:</label>
+                    <textarea
+                      id="S4D-in"
+                      name="S4D-in"
+                      cols="56"
+                      rows="3"
+                    ></textarea
+                    ><br />
+                    <label>Section 6 Name:</label>
+                    <input type="text" id="S5H-in" name="S5H-in" /><br />
+                    <label>Section 6 Description:</label>
+                    <textarea
+                      id="S5D-in"
+                      name="S5D-in"
+                      cols="56"
+                      rows="3"
+                    ></textarea
+                    ><br />
+                    <label>Section 7 Name:</label>
+                    <input type="text" id="S6H-in" name="S6H-in" /><br />
+                    <label>Section 7 Description:</label>
+                    <textarea
+                      id="S6D-in"
+                      name="S6D-in"
+                      cols="56"
+                      rows="3"
+                    ></textarea
+                    ><br />
+                    <label>Section 8 Name:</label>
+                    <input type="text" id="S7H-in" name="S7H-in" /><br />
+                    <label>Section 8 Description:</label>
+                    <textarea
+                      id="S7D-in"
+                      name="S7D-in"
+                      cols="56"
+                      rows="3"
+                    ></textarea
+                    ><br />
+                    <label>Section 9 Name:</label>
+                    <input type="text" id="S8H-in" name="S8H-in" /><br />
+                    <label>Section 9 Description:</label>
+                    <textarea
+                      id="S8D-in"
+                      name="S8D-in"
+                      cols="56"
+                      rows="3"
+                    ></textarea
+                    ><br />
+                  </p>
+                </div>
+              </div>
+            </div>
+            <br />
+            <div class="whitecontainer">
+              <button type="button" class="collapsible">
+                At Higher Levels
+              </button>
+              <div class="content">
+                <div class="bodycontainer">
+                  <p>
+                    <label>At Higher Levels:</label>
+                    <textarea
+                      id="entriesHigherLevel-in"
+                      name="entriesHigherLevel-in"
+                      cols="56"
+                      rows="3"
+                    ></textarea>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <br />
+            <div class="whitecontainer">
+              <div class="bodycontainer">
+                <h1 class="creaturename">Class</h1>
+                <br />
+                <label>Spell Usable By:</label><br />
+
+                <div class="tri-container">
+                  <div class="col1">
+                    <input
+                      class="inputlist"
+                      list="ClassTypes"
+                      id="class0-in"
+                      name="class0-in"
+                    />
+                  </div>
+                  <div class="col2">
+                    <input
+                      class="inputlist"
+                      list="ClassTypes"
+                      id="class1-in"
+                      name="class1-in"
+                    />
+                  </div>
+                  <div class="col3">
+                    <input
+                      class="inputlist"
+                      list="ClassTypes"
+                      id="class2-in"
+                      name="class2-in"
+                    />
+                  </div>
+                  <div class="col1">
+                    <input
+                      class="inputlist"
+                      list="ClassTypes"
+                      id="class3-in"
+                      name="class3-in"
+                    />
+                  </div>
+                  <div class="col2">
+                    <input
+                      class="inputlist"
+                      list="ClassTypes"
+                      id="class4-in"
+                      name="class4-in"
+                    />
+                  </div>
+                  <div class="col3">
+                    <input
+                      class="inputlist"
+                      list="ClassTypes"
+                      id="class5-in"
+                      name="class5-in"
+                    />
+                  </div>
+                  <div class="col1">
+                    <input
+                      class="inputlist"
+                      list="ClassTypes"
+                      id="class6-in"
+                      name="class6-in"
+                    />
+                  </div>
+                  <div class="col2"></div>
+                  <div class="col3"></div>
+                  <datalist id="ClassTypes">
+                    <option value="Artificer"></option>
+                    <option value="Bard"></option>
+                    <option value="Cleric"></option>
+                    <option value="Druid"></option>
+                    <option value="Paladin"></option>
+                    <option value="Ranger"></option>
+                    <option value="Sorcerer"></option>
+                    <option value="Warlock"></option>
+                    <option value="Wizard"></option>
+                  </datalist>
+                </div>
+              </div>
+            </div>
+            <!--SPELL FOOTER-->
+            <br />
+            <br />
+          </form>
+          <br />
+        </div>
+        <div class="Output">
+          <div id="photo">
+            <div class="border spellBG"></div>
+            <div class="framecontainer">
+              <div class="bodycontainer">
+                <span
+                  ><h1 class="spellname" id="Name-out"></h1>
+                  <img class="conicon" src="" id="concentration-out"
+                /></span>
+
+                <div class="spell-container">
+                  <div class="Desc">
+                    <!--SPELL TYPE & LEVEL-->
+                    <h2 class="spelltype" id="SLvlType-out"></h2>
+                    <p>
+                      <span class="standardbold">Casting Time:</span>
+                      <span class="standard" id="time-out"></span>
+                      <br />
+                      <span class="standardbold">Range/Area:</span>
+                      <span class="standard" id="range-out"></span>
+                      <br />
+                      <span class="standardbold">Components:</span>
+                      <span class="standard" id="components-out"></span>
+                      <br />
+                      <span class="standardbold">Duration:</span>
+                      <span class="standard" id="duration-out"></span>
+                      <br />
+                      <span class="standardbold" id="Save_heading"
+                        >Attack/Save:</span
+                      >
+                      <span
+                        class="standard capital"
+                        id="savingThrow-out"
+                      ></span>
+                      <span><img class="icon" src="" id="SaveIcon-out" /></span>
+                    </p>
+                  </div>
+                  <div class="Image">
+                    <img
+                      src="../Library/SpellAssets/Placeholder.jpg"
+                      class="SpellImage"
+                      id="SpellImage"
+                    />
+                  </div>
+                </div>
+                <p class="status">
+                  <span class="standardbold" id="S0H-out"></span>
+                  <span class="standard" id="S0D-out"></span>
+                </p>
+                <p class="status">
+                  <span class="standardbold" id="S1H-out"></span>
+                  <span class="standard" id="S1D-out"></span>
+                </p>
+                <p class="status">
+                  <span class="standardbold" id="S2H-out"></span>
+                  <span class="standard" id="S2D-out"></span>
+                </p>
+                <p class="status">
+                  <span class="standardbold" id="S3H-out"></span>
+                  <span class="standard" id="S3D-out"></span>
+                </p>
+                <p class="status">
+                  <span class="standardbold" id="S4H-out"></span>
+                  <span class="standard" id="S4D-out"></span>
+                </p>
+                <p class="status">
+                  <span class="standardbold" id="S5H-out"></span>
+                  <span class="standard" id="S5D-out"></span>
+                </p>
+                <p class="status">
+                  <span class="standardbold" id="S6H-out"></span>
+                  <span class="standard" id="S6D-out"></span>
+                </p>
+                <p class="status">
+                  <span class="standardbold" id="S7H-out"></span>
+                  <span class="standard" id="S7D-out"></span>
+                </p>
+                <p class="status">
+                  <span class="standardbold" id="S8H-out"></span>
+                  <span class="standard" id="S8D-out"></span>
+                </p>
+                <p>
+                  <span class="standardbold" id="HigherLevelH-out"></span>
+                  <span class="standard" id="entriesHigherLevel-out"></span>
+                </p>
+                <br />
+
+                <div class="item-container">
+                  <div class="heading">
+                    <p>
+                      <span class="cClass" id="class0-out"></span>
+                      <span class="cClass" id="class1-out"></span>
+                      <span class="cClass" id="class2-out"></span>
+                      <span class="cClass" id="class3-out"></span>
+                      <span class="cClass" id="class4-out"></span>
+                      <span class="cClass" id="class5-out"></span>
+                      <span class="cClass" id="class6-out"></span>
+                      <span class="cClass" id="class7-out"></span>
+                    </p>
+                  </div>
+                  <div class="sourcegraphic">
+                    <span
+                      ><div class="source" id="Source-out"></div>
+                      <div class="pageno" id="Page-out"></div
+                    ></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="border spellBG"></div>
+          </div>
+          <br />
+          <h1 class="spellname">Image Render:</h1>
+          <br />
+          <br />
+          <div id="output"></div>
+        </div>
+      </div>
+    </div>
+    <!--Footer-->
+    <object id="Ftr_output"></object>
+    <!--END-->
+  </body>
+</html>
+<script src="../Library/JavaScript/CoreScripts.js"></script>
+<script src="../Library/JavaScript/SpellScripts.js"></script>
+<script src="../Library/JavaScript/SpellConverterScript.js"></script>
+<script src="https://html2canvas.hertzen.com/dist/html2canvas.js"></script>

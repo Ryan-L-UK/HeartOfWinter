@@ -323,3 +323,6 @@ label {
   font-family: roboto;
   font-size: 0.9rem;
 }
+.capital {
+  text-transform: capitalize;
+}
