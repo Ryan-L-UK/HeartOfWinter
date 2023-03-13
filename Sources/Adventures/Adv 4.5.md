@@ -12,11 +12,11 @@ Pursuing the Temple Wizards leads the adventurers to a Flame Crevasse deep in th
 
 ## Some History
 
-A lone wizard roams the land. He is a visitor from another world. He has come to the Sword Coast in pursuit of legends, lore and to inflict evil and on the realm. He is called **Vecna**, though few here know him by name.
+A lone wizard roams the land. He is a visitor from another world. He has come to the Sword Coast in pursuit of legends, lore and to inflict evil and on the realm. He is called **Nihilus**, though few here know him by name.
 
 His explorations caught the attention of the Temple of Virtuous Probability, who dispatched a pair of their own wizards to find the roving caster. These searchers **Morwena** and her apprentice, **Malivar**, tracked the wizard to the Fairheight Range east of the Sword Coast. They surmised (correctly) that their quarry was looking for a site of arcane power.
 
-To find their way through the Fairheight Range and stay on Vecnas's trail, the Temple Wizards hired local mercenaries to guide them, led by a former bandit called Lothar.
+To find their way through the Fairheight Range and stay on Nihiluss's trail, the Temple Wizards hired local mercenaries to guide them, led by a former bandit called Lothar.
 
 When the Temple Wizards drew close to their target at a site colloquially called the Flame Crevasse, Lothar and his mercenaries abandoned the whole enterprise out of fear. They fled back to the village of Grayvale, on the edge of the Fairheight Range, where they tell anyone who will listen that bad things are afoot out at the Flame Crevasse now. "Wizards hunting wizards can lead to no good," Lothar says.
 
@@ -26,13 +26,13 @@ The Flame Crevasse started as a proper Flame Crevasse and stood quietly in the F
 
 For decades, it stood quietly.
 
-Then, a few days ago, **Vecna** arrived with elementals in his service. The elementals dug into the ground near the Flame Crevasse to get access to its lowest reaches. That created the sinkhole just east of the Flame Crevasse, into area 15. From there, **Vecna** and his minions stormed the library in area 14.
+Then, a few days ago, **Nihilus** arrived with elementals in his service. The elementals dug into the ground near the Flame Crevasse to get access to its lowest reaches. That created the sinkhole just east of the Flame Crevasse, into area 15. From there, **Nihilus** and his minions stormed the library in area 14.
 
-For two days, **Vecna** searched the library for items of value. When **Morwena** and **Malivar** arrived, they confronted him in a brief skirmish of spells before choosing to parley.
+For two days, **Nihilus** searched the library for items of value. When **Morwena** and **Malivar** arrived, they confronted him in a brief skirmish of spells before choosing to parley.
 
-**Morwena**, intrigued by the roving wizard and hungry for the power he offered, chose to abandon her mission and join **Vecna**. **Malivar** thought it was a trick. It wasn't.
+**Morwena**, intrigued by the roving wizard and hungry for the power he offered, chose to abandon her mission and join **Nihilus**. **Malivar** thought it was a trick. It wasn't.
 
-**Malivar**, afraid and heartbroken, threatened them both but was no match for either. Struck by **Vecna**'s spells, he fled the library, deeper into the Flame Crevasse, and collapsed on the verge of death. (He is likely still in area 13 when the adventurers arrive.)
+**Malivar**, afraid and heartbroken, threatened them both but was no match for either. Struck by **Nihilus**'s spells, he fled the library, deeper into the Flame Crevasse, and collapsed on the verge of death. (He is likely still in area 13 when the adventurers arrive.)
 
 **Morwena** suggested they let **Malivar** go, as she wasn't worried about reprisal from the Temple Wizards anymore. She and her new ally teleported away with their treasures, leaving the elemental minions to close up the Flame Crevasse again and burn the library to cover their master's tracks.
 
@@ -347,12 +347,12 @@ The passage here is rough stone, a gravel floor, and glimpses of white cloth—a
 
 This rough-hewn catacomb is lined with three inset shelves for the dead. Here the wizards interred the original inhabitants of the Flame Crevasse above, as well as servants and some other friends and allies of the site who passed away during its years in operation. Each was wrapped in grey or white cloth and put in place without grave goods or treasures. (Wizards of the sect are in area 16.)
 
-**Malivar** is here, likely unconscious, after almost being killed by **Vecna**'s spells. He has 1 hit point. If awakened, he tries to assess his situation rather than immediately fight or flee.
+**Malivar** is here, likely unconscious, after almost being killed by **Nihilus**'s spells. He has 1 hit point. If awakened, he tries to assess his situation rather than immediately fight or flee.
 
 **Malivar** reveals the following bits of information if the adventurers talk with him. If threatened, he attempts to keep quiet.
 
-- The wizard they pursued here is called **Vecna**.
-- **Vecna** is a powerful wizard from another world. He's here looking for an ancient site of mystical power. "We tried to recruit him."
+- The wizard they pursued here is called **Nihilus**.
+- **Nihilus** is a powerful wizard from another world. He's here looking for an ancient site of mystical power. "We tried to recruit him."
 - He had a hefty tome bound in white leather with five sigils on the front, held close to him. "That's what he came for, whatever it is."
 - **Morwena**'s allegiance to the Temple Wizards has been wavering. She felt they were holding her back from the kind of arcane power she really wanted. "I wish I wasn't surprised that she turned on me. I mean, us."
 
@@ -368,9 +368,9 @@ But the place has been ransacked. Furniture is on its side, papers are scattered
 
 This was the heart of the site, when the wizards used it so many years ago. Many texts were gradually removed as the sect's power dwindled, but most of it remains here. The last of the wizards didn't know they were never coming back when they left for the last time.
 
-**Vecna** and **Morwena** left hours ago after ordering the fiery humanoid elemental, named **Exul**, the destroy the library's collection. (**Vecna** is simply covering his tracks.) This order is part of a Geas **Vecna** cast upon **Exul**.
+**Nihilus** and **Morwena** left hours ago after ordering the fiery humanoid elemental, named **Exul**, the destroy the library's collection. (**Nihilus** is simply covering his tracks.) This order is part of a Geas **Nihilus** cast upon **Exul**.
 
-**Vecna** left with an arcane tome in hand and **Morwena** at his side but didn't tell **Exul** where they were going. **Exul**'s service ends with the destruction of the library.
+**Nihilus** left with an arcane tome in hand and **Morwena** at his side but didn't tell **Exul** where they were going. **Exul**'s service ends with the destruction of the library.
 
 **The Fire Spirit.** **Exul** kills time here while he can, reading what he is about to burn. He sits atop a pile of scrolls and books in the middle of the room and allows himself to be distracted by his reading unless intruders catch his attention. He thinks **Malivar** has died or fled and acts as if he has the Flame Crevasse to himself and his elementals. While distracted by his reading, he has a (-5) penalty to his passive Perception score.
 
@@ -378,7 +378,7 @@ If he suspects he is no longer alone, he carries on idly reading and burning tex
 
 If he knows intruders are present, he summons an elemental to defend him—probably a fire elemental, as it can help him burn the library or slip into area 15 to aid the elementals there, as needed. As he can, **Exul** resumes his task of burning the library so he can leave without taking damage from the Geas upon him.
 
-**Exul** is a cunning, unfair combatant. He uses invisibility to protect himself. He hurls fire and casts wall of fire to accelerate his work. If either he or the library has fewer than 25 percent of their hit point maximum, **Exul** may attempt to flee by casting plane shift and traveling alone to the Elemental Plane of Fire. He might do this even if his task is incomplete, risking damage from **Vecna**'s Geas. **Exul** is smart but reckless. He leaves any elementals behind to combat the adventurers.
+**Exul** is a cunning, unfair combatant. He uses invisibility to protect himself. He hurls fire and casts wall of fire to accelerate his work. If either he or the library has fewer than 25 percent of their hit point maximum, **Exul** may attempt to flee by casting plane shift and traveling alone to the Elemental Plane of Fire. He might do this even if his task is incomplete, risking damage from **Nihilus**'s Geas. **Exul** is smart but reckless. He leaves any elementals behind to combat the adventurers.
 
 **Teleportation Circles.** Two teleportation circles used to serve this chamber and the wizards who kept this collection. The northern circle has been damaged by the sinkhole's collapse. (It used to lead to a now-ruined wizard's tower overlooking the Sword Coast.) The southern circle leads to an abandoned townhouse in Waterdeep; the circle there is beneath the floorboards in the attic. (See "Part 3: What's Next?" for additional options.)
 
@@ -434,15 +434,15 @@ Some of the stones move about on their own, picking through the rubble.
 
 </em>
 
-This wide passage was once a memorial site of grey stone and white marble details. The arrival of **Vecna** and his elementals shattered the columns, arches, and mosaics. All that remains are drab heaps of stone dotted with bits of tile and marble. The floor is essentially a pit of rubble now, gathering soil, rocks, and grasses from the sinkhole collapse all around.
+This wide passage was once a memorial site of grey stone and white marble details. The arrival of **Nihilus** and his elementals shattered the columns, arches, and mosaics. All that remains are drab heaps of stone dotted with bits of tile and marble. The floor is essentially a pit of rubble now, gathering soil, rocks, and grasses from the sinkhole collapse all around.
 
-This whole area is difficult terrain. The doors to area 14 are loose on their hinges and blocked by a slab of stone that keeps them from opening. **Vecna** didn't want to be followed. The stone requires a successful DC 20 Strength (Athletics) check to move aside or a successful DC 14 Dexterity (Acrobatics) check to wiggle past.
+This whole area is difficult terrain. The doors to area 14 are loose on their hinges and blocked by a slab of stone that keeps them from opening. **Nihilus** didn't want to be followed. The stone requires a successful DC 20 Strength (Athletics) check to move aside or a successful DC 14 Dexterity (Acrobatics) check to wiggle past.
 
-This area is inhabited for now by two earth elementals lingering here after helping **Vecna** reach this place. They are not afraid to engage in combat, but neither is willing to die here. They flee into the earth if reduced to 25 percent of their hit points, possibly to return days later for further exploring.
+This area is inhabited for now by two earth elementals lingering here after helping **Nihilus** reach this place. They are not afraid to engage in combat, but neither is willing to die here. They flee into the earth if reduced to 25 percent of their hit points, possibly to return days later for further exploring.
 
 ### B16: Honoured Crypts
 
-The ceremonial hall was meant to end in a fresco depicting a starry sky, the moon, and its tail. Much of that fresco has fallen away with **Vecna**'s arrival, revealing bare, grey stone underneath. A wall that hides a door, which was never meant to be opened. A successful DC 15 Intelligence (Investigation) or Wisdom (Perception) check reveals the door amid the rubble.
+The ceremonial hall was meant to end in a fresco depicting a starry sky, the moon, and its tail. Much of that fresco has fallen away with **Nihilus**'s arrival, revealing bare, grey stone underneath. A wall that hides a door, which was never meant to be opened. A successful DC 15 Intelligence (Investigation) or Wisdom (Perception) check reveals the door amid the rubble.
 
 <em>
 
@@ -460,7 +460,7 @@ Each mummy moves to escape its crypt and attack trespassers, whether that means 
 
 # Part 3: What's Next?
 
-The adventurers may have treasure to sell and lore to lend, or questions in mind and wounds to tend. The aftermath of this adventure is a bundle of questions, so focus on the characters and what they want to do next, perhaps with downtime activities. If they want to chase down **Vecna** and **Morwena**, that trail might simply go cold—for now. Their threads reappear in the next adventure: The Hidden Page.
+The adventurers may have treasure to sell and lore to lend, or questions in mind and wounds to tend. The aftermath of this adventure is a bundle of questions, so focus on the characters and what they want to do next, perhaps with downtime activities. If they want to chase down **Nihilus** and **Morwena**, that trail might simply go cold—for now. Their threads reappear in the next adventure: The Hidden Page.
 
 ## The Flame Crevasse Wizards
 
@@ -476,4 +476,4 @@ Investigations into the identities and fates of the Flame Crevasse wizards doesn
 
 ## The Missing Villains
 
-**Vecna** and **Morwena** magically transported to one of **Vecna**'s hidden sanctums. **Vecna** got what he wanted from the Flame Crevasse: a tome of magic with a hidden key inside. For now, he and **Morwena** are working on their magic, getting to know one another, and planning their next moves. The adventurers haven't seen the last of them yet.
+**Nihilus** and **Morwena** magically transported to one of **Nihilus**'s hidden sanctums. **Nihilus** got what he wanted from the Flame Crevasse: a tome of magic with a hidden key inside. For now, he and **Morwena** are working on their magic, getting to know one another, and planning their next moves. The adventurers haven't seen the last of them yet.

@@ -129,10 +129,13 @@ generators it uses. here are the controls for each of them.
 }
 .standard,
 .standardbold {
-  font-size: 0.9rem;
+  font-size: 0.85rem;
 }
 .standardbold {
   font-weight: 700;
+}
+.margin {
+  padding-top: 10px;
 }
 .hbody {
   font-size: 1.2rem;

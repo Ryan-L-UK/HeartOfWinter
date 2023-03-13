@@ -62,7 +62,7 @@ These are the various grid containers used across the site:
   grid-template-areas: "Desc Image";
 }
 .spell-container {
-  grid-template-columns: 70% 20%;
+  grid-template-columns: 80% 18%;
   grid-template-areas: "Desc Image";
 }
 .spell-heading {
@@ -118,7 +118,7 @@ These are the various grid containers used across the site:
 }
 .framecontainer,
 .dreamcontainer {
-  width: 525px;
+  width: 570px;
 }
 .framecontainer {
   background-image: url(../BackgroundParchment/sword_meow_background_base.png);
@@ -175,17 +175,17 @@ These are the various grid containers used across the site:
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 
 .collapsible:hover {
-  color: #1d6673;
+  color: #8d8d8d;
 }
 
 .collapsible::after {
-  content: "\02b9e";
+  content: "\25BD";
   margin-left: 2px;
   font-size: 15px;
 }
 
 .active::after {
-  content: "\02b9f";
+  content: "\25B3";
   margin-left: 2px;
   font-size: 15px;
 }

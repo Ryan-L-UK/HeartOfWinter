@@ -56,9 +56,14 @@ async function readText(event) {
         " " +
         obj.range.type +
         ")";
+    } else if (obj.range.distance.type == "touch") {
+      var range = "Touch";
+    } else if (obj.range.distance.type == "self") {
+      var range = "Self";
     } else {
       var range = obj.range.distance.amount + " " + obj.range.distance.type;
     }
+
     if (obj.components.v == true) {
       var Verbal = "V";
     } else {
@@ -69,8 +74,14 @@ async function readText(event) {
     } else {
       var Somatic = "";
     }
-    if (obj.components.m == true) {
-      var Material = ", M";
+    if (obj.components.m != undefined) {
+      if (obj.components.m.text != undefined) {
+        var Material = ", M (" + obj.components.m.text + ")";
+      } else if (obj.components.m != undefined) {
+        var Material = ", M (" + obj.components.m + ")";
+      } else {
+        var Material = ", M";
+      }
     } else {
       var Material = "";
     }
@@ -79,7 +90,9 @@ async function readText(event) {
       components = components.substring(2);
     }
     if (obj.duration[0].type == "instant") {
-      var duration = "instant";
+      var duration = "Instant";
+    } else if (obj.duration[0].type == "permanent") {
+      var duration = "Until dispelled";
     } else {
       var duration =
         obj.duration[0].duration.amount + " " + obj.duration[0].duration.type;

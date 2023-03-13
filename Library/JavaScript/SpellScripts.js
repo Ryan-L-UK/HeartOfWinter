@@ -145,7 +145,7 @@ function showInput() {
     document.getElementById("HigherLevelH-out").innerHTML = "At Higher Levels:";
   } else {
     console.log("Sorcerer: This spell is for the weak...");
-    document.getElementById("entriesHigherLevel-out").innerHTML = "";
+    document.getElementById("HigherLevelH-out").innerHTML = "";
   }
   document.getElementById("entriesHigherLevel-out").innerHTML =
     document.getElementById("entriesHigherLevel-in").value;

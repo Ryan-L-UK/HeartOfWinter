@@ -36,25 +36,21 @@ function checkstatrole(modifier) {
   checkresult = lookup[modifier];
   return checkresult;
 }
-
 function showInput() {
   document.getElementById("Name-out").innerHTML =
     document.getElementById("Name-in").value;
-
   document.getElementById("TypeAlign-out").innerHTML =
     document.getElementById("Size-in").value +
     " " +
     document.getElementById("Type-in").value +
     ", " +
     document.getElementById("Alignment-in").value;
-
   document.getElementById("AC-out").innerHTML =
     document.getElementById("AC-in").value;
   document.getElementById("HP-out").innerHTML =
     document.getElementById("HP-in").value;
   document.getElementById("FT-out").innerHTML =
     document.getElementById("FT-in").value;
-
   document.getElementById("STR-out").innerHTML = checkstatrole(
     document.getElementById("STR-in").value
   );
@@ -73,7 +69,6 @@ function showInput() {
   document.getElementById("CHA-out").innerHTML = checkstatrole(
     document.getElementById("CHA-in").value
   );
-
   let savesoutput = document.getElementById("Saves-in").value;
   if (savesoutput != "") {
     document.getElementById("SavesH-out").innerHTML = "Saving Throws:";
@@ -142,10 +137,12 @@ function showInput() {
     document.getElementById("languages-in").value;
   //-------------------------------------------------------------------------------
   //CLEAR ALL SPELL SLOTS
-  document.getElementById("CasterInnateH-out").innerHTML = "";
-  document.getElementById("headerentry-out").innerHTML = "";
-  document.getElementById("footerentry-out").innerHTML = "";
-  document.getElementById("CasterInnateH-out").innerHTML = "";
+  document.getElementById("CasterH-out").innerHTML = "";
+  document.getElementById("InnateH-out").innerHTML = "";
+  document.getElementById("innatebreak").classList.remove("margin");
+  document.getElementById("spellbreak").classList.remove("margin");
+  document.getElementById("spellheaderentry-out").innerHTML = "";
+  document.getElementById("spellfooterentry-out").innerHTML = "";
   document.getElementById("CantripH-out").innerHTML = "";
   document.getElementById("cantrip-out").innerHTML = "";
   document.getElementById("lvl1spellsH").innerHTML = "";
@@ -158,7 +155,8 @@ function showInput() {
   document.getElementById("lvl4spells-out").innerHTML = "";
   document.getElementById("lvl5spellsH").innerHTML = "";
   document.getElementById("lvl5spells-out").innerHTML = "";
-  document.getElementById("CasterInnateH-out").innerHTML = "";
+  document.getElementById("spellheaderentry-out").innerHTML = "";
+  document.getElementById("spellfooterentry-out").innerHTML = "";
   document.getElementById("atwillH-out").innerHTML = "";
   document.getElementById("atwill-out").innerHTML = "";
   document.getElementById("daily1eH").innerHTML = "";
@@ -170,11 +168,25 @@ function showInput() {
   //-------------------------------------------------------------------------------
   if (document.getElementById("CasterInnate-in").value != "") {
     // THERE ARE SPELLS
-    document.getElementById("headerentry-out").innerHTML =
-      document.getElementById("headerentry-in").value;
-    if (document.getElementById("CasterInnate-in").value == "Spellcaster") {
-      // SPELL CASTER
-      document.getElementById("CasterInnateH-out").innerHTML = "Spellcasting.";
+    if (
+      document.getElementById("CasterInnate-in").value == "Spellcaster/Innate"
+    ) {
+      SpellCaster();
+      InnateSpells();
+    } else if (
+      document.getElementById("CasterInnate-in").value == "Spellcaster"
+    ) {
+      SpellCaster();
+    } else {
+      InnateSpells();
+    }
+    function SpellCaster() {
+      document.getElementById("spellheaderentry-out").innerHTML =
+        document.getElementById("spellheaderentry-in").value;
+      document.getElementById("spellbreak").classList.add("margin");
+      document.getElementById("CasterH-out").innerHTML = "Spellcasting.";
+      document.getElementById("spellheaderentry-out").innerHTML =
+        document.getElementById("spellheaderentry-in").value;
       if (document.getElementById("cantrip-in").value != "") {
         document.getElementById("CantripH-out").innerHTML =
           "Cantrips (at will): ";
@@ -221,15 +233,16 @@ function showInput() {
         document.getElementById("lvl5spells-out").innerHTML =
           document.getElementById("lvl5spells-in").value;
       }
-
       if (document.getElementById("spellfooterentry-in").value != null) {
-        document.getElementById("footerentry-out").innerHTML =
+        document.getElementById("spellfooterentry-out").innerHTML =
           document.getElementById("spellfooterentry-in").value;
       }
     }
-    if (document.getElementById("CasterInnate-in").value == "Innate") {
-      // INNATE CASTER
-      document.getElementById("CasterInnateH-out").innerHTML = "Innate.";
+    function InnateSpells() {
+      document.getElementById("innateheaderentry-out").innerHTML =
+        document.getElementById("innateheaderentry-in").value;
+      document.getElementById("innatebreak").classList.add("margin");
+      document.getElementById("InnateH-out").innerHTML = "Innate.";
       if (document.getElementById("atwill-in").value != "") {
         document.getElementById("atwillH-out").innerHTML = "At will: ";
         document.getElementById("atwill-out").innerHTML =
@@ -251,7 +264,7 @@ function showInput() {
           document.getElementById("daily3e-in").value;
       }
       if (document.getElementById("innatefooterentry-in").value != null) {
-        document.getElementById("footerentry-out").innerHTML =
+        document.getElementById("innatefooterentry-out").innerHTML =
           document.getElementById("innatefooterentry-in").value;
       }
     }

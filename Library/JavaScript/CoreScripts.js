@@ -60,7 +60,15 @@ function takeshot() {
   let div = document.getElementById("photo");
   html2canvas(div).then(function (canvas) {
     document.getElementById("output").appendChild(canvas);
+    var a = document.createElement("a");
+    // toDataURL defaults to png, so we need to request a jpeg, then convert for file download.
+    a.href = canvas
+      .toDataURL("image/png")
+      .replace("image/png", "image/octet-stream");
+    a.download = document.getElementById("Name-in").value + ".png";
+    a.click();
   });
+
   console.log("Artificier: Notes Taken.");
 }
 
@@ -100,7 +108,9 @@ function datacleanse(rawdata) {
     .replace(/\{@dc/g, "DC")
     .replace(/\{@condition /g, "")
     .replace(/\{@spell /g, "")
-    .replace(/\{@creature /g, "")
+    .replace(/\{@scaledamage.*\|.*\|/g, "")
+
+    .replace(/\{@quickref /g, "")
     .replace(/\{@item /g, "")
     .replace(/, immune\[/, "; ")
     .replace(/, note/, " ")
@@ -112,6 +122,8 @@ function datacleanse(rawdata) {
     .replace(/"/g, "")
     .replace(/:/g, "")
     .replace(/\+/g, " +")
+    .replace(/\|.*\|/g, "")
+    .replace(/\|/g, "")
     .replace(/\{/g, "")
     .replace(/\}/g, "");
   return datacleanse;

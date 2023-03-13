@@ -267,61 +267,78 @@ async function readText(event) {
     // ---------------------------------------------------------------------------------------------------------
     // Spells Code
     // ---------------------------------------------------------------------------------------------------------
-    if (obj.spellcasting[0] == undefined) {
+    if (obj.spellcasting == undefined) {
       console.log("Not A Spellcaster");
-    } else if (obj.spellcasting[0].name == "Innate Spellcasting") {
-      console.log("Innate Spellcaster");
-
-      var CasterInnate = "Innate";
-      var headerentry = datacleanse(obj.spellcasting[0].headerEntries[0]);
-
-      if (obj.spellcasting[0].will != undefined) {
-        var will = datacleanse(obj.spellcasting[0].will);
-      }
-      if (obj.spellcasting[0].daily["1e"] != undefined) {
-        var daily1e = datacleanse(obj.spellcasting[0].daily["1e"]);
-      }
-      if (obj.spellcasting[0].daily["2e"] != undefined) {
-        var daily2e = datacleanse(obj.spellcasting[0].daily["2e"]);
-      }
-      if (obj.spellcasting[0].daily["3e"] != undefined) {
-        var daily3e = datacleanse(obj.spellcasting[0].daily["3e"]);
-      }
-
-      // at will, 1/day 1/day each, 2/day 2/day each, 3/day 3/day each
     } else {
-      console.log("Spellcaster");
-
-      var CasterInnate = "Spellcaster";
-      var headerentry = datacleanse(obj.spellcasting[0].headerEntries[0]);
-      if (obj.spellcasting[0].spells[0].spells != undefined) {
-        var cantrips = datacleanse(obj.spellcasting[0].spells[0].spells);
+      var spellArray = obj.spellcasting;
+      var I = spellArray.findIndex(
+        (item) => item.name === "Innate Spellcasting"
+      );
+      var S = spellArray.findIndex((item) => item.name === "Spellcasting");
+      console.log(I);
+      console.log(S);
+      if (I >= 0) {
+        console.log("Innate Spellcaster");
+        var Innate = "/Innate";
+        var headerentryI = datacleanse(obj.spellcasting[I].headerEntries[0]);
+        if (obj.spellcasting[I].will != undefined) {
+          var will = datacleanse(obj.spellcasting[I].will);
+        }
+        if (obj.spellcasting[I].daily["1e"] != undefined) {
+          var daily1e = datacleanse(obj.spellcasting[I].daily["1e"]);
+        }
+        if (obj.spellcasting[I].daily["2e"] != undefined) {
+          var daily2e = datacleanse(obj.spellcasting[I].daily["2e"]);
+        }
+        if (obj.spellcasting[I].daily["3e"] != undefined) {
+          var daily3e = datacleanse(obj.spellcasting[I].daily["3e"]);
+        }
+        if (obj.spellcasting[I].footerEntries != undefined) {
+          var footerentryI = datacleanse(obj.spellcasting[I].footerEntries[0]);
+        }
+      } else {
+        var Innate = "";
       }
-      if (obj.spellcasting[0].spells[1] != undefined) {
-        var lvl1slots = JSON.stringify(obj.spellcasting[0].spells[1].slots);
-        var lvl1spells = datacleanse(obj.spellcasting[0].spells[1].spells);
+      if (S >= 0) {
+        console.log("Spellcaster");
+        var Caster = "Spellcaster";
+        var headerentryS = datacleanse(obj.spellcasting[S].headerEntries[0]);
+        if (obj.spellcasting[S].spells[0].spells != undefined) {
+          var cantrips = datacleanse(obj.spellcasting[S].spells[0].spells);
+        }
+        if (obj.spellcasting[S].spells[1] != undefined) {
+          var lvl1slots = JSON.stringify(obj.spellcasting[S].spells[1].slots);
+          var lvl1spells = datacleanse(obj.spellcasting[S].spells[1].spells);
+        }
+        if (obj.spellcasting[S].spells[2] != undefined) {
+          var lvl2slots = JSON.stringify(obj.spellcasting[S].spells[2].slots);
+          var lvl2spells = datacleanse(obj.spellcasting[S].spells[2].spells);
+        }
+        if (obj.spellcasting[S].spells[3] != undefined) {
+          var lvl3slots = JSON.stringify(obj.spellcasting[S].spells[3].slots);
+          var lvl3spells = datacleanse(obj.spellcasting[S].spells[3].spells);
+        }
+        if (obj.spellcasting[S].spells[4] != undefined) {
+          var lvl4slots = JSON.stringify(obj.spellcasting[S].spells[4].slots);
+          var lvl4spells = datacleanse(obj.spellcasting[S].spells[4].spells);
+        }
+        if (obj.spellcasting[S].spells[5] != undefined) {
+          var lvl5slots = JSON.stringify(obj.spellcasting[S].spells[5].slots);
+          var lvl5spells = datacleanse(obj.spellcasting[S].spells[5].spells);
+        }
+        if (obj.spellcasting[S].footerEntries != undefined) {
+          var footerentryS = datacleanse(obj.spellcasting[S].footerEntries[0]);
+        }
+      } else {
+        var Caster = "";
       }
-      if (obj.spellcasting[0].spells[2] != undefined) {
-        var lvl2slots = JSON.stringify(obj.spellcasting[0].spells[2].slots);
-        var lvl2spells = datacleanse(obj.spellcasting[0].spells[2].spells);
-      }
-      if (obj.spellcasting[0].spells[3] != undefined) {
-        var lvl3slots = JSON.stringify(obj.spellcasting[0].spells[3].slots);
-        var lvl3spells = datacleanse(obj.spellcasting[0].spells[3].spells);
-      }
-      if (obj.spellcasting[0].spells[4] != undefined) {
-        var lvl4slots = JSON.stringify(obj.spellcasting[0].spells[4].slots);
-        var lvl4spells = datacleanse(obj.spellcasting[0].spells[4].spells);
-      }
-      if (obj.spellcasting[0].spells[5] != undefined) {
-        var lvl5slots = JSON.stringify(obj.spellcasting[0].spells[5].slots);
-        var lvl5spells = datacleanse(obj.spellcasting[0].spells[5].spells);
-      }
-      if (obj.spellcasting[0].footerEntries != undefined) {
-        var footerentry = datacleanse(obj.spellcasting[0].footerEntries[0]);
+      var rawCasterInnate = Caster + Innate;
+      if (rawCasterInnate.charAt(0) == "/") {
+        var CasterInnate = rawCasterInnate.slice(2);
+      } else {
+        var CasterInnate = rawCasterInnate;
       }
     }
-
     // ---------------------------------------------------------------------------------------------------------
     // Mapping Code
     // ---------------------------------------------------------------------------------------------------------
@@ -364,7 +381,8 @@ async function readText(event) {
     object["A5H-in"] = A5H;
     object["A5D-in"] = A5D;
     object["CasterInnate-in"] = CasterInnate;
-    object["headerentry-in"] = headerentry;
+    object["innateheaderentry-in"] = headerentryI;
+    object["spellheaderentry-in"] = headerentryS;
     object["cantrip-in"] = cantrips;
     object["lvl1slots-in"] = lvl1slots;
     object["lvl1spells-in"] = lvl1spells;
@@ -380,12 +398,13 @@ async function readText(event) {
     object["daily1e-in"] = daily1e;
     object["daily2e-in"] = daily2e;
     object["daily3e-in"] = daily3e;
-    object["footerentry-in"] = footerentry;
+    object["innatefooterentry-in"] = footerentryI;
+    object["spellfooterentry-in"] = footerentryS;
     console.log(object);
     // ---------------------------------------------------------------------------------------------------------
     // Extract File
     // ---------------------------------------------------------------------------------------------------------
-    let outputJson = JSON.stringify(object); //turn the object into json
+    let outputJson = JSON.stringify(object);
     document.getElementById("creatureform").reset();
     const objct = JSON.parse(outputJson);
     for (const prop in objct) {
