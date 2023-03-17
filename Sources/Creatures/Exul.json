@@ -1,1 +1,96 @@
-{"Name-in":"Exul","Size-in":"","Type-in":"Large elemental","Alignment-in":"Neutral Evil","AC-in":"17 (natural armor)","HP-in":"200 (16d10 + 112)","FT-in":"40 ft., fly 60 ft.","STR-in":"22","DEX-in":"12","CON-in":"24","INT-in":"16","WIS-in":"15","CHA-in":"16","Saves-in":"int +7, cha +7","Skills-in":"","Resist-in":"","Immune-in":"fire","Vulnerable-in":"","conditionImmune-in":"","Senses-in":"darkvision 120 ft.passive perception 12","languages-in":"Common, Ignan, Terran","T1H-in":"Elemental Demise","T1D-in":"If Exul dies,  his body disintegrates in a flash of fire and puff of smoke,  leaving behind only the equipment he was wearing or carrying.","T2H-in":"","T2D-in":"","T3H-in":"","T3D-in":"","T4H-in":"","T4D-in":"","A1H-in":"Multiattack","A1D-in":"Exul makes two handaxe attacks or uses his Hurl Flame twice.","A2H-in":"Handaxe","A2D-in":"Melee Weapon Attack  + 10 to hit,  reach 5 ft.,  one target. Hit 13 (2d6  + 6) slashing damage plus 3 (1d6) fire damage.","A3H-in":"Hurl Flame","A3D-in":"Ranged Spell Attack  + 7 to hit,  range 120 ft.,  one target. Hit 17 (5d6) fire damage.","A4H-in":"","A4D-in":"","A5H-in":"","A5D-in":"","CasterInnate-in":"Innate","headerentry-in":"Exul's innate spellcasting ability is Charisma (spell save DC 15,   + 7 to hit with spell attacks). He can innately cast the following spells,  requiring no material components","cantrip-in":"","lvl1slots-in":"0","lvl1spells-in":"","lvl2slots-in":"0","lvl2spells-in":"","lvl3slots-in":"0","lvl3spells-in":"","lvl4slots-in":"0","lvl4spells-in":"","lvl5slots-in":"0","lvl5spells-in":"","spellfooterentry-in":"","atwill-in":"detect magic","daily1e-in":"conjure elemental (earth or fire elemental only), invisibility, major image, plane shift, wall of fire","daily2e-in":"","daily3e-in":"comprehend languages, tongues","innatefooterentry-in":""}
+{
+  "name": "Exul",
+  "isNpc": true,
+  "isNamedCreature": true,
+  "source": "AitFR-ISF",
+  "page": 12,
+  "size": ["L"],
+  "type": "elemental",
+  "alignment": ["N", "E"],
+  "ac": [
+    {
+      "ac": 17,
+      "from": ["natural armor"]
+    }
+  ],
+  "hp": {
+    "average": 200,
+    "formula": "16d10 + 112"
+  },
+  "speed": {
+    "walk": 40,
+    "fly": 60
+  },
+  "str": 22,
+  "dex": 12,
+  "con": 24,
+  "int": 16,
+  "wis": 15,
+  "cha": 16,
+  "save": {
+    "int": "+7",
+    "cha": "+7"
+  },
+  "senses": ["darkvision 120 ft."],
+  "passive": 12,
+  "immune": ["fire"],
+  "languages": ["Common", "Ignan", "Terran"],
+  "cr": "11",
+  "spellcasting": [
+    {
+      "name": "Innate Spellcasting",
+      "headerEntries": [
+        "Exul's innate spellcasting ability is Charisma (spell save {@dc 15}, {@hit 7} to hit with spell attacks). He can innately cast the following spells, requiring no material components:"
+      ],
+      "will": ["{@spell detect magic}"],
+      "daily": {
+        "3e": ["{@spell comprehend languages}", "{@spell tongues}"],
+        "1e": [
+          "{@spell conjure elemental} (earth or fire elemental only)",
+          "{@spell invisibility}",
+          "{@spell major image}",
+          "{@spell plane shift}",
+          "{@spell wall of fire}"
+        ]
+      },
+      "type": "spellcasting"
+    }
+  ],
+  "trait": [
+    {
+      "name": "Elemental Demise",
+      "entries": [
+        "If Exul dies, his body disintegrates in a flash of fire and puff of smoke, leaving behind only the equipment he was wearing or carrying."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "entries": [
+        "Exul makes two handaxe attacks or uses his Hurl Flame twice."
+      ]
+    },
+    {
+      "name": "Handaxe",
+      "entries": [
+        "{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}13 (2d6 + 6) slashing damage plus 3 (1d6) fire damage."
+      ]
+    },
+    {
+      "name": "Hurl Flame",
+      "entries": [
+        "{@atk rs} {@hit 7} to hit, range 120 ft., one target. {@h}17 (5d6) fire damage."
+      ]
+    }
+  ],
+  "senseTags": ["SD"],
+  "actionTags": ["Multiattack"],
+  "languageTags": ["C", "IG", "T"],
+  "damageTagsSpell": ["F"],
+  "spellcastingTags": ["I"],
+  "miscTags": ["MW"],
+  "conditionInflictSpell": ["invisible"],
+  "hasToken": true,
+  "hasFluff": true
+}

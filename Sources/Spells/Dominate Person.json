@@ -1,1 +1,21 @@
-{"Name-in":"Dominate Person","level-in":"5","Type-in":"Enchantment","concentration-in":"Yes","components-in":"V, S","time-in":"1 action","range-in":"60 feet","duration-in":"1 minute","savingThrow-in":"wisdom","Source-in":"PHB","Page-in":"235","S0H-in":"","S0D-in":"You attempt to beguile a humanoid that you can see within range. It must succeed on a Wisdom saving throw or be charmed by you for the duration. If you or creatures that are friendly to you are fighting it,  it has advantage on the saving throw.","S1H-in":"","S1D-in":"While the target is charmed,  you have a telepathic link with it as long as the two of you are on the same plane of existence. You can use this telepathic link to issue commands to the creature while you are conscious (no action required),  which it does its best to obey. You can specify a simple and general course of action,  such as Attack that creature,  Run over there,  or Fetch that object. If the creature completes the order and doesn't receive further direction from you,  it defends and preserves itself to the best of its ability.","S2H-in":"","S2D-in":"You can use your action to take total and precise control of the target. Until the end of your next turn,  the creature takes only the actions you choose,  and doesn't do anything that you don't allow it to do. During this time you can also cause the creature to use a reaction,  but this requires you to use your own reaction as well.","S3H-in":"","S3D-in":"Each time the target takes damage,  it makes a new Wisdom saving throw against the spell. If the saving throw succeeds,  the spell ends.","S4H-in":"","S4D-in":"","S5H-in":"","S5D-in":"","S6H-in":"","S6D-in":"","S7H-in":"","S7D-in":"","S8H-in":"","S8D-in":"","entriesHigherLevel-in":"When you cast this spell using a 6th-level spell slot,  the duration is concentration,  up to 10 minutes. When you use a 7th-level spell slot,  the duration is concentration,  up to 1 hour. When you use a spell slot of 8th level or higher,  the duration is concentration,  up to 8 hours.","class0-in":"Bard","class1-in":"Sorcerer","class2-in":"Wizard","class3-in":"","class4-in":"","class5-in":"","class6-in":""}
+{
+  "Name-in": "Dominate Person",
+  "level-in": "5",
+  "Type-in": "Enchantment",
+  "concentration-in": "Yes",
+  "components-in": "V, S",
+  "time-in": "1 action",
+  "range-in": "60 feet",
+  "duration-in": "1 minute",
+  "savingThrow-in": "wisdom",
+  "Source-in": "PHB",
+  "Page-in": "235",
+  "S0D-in": "You attempt to beguile a humanoid that you can see within range. It must succeed on a Wisdom saving throw or be charmed by you for the duration. If you or creatures that are friendly to you are fighting it,  it has advantage on the saving throw.",
+  "S1D-in": "While the target is charmed,  you have a telepathic link with it as long as the two of you are on the same plane of existence. You can use this telepathic link to issue commands to the creature while you are conscious (no action required),  which it does its best to obey. You can specify a simple and general course of action,  such as Attack that creature,  Run over there,  or Fetch that object. If the creature completes the order and doesn't receive further direction from you,  it defends and preserves itself to the best of its ability.",
+  "S2D-in": "You can use your action to take total and precise control of the target. Until the end of your next turn,  the creature takes only the actions you choose,  and doesn't do anything that you don't allow it to do. During this time you can also cause the creature to use a reaction,  but this requires you to use your own reaction as well.",
+  "S3D-in": "Each time the target takes damage,  it makes a new Wisdom saving throw against the spell. If the saving throw succeeds,  the spell ends.",
+  "entriesHigherLevel-in": "When you cast this spell using a 6th-level spell slot,  the duration is concentration,  up to 10 minutes. When you use a 7th-level spell slot,  the duration is concentration,  up to 1 hour. When you use a spell slot of 8th level or higher,  the duration is concentration,  up to 8 hours.",
+  "class0-in": "Bard",
+  "class1-in": "Sorcerer",
+  "class2-in": "Wizard"
+}

@@ -55,7 +55,7 @@ fetch("http://localhost:8080/Footer.html")
 //-----------------------------------------
 
 function takeshot() {
-  console.log("Artificier: Taking Notes...");
+  /* console.log("Artificier: Taking Notes...");
   document.getElementById("output").innerHTML = "";
   let div = document.getElementById("photo");
   html2canvas(div).then(function (canvas) {
@@ -68,7 +68,7 @@ function takeshot() {
     a.download = document.getElementById("Name-in").value + ".png";
     a.click();
   });
-
+*/
   console.log("Artificier: Notes Taken.");
 }
 
@@ -109,7 +109,6 @@ function datacleanse(rawdata) {
     .replace(/\{@condition /g, "")
     .replace(/\{@spell /g, "")
     .replace(/\{@scaledamage.*\|.*\|/g, "")
-
     .replace(/\{@quickref /g, "")
     .replace(/\{@item /g, "")
     .replace(/, immune\[/, "; ")

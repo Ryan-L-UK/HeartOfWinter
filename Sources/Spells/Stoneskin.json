@@ -1,1 +1,18 @@
-{"Name-in":"Stoneskin","level-in":"4","Type-in":"Abjuration","concentration-in":"Yes","components-in":"V, S, M (diamond dust worth 100 gp, which the spell consumes)","time-in":"1 action","range-in":"Touch","duration-in":"1 hour","savingThrow-in":"","Source-in":"PHB","Page-in":"278","S0H-in":"","S0D-in":"This spell turns the flesh of a willing creature you touch as hard as stone. Until the spell ends,  the target has resistance to nonmagical bludgeoning,  piercing,  and slashing damage.","S1H-in":"","S1D-in":"","S2H-in":"","S2D-in":"","S3H-in":"","S3D-in":"","S4H-in":"","S4D-in":"","S5H-in":"","S5D-in":"","S6H-in":"","S6D-in":"","S7H-in":"","S7D-in":"","S8H-in":"","S8D-in":"","entriesHigherLevel-in":"","class0-in":"Druid","class1-in":"Ranger","class2-in":"Sorcerer","class3-in":"Wizard","class4-in":"Artificer","class5-in":"","class6-in":""}
+{
+  "Name-in": "Stoneskin",
+  "level-in": "4",
+  "Type-in": "Abjuration",
+  "concentration-in": "Yes",
+  "components-in": "V, S, M (diamond dust worth 100 gp, which the spell consumes)",
+  "time-in": "1 action",
+  "range-in": "Touch",
+  "duration-in": "1 hour",
+  "Source-in": "PHB",
+  "Page-in": "278",
+  "S0D-in": "This spell turns the flesh of a willing creature you touch as hard as stone. Until the spell ends,  the target has resistance to nonmagical bludgeoning,  piercing,  and slashing damage.",
+  "class0-in": "Druid",
+  "class1-in": "Ranger",
+  "class2-in": "Sorcerer",
+  "class3-in": "Wizard",
+  "class4-in": "Artificer"
+}

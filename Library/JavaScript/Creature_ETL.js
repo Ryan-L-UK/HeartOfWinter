@@ -1,4 +1,5 @@
 // ---------------------------------------------------------------------------------------------------------
+//FUNCTION CHECK SIZE
 function checksize(size) {
   var checksize = "";
   var lookup = {
@@ -13,6 +14,7 @@ function checksize(size) {
   return checksize;
 }
 // ---------------------------------------------------------------------------------------------------------
+//FUNCTION CHECK ALLIGNMENT
 function checkalignment(alignment) {
   var checkalignment = "";
   var lookup = {
@@ -28,9 +30,6 @@ function checkalignment(alignment) {
   return checkalignment;
 }
 // ---------------------------------------------------------------------------------------------------------
-// ---------------------------------------------------------------------------------------------------------
-// ---------------------------------------------------------------------------------------------------------
-// ---------------------------------------------------------------------------------------------------------
 //IMPORT SOURCECODE
 async function readText(event) {
   document.getElementById("creatureform").reset();
@@ -39,8 +38,7 @@ async function readText(event) {
   const text = await file.text();
   const obj = JSON.parse(text);
   // ---------------------------------------------------------------------------------------------------------
-  //RML CUSTOM JSON
-  // ---------------------------------------------------------------------------------------------------------
+  //CUSTOM JSON LOADER
   if (obj.cr == undefined) {
     console.warn("Cleric: Summoning Custom Shell");
     console.log(obj);
@@ -64,13 +62,10 @@ async function readText(event) {
   }
   // ---------------------------------------------------------------------------------------------------------
   //JSON CONVERTER
-  // ---------------------------------------------------------------------------------------------------------
   else {
     console.warn("Cleric: Summoning Converter Shell");
     console.log(obj);
     var object = {};
-    // ---------------------------------------------------------------------------------------------------------
-    // Size Code
     // ---------------------------------------------------------------------------------------------------------
     if (obj.type.type == undefined) {
       var type = obj.type;
@@ -82,9 +77,7 @@ async function readText(event) {
     } else {
       var tags = " (" + obj.type.tags + ")";
     }
-    var sizetypeout = checksize(obj.size) + " " + type + tags;
-    // ---------------------------------------------------------------------------------------------------------
-    // Armour Class Code
+    var typetag = type + tags;
     // ---------------------------------------------------------------------------------------------------------
     if (obj.ac[0].ac == undefined) {
       var ac = obj.ac[0];
@@ -97,8 +90,6 @@ async function readText(event) {
       var from = " (" + datacleanse(obj.ac[0].from) + ")";
     }
     // ---------------------------------------------------------------------------------------------------------
-    // Alignment Code
-    // ---------------------------------------------------------------------------------------------------------
     if (obj.alignment[0] != undefined) {
       var alignTypeOut = checkalignment(obj.alignment[0]);
     } else {
@@ -110,14 +101,16 @@ async function readText(event) {
       var alignClassOut = "";
     }
     // ---------------------------------------------------------------------------------------------------------
-    // Speed Code
-    // ---------------------------------------------------------------------------------------------------------
-    if (obj.speed.walk > 0) {
+    if (obj.speed.walk >= 0) {
       var walk = obj.speed.walk + " ft.";
     } else {
       var walk = "";
     }
-    if (obj.speed.fly > 0) {
+
+    if (obj.speed.fly.number != undefined) {
+      var fly =
+        ", fly " + obj.speed.fly.number + " ft. " + obj.speed.fly.condition;
+    } else if (obj.speed.fly > 0) {
       var fly = ", fly " + obj.speed.fly + " ft.";
     } else {
       var fly = "";
@@ -138,8 +131,6 @@ async function readText(event) {
     } else {
       var speed = rawspeed;
     }
-    // ---------------------------------------------------------------------------------------------------------
-    // Properties/Skills Code
     // ---------------------------------------------------------------------------------------------------------
     if (obj.save == null) {
       var saves = undefined;
@@ -188,8 +179,6 @@ async function readText(event) {
       var langOut = datacleanse(obj.languages);
     }
     // ---------------------------------------------------------------------------------------------------------
-    // Traits Code
-    // ---------------------------------------------------------------------------------------------------------
     if (obj.trait == undefined) {
       console.log("Traits Undefined");
     } else {
@@ -222,8 +211,6 @@ async function readText(event) {
         var T4D = datacleanse(obj.trait[3].entries).replace(/\{.*\|0\|/g, "");
       }
     }
-    // ---------------------------------------------------------------------------------------------------------
-    // Actions Code
     // ---------------------------------------------------------------------------------------------------------
     if (obj.action == undefined) {
       console.log("Actions Undefined");
@@ -264,8 +251,6 @@ async function readText(event) {
         var A5D = datacleanse(obj.action[4].entries);
       }
     }
-    // ---------------------------------------------------------------------------------------------------------
-    // Spells Code
     // ---------------------------------------------------------------------------------------------------------
     if (obj.spellcasting == undefined) {
       console.log("Not A Spellcaster");
@@ -340,10 +325,9 @@ async function readText(event) {
       }
     }
     // ---------------------------------------------------------------------------------------------------------
-    // Mapping Code
-    // ---------------------------------------------------------------------------------------------------------
     object["Name-in"] = obj["name"];
-    object["Type-in"] = sizetypeout;
+    object["Size-in"] = checksize(obj.size);
+    object["Type-in"] = typetag;
     object["Alignment-in"] = alignTypeOut + " " + alignClassOut;
     object["AC-in"] = ac + from;
     object["HP-in"] = obj.hp.average + " (" + obj.hp.formula + ")";

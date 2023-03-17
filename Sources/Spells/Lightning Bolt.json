@@ -1,1 +1,17 @@
-{"Name-in":"Lightning Bolt","level-in":"3","Type-in":"Evocation","concentration-in":"","components-in":"V, S, M (a bit of fur and a rod of amber, crystal, or glass)","time-in":"1 action","range-in":"100 feet","duration-in":"Instant","savingThrow-in":"dexterity","Source-in":"PHB","Page-in":"255","S0H-in":"","S0D-in":"A stroke of lightning forming a line 100 feet long and 5 feet wide blasts out from you in a direction you choose. Each creature in the line must make a Dexterity saving throw. A creature takes 8d6 lightning damage on a failed save,  or half as much damage on a successful one.","S1H-in":"","S1D-in":"The lightning ignites flammable objects in the area that aren't being worn or carried.","S2H-in":"","S2D-in":"","S3H-in":"","S3D-in":"","S4H-in":"","S4D-in":"","S5H-in":"","S5D-in":"","S6H-in":"","S6D-in":"","S7H-in":"","S7D-in":"","S8H-in":"","S8D-in":"","entriesHigherLevel-in":"When you cast this spell using a spell slot of 4th level or higher,  the damage increases by 1d6 for each slot level above 3rd.","class0-in":"Sorcerer","class1-in":"Wizard","class2-in":"","class3-in":"","class4-in":"","class5-in":"","class6-in":""}
+{
+  "Name-in": "Lightning Bolt",
+  "level-in": "3",
+  "Type-in": "Evocation",
+  "components-in": "V, S, M (a bit of fur and a rod of amber, crystal, or glass)",
+  "time-in": "1 action",
+  "range-in": "100 feet",
+  "duration-in": "Instant",
+  "savingThrow-in": "dexterity",
+  "Source-in": "PHB",
+  "Page-in": "255",
+  "S0D-in": "A stroke of lightning forming a line 100 feet long and 5 feet wide blasts out from you in a direction you choose. Each creature in the line must make a Dexterity saving throw. A creature takes 8d6 lightning damage on a failed save,  or half as much damage on a successful one.",
+  "S1D-in": "The lightning ignites flammable objects in the area that aren't being worn or carried.",
+  "entriesHigherLevel-in": "When you cast this spell using a spell slot of 4th level or higher,  the damage increases by 1d6 for each slot level above 3rd.",
+  "class0-in": "Sorcerer",
+  "class1-in": "Wizard"
+}

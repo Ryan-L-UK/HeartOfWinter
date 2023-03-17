@@ -1,54 +1,67 @@
 {
-  "Name-in": "Skeletal Alchemist",
-  "Type-in": "Medium undead",
-  "Alignment-in": "Lawful Evil",
-  "AC-in": "11",
-  "HP-in": "32 (5d8 + 10)",
-  "FT-in": "30 ft.",
-  "STR-in": "9",
-  "DEX-in": "13",
-  "CON-in": "15",
-  "INT-in": "14",
-  "WIS-in": "10",
-  "CHA-in": "9",
-  "Saves-in": "",
-  "Skills-in": "arcana +4",
-  "Resist-in": "",
-  "Immune-in": "poison",
-  "Vulnerable-in": "bludgeoning",
-  "conditionImmune-in": "exhaustion, poisoned",
-  "Senses-in": "darkvision 60 ft. passive perception 10",
-  "languages-in": "understands all languages it knew in life but can't speak",
-  "T1H-in": "Magic Resistance",
-  "T1D-in": "The skeletal alchemist has advantage on saving throws against spells and other magical effects.",
-  "T2H-in": "",
-  "T2D-in": "",
-  "T3H-in": "",
-  "T3D-in": "",
-  "T4H-in": "",
-  "T4D-in": "",
-  "CasterInnate-in": "",
-  "headerentry-in": "",
-  "cantrip-in": "",
-  "lvl1slots-in": "0",
-  "lvl1spells-in": "",
-  "lvl2slots-in": "0",
-  "lvl2spells-in": "",
-  "lvl3slots-in": "0",
-  "lvl3spells-in": "",
-  "lvl4slots-in": "0",
-  "lvl4spells-in": "",
-  "lvl5slots-in": "0",
-  "lvl5spells-in": "",
-
-  "A1H-in": "Multiattack",
-  "A1D-in": "The skeletal alchemist makes two Lob Acid attacks.",
-  "A2H-in": "Claws",
-  "A2D-in": "Melee Weapon Attack: + 3 to hit, reach 5 ft. one target. Hit:4 (1d6 + 1) slashing damage.",
-  "A3H-in": "Lob Acid",
-  "A3D-in": "Ranged Weapon Attack: + 3 to hit, range 30/120 ft., one target. Hit:5 (1d8 + 1) acid damage.",
-  "A4H-in": "",
-  "A4D-in": "",
-  "A5H-in": "",
-  "A5D-in": ""
+  "name": "Skeletal Alchemist",
+  "source": "GoS",
+  "page": 253,
+  "size": ["M"],
+  "type": "undead",
+  "alignment": ["L", "E"],
+  "ac": [11],
+  "hp": {
+    "average": 32,
+    "formula": "5d8 + 10"
+  },
+  "speed": {
+    "walk": 30
+  },
+  "str": 9,
+  "dex": 13,
+  "con": 15,
+  "int": 14,
+  "wis": 10,
+  "cha": 9,
+  "skill": {
+    "arcana": "+4"
+  },
+  "senses": ["darkvision 60 ft."],
+  "passive": 10,
+  "immune": ["poison"],
+  "vulnerable": ["bludgeoning"],
+  "conditionImmune": ["exhaustion", "poisoned"],
+  "languages": ["understands all languages it knew in life but can't speak"],
+  "cr": "1/2",
+  "trait": [
+    {
+      "name": "Magic Resistance",
+      "entries": [
+        "The skeletal alchemist has advantage on saving throws against spells and other magical effects."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "entries": ["The skeletal alchemist makes two Lob Acid attacks."]
+    },
+    {
+      "name": "Claws",
+      "entries": [
+        "{@atk mw} {@hit 3} to hit, reach 5 ft. one target. {@h}4 ({@damage 1d6 + 1}) slashing damage."
+      ]
+    },
+    {
+      "name": "Lob Acid",
+      "entries": [
+        "{@atk rw} {@hit 3} to hit, range 30/120 ft., one target. {@h}5 ({@damage 1d8 + 1}) acid damage."
+      ]
+    }
+  ],
+  "traitTags": ["Magic Resistance"],
+  "senseTags": ["D"],
+  "actionTags": ["Multiattack"],
+  "languageTags": ["CS", "LF"],
+  "damageTags": ["A", "S"],
+  "miscTags": ["MW", "RW"],
+  "hasToken": true,
+  "hasFluff": true,
+  "hasFluffImages": true
 }

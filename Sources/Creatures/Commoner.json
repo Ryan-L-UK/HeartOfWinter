@@ -1,1 +1,148 @@
-{"Name-in":"Commoner","Type-in":"Medium humanoid (any race)","Alignment-in":"Any Alignment ","AC-in":"10","HP-in":"4 (1d8)","FT-in":"30 ft.","STR-in":"10","DEX-in":"10","CON-in":"10","INT-in":"10","WIS-in":"10","CHA-in":"10","Saves-in":"","Skills-in":"","Resist-in":"","Immune-in":"","Vulnerable-in":"","conditionImmune-in":"","Senses-in":"passive perception 10","languages-in":"any one language (usually Common)","T1H-in":"","T1D-in":"","T2H-in":"","T2D-in":"","T3H-in":"","T3D-in":"","T4H-in":"","T4D-in":"","CasterInnate-in":"","headerentry-in":"","cantrip-in":"","lvl1slots-in":"0","lvl1spells-in":"","lvl2slots-in":"0","lvl2spells-in":"","lvl3slots-in":"0","lvl3spells-in":"","lvl4slots-in":"0","lvl4spells-in":"","lvl5slots-in":"0","lvl5spells-in":"","footerentry-in":"","A1H-in":"Club","A1D-in":"Melee Weapon Attack: + 2 to hit, reach 5 ft., one target. Hit: 2 (1d4) bludgeoning damage.","A2H-in":"","A2D-in":"","A3H-in":"","A3D-in":"","A4H-in":"","A4D-in":"","A5H-in":"","A5D-in":""}
+{
+  "name": "Commoner",
+  "source": "MM",
+  "page": 345,
+  "srd": true,
+  "basicRules": true,
+  "otherSources": [
+    {
+      "source": "CoS"
+    },
+    {
+      "source": "HotDQ"
+    },
+    {
+      "source": "LMoP"
+    },
+    {
+      "source": "PotA"
+    },
+    {
+      "source": "RoT"
+    },
+    {
+      "source": "SKT"
+    },
+    {
+      "source": "TftYP"
+    },
+    {
+      "source": "ToA"
+    },
+    {
+      "source": "WDH"
+    },
+    {
+      "source": "WDMM"
+    },
+    {
+      "source": "GoS"
+    },
+    {
+      "source": "DC"
+    },
+    {
+      "source": "DIP"
+    },
+    {
+      "source": "SLW"
+    },
+    {
+      "source": "BGDIA"
+    },
+    {
+      "source": "ERLW"
+    },
+    {
+      "source": "RMBRE"
+    },
+    {
+      "source": "EGW"
+    },
+    {
+      "source": "MOT"
+    },
+    {
+      "source": "IDRotF"
+    },
+    {
+      "source": "TCE"
+    },
+    {
+      "source": "CM"
+    },
+    {
+      "source": "WBtW"
+    },
+    {
+      "source": "CRCotN"
+    },
+    {
+      "source": "JttRC"
+    },
+    {
+      "source": "LoX"
+    },
+    {
+      "source": "DSotDQ"
+    },
+    {
+      "source": "KftGV"
+    }
+  ],
+  "size": ["M"],
+  "type": {
+    "type": "humanoid",
+    "tags": ["any race"]
+  },
+  "alignment": ["A"],
+  "ac": [10],
+  "hp": {
+    "average": 4,
+    "formula": "1d8"
+  },
+  "speed": {
+    "walk": 30
+  },
+  "str": 10,
+  "dex": 10,
+  "con": 10,
+  "int": 10,
+  "wis": 10,
+  "cha": 10,
+  "passive": 10,
+  "languages": ["any one language (usually Common)"],
+  "cr": "0",
+  "action": [
+    {
+      "name": "Club",
+      "entries": [
+        "{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}2 ({@damage 1d4}) bludgeoning damage."
+      ]
+    }
+  ],
+  "environment": [
+    "arctic",
+    "coastal",
+    "desert",
+    "forest",
+    "grassland",
+    "hill",
+    "urban"
+  ],
+  "soundClip": {
+    "type": "internal",
+    "path": "bestiary/commoner.mp3"
+  },
+  "altArt": [
+    {
+      "name": "Commoner",
+      "source": "EGW"
+    }
+  ],
+  "languageTags": ["C", "X"],
+  "damageTags": ["B"],
+  "miscTags": ["MW"],
+  "hasToken": true,
+  "hasFluff": true
+}

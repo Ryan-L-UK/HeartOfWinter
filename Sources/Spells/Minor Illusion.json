@@ -1,1 +1,19 @@
-{"Name-in":"Minor Illusion","level-in":"0","Type-in":"Illusion","concentration-in":"","components-in":"S, M (a bit of fleece)","time-in":"1 action","range-in":"30 feet","duration-in":"1 minute","savingThrow-in":"","Source-in":"PHB","Page-in":"260","S0H-in":"","S0D-in":"You create a sound or an image of an object within range that lasts for the duration. The illusion also ends if you dismiss it as an action or cast this spell again.","S1H-in":"","S1D-in":"If you create a sound,  its volume can range from a whisper to a scream. It can be your voice,  someone else's voice,  a lion's roar,  a beating of drums,  or any other sound you choose. The sound continues unabated throughout the duration,  or you can make discrete sounds at different times before the spell ends.","S2H-in":"","S2D-in":"If you create an image of an object—such as a chair,  muddy footprints,  or a small chest—it must be no larger than a 5-foot cube. The image can't create sound,  light,  smell,  or any other sensory effect. Physical interaction with the image reveals it to be an illusion,  because things can pass through it.","S3H-in":"","S3D-in":"If a creature uses its action to examine the sound or image,  the creature can determine that it is an illusion with a successful Intelligence (skill Investigation) check against your spell save DC. If a creature discerns the illusion for what it is,  the illusion becomes faint to the creature.","S4H-in":"","S4D-in":"","S5H-in":"","S5D-in":"","S6H-in":"","S6D-in":"","S7H-in":"","S7D-in":"","S8H-in":"","S8D-in":"","entriesHigherLevel-in":"","class0-in":"Bard","class1-in":"Sorcerer","class2-in":"Warlock","class3-in":"Wizard","class4-in":"","class5-in":"","class6-in":""}
+{
+  "Name-in": "Minor Illusion",
+  "level-in": "0",
+  "Type-in": "Illusion",
+  "components-in": "S, M (a bit of fleece)",
+  "time-in": "1 action",
+  "range-in": "30 feet",
+  "duration-in": "1 minute",
+  "Source-in": "PHB",
+  "Page-in": "260",
+  "S0D-in": "You create a sound or an image of an object within range that lasts for the duration. The illusion also ends if you dismiss it as an action or cast this spell again.",
+  "S1D-in": "If you create a sound,  its volume can range from a whisper to a scream. It can be your voice,  someone else's voice,  a lion's roar,  a beating of drums,  or any other sound you choose. The sound continues unabated throughout the duration,  or you can make discrete sounds at different times before the spell ends.",
+  "S2D-in": "If you create an image of an object—such as a chair,  muddy footprints,  or a small chest—it must be no larger than a 5-foot cube. The image can't create sound,  light,  smell,  or any other sensory effect. Physical interaction with the image reveals it to be an illusion,  because things can pass through it.",
+  "S3D-in": "If a creature uses its action to examine the sound or image,  the creature can determine that it is an illusion with a successful Intelligence (skill Investigation) check against your spell save DC. If a creature discerns the illusion for what it is,  the illusion becomes faint to the creature.",
+  "class0-in": "Bard",
+  "class1-in": "Sorcerer",
+  "class2-in": "Warlock",
+  "class3-in": "Wizard"
+}

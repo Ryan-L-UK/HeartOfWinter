@@ -1,1 +1,16 @@
-{"Name-in":"False Life","level-in":"1","Type-in":"Necromancy","concentration-in":"","components-in":"V, S, M (a small amount of alcohol or distilled spirits)","time-in":"1 action","range-in":"Self","duration-in":"1 hour","savingThrow-in":"","Source-in":"PHB","Page-in":"239","S0H-in":"","S0D-in":"Bolstering yourself with a necromantic facsimile of life,  you gain 1d4  + 4 temporary hit points for the duration.","S1H-in":"","S1D-in":"","S2H-in":"","S2D-in":"","S3H-in":"","S3D-in":"","S4H-in":"","S4D-in":"","S5H-in":"","S5D-in":"","S6H-in":"","S6D-in":"","S7H-in":"","S7D-in":"","S8H-in":"","S8D-in":"","entriesHigherLevel-in":"When you cast this spell using a spell slot of 2nd level or higher,  you gain 5 additional temporary hit points for each slot level above 1st.","class0-in":"Sorcerer","class1-in":"Wizard","class2-in":"Artificer","class3-in":"","class4-in":"","class5-in":"","class6-in":""}
+{
+  "Name-in": "False Life",
+  "level-in": "1",
+  "Type-in": "Necromancy",
+  "components-in": "V, S, M (a small amount of alcohol or distilled spirits)",
+  "time-in": "1 action",
+  "range-in": "Self",
+  "duration-in": "1 hour",
+  "Source-in": "PHB",
+  "Page-in": "239",
+  "S0D-in": "Bolstering yourself with a necromantic facsimile of life,  you gain 1d4  + 4 temporary hit points for the duration.",
+  "entriesHigherLevel-in": "When you cast this spell using a spell slot of 2nd level or higher,  you gain 5 additional temporary hit points for each slot level above 1st.",
+  "class0-in": "Sorcerer",
+  "class1-in": "Wizard",
+  "class2-in": "Artificer"
+}

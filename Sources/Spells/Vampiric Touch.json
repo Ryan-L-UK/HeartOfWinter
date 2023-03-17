@@ -1,1 +1,17 @@
-{"Name-in":"Vampiric Touch","level-in":"3","Type-in":"Necromancy","concentration-in":"Yes","components-in":"V, S","time-in":"1 action","range-in":"Self","duration-in":"1 minute","savingThrow-in":"","Source-in":"PHB","Page-in":"285","S0H-in":"","S0D-in":"The touch of your shadow-wreathed hand can siphon life force from others to heal your wounds. Make a melee spell attack against a creature within your reach. On a hit,  the target takes 3d6 necrotic damage,  and you regain hit points equal to half the amount of necrotic damage dealt. Until the spell ends,  you can make the attack again on each of your turns as an action.","S1H-in":"","S1D-in":"","S2H-in":"","S2D-in":"","S3H-in":"","S3D-in":"","S4H-in":"","S4D-in":"","S5H-in":"","S5D-in":"","S6H-in":"","S6D-in":"","S7H-in":"","S7D-in":"","S8H-in":"","S8D-in":"","entriesHigherLevel-in":"When you cast this spell using a spell slot of 4th level or higher,  the damage increases by 1d6 for each slot level above 3rd.","class0-in":"Warlock","class1-in":"Wizard","class2-in":"","class3-in":"","class4-in":"","class5-in":"","class6-in":""}
+{
+  "Name-in": "Vampiric Touch",
+  "level-in": "3",
+  "Type-in": "Necromancy",
+  "concentration-in": "Yes",
+  "components-in": "V, S",
+  "time-in": "1 action",
+  "range-in": "Self",
+  "duration-in": "1 minute",
+  "savingThrow-in": "",
+  "Source-in": "PHB",
+  "Page-in": "285",
+  "S0D-in": "The touch of your shadow-wreathed hand can siphon life force from others to heal your wounds. Make a melee spell attack against a creature within your reach. On a hit,  the target takes 3d6 necrotic damage,  and you regain hit points equal to half the amount of necrotic damage dealt. Until the spell ends,  you can make the attack again on each of your turns as an action.",
+  "entriesHigherLevel-in": "When you cast this spell using a spell slot of 4th level or higher,  the damage increases by 1d6 for each slot level above 3rd.",
+  "class0-in": "Warlock",
+  "class1-in": "Wizard"
+}

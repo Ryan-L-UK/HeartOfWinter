@@ -191,7 +191,9 @@ document.getElementById("form-submit").addEventListener("click", (event) => {
   let outputObject = {};
   for (var [key, value] of form) {
     //loop the form data
-    if (value != null) {
+    if (value == 0) {
+      //Do nothing
+    } else if (value != "") {
       //if the key exists
       outputObject[key] = value; //store it in the object
     }

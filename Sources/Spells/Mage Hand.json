@@ -1,1 +1,18 @@
-{"Name-in":"Mage Hand","level-in":"0","Type-in":"Conjuration","concentration-in":"","components-in":"V, S","time-in":"1 action","range-in":"30 feet","duration-in":"1 minute","savingThrow-in":"","Source-in":"PHB","Page-in":"256","S0H-in":"","S0D-in":"A spectral,  floating hand appears at a point you choose within range. The hand lasts for the duration or until you dismiss it as an action. The hand vanishes if it is ever more than 30 feet away from you or if you cast this spell again.","S1H-in":"","S1D-in":"You can use your action to control the hand. You can use the hand to manipulate an object,  open an unlocked door or container,  stow or retrieve an item from an open container,  or pour the contents out of a vial. You can move the hand up to 30 feet each time you use it.","S2H-in":"","S2D-in":"The hand can't attack,  activate magic items,  or carry more than 10 pounds.","S3H-in":"","S3D-in":"","S4H-in":"","S4D-in":"","S5H-in":"","S5D-in":"","S6H-in":"","S6D-in":"","S7H-in":"","S7D-in":"","S8H-in":"","S8D-in":"","entriesHigherLevel-in":"","class0-in":"Bard","class1-in":"Sorcerer","class2-in":"Warlock","class3-in":"Wizard","class4-in":"","class5-in":"","class6-in":""}
+{
+  "Name-in": "Mage Hand",
+  "level-in": "0",
+  "Type-in": "Conjuration",
+  "components-in": "V, S",
+  "time-in": "1 action",
+  "range-in": "30 feet",
+  "duration-in": "1 minute",
+  "Source-in": "PHB",
+  "Page-in": "256",
+  "S0D-in": "A spectral,  floating hand appears at a point you choose within range. The hand lasts for the duration or until you dismiss it as an action. The hand vanishes if it is ever more than 30 feet away from you or if you cast this spell again.",
+  "S1D-in": "You can use your action to control the hand. You can use the hand to manipulate an object,  open an unlocked door or container,  stow or retrieve an item from an open container,  or pour the contents out of a vial. You can move the hand up to 30 feet each time you use it.",
+  "S2D-in": "The hand can't attack,  activate magic items,  or carry more than 10 pounds.",
+  "class0-in": "Bard",
+  "class1-in": "Sorcerer",
+  "class2-in": "Warlock",
+  "class3-in": "Wizard"
+}

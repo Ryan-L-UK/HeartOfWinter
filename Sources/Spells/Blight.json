@@ -1,1 +1,20 @@
-{"Name-in":"Blight","level-in":"4","Type-in":"Necromancy","concentration-in":"","components-in":"V, S","time-in":"1 action","range-in":"30 feet","duration-in":"Instant","savingThrow-in":"constitution","Source-in":"PHB","Page-in":"219","S0H-in":"","S0D-in":"Necromantic energy washes over a creature of your choice that you can see within range,  draining moisture and vitality from it. The target must make a Constitution saving throw. The target takes 8d8 necrotic damage on a failed save,  or half as much damage on a successful one. This spell has no effect on undead or constructs.","S1H-in":"","S1D-in":"If you target a plant creature or a magical plant,  it makes the saving throw with disadvantage,  and the spell deals maximum damage to it.","S2H-in":"","S2D-in":"If you target a nonmagical plant that isn't a creature,  such as a tree or shrub,  it doesn't make a saving throw,  it simply withers and dies.","S3H-in":"","S3D-in":"","S4H-in":"","S4D-in":"","S5H-in":"","S5D-in":"","S6H-in":"","S6D-in":"","S7H-in":"","S7D-in":"","S8H-in":"","S8D-in":"","entriesHigherLevel-in":"When you cast this spell using a spell slot of 5th level or higher,  the damage increases by scaledamage 8d8|4-9|1d8 for each slot level above 4th.","class0-in":"Druid","class1-in":"Sorcerer","class2-in":"Warlock","class3-in":"Wizard","class4-in":"","class5-in":"","class6-in":""}
+{
+  "Name-in": "Blight",
+  "level-in": "4",
+  "Type-in": "Necromancy",
+  "components-in": "V, S",
+  "time-in": "1 action",
+  "range-in": "30 feet",
+  "duration-in": "Instant",
+  "savingThrow-in": "constitution",
+  "Source-in": "PHB",
+  "Page-in": "219",
+  "S0D-in": "Necromantic energy washes over a creature of your choice that you can see within range,  draining moisture and vitality from it. The target must make a Constitution saving throw. The target takes 8d8 necrotic damage on a failed save,  or half as much damage on a successful one. This spell has no effect on undead or constructs.",
+  "S1D-in": "If you target a plant creature or a magical plant,  it makes the saving throw with disadvantage,  and the spell deals maximum damage to it.",
+  "S2D-in": "If you target a nonmagical plant that isn't a creature,  such as a tree or shrub,  it doesn't make a saving throw,  it simply withers and dies.",
+  "entriesHigherLevel-in": "When you cast this spell using a spell slot of 5th level or higher,  the damage increases by scaledamage 8d8|4-9|1d8 for each slot level above 4th.",
+  "class0-in": "Druid",
+  "class1-in": "Sorcerer",
+  "class2-in": "Warlock",
+  "class3-in": "Wizard"
+}

@@ -1,1 +1,18 @@
-{"Name-in":"Disguise Self","level-in":"1","Type-in":"Illusion","concentration-in":"","components-in":"V, S","time-in":"1 action","range-in":"undefined self","duration-in":"1 hour","savingThrow-in":"","Source-in":"PHB","Page-in":"233","S0H-in":"","S0D-in":"You make yourself—including your clothing,  armor,  weapons,  and other belongings on your person—look different until the spell ends or until you use your action to dismiss it. You can seem 1 foot shorter or taller and can appear thin,  fat,  or in between. You can't change your body type,  so you must adopt a form that has the same basic arrangement of limbs. Otherwise,  the extent of the illusion is up to you.","S1H-in":"","S1D-in":"The changes wrought by this spell fail to hold up to physical inspection. For example,  if you use this spell to add a hat to your outfit,  objects pass through the hat,  and anyone who touches it would feel nothing or would feel your head and hair. If you use this spell to appear thinner than you are,  the hand of someone who reaches out to touch you would bump into you while it was seemingly still in midair.","S2H-in":"","S2D-in":"To discern that you are disguised,  a creature can use its action to inspect your appearance and must succeed on an Intelligence (skill Investigation) check against your spell save DC.","S3H-in":"","S3D-in":"","S4H-in":"","S4D-in":"","S5H-in":"","S5D-in":"","S6H-in":"","S6D-in":"","S7H-in":"","S7D-in":"","S8H-in":"","S8D-in":"","entriesHigherLevel-in":"","class0-in":"Bard","class1-in":"Sorcerer","class2-in":"Wizard","class3-in":"Artificer","class4-in":"","class5-in":"","class6-in":""}
+{
+  "Name-in": "Disguise Self",
+  "level-in": "1",
+  "Type-in": "Illusion",
+  "components-in": "V, S",
+  "time-in": "1 action",
+  "range-in": "undefined self",
+  "duration-in": "1 hour",
+  "Source-in": "PHB",
+  "Page-in": "233",
+  "S0D-in": "You make yourself—including your clothing,  armor,  weapons,  and other belongings on your person—look different until the spell ends or until you use your action to dismiss it. You can seem 1 foot shorter or taller and can appear thin,  fat,  or in between. You can't change your body type,  so you must adopt a form that has the same basic arrangement of limbs. Otherwise,  the extent of the illusion is up to you.",
+  "S1D-in": "The changes wrought by this spell fail to hold up to physical inspection. For example,  if you use this spell to add a hat to your outfit,  objects pass through the hat,  and anyone who touches it would feel nothing or would feel your head and hair. If you use this spell to appear thinner than you are,  the hand of someone who reaches out to touch you would bump into you while it was seemingly still in midair.",
+  "S2D-in": "To discern that you are disguised,  a creature can use its action to inspect your appearance and must succeed on an Intelligence (skill Investigation) check against your spell save DC.",
+  "class0-in": "Bard",
+  "class1-in": "Sorcerer",
+  "class2-in": "Wizard",
+  "class3-in": "Artificer"
+}

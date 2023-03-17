@@ -1,1 +1,15 @@
-{"Name-in":"Wyvernspur's Smite","level-in":"2","Type-in":"Evocation","concentration-in":"","components-in":"V","time-in":"1 action","range-in":"30 ft.","duration-in":"Up to 1 minute.","savingThrow-in":"","Source-in":"Homebrew","Page-in":"","S0H-in":"","S0D-in":"A creature of your choice that you can see within range is empowered with the might of Wyvernspur, and their weapon glows with radiant energy.","S1H-in":"","S1D-in":"The next time the target hit a creature with a weapon attack before this spell ends, their weapon gleams with astral radiance as they strike. The attack deals an extra 2d6 radiant damage.","S2H-in":"","S2D-in":"The damaged creature now sheds a dim light in a 5-foot radius for the duration of the spell. The creature is now visible and any form of invisibility is impossible until the spell ends.","S3H-in":"","S3D-in":"","S4H-in":"","S4D-in":"","S5H-in":"","S5D-in":"","S6H-in":"","S6D-in":"","S7H-in":"","S7D-in":"","S8H-in":"","S8D-in":"","entriesHigherLevel-in":"When you use this magical ability at higher levels, the extra damage increases by 1d6 for each caster level above 2nd.","class0-in":"Bard","class1-in":"","class2-in":"","class3-in":"","class4-in":"","class5-in":"","class6-in":""}
+{
+  "Name-in": "Wyvernspur's Smite",
+  "level-in": "2",
+  "Type-in": "Evocation",
+  "components-in": "V",
+  "time-in": "1 action",
+  "range-in": "30 ft.",
+  "duration-in": "Up to 1 minute.",
+  "Source-in": "Homebrew",
+  "S0D-in": "A creature of your choice that you can see within range is empowered with the might of Wyvernspur, and their weapon glows with radiant energy.",
+  "S1D-in": "The next time the target hit a creature with a weapon attack before this spell ends, their weapon gleams with astral radiance as they strike. The attack deals an extra 2d6 radiant damage.",
+  "S2D-in": "The damaged creature now sheds a dim light in a 5-foot radius for the duration of the spell. The creature is now visible and any form of invisibility is impossible until the spell ends.",
+  "entriesHigherLevel-in": "When you use this magical ability at higher levels, the extra damage increases by 1d6 for each caster level above 2nd.",
+  "class0-in": "Bard"
+}

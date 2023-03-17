@@ -1,1 +1,15 @@
-{"Name-in":"Continual Flame","level-in":"2","Type-in":"Evocation","concentration-in":"","components-in":"V, S, M (ruby dust worth 50 gp, which the spell consumes)","time-in":"1 action","range-in":"Touch","duration-in":"Until dispelled","savingThrow-in":"","Source-in":"PHB","Page-in":"227","S0H-in":"","S0D-in":"A flame,  equivalent in brightness to a torch,  springs forth from an object that you touch. The effect looks like a regular flame,  but it creates no heat and doesn't use oxygen. A continual flame can be covered or hidden but not smothered or quenched.","S1H-in":"","S1D-in":"","S2H-in":"","S2D-in":"","S3H-in":"","S3D-in":"","S4H-in":"","S4D-in":"","S5H-in":"","S5D-in":"","S6H-in":"","S6D-in":"","S7H-in":"","S7D-in":"","S8H-in":"","S8D-in":"","entriesHigherLevel-in":"","class0-in":"Cleric","class1-in":"Wizard","class2-in":"Artificer","class3-in":"","class4-in":"","class5-in":"","class6-in":""}
+{
+  "Name-in": "Continual Flame",
+  "level-in": "2",
+  "Type-in": "Evocation",
+  "components-in": "V, S, M (ruby dust worth 50 gp, which the spell consumes)",
+  "time-in": "1 action",
+  "range-in": "Touch",
+  "duration-in": "Until dispelled",
+  "Source-in": "PHB",
+  "Page-in": "227",
+  "S0D-in": "A flame,  equivalent in brightness to a torch,  springs forth from an object that you touch. The effect looks like a regular flame,  but it creates no heat and doesn't use oxygen. A continual flame can be covered or hidden but not smothered or quenched.",
+  "class0-in": "Cleric",
+  "class1-in": "Wizard",
+  "class2-in": "Artificer"
+}

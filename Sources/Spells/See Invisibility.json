@@ -1,1 +1,16 @@
-{"Name-in":"See Invisibility","level-in":"2","Type-in":"Divination","concentration-in":"","components-in":"V, S, M (a pinch of talc and a small sprinkling of powdered silver)","time-in":"1 action","range-in":"Self","duration-in":"1 hour","savingThrow-in":"","Source-in":"PHB","Page-in":"274","S0H-in":"","S0D-in":"For the duration,  you see invisible creatures and objects as if they were visible,  and you can see into the Ethereal Plane. Ethereal creatures and objects appear ghostly and translucent.","S1H-in":"","S1D-in":"","S2H-in":"","S2D-in":"","S3H-in":"","S3D-in":"","S4H-in":"","S4D-in":"","S5H-in":"","S5D-in":"","S6H-in":"","S6D-in":"","S7H-in":"","S7D-in":"","S8H-in":"","S8D-in":"","entriesHigherLevel-in":"","class0-in":"Bard","class1-in":"Sorcerer","class2-in":"Wizard","class3-in":"Artificer","class4-in":"","class5-in":"","class6-in":""}
+{
+  "Name-in": "See Invisibility",
+  "level-in": "2",
+  "Type-in": "Divination",
+  "components-in": "V, S, M (a pinch of talc and a small sprinkling of powdered silver)",
+  "time-in": "1 action",
+  "range-in": "Self",
+  "duration-in": "1 hour",
+  "Source-in": "PHB",
+  "Page-in": "274",
+  "S0D-in": "For the duration,  you see invisible creatures and objects as if they were visible,  and you can see into the Ethereal Plane. Ethereal creatures and objects appear ghostly and translucent.",
+  "class0-in": "Bard",
+  "class1-in": "Sorcerer",
+  "class2-in": "Wizard",
+  "class3-in": "Artificer"
+}
