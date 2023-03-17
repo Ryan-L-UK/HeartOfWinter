@@ -2,7 +2,7 @@
 //Menu Load
 //-----------------------------------------
 console.log("Wizard: Summoning menu...");
-fetch("http://localhost:8080/Menu.html")
+fetch("http://localhost:8080/Sources/Components/Menu.html")
   .then(function (Mresponse) {
     // When the page is loaded convert it to text
     return Mresponse.text();
@@ -27,7 +27,7 @@ fetch("http://localhost:8080/Menu.html")
 //-----------------------------------------
 //Footer Load
 //-----------------------------------------
-fetch("http://localhost:8080/Footer.html")
+fetch("http://localhost:8080/Sources/Components/Footer.html")
   .then(function (Fresponse) {
     console.log("Wizard: Summoning footer...");
     // When the page is loaded convert it to text
