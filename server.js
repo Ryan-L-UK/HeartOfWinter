@@ -19,7 +19,7 @@ app.get("/", (req, res) => {
 
 app.get("/folders/*", (req, res) => {
   console.log(req.path);
-  readDirectory("\\" + req.path.replace("/folders/", ""), res);
+  readDirectory("/" + req.path.replace("/folders/", ""), res);
 });
 
 app.use("/Pages", express.static("Pages"));
