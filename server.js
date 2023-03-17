@@ -5,7 +5,7 @@ const app = express();
 const port = 8080;
 
 app.get("/", (req, res) => {
-  fs.readFile(__dirname + "\\Index.html", (err, data) => {
+  fs.readFile(__dirname + "/Index.html", (err, data) => {
     if(err){
       console.log("Failed to load file")
       res.writeHead(404);
