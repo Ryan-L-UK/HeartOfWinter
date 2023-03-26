@@ -3,7 +3,7 @@
 var fs = require("fs");
 
 //Change the file name here
-var fileName = "RAWspellsPHB.json";
+var fileName = "spells-xge.json";
 
 //Change the array name. This will be the name of the array in the source file.
 var arrayName = "spell";

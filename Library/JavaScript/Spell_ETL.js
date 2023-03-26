@@ -130,11 +130,13 @@ function runETL(obj) {
     //---------------------------------------------------------------------------------------------------------
     //CLASSES CODE
     let classOut = [];
-    var classList = obj.classes.fromClassList;
-    var classLength = classList.length;
-    for (var i = 0; i < classLength; i++) {
-      if (classList[i].source.startsWith("UA") != true) {
-        classOut.push({ class: classList[i].name });
+    if (obj.classes != undefined) {
+      var classList = obj.classes.fromClassList;
+      var classLength = classList.length;
+      for (var i = 0; i < classLength; i++) {
+        if (classList[i].source.startsWith("UA") != true) {
+          classOut.push({ class: classList[i].name });
+        }
       }
     }
     //---------------------------------------------------------------------------------------------------------
