@@ -1,0 +1,12 @@
+{
+  "name": "Goggles of Object Reading",
+  "source": "EGW",
+  "page": 267,
+  "rarity": "uncommon",
+  "reqAttune": true,
+  "wondrous": true,
+  "entries": [
+    "These leather-framed goggles feature purple crystal lenses. While wearing the goggles, you have advantage on Intelligence ({@skill Arcana}) checks made to reveal information about a creature or object you can see."
+  ],
+  "attachedSpells": ["identify"]
+}

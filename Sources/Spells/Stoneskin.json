@@ -1,18 +1,203 @@
 {
-  "Name-in": "Stoneskin",
-  "level-in": "4",
-  "Type-in": "Abjuration",
-  "concentration-in": "Yes",
-  "components-in": "V, S, M (diamond dust worth 100 gp, which the spell consumes)",
-  "time-in": "1 action",
-  "range-in": "Touch",
-  "duration-in": "1 hour",
-  "Source-in": "PHB",
-  "Page-in": "278",
-  "S0D-in": "This spell turns the flesh of a willing creature you touch as hard as stone. Until the spell ends,  the target has resistance to nonmagical bludgeoning,  piercing,  and slashing damage.",
-  "class0-in": "Druid",
-  "class1-in": "Ranger",
-  "class2-in": "Sorcerer",
-  "class3-in": "Wizard",
-  "class4-in": "Artificer"
+  "name": "Stoneskin",
+  "source": "PHB",
+  "page": 278,
+  "srd": true,
+  "basicRules": true,
+  "level": 4,
+  "school": "A",
+  "time": [
+    {
+      "number": 1,
+      "unit": "action"
+    }
+  ],
+  "range": {
+    "type": "point",
+    "distance": {
+      "type": "touch"
+    }
+  },
+  "components": {
+    "v": true,
+    "s": true,
+    "m": {
+      "text": "diamond dust worth 100 gp, which the spell consumes",
+      "cost": 10000,
+      "consume": true
+    }
+  },
+  "duration": [
+    {
+      "type": "timed",
+      "duration": {
+        "type": "hour",
+        "amount": 1
+      },
+      "concentration": true
+    }
+  ],
+  "entries": [
+    "This spell turns the flesh of a willing creature you touch as hard as stone. Until the spell ends, the target has resistance to nonmagical bludgeoning, piercing, and slashing damage."
+  ],
+  "damageResist": ["bludgeoning", "piercing", "slashing"],
+  "areaTags": ["ST"],
+  "classes": {
+    "fromClassList": [
+      {
+        "name": "Druid",
+        "source": "PHB"
+      },
+      {
+        "name": "Ranger",
+        "source": "PHB"
+      },
+      {
+        "name": "Sorcerer",
+        "source": "PHB"
+      },
+      {
+        "name": "Wizard",
+        "source": "PHB"
+      },
+      {
+        "name": "Artificer",
+        "source": "UAArtificer"
+      },
+      {
+        "name": "Artificer (Revisited)",
+        "source": "UAArtificerRevisited"
+      },
+      {
+        "name": "Artificer",
+        "source": "TCE"
+      }
+    ],
+    "fromSubclass": [
+      {
+        "class": {
+          "name": "Cleric",
+          "source": "PHB"
+        },
+        "subclass": {
+          "name": "War Domain",
+          "shortName": "War",
+          "source": "PHB"
+        }
+      },
+      {
+        "class": {
+          "name": "Cleric",
+          "source": "PHB"
+        },
+        "subclass": {
+          "name": "Strength Domain (PSA)",
+          "shortName": "Strength (PSA)",
+          "source": "PSA"
+        }
+      },
+      {
+        "class": {
+          "name": "Druid",
+          "source": "PHB"
+        },
+        "subclass": {
+          "name": "Circle of the Land",
+          "shortName": "Land",
+          "source": "PHB",
+          "subSubclass": "Mountain"
+        }
+      },
+      {
+        "class": {
+          "name": "Fighter",
+          "source": "PHB"
+        },
+        "subclass": {
+          "name": "Eldritch Knight",
+          "shortName": "Eldritch Knight",
+          "source": "PHB"
+        }
+      },
+      {
+        "class": {
+          "name": "Paladin",
+          "source": "PHB"
+        },
+        "subclass": {
+          "name": "Oath of the Ancients",
+          "shortName": "Ancients",
+          "source": "PHB"
+        }
+      },
+      {
+        "class": {
+          "name": "Paladin",
+          "source": "PHB"
+        },
+        "subclass": {
+          "name": "Oath of Redemption (UA)",
+          "shortName": "Redemption (UA)",
+          "source": "UAATrioOfSubclasses"
+        }
+      },
+      {
+        "class": {
+          "name": "Paladin",
+          "source": "PHB"
+        },
+        "subclass": {
+          "name": "Oath of Conquest v2 (UA)",
+          "shortName": "Conquest v2 (UA)",
+          "source": "UARevisedClassOptions"
+        }
+      },
+      {
+        "class": {
+          "name": "Paladin",
+          "source": "PHB"
+        },
+        "subclass": {
+          "name": "Oath of Conquest",
+          "shortName": "Conquest",
+          "source": "XGE"
+        }
+      },
+      {
+        "class": {
+          "name": "Paladin",
+          "source": "PHB"
+        },
+        "subclass": {
+          "name": "Oath of Redemption",
+          "shortName": "Redemption",
+          "source": "XGE"
+        }
+      },
+      {
+        "class": {
+          "name": "Rogue",
+          "source": "PHB"
+        },
+        "subclass": {
+          "name": "Arcane Trickster",
+          "shortName": "Arcane Trickster",
+          "source": "PHB"
+        }
+      }
+    ]
+  },
+  "optionalfeatures": [
+    {
+      "name": "Eternal Mountain Defense",
+      "source": "PHB",
+      "featureType": ["ED"]
+    }
+  ],
+  "backgrounds": [
+    {
+      "name": "Gruul Anarch",
+      "source": "GGR"
+    }
+  ]
 }

@@ -20,9 +20,12 @@ function checktype(type) {
     MA: "Medium Armour",
     MNT: "Mount",
     OTH: "Other",
+    P: "Potion",
     R: "Ranged Weapon",
+    RD: "Rod",
     RG: "Ring",
     S: "Shield",
+    SC: "Scroll",
     SCF: "Spellcasting Focus",
     SHP: "Vehicle (Ship)",
     T: "Tools",
@@ -79,22 +82,42 @@ function checkproperties(property) {
   checkproperties = lookup[property];
   return checkproperties;
 }
+// ---------------------------------------------------------------------------------------------------------
+//IMPORT FROM URL
+const queryString = window.location.search;
+const urlParams = new URLSearchParams(queryString);
+const FileName = urlParams.get("FileName");
+console.log(
+  "Librarians: Looking in the 'Magical Items' section, for '" + FileName + "'"
+);
+document.getElementById("itemform").reset();
+console.warn("Cleric: Casting Prestidigitation On Form...");
+let ContentViewOut = fetch(
+  "http://localhost:8080/Sources/MagicItems/" + FileName + ".json"
+)
+  .then(function (urlOUTPUT) {
+    return urlOUTPUT.text();
+  })
+  .then(function (etl) {
+    const text = etl;
+    const obj = JSON.parse(text);
+    runETL(obj);
+  });
 //---------------------------------------------------------------------------------------------------------
-//---------------------------------------------------------------------------------------------------------
-//IMPORT SOURCECODE
-//---------------------------------------------------------------------------------------------------------
-//---------------------------------------------------------------------------------------------------------
+//IMPORT FROM FILE
 async function readText(event) {
   document.getElementById("itemform").reset();
   console.warn("Cleric: Casting Prestidigitation On Form...");
   const file = event.target.files.item(0);
   const text = await file.text();
   const obj = JSON.parse(text);
-
-  // ---------------------------------------------------------------------------------------------------------
+  runETL(obj);
+}
+// ---------------------------------------------------------------------------------------------------------
+//EXTRACT TRANSFORM & LOAD
+function runETL(obj) {
   //RML CUSTOM JSON
-  // ---------------------------------------------------------------------------------------------------------
-  if (obj.source == undefined) {
+  if (obj.entries == undefined) {
     console.warn("Cleric: Summoning Custom Shell");
     console.log(obj);
     for (const prop in obj) {
@@ -105,7 +128,6 @@ async function readText(event) {
   }
   // ---------------------------------------------------------------------------------------------------------
   //JSON CONVERTER
-  // ---------------------------------------------------------------------------------------------------------
   else {
     console.warn("Cleric: Summoning Converter Shell");
     console.log(obj);
@@ -116,6 +138,7 @@ async function readText(event) {
     } else if (obj.weaponCategory != undefined) {
       var type = "Weapon";
     } else if (obj.type != undefined) {
+      console.log(obj.type);
       var type = checktype(obj.type);
     } else {
       var type = "";
@@ -206,114 +229,40 @@ async function readText(event) {
     }
     //---------------------------------------------------------------------------------------------------------
     //ENTRIES CODE
-    //---------------------------------------------------------------------------------------------------------
-    if (obj.entries[0] != undefined) {
-      if (obj.entries[0].name != undefined) {
-        var entries0H = obj.entries[0].name;
-        var entries0D = datacleanse(obj.entries[0].entries);
+    let entriesOut = [];
+    var entriesList = obj.entries;
+    var entriesLength = entriesList.length;
+    for (var i = 0; i < entriesLength; i++) {
+      if (entriesList[i].name != undefined) {
+        entriesOut.push({
+          name: entriesList[i].name,
+          data: datacleanse(entriesList[i].entries),
+        });
       } else {
-      }
-      var entries0D = datacleanse(obj.entries[0]);
-    }
-    if (obj.entries[1] != undefined) {
-      if (obj.entries[1].name != undefined) {
-        var entries1H = obj.entries[1].name + ".";
-        var entries1D = datacleanse(obj.entries[1].entries);
-      } else {
-        var entries1D = datacleanse(obj.entries[1]);
-      }
-    }
-    if (obj.entries[2] != undefined) {
-      if (obj.entries[2].name != undefined) {
-        var entries2H = obj.entries[2].name + ".";
-        var entries2D = datacleanse(obj.entries[2].entries);
-      } else {
-        var entries2D = datacleanse(obj.entries[2]);
-      }
-    }
-    if (obj.entries[3] != undefined) {
-      if (obj.entries[3].name != undefined) {
-        var entries3H = obj.entries[3].name + ".";
-        var entries3D = datacleanse(obj.entries[3].entries);
-      } else {
-        var entries3D = datacleanse(obj.entries[3]);
-      }
-    }
-    if (obj.entries[4] != undefined) {
-      if (obj.entries[4].name != undefined) {
-        var entries4H = obj.entries[4].name + ".";
-        var entries4D = datacleanse(obj.entries[4].entries);
-      } else {
-        var entries4D = datacleanse(obj.entries[4]);
-      }
-    }
-    if (obj.entries[5] != undefined) {
-      if (obj.entries[5].name != undefined) {
-        var entries5H = obj.entries[5].name + ".";
-        var entries5D = datacleanse(obj.entries[5].entries);
-      } else {
-        var entries5D = datacleanse(obj.entries[5]);
-      }
-    }
-    if (obj.entries[6] != undefined) {
-      if (obj.entries[6].name != undefined) {
-        var entries6H = obj.entries[6].name + ".";
-        var entries6D = datacleanse(obj.entries[6].entries);
-      } else {
-        var entries6D = datacleanse(obj.entries[6]);
-      }
-    }
-    if (obj.entries[7] != undefined) {
-      if (obj.entries[7].name != undefined) {
-        var entries7H = obj.entries[7].name + ".";
-        var entries7D = datacleanse(obj.entries[7].entries);
-      } else {
-        var entries7D = datacleanse(obj.entries[7]);
-      }
-    }
-    if (obj.entries[8] != undefined) {
-      if (obj.entries[8].name != undefined) {
-        var entries8H = obj.entries[8].name + ".";
-        var entries8D = datacleanse(obj.entries[8].entries);
-      } else {
-        var entries8D = datacleanse(obj.entries[8]);
+        entriesOut.push({ data: datacleanse(entriesList[i]) });
       }
     }
     //---------------------------------------------------------------------------------------------------------
     //MAPPING CODE
-    //---------------------------------------------------------------------------------------------------------
-    object["Name-in"] = obj["name"];
-    object["Staff-in"] = staffTrue;
-    object["Type-in"] = type;
-    object["Rarity-in"] = rarity;
-    object["reqAttune-in"] = reqAttune;
-    object["Source-in"] = obj["source"];
-    object["Page-in"] = obj["page"];
-    object["otherSources-in"] = otherSources;
-    object["otherSourcesPage-in"] = otherSourcesPage;
-    object["weaponCategory-in"] = weaponCategory;
-    object["dmg1-in"] = dmg1;
-    object["dmg2-in"] = dmg2;
-    object["dmgType-in"] = dmgType;
-    object["property-in"] = property;
-    object["I0H-in"] = entries0H;
-    object["I0D-in"] = entries0D;
-    object["I1H-in"] = entries1H;
-    object["I1D-in"] = entries1D;
-    object["I2H-in"] = entries2H;
-    object["I2D-in"] = entries2D;
-    object["I3H-in"] = entries3H;
-    object["I3D-in"] = entries3D;
-    object["I4H-in"] = entries4H;
-    object["I4D-in"] = entries4D;
-    object["I5H-in"] = entries5H;
-    object["I5D-in"] = entries5D;
-    object["I6H-in"] = entries6H;
-    object["I6D-in"] = entries6D;
-    object["I7H-in"] = entries7H;
-    object["I7D-in"] = entries7D;
-    object["I8H-in"] = entries8H;
-    object["I8D-in"] = entries8D;
+    object["name"] = obj["name"];
+    object["staff"] = staffTrue;
+    object["type"] = type;
+    object["rarity"] = rarity;
+    object["reqAttune"] = reqAttune;
+    object["source"] = obj["source"];
+    object["page"] = obj["page"];
+    object["otherSources"] = otherSources;
+    object["otherSourcesPage"] = otherSourcesPage;
+    object["weaponCategory"] = weaponCategory;
+    object["dmg1"] = dmg1;
+    object["dmg2"] = dmg2;
+    object["dmgType"] = dmgType;
+    object["property"] = property;
+    var entriesOutLength = entriesOut.length;
+    for (var i = 0; i < entriesOutLength; i++) {
+      object["I" + [i] + "H"] = entriesOut[i].name;
+      object["I" + [i] + "D"] = entriesOut[i].data;
+    }
     console.log(object);
     // ---------------------------------------------------------------------------------------------------------
     // Extract File

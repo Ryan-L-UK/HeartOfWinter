@@ -2,14 +2,12 @@
 //Map Selector
 //-----------------------------------------
 const queryString = window.location.search;
-
 const urlParams = new URLSearchParams(queryString);
 const Type = urlParams.get("Type");
 const FileName = urlParams.get("FileName");
 console.log(
   "Librarians: Looking in the '" + Type + "' section, for '" + FileName + "'"
 );
-
 if (Type == "Location") {
   var ContentView = "Faerun/Gullet Cove Map/Location/" + FileName;
 } else if (Type == "District") {
@@ -23,10 +21,8 @@ if (Type == "Location") {
 } else {
   console.error("Shes Dead Jim");
 }
-
 var ContentViewOut = "";
 ContentViewOut = "http://localhost:8080/Sources/" + ContentView + ".html";
-
 fetch(ContentViewOut)
   .then(function (Lresponse) {
     // When the page is loaded convert it to text
@@ -35,10 +31,8 @@ fetch(ContentViewOut)
   .then(function (ContentViewHTML) {
     // Initialize the DOM parser
     var parser = new DOMParser();
-
     // Parse the text
     var ContentViewDoc = parser.parseFromString(ContentViewHTML, "text/html");
-
     // You can now even select part of that html as you would in the regular DOM
     // Example:
     var ContentViewArticle = ContentViewDoc.querySelector("html").innerHTML;
@@ -50,22 +44,18 @@ fetch(ContentViewOut)
       err
     );
   })
-
   //-----------------------------------------
   //Menu Creator Selector
   //-----------------------------------------
-
   .then(function () {
     console.warn("Sourceror: Constructing Menu...");
     const collection = document.querySelectorAll("h1,h2");
-
     function addElement(menuselector) {
       const newDiv = document.createElement("div");
       const newAnchor = document.createElement("a");
       const newContent = document.createTextNode(menuselector);
       document.querySelector(".sidenav").appendChild(newDiv);
       newDiv.appendChild(newAnchor);
-
       var jumplinkspec = menuselector.replace(/[^a-zA-Z0-9 ]/g, "");
       var jumplinkCap = "#" + jumplinkspec.replaceAll(" ", "-");
       var jumplink = jumplinkCap.toLowerCase();
@@ -81,12 +71,10 @@ fetch(ContentViewOut)
       }
       newAnchor.appendChild(newContent);
     }
-
     for (let i = 0; i < collection.length; i++) {
       const menuselector = collection.item(i).innerHTML;
       var headingtest = i;
       var elementtag = collection.item(i).tagName;
-
       addElement(menuselector);
     }
     console.warn("Sourceror: Menu Constructed.");
@@ -102,24 +90,18 @@ fetch(ContentViewOut)
       console.log("Menu Populated -> Status: Revealed");
     }
   });
-
 //-----------------------------------------
 //Sticky Menu Selector
 //-----------------------------------------
-
 // When the user scrolls the page, execute myFunction
 window.onscroll = function () {
   myFunction();
 };
-
 // Get the sidenav
 var sidenav = document.getElementById("sidenav");
-
 // Get the offset position of the sidenav
 var sticky = sidenav.offsetTop;
-
 var stickyos = sticky - 70;
-
 // Add the sticky class to the sidenav when you reach its scroll position. Remove "sticky" when you leave the scroll position
 function myFunction() {
   if (window.pageYOffset >= stickyos) {

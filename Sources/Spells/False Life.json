@@ -1,16 +1,225 @@
 {
-  "Name-in": "False Life",
-  "level-in": "1",
-  "Type-in": "Necromancy",
-  "components-in": "V, S, M (a small amount of alcohol or distilled spirits)",
-  "time-in": "1 action",
-  "range-in": "Self",
-  "duration-in": "1 hour",
-  "Source-in": "PHB",
-  "Page-in": "239",
-  "S0D-in": "Bolstering yourself with a necromantic facsimile of life,  you gain 1d4  + 4 temporary hit points for the duration.",
-  "entriesHigherLevel-in": "When you cast this spell using a spell slot of 2nd level or higher,  you gain 5 additional temporary hit points for each slot level above 1st.",
-  "class0-in": "Sorcerer",
-  "class1-in": "Wizard",
-  "class2-in": "Artificer"
+  "name": "False Life",
+  "source": "PHB",
+  "page": 239,
+  "srd": true,
+  "level": 1,
+  "school": "N",
+  "time": [
+    {
+      "number": 1,
+      "unit": "action"
+    }
+  ],
+  "range": {
+    "type": "point",
+    "distance": {
+      "type": "self"
+    }
+  },
+  "components": {
+    "v": true,
+    "s": true,
+    "m": "a small amount of alcohol or distilled spirits"
+  },
+  "duration": [
+    {
+      "type": "timed",
+      "duration": {
+        "type": "hour",
+        "amount": 1
+      }
+    }
+  ],
+  "entries": [
+    "Bolstering yourself with a necromantic facsimile of life, you gain {@dice 1d4 + 4} temporary hit points for the duration."
+  ],
+  "entriesHigherLevel": [
+    {
+      "type": "entries",
+      "name": "At Higher Levels",
+      "entries": [
+        "When you cast this spell using a spell slot of 2nd level or higher, you gain 5 additional temporary hit points for each slot level above 1st."
+      ]
+    }
+  ],
+  "miscTags": ["THP"],
+  "classes": {
+    "fromClassList": [
+      {
+        "name": "Sorcerer",
+        "source": "PHB"
+      },
+      {
+        "name": "Wizard",
+        "source": "PHB"
+      },
+      {
+        "name": "Artificer",
+        "source": "UAArtificer"
+      },
+      {
+        "name": "Artificer (Revisited)",
+        "source": "UAArtificerRevisited"
+      },
+      {
+        "name": "Artificer",
+        "source": "TCE"
+      }
+    ],
+    "fromSubclass": [
+      {
+        "class": {
+          "name": "Cleric",
+          "source": "PHB"
+        },
+        "subclass": {
+          "name": "Death Domain",
+          "shortName": "Death",
+          "source": "DMG"
+        }
+      },
+      {
+        "class": {
+          "name": "Cleric",
+          "source": "PHB"
+        },
+        "subclass": {
+          "name": "Grave Domain (UA)",
+          "shortName": "Grave (UA)",
+          "source": "UAClericDivineDomains"
+        }
+      },
+      {
+        "class": {
+          "name": "Cleric",
+          "source": "PHB"
+        },
+        "subclass": {
+          "name": "Grave Domain",
+          "shortName": "Grave",
+          "source": "XGE"
+        }
+      },
+      {
+        "class": {
+          "name": "Fighter",
+          "source": "PHB"
+        },
+        "subclass": {
+          "name": "Eldritch Knight",
+          "shortName": "Eldritch Knight",
+          "source": "PHB"
+        }
+      },
+      {
+        "class": {
+          "name": "Rogue",
+          "source": "PHB"
+        },
+        "subclass": {
+          "name": "Arcane Trickster",
+          "shortName": "Arcane Trickster",
+          "source": "PHB"
+        }
+      },
+      {
+        "class": {
+          "name": "Warlock",
+          "source": "PHB"
+        },
+        "subclass": {
+          "name": "The Undying",
+          "shortName": "Undying",
+          "source": "SCAG"
+        }
+      },
+      {
+        "class": {
+          "name": "Warlock",
+          "source": "PHB"
+        },
+        "subclass": {
+          "name": "The Raven Queen (UA)",
+          "shortName": "Raven Queen (UA)",
+          "source": "UAWarlockAndWizard"
+        }
+      },
+      {
+        "class": {
+          "name": "Warlock",
+          "source": "PHB"
+        },
+        "subclass": {
+          "name": "The Undead (UA)",
+          "shortName": "Undead (UA)",
+          "source": "UA2020SubclassesPt4"
+        }
+      },
+      {
+        "class": {
+          "name": "Warlock",
+          "source": "PHB"
+        },
+        "subclass": {
+          "name": "The Undead",
+          "shortName": "Undead",
+          "source": "VRGR"
+        }
+      }
+    ]
+  },
+  "optionalfeatures": [
+    {
+      "name": "Fiendish Vigor",
+      "source": "PHB",
+      "featureType": ["EI"]
+    }
+  ],
+  "feats": [
+    {
+      "name": "Aberrant Dragonmark",
+      "source": "ERLW"
+    },
+    {
+      "name": "Artificer Initiate",
+      "source": "TCE"
+    },
+    {
+      "name": "Shadow Touched",
+      "source": "TCE"
+    },
+    {
+      "name": "Artificer Initiate",
+      "source": "UA2020Feats"
+    },
+    {
+      "name": "Shadow Touched",
+      "source": "UA2020Feats"
+    },
+    {
+      "name": "Divinely Favored",
+      "source": "UA2022HeroesOfKrynn"
+    },
+    {
+      "name": "Initiate of High Sorcery",
+      "source": "UA2022HeroesOfKrynn"
+    },
+    {
+      "name": "Initiate of High Sorcery",
+      "source": "DSotDQ"
+    },
+    {
+      "name": "Initiate of High Sorcery",
+      "source": "UA2022HeroesOfKrynnRevisited"
+    },
+    {
+      "name": "Magic Initiate",
+      "source": "PHB"
+    },
+    {
+      "name": "Strixhaven Initiate",
+      "source": "SCC"
+    }
+  ]
 }

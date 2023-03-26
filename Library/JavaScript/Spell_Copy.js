@@ -34,28 +34,28 @@ function checktype(type) {
   return checktype;
 }
 function showInput() {
-  document.getElementById("SpellImage").setAttribute("src", "");
+  document.getElementById("spellImage").setAttribute("src", "");
   document.getElementById("concentration-out").setAttribute("src", "");
-  document.getElementById("SaveIcon-out").setAttribute("src", "");
-  document.getElementById("Name-out").innerHTML =
-    document.getElementById("Name-in").value;
+  document.getElementById("saveIcon-out").setAttribute("src", "");
+  document.getElementById("name-out").innerHTML =
+    document.getElementById("name").value;
   document.getElementById("SLvlType-out").innerHTML =
-    checklevel(document.getElementById("level-in").value) +
+    checklevel(document.getElementById("level").value) +
     " " +
     "-" +
     " " +
-    document.getElementById("Type-in").value;
+    document.getElementById("type").value;
   document
-    .getElementById("SpellImage")
-    .setAttribute("src", checktype(document.getElementById("Type-in").value));
+    .getElementById("spellImage")
+    .setAttribute("src", checktype(document.getElementById("type").value));
   document.getElementById("time-out").innerHTML =
-    document.getElementById("time-in").value;
+    document.getElementById("time").value;
   document.getElementById("range-out").innerHTML =
-    document.getElementById("range-in").value;
+    document.getElementById("range").value;
   document.getElementById("components-out").innerHTML =
-    document.getElementById("components-in").value;
-  var Concentration = document.getElementById("concentration-in").value;
-  var Duration = document.getElementById("duration-in").value;
+    document.getElementById("components").value;
+  var Concentration = document.getElementById("concentration").value;
+  var Duration = document.getElementById("duration").value;
   if (Concentration == "Yes") {
     console.log("Sorcerer: This spell requires some serious concentration...");
     document
@@ -75,114 +75,114 @@ function showInput() {
       .setAttribute("class", "hidden");
     document.getElementById("duration-out").innerHTML = Duration;
   }
-  if (document.getElementById("savingThrow-in").value == "") {
-    document.getElementById("Save_heading").innerHTML = "Attack/Save: ";
+  if (document.getElementById("savingThrow").value == "") {
+    document.getElementById("save-heading").innerHTML = "Attack/Save: ";
     document.getElementById("savingThrow-out").innerHTML = "--";
-  } else if (document.getElementById("savingThrow-in").value == "Ranged") {
-    document.getElementById("Save_heading").innerHTML = "Attack Type: ";
+  } else if (document.getElementById("savingThrow").value == "Ranged") {
+    document.getElementById("save-heading").innerHTML = "Attack Type: ";
     document.getElementById("savingThrow-out").innerHTML =
-      document.getElementById("savingThrow-in").value;
+      document.getElementById("savingThrow").value;
     document
-      .getElementById("SaveIcon-out")
+      .getElementById("saveIcon-out")
       .setAttribute("src", "/Library/SpellIcons/ranged.png");
-    document.getElementById("SaveIcon-out").setAttribute("class", "icon");
-  } else if (document.getElementById("savingThrow-in").value == "Melee") {
-    document.getElementById("Save_heading").innerHTML = "Attack Type: ";
+    document.getElementById("saveIcon-out").setAttribute("class", "icon");
+  } else if (document.getElementById("savingThrow").value == "Melee") {
+    document.getElementById("save-heading").innerHTML = "Attack Type: ";
     document.getElementById("savingThrow-out").innerHTML =
-      document.getElementById("savingThrow-in").value;
+      document.getElementById("savingThrow").value;
     document
-      .getElementById("SaveIcon-out")
+      .getElementById("saveIcon-out")
       .setAttribute("src", "/Library/SpellIcons/melee.png");
-    document.getElementById("SaveIcon-out").setAttribute("class", "icon");
+    document.getElementById("saveIcon-out").setAttribute("class", "icon");
   } else {
-    document.getElementById("Save_heading").innerHTML = "Saving Throw: ";
+    document.getElementById("save-heading").innerHTML = "Saving Throw: ";
     document.getElementById("savingThrow-out").innerHTML =
-      document.getElementById("savingThrow-in").value;
+      document.getElementById("savingThrow").value;
     document
-      .getElementById("SaveIcon-out")
+      .getElementById("saveIcon-out")
       .setAttribute("src", "/Library/SpellIcons/melee.png");
-    document.getElementById("SaveIcon-out").setAttribute("class", "hidden");
+    document.getElementById("saveIcon-out").setAttribute("class", "hidden");
   }
   document.getElementById("S0H-out").innerHTML =
-    document.getElementById("S0H-in").value;
+    document.getElementById("S0H").value;
   document.getElementById("S0D-out").innerHTML =
-    document.getElementById("S0D-in").value;
+    document.getElementById("S0D").value;
   document.getElementById("S1H-out").innerHTML =
-    document.getElementById("S1H-in").value;
+    document.getElementById("S1H").value;
   document.getElementById("S1D-out").innerHTML =
-    document.getElementById("S1D-in").value;
+    document.getElementById("S1D").value;
   document.getElementById("S2H-out").innerHTML =
-    document.getElementById("S2H-in").value;
+    document.getElementById("S2H").value;
   document.getElementById("S2D-out").innerHTML =
-    document.getElementById("S2D-in").value;
+    document.getElementById("S2D").value;
   document.getElementById("S3H-out").innerHTML =
-    document.getElementById("S3H-in").value;
+    document.getElementById("S3H").value;
   document.getElementById("S3D-out").innerHTML =
-    document.getElementById("S3D-in").value;
+    document.getElementById("S3D").value;
   document.getElementById("S4H-out").innerHTML =
-    document.getElementById("S4H-in").value;
+    document.getElementById("S4H").value;
   document.getElementById("S4D-out").innerHTML =
-    document.getElementById("S4D-in").value;
+    document.getElementById("S4D").value;
   document.getElementById("S5H-out").innerHTML =
-    document.getElementById("S5H-in").value;
+    document.getElementById("S5H").value;
   document.getElementById("S5D-out").innerHTML =
-    document.getElementById("S5D-in").value;
+    document.getElementById("S5D").value;
   document.getElementById("S6H-out").innerHTML =
-    document.getElementById("S6H-in").value;
+    document.getElementById("S6H").value;
   document.getElementById("S6D-out").innerHTML =
-    document.getElementById("S6D-in").value;
+    document.getElementById("S6D").value;
   document.getElementById("S7H-out").innerHTML =
-    document.getElementById("S7H-in").value;
+    document.getElementById("S7H").value;
   document.getElementById("S7D-out").innerHTML =
-    document.getElementById("S7D-in").value;
+    document.getElementById("S7D").value;
   document.getElementById("S8H-out").innerHTML =
-    document.getElementById("S8H-in").value;
+    document.getElementById("S8H").value;
   document.getElementById("S8D-out").innerHTML =
-    document.getElementById("S8D-in").value;
-  let output = document.getElementById("entriesHigherLevel-in").value;
+    document.getElementById("S8D").value;
+  let output = document.getElementById("entriesHigherLevel").value;
   if (output != "") {
     console.log("Sorcerer: Oh, this is a strong spell...");
-    document.getElementById("HigherLevelH-out").innerHTML = "At Higher Levels:";
+    document.getElementById("higherLevelH-out").innerHTML = "At Higher Levels:";
   } else {
     console.log("Sorcerer: This spell is for the weak...");
-    document.getElementById("HigherLevelH-out").innerHTML = "";
+    document.getElementById("higherLevelH-out").innerHTML = "";
   }
   document.getElementById("entriesHigherLevel-out").innerHTML =
-    document.getElementById("entriesHigherLevel-in").value;
+    document.getElementById("entriesHigherLevel").value;
   document.getElementById("class0-out").innerHTML =
-    document.getElementById("class0-in").value;
+    document.getElementById("class0").value;
   document.getElementById("class1-out").innerHTML =
-    document.getElementById("class1-in").value;
+    document.getElementById("class1").value;
   document.getElementById("class2-out").innerHTML =
-    document.getElementById("class2-in").value;
+    document.getElementById("class2").value;
   document.getElementById("class3-out").innerHTML =
-    document.getElementById("class3-in").value;
+    document.getElementById("class3").value;
   document.getElementById("class4-out").innerHTML =
-    document.getElementById("class4-in").value;
+    document.getElementById("class4").value;
   document.getElementById("class5-out").innerHTML =
-    document.getElementById("class5-in").value;
+    document.getElementById("class5").value;
   document.getElementById("class6-out").innerHTML =
-    document.getElementById("class6-in").value;
+    document.getElementById("class6").value;
 
-  var source = document.getElementById("Source-in").value.toUpperCase();
-  document.getElementById("Source-out").innerHTML =
-    document.getElementById("Source-in").value;
+  var source = document.getElementById("source").value.toUpperCase();
+  document.getElementById("source-out").innerHTML =
+    document.getElementById("source").value;
   if (source != "HOMEBREW") {
-    document.getElementById("Page-out").innerHTML =
-      "p" + document.getElementById("Page-in").value;
+    document.getElementById("page-out").innerHTML =
+      "p" + document.getElementById("page").value;
   } else {
-    document.getElementById("Page-out").innerHTML = "";
+    document.getElementById("page-out").innerHTML = "";
   }
-  document.getElementById("Source-out").removeAttribute("class");
-  document.getElementById("Source-out").classList.add("source");
+  document.getElementById("source-out").removeAttribute("class");
+  document.getElementById("source-out").classList.add("source");
 
   if (source == "HOMEBREW") {
-    document.getElementById("Source-out").classList.add("HMBW");
-    document.getElementById("Source-out").innerHTML = "Homebrew";
+    document.getElementById("source-out").classList.add("HMBW");
+    document.getElementById("source-out").innerHTML = "Homebrew";
   } else {
     document
-      .getElementById("Source-out")
-      .classList.add(document.getElementById("Source-in").value);
+      .getElementById("source-out")
+      .classList.add(document.getElementById("source").value);
   }
 }
 //EXPORT SOURCE CODE
@@ -200,7 +200,7 @@ document.getElementById("form-submit").addEventListener("click", (event) => {
   }
   let outputJson = JSON.stringify(outputObject); //turn the object into json
   var hiddenElement = document.createElement("a");
-  var filename = document.getElementById("Name-in").value;
+  var filename = document.getElementById("Name").value;
   hiddenElement.href = "data:attachment/text," + encodeURI(outputJson);
   hiddenElement.target = "_blank";
   hiddenElement.download = filename + ".json";

@@ -243,9 +243,25 @@ dividers, here are the controls for each.
   border-bottom: 3px solid transparent;
   align-items: center;
 }
-.creatureDIV {
-  border-left: 550px solid #1d6673;
+
+.lineDIV {
+  margin: 0 auto 8px;
+  height: 2px;
+  width: 550px;
+  background-color: #1d6673;
+  align-items: center;
 }
+
+.creature {
+  background-color: #1d6673;
+}
+.item {
+  background-color: #098643;
+}
+.spell {
+  background-color: #781464;
+}
+
 .spellDIV {
   border-left: 515px solid #781464;
 }
@@ -267,13 +283,7 @@ dividers, here are the controls for each.
   width: 300px;
   background-color: #860954;
 }
-.greenline {
-  margin-top: 0 auto;
-  height: 4px;
-  width: 100%;
-  background-color: #098643;
-  align-items: center;
-}
+
 .greyline {
   background-color: #484848;
   margin-top: 2px;

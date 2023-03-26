@@ -1,17 +1,152 @@
 {
-  "Name-in": "Lightning Bolt",
-  "level-in": "3",
-  "Type-in": "Evocation",
-  "components-in": "V, S, M (a bit of fur and a rod of amber, crystal, or glass)",
-  "time-in": "1 action",
-  "range-in": "100 feet",
-  "duration-in": "Instant",
-  "savingThrow-in": "dexterity",
-  "Source-in": "PHB",
-  "Page-in": "255",
-  "S0D-in": "A stroke of lightning forming a line 100 feet long and 5 feet wide blasts out from you in a direction you choose. Each creature in the line must make a Dexterity saving throw. A creature takes 8d6 lightning damage on a failed save,  or half as much damage on a successful one.",
-  "S1D-in": "The lightning ignites flammable objects in the area that aren't being worn or carried.",
-  "entriesHigherLevel-in": "When you cast this spell using a spell slot of 4th level or higher,  the damage increases by 1d6 for each slot level above 3rd.",
-  "class0-in": "Sorcerer",
-  "class1-in": "Wizard"
+  "name": "Lightning Bolt",
+  "source": "PHB",
+  "page": 255,
+  "srd": true,
+  "basicRules": true,
+  "level": 3,
+  "school": "V",
+  "time": [
+    {
+      "number": 1,
+      "unit": "action"
+    }
+  ],
+  "range": {
+    "type": "line",
+    "distance": {
+      "type": "feet",
+      "amount": 100
+    }
+  },
+  "components": {
+    "v": true,
+    "s": true,
+    "m": "a bit of fur and a rod of amber, crystal, or glass"
+  },
+  "duration": [
+    {
+      "type": "instant"
+    }
+  ],
+  "entries": [
+    "A stroke of lightning forming a line 100 feet long and 5 feet wide blasts out from you in a direction you choose. Each creature in the line must make a Dexterity saving throw. A creature takes {@damage 8d6} lightning damage on a failed save, or half as much damage on a successful one.",
+    "The lightning ignites flammable objects in the area that aren't being worn or carried."
+  ],
+  "entriesHigherLevel": [
+    {
+      "type": "entries",
+      "name": "At Higher Levels",
+      "entries": [
+        "When you cast this spell using a spell slot of 4th level or higher, the damage increases by {@scaledamage 8d6|3-9|1d6} for each slot level above 3rd."
+      ]
+    }
+  ],
+  "damageInflict": ["lightning"],
+  "savingThrow": ["dexterity"],
+  "miscTags": ["OBJ"],
+  "areaTags": ["L"],
+  "classes": {
+    "fromClassList": [
+      {
+        "name": "Sorcerer",
+        "source": "PHB"
+      },
+      {
+        "name": "Wizard",
+        "source": "PHB"
+      }
+    ],
+    "fromSubclass": [
+      {
+        "class": {
+          "name": "Artificer",
+          "source": "TCE"
+        },
+        "subclass": {
+          "name": "Armorer (UA)",
+          "shortName": "Armorer (UA)",
+          "source": "UA2020SubclassesPt3"
+        }
+      },
+      {
+        "class": {
+          "name": "Artificer",
+          "source": "TCE"
+        },
+        "subclass": {
+          "name": "Armorer",
+          "shortName": "Armorer",
+          "source": "TCE"
+        }
+      },
+      {
+        "class": {
+          "name": "Cleric",
+          "source": "PHB"
+        },
+        "subclass": {
+          "name": "City Domain (UA)",
+          "shortName": "City (UA)",
+          "source": "UAModernMagic"
+        }
+      },
+      {
+        "class": {
+          "name": "Druid",
+          "source": "PHB"
+        },
+        "subclass": {
+          "name": "Circle of the Land",
+          "shortName": "Land",
+          "source": "PHB",
+          "subSubclass": "Mountain"
+        }
+      },
+      {
+        "class": {
+          "name": "Fighter",
+          "source": "PHB"
+        },
+        "subclass": {
+          "name": "Eldritch Knight",
+          "shortName": "Eldritch Knight",
+          "source": "PHB"
+        }
+      },
+      {
+        "class": {
+          "name": "Rogue",
+          "source": "PHB"
+        },
+        "subclass": {
+          "name": "Arcane Trickster",
+          "shortName": "Arcane Trickster",
+          "source": "PHB"
+        }
+      },
+      {
+        "class": {
+          "name": "Warlock",
+          "source": "PHB"
+        },
+        "subclass": {
+          "name": "The Lurker in the Deep (UA)",
+          "shortName": "Lurker in the Deep (UA)",
+          "source": "UASorcererAndWarlock"
+        }
+      },
+      {
+        "class": {
+          "name": "Warlock",
+          "source": "PHB"
+        },
+        "subclass": {
+          "name": "The Fathomless",
+          "shortName": "Fathomless",
+          "source": "TCE"
+        }
+      }
+    ]
+  }
 }

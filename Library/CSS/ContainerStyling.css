@@ -164,7 +164,7 @@ These are the various grid containers used across the site:
   margin: 0 auto;
   font-family: Garamond, serif;
   font-weight: 700;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   padding-top: 1%;
   padding-left: 2%;
   padding-bottom: 1%;
@@ -257,4 +257,45 @@ These are the various grid containers used across the site:
   font-size: 0.7rem;
   margin-left: 1px;
   display: inline-flex;
+}
+
+/* Style the list view content. */
+table {
+  margin-bottom: 25px;
+  margin-top: 10px;
+}
+table,
+td,
+th {
+  border: 1px solid #eceae8;
+  border-collapse: collapse;
+}
+table,
+td {
+  font-family: roboto;
+}
+thead {
+  border-bottom: 3px solid #d0cac5;
+}
+tbody,
+th {
+  text-align: left;
+  padding: 5px 10px;
+  min-width: 50px;
+}
+th {
+  background-color: #fff;
+  font-family: Roboto-bold;
+}
+hr {
+  border-top: 1px solid #555;
+}
+td {
+  padding: 3px 10px;
+}
+tr:nth-child(even) {
+  background-color: #f1f4f1;
+}
+tr:nth-child(odd) {
+  background-color: #e5e5e5;
 }

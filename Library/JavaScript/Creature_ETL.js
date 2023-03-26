@@ -30,14 +30,39 @@ function checkalignment(alignment) {
   return checkalignment;
 }
 // ---------------------------------------------------------------------------------------------------------
-//IMPORT SOURCECODE
+//IMPORT FROM URL
+const queryString = window.location.search;
+const urlParams = new URLSearchParams(queryString);
+const FileName = urlParams.get("FileName");
+console.log(
+  "Librarians: Looking in the 'Bestiary' section, for '" + FileName + "'"
+);
+document.getElementById("creatureform").reset();
+console.warn("Cleric: Casting Prestidigitation On Form...");
+let ContentViewOut = fetch(
+  "http://localhost:8080/Sources/Creatures/" + FileName + ".json"
+)
+  .then(function (urlOUTPUT) {
+    return urlOUTPUT.text();
+  })
+  .then(function (etl) {
+    const text = etl;
+    const obj = JSON.parse(text);
+    runETL(obj);
+  });
+// ---------------------------------------------------------------------------------------------------------
+//IMPORT FROM FILE
 async function readText(event) {
   document.getElementById("creatureform").reset();
   console.warn("Cleric: Casting Prestidigitation On Form...");
   const file = event.target.files.item(0);
   const text = await file.text();
   const obj = JSON.parse(text);
-  // ---------------------------------------------------------------------------------------------------------
+  runETL(obj);
+}
+// ---------------------------------------------------------------------------------------------------------
+//EXTRACT TRANSFORM & LOAD
+function runETL(obj) {
   //CUSTOM JSON LOADER
   if (obj.cr == undefined) {
     console.warn("Cleric: Summoning Custom Shell");
@@ -67,18 +92,18 @@ async function readText(event) {
     console.log(obj);
     var object = {};
     // ---------------------------------------------------------------------------------------------------------
-    if (obj.type.type == undefined) {
-      var type = obj.type;
-    } else {
+    if (obj.type.type != undefined) {
       var type = obj.type.type;
-    }
-    if (obj.type.tags == undefined) {
-      var tags = "";
     } else {
-      var tags = " (" + obj.type.tags + ")";
+      var type = obj.type;
     }
-    var typetag = type + tags;
+    if (obj.type.tags != undefined) {
+      var tags = obj.type.tags;
+    } else {
+      var tags = "";
+    }
     // ---------------------------------------------------------------------------------------------------------
+    // CREATURE CORE INFO
     if (obj.ac[0].ac == undefined) {
       var ac = obj.ac[0];
     } else {
@@ -101,17 +126,19 @@ async function readText(event) {
       var alignClassOut = "";
     }
     // ---------------------------------------------------------------------------------------------------------
+    // CREATURE SPEED
     if (obj.speed.walk >= 0) {
       var walk = obj.speed.walk + " ft.";
     } else {
       var walk = "";
     }
-
-    if (obj.speed.fly.number != undefined) {
-      var fly =
-        ", fly " + obj.speed.fly.number + " ft. " + obj.speed.fly.condition;
-    } else if (obj.speed.fly > 0) {
-      var fly = ", fly " + obj.speed.fly + " ft.";
+    if (obj.speed.fly != undefined) {
+      if (obj.speed.fly.number != undefined) {
+        var fly =
+          ", fly " + obj.speed.fly.number + " ft. " + obj.speed.fly.condition;
+      } else if (obj.speed.fly > 0) {
+        var fly = ", fly " + obj.speed.fly + " ft.";
+      }
     } else {
       var fly = "";
     }
@@ -132,6 +159,7 @@ async function readText(event) {
       var speed = rawspeed;
     }
     // ---------------------------------------------------------------------------------------------------------
+    // CREATURE STATS
     if (obj.save == null) {
       var saves = undefined;
     } else {
@@ -179,76 +207,33 @@ async function readText(event) {
       var langOut = datacleanse(obj.languages);
     }
     // ---------------------------------------------------------------------------------------------------------
-    if (obj.trait == undefined) {
-      console.log("Traits Undefined");
-    } else {
-      if (obj.trait[0] == null) {
-        var T1H = undefined;
-        var T1D = undefined;
-      } else {
-        var T1H = obj.trait[0].name;
-        var T1D = datacleanse(obj.trait[0].entries).replace(/\{.*\|0\|/g, "");
-      }
-      if (obj.trait[1] == null) {
-        var T2H = undefined;
-        var T2D = undefined;
-      } else {
-        var T2H = obj.trait[1].name;
-        var T2D = datacleanse(obj.trait[1].entries).replace(/\{.*\|0\|/g, "");
-      }
-      if (obj.trait[2] == null) {
-        var T3H = undefined;
-        var T3D = undefined;
-      } else {
-        var T3H = obj.trait[2].name;
-        var T3D = datacleanse(obj.trait[2].entries).replace(/\{.*\|0\|/g, "");
-      }
-      if (obj.trait[3] == null) {
-        var T4H = undefined;
-        var T4D = undefined;
-      } else {
-        var T4H = obj.trait[3].name;
-        var T4D = datacleanse(obj.trait[3].entries).replace(/\{.*\|0\|/g, "");
+    // CREATURE TRAITS
+    let traitsOut = [];
+    var traitsList = obj.trait;
+    var traitsLength = traitsList.length;
+    if (obj.trait != undefined) {
+      for (var i = 0; i < traitsLength; i++) {
+        if (traitsList[i].name != undefined) {
+          traitsOut.push({
+            name: traitsList[i].name,
+            data: datacleanse(obj.trait[0].entries).replace(/\{.*\|0\|/g, ""),
+          });
+        }
       }
     }
     // ---------------------------------------------------------------------------------------------------------
-    if (obj.action == undefined) {
-      console.log("Actions Undefined");
-    } else {
-      if (obj.action[0] == null) {
-        var A1H = undefined;
-        var A1D = undefined;
-      } else {
-        var A1H = obj.action[0].name.replace(/\{@r/, "(R").replace(/\}/, ")");
-        var A1D = datacleanse(obj.action[0].entries);
-      }
-      if (obj.action[1] == null) {
-        var A2H = undefined;
-        var A2D = undefined;
-      } else {
-        var A2H = obj.action[1].name.replace(/\{@r/, "(R").replace(/\}/, ")");
-        var A2D = datacleanse(obj.action[1].entries);
-      }
-      if (obj.action[2] == null) {
-        var A3H = undefined;
-        var A3D = undefined;
-      } else {
-        var A3H = obj.action[2].name.replace(/\{@r/, "(R").replace(/\}/, ")");
-        var A3D = datacleanse(obj.action[2].entries);
-      }
-      if (obj.action[3] == null) {
-        var A4H = undefined;
-        var A4D = undefined;
-      } else {
-        var A4H = obj.action[3].name.replace(/\{@r/, "(R").replace(/\}/, ")");
-        var A4D = datacleanse(obj.action[3].entries);
-      }
-      if (obj.action[4] == null) {
-        var A5H = undefined;
-        var A5D = undefined;
-      } else {
-        var A5H = obj.action[4].name.replace(/\{@r/, "(R").replace(/\}/, ")");
-        var A5D = datacleanse(obj.action[4].entries);
+    // CREATURE ACTIONS
+    let actionsOut = [];
+    var actionsList = obj.action;
+    var actionsLength = actionsList.length;
+    if (obj.action != undefined) {
+      for (var i = 0; i < actionsLength; i++) {
+        if (actionsList[i].name != undefined) {
+          actionsOut.push({
+            name: actionsList[i].name.replace(/\{@r/, "(R").replace(/\}/, ")"),
+            data: datacleanse(obj.action[0].entries),
+          });
+        }
       }
     }
     // ---------------------------------------------------------------------------------------------------------
@@ -319,71 +304,66 @@ async function readText(event) {
       }
       var rawCasterInnate = Caster + Innate;
       if (rawCasterInnate.charAt(0) == "/") {
-        var CasterInnate = rawCasterInnate.slice(2);
+        var CasterInnate = rawCasterInnate.slice(1);
       } else {
         var CasterInnate = rawCasterInnate;
       }
     }
     // ---------------------------------------------------------------------------------------------------------
-    object["Name-in"] = obj["name"];
-    object["Size-in"] = checksize(obj.size);
-    object["Type-in"] = typetag;
-    object["Alignment-in"] = alignTypeOut + " " + alignClassOut;
-    object["AC-in"] = ac + from;
-    object["HP-in"] = obj.hp.average + " (" + obj.hp.formula + ")";
-    object["FT-in"] = speed;
-    object["STR-in"] = obj["str"];
-    object["DEX-in"] = obj["dex"];
-    object["CON-in"] = obj["con"];
-    object["INT-in"] = obj["int"];
-    object["WIS-in"] = obj["wis"];
-    object["CHA-in"] = obj["cha"];
-    object["Saves-in"] = saves;
-    object["Skills-in"] = skills;
-    object["Resist-in"] = resists;
-    object["Immune-in"] = immunes;
-    object["Vulnerable-in"] = vulnerables;
-    object["conditionImmune-in"] = ConImmune;
-    object["Senses-in"] = sensesOut;
-    object["languages-in"] = langOut;
-    object["T1H-in"] = T1H;
-    object["T1D-in"] = T1D;
-    object["T2H-in"] = T2H;
-    object["T2D-in"] = T2D;
-    object["T3H-in"] = T3H;
-    object["T3D-in"] = T3D;
-    object["T4H-in"] = T4H;
-    object["T4D-in"] = T4D;
-    object["A1H-in"] = A1H;
-    object["A1D-in"] = A1D;
-    object["A2H-in"] = A2H;
-    object["A2D-in"] = A2D;
-    object["A3H-in"] = A3H;
-    object["A3D-in"] = A3D;
-    object["A4H-in"] = A4H;
-    object["A4D-in"] = A4D;
-    object["A5H-in"] = A5H;
-    object["A5D-in"] = A5D;
-    object["CasterInnate-in"] = CasterInnate;
-    object["innateheaderentry-in"] = headerentryI;
-    object["spellheaderentry-in"] = headerentryS;
-    object["cantrip-in"] = cantrips;
-    object["lvl1slots-in"] = lvl1slots;
-    object["lvl1spells-in"] = lvl1spells;
-    object["lvl2slots-in"] = lvl2slots;
-    object["lvl2spells-in"] = lvl2spells;
-    object["lvl3slots-in"] = lvl3slots;
-    object["lvl3spells-in"] = lvl3spells;
-    object["lvl4slots-in"] = lvl4slots;
-    object["lvl4spells-in"] = lvl4spells;
-    object["lvl5slots-in"] = lvl5slots;
-    object["lvl5spells-in"] = lvl5spells;
-    object["atwill-in"] = will;
-    object["daily1e-in"] = daily1e;
-    object["daily2e-in"] = daily2e;
-    object["daily3e-in"] = daily3e;
-    object["innatefooterentry-in"] = footerentryI;
-    object["spellfooterentry-in"] = footerentryS;
+    object["name"] = obj["name"];
+    object["size"] = checksize(obj.size);
+    object["source"] = obj["source"];
+    object["page"] = obj["page"];
+    object["type"] = type;
+    object["tags"] = tags;
+    object["alignment"] = alignTypeOut + " " + alignClassOut;
+    object["ac"] = ac + from;
+    object["hp"] = obj.hp.average + " (" + obj.hp.formula + ")";
+    object["speed"] = speed;
+    object["STR"] = obj["str"];
+    object["DEX"] = obj["dex"];
+    object["CON"] = obj["con"];
+    object["INT"] = obj["int"];
+    object["WIS"] = obj["wis"];
+    object["CHA"] = obj["cha"];
+    object["saves"] = saves;
+    object["skills"] = skills;
+    object["resist"] = resists;
+    object["immune"] = immunes;
+    object["vulnerable"] = vulnerables;
+    object["conditionImmune"] = ConImmune;
+    object["senses"] = sensesOut;
+    object["languages"] = langOut;
+    var traitsOutLength = traitsOut.length;
+    for (var i = 0; i < traitsOutLength; i++) {
+      object["T" + [i] + "H"] = traitsOut[i].name;
+      object["T" + [i] + "D"] = traitsOut[i].data;
+    }
+    var actionsOutLength = actionsOut.length;
+    for (var i = 0; i < actionsOutLength; i++) {
+      object["A" + [i] + "H"] = actionsOut[i].name;
+      object["A" + [i] + "D"] = actionsOut[i].data;
+    }
+    object["CasterInnate"] = CasterInnate;
+    object["innateHeaderEntry"] = headerentryI;
+    object["spellHeaderEntry"] = headerentryS;
+    object["cantrip"] = cantrips;
+    object["lvl1slots"] = lvl1slots;
+    object["lvl1spells"] = lvl1spells;
+    object["lvl2slots"] = lvl2slots;
+    object["lvl2spells"] = lvl2spells;
+    object["lvl3slots"] = lvl3slots;
+    object["lvl3spells"] = lvl3spells;
+    object["lvl4slots"] = lvl4slots;
+    object["lvl4spells"] = lvl4spells;
+    object["lvl5slots"] = lvl5slots;
+    object["lvl5spells"] = lvl5spells;
+    object["atWill"] = will;
+    object["daily1e"] = daily1e;
+    object["daily2e"] = daily2e;
+    object["daily3e"] = daily3e;
+    object["innateFooterEntry"] = footerentryI;
+    object["spellFooterEntry"] = footerentryS;
     console.log(object);
     // ---------------------------------------------------------------------------------------------------------
     // Extract File

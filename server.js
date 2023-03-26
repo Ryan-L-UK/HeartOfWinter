@@ -19,14 +19,16 @@ app.get("/", (req, res) => {
 
 app.get("/folders/*", (req, res) => {
   console.log(req.path);
-  readDirectory("\\" + req.path.replace("/folders/", ""), res);
+  readDirectory("/" + req.path.replace("/folders/", ""), res);
 });
 
 app.use("/Pages", express.static("Pages"));
 app.use("/Sources", express.static("Sources"));
 app.use("/Library", express.static("Library"));
 
-app.listen(port, () => console.log(`Example app listening on port ${port}!`));
+app.listen(port, () =>
+  console.log("Server started successfully, do not close this terminal")
+);
 
 function readDirectory(folder, res) {
   console.log(folder);

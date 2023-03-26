@@ -1,17 +1,182 @@
 {
-  "Name-in": "Vampiric Touch",
-  "level-in": "3",
-  "Type-in": "Necromancy",
-  "concentration-in": "Yes",
-  "components-in": "V, S",
-  "time-in": "1 action",
-  "range-in": "Self",
-  "duration-in": "1 minute",
-  "savingThrow-in": "",
-  "Source-in": "PHB",
-  "Page-in": "285",
-  "S0D-in": "The touch of your shadow-wreathed hand can siphon life force from others to heal your wounds. Make a melee spell attack against a creature within your reach. On a hit,  the target takes 3d6 necrotic damage,  and you regain hit points equal to half the amount of necrotic damage dealt. Until the spell ends,  you can make the attack again on each of your turns as an action.",
-  "entriesHigherLevel-in": "When you cast this spell using a spell slot of 4th level or higher,  the damage increases by 1d6 for each slot level above 3rd.",
-  "class0-in": "Warlock",
-  "class1-in": "Wizard"
+  "name": "Vampiric Touch",
+  "source": "PHB",
+  "page": 285,
+  "srd": true,
+  "level": 3,
+  "school": "N",
+  "time": [
+    {
+      "number": 1,
+      "unit": "action"
+    }
+  ],
+  "range": {
+    "type": "point",
+    "distance": {
+      "type": "self"
+    }
+  },
+  "components": {
+    "v": true,
+    "s": true
+  },
+  "duration": [
+    {
+      "type": "timed",
+      "duration": {
+        "type": "minute",
+        "amount": 1
+      },
+      "concentration": true
+    }
+  ],
+  "entries": [
+    "The touch of your shadow-wreathed hand can siphon life force from others to heal your wounds. Make a melee spell attack against a creature within your reach. On a hit, the target takes {@damage 3d6} necrotic damage, and you regain hit points equal to half the amount of necrotic damage dealt. Until the spell ends, you can make the attack again on each of your turns as an action."
+  ],
+  "entriesHigherLevel": [
+    {
+      "type": "entries",
+      "name": "At Higher Levels",
+      "entries": [
+        "When you cast this spell using a spell slot of 4th level or higher, the damage increases by {@scaledamage 3d6|3-9|1d6} for each slot level above 3rd."
+      ]
+    }
+  ],
+  "damageInflict": ["necrotic"],
+  "spellAttack": ["M"],
+  "miscTags": ["HL"],
+  "areaTags": ["ST"],
+  "classes": {
+    "fromClassList": [
+      {
+        "name": "Warlock",
+        "source": "PHB"
+      },
+      {
+        "name": "Wizard",
+        "source": "PHB"
+      }
+    ],
+    "fromClassListVariant": [
+      {
+        "name": "Sorcerer",
+        "source": "PHB",
+        "definedInSource": "UAClassFeatureVariants"
+      },
+      {
+        "name": "Sorcerer",
+        "source": "PHB",
+        "definedInSource": "TCE"
+      }
+    ],
+    "fromSubclass": [
+      {
+        "class": {
+          "name": "Cleric",
+          "source": "PHB"
+        },
+        "subclass": {
+          "name": "Death Domain",
+          "shortName": "Death",
+          "source": "DMG"
+        }
+      },
+      {
+        "class": {
+          "name": "Cleric",
+          "source": "PHB"
+        },
+        "subclass": {
+          "name": "Grave Domain (UA)",
+          "shortName": "Grave (UA)",
+          "source": "UAClericDivineDomains"
+        }
+      },
+      {
+        "class": {
+          "name": "Cleric",
+          "source": "PHB"
+        },
+        "subclass": {
+          "name": "Ambition Domain (PSA)",
+          "shortName": "Ambition (PSA)",
+          "source": "PSA"
+        }
+      },
+      {
+        "class": {
+          "name": "Cleric",
+          "source": "PHB"
+        },
+        "subclass": {
+          "name": "Grave Domain",
+          "shortName": "Grave",
+          "source": "XGE"
+        }
+      },
+      {
+        "class": {
+          "name": "Druid",
+          "source": "PHB"
+        },
+        "subclass": {
+          "name": "Mage of Witherbloom (UA)",
+          "shortName": "Witherbloom (UA)",
+          "source": "UA2021MagesOfStrixhaven"
+        }
+      },
+      {
+        "class": {
+          "name": "Fighter",
+          "source": "PHB"
+        },
+        "subclass": {
+          "name": "Eldritch Knight",
+          "shortName": "Eldritch Knight",
+          "source": "PHB"
+        }
+      },
+      {
+        "class": {
+          "name": "Rogue",
+          "source": "PHB"
+        },
+        "subclass": {
+          "name": "Arcane Trickster",
+          "shortName": "Arcane Trickster",
+          "source": "PHB"
+        }
+      },
+      {
+        "class": {
+          "name": "Sorcerer",
+          "source": "PHB"
+        },
+        "subclass": {
+          "name": "Lunar Sorcery",
+          "shortName": "Lunar",
+          "source": "DSotDQ",
+          "subSubclass": "New Moon"
+        }
+      },
+      {
+        "class": {
+          "name": "Warlock",
+          "source": "PHB"
+        },
+        "subclass": {
+          "name": "Mage of Witherbloom (UA)",
+          "shortName": "Witherbloom (UA)",
+          "source": "UA2021MagesOfStrixhaven"
+        }
+      }
+    ]
+  },
+  "backgrounds": [
+    {
+      "name": "Witherbloom Student",
+      "source": "SCC"
+    }
+  ]
 }

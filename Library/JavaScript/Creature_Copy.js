@@ -8,21 +8,33 @@ function checkstatrole(modifier) {
   return modifier + " (" + symbol + output + ")";
 }
 // ---------------------------------------------------------------------------------------------------------
-function checkskillset(skill) {
-  var checkskill = "";
+function checkheader(header) {
+  var headerout = "";
   var lookup = {
     "": "Error",
-    Saves: "Saving Throws:",
-    Skills: "Skills:",
-    Resist: "Damage Resistances:",
-    Immune: "Damage Immunities:",
-    Vulnerable: "Damage Vulnerabilities:",
+    saves: "Saving Throws:",
+    skills: "Skills:",
+    resist: "Damage Resistances:",
+    immune: "Damage Immunities:",
+    vulnerable: "Damage Vulnerabilities:",
     conditionImmune: "Condition Immunities:",
-    Senses: "Senses:",
+    senses: "Senses:",
     languages: "Languages:",
+    innateHeaderEntry: "Innate.",
+    spellHeaderEntry: "Spellcasting.",
+    atWill: "At will: ",
+    daily1e: "1/Day Each: ",
+    daily2e: "2/Day Each: ",
+    daily3e: "3/Day Each: ",
+    cantrip: "Cantrips (at will): ",
+    lvl1slots: "1st Level (",
+    lvl2slots: "2nd Level (",
+    lvl3slots: "3rd Level (",
+    lvl4slots: "4th Level (",
+    lvl5slots: "5th Level (",
   };
-  checkskill = lookup[skill];
-  return checkskill;
+  headerout = lookup[header];
+  return headerout;
 }
 // ---------------------------------------------------------------------------------------------------------
 function showInput() {
@@ -36,50 +48,60 @@ function showInput() {
   //---------------
   //Function Start
   var form = new FormData(document.getElementById("creatureform"));
-  const stats = ["STR-in", "DEX-in", "CON-in", "INT-in", "WIS-in", "CHA-in"];
+  const stats = ["STR", "DEX", "CON", "INT", "WIS", "CHA"];
   const skills = [
-    "Saves",
-    "Skills",
-    "Resist",
-    "Immune",
-    "Vulnerable",
+    "saves",
+    "skills",
+    "resist",
+    "immune",
+    "vulnerable",
     "conditionImmune",
-    "Senses",
+    "senses",
     "languages",
   ];
   const ignore = [
-    "spellheaderentry-in",
-    "spellfooterentry-in",
-    "cantrip-in",
-    "lvl1slots-in",
-    "lvl2slots-in",
-    "lvl3slots-in",
-    "lvl4slots-in",
-    "lvl5slots-in",
-    "lvl1spells-in",
-    "lvl2spells-in",
-    "lvl3spells-in",
-    "lvl4spells-in",
-    "lvl5spells-in",
-    "spellheaderentry-in",
-    "spellfooterentry-in",
-    "atwill-in",
-    "daily1e-in",
-    "daily2e-in",
-    "daily3e-in",
+    "source",
+    "page",
+    "spellHeaderEntry",
+    "spellFooterEntry",
+    "cantrip",
+    "lvl1slots",
+    "lvl2slots",
+    "lvl3slots",
+    "lvl4slots",
+    "lvl5slots",
+    "lvl1spells",
+    "lvl2spells",
+    "lvl3spells",
+    "lvl4spells",
+    "lvl5spells",
+    "innateHeaderEntry",
+    "innateFooterEntry",
+    "atWill",
+    "daily1e",
+    "daily2e",
+    "daily3e",
   ];
   skills.forEach(function (skill) {
-    if (document.getElementById(skill + "-in").value != "") {
-      document.getElementById(skill + "H-out").innerHTML = checkskillset(skill);
+    if (document.getElementById(skill).value != "") {
+      document.getElementById(skill + "H-out").innerHTML = checkheader(skill);
     }
   });
   for (var [key, value] of form) {
     if (ignore.indexOf(key) >= 0) {
       //do nothing
+    } else if (key == "tags") {
+      if (value != "") {
+        document.getElementById(key + "-out").innerHTML =
+          "(" + document.getElementById(key).value + "), ";
+      } else {
+        document.getElementById(key + "-out").innerHTML = ",";
+      }
     } else if (stats.indexOf(key) >= 0) {
-      document.getElementById(key.replace("-in", "-out")).innerHTML =
-        checkstatrole(document.getElementById(key).value);
-    } else if (key == "CasterInnate-in") {
+      document.getElementById(key + "-out").innerHTML = checkstatrole(
+        document.getElementById(key).value
+      );
+    } else if (key == "CasterInnate") {
       if (document.getElementById(key).value == "Spellcaster/Innate") {
         SpellCasterHeaders();
         InnateSpellsHeaders();
@@ -88,98 +110,98 @@ function showInput() {
       } else if (document.getElementById(key).value == "Innate") {
         InnateSpellsHeaders();
       } else {
-        //
+        //do nothing
       }
     } else {
-      document.getElementById(key.replace("-in", "-out")).innerHTML = [value];
+      document.getElementById(key + "-out").innerHTML = [value];
     }
   }
+  var source = document.getElementById("source").value.toUpperCase();
+  document.getElementById("source-out").innerHTML =
+    document.getElementById("source").value;
+  if (source != "HOMEBREW") {
+    document.getElementById("page-out").innerHTML =
+      "p" + document.getElementById("page").value;
+  } else {
+    document.getElementById("page-out").innerHTML = "";
+  }
+  document.getElementById("source-out").removeAttribute("class");
+  document.getElementById("source-out").classList.add("source");
+
+  if (source == "HOMEBREW") {
+    document.getElementById("source-out").classList.add("HMBW");
+    document.getElementById("source-out").innerHTML = "Homebrew";
+  } else {
+    document
+      .getElementById("source-out")
+      .classList.add(document.getElementById("source").value);
+  }
 }
+
 function SpellCasterHeaders() {
-  document.getElementById("spellheaderentry-out").innerHTML =
-    document.getElementById("spellheaderentry-in").value;
+  const slots = [
+    "spellHeaderEntry",
+    "cantrip",
+    "lvl1slots",
+    "lvl2slots",
+    "lvl3slots",
+    "lvl4slots",
+    "lvl5slots",
+  ];
   document.getElementById("spellbreak").classList.add("margin");
-  document.getElementById("CasterH-out").innerHTML = "Spellcasting.";
-  document.getElementById("spellheaderentry-out").innerHTML =
-    document.getElementById("spellheaderentry-in").value;
-  if (document.getElementById("cantrip-in").value != "") {
-    document.getElementById("CantripH-out").innerHTML = "Cantrips (at will): ";
-    document.getElementById("cantrip-out").innerHTML =
-      document.getElementById("cantrip-in").value;
-  }
-  if (document.getElementById("lvl1slots-in").value > 0) {
-    document.getElementById("lvl1spellsH").innerHTML =
-      "1st Level (" +
-      document.getElementById("lvl1slots-in").value +
-      " slots): ";
-    document.getElementById("lvl1spells-out").innerHTML =
-      document.getElementById("lvl1spells-in").value;
-  }
-  if (document.getElementById("lvl2slots-in").value > 0) {
-    document.getElementById("lvl2spellsH").innerHTML =
-      "2nd Level (" +
-      document.getElementById("lvl2slots-in").value +
-      " slots): ";
-    document.getElementById("lvl2spells-out").innerHTML =
-      document.getElementById("lvl2spells-in").value;
-  }
-  if (document.getElementById("lvl3slots-in").value > 0) {
-    document.getElementById("lvl3spellsH").innerHTML =
-      "3rd Level (" +
-      document.getElementById("lvl3slots-in").value +
-      " slots): ";
-    document.getElementById("lvl3spells-out").innerHTML =
-      document.getElementById("lvl3spells-in").value;
-  }
-  if (document.getElementById("lvl4slots-in").value > 0) {
-    document.getElementById("lvl4spellsH").innerHTML =
-      "4th Level (" +
-      document.getElementById("lvl4slots-in").value +
-      " slots): ";
-    document.getElementById("lvl4spells-out").innerHTML =
-      document.getElementById("lvl4spells-in").value;
-  }
-  if (document.getElementById("lvl5slots-in").value > 0) {
-    document.getElementById("lvl5spellsH").innerHTML =
-      "5th Level (" +
-      document.getElementById("lvl5slots-in").value +
-      " slots): ";
-    document.getElementById("lvl5spells-out").innerHTML =
-      document.getElementById("lvl5spells-in").value;
-  }
-  if (document.getElementById("spellfooterentry-in").value != null) {
-    document.getElementById("spellfooterentry-out").innerHTML =
-      document.getElementById("spellfooterentry-in").value;
-  }
+  slots.forEach(function (header) {
+    if (document.getElementById(header).value != 0) {
+      if (header == "spellHeaderEntry" || header == "cantrip") {
+        document.getElementById(header + "H-out").innerHTML =
+          checkheader(header);
+      } else {
+        document.getElementById(header + "H-out").innerHTML =
+          checkheader(header) +
+          document.getElementById(header).value +
+          " slots): ";
+      }
+      const fields = [
+        "spellHeaderEntry",
+        "cantrip",
+        "lvl1spells",
+        "lvl2spells",
+        "lvl3spells",
+        "lvl4spells",
+        "lvl5spells",
+        "spellFooterEntry",
+      ];
+      fields.forEach(function (fieldname) {
+        if (document.getElementById(fieldname).value != "") {
+          document.getElementById(fieldname + "-out").innerHTML =
+            document.getElementById(fieldname).value;
+        }
+      });
+      if (document.getElementById("spellFooterEntry").value != null) {
+        document.getElementById("spellFooterEntry-out").innerHTML =
+          document.getElementById("spellFooterEntry").value;
+      }
+    }
+  });
 }
 function InnateSpellsHeaders() {
-  document.getElementById("innateheaderentry-out").innerHTML =
-    document.getElementById("innateheaderentry-in").value;
+  const fields = [
+    "innateHeaderEntry",
+    "atWill",
+    "daily1e",
+    "daily2e",
+    "daily3e",
+  ];
   document.getElementById("innatebreak").classList.add("margin");
-  document.getElementById("InnateH-out").innerHTML = "Innate.";
-  if (document.getElementById("atwill-in").value != "") {
-    document.getElementById("atwillH-out").innerHTML = "At will: ";
-    document.getElementById("atwill-out").innerHTML =
-      document.getElementById("atwill-in").value;
-  }
-  if (document.getElementById("daily1e-in").value != "") {
-    document.getElementById("daily1eH").innerHTML = "1/Day Each: ";
-    document.getElementById("daily1e-out").innerHTML =
-      document.getElementById("daily1e-in").value;
-  }
-  if (document.getElementById("daily2e-in").value != "") {
-    document.getElementById("daily2eH").innerHTML = "2/Day Each: ";
-    document.getElementById("daily2e-out").innerHTML =
-      document.getElementById("daily2e-in").value;
-  }
-  if (document.getElementById("daily3e-in").value != "") {
-    document.getElementById("daily3eH").innerHTML = "3/Day Each: ";
-    document.getElementById("daily3e-out").innerHTML =
-      document.getElementById("daily3e-in").value;
-  }
-  if (document.getElementById("innatefooterentry-in").value != null) {
-    document.getElementById("innatefooterentry-out").innerHTML =
-      document.getElementById("innatefooterentry-in").value;
+  fields.forEach(function (header) {
+    if (document.getElementById(header).value != "") {
+      document.getElementById(header + "H-out").innerHTML = checkheader(header);
+      document.getElementById(header + "-out").innerHTML =
+        document.getElementById(header).value;
+    }
+  });
+  if (document.getElementById("innateFooterEntry").value != "") {
+    document.getElementById("innateFooterEntry-out").innerHTML =
+      document.getElementById("innateFooterEntry").value;
   }
 }
 //EXPORT SOURCE CODE
@@ -197,7 +219,7 @@ document.getElementById("form-submit").addEventListener("click", (event) => {
   }
   let outputJson = JSON.stringify(outputObject); //turn the object into json
   var hiddenElement = document.createElement("a");
-  var filename = document.getElementById("Name-in").value;
+  var filename = document.getElementById("Name").value;
   hiddenElement.href = "data:attachment/text," + encodeURI(outputJson);
   hiddenElement.target = "_blank";
   hiddenElement.download = filename + ".json";

@@ -1,6 +1,5 @@
 //-----------------------------------------
 //Menu Load
-//-----------------------------------------
 console.log("Wizard: Summoning menu...");
 fetch("http://localhost:8080/Library/Components/Menu.html")
   .then(function (Mresponse) {
@@ -10,10 +9,8 @@ fetch("http://localhost:8080/Library/Components/Menu.html")
   .then(function (MenuHTML) {
     // Initialize the DOM parser
     var parser = new DOMParser();
-
     // Parse the text
     var MenuDoc = parser.parseFromString(MenuHTML, "text/html");
-
     // You can now even select part of that html as you would in the regular DOM
     // Example:
     var MenuArticle = MenuDoc.querySelector("html").innerHTML;
@@ -23,10 +20,8 @@ fetch("http://localhost:8080/Library/Components/Menu.html")
   .catch(function (err) {
     console.log("Wizard: Casting Failure... ", err);
   });
-
 //-----------------------------------------
 //Footer Load
-//-----------------------------------------
 fetch("http://localhost:8080/Library/Components/Footer.html")
   .then(function (Fresponse) {
     console.log("Wizard: Summoning footer...");
@@ -36,10 +31,8 @@ fetch("http://localhost:8080/Library/Components/Footer.html")
   .then(function (FooterHTML) {
     // Initialize the DOM parser
     var parser = new DOMParser();
-
     // Parse the text
     var FooterDoc = parser.parseFromString(FooterHTML, "text/html");
-
     // You can now even select part of that html as you would in the regular DOM
     // Example:
     var FooterArticle = FooterDoc.querySelector("html").innerHTML;
@@ -49,13 +42,10 @@ fetch("http://localhost:8080/Library/Components/Footer.html")
   .catch(function (err) {
     console.log("Wizard: Casting Failure... ", err);
   });
-
 //-----------------------------------------
 //HTML2Canvas Columns
-//-----------------------------------------
-
 function takeshot() {
-  /* console.log("Artificier: Taking Notes...");
+  console.log("Artificier: Taking Notes...");
   document.getElementById("output").innerHTML = "";
   let div = document.getElementById("photo");
   html2canvas(div).then(function (canvas) {
@@ -65,19 +55,15 @@ function takeshot() {
     a.href = canvas
       .toDataURL("image/png")
       .replace("image/png", "image/octet-stream");
-    a.download = document.getElementById("Name-in").value + ".png";
+    a.download = document.getElementById("name").value + ".png";
     a.click();
   });
-*/
   console.log("Artificier: Notes Taken.");
 }
-
 //-----------------------------------------
 //COLLAPSABLE CONTAINERS
-//-----------------------------------------
 var coll = document.getElementsByClassName("collapsible");
 var i;
-
 for (i = 0; i < coll.length; i++) {
   coll[i].addEventListener("click", function () {
     this.classList.toggle("active");
@@ -91,7 +77,6 @@ for (i = 0; i < coll.length; i++) {
 }
 //-----------------------------------------
 //DATA CLEANSER
-//-----------------------------------------
 function datacleanse(rawdata) {
   var datacleanse = JSON.stringify(rawdata)
     .replace(/\[/g, "")
@@ -111,6 +96,7 @@ function datacleanse(rawdata) {
     .replace(/\{@scaledamage.*\|.*\|/g, "")
     .replace(/\{@quickref /g, "")
     .replace(/\{@item /g, "")
+    .replace(/\{@italic /g, "")
     .replace(/, immune\[/, "; ")
     .replace(/, note/, " ")
     .replace(/, condtrue/, "")

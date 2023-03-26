@@ -42,16 +42,16 @@
           <form id="spellform">
             <div class="whitecontainer">
               <div class="bodycontainer">
-                <h1 class="creaturename">Basic Details</h1>
+                <h1 class="indexheading">Basic Details</h1>
                 <br />
                 <div class="split-container">
                   <div class="fouronesplit">
                     <label>Spell Name:</label>
-                    <input type="text" id="Name-in" name="Name-in" />
+                    <input type="text" id="name" name="name" />
                   </div>
                   <div class="fouronesplit">
                     <label> Spell Level:</label><br />
-                    <input type="number" id="level-in" name="level-in" /><br />
+                    <input type="number" id="level" name="level" /><br />
                   </div>
                 </div>
                 <div class="tri-container">
@@ -60,8 +60,8 @@
                     <input
                       class="inputlist"
                       list="SpellTypes"
-                      id="Type-in"
-                      name="Type-in"
+                      id="type"
+                      name="type"
                     />
                     <datalist id="SpellTypes">
                       <option value="Abjuration"></option>
@@ -79,8 +79,8 @@
                     <input
                       class="inputlist"
                       list="Concentration"
-                      id="concentration-in"
-                      name="concentration-in"
+                      id="concentration"
+                      name="concentration"
                     />
                     <datalist id="Concentration">
                       <option value="Yes"></option>
@@ -91,35 +91,25 @@
                     <input
                       type="text"
                       size="7"
-                      id="components-in"
-                      name="components-in"
+                      id="components"
+                      name="components"
                     /><br />
                   </div>
                   <div class="col1">
                     <label>Casting Time:</label>
-                    <input
-                      type="text"
-                      size="7"
-                      id="time-in"
-                      name="time-in"
-                    /><br />
+                    <input type="text" size="7" id="time" name="time" /><br />
                   </div>
                   <div class="col2">
                     <label>Range:</label>
-                    <input
-                      type="text"
-                      size="7"
-                      id="range-in"
-                      name="range-in"
-                    /><br />
+                    <input type="text" size="7" id="range" name="range" /><br />
                   </div>
                   <div class="col3">
                     <label>Duration:</label>
                     <input
                       type="text"
                       size="7"
-                      id="duration-in"
-                      name="duration-in"
+                      id="duration"
+                      name="duration"
                     /><br />
                   </div>
                   <div class="col1">
@@ -127,8 +117,8 @@
                     <input
                       class="inputlist"
                       list="AttackSave"
-                      id="savingThrow-in"
-                      name="savingThrow-in"
+                      id="savingThrow"
+                      name="savingThrow"
                     />
                     <datalist id="AttackSave">
                       <option value="Melee"></option>
@@ -143,11 +133,11 @@
                   </div>
                   <div class="col2">
                     <label>Source:</label>
-                    <input type="text" id="Source-in" name="Source-in" />
+                    <input type="text" id="source" name="Source" />
                   </div>
                   <div class="col3">
                     <label>Page Number:</label>
-                    <input type="number" id="Page-in" name="Page-in" />
+                    <input type="number" id="page" name="Page" />
                   </div>
                 </div>
               </div>
@@ -159,94 +149,49 @@
                 <div class="bodycontainer">
                   <p>
                     <label>Section 1 Name:</label>
-                    <input type="text" id="S0H-in" name="S0H-in" /><br />
+                    <input type="text" id="S0H" name="S0H" /><br />
                     <label>Section 1 Description:</label>
-                    <textarea
-                      id="S0D-in"
-                      name="S0D-in"
-                      cols="56"
-                      rows="3"
-                    ></textarea
+                    <textarea id="S0D" name="S0D" cols="56" rows="3"></textarea
                     ><br />
                     <label>Section 2 Name:</label>
-                    <input type="text" id="S1H-in" name="S1H-in" /><br />
+                    <input type="text" id="S1H" name="S1H" /><br />
                     <label>Section 2 Description:</label>
-                    <textarea
-                      id="S1D-in"
-                      name="S1D-in"
-                      cols="56"
-                      rows="3"
-                    ></textarea
+                    <textarea id="S1D" name="S1D" cols="56" rows="3"></textarea
                     ><br />
                     <label>Section 3 Name:</label>
-                    <input type="text" id="S2H-in" name="S2H-in" /><br />
+                    <input type="text" id="S2H" name="S2H" /><br />
                     <label>Section 3 Description:</label>
-                    <textarea
-                      id="S2D-in"
-                      name="S2D-in"
-                      cols="56"
-                      rows="3"
-                    ></textarea
+                    <textarea id="S2D" name="S2D" cols="56" rows="3"></textarea
                     ><br />
                     <label>Section 4 Name:</label>
-                    <input type="text" id="S3H-in" name="S3H-in" /><br />
+                    <input type="text" id="S3H" name="S3H" /><br />
                     <label>Section 4 Description:</label>
-                    <textarea
-                      id="S3D-in"
-                      name="S3D-in"
-                      cols="56"
-                      rows="3"
-                    ></textarea
+                    <textarea id="S3D" name="S3D" cols="56" rows="3"></textarea
                     ><br />
                     <label>Section 5 Name:</label>
-                    <input type="text" id="S4H-in" name="S4H-in" /><br />
+                    <input type="text" id="S4H" name="S4H" /><br />
                     <label>Section 5 Description:</label>
-                    <textarea
-                      id="S4D-in"
-                      name="S4D-in"
-                      cols="56"
-                      rows="3"
-                    ></textarea
+                    <textarea id="S4D" name="S4D" cols="56" rows="3"></textarea
                     ><br />
                     <label>Section 6 Name:</label>
-                    <input type="text" id="S5H-in" name="S5H-in" /><br />
+                    <input type="text" id="S5H" name="S5H" /><br />
                     <label>Section 6 Description:</label>
-                    <textarea
-                      id="S5D-in"
-                      name="S5D-in"
-                      cols="56"
-                      rows="3"
-                    ></textarea
+                    <textarea id="S5D" name="S5D" cols="56" rows="3"></textarea
                     ><br />
                     <label>Section 7 Name:</label>
-                    <input type="text" id="S6H-in" name="S6H-in" /><br />
+                    <input type="text" id="S6H" name="S6H" /><br />
                     <label>Section 7 Description:</label>
-                    <textarea
-                      id="S6D-in"
-                      name="S6D-in"
-                      cols="56"
-                      rows="3"
-                    ></textarea
+                    <textarea id="S6D" name="S6D" cols="56" rows="3"></textarea
                     ><br />
                     <label>Section 8 Name:</label>
-                    <input type="text" id="S7H-in" name="S7H-in" /><br />
+                    <input type="text" id="S7H" name="S7H" /><br />
                     <label>Section 8 Description:</label>
-                    <textarea
-                      id="S7D-in"
-                      name="S7D-in"
-                      cols="56"
-                      rows="3"
-                    ></textarea
+                    <textarea id="S7D" name="S7D" cols="56" rows="3"></textarea
                     ><br />
                     <label>Section 9 Name:</label>
-                    <input type="text" id="S8H-in" name="S8H-in" /><br />
+                    <input type="text" id="S8H" name="S8H" /><br />
                     <label>Section 9 Description:</label>
-                    <textarea
-                      id="S8D-in"
-                      name="S8D-in"
-                      cols="56"
-                      rows="3"
-                    ></textarea
+                    <textarea id="S8D" name="S8D" cols="56" rows="3"></textarea
                     ><br />
                   </p>
                 </div>
@@ -262,8 +207,8 @@
                   <p>
                     <label>At Higher Levels:</label>
                     <textarea
-                      id="entriesHigherLevel-in"
-                      name="entriesHigherLevel-in"
+                      id="entriesHigherLevel"
+                      name="entriesHigherLevel"
                       cols="56"
                       rows="3"
                     ></textarea>
@@ -274,7 +219,7 @@
             <br />
             <div class="whitecontainer">
               <div class="bodycontainer">
-                <h1 class="creaturename">Class</h1>
+                <h1 class="indexheading">Class</h1>
                 <br />
                 <label>Spell Usable By:</label><br />
 
@@ -283,56 +228,56 @@
                     <input
                       class="inputlist"
                       list="ClassTypes"
-                      id="class0-in"
-                      name="class0-in"
+                      id="class0"
+                      name="class0"
                     />
                   </div>
                   <div class="col2">
                     <input
                       class="inputlist"
                       list="ClassTypes"
-                      id="class1-in"
-                      name="class1-in"
+                      id="class1"
+                      name="class1"
                     />
                   </div>
                   <div class="col3">
                     <input
                       class="inputlist"
                       list="ClassTypes"
-                      id="class2-in"
-                      name="class2-in"
+                      id="class2"
+                      name="class2"
                     />
                   </div>
                   <div class="col1">
                     <input
                       class="inputlist"
                       list="ClassTypes"
-                      id="class3-in"
-                      name="class3-in"
+                      id="class3"
+                      name="class3"
                     />
                   </div>
                   <div class="col2">
                     <input
                       class="inputlist"
                       list="ClassTypes"
-                      id="class4-in"
-                      name="class4-in"
+                      id="class4"
+                      name="class4"
                     />
                   </div>
                   <div class="col3">
                     <input
                       class="inputlist"
                       list="ClassTypes"
-                      id="class5-in"
-                      name="class5-in"
+                      id="class5"
+                      name="class5"
                     />
                   </div>
                   <div class="col1">
                     <input
                       class="inputlist"
                       list="ClassTypes"
-                      id="class6-in"
-                      name="class6-in"
+                      id="class6"
+                      name="class6"
                     />
                   </div>
                   <div class="col2"></div>
@@ -363,7 +308,7 @@
             <div class="framecontainer">
               <div class="bodycontainer">
                 <span
-                  ><h1 class="spellname" id="Name-out"></h1>
+                  ><h1 class="spellname" id="name-out"></h1>
                   <img class="conicon" src="" id="concentration-out"
                 /></span>
 
@@ -372,74 +317,75 @@
                     <!--SPELL TYPE & LEVEL-->
                     <h2 class="spelltype" id="SLvlType-out"></h2>
                     <p>
-                      <span class="standardbold">Casting Time:</span>
+                      <span class="standard bold">Casting Time:</span>
                       <span class="standard" id="time-out"></span>
                       <br />
-                      <span class="standardbold">Range/Area:</span>
+                      <span class="standard bold">Range/Area:</span>
                       <span class="standard" id="range-out"></span>
                       <br />
-                      <span class="standardbold">Components:</span>
+                      <span class="standard bold">Components:</span>
                       <span class="standard" id="components-out"></span>
                       <br />
-                      <span class="standardbold">Duration:</span>
+                      <span class="standard bold">Duration:</span>
                       <span class="standard" id="duration-out"></span>
                       <br />
-                      <span class="standardbold" id="Save_heading"
+                      <span class="standard bold" id="save-heading"
                         >Attack/Save:</span
                       >
                       <span
                         class="standard capital"
                         id="savingThrow-out"
                       ></span>
-                      <span><img class="icon" src="" id="SaveIcon-out" /></span>
+                      <span><img class="icon" src="" id="saveIcon-out" /></span>
                     </p>
                   </div>
                   <div class="Image">
                     <img
                       src="../Library/SpellAssets/Placeholder.jpg"
                       class="SpellImage"
-                      id="SpellImage"
+                      id="spellImage"
                     />
                   </div>
                 </div>
-                <p class="status">
-                  <span class="standardbold" id="S0H-out"></span>
+                <div class="spell lineDIV"></div>
+                <p class="index">
+                  <span class="standard bold italic" id="S0H-out"></span>
                   <span class="standard" id="S0D-out"></span>
                 </p>
-                <p class="status">
-                  <span class="standardbold" id="S1H-out"></span>
+                <p class="index">
+                  <span class="standard bold italic" id="S1H-out"></span>
                   <span class="standard" id="S1D-out"></span>
                 </p>
-                <p class="status">
-                  <span class="standardbold" id="S2H-out"></span>
+                <p class="index">
+                  <span class="standard bold italic" id="S2H-out"></span>
                   <span class="standard" id="S2D-out"></span>
                 </p>
-                <p class="status">
-                  <span class="standardbold" id="S3H-out"></span>
+                <p class="index">
+                  <span class="standard bold italic" id="S3H-out"></span>
                   <span class="standard" id="S3D-out"></span>
                 </p>
-                <p class="status">
-                  <span class="standardbold" id="S4H-out"></span>
+                <p class="index">
+                  <span class="standard bold italic" id="S4H-out"></span>
                   <span class="standard" id="S4D-out"></span>
                 </p>
-                <p class="status">
-                  <span class="standardbold" id="S5H-out"></span>
+                <p class="index">
+                  <span class="standard bold italic" id="S5H-out"></span>
                   <span class="standard" id="S5D-out"></span>
                 </p>
-                <p class="status">
-                  <span class="standardbold" id="S6H-out"></span>
+                <p class="index">
+                  <span class="standard bold italic" id="S6H-out"></span>
                   <span class="standard" id="S6D-out"></span>
                 </p>
-                <p class="status">
-                  <span class="standardbold" id="S7H-out"></span>
+                <p class="index">
+                  <span class="standard bold italic" id="S7H-out"></span>
                   <span class="standard" id="S7D-out"></span>
                 </p>
-                <p class="status">
-                  <span class="standardbold" id="S8H-out"></span>
+                <p class="index">
+                  <span class="standard bold italic" id="S8H-out"></span>
                   <span class="standard" id="S8D-out"></span>
                 </p>
                 <p>
-                  <span class="standardbold" id="HigherLevelH-out"></span>
+                  <span class="standard bold" id="higherLevelH-out"></span>
                   <span class="standard" id="entriesHigherLevel-out"></span>
                 </p>
                 <br />
@@ -459,8 +405,8 @@
                   </div>
                   <div class="sourcegraphic">
                     <span
-                      ><div class="source" id="Source-out"></div>
-                      <div class="pageno" id="Page-out"></div
+                      ><div class="source" id="source-out"></div>
+                      <div class="pageno" id="page-out"></div
                     ></span>
                   </div>
                 </div>
