@@ -85,13 +85,19 @@ function checkproperties(property) {
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
 const FileName = urlParams.get("FileName");
+console.log(FileName);
 console.log(
-  "Librarians: Looking in the 'Magical Items' section, for '" + FileName + "'"
+  "Librarians: Looking in the 'Magical Items' section, for '" +
+    FileName.replace("//", "+") +
+    "'"
 );
+console.log(FileName);
 document.getElementById("itemform").reset();
 console.warn("Cleric: Casting Prestidigitation On Form...");
 let ContentViewOut = fetch(
-  "http://localhost:8080/Sources/MagicItems/" + FileName + ".json"
+  "http://localhost:8080/Sources/MagicItems/" +
+    FileName.replace("//", "+") +
+    ".json"
 )
   .then(function (urlOUTPUT) {
     return urlOUTPUT.text();

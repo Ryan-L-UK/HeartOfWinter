@@ -49,10 +49,12 @@ fetch("http://localhost:8080/folders/Sources/MagicItems/")
             const jsonAnchor = document.createElement("a");
             var newEditText = document.createTextNode("Edit");
             newEdit.appendChild(jsonAnchor);
-            var jsonlink =
+
+            jsonAnchor.setAttribute(
+              "href",
               "http://localhost:8080/Pages/ItemsPage.html?FileName=" +
-              suffix[0];
-            jsonAnchor.setAttribute("href", jsonlink);
+                suffix[0].replace("+", "//")
+            );
             jsonAnchor.appendChild(newEditText);
           });
       }

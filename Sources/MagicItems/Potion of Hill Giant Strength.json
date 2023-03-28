@@ -1,18 +1,19 @@
 {
-  "name": "Potion of Climbing",
+  "name": "Potion of Hill Giant Strength",
   "source": "DMG",
   "page": 187,
   "srd": true,
   "type": "P",
   "tier": "minor",
-  "rarity": "common",
-  "modifySpeed": {
-    "equal": {
-      "climb": "walk"
+  "rarity": "uncommon",
+  "ability": {
+    "static": {
+      "str": 21
     }
   },
   "entries": [
-    "When you drink this potion, you gain a climbing speed equal to your walking speed for 1 hour. During this time, you have advantage on Strength ({@skill Athletics}) checks you make to climb. The potion is separated into brown, silver, and gray layers resembling bands of stone. Shaking the bottle fails to mix the colors."
+    "When you drink this potion, your Strength score changes to 21 for 1 hour. The potion has no effect on you if your Strength is equal to or greater than that score.",
+    "This potion's transparent liquid has floating in it a sliver of fingernail from a {@creature hill giant}."
   ],
-  "lootTables": ["Magic Item Table A"]
+  "lootTables": ["Magic Item Table B"]
 }
