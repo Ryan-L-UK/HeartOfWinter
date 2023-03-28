@@ -20,25 +20,165 @@
     <!---------------------------------------->
     <!--Content-->
     <!---------------------------------------->
+    <br />
     <div class="content-container">
-      <br />
-      <br />
-      <h1 class="main">Arcane Spells & Magical Energy</h1>
-      <p class="subheading">
-        Here is a shell generator for magical spells and arcane energy to be
-        created in the correct format for printing.
-      </p>
-      <div class="divider"></div>
-      <br />
-      <span>
-        <button class="submitspell" onclick="showInput();takeshot()">
-          Export Spell</button
-        ><button class="submitspell" id="form-submit">Source Code</button></span
-      ><br />
-      <input type="file" id="input" onchange="readText(event)" />
-      <br />
-      <div class="generator-container">
-        <div class="Form">
+      <div class="list-container">
+        <div class="List">
+          <h1 class="spellname">Arcane Spell List:</h1>
+          <br />
+          <input
+            type="text"
+            id="myInput"
+            onkeyup="tableFilter()"
+            placeholder="Search for spell.."
+          />
+          <br />
+          <table id="myTable">
+            <thead>
+              <tr>
+                <th style="width: 200px">Spell Name</th>
+                <th style="width: 70px">Level</th>
+                <th style="width: 100px">School</th>
+                <th style="width: 80px">Source</th>
+                <th style="width: 30px">Edit</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+
+        <div class="View">
+          <h1 class="spellname">Spell:</h1>
+          <br />
+          <br />
+          <div id="photo">
+            <div class="border spellBG"></div>
+            <div class="framecontainer">
+              <div class="bodycontainer">
+                <span
+                  ><h1 class="spellname" id="name-out"></h1>
+                  <img class="conicon" src="" id="concentration-out"
+                /></span>
+
+                <div class="spell-container">
+                  <div class="Desc">
+                    <!--SPELL TYPE & LEVEL-->
+                    <h2 class="spelltype" id="SLvlType-out"></h2>
+                    <p>
+                      <span class="standard bold">Casting Time:</span>
+                      <span class="standard" id="time-out"></span>
+                      <br />
+                      <span class="standard bold">Range/Area:</span>
+                      <span class="standard" id="range-out"></span>
+                      <br />
+                      <span class="standard bold">Components:</span>
+                      <span class="standard" id="components-out"></span>
+                      <br />
+                      <span class="standard bold">Duration:</span>
+                      <span class="standard" id="duration-out"></span>
+                      <br />
+                      <span class="standard bold" id="save-heading"
+                        >Attack/Save:</span
+                      >
+                      <span
+                        class="standard capital"
+                        id="savingThrow-out"
+                      ></span>
+                      <span><img class="icon" src="" id="saveIcon-out" /></span>
+                    </p>
+                  </div>
+                  <div class="Image">
+                    <img
+                      src="../Library/SpellAssets/Placeholder.jpg"
+                      class="SpellImage"
+                      id="spellImage"
+                    />
+                  </div>
+                </div>
+                <div class="spell lineDIV"></div>
+                <p class="index">
+                  <span class="standard bold italic" id="S0H-out"></span>
+                  <span class="standard" id="S0D-out"></span>
+                </p>
+                <p class="index">
+                  <span class="standard bold italic" id="S1H-out"></span>
+                  <span class="standard" id="S1D-out"></span>
+                </p>
+                <p class="index">
+                  <span class="standard bold italic" id="S2H-out"></span>
+                  <span class="standard" id="S2D-out"></span>
+                </p>
+                <p class="index">
+                  <span class="standard bold italic" id="S3H-out"></span>
+                  <span class="standard" id="S3D-out"></span>
+                </p>
+                <p class="index">
+                  <span class="standard bold italic" id="S4H-out"></span>
+                  <span class="standard" id="S4D-out"></span>
+                </p>
+                <p class="index">
+                  <span class="standard bold italic" id="S5H-out"></span>
+                  <span class="standard" id="S5D-out"></span>
+                </p>
+                <p class="index">
+                  <span class="standard bold italic" id="S6H-out"></span>
+                  <span class="standard" id="S6D-out"></span>
+                </p>
+                <p class="index">
+                  <span class="standard bold italic" id="S7H-out"></span>
+                  <span class="standard" id="S7D-out"></span>
+                </p>
+                <p class="index">
+                  <span class="standard bold italic" id="S8H-out"></span>
+                  <span class="standard" id="S8D-out"></span>
+                </p>
+                <p>
+                  <span class="standard bold" id="higherLevelH-out"></span>
+                  <span class="standard" id="entriesHigherLevel-out"></span>
+                </p>
+                <br />
+
+                <div class="item-container">
+                  <div class="heading">
+                    <p>
+                      <span class="cClass" id="class0-out"></span>
+                      <span class="cClass" id="class1-out"></span>
+                      <span class="cClass" id="class2-out"></span>
+                      <span class="cClass" id="class3-out"></span>
+                      <span class="cClass" id="class4-out"></span>
+                      <span class="cClass" id="class5-out"></span>
+                      <span class="cClass" id="class6-out"></span>
+                      <span class="cClass" id="class7-out"></span>
+                    </p>
+                  </div>
+                  <div class="sourcegraphic">
+                    <span
+                      ><div class="source" id="source-out"></div>
+                      <div class="pageno" id="page-out"></div
+                    ></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="border spellBG"></div>
+          </div>
+
+          <div id="output" class="hidden"></div>
+
+          <div class="options">
+            <span>
+              <button class="submitspell" onclick="showInput();">
+                View Spell</button
+              ><button class="submitspell" onclick="takeshot()">
+                Save Spell</button
+              ><button class="submitspell" onclick="exportSource()">
+                Code
+              </button></span
+            >
+          </div>
+
+          <br />
+          <br />
           <form id="spellform">
             <div class="whitecontainer">
               <div class="bodycontainer">
@@ -60,8 +200,8 @@
                     <input
                       class="inputlist"
                       list="SpellTypes"
-                      id="type"
-                      name="type"
+                      id="school"
+                      name="school"
                     />
                     <datalist id="SpellTypes">
                       <option value="Abjuration"></option>
@@ -302,124 +442,6 @@
           </form>
           <br />
         </div>
-        <div class="Output">
-          <div id="photo">
-            <div class="border spellBG"></div>
-            <div class="framecontainer">
-              <div class="bodycontainer">
-                <span
-                  ><h1 class="spellname" id="name-out"></h1>
-                  <img class="conicon" src="" id="concentration-out"
-                /></span>
-
-                <div class="spell-container">
-                  <div class="Desc">
-                    <!--SPELL TYPE & LEVEL-->
-                    <h2 class="spelltype" id="SLvlType-out"></h2>
-                    <p>
-                      <span class="standard bold">Casting Time:</span>
-                      <span class="standard" id="time-out"></span>
-                      <br />
-                      <span class="standard bold">Range/Area:</span>
-                      <span class="standard" id="range-out"></span>
-                      <br />
-                      <span class="standard bold">Components:</span>
-                      <span class="standard" id="components-out"></span>
-                      <br />
-                      <span class="standard bold">Duration:</span>
-                      <span class="standard" id="duration-out"></span>
-                      <br />
-                      <span class="standard bold" id="save-heading"
-                        >Attack/Save:</span
-                      >
-                      <span
-                        class="standard capital"
-                        id="savingThrow-out"
-                      ></span>
-                      <span><img class="icon" src="" id="saveIcon-out" /></span>
-                    </p>
-                  </div>
-                  <div class="Image">
-                    <img
-                      src="../Library/SpellAssets/Placeholder.jpg"
-                      class="SpellImage"
-                      id="spellImage"
-                    />
-                  </div>
-                </div>
-                <div class="spell lineDIV"></div>
-                <p class="index">
-                  <span class="standard bold italic" id="S0H-out"></span>
-                  <span class="standard" id="S0D-out"></span>
-                </p>
-                <p class="index">
-                  <span class="standard bold italic" id="S1H-out"></span>
-                  <span class="standard" id="S1D-out"></span>
-                </p>
-                <p class="index">
-                  <span class="standard bold italic" id="S2H-out"></span>
-                  <span class="standard" id="S2D-out"></span>
-                </p>
-                <p class="index">
-                  <span class="standard bold italic" id="S3H-out"></span>
-                  <span class="standard" id="S3D-out"></span>
-                </p>
-                <p class="index">
-                  <span class="standard bold italic" id="S4H-out"></span>
-                  <span class="standard" id="S4D-out"></span>
-                </p>
-                <p class="index">
-                  <span class="standard bold italic" id="S5H-out"></span>
-                  <span class="standard" id="S5D-out"></span>
-                </p>
-                <p class="index">
-                  <span class="standard bold italic" id="S6H-out"></span>
-                  <span class="standard" id="S6D-out"></span>
-                </p>
-                <p class="index">
-                  <span class="standard bold italic" id="S7H-out"></span>
-                  <span class="standard" id="S7D-out"></span>
-                </p>
-                <p class="index">
-                  <span class="standard bold italic" id="S8H-out"></span>
-                  <span class="standard" id="S8D-out"></span>
-                </p>
-                <p>
-                  <span class="standard bold" id="higherLevelH-out"></span>
-                  <span class="standard" id="entriesHigherLevel-out"></span>
-                </p>
-                <br />
-
-                <div class="item-container">
-                  <div class="heading">
-                    <p>
-                      <span class="cClass" id="class0-out"></span>
-                      <span class="cClass" id="class1-out"></span>
-                      <span class="cClass" id="class2-out"></span>
-                      <span class="cClass" id="class3-out"></span>
-                      <span class="cClass" id="class4-out"></span>
-                      <span class="cClass" id="class5-out"></span>
-                      <span class="cClass" id="class6-out"></span>
-                      <span class="cClass" id="class7-out"></span>
-                    </p>
-                  </div>
-                  <div class="sourcegraphic">
-                    <span
-                      ><div class="source" id="source-out"></div>
-                      <div class="pageno" id="page-out"></div
-                    ></span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="border spellBG"></div>
-          </div>
-          <br />
-          <h1 class="spellname">Image Render:</h1>
-          <br />
-          <br />
-          <div id="output"></div>
-        </div>
       </div>
     </div>
     <!--Footer-->
@@ -428,6 +450,6 @@
   </body>
 </html>
 <script src="../Library/JavaScript/CoreScripts.js"></script>
-<script src="../Library/JavaScript/Spell_Copy.js"></script>
+<script src="../Library/JavaScript/Spell_Builder.js"></script>
 <script src="../Library/JavaScript/Spell_ETL.js"></script>
 <script src="https://html2canvas.hertzen.com/dist/html2canvas.js"></script>

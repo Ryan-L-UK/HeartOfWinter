@@ -20,26 +20,122 @@
     <!---------------------------------------->
     <!--Content-->
     <!---------------------------------------->
+    <br />
     <div class="content-container">
-      <br />
-      <br />
-      <h1 class="main">Magical & Wonderous Items</h1>
-      <p class="subheading">
-        Here is a shell generator for items to be created in the correct format
-        for printing.
-      </p>
-      <div class="divider"></div>
-      <br />
-      <span>
-        <button class="submititem" onclick="showInput();takeshot()">
-          Export Item
-        </button>
-        <button class="submititem" id="form-submit">Source Code</button></span
-      ><br />
-      <input type="file" id="input" onchange="readText(event)" />
-      <br />
-      <div class="generator-container">
-        <div class="Form">
+      <div class="list-container">
+        <div class="List">
+          <h1 class="spellname">Magical & Wondrous Item List:</h1>
+          <br />
+          <input
+            type="text"
+            id="myInput"
+            onkeyup="tableFilter()"
+            placeholder="Search for item.."
+          />
+          <br />
+          <table id="myTable">
+            <thead>
+              <tr>
+                <th style="width: 200px">Item Name</th>
+                <th>Type</th>
+                <th style="width: 80px">Rarity</th>
+                <th style="width: 80px">Source</th>
+                <th style="width: 30px">Edit</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+
+        <div class="View">
+          <h1 class="spellname">Spell:</h1>
+          <br />
+          <br />
+          <div id="photo">
+            <div class="border itemBG"></div>
+            <div class="framecontainer">
+              <div class="bodycontainer">
+                <!--ITEM NAME-->
+                <div class="item-container">
+                  <div class="heading">
+                    <h1 class="indexheading" id="name-out"></h1>
+                  </div>
+                  <div class="sourcegraphic">
+                    <span
+                      ><div class="source" id="source-out"></div>
+                      <div class="pageno" id="page-out"></div
+                    ></span>
+                  </div>
+                </div>
+                <!--ITEM TYPE-->
+                <h2 class="indextype" id="type-out"></h2>
+                <h2 class="indextype" id="weaponCategory-out"></h2>
+                <div class="Damage" id="dmg-out"></div>
+                <div class="item lineDIV"></div>
+                <!--ITEM DESCRIPTION-->
+                <p class="index">
+                  <span class="standard bold" id="I0H-out"></span>
+                  <span class="standard" id="I0D-out"></span>
+                </p>
+                <p class="index">
+                  <span class="standard bold" id="I1H-out"></span>
+                  <span class="standard" id="I1D-out"></span>
+                </p>
+                <p class="index">
+                  <span class="standard bold" id="I2H-out"></span>
+                  <span class="standard" id="I2D-out"></span>
+                </p>
+                <p class="index">
+                  <span class="standard bold" id="I3H-out"></span>
+                  <span class="standard" id="I3D-out"></span>
+                </p>
+                <p class="index">
+                  <span class="standard bold" id="I4H-out"></span>
+                  <span class="standard" id="I4D-out"></span>
+                </p>
+                <p class="index">
+                  <span class="standard bold" id="I5H-out"></span>
+                  <span class="standard" id="I5D-out"></span>
+                </p>
+                <p class="index">
+                  <span class="standard bold" id="I6H-out"></span>
+                  <span class="standard" id="I6D-out"></span>
+                </p>
+                <p class="index">
+                  <span class="standard bold" id="I7H-out"></span>
+                  <span class="standard" id="I7D-out"></span>
+                </p>
+                <p class="index">
+                  <span class="standard bold" id="I8H-out"></span>
+                  <span class="standard" id="I8D-out"></span>
+                </p>
+                <br />
+
+                <!--ITEM SOURCE-->
+                <p class="indexfooter">
+                  Source:
+                  <span class="index" id="fullSource-out"></span>
+                </p>
+              </div>
+            </div>
+            <div class="border itemBG"></div>
+          </div>
+
+          <div id="output" class="hidden"></div>
+
+          <div class="options">
+            <span>
+              <button class="submititem" onclick="showInput();">
+                View Item</button
+              ><button class="submititem" onclick="takeshot()">Save Item</button
+              ><button class="submititem" onclick="exportSource()">
+                Code
+              </button></span
+            >
+          </div>
+
+          <br />
+          <br />
           <form id="itemform">
             <div class="whitecontainer">
               <div class="bodycontainer">
@@ -268,90 +364,15 @@
           </form>
           <br />
         </div>
-        <div class="Output">
-          <div id="photo">
-            <div class="border itemBG"></div>
-            <div class="framecontainer">
-              <div class="bodycontainer">
-                <!--ITEM NAME-->
-                <div class="item-container">
-                  <div class="heading">
-                    <h1 class="indexheading" id="name-out"></h1>
-                  </div>
-                  <div class="sourcegraphic">
-                    <span
-                      ><div class="source" id="source-out"></div>
-                      <div class="pageno" id="page-out"></div
-                    ></span>
-                  </div>
-                </div>
-                <!--ITEM TYPE-->
-                <h2 class="indextype" id="type-out"></h2>
-                <h2 class="indextype" id="weaponCategory-out"></h2>
-                <div class="Damage" id="dmg-out"></div>
-                <div class="item lineDIV"></div>
-                <!--ITEM DESCRIPTION-->
-                <p class="index">
-                  <span class="standard bold" id="I0H-out"></span>
-                  <span class="standard" id="I0D-out"></span>
-                </p>
-                <p class="index">
-                  <span class="standard bold" id="I1H-out"></span>
-                  <span class="standard" id="I1D-out"></span>
-                </p>
-                <p class="index">
-                  <span class="standard bold" id="I2H-out"></span>
-                  <span class="standard" id="I2D-out"></span>
-                </p>
-                <p class="index">
-                  <span class="standard bold" id="I3H-out"></span>
-                  <span class="standard" id="I3D-out"></span>
-                </p>
-                <p class="index">
-                  <span class="standard bold" id="I4H-out"></span>
-                  <span class="standard" id="I4D-out"></span>
-                </p>
-                <p class="index">
-                  <span class="standard bold" id="I5H-out"></span>
-                  <span class="standard" id="I5D-out"></span>
-                </p>
-                <p class="index">
-                  <span class="standard bold" id="I6H-out"></span>
-                  <span class="standard" id="I6D-out"></span>
-                </p>
-                <p class="index">
-                  <span class="standard bold" id="I7H-out"></span>
-                  <span class="standard" id="I7D-out"></span>
-                </p>
-                <p class="index">
-                  <span class="standard bold" id="I8H-out"></span>
-                  <span class="standard" id="I8D-out"></span>
-                </p>
-                <br />
-
-                <!--ITEM SOURCE-->
-                <p class="indexfooter">
-                  Source:
-                  <span class="index" id="fullSource-out"></span>
-                </p>
-              </div>
-            </div>
-            <div class="border itemBG"></div>
-          </div>
-
-          <h1 class="indexheading">Image Render:</h1>
-
-          <div id="output"></div>
-        </div>
       </div>
     </div>
-    <br />
+
     <!--Footer-->
     <object id="Ftr_output"></object>
     <!--END-->
   </body>
 </html>
 <script src="../Library/JavaScript/CoreScripts.js"></script>
-<script src="../Library/JavaScript/Item_Copy.js"></script>
+<script src="../Library/JavaScript/Item_Builder.js"></script>
 <script src="../Library/JavaScript/Item_ETL.js"></script>
 <script src="https://html2canvas.hertzen.com/dist/html2canvas.js"></script>

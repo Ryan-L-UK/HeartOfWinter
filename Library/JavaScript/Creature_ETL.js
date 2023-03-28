@@ -49,6 +49,9 @@ let ContentViewOut = fetch(
     const text = etl;
     const obj = JSON.parse(text);
     runETL(obj);
+  })
+  .then(function () {
+    showInput();
   });
 // ---------------------------------------------------------------------------------------------------------
 //IMPORT FROM FILE

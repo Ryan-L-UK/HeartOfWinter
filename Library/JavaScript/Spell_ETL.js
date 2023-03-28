@@ -11,6 +11,14 @@ function checkschool(school) {
     I: "Illusion",
     N: "Necromancy",
     T: "Transmutation",
+    Abjuration: "Abjuration",
+    Conjuration: "Conjuration",
+    Divination: "Divination",
+    Enchantment: "Enchantment",
+    Evocation: "Evocation",
+    Illusion: "Illusion",
+    Necromancy: "Necromancy",
+    Transmutation: "Transmutation",
   };
   checkschool = lookup[school];
   return checkschool;
@@ -35,17 +43,10 @@ let ContentViewOut = fetch(
     const text = etl;
     const obj = JSON.parse(text);
     runETL(obj);
+  })
+  .then(function () {
+    showInput();
   });
-//---------------------------------------------------------------------------------------------------------
-//IMPORT FROM FILE
-async function readText(event) {
-  document.getElementById("spellform").reset();
-  console.warn("Cleric: Casting Prestidigitation On Form...");
-  const file = event.target.files.item(0);
-  const text = await file.text();
-  const obj = JSON.parse(text);
-  runETL(obj);
-}
 // ---------------------------------------------------------------------------------------------------------
 //EXTRACT TRANSFORM & LOAD
 function runETL(obj) {
@@ -162,7 +163,7 @@ function runETL(obj) {
     //---------------------------------------------------------------------------------------------------------
     //MAPPING CODE
     object["name"] = obj.name;
-    object["type"] = checkschool(obj.school);
+    object["school"] = checkschool(obj.school);
     object["level"] = obj.level;
     object["time"] = obj.time[0].number + " " + obj.time[0].unit;
     object["range"] = range;

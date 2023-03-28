@@ -20,29 +20,383 @@
     <!---------------------------------------->
     <!--Content-->
     <!---------------------------------------->
+    <br />
     <div class="content-container">
-      <br />
-      <br />
-      <h1 class="main">Creatures, Monsters & Demons</h1>
-      <p class="subheading">
-        This is a shell generator for all maner of magical creatures, beasts and
-        NPCs created in the optimum format for printing.
-      </p>
-      <div class="divider"></div>
-      <br />
-      <span
-        ><button class="submitcreature" onclick="showInput();takeshot()">
-          Export Creature
-        </button>
-        <button class="submitcreature" id="form-submit">
-          Source Code
-        </button></span
-      ><br />
-      <input type="file" id="input" onchange="readText(event)" />
-      <br />
-      <br />
-      <div class="generator-container">
-        <div class="Form">
+      <div class="list-container">
+        <div class="List">
+          <h1 class="spellname">Creatures, Monsters & Demons:</h1>
+          <br />
+          <input
+            type="text"
+            id="myInput"
+            onkeyup="tableFilter()"
+            placeholder="Search for creature.."
+          />
+          <br />
+          <table id="myTable">
+            <thead>
+              <tr>
+                <th>Creature Name</th>
+                <th>Size</th>
+                <th>Type</th>
+                <th>Source</th>
+                <th>Edit</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+
+        <div class="View">
+          <h1 class="spellname">Spell:</h1>
+          <br />
+          <br />
+          <div id="photo">
+            <div class="border creatureBG"></div>
+            <div class="framecontainer">
+              <div class="bodycontainer">
+                <!--creature NAME-->
+                <div class="item-container">
+                  <div class="heading">
+                    <h1 class="indexheading" id="name-out"></h1>
+                  </div>
+                  <div class="sourcegraphic">
+                    <span
+                      ><div class="source" id="source-out"></div>
+                      <div class="pageno" id="page-out"></div
+                    ></span>
+                  </div>
+                </div>
+                <!--creature TYPE-->
+                <h2 class="indextype">
+                  <span id="size-out"></span>
+                  <span id="type-out"></span>
+                  <span id="tags-out" name="clearme"></span>
+                  <span id="alignment-out"></span>
+                </h2>
+                <div class="creature lineDIV"></div>
+                <p>
+                  <span class="standard bold">Armour Class:</span>
+                  <span class="standard" id="ac-out"></span>
+                  <br />
+                  <span class="standard bold">Hit Points:</span>
+                  <span class="standard" id="hp-out"></span>
+                  <br />
+                  <span class="standard bold">Speed:</span>
+                  <span class="standard" id="speed-out"></span>
+                </p>
+                <div class="creature lineDIV"></div>
+                <!--creature Stats-->
+                <div class="stat-container">
+                  <div class="STR">STR</div>
+                  <div class="DEX">DEX</div>
+                  <div class="CON">CON</div>
+                  <div class="INT">INT</div>
+                  <div class="WIS">WIS</div>
+                  <div class="CHA">CHA</div>
+                  <!--Change Details Here-->
+                  <div class="STRn" id="STR-out"></div>
+                  <div class="DEXn" id="DEX-out"></div>
+                  <div class="CONn" id="CON-out"></div>
+                  <div class="INTn" id="INT-out"></div>
+                  <div class="WISn" id="WIS-out"></div>
+                  <div class="CHAn" id="CHA-out"></div>
+                </div>
+                <div class="creature lineDIV"></div>
+                <p class="index">
+                  <span
+                    class="standard bold"
+                    id="savesH-out"
+                    name="clearme"
+                  ></span>
+                  <span class="standard capitalize" id="saves-out"></span>
+                </p>
+                <p class="index">
+                  <span
+                    class="standard bold"
+                    id="skillsH-out"
+                    name="clearme"
+                  ></span>
+                  <span class="standard capitalize" id="skills-out"></span>
+                </p>
+                <p class="index">
+                  <span
+                    class="standard bold"
+                    id="resistH-out"
+                    name="clearme"
+                  ></span>
+                  <span class="standard capitalize" id="resist-out"></span>
+                </p>
+                <p class="index">
+                  <span
+                    class="standard bold"
+                    id="immuneH-out"
+                    name="clearme"
+                  ></span>
+                  <span class="standard capitalize" id="immune-out"></span>
+                </p>
+                <p class="index">
+                  <span
+                    class="standard bold"
+                    id="vulnerableH-out"
+                    name="clearme"
+                  ></span>
+                  <span class="standard capitalize" id="vulnerable-out"></span>
+                </p>
+                <p class="index">
+                  <span
+                    class="standard bold"
+                    id="conditionImmuneH-out"
+                    name="clearme"
+                  ></span>
+                  <span
+                    class="standard capitalize"
+                    id="conditionImmune-out"
+                  ></span>
+                </p>
+                <p class="index">
+                  <span
+                    class="standard bold"
+                    id="sensesH-out"
+                    name="clearme"
+                  ></span>
+                  <span class="standard capitalize" id="senses-out"></span>
+                </p>
+                <p class="index">
+                  <span
+                    class="standard bold"
+                    id="languagesH-out"
+                    name="clearme"
+                  ></span>
+                  <span class="standard" id="languages-out"></span>
+                </p>
+                <div class="creature lineDIV"></div>
+                <p class="index">
+                  <span class="standard bold" id="T0H-out"></span>
+                  <span class="standard" id="T0D-out"></span>
+                </p>
+                <p class="index">
+                  <span class="standard bold" id="T1H-out"></span>
+                  <span class="standard" id="T1D-out"></span>
+                </p>
+                <p class="index">
+                  <span class="standard bold" id="T2H-out"></span>
+                  <span class="standard" id="T2D-out"></span>
+                </p>
+                <p class="index">
+                  <span class="standard bold" id="T3H-out"></span>
+                  <span class="standard" id="T3D-out"></span>
+                </p>
+                <p class="index">
+                  <span class="standard bold" id="T4H-out"></span>
+                  <span class="standard" id="T4D-out"></span>
+                </p>
+                <p id="innatebreak" class="index">
+                  <span
+                    class="standard bold"
+                    id="innateHeaderEntryH-out"
+                    name="clearme"
+                  ></span>
+                  <span
+                    class="standard"
+                    id="innateHeaderEntry-out"
+                    name="clearme"
+                  ></span>
+                </p>
+                <p class="index">
+                  <span
+                    class="standard spell"
+                    id="atWillH-out"
+                    name="clearme"
+                  ></span>
+                  <span
+                    class="standard capitalize"
+                    id="atWill-out"
+                    name="clearme"
+                  ></span>
+                </p>
+                <p class="index">
+                  <span
+                    class="standard spell"
+                    id="daily1eH-out"
+                    name="clearme"
+                  ></span>
+                  <span
+                    class="standard capitalize"
+                    id="daily1e-out"
+                    name="clearme"
+                  ></span>
+                </p>
+                <p class="index">
+                  <span
+                    class="standard spell"
+                    id="daily2eH-out"
+                    name="clearme"
+                  ></span>
+                  <span
+                    class="standard capitalize"
+                    id="daily2e-out"
+                    name="clearme"
+                  ></span>
+                </p>
+                <p class="index">
+                  <span
+                    class="standard spell"
+                    id="daily3eH-out"
+                    name="clearme"
+                  ></span>
+                  <span
+                    class="standard capitalize"
+                    id="daily3e-out"
+                    name="clearme"
+                  ></span>
+                </p>
+                <p class="index">
+                  <span
+                    class="standard"
+                    id="innateFooterEntry-out"
+                    name="clearme"
+                  ></span>
+                </p>
+                <p id="spellbreak" class="index">
+                  <span
+                    class="standard bold"
+                    id="spellHeaderEntryH-out"
+                    name="clearme"
+                  ></span>
+                  <span
+                    class="standard"
+                    id="spellHeaderEntry-out"
+                    name="clearme"
+                  ></span>
+                </p>
+                <p class="index">
+                  <span
+                    class="standard spell"
+                    id="cantripH-out"
+                    name="clearme"
+                  ></span>
+                  <span
+                    class="standard capitalize"
+                    id="cantrip-out"
+                    name="clearme"
+                  ></span>
+                </p>
+                <p class="index">
+                  <span
+                    class="standard spell"
+                    id="lvl1slotsH-out"
+                    name="clearme"
+                  ></span>
+                  <span
+                    class="standard capitalize"
+                    id="lvl1spells-out"
+                    name="clearme"
+                  ></span>
+                </p>
+                <p class="index">
+                  <span
+                    class="standard spell"
+                    id="lvl2slotsH-out"
+                    name="clearme"
+                  ></span>
+                  <span
+                    class="standard capitalize"
+                    id="lvl2spells-out"
+                    name="clearme"
+                  ></span>
+                </p>
+                <p class="index">
+                  <span
+                    class="standard spell"
+                    id="lvl3slotsH-out"
+                    name="clearme"
+                  ></span>
+                  <span
+                    class="standard capitalize"
+                    id="lvl3spells-out"
+                    name="clearme"
+                  ></span>
+                </p>
+                <p class="index">
+                  <span
+                    class="standard spell"
+                    id="lvl4slotsH-out"
+                    name="clearme"
+                  ></span>
+                  <span
+                    class="standard capitalize"
+                    id="lvl4spells-out"
+                    name="clearme"
+                  ></span>
+                </p>
+                <p class="index">
+                  <span
+                    class="standard spell"
+                    id="lvl5slotsH-out"
+                    name="clearme"
+                  ></span>
+                  <span
+                    class="standard capitalize"
+                    id="lvl5spells-out"
+                    name="clearme"
+                  ></span>
+                </p>
+                <p class="index">
+                  <span
+                    class="standard"
+                    id="spellFooterEntry-out"
+                    name="clearme"
+                  ></span>
+                </p>
+                <h1 class="indexheading">Actions</h1>
+                <div class="creature lineDIV"></div>
+                <p class="index">
+                  <span class="standard bold" id="A0H-out"></span>
+                  <span class="standard" id="A0D-out"></span>
+                </p>
+                <p class="index">
+                  <span class="standard bold" id="A1H-out"></span>
+                  <span class="standard" id="A1D-out"></span>
+                </p>
+                <p class="index">
+                  <span class="standard bold" id="A2H-out"></span>
+                  <span class="standard" id="A2D-out"></span>
+                </p>
+                <p class="index">
+                  <span class="standard bold" id="A3H-out"></span>
+                  <span class="standard" id="A3D-out"></span>
+                </p>
+                <p class="index">
+                  <span class="standard bold" id="A4H-out"></span>
+                  <span class="standard" id="A4D-out"></span>
+                </p>
+                <p class="index">
+                  <span class="standard bold" id="A5H-out"></span>
+                  <span class="standard" id="A5D-out"></span>
+                </p>
+                <!--ITEM DESCRIPTION-->
+                <p class="indexfooter"></p>
+              </div>
+            </div>
+            <div class="border creatureBG"></div>
+          </div>
+
+          <div id="output" class="hidden"></div>
+
+          <div class="options">
+            <span>
+              <button class="submitcreature" onclick="showInput();">View</button
+              ><button class="submitcreature" onclick="takeshot()">Save</button
+              ><button class="submitcreature" onclick="exportSource()">
+                Code
+              </button></span
+            >
+          </div>
+
+          <br />
+          <br />
+
           <form id="creatureform">
             <div class="whitecontainer">
               <div class="bodycontainer">
@@ -425,344 +779,7 @@
               </div>
             </div>
           </form>
-          <br />
-          <br />
-        </div>
-        <div class="Output">
-          <div id="photo">
-            <div class="border creatureBG"></div>
-            <div class="framecontainer">
-              <div class="bodycontainer">
-                <!--creature NAME-->
-                <div class="item-container">
-                  <div class="heading">
-                    <h1 class="indexheading" id="name-out"></h1>
-                  </div>
-                  <div class="sourcegraphic">
-                    <span
-                      ><div class="source" id="source-out"></div>
-                      <div class="pageno" id="page-out"></div
-                    ></span>
-                  </div>
-                </div>
-                <!--creature TYPE-->
-                <h2 class="indextype">
-                  <span id="size-out"></span>
-                  <span id="type-out"></span>
-                  <span id="tags-out" name="clearme"></span>
-                  <span id="alignment-out"></span>
-                </h2>
-                <div class="creature lineDIV"></div>
-                <p>
-                  <span class="standard bold">Armour Class:</span>
-                  <span class="standard" id="ac-out"></span>
-                  <br />
-                  <span class="standard bold">Hit Points:</span>
-                  <span class="standard" id="hp-out"></span>
-                  <br />
-                  <span class="standard bold">Speed:</span>
-                  <span class="standard" id="speed-out"></span>
-                </p>
-                <div class="creature lineDIV"></div>
-                <!--creature Stats-->
-                <div class="stat-container">
-                  <div class="STR">STR</div>
-                  <div class="DEX">DEX</div>
-                  <div class="CON">CON</div>
-                  <div class="INT">INT</div>
-                  <div class="WIS">WIS</div>
-                  <div class="CHA">CHA</div>
-                  <!--Change Details Here-->
-                  <div class="STRn" id="STR-out"></div>
-                  <div class="DEXn" id="DEX-out"></div>
-                  <div class="CONn" id="CON-out"></div>
-                  <div class="INTn" id="INT-out"></div>
-                  <div class="WISn" id="WIS-out"></div>
-                  <div class="CHAn" id="CHA-out"></div>
-                </div>
-                <div class="creature lineDIV"></div>
-                <p class="index">
-                  <span
-                    class="standard bold"
-                    id="savesH-out"
-                    name="clearme"
-                  ></span>
-                  <span class="standard capitalize" id="saves-out"></span>
-                </p>
-                <p class="index">
-                  <span
-                    class="standard bold"
-                    id="skillsH-out"
-                    name="clearme"
-                  ></span>
-                  <span class="standard capitalize" id="skills-out"></span>
-                </p>
-                <p class="index">
-                  <span
-                    class="standard bold"
-                    id="resistH-out"
-                    name="clearme"
-                  ></span>
-                  <span class="standard capitalize" id="resist-out"></span>
-                </p>
-                <p class="index">
-                  <span
-                    class="standard bold"
-                    id="immuneH-out"
-                    name="clearme"
-                  ></span>
-                  <span class="standard capitalize" id="immune-out"></span>
-                </p>
-                <p class="index">
-                  <span
-                    class="standard bold"
-                    id="vulnerableH-out"
-                    name="clearme"
-                  ></span>
-                  <span class="standard capitalize" id="vulnerable-out"></span>
-                </p>
-                <p class="index">
-                  <span
-                    class="standard bold"
-                    id="conditionImmuneH-out"
-                    name="clearme"
-                  ></span>
-                  <span
-                    class="standard capitalize"
-                    id="conditionImmune-out"
-                  ></span>
-                </p>
-                <p class="index">
-                  <span
-                    class="standard bold"
-                    id="sensesH-out"
-                    name="clearme"
-                  ></span>
-                  <span class="standard capitalize" id="senses-out"></span>
-                </p>
-                <p class="index">
-                  <span
-                    class="standard bold"
-                    id="languagesH-out"
-                    name="clearme"
-                  ></span>
-                  <span class="standard" id="languages-out"></span>
-                </p>
-                <div class="creature lineDIV"></div>
-                <p class="index">
-                  <span class="standard bold" id="T0H-out"></span>
-                  <span class="standard" id="T0D-out"></span>
-                </p>
-                <p class="index">
-                  <span class="standard bold" id="T1H-out"></span>
-                  <span class="standard" id="T1D-out"></span>
-                </p>
-                <p class="index">
-                  <span class="standard bold" id="T2H-out"></span>
-                  <span class="standard" id="T2D-out"></span>
-                </p>
-                <p class="index">
-                  <span class="standard bold" id="T3H-out"></span>
-                  <span class="standard" id="T3D-out"></span>
-                </p>
-                <p class="index">
-                  <span class="standard bold" id="T4H-out"></span>
-                  <span class="standard" id="T4D-out"></span>
-                </p>
-                <p id="innatebreak" class="index">
-                  <span
-                    class="standard bold"
-                    id="innateHeaderEntryH-out"
-                    name="clearme"
-                  ></span>
-                  <span
-                    class="standard"
-                    id="innateHeaderEntry-out"
-                    name="clearme"
-                  ></span>
-                </p>
-                <p class="index">
-                  <span
-                    class="standard spell"
-                    id="atWillH-out"
-                    name="clearme"
-                  ></span>
-                  <span
-                    class="standard capitalize"
-                    id="atWill-out"
-                    name="clearme"
-                  ></span>
-                </p>
-                <p class="index">
-                  <span
-                    class="standard spell"
-                    id="daily1eH-out"
-                    name="clearme"
-                  ></span>
-                  <span
-                    class="standard capitalize"
-                    id="daily1e-out"
-                    name="clearme"
-                  ></span>
-                </p>
-                <p class="index">
-                  <span
-                    class="standard spell"
-                    id="daily2eH-out"
-                    name="clearme"
-                  ></span>
-                  <span
-                    class="standard capitalize"
-                    id="daily2e-out"
-                    name="clearme"
-                  ></span>
-                </p>
-                <p class="index">
-                  <span
-                    class="standard spell"
-                    id="daily3eH-out"
-                    name="clearme"
-                  ></span>
-                  <span
-                    class="standard capitalize"
-                    id="daily3e-out"
-                    name="clearme"
-                  ></span>
-                </p>
-                <p class="index">
-                  <span
-                    class="standard"
-                    id="innateFooterEntry-out"
-                    name="clearme"
-                  ></span>
-                </p>
-                <p id="spellbreak" class="index">
-                  <span
-                    class="standard bold"
-                    id="spellHeaderEntryH-out"
-                    name="clearme"
-                  ></span>
-                  <span
-                    class="standard"
-                    id="spellHeaderEntry-out"
-                    name="clearme"
-                  ></span>
-                </p>
-                <p class="index">
-                  <span
-                    class="standard spell"
-                    id="cantripH-out"
-                    name="clearme"
-                  ></span>
-                  <span
-                    class="standard capitalize"
-                    id="cantrip-out"
-                    name="clearme"
-                  ></span>
-                </p>
-                <p class="index">
-                  <span
-                    class="standard spell"
-                    id="lvl1slotsH-out"
-                    name="clearme"
-                  ></span>
-                  <span
-                    class="standard capitalize"
-                    id="lvl1spells-out"
-                    name="clearme"
-                  ></span>
-                </p>
-                <p class="index">
-                  <span
-                    class="standard spell"
-                    id="lvl2slotsH-out"
-                    name="clearme"
-                  ></span>
-                  <span
-                    class="standard capitalize"
-                    id="lvl2spells-out"
-                    name="clearme"
-                  ></span>
-                </p>
-                <p class="index">
-                  <span
-                    class="standard spell"
-                    id="lvl3slotsH-out"
-                    name="clearme"
-                  ></span>
-                  <span
-                    class="standard capitalize"
-                    id="lvl3spells-out"
-                    name="clearme"
-                  ></span>
-                </p>
-                <p class="index">
-                  <span
-                    class="standard spell"
-                    id="lvl4slotsH-out"
-                    name="clearme"
-                  ></span>
-                  <span
-                    class="standard capitalize"
-                    id="lvl4spells-out"
-                    name="clearme"
-                  ></span>
-                </p>
-                <p class="index">
-                  <span
-                    class="standard spell"
-                    id="lvl5slotsH-out"
-                    name="clearme"
-                  ></span>
-                  <span
-                    class="standard capitalize"
-                    id="lvl5spells-out"
-                    name="clearme"
-                  ></span>
-                </p>
-                <p class="index">
-                  <span
-                    class="standard"
-                    id="spellFooterEntry-out"
-                    name="clearme"
-                  ></span>
-                </p>
-                <h1 class="indexheading">Actions</h1>
-                <div class="creature lineDIV"></div>
-                <p class="index">
-                  <span class="standard bold" id="A0H-out"></span>
-                  <span class="standard" id="A0D-out"></span>
-                </p>
-                <p class="index">
-                  <span class="standard bold" id="A1H-out"></span>
-                  <span class="standard" id="A1D-out"></span>
-                </p>
-                <p class="index">
-                  <span class="standard bold" id="A2H-out"></span>
-                  <span class="standard" id="A2D-out"></span>
-                </p>
-                <p class="index">
-                  <span class="standard bold" id="A3H-out"></span>
-                  <span class="standard" id="A3D-out"></span>
-                </p>
-                <p class="index">
-                  <span class="standard bold" id="A4H-out"></span>
-                  <span class="standard" id="A4D-out"></span>
-                </p>
-                <p class="index">
-                  <span class="standard bold" id="A5H-out"></span>
-                  <span class="standard" id="A5D-out"></span>
-                </p>
-                <!--ITEM DESCRIPTION-->
-                <p class="indexfooter"></p>
-              </div>
-            </div>
-            <div class="border creatureBG"></div>
-          </div>
-          <br />
-          <h1 class="indexheading">Image Render:</h1>
-          <br />
-          <div id="output"></div>
+
           <br />
         </div>
       </div>
@@ -773,6 +790,6 @@
   </body>
 </html>
 <script src="../Library/JavaScript/CoreScripts.js"></script>
-<script src="../Library/JavaScript/Creature_Copy.js"></script>
+<script src="../Library/JavaScript/Creature_Builder.js"></script>
 <script src="../Library/JavaScript/Creature_ETL.js"></script>
 <script src="https://html2canvas.hertzen.com/dist/html2canvas.js"></script>

@@ -1,7 +1,7 @@
 {
   "name": "Wyvernspur's Smite",
   "level": "2",
-  "type": "Evocation",
+  "school": "Evocation",
   "components": "V",
   "time": "1 action",
   "range": "30 ft.",
