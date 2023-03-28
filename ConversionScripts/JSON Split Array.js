@@ -10,7 +10,7 @@ fs.readdir(directoryPath, function (err, files) {
     console.warn("FILE LOADED: " + file);
     console.warn("------------------------------------------");
     var fileName = "/sources/" + file;
-    var arrayName = "monster";
+    var arrayName = "baseitem";
     const data = fs.readFileSync(__dirname + "/" + fileName);
     let directory = __dirname + "/" + arrayName;
     if (!fs.existsSync(__dirname + "/" + arrayName)) {

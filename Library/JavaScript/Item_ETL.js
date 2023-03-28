@@ -4,6 +4,7 @@ function checktype(type) {
   var checktype = "";
   var lookup = {
     $: "treasure",
+    A: "Ammunition",
     AF: "Ammunition",
     AIR: "Vehicle (Air)",
     AT: "Artisan's Tools",
@@ -116,19 +117,9 @@ async function readText(event) {
 // ---------------------------------------------------------------------------------------------------------
 //EXTRACT TRANSFORM & LOAD
 function runETL(obj) {
-  //RML CUSTOM JSON
-  if (obj.entries == undefined) {
-    console.warn("Cleric: Summoning Custom Shell");
-    console.log(obj);
-    for (const prop in obj) {
-      console.log(`${prop} = ${obj[prop]}`);
-      document.getElementById(`${prop}`).value = `${obj[prop]}`;
-    }
-    console.warn("Cleric: Summoning Ritual Complete");
-  }
   // ---------------------------------------------------------------------------------------------------------
   //JSON CONVERTER
-  else {
+  if (obj.entries != undefined || obj.srd != undefined) {
     console.warn("Cleric: Summoning Converter Shell");
     console.log(obj);
     var object = {};
@@ -138,7 +129,6 @@ function runETL(obj) {
     } else if (obj.weaponCategory != undefined) {
       var type = "Weapon";
     } else if (obj.type != undefined) {
-      console.log(obj.type);
       var type = checktype(obj.type);
     } else {
       var type = "";
@@ -273,6 +263,17 @@ function runETL(obj) {
     for (const prop in objct) {
       console.log(`${objct[prop]}`);
       document.getElementById(`${prop}`).value = `${objct[prop]}`;
+    }
+    console.warn("Cleric: Summoning Ritual Complete");
+  }
+
+  //RML CUSTOM JSON
+  else {
+    console.warn("Cleric: Summoning Custom Shell");
+    console.log(obj);
+    for (const prop in obj) {
+      console.log(`${prop} = ${obj[prop]}`);
+      document.getElementById(`${prop}`).value = `${obj[prop]}`;
     }
     console.warn("Cleric: Summoning Ritual Complete");
   }
