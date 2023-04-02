@@ -24,29 +24,26 @@ function checkschool(school) {
   return checkschool;
 }
 // ---------------------------------------------------------------------------------------------------------
-//IMPORT FROM URL
-const queryString = window.location.search;
-const urlParams = new URLSearchParams(queryString);
-const FileName = urlParams.get("FileName");
-console.log(
-  "Librarians: Looking in the 'Magical Items' section, for '" + FileName + "'"
-);
-document.getElementById("spellform").reset();
-console.warn("Cleric: Casting Prestidigitation On Form...");
-let ContentViewOut = fetch(
-  "http://localhost:8080/Sources/Spells/" + FileName + ".json"
-)
-  .then(function (urlOUTPUT) {
-    return urlOUTPUT.text();
-  })
-  .then(function (etl) {
-    const text = etl;
-    const obj = JSON.parse(text);
-    runETL(obj);
-  })
-  .then(function () {
-    showInput();
-  });
+//IMPORT SPELL
+function fetchData(fileName) {
+  console.log(
+    "Librarians: Looking in the 'Magical Items' section, for '" + fileName + "'"
+  );
+  document.getElementById("spellform").reset();
+  console.warn("Cleric: Casting Prestidigitation On Form...");
+  fetch("http://localhost:8080/Sources/Spells/" + fileName + ".json")
+    .then(function (urlOUTPUT) {
+      return urlOUTPUT.text();
+    })
+    .then(function (etl) {
+      const text = etl;
+      const obj = JSON.parse(text);
+      runETL(obj);
+    })
+    .then(function () {
+      showInput();
+    });
+}
 // ---------------------------------------------------------------------------------------------------------
 //EXTRACT TRANSFORM & LOAD
 function runETL(obj) {

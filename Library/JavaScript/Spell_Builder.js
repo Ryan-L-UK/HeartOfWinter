@@ -39,54 +39,51 @@ function checktype(type) {
 }
 // ---------------------------------------------------------------------------------------------------------
 //SPELL LIST
-fetch("http://localhost:8080/folders/Sources/Spells/")
+fetch("http://localhost:8080/sources/Spells/")
   .then((response) => response.json())
   .then((data) => {
     for (const prop in data) {
-      const suffix = `${data[prop]}`.split(".");
-      let extension = suffix[1];
-      if (extension == "json") {
-        fetch("/Sources/Spells/" + suffix[0] + ".json")
-          .then((response) => response.json())
-          .then((obj) => {
-            var tbodyRef = document
-              .getElementById("myTable")
-              .getElementsByTagName("tbody")[0];
-            var newRow = tbodyRef.insertRow();
-            //-----------------
-            var newName = newRow.insertCell();
-            var newNameText = document.createTextNode(suffix[0]);
-            newName.appendChild(newNameText);
-            //-----------------
-            var newLevel = newRow.insertCell();
-            var newLevelText = document.createTextNode(checklevel(obj.level));
-            newLevel.appendChild(newLevelText);
-            //-----------------
-            var newSchool = newRow.insertCell();
-            var newSchoolText = document.createTextNode(
-              checkschool(obj.school)
-            );
-            newSchool.appendChild(newSchoolText);
-            newSchool.removeAttribute("class");
-            newSchool.setAttribute("class", checkschool(obj.school));
-            //-----------------
-            var newSource = newRow.insertCell();
-            var newSourceText = document.createTextNode(obj.source);
-            newSource.appendChild(newSourceText);
-            newSource.removeAttribute("class");
-            newSource.setAttribute("class", obj.source);
-            //------------------
-            var newEdit = newRow.insertCell();
-            const jsonAnchor = document.createElement("a");
-            var newEditText = document.createTextNode("Edit");
-            newEdit.appendChild(jsonAnchor);
-            var jsonlink =
-              "http://localhost:8080/Pages/SpellPage.html?FileName=" +
-              suffix[0];
-            jsonAnchor.setAttribute("href", jsonlink);
-            jsonAnchor.appendChild(newEditText);
-          });
-      }
+      let spellName = data[prop].name;
+      var tbodyRef = document
+        .getElementById("myTable")
+        .getElementsByTagName("tbody")[0];
+      var newRow = tbodyRef.insertRow();
+      //-----------------
+      var newName = newRow.insertCell();
+      var newNameText = document.createTextNode(spellName);
+      newName.appendChild(newNameText);
+      //-----------------
+      var newLevel = newRow.insertCell();
+      var newLevelText = document.createTextNode(checklevel(data[prop].level));
+      newLevel.appendChild(newLevelText);
+      //-----------------
+      var newSchool = newRow.insertCell();
+      var newSchoolText = document.createTextNode(
+        checkschool(data[prop].school)
+      );
+      newSchool.appendChild(newSchoolText);
+      newSchool.removeAttribute("class");
+      newSchool.setAttribute("class", checkschool(data[prop].school));
+      //-----------------
+      var newSource = newRow.insertCell();
+      var newSourceText = document.createTextNode(data[prop].source);
+      newSource.appendChild(newSourceText);
+      newSource.removeAttribute("class");
+      newSource.setAttribute("class", data[prop].source);
+      //------------------
+      var newEdit = newRow.insertCell();
+      const jsonAnchor = document.createElement("a");
+      var newEditText = document.createTextNode("Edit");
+      newEdit.appendChild(jsonAnchor);
+      var jsonlink =
+        "http://localhost:8080/Pages/SpellPage.html?FileName=" + spellName;
+      jsonAnchor.setAttribute("href", jsonlink);
+      jsonAnchor.addEventListener("click", (event) => {
+        event.stopPropagation();
+        event.preventDefault();
+        fetchData(spellName.replace("/", "-"));
+      });
+      jsonAnchor.appendChild(newEditText);
     }
   });
 // ---------------------------------------------------------------------------------------------------------

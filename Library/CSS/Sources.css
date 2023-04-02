@@ -1,5 +1,6 @@
 .HMBW,
-.Homebrew {
+.Homebrew,
+.homebrew {
   color: gray !important;
   text-decoration-color: gray !important;
 }

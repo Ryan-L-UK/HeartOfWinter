@@ -82,34 +82,25 @@ function checkproperties(property) {
 }
 // ---------------------------------------------------------------------------------------------------------
 //IMPORT FROM URL
-const queryString = window.location.search;
-const urlParams = new URLSearchParams(queryString);
-const FileName = urlParams.get("FileName");
-console.log(FileName);
-console.log(
-  "Librarians: Looking in the 'Magical Items' section, for '" +
-    FileName.replace("//", "+") +
-    "'"
-);
-console.log(FileName);
-document.getElementById("itemform").reset();
-console.warn("Cleric: Casting Prestidigitation On Form...");
-let ContentViewOut = fetch(
-  "http://localhost:8080/Sources/MagicItems/" +
-    FileName.replace("//", "+") +
-    ".json"
-)
-  .then(function (urlOUTPUT) {
-    return urlOUTPUT.text();
-  })
-  .then(function (etl) {
-    const text = etl;
-    const obj = JSON.parse(text);
-    runETL(obj);
-  })
-  .then(function () {
-    showInput();
-  });
+function fetchData(fileName) {
+  console.log(
+    "Librarians: Looking in the 'Magical Items' section, for '" + fileName + "'"
+  );
+  document.getElementById("itemform").reset();
+  console.warn("Cleric: Casting Prestidigitation On Form...");
+  fetch("http://localhost:8080/Sources/MagicItems/" + fileName + ".json")
+    .then(function (urlOUTPUT) {
+      return urlOUTPUT.text();
+    })
+    .then(function (etl) {
+      const text = etl;
+      const obj = JSON.parse(text);
+      runETL(obj);
+    })
+    .then(function () {
+      showInput();
+    });
+}
 //---------------------------------------------------------------------------------------------------------
 //IMPORT FROM FILE
 async function readText(event) {

@@ -1,65 +1,62 @@
 // ---------------------------------------------------------------------------------------------------------
 //ITEM LIST
-fetch("http://localhost:8080/folders/Sources/MagicItems/")
+fetch("http://localhost:8080/sources/MagicItems/")
   .then((response) => response.json())
   .then((data) => {
     for (const prop in data) {
-      const suffix = `${data[prop]}`.split(".");
-      let extension = suffix[1];
-      if (extension == "json") {
-        fetch("/Sources/MagicItems/" + suffix[0] + ".json")
-          .then((response) => response.json())
-          .then((obj) => {
-            var tbodyRef = document
-              .getElementById("myTable")
-              .getElementsByTagName("tbody")[0];
-            var newRow = tbodyRef.insertRow();
-            //-----------------
-            var newName = newRow.insertCell();
-            var newNameText = document.createTextNode(suffix[0]);
-            newName.appendChild(newNameText);
-            //-----------------
-            var newType = newRow.insertCell();
-            if (obj.entries != undefined) {
-              if (obj.wondrous == true) {
-                var newTypeText = document.createTextNode("Wondrous Item");
-              } else if (obj.staff != undefined) {
-                var newTypeText = document.createTextNode("Staff");
-              } else {
-                var newTypeText = document.createTextNode(checktype(obj.type));
-              }
-            } else {
-              var newTypeText = document.createTextNode(obj.type);
-            }
-            newType.appendChild(newTypeText);
-            //-----------------
-            var newRarity = newRow.insertCell();
-            var newRarityText = document.createTextNode(
-              obj.rarity.charAt(0).toUpperCase() + obj.rarity.slice(1)
-            );
-            newRarity.appendChild(newRarityText);
-            //-----------------
-            var newSource = newRow.insertCell();
-            var newSourceText = document.createTextNode(obj.source);
-            newSource.appendChild(newSourceText);
-            newSource.removeAttribute("class");
-            newSource.setAttribute("class", obj.source);
-            //------------------
-            var newEdit = newRow.insertCell();
-            const jsonAnchor = document.createElement("a");
-            var newEditText = document.createTextNode("Edit");
-            newEdit.appendChild(jsonAnchor);
+      let itemName = data[prop].name;
 
-            jsonAnchor.setAttribute(
-              "href",
-              "http://localhost:8080/Pages/ItemsPage.html?FileName=" +
-                suffix[0].replace("+", "//")
-            );
-            jsonAnchor.appendChild(newEditText);
-          });
+      var tbodyRef = document
+        .getElementById("myTable")
+        .getElementsByTagName("tbody")[0];
+      var newRow = tbodyRef.insertRow();
+      //-----------------
+      var newName = newRow.insertCell();
+      var newNameText = document.createTextNode(itemName);
+      newName.appendChild(newNameText);
+      //-----------------
+      var newType = newRow.insertCell();
+      if (data[prop].entries != undefined) {
+        if (data[prop].wondrous == true) {
+          var newTypeText = document.createTextNode("Wondrous Item");
+        } else if (data[prop].staff != undefined) {
+          var newTypeText = document.createTextNode("Staff");
+        } else {
+          var newTypeText = document.createTextNode(checktype(data[prop].type));
+        }
+      } else {
+        var newTypeText = document.createTextNode(data[prop].type);
       }
+      newType.appendChild(newTypeText);
+      //-----------------
+      var newRarity = newRow.insertCell();
+      var newRarityText = document.createTextNode(
+        data[prop].rarity.charAt(0).toUpperCase() + data[prop].rarity.slice(1)
+      );
+      newRarity.appendChild(newRarityText);
+      //-----------------
+      var newSource = newRow.insertCell();
+      var newSourceText = document.createTextNode(data[prop].source);
+      newSource.appendChild(newSourceText);
+      newSource.removeAttribute("class");
+      newSource.setAttribute("class", data[prop].source);
+      //------------------
+      var newEdit = newRow.insertCell();
+      const jsonAnchor = document.createElement("a");
+      var newEditText = document.createTextNode("Edit");
+      newEdit.appendChild(jsonAnchor);
+      var jsonlink =
+        "http://localhost:8080/Pages/ItemsPage.html?FileName=" + itemName;
+      jsonAnchor.setAttribute("href", jsonlink);
+      jsonAnchor.addEventListener("click", (event) => {
+        event.stopPropagation();
+        event.preventDefault();
+        fetchData(itemName.replace("/", "-"));
+      });
+      jsonAnchor.appendChild(newEditText);
     }
   });
+
 // ---------------------------------------------------------------------------------------------------------
 //ITEM INPUT
 function showInput() {

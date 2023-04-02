@@ -30,29 +30,26 @@ function checkalignment(alignment) {
   return checkalignment;
 }
 // ---------------------------------------------------------------------------------------------------------
-//IMPORT FROM URL
-const queryString = window.location.search;
-const urlParams = new URLSearchParams(queryString);
-const FileName = urlParams.get("FileName");
-console.log(
-  "Librarians: Looking in the 'Bestiary' section, for '" + FileName + "'"
-);
-document.getElementById("creatureform").reset();
-console.warn("Cleric: Casting Prestidigitation On Form...");
-let ContentViewOut = fetch(
-  "http://localhost:8080/Sources/Creatures/" + FileName + ".json"
-)
-  .then(function (urlOUTPUT) {
-    return urlOUTPUT.text();
-  })
-  .then(function (etl) {
-    const text = etl;
-    const obj = JSON.parse(text);
-    runETL(obj);
-  })
-  .then(function () {
-    showInput();
-  });
+//IMPORT CREATURE
+function fetchData(fileName) {
+  console.log(
+    "Librarians: Looking in the 'Bestiary' section, for '" + fileName + "'"
+  );
+  document.getElementById("creatureform").reset();
+  console.warn("Cleric: Casting Prestidigitation On Form...");
+  fetch("http://localhost:8080/Sources/Creatures/" + fileName + ".json")
+    .then(function (urlOUTPUT) {
+      return urlOUTPUT.text();
+    })
+    .then(function (etl) {
+      const text = etl;
+      const obj = JSON.parse(text);
+      runETL(obj);
+    })
+    .then(function () {
+      showInput();
+    });
+}
 // ---------------------------------------------------------------------------------------------------------
 //IMPORT FROM FILE
 async function readText(event) {

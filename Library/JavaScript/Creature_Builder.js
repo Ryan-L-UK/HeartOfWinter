@@ -1,66 +1,66 @@
 // ---------------------------------------------------------------------------------------------------------
 //CREATURE LIST
-fetch("http://localhost:8080/folders/Sources/Creatures")
+fetch("http://localhost:8080/Sources/Creatures")
   .then((response) => response.json())
   .then((data) => {
     for (const prop in data) {
-      const suffix = `${data[prop]}`.split(".");
-      let extension = suffix[1];
-      if (extension == "json") {
-        fetch("/Sources/Creatures/" + suffix[0] + ".json")
-          .then((response) => response.json())
-          .then((obj) => {
-            var tbodyRef = document
-              .getElementById("myTable")
-              .getElementsByTagName("tbody")[0];
-            var newRow = tbodyRef.insertRow();
-            //-----------------
-            var newName = newRow.insertCell();
-            var newNameText = document.createTextNode(suffix[0]);
-            newName.appendChild(newNameText);
-            //-----------------
-            var newSize = newRow.insertCell();
-            if (obj.cr == undefined) {
-              var newSizeText = document.createTextNode(
-                obj.size.charAt(0).toUpperCase() + obj.size.slice(1)
-              );
-            } else {
-              var newSizeText = document.createTextNode(checksize(obj.size));
-            }
-            newSize.appendChild(newSizeText);
-            //-----------------
-            var newType = newRow.insertCell();
-            if (obj.type.type != undefined) {
-              var newTypeText = document.createTextNode(
-                obj.type.type.charAt(0).toUpperCase() + obj.type.type.slice(1)
-              );
-            } else {
-              var newTypeText = document.createTextNode(
-                obj.type.charAt(0).toUpperCase() + obj.type.slice(1)
-              );
-            }
-            newType.appendChild(newTypeText);
-            //-----------------
-            var newSource = newRow.insertCell();
-            var newSourceText = document.createTextNode(obj.source);
-            newSource.appendChild(newSourceText);
-            newSource.removeAttribute("class");
-            newSource.setAttribute("class", obj.source);
-            //------------------
-            var newEdit = newRow.insertCell();
-            const jsonAnchor = document.createElement("a");
-            var newEditText = document.createTextNode("Edit");
-            newEdit.appendChild(jsonAnchor);
-            var jsonlink =
-              "http://localhost:8080/Pages/CreaturePage.html?FileName=" +
-              suffix[0];
-            jsonAnchor.setAttribute("href", jsonlink);
-            jsonAnchor.appendChild(newEditText);
-          });
+      let creatureName = data[prop].name;
+      var tbodyRef = document
+        .getElementById("myTable")
+        .getElementsByTagName("tbody")[0];
+      var newRow = tbodyRef.insertRow();
+      //-----------------
+      var newName = newRow.insertCell();
+      var newNameText = document.createTextNode(creatureName);
+      newName.appendChild(newNameText);
+      //-----------------
+      var newSize = newRow.insertCell();
+      if (data[prop].cr == undefined) {
+        var newSizeText = document.createTextNode(
+          data[prop].size.charAt(0).toUpperCase() + data[prop].size.slice(1)
+        );
+      } else {
+        var newSizeText = document.createTextNode(checksize(data[prop].size));
       }
+      newSize.appendChild(newSizeText);
+      //-----------------
+      var newType = newRow.insertCell();
+      if (data[prop].type.type != undefined) {
+        var newTypeText = document.createTextNode(
+          data[prop].type.type.charAt(0).toUpperCase() +
+            data[prop].type.type.slice(1)
+        );
+      } else {
+        var newTypeText = document.createTextNode(
+          data[prop].type.charAt(0).toUpperCase() + data[prop].type.slice(1)
+        );
+      }
+      newType.appendChild(newTypeText);
+      //-----------------
+      var newSource = newRow.insertCell();
+      var newSourceText = document.createTextNode(
+        data[prop].source.charAt(0).toUpperCase() + data[prop].source.slice(1)
+      );
+      newSource.appendChild(newSourceText);
+      newSource.removeAttribute("class");
+      newSource.setAttribute("class", data[prop].source);
+      //------------------
+      var newEdit = newRow.insertCell();
+      const jsonAnchor = document.createElement("a");
+      var newEditText = document.createTextNode("Edit");
+      newEdit.appendChild(jsonAnchor);
+      var jsonlink =
+        "http://localhost:8080/Pages/CreaturePage.html?FileName=" +
+        creatureName;
+      jsonAnchor.setAttribute("href", jsonlink);
+      jsonAnchor.addEventListener("click", (event) => {
+        event.stopPropagation();
+        event.preventDefault();
+        fetchData(creatureName.replace("/", "-"));
+      });
+      jsonAnchor.appendChild(newEditText);
     }
   });
-
 // ---------------------------------------------------------------------------------------------------------
 function checkstatrole(modifier) {
   var output = Math.floor((modifier - 10) / 2);
@@ -190,7 +190,6 @@ function showInput() {
   }
   document.getElementById("source-out").removeAttribute("class");
   document.getElementById("source-out").classList.add("source");
-
   if (source == "HOMEBREW") {
     document.getElementById("source-out").classList.add("HMBW");
     document.getElementById("source-out").innerHTML = "Homebrew";
@@ -200,7 +199,6 @@ function showInput() {
       .classList.add(document.getElementById("source").value);
   }
 }
-
 function SpellCasterHeaders() {
   const slots = [
     "spellHeaderEntry",
