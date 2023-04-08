@@ -42,17 +42,15 @@ fetch("http://localhost:8080/sources/MagicItems/")
       var newType = newRow.insertCell();
       if (data[prop].customIndicator == undefined) {
         if (data[prop].wondrous == true) {
-          console.warn(data[prop].name + ": " + "Wondrous");
           var newTypeText = document.createTextNode("Wondrous Item");
         } else if (data[prop].staff != undefined) {
-          console.warn(data[prop].name + ": " + "Staff");
           var newTypeText = document.createTextNode("Staff");
+        } else if (data[prop].poison != undefined) {
+          var newTypeText = document.createTextNode("Poison");
         } else {
-          console.warn(data[prop].name + ": " + checktype(data[prop].type));
           var newTypeText = document.createTextNode(checktype(data[prop].type));
         }
       } else {
-        console.log(data[prop].type);
         var newTypeText = document.createTextNode(data[prop].type);
       }
       newType.appendChild(newTypeText);
@@ -69,6 +67,7 @@ fetch("http://localhost:8080/sources/MagicItems/")
       newRarity.appendChild(newRarityText);
       //-----------------
       var newSource = newRow.insertCell();
+
       var newSourceText = document.createTextNode(data[prop].source);
       newSource.appendChild(newSourceText);
       newSource.removeAttribute("class");

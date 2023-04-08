@@ -1,0 +1,18 @@
+{
+  "customIndicator": "RML",
+  "name": "Sword Of King Arthur (Broken)",
+  "type": "Weapon",
+  "rarity": "Artifact",
+  "source": "Homebrew",
+  "weaponCategory": "Simple weapon, Melee Weapon",
+  "dmgType": "Piercing",
+  "dmg1": "1d6",
+  "property": "Finesse",
+  "I0D": "This +1 longsword was previously owned by King Arthur. It is made of dragon bone and with a dragon-leather grip. It has rubies in its pommel and hilt. The sword grows warm and the rubies glow slightly when the sword is within 120 feet of a dragon. The blade of the sword has been shattered, all that remains is the hilt and a small portion of the blade. It is still sharp, although little more than a dagger in length.",
+  "I1H": "Finesse.",
+  "I1D": "When making an attack with a finesse weapon, you use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls.",
+  "I2H": "Light.",
+  "I2D": "A light weapon is small and easy to handle, making it ideal for use when fighting with two weapons.",
+  "I3H": "Thrown.",
+  "I3D": "If a weapon has the thrown property, you can throw the weapon to make a ranged attack. If the weapon is a melee weapon, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon. For example, if you throw a handaxe, you use your Strength, but if you throw a dagger, you can use either your Strength or your Dexterity, since the dagger has the finesse property."
+}

@@ -116,7 +116,8 @@ async function readText(event) {
 function runETL(obj) {
   // ---------------------------------------------------------------------------------------------------------
   //JSON CONVERTER
-  if (obj.entries != undefined || obj.srd != undefined) {
+
+  if (obj.customIndicator == undefined) {
     console.warn("Cleric: Summoning Converter Shell");
     console.log(obj);
     var object = {};
@@ -128,7 +129,7 @@ function runETL(obj) {
     } else if (obj.type != undefined) {
       var type = checktype(obj.type);
     } else {
-      var type = "";
+      var type = undefined;
     }
     if (obj.rarity == "none") {
       var rarity = "";
@@ -147,7 +148,7 @@ function runETL(obj) {
     }
     //------------------------
     if (obj.reqAttune == undefined) {
-      var reqAttune = "";
+      var reqAttune = undefined;
     } else if (obj.reqAttune == true) {
       var reqAttune = "requires attunement";
     } else {
@@ -155,10 +156,10 @@ function runETL(obj) {
     }
     if (obj.weaponCategory == undefined) {
       var staffTrue = undefined;
-      var weaponCategory = "";
-      var dmg1 = "";
-      var dmgType = "";
-      var property = "";
+      var weaponCategory = undefined;
+      var dmg1 = undefined;
+      var dmgType = undefined;
+      var property = undefined;
     } else {
       var dmgType = checkdmgtype(obj.dmgType);
       if (obj.staff == true) {

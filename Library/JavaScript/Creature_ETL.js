@@ -64,24 +64,12 @@ async function readText(event) {
 //EXTRACT TRANSFORM & LOAD
 function runETL(obj) {
   //CUSTOM JSON LOADER
-  if (obj.cr == undefined) {
+  if (obj.customIndicator == "RML") {
     console.warn("Cleric: Summoning Custom Shell");
     console.log(obj);
     for (const prop in obj) {
       console.log(`${obj[prop]}`);
       document.getElementById(`${prop}`).value = `${obj[prop]}`;
-      if (`${obj[prop]}` == "on") {
-        console.warn(
-          "Dungeon Master: Its worth noting that " +
-            `${prop}` +
-            " should be ticked."
-        );
-        window.alert(
-          "Dungeon Master: Its worth noting that " +
-            `${prop}` +
-            " should be ticked."
-        );
-      }
     }
     console.warn("Cleric: Summoning Ritual Complete");
   }
@@ -104,59 +92,71 @@ function runETL(obj) {
     }
     // ---------------------------------------------------------------------------------------------------------
     // CREATURE CORE INFO
-    if (obj.ac[0].ac == undefined) {
-      var ac = obj.ac[0];
+    if (obj.ac == undefined) {
+      var ac = undefined;
     } else {
-      var ac = obj.ac[0].ac;
-    }
-    if (obj.ac[0].from == undefined) {
-      var from = "";
-    } else {
-      var from = " (" + datacleanse(obj.ac[0].from) + ")";
+      if (obj.ac[0].ac == undefined) {
+        var ac = obj.ac[0];
+      } else {
+        var ac = obj.ac[0].ac;
+      }
+      if (obj.ac[0].from == undefined) {
+        var from = "";
+      } else {
+        var from = " (" + datacleanse(obj.ac[0].from) + ")";
+      }
     }
     // ---------------------------------------------------------------------------------------------------------
-    if (obj.alignment[0] != undefined) {
-      var alignTypeOut = checkalignment(obj.alignment[0]);
+    if (obj.alignment == undefined) {
+      var alignTypeOut = undefined;
     } else {
-      var alignTypeOut = "";
-    }
-    if (obj.alignment[1] != undefined) {
-      var alignClassOut = checkalignment(obj.alignment[1]);
-    } else {
-      var alignClassOut = "";
+      if (obj.alignment[0] != undefined) {
+        var alignTypeOut = checkalignment(obj.alignment[0]);
+      } else {
+        var alignTypeOut = "";
+      }
+      if (obj.alignment[1] != undefined) {
+        var alignClassOut = checkalignment(obj.alignment[1]);
+      } else {
+        var alignClassOut = "";
+      }
     }
     // ---------------------------------------------------------------------------------------------------------
     // CREATURE SPEED
-    if (obj.speed.walk >= 0) {
-      var walk = obj.speed.walk + " ft.";
+    if (obj.speed == undefined) {
+      var walk = undefined;
     } else {
-      var walk = "";
-    }
-    if (obj.speed.fly != undefined) {
-      if (obj.speed.fly.number != undefined) {
-        var fly =
-          ", fly " + obj.speed.fly.number + " ft. " + obj.speed.fly.condition;
-      } else if (obj.speed.fly > 0) {
-        var fly = ", fly " + obj.speed.fly + " ft.";
+      if (obj.speed.walk >= 0) {
+        var walk = obj.speed.walk + " ft.";
+      } else {
+        var walk = "";
       }
-    } else {
-      var fly = "";
-    }
-    if (obj.speed.swim > 0) {
-      var swim = ", swim " + obj.speed.swim + " ft.";
-    } else {
-      var swim = "";
-    }
-    if (obj.speed.burrow > 0) {
-      var burrow = ", burrow " + obj.speed.burrow + " ft.";
-    } else {
-      var burrow = "";
-    }
-    var rawspeed = walk + fly + swim + burrow;
-    if (rawspeed.charAt(0) == ",") {
-      var speed = rawspeed.slice(2);
-    } else {
-      var speed = rawspeed;
+      if (obj.speed.fly != undefined) {
+        if (obj.speed.fly.number != undefined) {
+          var fly =
+            ", fly " + obj.speed.fly.number + " ft. " + obj.speed.fly.condition;
+        } else if (obj.speed.fly > 0) {
+          var fly = ", fly " + obj.speed.fly + " ft.";
+        }
+      } else {
+        var fly = "";
+      }
+      if (obj.speed.swim > 0) {
+        var swim = ", swim " + obj.speed.swim + " ft.";
+      } else {
+        var swim = "";
+      }
+      if (obj.speed.burrow > 0) {
+        var burrow = ", burrow " + obj.speed.burrow + " ft.";
+      } else {
+        var burrow = "";
+      }
+      var rawspeed = walk + fly + swim + burrow;
+      if (rawspeed.charAt(0) == ",") {
+        var speed = rawspeed.slice(2);
+      } else {
+        var speed = rawspeed;
+      }
     }
     // ---------------------------------------------------------------------------------------------------------
     // CREATURE STATS
@@ -208,10 +208,10 @@ function runETL(obj) {
     }
     // ---------------------------------------------------------------------------------------------------------
     // CREATURE TRAITS
-    let traitsOut = [];
-    var traitsList = obj.trait;
-    var traitsLength = traitsList.length;
     if (obj.trait != undefined) {
+      let traitsOut = [];
+      var traitsList = obj.trait;
+      var traitsLength = traitsList.length;
       for (var i = 0; i < traitsLength; i++) {
         if (traitsList[i].name != undefined) {
           traitsOut.push({
@@ -220,13 +220,15 @@ function runETL(obj) {
           });
         }
       }
+    } else {
+      var traitsOut = undefined;
     }
     // ---------------------------------------------------------------------------------------------------------
     // CREATURE ACTIONS
-    let actionsOut = [];
-    var actionsList = obj.action;
-    var actionsLength = actionsList.length;
     if (obj.action != undefined) {
+      let actionsOut = [];
+      var actionsList = obj.action;
+      var actionsLength = actionsList.length;
       for (var i = 0; i < actionsLength; i++) {
         if (actionsList[i].name != undefined) {
           actionsOut.push({
@@ -235,6 +237,8 @@ function runETL(obj) {
           });
         }
       }
+    } else {
+      var actionsOut = undefined;
     }
     // ---------------------------------------------------------------------------------------------------------
     if (obj.spellcasting == undefined) {
@@ -318,7 +322,11 @@ function runETL(obj) {
     object["tags"] = tags;
     object["alignment"] = alignTypeOut + " " + alignClassOut;
     object["ac"] = ac + from;
-    object["hp"] = obj.hp.average + " (" + obj.hp.formula + ")";
+
+    if (obj.hp != undefined) {
+      object["hp"] = obj.hp.average + " (" + obj.hp.formula + ")";
+    }
+
     object["speed"] = speed;
     object["STR"] = obj["str"];
     object["DEX"] = obj["dex"];
@@ -340,15 +348,19 @@ function runETL(obj) {
     }
 
     object["languages"] = langOut;
-    var traitsOutLength = traitsOut.length;
-    for (var i = 0; i < traitsOutLength; i++) {
-      object["T" + [i] + "H"] = traitsOut[i].name;
-      object["T" + [i] + "D"] = traitsOut[i].data;
+    if (traitsOut != undefined) {
+      var traitsOutLength = traitsOut.length;
+      for (var i = 0; i < traitsOutLength; i++) {
+        object["T" + [i] + "H"] = traitsOut[i].name;
+        object["T" + [i] + "D"] = traitsOut[i].data;
+      }
     }
-    var actionsOutLength = actionsOut.length;
-    for (var i = 0; i < actionsOutLength; i++) {
-      object["A" + [i] + "H"] = actionsOut[i].name;
-      object["A" + [i] + "D"] = actionsOut[i].data;
+    if (actionsOut != undefined) {
+      var actionsOutLength = actionsOut.length;
+      for (var i = 0; i < actionsOutLength; i++) {
+        object["A" + [i] + "H"] = actionsOut[i].name;
+        object["A" + [i] + "D"] = actionsOut[i].data;
+      }
     }
     object["CasterInnate"] = CasterInnate;
     object["innateHeaderEntry"] = headerentryI;

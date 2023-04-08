@@ -170,6 +170,7 @@ generators it uses. here are the controls for each of them.
   font-size: 0.9rem;
 }
 h1.indexheading,
+h1.listname,
 h1.spellname,
 h1.PotionName,
 h1.shipname,
@@ -201,6 +202,7 @@ h2.creaturetype {
 h2.indextype,
 h2.spelltype,
 h1.indexheading,
+h1.listname,
 h1.spellname,
 h1.dreamname {
   margin: 0;
@@ -212,12 +214,14 @@ h2.pheader,
 h3.weapon,
 h1.indexheading,
 h1.indexheading,
+h1.listname,
 h1.spellname,
 h1.dreamname {
   font-family: Garamond, serif;
 }
 h1.indexheading,
 h1.indexheading,
+h1.listname,
 h1.spellname,
 h1.dreamname {
   font-size: 1.4rem;

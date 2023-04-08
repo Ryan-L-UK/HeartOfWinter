@@ -304,7 +304,7 @@ function InnateSpellsHeaders() {
 // ---------------------------------------------------------------------------------------------------------
 //EXPORT SOURCE CODE
 function exportSource() {
-  var form = new FormData(document.getElementById("spellform")); //loads the document into a form object based on it being the parent of the button (button is the div here because i'm lazy)
+  var form = new FormData(document.getElementById("creatureform")); //loads the document into a form object based on it being the parent of the button (button is the div here because i'm lazy)
   let outputObject = {};
   for (var [key, value] of form) {
     //loop the form data
