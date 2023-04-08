@@ -1,0 +1,1 @@
+{"name":"Brother Broumane","isNpc":true,"isNamedCreature":true,"source":"JttRC","page":178,"_copy":{"name":"Nightsea chil-liren","source":"JttRC","_mod":{"*":{"mode":"replaceTxt","replace":"Nightsea chil-liren","with":"Brother Broumane","flags":"i"}}},"alignment":["C","N"],"hasToken":true}

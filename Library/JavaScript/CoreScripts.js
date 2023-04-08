@@ -127,6 +127,7 @@ function datacleanse(rawdata) {
     .replace(/\{@/g, "")
     .replace(/\|XGE/g, "")
     .replace(/\|phb}/g, "")
+    .replace(/\|\|3/g, "")
     .replace(/,/g, ", ")
     .replace(/"/g, "")
     .replace(/:/g, "")

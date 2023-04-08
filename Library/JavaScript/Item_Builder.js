@@ -3,12 +3,36 @@
 fetch("http://localhost:8080/sources/MagicItems/")
   .then((response) => response.json())
   .then((data) => {
+    const tblParent = document.getElementById("iTable");
+    const myTable = document.createElement("table");
+    myTable.setAttribute("id", "myTable");
+    const tblHead = document.createElement("thead");
+    tblHead.setAttribute("class", "fixedHead");
+    const tblRow = document.createElement("tr");
+    const tblIName = document.createElement("th");
+    tblIName.innerHTML = "Item Name";
+    tblIName.setAttribute("width", "205px");
+    const tblType = document.createElement("th");
+    tblType.innerHTML = "Type";
+    tblType.setAttribute("width", "120px");
+    const tblRare = document.createElement("th");
+    tblRare.innerHTML = "Rarity";
+    const tblSource = document.createElement("th");
+    tblSource.innerHTML = "Source";
+    const tblEdit = document.createElement("th");
+    tblEdit.innerHTML = "Edit";
+    myTable.appendChild(tblHead);
+    tblHead.appendChild(tblRow);
+    tblRow.appendChild(tblIName);
+    tblRow.appendChild(tblType);
+    tblRow.appendChild(tblRare);
+    tblRow.appendChild(tblSource);
+    tblRow.appendChild(tblEdit);
+    const tbodyRef = document.createElement("tbody");
+    myTable.appendChild(tbodyRef);
+
     for (const prop in data) {
       let itemName = data[prop].name;
-
-      var tbodyRef = document
-        .getElementById("myTable")
-        .getElementsByTagName("tbody")[0];
       var newRow = tbodyRef.insertRow();
       //-----------------
       var newName = newRow.insertCell();
@@ -16,23 +40,32 @@ fetch("http://localhost:8080/sources/MagicItems/")
       newName.appendChild(newNameText);
       //-----------------
       var newType = newRow.insertCell();
-      if (data[prop].entries != undefined) {
+      if (data[prop].customIndicator == undefined) {
         if (data[prop].wondrous == true) {
+          console.warn(data[prop].name + ": " + "Wondrous");
           var newTypeText = document.createTextNode("Wondrous Item");
         } else if (data[prop].staff != undefined) {
+          console.warn(data[prop].name + ": " + "Staff");
           var newTypeText = document.createTextNode("Staff");
         } else {
+          console.warn(data[prop].name + ": " + checktype(data[prop].type));
           var newTypeText = document.createTextNode(checktype(data[prop].type));
         }
       } else {
+        console.log(data[prop].type);
         var newTypeText = document.createTextNode(data[prop].type);
       }
       newType.appendChild(newTypeText);
       //-----------------
       var newRarity = newRow.insertCell();
-      var newRarityText = document.createTextNode(
-        data[prop].rarity.charAt(0).toUpperCase() + data[prop].rarity.slice(1)
-      );
+
+      if (data[prop].rarity != undefined) {
+        var newRarityText = document.createTextNode(
+          data[prop].rarity.charAt(0).toUpperCase() + data[prop].rarity.slice(1)
+        );
+      } else {
+        var newRarityText = document.createTextNode("N/A");
+      }
       newRarity.appendChild(newRarityText);
       //-----------------
       var newSource = newRow.insertCell();
@@ -55,6 +88,7 @@ fetch("http://localhost:8080/sources/MagicItems/")
       });
       jsonAnchor.appendChild(newEditText);
     }
+    tblParent.appendChild(myTable);
   });
 
 // ---------------------------------------------------------------------------------------------------------

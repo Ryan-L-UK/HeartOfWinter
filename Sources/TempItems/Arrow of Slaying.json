@@ -1,0 +1,16 @@
+{
+  "name": "Arrow of Slaying",
+  "source": "DMG",
+  "type": "A",
+  "rarity": "very rare",
+  "weight": 0.05,
+  "entries": [],
+  "page": 152,
+  "srd": true,
+  "tier": "minor",
+  "genericVariant": {
+    "name": "Arrow of Slaying (*)",
+    "source": "DMG"
+  },
+  "lootTables": ["Magic Item Table E"]
+}

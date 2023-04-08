@@ -284,9 +284,19 @@ These are the various grid containers used across the site:
 
 /* Style the list view content. */
 table {
+  width: 100%;
   margin-bottom: 25px;
   margin-top: 10px;
+  height: 25px;
+  overflow-y: auto;
+  table-layout: fixed;
 }
+.fixedHead {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
 table,
 td,
 th {

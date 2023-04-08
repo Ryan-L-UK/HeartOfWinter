@@ -198,7 +198,7 @@ function runETL(obj) {
     if (obj.passive == null) {
       var passive = "";
     } else {
-      var passive = "passive perception " + obj.passive;
+      var passive = ", passive perception " + obj.passive;
     }
     var sensesOut = senses + passive;
     if (obj.languages == null) {
@@ -216,7 +216,7 @@ function runETL(obj) {
         if (traitsList[i].name != undefined) {
           traitsOut.push({
             name: traitsList[i].name,
-            data: datacleanse(obj.trait[0].entries).replace(/\{.*\|0\|/g, ""),
+            data: datacleanse(obj.trait[i].entries).replace(/\{.*\|0\|/g, ""),
           });
         }
       }
@@ -231,7 +231,7 @@ function runETL(obj) {
         if (actionsList[i].name != undefined) {
           actionsOut.push({
             name: actionsList[i].name.replace(/\{@r/, "(R").replace(/\}/, ")"),
-            data: datacleanse(obj.action[0].entries),
+            data: datacleanse(obj.action[i].entries),
           });
         }
       }
@@ -332,7 +332,13 @@ function runETL(obj) {
     object["immune"] = immunes;
     object["vulnerable"] = vulnerables;
     object["conditionImmune"] = ConImmune;
-    object["senses"] = sensesOut;
+
+    if (sensesOut.charAt(0) == ",") {
+      object["senses"] = sensesOut.slice(2);
+    } else {
+      object["senses"] = sensesOut;
+    }
+
     object["languages"] = langOut;
     var traitsOutLength = traitsOut.length;
     for (var i = 0; i < traitsOutLength; i++) {

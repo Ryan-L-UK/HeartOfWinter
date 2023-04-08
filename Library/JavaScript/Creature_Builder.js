@@ -3,11 +3,39 @@
 fetch("http://localhost:8080/Sources/Creatures")
   .then((response) => response.json())
   .then((data) => {
+    const tblParent = document.getElementById("cTable");
+    const myTable = document.createElement("table");
+    myTable.setAttribute("id", "myTable");
+    const tblHead = document.createElement("thead");
+    tblHead.setAttribute("class", "fixedHead");
+
+    const tblRow = document.createElement("tr");
+    const tblCName = document.createElement("th");
+    tblCName.innerHTML = "Creature Name";
+    tblCName.setAttribute("width", "225px");
+
+    const tblSize = document.createElement("th");
+    tblSize.innerHTML = "Size";
+    tblSize.setAttribute("width", "60px");
+    const tblType = document.createElement("th");
+    tblType.innerHTML = "Type";
+    tblType.setAttribute("width", "90px");
+    const tblSource = document.createElement("th");
+    tblSource.innerHTML = "Source";
+    const tblEdit = document.createElement("th");
+    tblEdit.innerHTML = "Edit";
+    myTable.appendChild(tblHead);
+    tblHead.appendChild(tblRow);
+    tblRow.appendChild(tblCName);
+    tblRow.appendChild(tblSize);
+    tblRow.appendChild(tblType);
+    tblRow.appendChild(tblSource);
+    tblRow.appendChild(tblEdit);
+    const tbodyRef = document.createElement("tbody");
+    myTable.appendChild(tbodyRef);
+
     for (const prop in data) {
       let creatureName = data[prop].name;
-      var tbodyRef = document
-        .getElementById("myTable")
-        .getElementsByTagName("tbody")[0];
       var newRow = tbodyRef.insertRow();
       //-----------------
       var newName = newRow.insertCell();
@@ -15,25 +43,29 @@ fetch("http://localhost:8080/Sources/Creatures")
       newName.appendChild(newNameText);
       //-----------------
       var newSize = newRow.insertCell();
-      if (data[prop].cr == undefined) {
+      if (data[prop].customIndicator != undefined) {
         var newSizeText = document.createTextNode(
           data[prop].size.charAt(0).toUpperCase() + data[prop].size.slice(1)
         );
-      } else {
+      } else if (data[prop].size != undefined) {
         var newSizeText = document.createTextNode(checksize(data[prop].size));
+      } else {
+        var newSizeText = document.createTextNode("N/A");
       }
       newSize.appendChild(newSizeText);
       //-----------------
       var newType = newRow.insertCell();
-      if (data[prop].type.type != undefined) {
+      if (data[prop].type != undefined && data[prop].type.type != undefined) {
         var newTypeText = document.createTextNode(
           data[prop].type.type.charAt(0).toUpperCase() +
             data[prop].type.type.slice(1)
         );
-      } else {
+      } else if (data[prop].type != undefined) {
         var newTypeText = document.createTextNode(
           data[prop].type.charAt(0).toUpperCase() + data[prop].type.slice(1)
         );
+      } else {
+        var newTypeText = document.createTextNode("N/A");
       }
       newType.appendChild(newTypeText);
       //-----------------
@@ -60,7 +92,9 @@ fetch("http://localhost:8080/Sources/Creatures")
       });
       jsonAnchor.appendChild(newEditText);
     }
+    tblParent.appendChild(myTable);
   });
+
 // ---------------------------------------------------------------------------------------------------------
 function checkstatrole(modifier) {
   var output = Math.floor((modifier - 10) / 2);
@@ -144,6 +178,7 @@ function showInput() {
     "daily1e",
     "daily2e",
     "daily3e",
+    "customIndicator",
   ];
   skills.forEach(function (skill) {
     if (document.getElementById(skill).value != "") {
@@ -151,6 +186,7 @@ function showInput() {
     }
   });
   for (var [key, value] of form) {
+    console.log(key);
     if (ignore.indexOf(key) >= 0) {
       //do nothing
     } else if (key == "tags") {

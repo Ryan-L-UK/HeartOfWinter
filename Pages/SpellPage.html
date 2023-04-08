@@ -9,7 +9,7 @@
     <link
       rel="shortcut icon"
       type="image/jpg"
-      href="../Library/ImageAssets/favicon.ico"
+      href="../Library/Components/favicon.ico"
     />
   </head>
   <body>
@@ -23,7 +23,7 @@
     <br />
     <div class="content-container">
       <div class="list-container">
-        <div class="List">
+        <div class="List" id="sTable">
           <h1 class="spellname">Arcane Spell List:</h1>
           <br />
           <input
@@ -33,18 +33,6 @@
             placeholder="Search for spell.."
           />
           <br />
-          <table id="myTable">
-            <thead>
-              <tr>
-                <th style="width: 200px">Spell Name</th>
-                <th style="width: 70px">Level</th>
-                <th style="width: 100px">School</th>
-                <th style="width: 80px">Source</th>
-                <th style="width: 30px">Edit</th>
-              </tr>
-            </thead>
-            <tbody></tbody>
-          </table>
         </div>
 
         <div class="View">
@@ -184,6 +172,7 @@
               <div class="bodycontainer">
                 <h1 class="indexheading">Basic Details</h1>
                 <br />
+                <input type="hidden" name="customIndicator" value="RML" />
                 <div class="split-container">
                   <div class="fouronesplit">
                     <label>Spell Name:</label>

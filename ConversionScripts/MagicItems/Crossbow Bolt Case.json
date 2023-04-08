@@ -1,0 +1,1 @@
+{"name":"Crossbow Bolt Case","source":"PHB","page":151,"srd":true,"basicRules":true,"type":"G","rarity":"none","weight":1,"value":100,"entries":["This wooden case can hold up to twenty {@item crossbow bolt|phb|crossbow bolts}."],"containerCapacity":{"item":[{"crossbow bolt|phb":20}]}}

@@ -1,0 +1,1 @@
+{"name":"Jade Statue","isNpc":true,"isNamedCreature":true,"source":"JttRC","page":195,"_copy":{"name":"Stone Golem","source":"MM","_mod":{"*":{"mode":"replaceTxt","replace":"golem","with":"statue"}}},"hasToken":true}

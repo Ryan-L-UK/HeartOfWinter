@@ -1,0 +1,1 @@
+{"name":"Fel Ardra","isNpc":true,"isNamedCreature":true,"source":"LoX","page":23,"_copy":{"name":"Cult Fanatic","source":"MM","_trait":{"name":"Tiefling","source":"PHB"},"_mod":{"*":{"mode":"replaceTxt","replace":"the fanatic","with":"Fel","flags":"i"}}},"alignment":["C","N"],"hasToken":true}

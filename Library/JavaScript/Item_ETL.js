@@ -3,14 +3,14 @@
 function checktype(type) {
   var checktype = "";
   var lookup = {
-    $: "treasure",
+    $: "Treasure",
     A: "Ammunition",
     AF: "Ammunition",
     AIR: "Vehicle (Air)",
     AT: "Artisan's Tools",
     EXP: "Explosive",
     FD: "Food And Drink",
-    G: "Adventuring gear",
+    G: "Adventuring Gear",
     GS: "Gaming Set",
     GV: "Generic Variant",
     HA: "Heavy Armour",

@@ -4,6 +4,9 @@ const express = require("express");
 const app = express();
 const port = 8080;
 
+app.use("/Pages", express.static(__dirname + "/Pages"));
+app.use("/Sources", express.static(__dirname + "/Sources"));
+app.use("/Library", express.static(__dirname + "/Library"));
 app.get("/", (req, res) => {
   fs.readFile(__dirname + "/Index.html", (err, data) => {
     if (err) {
@@ -46,10 +49,6 @@ app.get("/sources/:sourceType", (req, res) => {
     }
   });
 });
-
-app.use("/Pages", express.static("Pages"));
-app.use("/Sources", express.static("Sources"));
-app.use("/Library", express.static("Library"));
 
 app.listen(port, () =>
   console.log("Server started successfully, do not close this terminal")

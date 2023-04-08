@@ -9,7 +9,7 @@
     <link
       rel="shortcut icon"
       type="image/jpg"
-      href="../Library/ImageAssets/favicon.ico"
+      href="../Library/Components/favicon.ico"
     />
   </head>
   <body>
@@ -23,7 +23,7 @@
     <br />
     <div class="content-container">
       <div class="list-container">
-        <div class="List">
+        <div class="List" id="cTable">
           <h1 class="spellname">Creatures, Monsters & Demons:</h1>
           <br />
           <input
@@ -33,18 +33,6 @@
             placeholder="Search for creature.."
           />
           <br />
-          <table id="myTable">
-            <thead>
-              <tr>
-                <th>Creature Name</th>
-                <th>Size</th>
-                <th>Type</th>
-                <th>Source</th>
-                <th>Edit</th>
-              </tr>
-            </thead>
-            <tbody></tbody>
-          </table>
         </div>
 
         <div class="View">
@@ -205,7 +193,7 @@
                 </p>
                 <p class="index">
                   <span
-                    class="standard spell"
+                    class="standard italic"
                     id="atWillH-out"
                     name="clearme"
                   ></span>
@@ -217,7 +205,7 @@
                 </p>
                 <p class="index">
                   <span
-                    class="standard spell"
+                    class="standard italic"
                     id="daily1eH-out"
                     name="clearme"
                   ></span>
@@ -229,7 +217,7 @@
                 </p>
                 <p class="index">
                   <span
-                    class="standard spell"
+                    class="standard italic"
                     id="daily2eH-out"
                     name="clearme"
                   ></span>
@@ -241,7 +229,7 @@
                 </p>
                 <p class="index">
                   <span
-                    class="standard spell"
+                    class="standard italic"
                     id="daily3eH-out"
                     name="clearme"
                   ></span>
@@ -272,7 +260,7 @@
                 </p>
                 <p class="index">
                   <span
-                    class="standard spell"
+                    class="standard italic"
                     id="cantripH-out"
                     name="clearme"
                   ></span>
@@ -284,7 +272,7 @@
                 </p>
                 <p class="index">
                   <span
-                    class="standard spell"
+                    class="standard italic"
                     id="lvl1slotsH-out"
                     name="clearme"
                   ></span>
@@ -296,7 +284,7 @@
                 </p>
                 <p class="index">
                   <span
-                    class="standard spell"
+                    class="standard italic"
                     id="lvl2slotsH-out"
                     name="clearme"
                   ></span>
@@ -308,7 +296,7 @@
                 </p>
                 <p class="index">
                   <span
-                    class="standard spell"
+                    class="standard italic"
                     id="lvl3slotsH-out"
                     name="clearme"
                   ></span>
@@ -320,7 +308,7 @@
                 </p>
                 <p class="index">
                   <span
-                    class="standard spell"
+                    class="standard italic"
                     id="lvl4slotsH-out"
                     name="clearme"
                   ></span>
@@ -332,7 +320,7 @@
                 </p>
                 <p class="index">
                   <span
-                    class="standard spell"
+                    class="standard italic"
                     id="lvl5slotsH-out"
                     name="clearme"
                   ></span>
@@ -403,6 +391,9 @@
                 <!--creature NAME-->
                 <h1 class="indexheading">Basic Details</h1>
                 <br />
+
+                <input type="hidden" name="customIndicator" value="RML" />
+
                 <label>Name:</label>
                 <input type="text" id="name" name="name" />
                 <div class="split-container">

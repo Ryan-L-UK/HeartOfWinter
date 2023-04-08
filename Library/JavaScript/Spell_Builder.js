@@ -42,11 +42,37 @@ function checktype(type) {
 fetch("http://localhost:8080/sources/Spells/")
   .then((response) => response.json())
   .then((data) => {
+    const tblParent = document.getElementById("sTable");
+    const myTable = document.createElement("table");
+    myTable.setAttribute("id", "myTable");
+    const tblHead = document.createElement("thead");
+    tblHead.setAttribute("class", "fixedHead");
+    const tblRow = document.createElement("tr");
+    const tblSName = document.createElement("th");
+    tblSName.innerHTML = "Spell Name";
+    tblSName.setAttribute("width", "225px");
+    const tblLevel = document.createElement("th");
+    tblLevel.innerHTML = "Level";
+    tblLevel.setAttribute("width", "60px");
+    const tblSchool = document.createElement("th");
+    tblSchool.innerHTML = "School";
+    tblSchool.setAttribute("width", "90px");
+    const tblSource = document.createElement("th");
+    tblSource.innerHTML = "Source";
+    const tblEdit = document.createElement("th");
+    tblEdit.innerHTML = "Edit";
+    myTable.appendChild(tblHead);
+    tblHead.appendChild(tblRow);
+    tblRow.appendChild(tblSName);
+    tblRow.appendChild(tblLevel);
+    tblRow.appendChild(tblSchool);
+    tblRow.appendChild(tblSource);
+    tblRow.appendChild(tblEdit);
+    const tbodyRef = document.createElement("tbody");
+    myTable.appendChild(tbodyRef);
+
     for (const prop in data) {
       let spellName = data[prop].name;
-      var tbodyRef = document
-        .getElementById("myTable")
-        .getElementsByTagName("tbody")[0];
       var newRow = tbodyRef.insertRow();
       //-----------------
       var newName = newRow.insertCell();
@@ -85,6 +111,7 @@ fetch("http://localhost:8080/sources/Spells/")
       });
       jsonAnchor.appendChild(newEditText);
     }
+    tblParent.appendChild(myTable);
   });
 // ---------------------------------------------------------------------------------------------------------
 //SPELL INPUT

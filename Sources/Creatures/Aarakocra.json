@@ -3,52 +3,27 @@
   "source": "MM",
   "page": 12,
   "otherSources": [
-    {
-      "source": "PotA"
-    },
-    {
-      "source": "SKT"
-    },
-    {
-      "source": "ToA"
-    },
-    {
-      "source": "EGW"
-    },
-    {
-      "source": "IDRotF"
-    },
-    {
-      "source": "CRCotN"
-    },
-    {
-      "source": "LoX"
-    }
+    { "source": "PotA" },
+    { "source": "SKT" },
+    { "source": "ToA" },
+    { "source": "EGW" },
+    { "source": "IDRotF" },
+    { "source": "CRCotN" },
+    { "source": "LoX" }
   ],
   "size": ["M"],
-  "type": {
-    "type": "humanoid",
-    "tags": ["aarakocra"]
-  },
+  "type": { "type": "humanoid", "tags": ["aarakocra"] },
   "alignment": ["N", "G"],
   "ac": [12],
-  "hp": {
-    "average": 13,
-    "formula": "3d8"
-  },
-  "speed": {
-    "walk": 20,
-    "fly": 50
-  },
+  "hp": { "average": 13, "formula": "3d8" },
+  "speed": { "walk": 20, "fly": 50 },
   "str": 10,
   "dex": 14,
   "con": 10,
   "int": 11,
   "wis": 12,
   "cha": 11,
-  "skill": {
-    "perception": "+5"
-  },
+  "skill": { "perception": "+5" },
   "passive": 15,
   "languages": ["Auran", "Aarakocra"],
   "cr": "1/4",
@@ -81,10 +56,7 @@
     }
   ],
   "environment": ["mountain"],
-  "soundClip": {
-    "type": "internal",
-    "path": "bestiary/aarakocra.mp3"
-  },
+  "soundClip": { "type": "internal", "path": "bestiary/aarakocra.mp3" },
   "languageTags": ["AU", "OTH"],
   "damageTags": ["P", "S"],
   "miscTags": ["MW", "RW", "THW"],
