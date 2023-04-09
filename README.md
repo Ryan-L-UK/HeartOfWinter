@@ -82,9 +82,30 @@ from here on out!
 ## Future Plot Points
 
 - (VECNA) Vecna is the Necromancer, responsible for the selling of animals as pets, and linked to Kerwyns history.
-- (VECNA) Vecnas eye is in the jar, llooking at its sister in Vecnas head.
+- (VECNA) Vecnas eye is in the jar, looking at its sister in Vecnas head.
 
 ---
+
+# D&D Beyond Resource List
+
+-https://www.dndbeyond.com/posts/1194-free-d-d-adventure-retrieve-stolen-festival
+-https://www.dndbeyond.com/posts/1159-free-valentines-day-d-d-adventure-deliver-candy
+-https://www.dndbeyond.com/posts/1118-free-d-d-adventure-work-at-strixhavens-firejolt
+-https://www.dndbeyond.com/posts/334-halloween-encounters-the-haunted-cornfield
+-https://www.dndbeyond.com/posts/1086-free-d-d-adventure-fight-as-dragons-and-explore-a
+-https://www.dndbeyond.com/posts/1058-free-adventure-play-as-familiars-and-undo-a
+-https://www.dndbeyond.com/sources/wgte
+-https://www.dndbeyond.com/sources/ai
+-https://www.dndbeyond.com/sources/erftlw
+-https://www.dndbeyond.com/sources/lmop
+-https://www.dndbeyond.com/sources/oota
+-https://www.dndbeyond.com/sources/cos
+-https://www.dndbeyond.com/sources/llok
+-https://www.dndbeyond.com/sources/gos
+-https://www.dndbeyond.com/sources/doip
+-https://www.dndbeyond.com/sources/imr
+-https://www.dndbeyond.com/sources/wa
+-https://www.dndbeyond.com/sources/twbtw
 
 ---
 
