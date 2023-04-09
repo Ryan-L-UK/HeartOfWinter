@@ -56,63 +56,6 @@
         "name": "Artificer",
         "source": "TCE"
       }
-    ],
-    "fromSubclass": [
-      {
-        "class": {
-          "name": "Cleric",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Twilight Domain",
-          "shortName": "Twilight",
-          "source": "TCE"
-        }
-      },
-      {
-        "class": {
-          "name": "Cleric",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Fate Domain (UA)",
-          "shortName": "Fate (UA)",
-          "source": "UA2022WondersOfTheMultiverse"
-        }
-      },
-      {
-        "class": {
-          "name": "Fighter",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Eldritch Knight",
-          "shortName": "Eldritch Knight",
-          "source": "PHB"
-        }
-      },
-      {
-        "class": {
-          "name": "Paladin",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Oath of the Watchers",
-          "shortName": "Watchers",
-          "source": "TCE"
-        }
-      },
-      {
-        "class": {
-          "name": "Rogue",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Arcane Trickster",
-          "shortName": "Arcane Trickster",
-          "source": "PHB"
-        }
-      }
     ]
   },
   "races": [

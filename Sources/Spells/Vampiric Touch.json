@@ -43,10 +43,18 @@
       ]
     }
   ],
-  "damageInflict": ["necrotic"],
-  "spellAttack": ["M"],
-  "miscTags": ["HL"],
-  "areaTags": ["ST"],
+  "damageInflict": [
+    "necrotic"
+  ],
+  "spellAttack": [
+    "M"
+  ],
+  "miscTags": [
+    "HL"
+  ],
+  "areaTags": [
+    "ST"
+  ],
   "classes": {
     "fromClassList": [
       {
@@ -58,7 +66,7 @@
         "source": "PHB"
       }
     ],
-    "fromClassListVariant": [
+    "classVariant": [
       {
         "name": "Sorcerer",
         "source": "PHB",
@@ -68,108 +76,6 @@
         "name": "Sorcerer",
         "source": "PHB",
         "definedInSource": "TCE"
-      }
-    ],
-    "fromSubclass": [
-      {
-        "class": {
-          "name": "Cleric",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Death Domain",
-          "shortName": "Death",
-          "source": "DMG"
-        }
-      },
-      {
-        "class": {
-          "name": "Cleric",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Grave Domain (UA)",
-          "shortName": "Grave (UA)",
-          "source": "UAClericDivineDomains"
-        }
-      },
-      {
-        "class": {
-          "name": "Cleric",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Ambition Domain (PSA)",
-          "shortName": "Ambition (PSA)",
-          "source": "PSA"
-        }
-      },
-      {
-        "class": {
-          "name": "Cleric",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Grave Domain",
-          "shortName": "Grave",
-          "source": "XGE"
-        }
-      },
-      {
-        "class": {
-          "name": "Druid",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Mage of Witherbloom (UA)",
-          "shortName": "Witherbloom (UA)",
-          "source": "UA2021MagesOfStrixhaven"
-        }
-      },
-      {
-        "class": {
-          "name": "Fighter",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Eldritch Knight",
-          "shortName": "Eldritch Knight",
-          "source": "PHB"
-        }
-      },
-      {
-        "class": {
-          "name": "Rogue",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Arcane Trickster",
-          "shortName": "Arcane Trickster",
-          "source": "PHB"
-        }
-      },
-      {
-        "class": {
-          "name": "Sorcerer",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Lunar Sorcery",
-          "shortName": "Lunar",
-          "source": "DSotDQ",
-          "subSubclass": "New Moon"
-        }
-      },
-      {
-        "class": {
-          "name": "Warlock",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Mage of Witherbloom (UA)",
-          "shortName": "Witherbloom (UA)",
-          "source": "UA2021MagesOfStrixhaven"
-        }
       }
     ]
   },

@@ -5,13 +5,30 @@
   "srd": true,
   "level": 5,
   "school": "A",
-  "time": [{ "number": 1, "unit": "action" }],
-  "range": { "type": "radius", "distance": { "type": "feet", "amount": 10 } },
-  "components": { "v": true, "s": true },
+  "time": [
+    {
+      "number": 1,
+      "unit": "action"
+    }
+  ],
+  "range": {
+    "type": "radius",
+    "distance": {
+      "type": "feet",
+      "amount": 10
+    }
+  },
+  "components": {
+    "v": true,
+    "s": true
+  },
   "duration": [
     {
       "type": "timed",
-      "duration": { "type": "hour", "amount": 1 },
+      "duration": {
+        "type": "hour",
+        "amount": 1
+      },
       "concentration": true
     }
   ],
@@ -34,5 +51,15 @@
     "ooze",
     "plant"
   ],
-  "areaTags": ["S"]
+  "areaTags": [
+    "S"
+  ],
+  "classes": {
+    "fromClassList": [
+      {
+        "name": "Druid",
+        "source": "PHB"
+      }
+    ]
+  }
 }

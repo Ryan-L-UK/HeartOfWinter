@@ -1,0 +1,80 @@
+Ascendant Dragon Vessel.json
+Ascendant Dragon-Touched Focus.json
+Ascendant Scaled Ornament.json
+Blade of Broken Mirrors (Awakened).json
+Blade of Broken Mirrors (Exalted).json
+Blood of the Lycanthrope.json
+Bombard.json
+Book of Vile Darkness (Variant).json
+Charred Wand of Magic Missiles.json
+Damselfly Ship.json
+Danoth's Visor (Awakened).json
+Danoth's Visor (Exalted).json
+Devlin's Staff of Striking.json
+Dowsing Dagger.json
+Dust of the Mummy.json
+Enchanted Three-Dragon Ante Set.json
+Flying Fish Ship.json
+Grimoire Infinitus (Awakened).json
+Grimoire Infinitus (Exalted).json
+Grovelthrash (Awakened).json
+Grovelthrash (Exalted).json
+Hammerhead Ship.json
+Hide of the Feral Guardian (Awakened).json
+Hide of the Feral Guardian (Exalted).json
+Horn of the Endless Maze.json
+Infiltrator's Key (Awakened).json
+Infiltrator's Key (Exalted).json
+Jakarion's Staff of Frost.json
+Jewel of Three Prayers (Awakened).json
+Jewel of Three Prayers (Exalted).json
+Lamprey Ship.json
+Lash of Shadows (Awakened).json
+Lash of Shadows (Exalted).json
+Living Ship.json
+Mace of the Black Crown (Awakened).json
+Mace of the Black Crown (Exalted).json
+Nautiloid.json
+Nightspider.json
+Opal of the Ild Rune.json
+Orb of the Stein Rune.json
+Pennant of the Vind Rune.json
+Pirate's Cutlass.json
+Primal Amulet.json
+Professor Skant.json
+Prying Blade.json
+Ruin's Wake (Awakened).json
+Ruin's Wake (Exalted).json
+Scorpion Ship.json
+Shard of the Kalt Rune.json
+Shrike Ship.json
+Silken Spite (Awakened).json
+Silken Spite (Exalted).json
+Sorcerous Spyglass.json
+Space Galleon.json
+Squid Ship.json
+Star Moth.json
+Stirring Dragon Vessel.json
+Stirring Dragon-Touched Focus.json
+Stirring Scaled Ornament.json
+Stormgirdle (Awakened).json
+Stormgirdle (Exalted).json
+The Bloody End (Awakened).json
+The Bloody End (Exalted).json
+Thessaltoxin.json
+Turtle Ship.json
+Tyrant Ship.json
+Vanquisher's Banner.json
+Verminshroud (Awakened).json
+Verminshroud (Exalted).json
+Vial of Thought Capture.json
+Wakened Dragon Vessel.json
+Wakened Dragon-Touched Focus.json
+Wakened Scaled Ornament.json
+Wasp Ship.json
+Will of the Talon (Awakened).json
+Will of the Talon (Exalted).json
+Witchlight Vane.json
+Wreath of the Prism (Awakened).json
+Wreath of the Prism (Exalted).json
+Wyllow's Staff of Flowers.json

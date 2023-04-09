@@ -44,11 +44,21 @@
       ]
     }
   ],
-  "damageInflict": ["psychic"],
-  "conditionInflict": ["charmed"],
-  "savingThrow": ["wisdom"],
-  "miscTags": ["SGT"],
-  "areaTags": ["ST"],
+  "damageInflict": [
+    "psychic"
+  ],
+  "conditionInflict": [
+    "charmed"
+  ],
+  "savingThrow": [
+    "wisdom"
+  ],
+  "miscTags": [
+    "SGT"
+  ],
+  "areaTags": [
+    "ST"
+  ],
   "classes": {
     "fromClassList": [
       {
@@ -70,63 +80,6 @@
       {
         "name": "Wizard",
         "source": "PHB"
-      }
-    ],
-    "fromSubclass": [
-      {
-        "class": {
-          "name": "Cleric",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Fate Domain (UA)",
-          "shortName": "Fate (UA)",
-          "source": "UA2022WondersOfTheMultiverse"
-        }
-      },
-      {
-        "class": {
-          "name": "Paladin",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Oath of the Crown",
-          "shortName": "Crown",
-          "source": "SCAG"
-        }
-      },
-      {
-        "class": {
-          "name": "Sorcerer",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Favored Soul v2 (UA)",
-          "shortName": "Favored Soul v2 (UA)",
-          "source": "UASorcerer"
-        }
-      },
-      {
-        "class": {
-          "name": "Sorcerer",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Favored Soul v3 (UA)",
-          "shortName": "Favored Soul v3 (UA)",
-          "source": "UARevisedSubclasses"
-        }
-      },
-      {
-        "class": {
-          "name": "Sorcerer",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Divine Soul",
-          "shortName": "Divine Soul",
-          "source": "XGE"
-        }
       }
     ]
   },

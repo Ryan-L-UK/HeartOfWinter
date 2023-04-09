@@ -48,11 +48,21 @@
       ]
     }
   ],
-  "conditionInflict": ["charmed"],
-  "savingThrow": ["wisdom"],
-  "affectsCreatureType": ["humanoid"],
-  "miscTags": ["SGT"],
-  "areaTags": ["ST"],
+  "conditionInflict": [
+    "charmed"
+  ],
+  "savingThrow": [
+    "wisdom"
+  ],
+  "affectsCreatureType": [
+    "humanoid"
+  ],
+  "miscTags": [
+    "SGT"
+  ],
+  "areaTags": [
+    "ST"
+  ],
   "classes": {
     "fromClassList": [
       {
@@ -66,140 +76,6 @@
       {
         "name": "Wizard",
         "source": "PHB"
-      }
-    ],
-    "fromSubclass": [
-      {
-        "class": {
-          "name": "Cleric",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Trickery Domain",
-          "shortName": "Trickery",
-          "source": "PHB"
-        }
-      },
-      {
-        "class": {
-          "name": "Cleric",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Ambition Domain (PSA)",
-          "shortName": "Ambition (PSA)",
-          "source": "PSA"
-        }
-      },
-      {
-        "class": {
-          "name": "Cleric",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Order Domain (UA)",
-          "shortName": "Order (UA)",
-          "source": "UAOrderDomain"
-        }
-      },
-      {
-        "class": {
-          "name": "Cleric",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Order Domain",
-          "shortName": "Order",
-          "source": "TCE"
-        }
-      },
-      {
-        "class": {
-          "name": "Paladin",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Oathbreaker",
-          "shortName": "Oathbreaker",
-          "source": "DMG"
-        }
-      },
-      {
-        "class": {
-          "name": "Paladin",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Oath of Conquest (UA)",
-          "shortName": "Conquest (UA)",
-          "source": "UAPaladin"
-        }
-      },
-      {
-        "class": {
-          "name": "Paladin",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Oath of Treachery (UA)",
-          "shortName": "Treachery (UA)",
-          "source": "UAPaladin"
-        }
-      },
-      {
-        "class": {
-          "name": "Paladin",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Oath of Conquest v2 (UA)",
-          "shortName": "Conquest v2 (UA)",
-          "source": "UARevisedClassOptions"
-        }
-      },
-      {
-        "class": {
-          "name": "Paladin",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Oath of Conquest",
-          "shortName": "Conquest",
-          "source": "XGE"
-        }
-      },
-      {
-        "class": {
-          "name": "Warlock",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "The Archfey",
-          "shortName": "Archfey",
-          "source": "PHB"
-        }
-      },
-      {
-        "class": {
-          "name": "Warlock",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "The Great Old One",
-          "shortName": "Great Old One",
-          "source": "PHB"
-        }
-      },
-      {
-        "class": {
-          "name": "Wizard",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Psionics (UA)",
-          "shortName": "Psionics (UA)",
-          "source": "UAFighterRogueWizard"
-        }
       }
     ]
   },

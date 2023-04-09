@@ -43,7 +43,9 @@
       ]
     }
   ],
-  "miscTags": ["THP"],
+  "miscTags": [
+    "THP"
+  ],
   "classes": {
     "fromClassList": [
       {
@@ -66,114 +68,15 @@
         "name": "Artificer",
         "source": "TCE"
       }
-    ],
-    "fromSubclass": [
-      {
-        "class": {
-          "name": "Cleric",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Death Domain",
-          "shortName": "Death",
-          "source": "DMG"
-        }
-      },
-      {
-        "class": {
-          "name": "Cleric",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Grave Domain (UA)",
-          "shortName": "Grave (UA)",
-          "source": "UAClericDivineDomains"
-        }
-      },
-      {
-        "class": {
-          "name": "Cleric",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Grave Domain",
-          "shortName": "Grave",
-          "source": "XGE"
-        }
-      },
-      {
-        "class": {
-          "name": "Fighter",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Eldritch Knight",
-          "shortName": "Eldritch Knight",
-          "source": "PHB"
-        }
-      },
-      {
-        "class": {
-          "name": "Rogue",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Arcane Trickster",
-          "shortName": "Arcane Trickster",
-          "source": "PHB"
-        }
-      },
-      {
-        "class": {
-          "name": "Warlock",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "The Undying",
-          "shortName": "Undying",
-          "source": "SCAG"
-        }
-      },
-      {
-        "class": {
-          "name": "Warlock",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "The Raven Queen (UA)",
-          "shortName": "Raven Queen (UA)",
-          "source": "UAWarlockAndWizard"
-        }
-      },
-      {
-        "class": {
-          "name": "Warlock",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "The Undead (UA)",
-          "shortName": "Undead (UA)",
-          "source": "UA2020SubclassesPt4"
-        }
-      },
-      {
-        "class": {
-          "name": "Warlock",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "The Undead",
-          "shortName": "Undead",
-          "source": "VRGR"
-        }
-      }
     ]
   },
   "optionalfeatures": [
     {
       "name": "Fiendish Vigor",
       "source": "PHB",
-      "featureType": ["EI"]
+      "featureType": [
+        "EI"
+      ]
     }
   ],
   "feats": [

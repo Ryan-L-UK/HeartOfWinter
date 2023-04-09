@@ -37,7 +37,9 @@
     "You can use your action to control the hand. You can use the hand to manipulate an object, open an unlocked door or container, stow or retrieve an item from an open container, or pour the contents out of a vial. You can move the hand up to 30 feet each time you use it.",
     "The hand can't attack, activate magic items, or carry more than 10 pounds."
   ],
-  "miscTags": ["OBJ"],
+  "miscTags": [
+    "OBJ"
+  ],
   "classes": {
     "fromClassList": [
       {
@@ -63,96 +65,6 @@
       {
         "name": "Artificer",
         "source": "TCE"
-      }
-    ],
-    "fromSubclass": [
-      {
-        "class": {
-          "name": "Cleric",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Arcana Domain",
-          "shortName": "Arcana",
-          "source": "SCAG"
-        }
-      },
-      {
-        "class": {
-          "name": "Fighter",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Eldritch Knight",
-          "shortName": "Eldritch Knight",
-          "source": "PHB"
-        }
-      },
-      {
-        "class": {
-          "name": "Fighter",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Psychic Warrior (UA)",
-          "shortName": "Psychic Warrior (UA)",
-          "source": "UAFighterRogueWizard"
-        }
-      },
-      {
-        "class": {
-          "name": "Ranger",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Swarmkeeper",
-          "shortName": "Swarmkeeper",
-          "source": "TCE"
-        }
-      },
-      {
-        "class": {
-          "name": "Rogue",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Arcane Trickster",
-          "shortName": "Arcane Trickster",
-          "source": "PHB"
-        }
-      },
-      {
-        "class": {
-          "name": "Wizard",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Psionics (UA)",
-          "shortName": "Psionics (UA)",
-          "source": "UAFighterRogueWizard"
-        }
-      },
-      {
-        "class": {
-          "name": "Ranger (Spell-less)",
-          "source": "UAModifyingClasses"
-        },
-        "subclass": {
-          "name": "Swarmkeeper",
-          "shortName": "Swarmkeeper",
-          "source": "TCE"
-        }
-      },
-      {
-        "class": {
-          "name": "Ranger (Revised)",
-          "source": "UATheRangerRevised"
-        },
-        "subclass": {
-          "name": "Swarmkeeper",
-          "shortName": "Swarmkeeper",
-          "source": "TCE"
-        }
       }
     ]
   },
@@ -264,7 +176,9 @@
     {
       "name": "Pact of the Tome",
       "source": "PHB",
-      "featureType": ["PB"]
+      "featureType": [
+        "PB"
+      ]
     }
   ],
   "backgrounds": [

@@ -41,8 +41,12 @@
       ]
     }
   ],
-  "damageInflict": ["necrotic"],
-  "savingThrow": ["constitution"],
+  "damageInflict": [
+    "necrotic"
+  ],
+  "savingThrow": [
+    "constitution"
+  ],
   "affectsCreatureType": [
     "aberration",
     "beast",
@@ -57,8 +61,12 @@
     "ooze",
     "plant"
   ],
-  "miscTags": ["SGT"],
-  "areaTags": ["ST"],
+  "miscTags": [
+    "SGT"
+  ],
+  "areaTags": [
+    "ST"
+  ],
   "classes": {
     "fromClassList": [
       {
@@ -76,163 +84,6 @@
       {
         "name": "Wizard",
         "source": "PHB"
-      }
-    ],
-    "fromSubclass": [
-      {
-        "class": {
-          "name": "Artificer (Revisited)",
-          "source": "UAArtificerRevisited"
-        },
-        "subclass": {
-          "name": "Alchemist",
-          "shortName": "Alchemist",
-          "source": "UAArtificerRevisited"
-        }
-      },
-      {
-        "class": {
-          "name": "Artificer",
-          "source": "TCE"
-        },
-        "subclass": {
-          "name": "Alchemist",
-          "shortName": "Alchemist",
-          "source": "TCE"
-        }
-      },
-      {
-        "class": {
-          "name": "Cleric",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Death Domain",
-          "shortName": "Death",
-          "source": "DMG"
-        }
-      },
-      {
-        "class": {
-          "name": "Cleric",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Grave Domain (UA)",
-          "shortName": "Grave (UA)",
-          "source": "UAClericDivineDomains"
-        }
-      },
-      {
-        "class": {
-          "name": "Cleric",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Grave Domain",
-          "shortName": "Grave",
-          "source": "XGE"
-        }
-      },
-      {
-        "class": {
-          "name": "Druid",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Circle of the Land",
-          "shortName": "Land",
-          "source": "PHB",
-          "subSubclass": "Desert"
-        }
-      },
-      {
-        "class": {
-          "name": "Druid",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Circle of Spores (UA)",
-          "shortName": "Spores (UA)",
-          "source": "UAThreeSubclasses"
-        }
-      },
-      {
-        "class": {
-          "name": "Druid",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Circle of Spores",
-          "shortName": "Spores",
-          "source": "TCE"
-        }
-      },
-      {
-        "class": {
-          "name": "Druid",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Mage of Witherbloom (UA)",
-          "shortName": "Witherbloom (UA)",
-          "source": "UA2021MagesOfStrixhaven"
-        }
-      },
-      {
-        "class": {
-          "name": "Fighter",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Eldritch Knight",
-          "shortName": "Eldritch Knight",
-          "source": "PHB"
-        }
-      },
-      {
-        "class": {
-          "name": "Paladin",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Oathbreaker",
-          "shortName": "Oathbreaker",
-          "source": "DMG"
-        }
-      },
-      {
-        "class": {
-          "name": "Paladin",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Oath of Conquest (UA)",
-          "shortName": "Conquest (UA)",
-          "source": "UAPaladin"
-        }
-      },
-      {
-        "class": {
-          "name": "Rogue",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Arcane Trickster",
-          "shortName": "Arcane Trickster",
-          "source": "PHB"
-        }
-      },
-      {
-        "class": {
-          "name": "Warlock",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Mage of Witherbloom (UA)",
-          "shortName": "Witherbloom (UA)",
-          "source": "UA2021MagesOfStrixhaven"
-        }
       }
     ]
   },

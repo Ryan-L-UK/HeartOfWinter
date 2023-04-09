@@ -47,7 +47,13 @@
       ]
     }
   ],
-  "damageResist": ["acid", "cold", "fire", "lightning", "thunder"],
+  "damageResist": [
+    "acid",
+    "cold",
+    "fire",
+    "lightning",
+    "thunder"
+  ],
   "classes": {
     "fromClassList": [
       {
@@ -73,30 +79,6 @@
       {
         "name": "Artificer",
         "source": "TCE"
-      }
-    ],
-    "fromSubclass": [
-      {
-        "class": {
-          "name": "Fighter",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Eldritch Knight",
-          "shortName": "Eldritch Knight",
-          "source": "PHB"
-        }
-      },
-      {
-        "class": {
-          "name": "Rogue",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Arcane Trickster",
-          "shortName": "Arcane Trickster",
-          "source": "PHB"
-        }
       }
     ]
   },

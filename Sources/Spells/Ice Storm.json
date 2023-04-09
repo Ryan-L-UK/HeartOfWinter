@@ -42,9 +42,16 @@
       ]
     }
   ],
-  "damageInflict": ["bludgeoning", "cold"],
-  "savingThrow": ["dexterity"],
-  "areaTags": ["Y"],
+  "damageInflict": [
+    "bludgeoning",
+    "cold"
+  ],
+  "savingThrow": [
+    "dexterity"
+  ],
+  "areaTags": [
+    "Y"
+  ],
   "classes": {
     "fromClassList": [
       {
@@ -58,108 +65,6 @@
       {
         "name": "Wizard",
         "source": "PHB"
-      }
-    ],
-    "fromSubclass": [
-      {
-        "class": {
-          "name": "Artificer (Revisited)",
-          "source": "UAArtificerRevisited"
-        },
-        "subclass": {
-          "name": "Artillerist",
-          "shortName": "Artillerist",
-          "source": "UAArtificerRevisited"
-        }
-      },
-      {
-        "class": {
-          "name": "Artificer",
-          "source": "TCE"
-        },
-        "subclass": {
-          "name": "Artillerist",
-          "shortName": "Artillerist",
-          "source": "TCE"
-        }
-      },
-      {
-        "class": {
-          "name": "Cleric",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Tempest Domain",
-          "shortName": "Tempest",
-          "source": "PHB"
-        }
-      },
-      {
-        "class": {
-          "name": "Druid",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Circle of the Land",
-          "shortName": "Land",
-          "source": "PHB",
-          "subSubclass": "Arctic"
-        }
-      },
-      {
-        "class": {
-          "name": "Fighter",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Eldritch Knight",
-          "shortName": "Eldritch Knight",
-          "source": "PHB"
-        }
-      },
-      {
-        "class": {
-          "name": "Paladin",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Oath of the Ancients",
-          "shortName": "Ancients",
-          "source": "PHB"
-        }
-      },
-      {
-        "class": {
-          "name": "Rogue",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Arcane Trickster",
-          "shortName": "Arcane Trickster",
-          "source": "PHB"
-        }
-      },
-      {
-        "class": {
-          "name": "Sorcerer",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Storm Sorcery (UA)",
-          "shortName": "Storm (UA)",
-          "source": "UAWaterborneAdventures"
-        }
-      },
-      {
-        "class": {
-          "name": "Warlock",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "The Raven Queen (UA)",
-          "shortName": "Raven Queen (UA)",
-          "source": "UAWarlockAndWizard"
-        }
       }
     ]
   }

@@ -40,8 +40,14 @@
   "entries": [
     "This spell turns the flesh of a willing creature you touch as hard as stone. Until the spell ends, the target has resistance to nonmagical bludgeoning, piercing, and slashing damage."
   ],
-  "damageResist": ["bludgeoning", "piercing", "slashing"],
-  "areaTags": ["ST"],
+  "damageResist": [
+    "bludgeoning",
+    "piercing",
+    "slashing"
+  ],
+  "areaTags": [
+    "ST"
+  ],
   "classes": {
     "fromClassList": [
       {
@@ -72,126 +78,15 @@
         "name": "Artificer",
         "source": "TCE"
       }
-    ],
-    "fromSubclass": [
-      {
-        "class": {
-          "name": "Cleric",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "War Domain",
-          "shortName": "War",
-          "source": "PHB"
-        }
-      },
-      {
-        "class": {
-          "name": "Cleric",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Strength Domain (PSA)",
-          "shortName": "Strength (PSA)",
-          "source": "PSA"
-        }
-      },
-      {
-        "class": {
-          "name": "Druid",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Circle of the Land",
-          "shortName": "Land",
-          "source": "PHB",
-          "subSubclass": "Mountain"
-        }
-      },
-      {
-        "class": {
-          "name": "Fighter",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Eldritch Knight",
-          "shortName": "Eldritch Knight",
-          "source": "PHB"
-        }
-      },
-      {
-        "class": {
-          "name": "Paladin",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Oath of the Ancients",
-          "shortName": "Ancients",
-          "source": "PHB"
-        }
-      },
-      {
-        "class": {
-          "name": "Paladin",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Oath of Redemption (UA)",
-          "shortName": "Redemption (UA)",
-          "source": "UAATrioOfSubclasses"
-        }
-      },
-      {
-        "class": {
-          "name": "Paladin",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Oath of Conquest v2 (UA)",
-          "shortName": "Conquest v2 (UA)",
-          "source": "UARevisedClassOptions"
-        }
-      },
-      {
-        "class": {
-          "name": "Paladin",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Oath of Conquest",
-          "shortName": "Conquest",
-          "source": "XGE"
-        }
-      },
-      {
-        "class": {
-          "name": "Paladin",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Oath of Redemption",
-          "shortName": "Redemption",
-          "source": "XGE"
-        }
-      },
-      {
-        "class": {
-          "name": "Rogue",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Arcane Trickster",
-          "shortName": "Arcane Trickster",
-          "source": "PHB"
-        }
-      }
     ]
   },
   "optionalfeatures": [
     {
       "name": "Eternal Mountain Defense",
       "source": "PHB",
-      "featureType": ["ED"]
+      "featureType": [
+        "ED"
+      ]
     }
   ],
   "backgrounds": [

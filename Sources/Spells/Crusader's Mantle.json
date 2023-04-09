@@ -33,38 +33,20 @@
   "entries": [
     "Holy power radiates from you in an aura with a 30-foot radius, awakening boldness in friendly creatures. Until the spell ends, the aura moves with you, centered on you. While in the aura, each nonhostile creature in the aura (including you) deals an extra {@damage 1d4} radiant damage when it hits with a weapon attack."
   ],
-  "damageInflict": ["radiant"],
-  "miscTags": ["AAD"],
-  "areaTags": ["S"],
+  "damageInflict": [
+    "radiant"
+  ],
+  "miscTags": [
+    "AAD"
+  ],
+  "areaTags": [
+    "S"
+  ],
   "classes": {
     "fromClassList": [
       {
         "name": "Paladin",
         "source": "PHB"
-      }
-    ],
-    "fromSubclass": [
-      {
-        "class": {
-          "name": "Cleric",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "War Domain",
-          "shortName": "War",
-          "source": "PHB"
-        }
-      },
-      {
-        "class": {
-          "name": "Cleric",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Solidarity Domain (PSA)",
-          "shortName": "Solidarity (PSA)",
-          "source": "PSA"
-        }
       }
     ]
   }

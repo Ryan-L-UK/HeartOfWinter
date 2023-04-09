@@ -46,11 +46,21 @@
       ]
     }
   ],
-  "conditionInflict": ["paralyzed"],
-  "savingThrow": ["wisdom"],
-  "affectsCreatureType": ["humanoid"],
-  "miscTags": ["SGT"],
-  "areaTags": ["ST"],
+  "conditionInflict": [
+    "paralyzed"
+  ],
+  "savingThrow": [
+    "wisdom"
+  ],
+  "affectsCreatureType": [
+    "humanoid"
+  ],
+  "miscTags": [
+    "SGT"
+  ],
+  "areaTags": [
+    "ST"
+  ],
   "classes": {
     "fromClassList": [
       {
@@ -77,182 +87,15 @@
         "name": "Wizard",
         "source": "PHB"
       }
-    ],
-    "fromSubclass": [
-      {
-        "class": {
-          "name": "Cleric",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Order Domain (UA)",
-          "shortName": "Order (UA)",
-          "source": "UAOrderDomain"
-        }
-      },
-      {
-        "class": {
-          "name": "Cleric",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Order Domain",
-          "shortName": "Order",
-          "source": "TCE"
-        }
-      },
-      {
-        "class": {
-          "name": "Druid",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Circle of the Land",
-          "shortName": "Land",
-          "source": "PHB",
-          "subSubclass": "Arctic"
-        }
-      },
-      {
-        "class": {
-          "name": "Fighter",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Eldritch Knight",
-          "shortName": "Eldritch Knight",
-          "source": "PHB"
-        }
-      },
-      {
-        "class": {
-          "name": "Paladin",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Oath of Vengeance",
-          "shortName": "Vengeance",
-          "source": "PHB"
-        }
-      },
-      {
-        "class": {
-          "name": "Paladin",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Oath of Conquest (UA)",
-          "shortName": "Conquest (UA)",
-          "source": "UAPaladin"
-        }
-      },
-      {
-        "class": {
-          "name": "Paladin",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Oath of Redemption (UA)",
-          "shortName": "Redemption (UA)",
-          "source": "UAATrioOfSubclasses"
-        }
-      },
-      {
-        "class": {
-          "name": "Paladin",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Oath of Conquest v2 (UA)",
-          "shortName": "Conquest v2 (UA)",
-          "source": "UARevisedClassOptions"
-        }
-      },
-      {
-        "class": {
-          "name": "Paladin",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Oath of Conquest",
-          "shortName": "Conquest",
-          "source": "XGE"
-        }
-      },
-      {
-        "class": {
-          "name": "Paladin",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Oath of Redemption",
-          "shortName": "Redemption",
-          "source": "XGE"
-        }
-      },
-      {
-        "class": {
-          "name": "Rogue",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Arcane Trickster",
-          "shortName": "Arcane Trickster",
-          "source": "PHB"
-        }
-      },
-      {
-        "class": {
-          "name": "Sorcerer",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Favored Soul v2 (UA)",
-          "shortName": "Favored Soul v2 (UA)",
-          "source": "UASorcerer"
-        }
-      },
-      {
-        "class": {
-          "name": "Sorcerer",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Favored Soul v3 (UA)",
-          "shortName": "Favored Soul v3 (UA)",
-          "source": "UARevisedSubclasses"
-        }
-      },
-      {
-        "class": {
-          "name": "Sorcerer",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Divine Soul",
-          "shortName": "Divine Soul",
-          "source": "XGE"
-        }
-      },
-      {
-        "class": {
-          "name": "Sorcerer",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Giant Soul (UA)",
-          "shortName": "Giant Soul (UA)",
-          "source": "UAGiantSoulSorcerer",
-          "subSubclass": "Frost"
-        }
-      }
     ]
   },
   "optionalfeatures": [
     {
       "name": "Clench of the North Wind",
       "source": "PHB",
-      "featureType": ["ED"]
+      "featureType": [
+        "ED"
+      ]
     }
   ],
   "backgrounds": [

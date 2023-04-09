@@ -38,7 +38,9 @@
     "If you create an image of an object—such as a chair, muddy footprints, or a small chest—it must be no larger than a 5-foot cube. The image can't create sound, light, smell, or any other sensory effect. Physical interaction with the image reveals it to be an illusion, because things can pass through it.",
     "If a creature uses its action to examine the sound or image, the creature can determine that it is an illusion with a successful Intelligence ({@skill Investigation}) check against your spell save DC. If a creature discerns the illusion for what it is, the illusion becomes faint to the creature."
   ],
-  "abilityCheck": ["intelligence"],
+  "abilityCheck": [
+    "intelligence"
+  ],
   "classes": {
     "fromClassList": [
       {
@@ -56,75 +58,6 @@
       {
         "name": "Wizard",
         "source": "PHB"
-      }
-    ],
-    "fromSubclass": [
-      {
-        "class": {
-          "name": "Cleric",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Arcana Domain",
-          "shortName": "Arcana",
-          "source": "SCAG"
-        }
-      },
-      {
-        "class": {
-          "name": "Fighter",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Eldritch Knight",
-          "shortName": "Eldritch Knight",
-          "source": "PHB"
-        }
-      },
-      {
-        "class": {
-          "name": "Monk",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Way of Shadow",
-          "shortName": "Shadow",
-          "source": "PHB"
-        }
-      },
-      {
-        "class": {
-          "name": "Rogue",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Arcane Trickster",
-          "shortName": "Arcane Trickster",
-          "source": "PHB"
-        }
-      },
-      {
-        "class": {
-          "name": "Sorcerer",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Giant Soul (UA)",
-          "shortName": "Giant Soul (UA)",
-          "source": "UAGiantSoulSorcerer",
-          "subSubclass": "Cloud"
-        }
-      },
-      {
-        "class": {
-          "name": "Wizard",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "School of Illusion",
-          "shortName": "Illusion",
-          "source": "PHB"
-        }
       }
     ]
   },
@@ -210,7 +143,9 @@
     {
       "name": "Pact of the Tome",
       "source": "PHB",
-      "featureType": ["PB"]
+      "featureType": [
+        "PB"
+      ]
     }
   ],
   "feats": [

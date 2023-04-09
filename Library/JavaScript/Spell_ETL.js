@@ -49,7 +49,7 @@ function fetchData(fileName) {
 function runETL(obj) {
   // ---------------------------------------------------------------------------------------------------------
   //RML CUSTOM JSON
-  if (obj.source == undefined) {
+  if (obj.customIndicator == "RML") {
     console.warn("Cleric: Summoning Custom Shell");
     console.log(obj);
     for (const prop in obj) {

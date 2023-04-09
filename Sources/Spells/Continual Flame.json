@@ -29,13 +29,17 @@
   "duration": [
     {
       "type": "permanent",
-      "ends": ["dispel"]
+      "ends": [
+        "dispel"
+      ]
     }
   ],
   "entries": [
     "A flame, equivalent in brightness to a torch, springs forth from an object that you touch. The effect looks like a regular flame, but it creates no heat and doesn't use oxygen. A continual flame can be covered or hidden but not smothered or quenched."
   ],
-  "miscTags": ["OBJ"],
+  "miscTags": [
+    "OBJ"
+  ],
   "classes": {
     "fromClassList": [
       {
@@ -59,7 +63,7 @@
         "source": "TCE"
       }
     ],
-    "fromClassListVariant": [
+    "classVariant": [
       {
         "name": "Druid",
         "source": "PHB",
@@ -69,63 +73,6 @@
         "name": "Druid",
         "source": "PHB",
         "definedInSource": "TCE"
-      }
-    ],
-    "fromSubclass": [
-      {
-        "class": {
-          "name": "Fighter",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Eldritch Knight",
-          "shortName": "Eldritch Knight",
-          "source": "PHB"
-        }
-      },
-      {
-        "class": {
-          "name": "Rogue",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Arcane Trickster",
-          "shortName": "Arcane Trickster",
-          "source": "PHB"
-        }
-      },
-      {
-        "class": {
-          "name": "Sorcerer",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Favored Soul v2 (UA)",
-          "shortName": "Favored Soul v2 (UA)",
-          "source": "UASorcerer"
-        }
-      },
-      {
-        "class": {
-          "name": "Sorcerer",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Favored Soul v3 (UA)",
-          "shortName": "Favored Soul v3 (UA)",
-          "source": "UARevisedSubclasses"
-        }
-      },
-      {
-        "class": {
-          "name": "Sorcerer",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Divine Soul",
-          "shortName": "Divine Soul",
-          "source": "XGE"
-        }
       }
     ]
   },

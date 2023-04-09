@@ -54,8 +54,12 @@
       ]
     }
   ],
-  "miscTags": ["PRM"],
-  "areaTags": ["C"],
+  "miscTags": [
+    "PRM"
+  ],
+  "areaTags": [
+    "C"
+  ],
   "classes": {
     "fromClassList": [
       {
@@ -65,63 +69,6 @@
       {
         "name": "Druid",
         "source": "PHB"
-      }
-    ],
-    "fromSubclass": [
-      {
-        "class": {
-          "name": "Sorcerer",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Favored Soul v2 (UA)",
-          "shortName": "Favored Soul v2 (UA)",
-          "source": "UASorcerer"
-        }
-      },
-      {
-        "class": {
-          "name": "Sorcerer",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Favored Soul v3 (UA)",
-          "shortName": "Favored Soul v3 (UA)",
-          "source": "UARevisedSubclasses"
-        }
-      },
-      {
-        "class": {
-          "name": "Sorcerer",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "Divine Soul",
-          "shortName": "Divine Soul",
-          "source": "XGE"
-        }
-      },
-      {
-        "class": {
-          "name": "Warlock",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "The Lurker in the Deep (UA)",
-          "shortName": "Lurker in the Deep (UA)",
-          "source": "UASorcererAndWarlock"
-        }
-      },
-      {
-        "class": {
-          "name": "Warlock",
-          "source": "PHB"
-        },
-        "subclass": {
-          "name": "The Fathomless",
-          "shortName": "Fathomless",
-          "source": "TCE"
-        }
       }
     ]
   },
