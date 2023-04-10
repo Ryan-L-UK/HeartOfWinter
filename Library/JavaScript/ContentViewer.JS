@@ -14,8 +14,8 @@ if (Type == "Location") {
   var ContentView = "Faerun/Gullet Cove Map/District/" + FileName;
 } else if (Type == "Faerun") {
   var ContentView = "Faerun/" + FileName + "/" + FileName;
-} else if (Type == "Item") {
-  var ContentView = "Magic Items/" + FileName;
+} else if (Type == "Foundry") {
+  var ContentView = "Foundry/" + FileName;
 } else if (Type == "Ruleset") {
   var ContentView = "Rules/" + FileName;
 } else {

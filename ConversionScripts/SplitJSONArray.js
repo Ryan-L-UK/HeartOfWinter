@@ -10,7 +10,7 @@ fs.readdir(directoryPath, function (err, files) {
     console.warn("FILE LOADED: " + file);
     console.warn("------------------------------------------");
     var fileName = "/sources/" + file;
-    var arrayName = "XGE";
+    var arrayName = "item";
     const data = fs.readFileSync(__dirname + "/" + fileName);
     let directory = __dirname + "/" + arrayName;
     if (!fs.existsSync(__dirname + "/" + arrayName)) {
@@ -20,7 +20,10 @@ fs.readdir(directoryPath, function (err, files) {
     let array = json[arrayName];
     for (object in array) {
       fs.writeFileSync(
-        directory + "/" + array[object].name.replace("/", "-") + ".json",
+        directory +
+          "/" +
+          array[object].name.replace("/", "-").replace(/\"/g, "'") +
+          ".json",
         JSON.stringify(array[object])
       );
     }

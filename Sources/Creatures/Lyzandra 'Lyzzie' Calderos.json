@@ -4,19 +4,10 @@
   "isNamedCreature": true,
   "source": "PotA",
   "page": 110,
-  "_copy": {
-    "name": "Mage",
-    "source": "MM",
-    "_mod": {
-      "*": {
-        "mode": "replaceTxt",
-        "replace": "the mage",
-        "with": "Lyzandra",
-        "flags": "i"
-      }
-    }
+  "type": {
+    "type": "humanoid",
+    "tags": ["human"]
   },
-  "type": { "type": "humanoid", "tags": ["human"] },
   "spellcasting": [
     {
       "name": "Spellcasting",
@@ -57,11 +48,61 @@
           "slots": 3,
           "spells": ["{@spell greater invisibility}", "{@spell wall of fire}"]
         },
-        "5": { "slots": 1, "spells": ["{@spell immolation|xge}"] }
+        "5": {
+          "slots": 1,
+          "spells": ["{@spell immolation|xge}"]
+        }
       },
-      "ability": "int"
+      "ability": "int",
+      "type": "spellcasting"
     }
   ],
   "damageTagsSpell": ["F", "O"],
-  "hasToken": true
+  "hasToken": true,
+  "size": ["M"],
+  "alignment": ["A"],
+  "ac": [
+    12,
+    {
+      "ac": 15,
+      "condition": "with {@spell mage armor}",
+      "braces": true
+    }
+  ],
+  "hp": {
+    "average": 40,
+    "formula": "9d8"
+  },
+  "speed": {
+    "walk": 30
+  },
+  "str": 9,
+  "dex": 14,
+  "con": 11,
+  "int": 17,
+  "wis": 12,
+  "cha": 11,
+  "save": {
+    "int": "+6",
+    "wis": "+4"
+  },
+  "skill": {
+    "arcana": "+6",
+    "history": "+6"
+  },
+  "passive": 11,
+  "languages": ["any four languages"],
+  "cr": "6",
+  "action": [
+    {
+      "name": "Dagger",
+      "entries": [
+        "{@atk mw,rw} {@hit 5} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+      ]
+    }
+  ],
+  "languageTags": ["X"],
+  "damageTags": ["P"],
+  "spellcastingTags": ["CW"],
+  "miscTags": ["MW", "RW", "THW"]
 }

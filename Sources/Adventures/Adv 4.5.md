@@ -379,10 +379,15 @@ If he suspects he is no longer alone, he carries on idly reading and burning tex
 If he knows intruders are present, he summons an elemental to defend him—probably a fire elemental, as it can help him burn the library or slip into area 15 to aid the elementals there, as needed. As he can, **Exul** resumes his task of burning the library so he can leave without taking damage from the Geas upon him.
 
 **Exul** is a cunning, unfair combatant. He uses invisibility to protect himself. He hurls fire and casts wall of fire to accelerate his work. If either he or the library has fewer than 25 percent of their hit point maximum, **Exul** may attempt to flee by casting plane shift and traveling alone to the Elemental Plane of Fire. He might do this even if his task is incomplete, risking damage from **Nihilus**'s Geas. **Exul** is smart but reckless. He leaves any elementals behind to combat the adventurers.
+**Exul** may also confirm details of his Master, both willingly and unwillingly through combat.
 
 **Teleportation Circles.** Two teleportation circles used to serve this chamber and the wizards who kept this collection. The northern circle has been damaged by the sinkhole's collapse. (It used to lead to a now-ruined wizard's tower overlooking the Sword Coast.) The southern circle leads to an abandoned townhouse in Waterdeep; the circle there is beneath the floorboards in the attic. (See "Part 3: What's Next?" for additional options.)
 
-**Treasure.** To historians, sages, and collectors in a college or university, the value of the library's nonmagical collection is up to 550 sp. Three spell scrolls also remain in the collection: one scroll of chain lightning, one scroll of Otiluke's freezing sphere, and one scroll of wall of stone.
+**Treasure.** To historians, sages, and collectors in a college or university, the value of the library's nonmagical collection is up to 550 sp. Three spell scrolls also remain in the collection: one scroll of Lightning Bolt, one scroll of Ice Storm, and one scroll of Stoneskin.
+
+**Mask Of Nihilus** This mask is terrifying to look at, and it would seem that it was given to the Exul, although the reason why is not entirely clear. The mask offers a strange and unusual effect to those who put it on
+
+---
 
 #### The Burning Library
 
@@ -411,18 +416,6 @@ If cold damage caused in any 5-foot-square area exceeds the damage being dealt i
 | 101–200 hp      | Major losses: Two spell scrolls are destroyed, and the value of the collection is reduced by 300 sp.  |
 
 Otherwise, an area might burn again if fire spreads and the collection still has hit points remaining.
-
-<em>
-
-#### Chaos in the Collection
-
-Between collapsing stone, errant lightning, and spreading flames, things can get messy here in a hurry. Add in **Malivar**, **Exul**, and other elementals and things go beyond hectic. The players' choices might well make things easier or more difficult for them—that's fair. All these moving parts are here to create options and unexpected interactions.
-
-If circumstances do turn against the adventurers, it can be dire. Depending on the monsters involved, a battle in the library can become an encounter of Deadly magnitude.
-
-Keep in mind that defeating the adventurers isn't a goal of the NPCs or monsters here. Combat isn't an essential outcome. Anyone might be driven to flee if things go sideways—even the elementals. If the library burns to ash, then it does.
-
-</em>
 
 ### B15: Processional Hall
 

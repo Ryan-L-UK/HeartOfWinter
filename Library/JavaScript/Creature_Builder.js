@@ -186,7 +186,6 @@ function showInput() {
     }
   });
   for (var [key, value] of form) {
-    console.log(key);
     if (ignore.indexOf(key) >= 0) {
       //do nothing
     } else if (key == "tags") {

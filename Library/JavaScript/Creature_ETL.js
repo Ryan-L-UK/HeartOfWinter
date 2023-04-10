@@ -78,6 +78,13 @@ function runETL(obj) {
   else {
     console.warn("Cleric: Summoning Converter Shell");
     console.log(obj);
+    // ---------------------------------------------------------------------------------------------------------
+    if (obj.legendary != undefined) {
+      alert(
+        "This creature has a Legendary Marker. It is likely the creature load will have failed."
+      );
+    }
+    // ---------------------------------------------------------------------------------------------------------
     var object = {};
     // ---------------------------------------------------------------------------------------------------------
     if (obj.type.type != undefined) {
@@ -208,38 +215,43 @@ function runETL(obj) {
     }
     // ---------------------------------------------------------------------------------------------------------
     // CREATURE TRAITS
-    if (obj.trait != undefined) {
-      let traitsOut = [];
-      var traitsList = obj.trait;
-      var traitsLength = traitsList.length;
-      for (var i = 0; i < traitsLength; i++) {
-        if (traitsList[i].name != undefined) {
-          traitsOut.push({
-            name: traitsList[i].name,
-            data: datacleanse(obj.trait[i].entries).replace(/\{.*\|0\|/g, ""),
-          });
-        }
-      }
+    let traitsOut = [];
+    var traitsList = obj.trait;
+    if (traitsList == undefined) {
+      var traitsLength = 0;
     } else {
-      var traitsOut = undefined;
+      var traitsLength = traitsList.length;
     }
+    for (var i = 0; i < traitsLength; i++) {
+      if (traitsList[i].name != undefined) {
+        traitsOut.push({
+          name: traitsList[i].name,
+          data: datacleanse(obj.trait[i].entries).replace(/\{.*\|0\|/g, ""),
+        });
+      }
+    }
+
     // ---------------------------------------------------------------------------------------------------------
     // CREATURE ACTIONS
-    if (obj.action != undefined) {
-      let actionsOut = [];
-      var actionsList = obj.action;
-      var actionsLength = actionsList.length;
-      for (var i = 0; i < actionsLength; i++) {
-        if (actionsList[i].name != undefined) {
-          actionsOut.push({
-            name: actionsList[i].name.replace(/\{@r/, "(R").replace(/\}/, ")"),
-            data: datacleanse(obj.action[i].entries),
-          });
-        }
-      }
+
+    let actionsOut = [];
+    var actionsList = obj.action;
+
+    if (actionsList == undefined) {
+      var actionsLength = 0;
     } else {
-      var actionsOut = undefined;
+      var actionsLength = actionsList.length;
     }
+
+    for (var i = 0; i < actionsLength; i++) {
+      if (actionsList[i].name != undefined) {
+        actionsOut.push({
+          name: actionsList[i].name.replace(/\{@r/, "(R").replace(/\}/, ")"),
+          data: datacleanse(obj.action[i].entries),
+        });
+      }
+    }
+
     // ---------------------------------------------------------------------------------------------------------
     if (obj.spellcasting == undefined) {
       console.log("Not A Spellcaster");
@@ -249,8 +261,8 @@ function runETL(obj) {
         (item) => item.name === "Innate Spellcasting"
       );
       var S = spellArray.findIndex((item) => item.name === "Spellcasting");
-      console.log(I);
-      console.log(S);
+      console.log("Innate: " + I);
+      console.log("Spellcaster: " + S);
       if (I >= 0) {
         console.log("Innate Spellcaster");
         var Innate = "/Innate";
@@ -348,19 +360,31 @@ function runETL(obj) {
     }
 
     object["languages"] = langOut;
+
+    console.log(traitsOut);
     if (traitsOut != undefined) {
       var traitsOutLength = traitsOut.length;
       for (var i = 0; i < traitsOutLength; i++) {
         object["T" + [i] + "H"] = traitsOut[i].name;
         object["T" + [i] + "D"] = traitsOut[i].data;
       }
+    } else {
+      console.warn("ERROR");
+      object[T1H] = undefined;
+      object[T1D] = undefined;
     }
+
+    console.log(actionsOut);
     if (actionsOut != undefined) {
       var actionsOutLength = actionsOut.length;
       for (var i = 0; i < actionsOutLength; i++) {
         object["A" + [i] + "H"] = actionsOut[i].name;
         object["A" + [i] + "D"] = actionsOut[i].data;
       }
+    } else {
+      console.warn("ERROR");
+      object[A1H] = undefined;
+      object[A1D] = undefined;
     }
     object["CasterInnate"] = CasterInnate;
     object["innateHeaderEntry"] = headerentryI;
@@ -390,7 +414,6 @@ function runETL(obj) {
     document.getElementById("creatureform").reset();
     const objct = JSON.parse(outputJson);
     for (const prop in objct) {
-      console.log(`${objct[prop]}`);
       document.getElementById(`${prop}`).value = `${objct[prop]}`;
       if (`${objct[prop]}` == "on") {
         console.warn(

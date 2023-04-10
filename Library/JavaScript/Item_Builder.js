@@ -32,6 +32,21 @@ fetch("http://localhost:8080/sources/MagicItems/")
     myTable.appendChild(tbodyRef);
 
     for (const prop in data) {
+      //-----------------
+      if (data[prop].source.includes("UA") && data[prop].source != "UAWGE") {
+        console.warn(data[prop].name);
+      }
+      if (
+        data[prop].type == "SHP" ||
+        data[prop].type == "AIR" ||
+        data[prop].type == "VEH" ||
+        data[prop].type == "MNT" ||
+        data[prop].type == "TAH"
+      ) {
+        console.warn(data[prop].name);
+      }
+
+      //-----------------
       let itemName = data[prop].name;
       var newRow = tbodyRef.insertRow();
       //-----------------

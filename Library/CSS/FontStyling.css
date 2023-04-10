@@ -178,8 +178,7 @@ h2.pheader,
 h2.indextype,
 h2.spelltype,
 p.index,
-p.indexfooter,
-p.index {
+p.indexfooter {
   text-align: left;
 }
 h1.indexheading,
@@ -231,10 +230,7 @@ h1.indexheading {
   padding-top: 1%;
   color: #000;
 }
-p.index {
-  margin-bottom: 1px;
-  margin-top: 5px;
-}
+
 h3.weapon {
   text-align: right;
   margin: 0 1.5% 1%;
@@ -242,6 +238,11 @@ h3.weapon {
 p.index {
   margin: 0 auto 10px;
 }
+
+p.nospace {
+  margin: 0 auto 0;
+}
+
 p.indexfooter {
   padding-bottom: 1%;
 }

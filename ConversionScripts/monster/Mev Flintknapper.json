@@ -1,0 +1,1 @@
+{"name":"Mev Flintknapper","isNpc":true,"isNamedCreature":true,"source":"OotA","page":103,"_copy":{"name":"Priest","source":"MM","_trait":{"name":"Deep Gnome","source":"DMG"},"_mod":{"*":{"mode":"replaceTxt","replace":"the veteran","with":"Mev","flags":"i"}}},"spellcastingTags":["CC","I"],"hasToken":true}
