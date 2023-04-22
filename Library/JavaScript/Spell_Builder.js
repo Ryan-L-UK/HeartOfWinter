@@ -72,6 +72,9 @@ fetch("http://localhost:8080/sources/Spells/")
     myTable.appendChild(tbodyRef);
 
     for (const prop in data) {
+      if (data[prop].source.includes("UA") && data[prop].source != "UAWGE") {
+        console.warn(data[prop].name);
+      }
       let spellName = data[prop].name;
       var newRow = tbodyRef.insertRow();
       //-----------------

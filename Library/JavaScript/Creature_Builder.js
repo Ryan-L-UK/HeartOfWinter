@@ -35,6 +35,13 @@ fetch("http://localhost:8080/Sources/Creatures")
     myTable.appendChild(tbodyRef);
 
     for (const prop in data) {
+      if (data[prop].source.includes("UA") && data[prop].source != "UAWGE") {
+        console.warn(data[prop].name);
+      }
+      if (data[prop].legendary != undefined) {
+        console.warn(data[prop].name);
+      }
+
       let creatureName = data[prop].name;
       var newRow = tbodyRef.insertRow();
       //-----------------
