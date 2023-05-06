@@ -6,7 +6,7 @@
 
 ## Adventure Background
 
-Two Temple Wizards of Thay have undertaken a secret mission into the Fairheight Range east of the Sword Coast. They are searching for something or someone. Whatever their goal out there in the cold and windswept mountains, if the Temple Wizards want to keep it secret then it is probably best uncovered swiftly for the good of everyone else. Even the mercenaries who escorted them into the wilderness earlier agree: someone should stop them.
+Two Temple Wizards of Virtuous Probability have undertaken a secret mission into the Fairheight Range east of the Sword Coast. They are searching for something or someone. Whatever their goal out there in the cold and windswept mountains, if the Temple Wizards want to keep it secret then it is probably best uncovered swiftly for the good of everyone else. Even the mercenaries who escorted them into the wilderness earlier agree: someone should stop them.
 
 Pursuing the Temple Wizards leads the adventurers to a Flame Crevasse deep in the mountains of the Fairheight Range. At the Flame Crevasse, they discover the remnants of a wizards' sanctum still being plundered. The fate of its lore and treasures is up to the characters. Without caution, things may get out of hand.
 

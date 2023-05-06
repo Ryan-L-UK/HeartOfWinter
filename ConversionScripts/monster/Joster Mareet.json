@@ -1,1 +1,0 @@
-{"name":"Joster Mareet","isNpc":true,"isNamedCreature":true,"source":"KftGV","_copy":{"name":"Incubus","source":"MM","_mod":{"*":{"mode":"replaceTxt","replace":"the fiend","with":"Joster Mareet","flags":"i"}}},"type":{"type":"humanoid","tags":["incubus"]},"hasToken":true}

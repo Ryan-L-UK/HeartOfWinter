@@ -321,3 +321,49 @@
 .Conjuration {
   color: #bd0044;
 }
+
+/*---------------------------------*/
+.common,
+.Common {
+  font-weight: bold;
+  color: #242528;
+}
+
+.uncommon,
+.Uncommon {
+  font-weight: bold;
+  color: #11750d;
+}
+.rare,
+.Rare {
+  font-weight: bold;
+  color: #4990e2;
+}
+.very,
+.Very {
+  font-weight: bold;
+  color: #9810e0;
+}
+.legendary,
+.Legendary {
+  font-weight: bold;
+  color: #fea227;
+}
+.artifact,
+.Artifact {
+  font-weight: bold;
+  color: #be8972;
+}
+.varies,
+.Varies,
+.none,
+.None {
+  font-weight: bold;
+  color: #000000;
+}
+
+.unknown,
+.Unknown {
+  font-weight: bold;
+  color: #464646;
+}

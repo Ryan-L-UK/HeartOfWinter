@@ -3,13 +3,18 @@
 function checktype(type) {
   var checktype = "";
   var lookup = {
-    $: "Treasure",
+    // TG: "Trade Good",
+    // $: "Treasure",
+    // AIR: "Vehicle (Air)",
+    // FD: "Food And Drink",
+    // MNT: "Mount",
+    // SHP: "Vehicle (Ship)",
+    // TAH: "Tack and harness",
+    // VEH: "Vehicle (Land)",
     A: "Ammunition",
     AF: "Ammunition",
-    //    AIR: "Vehicle (Air)",
     AT: "Artisan's Tools",
     EXP: "Explosive",
-    /**/ FD: "Food And Drink",
     G: "Adventuring Gear",
     GS: "Gaming Set",
     GV: "Generic Variant",
@@ -18,7 +23,6 @@ function checktype(type) {
     LA: "Light Armour",
     M: "Melee Weapon",
     MA: "Medium Armour",
-    //    MNT: "Mount",
     OTH: "Other",
     P: "Potion",
     R: "Ranged Weapon",
@@ -27,12 +31,8 @@ function checktype(type) {
     S: "Shield",
     SC: "Scroll",
     SCF: "Spellcasting Focus",
-    //    SHP: "Vehicle (Ship)",
     T: "Tools",
-    //    TAH: "Tack and harness",
-    TG: "Trade Good",
     WD: "Wand",
-    //    VEH: "Vehicle (Land)",
   };
   checktype = lookup[type];
   return checktype;

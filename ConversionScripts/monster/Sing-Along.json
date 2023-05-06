@@ -1,1 +1,0 @@
-{"name":"Sing-Along","isNpc":true,"isNamedCreature":true,"source":"WDMM","page":148,"_copy":{"name":"Commoner","source":"MM","_trait":{"name":"Stout Halfling","source":"PHB"}},"alignment":["L","G"],"cha":14,"skill":{"performance":"+4"},"languages":["Common","Halfling"],"languageTags":["C","H"],"hasToken":true}

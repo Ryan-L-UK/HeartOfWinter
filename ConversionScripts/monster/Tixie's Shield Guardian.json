@@ -1,1 +1,0 @@
-{"name":"Tixie's Shield Guardian","isNpc":true,"isNamedCreature":true,"source":"KftGV","_copy":{"name":"Shield Guardian","source":"MM","_mod":{"trait":{"mode":"removeArr","names":"Spell Storing"}}},"hasToken":true}

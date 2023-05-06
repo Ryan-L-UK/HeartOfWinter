@@ -1,1 +1,0 @@
-{"name":"Asha Vandree","isNpc":true,"isNamedCreature":true,"source":"OotA","page":9,"_copy":{"name":"Priest","source":"MM","_trait":{"name":"Drow","source":"PHB"},"_mod":{"*":{"mode":"replaceTxt","replace":"the priest","with":"Asha","flags":"i"}}},"traitTags":["Fey Ancestry","Sunlight Sensitivity"],"spellcastingTags":["CC","I"],"hasToken":true}

@@ -157,7 +157,7 @@ Having offered as much as you can, you return to the temple and discuss how this
 
 ### Week 3
 
-You approach the third week and decide that you have been in the city enough and make your way out to the forest where you stayed before. The route is familiar and safe, all be it with some traces of snow here and there. You are even able to find the exact spot you were before, although last time the weather was far nice and a shelter wasn’t needed. You even find your picture still remains nailed to the tree where you left it. The ink has run in places due to the weather, but overall, it still looks as good as the day you drove a nail right through the centre of it. For some reason…
+You approach the third week and decide that you have been in the city enough and make your way out to the forest where you stayed before. The route is familiar and safe, all be it with some traces of snow here and there. After a short time you are even able to find the exact spot you were before, although a look at the remains of your camp fire suggest it has been used recently by someone or something. A look around the area and you are even able to find your picture still remains nailed to the tree where you left it. The ink has run in places due to the weather, but overall, it still looks as good as the day you drove a nail right through the centre of it. For some reason…
 
 <br>
 
@@ -211,3 +211,50 @@ Over several days of intermittent visits, you are able to come to a few, basic c
 There isn’t much know of this artefact, but it is said that the mask has the power to twist the hearts and mind of whoever wears it, offering more power, at the price of their own alignment. The longer one wears the mask, the more power they gain, but at the price of becoming more evil. It is said once the transformation is complete, the mask will untie and fall off, awaiting its next victim.
 
 Any attempts to remove the mask by force will be met with resistance in the form of the straps tightening, but you already knew that last point first hand.
+
+\page
+
+# Elstiana
+
+### Week 1
+
+#### Shopping
+
+Taking your first day of downtime, you decide you would like to start with a little shopping. The orb has been calling to you somewhat, and you have decided to allow it, embrace the new ideals. Even if they are not exactly the ones you held when you left the Feywild. Today is a ‘Winters’ day, and you are not really in the mood for people, so on retrospect shopping may not have been the best of ideas for today.
+
+<br>
+
+Your first port of call is to make your way to the same back-alley shop as before in the quest for blood. The shop remains unchanged, everything is still covered in blood, and you are unsure if anyone actually ever goes inside, except you. As you walk in, the sweet smell of fresh blood hits you, cinnamon rolls have got nothing on this. This is liquid sugar and you want it, and sadly for you, the shopkeeper knows it.
+
+In standard negotiation tactics, the shopkeeper starts by explaining that blood is hard to get hold of, finding it this fresh is a challenge, etc, etc. To be honest, he waffles on, but you are fixated on the prize, the vial. That is, until he clearly loses his mind, and tells you that this vial will cost you 180gp, as opposed to the 55gp of last time. Your eyes snap with anger to meet his, and despite realising he may have overstepped his mark slightly, he stands firm. So, you decide to take things up a notch, or 15.
+
+You are not in the mood for this guy’s bullshit, so you wasting no time in casting Prestidigitation, creating glowing glyphs and symbols all over the room for dramatic effect. You then start to swirl your hands menacingly in the air as you begin to cast Chromatic Orb. The red sphere of energy manifests into existence in front of you, and the shopkeeper begins to realise that he may have made a serious mistake. He starts immediately lowering the price slowly, so you continue to cast hitting second a second level spell slot quickly. Fearing for his life, the increments get faster, until at last he is just shouting ever decreasing numbers whilst falling to his knees.
+
+You’re not really sure at what point he realised you had dismissed all the spells, but somewhere around 30gps you stopped, and somewhere around 15gp you accepted the price.
+
+<br>
+
+Seeing this as an opportunity, you also use this time to speak to him about the possibility of casting the ‘Crimson Stone’ into a silver choker. To which he accepts and if you promise to not destroy his entire livelihood, he will do for 5gp and have it completed by the end of the day.
+
+<br>
+
+You then decide to check out the brand-new black-market shop, Sielf emit to see if they have anything of interest:
+{{descriptive
+
+##### Ask your DM for the days item listings
+
+(Day 1)
+}}
+
+#### Research
+
+The rest of the first week is spent in the various libraries research the concept of plane shifting, who can do it, how it works and so on. You find yourself gravitating to the same collection of information, regardless of which source book you pick up. ‘The Wise Alaundo’. A powerful caster of sorts, it would seem there is some link to him and the ability to switch planes, there are even stories he was able to cause two planes to overlap, creating a bridge. But these are interesting concepts, there is no guidance or evidence as these books were written hundreds of years after Alaundo’s supposed passing. That’s if he ever really existed.
+
+### Weeks 2 & 3
+
+Deciding that you need some time out of the world, exploring natural sources of magic, you make your way out Dernal Forest in the west. You have been warned that if you venture too far inside that it is the home of curious and dangerous monsters, but you know better than to listen to townsfolk warnings. It’s probably an oversized chicken or something.
+You arrive at what appears to be an old campsite of sorts, there is what remains of a fire, some curious small tracks, and a picture of a flower nailed to a tree. The flower is nicely drawn, and coloured with inks, all be it, the inks have run a little in places due to the snow, but the picture looks nice. That is, until you notice it has been held to the tree by driving a nail right through the centre of it, ruining it. You stay here for a night, before moving on, leaving no trace of your presence.
+
+<br>
+
+You quickly pick up on a magical line, a source of some kind of energy, its old though, really old. You start to follow it through the trees, heading north, then west, the north some more. It is strange, the route makes no logical sense, and you find yourself crossing routes you have already walked. Several days of walking you find yourself at the foot of a mountain range. There is a tunnel heading down into the deep of the mountain. The doorway is huge, yet natural, as if created over thousands of years, but there are stairs descending down hewn from the rock. You want to head down, to see the source of the magic, but you know that you have reached the end of your downtime, and must head back if you are to meet your companions upon the agreed day. Maybe next time…

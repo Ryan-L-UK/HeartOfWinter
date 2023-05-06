@@ -30,20 +30,30 @@ fetch("http://localhost:8080/sources/MagicItems/")
     tblRow.appendChild(tblEdit);
     const tbodyRef = document.createElement("tbody");
     myTable.appendChild(tbodyRef);
-
+    let warnings = 0;
+    const warningArray = [];
     for (const prop in data) {
       //-----------------
-      if (data[prop].source.includes("UA") && data[prop].source != "UAWGE") {
-        console.warn(data[prop].name);
-      }
+      // Data Cleanser
+
       if (
+        (data[prop].source.includes("UA") && data[prop].source != "UAWGE") ||
+        (data[prop].customIndicator == undefined &&
+          data[prop].entries == undefined) ||
         data[prop].type == "SHP" ||
+        data[prop].type == "SPC" ||
         data[prop].type == "AIR" ||
         data[prop].type == "VEH" ||
         data[prop].type == "MNT" ||
-        data[prop].type == "TAH"
+        data[prop].type == "TAH" ||
+        data[prop].type == "FD" ||
+        data[prop].type == "TG" ||
+        data[prop].type == "$" ||
+        data[prop].source == "XMtS" ||
+        data[prop]._copy != undefined
       ) {
-        console.warn(data[prop].name);
+        warnings++;
+        warningArray.push(data[prop].name + ".json");
       }
 
       //-----------------
@@ -53,6 +63,8 @@ fetch("http://localhost:8080/sources/MagicItems/")
       var newName = newRow.insertCell();
       var newNameText = document.createTextNode(itemName);
       newName.appendChild(newNameText);
+      newName.removeAttribute("class");
+      newName.setAttribute("class", data[prop].rarity);
       //-----------------
       var newType = newRow.insertCell();
       if (data[prop].customIndicator == undefined) {
@@ -103,6 +115,15 @@ fetch("http://localhost:8080/sources/MagicItems/")
       jsonAnchor.appendChild(newEditText);
     }
     tblParent.appendChild(myTable);
+    if (warnings > "0") {
+      window.alert(
+        "There are: " +
+          warnings +
+          " items that meet the delete conditions. Please review the logs."
+      );
+      console.warn("Copy the object below to: FileRelocationList.txt");
+      console.log(warningArray);
+    }
   });
 
 // ---------------------------------------------------------------------------------------------------------
