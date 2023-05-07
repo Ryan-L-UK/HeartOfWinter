@@ -104,6 +104,9 @@ putting it all in one place.
   clip-path: polygon(100%0, 100% 93%, 93% 100%, 0 100%, 0 0);
 }
 
+.menuitem:hover {
+}
+
 .menuitem:nth-child(-n + 2) {
   grid-column: span 3;
   height: 420px;
