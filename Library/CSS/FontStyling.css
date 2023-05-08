@@ -56,42 +56,50 @@ Header Stylings
 The site uses a markdown tier of header styling from H1-H4,
 here are the controls for each. 
 -----------------------------------------------------------*/
-h1.main,
-h2.main,
-h3.main,
-h4.main {
+h1.main {
   text-align: center;
   align-items: center;
   margin-bottom: 0;
-}
-h1.main,
-h2.main,
-h3.main {
   font-family: Cinzel1;
   text-transform: capitalize;
   font-variant: small-caps;
-}
-h1.main,
-h3.main,
-h4.main {
   color: #860954;
-}
-h1.main {
   font-weight: bold;
   font-size: 4.4rem;
   margin-top: 0;
 }
+
 h2.main {
+  text-align: center;
+  align-items: center;
+  margin-bottom: 0;
+  font-family: Cinzel1;
+  text-transform: capitalize;
+  font-variant: small-caps;
   color: #000;
   margin-top: -10px;
   font-size: 1.75rem;
 }
-h3.main,
-h4.main {
+
+h3.main {
+  text-align: center;
+  align-items: center;
+  margin-bottom: 0;
+  font-family: Cinzel1;
+  text-transform: capitalize;
+  font-variant: small-caps;
+  color: #860954;
   margin-top: -5px;
   font-size: 1.5rem;
 }
+
 h4.main {
+  text-align: center;
+  align-items: center;
+  margin-bottom: 0;
+  color: #860954;
+  margin-top: -5px;
+  font-size: 1.5rem;
   font-family: MoonDance;
   font-style: italic;
 }
@@ -121,43 +129,19 @@ Generator Stylings
 The site has lots of additional requirements from the various
 generators it uses. here are the controls for each of them. 
 -----------------------------------------------------------*/
-
-.hbody {
-  text-align: left;
-  padding-bottom: 0;
-}
-.standard {
-  font-size: 0.85rem;
-  text-align: left;
-  padding-bottom: 0;
-}
 .bold {
   font-weight: 700;
-}
-
-.italic {
-  font-style: italic;
-}
-
-.standard .margin {
-  padding-top: 10px;
-}
-.hbody {
-  font-size: 1.2rem;
-  line-height: 1.8rem;
 }
 .capitalize {
   text-transform: capitalize;
 }
-.cClass,
-.cSource {
-  padding: 0;
-}
 .cClass {
+  padding: 0;
   background-color: #760d81;
   color: #fff;
 }
 .cSource {
+  padding: 0;
   color: #760d81;
   background-color: #fff;
   text-align: right;
@@ -169,89 +153,48 @@ generators it uses. here are the controls for each of them.
   justify-items: right;
   font-size: 0.9rem;
 }
-h1.indexheading,
-h1.listname,
-h1.spellname,
-h1.PotionName,
-h1.shipname,
-h2.pheader,
-h2.indextype,
-h2.spelltype,
-p.index,
-p.indexfooter {
+.hbody {
   text-align: left;
+  padding-bottom: 0;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
 }
-h1.indexheading,
-p.indexfooter {
-  margin: 0 auto;
+.italic {
+  font-style: italic;
 }
-
-h2.spelltype,
-h3.weapon,
-p.index,
-p.indexfooter {
-  font-size: 1rem;
+.spell {
+  font-style: italic;
+  font-weight: 600;
 }
-
-h2.indextype,
-h2.creaturetype {
-  font-size: 0.9rem;
+.standard .margin {
+  padding-top: 10px;
 }
-
-h2.indextype,
-h2.spelltype,
-h1.indexheading,
-h1.listname,
-h1.spellname,
+.standard {
+  font-size: 0.85rem;
+  text-align: left;
+  padding-bottom: 0;
+}
 h1.dreamname {
-  margin: 0;
+  color: #fff;
+  text-align: center;
+  padding-top: 0;
 }
-h2.indextype,
-h2.indextype,
-h2.spelltype,
-h2.pheader,
-h3.weapon,
-h1.indexheading,
-h1.indexheading,
-h1.listname,
-h1.spellname,
-h1.dreamname {
-  font-family: Garamond, serif;
-}
-h1.indexheading,
-h1.indexheading,
-h1.listname,
-h1.spellname,
-h1.dreamname {
-  font-size: 1.4rem;
-}
-h1.indexheading,
 h1.indexheading {
+  text-align: left;
+  margin: 0 auto;
+  font-size: 1.4rem;
   padding-top: 1%;
   color: #000;
 }
-
-h3.weapon {
-  text-align: right;
-  margin: 0 1.5% 1%;
-}
-p.index {
-  margin: 0 auto 10px;
+h1.listname {
+  text-align: left;
+  margin: 0;
+  font-size: 1.4rem;
 }
 
-p.nospace {
-  margin: 0 auto 0;
-}
-
-p.indexfooter {
-  padding-bottom: 1%;
-}
-h1.spellname {
-  display: inline-block;
-  color: #760d81;
-  padding-top: 0;
-}
 h1.PotionName {
+  text-align: left;
+  margin: 0;
   font-size: 1.75rem;
   margin-top: 0;
   margin-bottom: 10px;
@@ -259,40 +202,76 @@ h1.PotionName {
   color: #8b0000;
   font-family: Lora, Times, serif;
 }
-h1.dreamname {
-  color: #fff;
-  text-align: center;
-  padding-top: 0;
-}
+
 h1.shipname {
+  text-align: left;
+  margin: 0;
   font-size: 2.4rem;
   margin-top: 0;
   margin-bottom: 10px;
   padding-top: 0;
 }
+
+h1.spellname {
+  text-align: left;
+  margin: 0;
+  font-size: 1.4rem;
+  display: inline-block;
+  color: #760d81;
+  padding-top: 0;
+}
+
+h2.creaturetype {
+  font-size: 0.9rem;
+}
+
+h2.indextype {
+  font-style: italic;
+  text-transform: capitalize;
+  font-size: 0.9rem;
+  font-family: Garamond, serif;
+  text-align: left;
+  margin: 0 0 1%;
+}
+
 h2.pheader {
   color: black;
   font-size: 1.4rem;
   border-bottom: 3px solid #8b0000;
   margin-top: 10px;
   font-family: Lora, Times, serif;
+  text-align: left;
 }
-h2.indextype {
-  margin: 0 0 1%;
-  text-transform: capitalize;
-}
+
 h2.spelltype {
+  text-align: left;
+  font-size: 1rem;
+  font-style: italic;
+  margin: 0;
   padding: 0;
   margin-bottom: 8px;
+  font-family: Garamond, serif;
 }
-h2.indextype,
-h2.indextype,
-h2.spelltype {
+h3.weapon {
+  text-align: right;
+  font-size: 1rem;
+  margin: 0 1.5% 1%;
   font-style: italic;
+  border-bottom: 1px solid #ddd;
 }
-.spell {
-  font-style: italic;
-  font-weight: 600;
+p.index {
+  text-align: left;
+  font-size: 1rem;
+  margin: 0 auto 10px;
+}
+p.indexfooter {
+  text-align: left;
+  margin: 0 auto;
+  font-size: 1rem;
+  padding-bottom: 1%;
+}
+p.nospace {
+  margin: 0 auto 0;
 }
 /*-----------------------------------------------------------
 LocationStylings

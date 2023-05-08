@@ -13,7 +13,7 @@ if (Type == "Location") {
     .getElementById("mainmap")
     .setAttribute(
       "src",
-      "../Sources/Faerun/Gullet Cove Map/Map Assets/00_City_Map.jpeg"
+      "../Sources/Faerun/Gullet Cove Map/Location/00_City_Map.jpeg"
     );
   document.getElementById("caption").innerHTML =
     "Map of the City of Gullet Cove";
@@ -25,7 +25,7 @@ if (Type == "Location") {
     .getElementById("mainmap")
     .setAttribute(
       "src",
-      "../Sources/Faerun/Gullet Cove Map/Map Assets/00_District_Map.jpg"
+      "../Sources/Faerun/Gullet Cove Map/District/00_District_Map.jpg"
     );
   document.getElementById("caption").innerHTML = "District Map of Gullet Cove";
   document

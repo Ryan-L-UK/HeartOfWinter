@@ -16,10 +16,32 @@ fetch("http://localhost:8080/Library/Components/Menu.html")
     var MenuArticle = MenuDoc.querySelector("html").innerHTML;
     document.getElementById("Nav_output").innerHTML = MenuArticle;
     console.log("Wizard: Menu Appeared.");
+
+    //-----------------------------------------
+    //Toggle between hiding and showing the dropdown content
+    const buttons = document.querySelectorAll(".dropbtn");
+    buttons.forEach((button) => {
+      button.addEventListener("click", (event) => {
+        event.target.nextElementSibling.classList.toggle("show");
+      });
+    });
+
+    window.onclick = function (event) {
+      var dropdowns = document.getElementsByClassName("dropdown-content");
+      var i;
+      for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.previousElementSibling != event.target) {
+          openDropdown.classList.remove("show");
+        }
+      }
+    };
+    //-----------------------------------------
   })
   .catch(function (err) {
     console.log("Wizard: Casting Failure... ", err);
   });
+
 //-----------------------------------------
 //Footer Load
 fetch("http://localhost:8080/Library/Components/Footer.html")
