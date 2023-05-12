@@ -61,29 +61,15 @@ While the locals speculate about the fates of other farmers in Ulgoth's Beard, *
 
 **Aunt Dellie** gives the characters directions to Ulgoth's Beard, but she doesn't know exactly where **Kianna**'s farm is. The characters must search for it once they reach Ulgoth's Beard.
 
-## An Unexpected Offer
-
-After the characters finish their conversation with **Aunt Dellie**, another local approaches them. Read or paraphrase the following text:
-
-<em> A broad-shouldered woman wearing a multi-coloured dress that complements her dark skin approaches boldly, sizing you up from beneath a stylish hat. "I overheard your conversation with **Aunt Dellie**. You see, nothing important gets past **Lady Dre**. I hear you're bound for Ulgoth's Beard? Excellent, I'll accompany you. We should depart at once."</em>
-
-### Business Concerns
-
-**Lady Dre** was horrified by the attack, and she wants to make sure no other folk in Ulgoth's Beard are in danger. Characters who succeed on a DC 12 Wisdom (Insight) check recognize her motivations are not entirely altruistic. If pressed, **Lady Dre** admits she has made trade investments with several Ulgoth's Beard farms. She wants to ensure that no threats interfere with her getting first pick of the harvest.
-
-If the characters are reluctant to allow **Lady Dre** to accompany them, she tries to win them over by offering the use of her horses and a comfortable wagon. She remarks that if the characters are going to head into a mystery, they should be prepared to transport anyone who might have been harmed or afflicted.
-
-If the characters choose not to travel with **Lady Dre**, she accepts their choice and heads out on her own soon after they do.
-
 # Part 2: To Ulgoth's Beard
 
-The farm **Kianna** works at is 12 miles from Gullet Cove. Whether the characters are traveling by foot or using **Lady Dre**'s wagon, at a normal pace it takes half a day to reach Ulgoth's Beard.
+The farm **Kianna** works at is 12 miles from Gullet Cove. Whether the characters are traveling by foot or using a wagon, at a normal pace it takes half a day to reach Ulgoth's Beard.
 
 Once the characters are underway, read or paraphrase the following to summarize the journey:
 
-<em>The journey from Gullet Cove leads south through an area known as the Ribbon, where clustered farmhouses dot the ground on the edge of Dernal Forest. Eventually, the road dwindles to a track. The stands of trees grow denser and the farms fewer and farther between as you near the lands called Ulgoth's Beard. Urgoth's Beard sits in a region known as Alaron on the southern edge of the island. </em>
+<em>The journey from Gullet Cove leads south through an area known as the Ribbon, where clustered farmhouses dot the ground on the edge of Dernal Forest. Eventually, the road dwindles to little more than a track. The trees grow denser and the farms fewer and farther between as you near the lands called Ulgoth's Beard. Ulgoth’s Beard sits in a region known as Alaron on the southern edge of the island. </em>
 
-Any character who succeeds on a DC 14 Intelligence (Nature) check notices that many of the farms in the Ribbon are touched by blight and the animals are thin. **Lady Dre** can explain that agriculture in the region has been deteriorating for years, forcing locals to farm Ulgoth's Beard despite its dangers.
+Any character who succeeds on a DC 14 Intelligence (Nature) check notices that many of the farms in the Ribbon are touched by blight and the animals are thin. A basic understanding of the region will easy explain that agriculture in the region has been deteriorating for years, forcing locals to farm Ulgoth's Beard despite its dangers.
 
 If the characters stop at any of the farms they pass in the Ribbon, they see no sign of danger, but no one at the farms knows **Kianna**.
 
@@ -100,8 +86,6 @@ A character who succeeds on a DC 12 Wisdom (Perception) check realizes two group
 If the characters follow the movement through the field, they come to a clearing and see an old **farmer** fleeing three horse-sized coyotes. The **farmer** is about 30 feet ahead of the coyotes. If the characters didn't enter the fields, a moment later, an old man stumbles from amid the crops and falls into the road. Three massive coyotes are soon upon him. In either case, the old man has no hope of defending himself against the creatures.
 
 Massive coyotes are a persistent threat in Ulgoth's Beard. The three coyotes use the **dire wolf** stat block, while the **farmer** they pursue is a **commoner**. A coyote flees if reduced to 10 hit points or fewer.
-
-If they're with the party, **Lady Dre** will try to pull the **farmer** out of danger while the characters fend off the coyotes.
 
 When the fighting ends, the **farmer** is bloodied but angrier at the animals than scared. He thanks the characters and introduces himself as Uncle Polder.
 
@@ -128,23 +112,19 @@ Uncle Polder allows the characters to rest at his home as long as they please. W
 
 As the characters continue on their journey, they notice the environment changing around them after only another hour of travel. After they've travelled about a mile from Uncle Polder's home, read or paraphrase the following description:
 
-<em> The open fields have all but vanished behind sparse woods at the far edge of Ulgoth's Beard. The air smells stagnant and carries the taste of metal. Through the trees, multiple small farmhouses hunch amid a patch of green fields.
+<em> Moving south through the region you find the small settlement known as Ulgoth’s Beard. Despite being on the edge of the sea, the air here smells stagnant and carries the taste of metal. A small group of farmhouses hunch upon the edge of a patch of green fields.
 
-Suddenly the ground begins to shake, causing the road ahead to ripple, but just as quickly as it started, the shaking fades away.</em>
+Suddenly the ground begins to shake, causing the road ahead to ripple, suddenly below you a 10-foot-square, 10-foot-deep sinkhole to opens. </em>
 
-A character who succeeds on a DC 14 Intelligence (Nature) check realizes the tremor likely wasn't an earthquake but something local, such as a collapsing cave or something moving underground. **Lady Dre** has never heard of earthquakes in Ulgoth's Beard, but she knows that **bulettes** occasionally trouble local farmers.
+Each creature in the area must succeed on a DC 15 Dexterity saving throw or fall 10 feet, taking 3 (1d6) bludgeoning damage. Characters who said they would be mindful of sinkholes or unstable ground after the previous tremor have advantage on this saving throw.
 
-## Sinister Sinkhole
+Any creature at the bottom of the hole finds they're not alone. Four **crawling claws** scrabble free from the dirt at the bottom of the pit and attack any creatures within.
 
-After another 10 minutes of travel, another tremor shakes the ground. This time, the tremor causes a 10-foot-square, 10-foot-deep sinkhole to open beneath **Lady Dre**'s wagon (or a random character if **Lady Dre** isn't with the party). Each creature in the area must succeed on a DC 15 Dexterity saving throw or fall 10 feet, taking 3 (1d6) bludgeoning damage. Characters who said they would be mindful of sinkholes or unstable ground after the previous tremor have advantage on this saving throw.
-
-Any creature at the bottom of the hole finds they're not alone. Four **crawling claws** scrabble free from the dirt at the bottom of the pit and attack any creatures within. After the Undead are dispatched, any character who examines the disembodied hands and succeeds on a DC 16 Wisdom (Perception) check can tell that the creatures were digging through the loose earth, though it's not clear to what end.
-
-If **Lady Dre** is accompanying the characters, her wagon is now trapped within the sinkhole. **Lady Dre** decides to stay and figure out a way to get the wagon unstuck, she has rope in the back that might prove helpful. She insists the characters go on ahead.
+A character who succeeds on a DC 14 Intelligence (Nature) check realizes the tremor likely wasn't an earthquake but something local, such as a collapsing cave or something moving underground. Any character who examines the disembodied hands and succeeds on a DC 16 Wisdom (Perception) check can tell that the creatures were digging through the loose earth, though it's not clear to what end.
 
 ## X Marks the Spot
 
-The farming community **Kianna** is a part of isn't just one farm, but a cooperative of adjacent farms. As the characters reach the location Uncle Polder directed them to, they find seven farmhouses, each about an eighth of a mile apart.
+The farming community **Kianna** is a part of isn't just one farm, but a cooperative of adjacent farms. As the characters reach the location Uncle Polder directed them to, they find six farmhouses, each in various states of disrepair.
 
 As the characters approach the nearest farm, they find the surrounding fields overgrown and the plants rotting. Crows flit between perches on the fences, but there are no signs of people.
 
@@ -188,7 +168,7 @@ A large wooden porch wraps around the front and one side of the farmhouse. Its p
 
 ### F3: Living Room
 
-<em> The furniture in this living room is haphazardly arranged and looks close to falling apart. Beneath, the floor is covered in hundreds of handprints painted using crimson mud.</em>
+<em> The furniture in this living room is haphazardly arranged and looks close to falling apart. Beneath, the floor is covered in hundreds of handprints painted using crimson mud. </em>
 
 The art style is similar to that of the picture **Aunt Dellie** found in Gullet Cove. Any character who succeeds on a DC 14 Wisdom (Perception) check notices a break in the pattern under a chair. If the chair is moved, it reveals a muddy depiction of two children, one is reaching for the other, who is being dragged into the water by large hands. Scrapes in the muddy image form the name "Culley."
 
@@ -202,7 +182,7 @@ The bedroom holds a bed and writing desk for a single occupant. Most of the spac
 
 ### F5: Dining Room
 
-<em> A long plain table, a wooden sideboard, and several chairs lie shattered on the floor. The debris is streaked with crimson stains.</em>
+<em> A long plain table, a wooden sideboard, and several chairs lie shattered on the floor. The debris is streaked with crimson stains. </em>
 
 This dining room has been ransacked, and red mud covers the furnishings and floor.
 
@@ -212,7 +192,7 @@ After the crawling claws are dispatched, any character who searches the room tho
 
 ### F6: Kitchen
 
-<em> This kitchen has been torn apart. Pots and pans are scattered everywhere, and rotting food streaks the floorboards.</em>
+<em> This kitchen has been torn apart. Pots and pans are scattered everywhere, and rotting food streaks the floorboards. </em>
 
 In the centre of the room, four enchanted farmers stand facing each other, their crimson eyes unblinking. Each holds a sharp knife or farming implement. They don't react when the characters enter or if they are touched or spoken to. They react only if harmed, stolen from, or commanded by the soul shaker. Each uses the **cultist** stat block. Although the farmers are initially harmless, their appearance and lack of reaction are unnerving.
 
@@ -227,7 +207,7 @@ The following locations are keyed to map 3.2.
 
 Shelves bearing root vegetables and other foodstuffs line the walls of this unfinished cellar. The south wall has partially collapsed, revealing a dark, narrow tunnel.
 
-The smell the characters noticed above is worse here, issuing from the tunnel. Character who have a passive Wisdom (Perception) score of 15 or higher hear the faint sound of a woman singing farther down the tunnel.
+The smell the characters noticed above is worse here, issuing from the tunnel. Characters who have a passive Wisdom (Perception) score of 15 or higher hear the faint sound of a woman singing farther down the tunnel.
 
 Characters who proceed 40 feet into the tunnel see a faint light emanating from around a bend.
 
@@ -235,11 +215,11 @@ Characters who proceed 40 feet into the tunnel see a faint light emanating from 
 
 ### F8: Cavern
 
-<em> The tunnel opens into a lantern-lit, packed-dirt chamber, where the cause of the stench becomes apparent. A dozen bodies lie strewn across the floor, all wearing the clothes of farmers. Many of their limbs have been cleanly removed and set into a sizable pile on the far side of the cavern. In the centre of the room, a young woman is singing.</em>
+<em> The tunnel opens into a lantern-lit, packed-dirt chamber, where the cause of the stench becomes apparent. A dozen bodies lie strewn across the floor, all wearing the clothes of farmers. Many of their limbs have been cleanly removed and set into a sizable pile on the far side of the cavern. In the centre of the room, a young woman is singing. </em>
 
 The bodies are the farmers missing from the surrounding farms, save for **Kianna**. They've been killed and dismembered by the soul shaker.
 
-**Kianna.** The young woman is **Kianna** (chaotic neutral, human **commoner**). She looks like she's in a dream state, and she holds a knife loosely, but her eyes aren't crimson like those of the other farmers. **Kianna** stops singing as soon as she notices the characters and says, "Please go. You shouldn't be here." If the characters speak with **Kianna**, she drifts between fearfully urging them to leave and coaxing them to stay and meet her friend, Culley, her mood and manner shifting erratically. Use the following points to guide the conversation:
+**Kianna.** (chaotic neutral, human **commoner**) looks like she's in a dream state, and she holds a knife loosely, but her eyes aren't crimson like those of the other farmers. **Kianna** stops singing as soon as she notices the characters and says, "Please go. You shouldn't be here." If the characters speak with **Kianna**, she drifts between fearfully urging them to leave and coaxing them to stay and meet her friend, Culley, her mood and manner shifting erratically. Use the following points to guide the conversation:
 
 - **Kianna** confirms she's the person the party seeks. She's saddened at any talk of **Aunt Dellie** having sent the characters to find her.
 - She speaks brightly of how Culley finally came back to her after she lost him in Cradlelace Lake. It was so good to hear his voice again!
@@ -260,7 +240,7 @@ As soon as the soul shaker awakens, if the farmers the soul shaker controls are 
 
 # Part 5: A Stories End
 
-Once the soul shaker is defeated, its grip on the farm's residents fades.
+Once the soul shaker is defeated, its grip on the farm's residents’ fades.
 
 ## Kianna's Story
 
@@ -274,12 +254,10 @@ If any of the farmers survived, the crimson hue vanishes from their eyes after t
 
 The farmers remember only snippets from the last few days, and the last thing they recall clearly is preparing to return to Gullet Cove for the Awakening Festival. They also share that **Kianna** had been behaving strangely, growing increasingly convinced that her dead friend was speaking to her. The farmers can also relate details from the adventure's background or about Cradlelace Lake if asked.
 
-Although the farmers can't reward the characters with much in the way of wealth, they gift the group a Heward's Handy Haversack they had stashed with tools in a nearby shed. The first character to open it, however, finds that a **crawling claw** has gotten itself trapped within. It tries to escape as soon as it is detected.
+Although the farmers can't reward the characters with much in the way of wealth, seeing as they haven’t been able to farm for a long time. They do offer the party at small piece of advice. Be wary of the town guard in Gullet Cove. Those of the golden collar cannot be trusted, they forced us further south, rather than offer help.
 
 ## Back to Gullet Cove
 
-If **Lady Dre** came with the characters, she and the horses have extracted her wagon from the sinkhole and are waiting for the characters.
-
 When the characters return to Gullet Cover, **Aunt Dellie** is overjoyed if **Kianna** is safe and tearful if her goddaughter met a bitter end. Either way, she's grateful to the characters for uncovering the truth and ending the soul shaker's threat.
 
-Arriving back at Gullet Cove the festivities have resumed. It would seem that once the characted defeated the soul shaker, the enchanted farmers have regained all their awareness. **Aunt Dellie** rewards the characters with her promised payment and ensures that the first few rounds of drinks that night are on her.
+Arriving back at Gullet Cove the festivities have resumed. It would seem that once the character defeated the soul shaker, the enchanted farmers have regained all their awareness. **Aunt Dellie** rewards the characters with her promised payment and ensures that the first few rounds of drinks that night are on her. The farmer whose knees were shattered will also have regained his composure, but will be in unbearable pain.

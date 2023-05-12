@@ -24,15 +24,15 @@ function checklevel(lvl) {
 function checktype(type) {
   var checktype = "";
   var lookup = {
-    "": "../Library/SpellAssets/placeholder.jpg",
-    Abjuration: "../Library/SpellAssets/abjuration.png",
-    Conjuration: "../Library/SpellAssets/conjuration.png",
-    Divination: "../Library/SpellAssets/divination.png",
-    Enchantment: "../Library/SpellAssets/enchantment.png",
-    Evocation: "../Library/SpellAssets/evocation.png",
-    Illusion: "../Library/SpellAssets/illusion.png",
-    Necromancy: "../Library/SpellAssets/necromancy.png",
-    Transmutation: "../Library/SpellAssets/transmutation.png",
+    "": "../Forge/SpellAssets/placeholder.jpg",
+    Abjuration: "../Forge/SpellAssets/abjuration.png",
+    Conjuration: "../Forge/SpellAssets/conjuration.png",
+    Divination: "../Forge/SpellAssets/divination.png",
+    Enchantment: "../Forge/SpellAssets/enchantment.png",
+    Evocation: "../Forge/SpellAssets/evocation.png",
+    Illusion: "../Forge/SpellAssets/illusion.png",
+    Necromancy: "../Forge/SpellAssets/necromancy.png",
+    Transmutation: "../Forge/SpellAssets/transmutation.png",
   };
   checktype = lookup[type];
   return checktype;
@@ -143,7 +143,7 @@ function showInput() {
     console.log("Sorcerer: This spell requires some serious concentration...");
     document
       .getElementById("concentration-out")
-      .setAttribute("src", "/Library/SpellIcons/concentration.png");
+      .setAttribute("src", "/Forge/SpellIcons/concentration.png");
     document
       .getElementById("concentration-out")
       .setAttribute("class", "conicon");
@@ -152,7 +152,7 @@ function showInput() {
   } else {
     document
       .getElementById("concentration-out")
-      .setAttribute("src", "/Library/SpellIcons/concentration.png");
+      .setAttribute("src", "/Forge/SpellIcons/concentration.png");
     document
       .getElementById("concentration-out")
       .setAttribute("class", "hidden");
@@ -167,7 +167,7 @@ function showInput() {
       document.getElementById("savingThrow").value;
     document
       .getElementById("saveIcon-out")
-      .setAttribute("src", "/Library/SpellIcons/ranged.png");
+      .setAttribute("src", "/Forge/SpellIcons/ranged.png");
     document.getElementById("saveIcon-out").setAttribute("class", "icon");
   } else if (document.getElementById("savingThrow").value == "Melee") {
     document.getElementById("save-heading").innerHTML = "Attack Type: ";
@@ -175,7 +175,7 @@ function showInput() {
       document.getElementById("savingThrow").value;
     document
       .getElementById("saveIcon-out")
-      .setAttribute("src", "/Library/SpellIcons/melee.png");
+      .setAttribute("src", "/Forge/SpellIcons/melee.png");
     document.getElementById("saveIcon-out").setAttribute("class", "icon");
   } else {
     document.getElementById("save-heading").innerHTML = "Saving Throw: ";
@@ -183,7 +183,7 @@ function showInput() {
       document.getElementById("savingThrow").value;
     document
       .getElementById("saveIcon-out")
-      .setAttribute("src", "/Library/SpellIcons/melee.png");
+      .setAttribute("src", "/Forge/SpellIcons/melee.png");
     document.getElementById("saveIcon-out").setAttribute("class", "hidden");
   }
   document.getElementById("S0H-out").innerHTML =

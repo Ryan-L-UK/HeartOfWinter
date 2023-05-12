@@ -662,22 +662,22 @@ function randompotion() {
   function checkcolour(colour) {
     var checkcolour = "";
     var lookup = {
-      clear: "../library/PotionAssets/Clear1.png",
-      blue: "../library/PotionAssets/Blue1.png",
-      green: "../library/PotionAssets/Green1.png",
-      red: "../library/PotionAssets/Red1.png",
-      "pale green": "../library/PotionAssets/PaleGreen1.png",
-      pink: "../library/PotionAssets/Pink1.png",
-      "light blue": "../library/PotionAssets/Cyan1.png",
-      white: "../library/PotionAssets/White1.png",
-      black: "../library/PotionAssets/Black1.png",
-      yellow: "../library/PotionAssets/Yellow1.png",
-      gold: "../library/PotionAssets/Gold1.png",
-      bronze: "../library/PotionAssets/Bronze1.png",
-      metallic: "../library/PotionAssets/Metallic1.png",
-      purple: "../library/PotionAssets/Purple1.png",
-      brown: "../library/PotionAssets/Brown1.png",
-      "dark red": "../library/PotionAssets/DarkRed1.png",
+      clear: "../Forge/PotionAssets/Clear1.png",
+      blue: "../Forge/PotionAssets/Blue1.png",
+      green: "../Forge/PotionAssets/Green1.png",
+      red: "../Forge/PotionAssets/Red1.png",
+      "pale green": "../Forge/PotionAssets/PaleGreen1.png",
+      pink: "../Forge/PotionAssets/Pink1.png",
+      "light blue": "../Forge/PotionAssets/Cyan1.png",
+      white: "../Forge/PotionAssets/White1.png",
+      black: "../Forge/PotionAssets/Black1.png",
+      yellow: "../Forge/PotionAssets/Yellow1.png",
+      gold: "../Forge/PotionAssets/Gold1.png",
+      bronze: "../Forge/PotionAssets/Bronze1.png",
+      metallic: "../Forge/PotionAssets/Metallic1.png",
+      purple: "../Forge/PotionAssets/Purple1.png",
+      brown: "../Forge/PotionAssets/Brown1.png",
+      "dark red": "../Forge/PotionAssets/DarkRed1.png",
     };
     checkcolour = lookup[colour];
     console.log("Effect Colour: ", checkcolour);

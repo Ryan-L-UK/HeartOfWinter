@@ -1,7 +1,7 @@
 //-----------------------------------------
 //Menu Load
 console.log("Wizard: Summoning menu...");
-fetch("http://localhost:8080/Library/Components/Menu.html")
+fetch("http://localhost:8080/Forge/Components/Menu.html")
   .then(function (Mresponse) {
     // When the page is loaded convert it to text
     return Mresponse.text();
@@ -44,7 +44,7 @@ fetch("http://localhost:8080/Library/Components/Menu.html")
 
 //-----------------------------------------
 //Footer Load
-fetch("http://localhost:8080/Library/Components/Footer.html")
+fetch("http://localhost:8080/Forge/Components/Footer.html")
   .then(function (Fresponse) {
     console.log("Wizard: Summoning footer...");
     // When the page is loaded convert it to text

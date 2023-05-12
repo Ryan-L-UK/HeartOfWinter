@@ -75,6 +75,13 @@ em {
   font-family: Lora, Times, serif;
 }
 
+.advmap {
+  display: block;
+  width: 950px;
+  margin: auto;
+  justify-items: center;
+}
+
 /*-----------------------------------------------------------
 Tables
 Many of the documents loaded contain tables, here are the
