@@ -78,8 +78,32 @@ em {
 .advmap {
   display: block;
   width: 950px;
-  margin: auto;
   justify-items: center;
+  margin: 5px;
+  align-items: center;
+  justify-items: center;
+  border: 4px solid #000000;
+  position: relative;
+}
+
+.advmap img {
+  display: block;
+  width: 950px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  -webkit-mask-image: radial-gradient(
+    circle at center,
+    rgba(0, 0, 0, 1) 80%,
+    rgba(0, 0, 0, 0) 95%
+  );
+  mask-image: radial-gradient(
+    circle at center,
+    rgba(0, 0, 0, 1) 80%,
+    rgba(0, 0, 0, 0) 95%
+  );
 }
 
 /*-----------------------------------------------------------

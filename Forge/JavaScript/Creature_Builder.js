@@ -48,6 +48,7 @@ fetch("http://localhost:8080/Sources/Creatures")
       var newName = newRow.insertCell();
       var newNameText = document.createTextNode(creatureName);
       newName.appendChild(newNameText);
+      newName.setAttribute("class", "bold");
       //-----------------
       var newSize = newRow.insertCell();
       if (data[prop].customIndicator != undefined) {

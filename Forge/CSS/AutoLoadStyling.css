@@ -127,12 +127,12 @@ menus and footers
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
   z-index: 1 !important;
   font-family: Roboto-Medium;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 .dropdown-content a {
   float: none;
   color: #64da8b;
-  padding: 7px 12px;
+  padding: 5px 12px;
   text-decoration: none;
   display: block;
   text-align: left;

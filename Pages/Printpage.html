@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="../Forge/CSS/PrintStyling.css" />
+    <link rel="stylesheet" href="../Forge/CSS/FontStyling.css" />
+    <link rel="stylesheet" href="../Forge/CSS/DocumentStyling.css" />
+
+    <title>The Elfsong Tavern</title>
+    <link
+      rel="shortcut icon"
+      type="image/jpg"
+      href="../Forge/Components/favicon.ico"
+    />
+  </head>
+
+  <body>
+    <!---------------------------------------->
+    <!--Nav Bar-->
+    <!---------------------------------------->
+    <object id="Nav_output"></object>
+    <!---------------------------------------->
+    <!--Content-->
+    <!---------------------------------------->
+    <div class="content-container">
+      <br />
+      <div id="name" class="hidden">file</div>
+      <div id="photo">
+        <div class="Map Parchment">
+          <div class="MapBorder">
+            <img
+              class="corner-decoration corner-left-top"
+              src="../Forge/ImageAssets/CornerVector.png"
+            />
+            <img
+              class="corner-decoration corner-right-top"
+              src="../Forge/ImageAssets/CornerVector.png"
+            />
+            <img
+              class="corner-decoration corner-right-bottom"
+              src="../Forge/ImageAssets/CornerVector.png"
+            />
+            <img
+              class="corner-decoration corner-left-bottom"
+              src="../Forge/ImageAssets/CornerVector.png"
+            />
+            <div class="mapstyle">
+              <img
+                src="../Sources/Faerun/Gullet Cove Map/Location/WaukeensPromenade.jpg"
+                id="mainmap"
+                width="2500px"
+              />
+            </div>
+          </div>
+          <br />
+        </div>
+      </div>
+      <div id="output" class="hidden"></div>
+      <br />
+      <button class="submititem" onclick="takeshot()">Save Map</button>
+      <br />
+      <br />
+    </div>
+    <!--Footer-->
+    <object id="Ftr_output"></object>
+    <!--END-->
+  </body>
+</html>
+
+<script src="../Forge/JavaScript/CoreScripts.js"></script>
+<script src="https://html2canvas.hertzen.com/dist/html2canvas.js"></script>

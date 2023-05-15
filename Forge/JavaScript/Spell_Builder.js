@@ -81,6 +81,7 @@ fetch("http://localhost:8080/sources/Spells/")
       var newName = newRow.insertCell();
       var newNameText = document.createTextNode(spellName);
       newName.appendChild(newNameText);
+      newName.setAttribute("class", "bold");
       //-----------------
       var newLevel = newRow.insertCell();
       var newLevelText = document.createTextNode(checklevel(data[prop].level));

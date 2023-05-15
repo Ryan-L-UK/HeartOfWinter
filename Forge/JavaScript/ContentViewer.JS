@@ -9,9 +9,9 @@ console.log(
   "Librarians: Looking in the '" + Type + "' section, for '" + FileName + "'"
 );
 if (Type == "Location") {
-  var ContentView = "Faerun/Gullet Cove Map/Location/" + FileName;
+  var ContentView = "Faerun/Gullet Cove/Location/" + FileName;
 } else if (Type == "District") {
-  var ContentView = "Faerun/Gullet Cove Map/District/" + FileName;
+  var ContentView = "Faerun/Gullet Cove/District/" + FileName;
 } else if (Type == "Faerun") {
   var ContentView = "Faerun/" + FileName + "/" + FileName;
 } else if (Type == "Foundry") {
