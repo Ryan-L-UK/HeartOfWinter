@@ -6,7 +6,7 @@ const port = 8080;
 
 app.use("/Pages", express.static(__dirname + "/Pages"));
 app.use("/Sources", express.static(__dirname + "/Sources"));
-app.use("/Forge", express.static(__dirname + "/Forge"));
+app.use("/Foundry", express.static(__dirname + "/Foundry"));
 app.get("/", (req, res) => {
   fs.readFile(__dirname + "/Index.html", (err, data) => {
     if (err) {
