@@ -160,9 +160,9 @@ These are the various grid containers used across the site:
   font-weight: normal;
   font-size: 26px;
   margin: 0px;
-  color: #dccb09;
+  color: #ffffff;
   font-family: PostAntiquaRoman, Palatino, serif;
-  text-shadow: 1px 1px #220202;
+  text-shadow: 1px 1px #1f3528;
 }
 
 .spellMiddle {
@@ -201,11 +201,9 @@ These are the various grid containers used across the site:
   font-weight: normal;
   font-size: 26px;
   margin: 0px;
-  color: #dccb09;
+  color: #ffffff;
   font-family: PostAntiquaRoman, Palatino, serif;
-  text-shadow: 1px 1px #220202;
-
-  cursor: pointer;
+  text-shadow: 1px 1px #1f3528;
 
   border: none;
   outline: none;
@@ -216,7 +214,7 @@ These are the various grid containers used across the site:
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 
 .collapsible:hover {
-  color: #8d8d8d;
+  color: #06885d;
 }
 
 .collapsible::after {

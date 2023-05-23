@@ -23,9 +23,12 @@
     <div class="content-container">
       <div class="list-container">
         <div class="List" id="cTable">
-          <h1 class="listname">Creatures, Monsters & Demons:</h1>
+          <h1 class="listname">
+            Complete list of all Creatures, Monsters & Demons:
+          </h1>
           <br />
           <input
+            class="whiteInput"
             type="text"
             id="myInput"
             onkeyup="tableFilter()"
@@ -37,7 +40,7 @@
         <div class="View">
           <h1 class="listname">Creature:</h1>
           <br />
-          <br />
+
           <div id="photo">
             <div class="border creatureBG"></div>
             <div class="framecontainer">
@@ -398,9 +401,8 @@
 
           <form id="creatureform">
             <div class="whitecontainer">
-              <div class="bodycontainer">
-                <!--creature NAME-->
-                <h1 class="indexheading">Basic Details</h1>
+              <div class="spellTop">
+                <h1 class="spelldsc">Basic Details</h1>
                 <br />
 
                 <input
@@ -409,7 +411,8 @@
                   name="customIndicator"
                   value="RML"
                 />
-
+              </div>
+              <div class="spellMiddle">
                 <label>Name:</label>
                 <input type="text" id="name" name="name" />
 
@@ -467,12 +470,17 @@
                   </div>
                 </div>
               </div>
+              <div class="spellBtm"></div>
             </div>
+
             <br />
+
             <div class="whitecontainer">
-              <div class="bodycontainer">
-                <h1 class="indexheading">Ability Scores</h1>
-                <br />
+              <div class="spellTop">
+                <h1 class="spelldsc">Ability Scores</h1>
+              </div>
+
+              <div class="spellMiddle">
                 <div class="stat-container">
                   <div class="STR roboto">STR</div>
                   <div class="DEX roboto">DEX</div>
@@ -501,12 +509,15 @@
                   </div>
                 </div>
               </div>
+              <div class="spellBtm"></div>
             </div>
             <br />
             <div class="whitecontainer">
-              <button type="button" class="collapsible">Properties</button>
+              <div class="spellTop">
+                <button type="button" class="collapsible">Properties</button>
+              </div>
               <div class="content">
-                <div class="bodycontainer">
+                <div class="spellMiddle">
                   <p>
                     <label>Saving Throws:</label>
                     <input type="text" id="saves" name="saves" />
@@ -538,12 +549,16 @@
                   </p>
                 </div>
               </div>
+              <div class="spellBtm"></div>
             </div>
             <br />
+
             <div class="whitecontainer">
-              <button type="button" class="collapsible">Traits</button>
+              <div class="spellTop">
+                <button type="button" class="collapsible">Traits</button>
+              </div>
               <div class="content">
-                <div class="bodycontainer">
+                <div class="spellMiddle">
                   <p>
                     <label>Trait 0 Name:</label>
                     <input type="text" id="T0H" name="T0H" /><br />
@@ -573,12 +588,16 @@
                   </p>
                 </div>
               </div>
+              <div class="spellBtm"></div>
             </div>
             <br />
+
             <div class="whitecontainer">
-              <button type="button" class="collapsible">Actions</button>
+              <div class="spellTop">
+                <button type="button" class="collapsible">Actions</button>
+              </div>
               <div class="content">
-                <div class="bodycontainer">
+                <div class="spellMiddle">
                   <p>
                     <label>Attack 0 Name:</label>
                     <input type="text" id="A0H" name="A0H" /><br />
@@ -628,12 +647,16 @@
                   </p>
                 </div>
               </div>
+              <div class="spellBtm"></div>
             </div>
             <br />
+
             <div class="whitecontainer">
-              <div class="bodycontainer">
-                <h1 class="indexheading">Spell Caster</h1>
-                <br />
+              <div class="spellTop">
+                <h1 class="spelldsc">Spell Caster</h1>
+              </div>
+
+              <div class="spellMiddle">
                 <p>
                   <label>Spellcaster/Innate:</label>
                   <input
@@ -649,12 +672,17 @@
                   </datalist>
                 </p>
               </div>
+              <div class="spellBtm"></div>
             </div>
+
             <br />
-            <div class="whitecontainer" id="innateDIV">
-              <button type="button" class="collapsible">Innate Spells</button>
+
+            <div class="whitecontainer">
+              <div class="spellTop">
+                <button type="button" class="collapsible">Innate Spells</button>
+              </div>
               <div class="content">
-                <div class="bodycontainer">
+                <div class="spellMiddle">
                   <label>Spellcaster Info:</label>
                   <textarea
                     id="innateHeaderEntry"
@@ -688,12 +716,16 @@
                   </p>
                 </div>
               </div>
+              <div class="spellBtm"></div>
             </div>
             <br />
+
             <div class="whitecontainer">
-              <button type="button" class="collapsible">Spell Slots</button>
+              <div class="spellTop">
+                <button type="button" class="collapsible">Spell Slots</button>
+              </div>
               <div class="content">
-                <div class="bodycontainer">
+                <div class="spellMiddle">
                   <label>Spellcaster Info:</label>
                   <textarea
                     id="spellHeaderEntry"
@@ -800,7 +832,9 @@
                   </p>
                 </div>
               </div>
+              <div class="spellBtm"></div>
             </div>
+            <br />
           </form>
 
           <br />
