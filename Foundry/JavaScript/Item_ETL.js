@@ -122,6 +122,18 @@ function runETL(obj) {
     console.log(obj);
     var object = {};
     //---------------------------------------------------------------------------------------------------------
+    if (obj.reqAttune == undefined) {
+      var reqAttune = undefined;
+    } else {
+      var reqAttune = "Yes";
+    }
+    //-----------------------------
+    if (obj.rarity == "none") {
+      var rarity = "";
+    } else {
+      var rarity = obj.rarity;
+    }
+    //-----------------------------
     if (obj.wondrous == true) {
       var type = "Wondrous Item";
     } else if (obj.weaponCategory != undefined) {
@@ -131,29 +143,7 @@ function runETL(obj) {
     } else {
       var type = undefined;
     }
-    if (obj.rarity == "none") {
-      var rarity = "";
-    } else {
-      var rarity = obj.rarity;
-    }
-    if (obj.otherSources != undefined) {
-      var otherSources = obj.otherSources[0].source.replace("UA", "");
-    } else {
-      var otherSources = undefined;
-    }
-    if (obj.otherSources != undefined) {
-      var otherSourcesPage = obj.otherSources[0].page;
-    } else {
-      var otherSourcesPage = undefined;
-    }
-    //------------------------
-    if (obj.reqAttune == undefined) {
-      var reqAttune = undefined;
-    } else if (obj.reqAttune == true) {
-      var reqAttune = "requires attunement";
-    } else {
-      var reqAttune = "requires attunement " + obj.reqAttune;
-    }
+    //-----------------------------
     if (obj.weaponCategory == undefined) {
       var staffTrue = undefined;
       var weaponCategory = undefined;
@@ -167,14 +157,23 @@ function runETL(obj) {
       } else {
         var staffTrue = undefined;
       }
-      var weaponCategory =
-        obj.weaponCategory + " weapon, " + checktype(obj.type);
+
+      if (obj.type != undefined) {
+        var weaponCategory =
+          obj.weaponCategory + " weapon, " + checktype(obj.type);
+      } else if (staffTrue == "Yes") {
+        var weaponCategory = obj.weaponCategory + " weapon, melee weapon";
+      } else {
+        var weaponCategory = obj.weaponCategory;
+      }
+
       var dmg1 = obj.dmg1;
       if (obj.dmg2 != undefined) {
         var dmg2 = obj.dmg2;
       } else {
         var dmg2 = undefined;
       }
+
       if (obj.property[0] != undefined) {
         if (obj.property[0] == "A") {
           var property0 =
@@ -233,19 +232,22 @@ function runETL(obj) {
     //---------------------------------------------------------------------------------------------------------
     //MAPPING CODE
     object["name"] = obj["name"];
-    object["staff"] = staffTrue;
-    object["type"] = type;
-    object["rarity"] = rarity;
+
     object["reqAttune"] = reqAttune;
+    object["rarity"] = rarity;
+    object["type"] = type;
+
+    object["charges"] = obj["charges"];
     object["source"] = obj["source"];
     object["page"] = obj["page"];
-    object["otherSources"] = otherSources;
-    object["otherSourcesPage"] = otherSourcesPage;
+
+    object["staff"] = staffTrue;
     object["weaponCategory"] = weaponCategory;
+    object["dmgType"] = dmgType;
     object["dmg1"] = dmg1;
     object["dmg2"] = dmg2;
-    object["dmgType"] = dmgType;
     object["property"] = property;
+
     var entriesOutLength = entriesOut.length;
     for (var i = 0; i < entriesOutLength; i++) {
       object["I" + [i] + "H"] = entriesOut[i].name;

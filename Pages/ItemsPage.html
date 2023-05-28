@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="../Foundry/CSS/ContainerObjectStyling.css" />
-    <link rel="stylesheet" href="../Foundry/CSS/FontStyling.css" />
+    <link rel="stylesheet" href="../Foundry/CSS/CoreStyling.css" />
     <link rel="stylesheet" href="../Foundry/CSS/Sources.css" />
-    <title>The Elfsong Tavern</title>
+    <title>Heart Of Winter</title>
     <link
       rel="shortcut icon"
       type="image/jpg"
@@ -26,6 +25,7 @@
           <h1 class="listname">Magical & Wondrous Item List:</h1>
           <br />
           <input
+            class="whiteInput"
             type="text"
             id="myInput"
             onkeyup="tableFilter()"
@@ -39,14 +39,58 @@
           <br />
           <br />
           <div id="photo">
-            <div class="border itemBG"></div>
-            <div class="framecontainer">
-              <div class="bodycontainer">
-                <!--ITEM NAME-->
-                <div class="item-container">
-                  <div class="heading">
-                    <h1 class="indexheading" id="name-out"></h1>
+            <div class="ItemContainer">
+              <div class="ItemParchement">
+                <div class="itemBorder">
+                  <img
+                    class="item-decoration corner-left-top"
+                    src="../Foundry/ImageAssets/MapAssets/CornerVector.png"
+                  />
+                  <img
+                    class="item-decoration corner-right-top"
+                    src="../Foundry/ImageAssets/MapAssets/CornerVector.png"
+                  />
+
+                  <div class="WaterColour">
+                    <img src="" class="ItemImage" id="ItemImage" />
                   </div>
+                  <span class="hcentre"
+                    ><h1 class="itemname" id="name-out"></h1>
+                    <img
+                      class="attuneicon"
+                      src="/Foundry/ImageAssets/CoreSpellIcons/attunement.png"
+                      id="attunement-out"
+                  /></span>
+                  <div class="blackDIV"></div>
+
+                  <h2 class="itemSub" id="type-out"></h2>
+                  <h2 class="itemSub" id="dmg-out"></h2>
+                  <br />
+
+                  <!--ITEM DESCRIPTION-->
+                  <p class="itemBold" id="I0H-out"></p>
+                  <p class="itemBody" id="I0D-out"></p>
+                  <p class="itemBold" id="I1H-out"></p>
+                  <p class="itemBody" id="I1D-out"></p>
+                  <p class="itemBold" id="I2H-out"></p>
+                  <p class="itemBody" id="I2D-out"></p>
+                  <p class="itemBold" id="I3H-out"></p>
+                  <p class="itemBody" id="I3D-out"></p>
+                  <p class="itemBold" id="I4H-out"></p>
+                  <p class="itemBody" id="I4D-out"></p>
+                  <p class="itemBold" id="I5H-out"></p>
+                  <p class="itemBody" id="I5D-out"></p>
+                  <p class="itemBold" id="I6H-out"></p>
+                  <p class="itemBody" id="I6D-out"></p>
+                  <p class="itemBold" id="I7H-out"></p>
+                  <p class="itemBody" id="I7D-out"></p>
+                  <p class="itemBold" id="I8H-out"></p>
+                  <p class="itemBody" id="I8D-out"></p>
+
+                  <p class="itemBold hidden" id="cHeading-out"></p>
+                  <p class="charges hidden" id="charges-out"></p>
+
+                  <!--ITEM SOURCE-->
                   <div class="sourcegraphic">
                     <span
                       ><div class="source" id="source-out"></div>
@@ -54,58 +98,8 @@
                     ></span>
                   </div>
                 </div>
-                <!--ITEM TYPE-->
-                <h2 class="indextype" id="type-out"></h2>
-                <h2 class="indextype" id="weaponCategory-out"></h2>
-                <div class="Damage" id="dmg-out"></div>
-                <div class="item lineDIV"></div>
-                <!--ITEM DESCRIPTION-->
-                <p class="index">
-                  <span class="standard bold" id="I0H-out"></span>
-                  <span class="standard" id="I0D-out"></span>
-                </p>
-                <p class="index">
-                  <span class="standard bold" id="I1H-out"></span>
-                  <span class="standard" id="I1D-out"></span>
-                </p>
-                <p class="index">
-                  <span class="standard bold" id="I2H-out"></span>
-                  <span class="standard" id="I2D-out"></span>
-                </p>
-                <p class="index">
-                  <span class="standard bold" id="I3H-out"></span>
-                  <span class="standard" id="I3D-out"></span>
-                </p>
-                <p class="index">
-                  <span class="standard bold" id="I4H-out"></span>
-                  <span class="standard" id="I4D-out"></span>
-                </p>
-                <p class="index">
-                  <span class="standard bold" id="I5H-out"></span>
-                  <span class="standard" id="I5D-out"></span>
-                </p>
-                <p class="index">
-                  <span class="standard bold" id="I6H-out"></span>
-                  <span class="standard" id="I6D-out"></span>
-                </p>
-                <p class="index">
-                  <span class="standard bold" id="I7H-out"></span>
-                  <span class="standard" id="I7D-out"></span>
-                </p>
-                <p class="index">
-                  <span class="standard bold" id="I8H-out"></span>
-                  <span class="standard" id="I8D-out"></span>
-                </p>
-                <br />
-
-                <!--ITEM SOURCE-->
-                <p class="indexfooter">
-                  Source:
-                  <span class="index" id="fullSource-out"></span>
-                </p>
               </div>
             </div>
-            <div class="border itemBG"></div>
           </div>
 
           <div id="output" class="hidden"></div>
@@ -125,9 +119,8 @@
           <br />
           <form id="itemform">
             <div class="whitecontainer">
-              <div class="bodycontainer">
-                <!--creature NAME-->
-                <h1 class="indexheading">Basic Details</h1>
+              <div class="spellTop">
+                <h1 class="spelldsc">Basic Details</h1>
                 <br />
                 <input
                   type="hidden"
@@ -135,11 +128,42 @@
                   name="customIndicator"
                   value="RML"
                 />
+              </div>
+              <div class="spellMiddle">
                 <label>Item Name:</label>
                 <input type="text" id="name" name="name" />
                 <br />
                 <div class="tri-container">
                   <div class="col1">
+                    <label>Requires Attunement:</label>
+                    <input
+                      class="inputlist"
+                      list="Attune"
+                      id="reqAttune"
+                      name="reqAttune"
+                    />
+                    <datalist id="Attune">
+                      <option value="Yes"></option>
+                    </datalist>
+                  </div>
+                  <div class="col2">
+                    <label>Rarity:</label>
+                    <input
+                      class="inputlist"
+                      list="Rarity"
+                      id="rarity"
+                      name="rarity"
+                    />
+                    <datalist id="Rarity">
+                      <option value="Common"></option>
+                      <option value="Uncommon"></option>
+                      <option value="Rare"></option>
+                      <option value="Very Rare"></option>
+                      <option value="Legendary"></option>
+                      <option value="Artifact"></option>
+                    </datalist>
+                  </div>
+                  <div class="col3">
                     <label>Type:</label>
                     <input
                       class="inputlist"
@@ -181,59 +205,36 @@
                       <option value="Other"></option>
                     </datalist>
                   </div>
-                  <div class="col2">
-                    <label>Rarity:</label>
-                    <input
-                      class="inputlist"
-                      list="Rarity"
-                      id="rarity"
-                      name="rarity"
-                    />
-                    <datalist id="Rarity">
-                      <option value="Common"></option>
-                      <option value="Uncommon"></option>
-                      <option value="Rare"></option>
-                      <option value="Very Rare"></option>
-                      <option value="Legendary"></option>
-                      <option value="Artifact"></option>
-                    </datalist>
-                  </div>
-                  <div class="col3">
-                    <label>Requires Attunement:</label>
-                    <input type="text" id="reqAttune" name="reqAttune" />
-                  </div>
                 </div>
-                <div class="split-container">
-                  <div class="twofoursplit">
-                    <label>Page:</label><br />
-                    <input type="number" id="page" name="page" />
+
+                <div class="tri-container">
+                  <div class="col1">
+                    <label>Charges:</label><br />
+                    <input type="number" id="charges" name="charges" />
                   </div>
-                  <div class="twofoursplit">
+                  <div class="col2">
                     <label>Source:</label>
                     <input type="text" id="source" name="source" />
                   </div>
-                </div>
-                <div class="split-container">
-                  <div class="twofoursplit">
-                    <label>Other Page:</label><br />
-                    <input
-                      type="number"
-                      id="otherSourcesPage"
-                      name="otherSourcesPage"
-                    />
-                  </div>
-                  <div class="twofoursplit">
-                    <label>Other Source:</label>
-                    <input type="text" id="otherSources" name="otherSources" />
+                  <div class="col3">
+                    <label>Page:</label><br />
+                    <input type="number" id="page" name="page" />
                   </div>
                 </div>
               </div>
+
+              <div class="spellBtm"></div>
             </div>
             <br />
+
             <div class="whitecontainer">
-              <button type="button" class="collapsible">Weapon Details</button>
+              <div class="spellTop">
+                <button type="button" class="collapsible">
+                  Weapon Details
+                </button>
+              </div>
               <div class="content">
-                <div class="bodycontainer">
+                <div class="spellMiddle">
                   <div class="tri-container">
                     <div class="col1">
                       <label>Staff:</label>
@@ -296,14 +297,18 @@
                   </div>
                 </div>
               </div>
+              <div class="spellBtm"></div>
             </div>
             <br />
+
             <div class="whitecontainer">
-              <button type="button" class="collapsible">
-                Item Descriptions
-              </button>
+              <div class="spellTop">
+                <button type="button" class="collapsible">
+                  Item Descriptions
+                </button>
+              </div>
               <div class="content">
-                <div class="bodycontainer">
+                <div class="spellMiddle">
                   <p>
                     <label>Section 1 Name:</label>
                     <input type="text" id="I0H" name="I0H" /><br />
@@ -353,7 +358,9 @@
                   </p>
                 </div>
               </div>
+              <div class="spellBtm"></div>
             </div>
+            <br />
           </form>
           <br />
         </div>
@@ -368,4 +375,4 @@
 <script src="../Foundry/JavaScript/CoreScripts.js"></script>
 <script src="../Foundry/JavaScript/Item_Builder.js"></script>
 <script src="../Foundry/JavaScript/Item_ETL.js"></script>
-<script src="https://html2canvas.hertzen.com/dist/html2canvas.js"></script>
+<script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>

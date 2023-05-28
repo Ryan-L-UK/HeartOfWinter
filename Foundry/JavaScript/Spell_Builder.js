@@ -191,27 +191,40 @@ function showInput() {
   //-----------------------
 
   for (let i = 0; i <= 8; i++) {
-    const inputH = document.getElementById(`S${i}H`);
-    const inputD = document.getElementById(`S${i}D`);
-    const outputH = document.getElementById(`S${i}H-out`);
-    const outputD = document.getElementById(`S${i}D-out`);
+    const index = `S${i}`;
+    document.getElementById(`${index}H-out`).innerHTML =
+      document.getElementById(`${index}H`).value;
+    if (document.getElementById(`${index}H`).value != "") {
+      document.getElementById(`${index}H-out`).classList.add("TopMargin");
+    } else {
+      document.getElementById(`${index}H-out`).classList.remove("TopMargin");
+    }
 
-    outputH.innerHTML = inputH.value;
-    outputD.innerHTML = inputD.value;
+    document.getElementById(`${index}D-out`).innerHTML =
+      document.getElementById(`${index}D`).value;
+    if (document.getElementById(`${index}D`).value != "") {
+      document.getElementById(`${index}D-out`).classList.add("BottomMargin");
+    } else {
+      document.getElementById(`${index}D-out`).classList.remove("BottomMargin");
+    }
   }
+
   //--------------------
   if (document.getElementById("entriesHigherLevel").value != "") {
-    console.log("Sorcerer: Oh, this is a strong spell...");
+    console.log("Sorcerer: A strong spell...");
+    document.getElementById("HigherHide").classList.remove("hidden");
+    document.getElementById("HigherHide").classList.add("TopMargin");
     document.getElementById("higherLevelH-out").innerHTML = "At Higher Levels:";
-    document.getElementById("HigherHide").setAttribute("class", "");
+    document.getElementById("entriesHigherLevel-out").innerHTML =
+      document.getElementById("entriesHigherLevel").value;
   } else {
     console.log("Sorcerer: This spell is for the weak...");
     document.getElementById("higherLevelH-out").innerHTML = "";
-    document.getElementById("HigherHide").setAttribute("class", "hidden");
+    document.getElementById("HigherHide").classList.add("hidden");
+    document.getElementById("HigherHide").classList.remove("TopMargin");
   }
+
   //--------------------
-  document.getElementById("entriesHigherLevel-out").innerHTML =
-    document.getElementById("entriesHigherLevel").value;
   for (let i = 0; i <= 8; i++) {
     const input = document.getElementById(`class${i}`);
     const output = document.getElementById(`class${i}-out`);

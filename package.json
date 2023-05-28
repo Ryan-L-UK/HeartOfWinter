@@ -1,7 +1,7 @@
 {
-  "name": "elfsong-tavern",
+  "name": "heartofwinter",
   "version": "1.0.0",
-  "description": "The Elfsong Tavern",
+  "description": "Heart Of Winter",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,15 +9,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Ryan-L-UK/00_TheElfsongTavern.git"
+    "url": "git+https://github.com/Ryan-L-UK/HeartOfWinter"
   },
   "author": "Ryan Lewery",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Ryan-L-UK/00_TheElfsongTavern/issues"
+    "url": "https://github.com/Ryan-L-UK/HeartOfWinter/issues"
   },
-  "homepage": "https://github.com/Ryan-L-UK/00_TheElfsongTavern#readme",
+  "homepage": "https://github.com/Ryan-L-UK/HeartOfWinter#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "html-to-image": "^1.11.11"
   }
 }

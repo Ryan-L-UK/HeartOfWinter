@@ -1,17 +1,6 @@
 /*****************************
 /*           CONTAINER
 /*****************************/
-.document-container {
-  display: grid;
-  width: 100%;
-  justify-content: space-evenly;
-  align-content: space-evenly;
-  column-gap: 25px;
-  grid-auto-flow: row;
-  grid-template-columns: 250px 1050px;
-  grid-template-areas: "secondary-content primary-content";
-}
-
 .sidenav {
   width: 230px;
   /* position: fixed;*/

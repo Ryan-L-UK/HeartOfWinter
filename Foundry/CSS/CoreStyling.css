@@ -1,0 +1,1580 @@
+/*-----------------------------------------------------------
+Font Loaders
+The list below is all the known font packaged loaded into the site
+-----------------------------------------------------------*/
+@font-face {
+  font-family: Cinzel1;
+  src: local("Cinzel1"), url("../Fonts/Cinzel-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: CinzelDecorative;
+  src: local("CinzelDecorative"), url("../Fonts/CinzelDecorative-Bold.ttf");
+}
+@font-face {
+  font-family: MoonDance;
+  src: local("Moon Dance"), url("../Fonts/MoonDance-Regular.ttf");
+}
+@font-face {
+  font-family: MrEaves;
+  src: local("Mr Eaves"), url("../Fonts/Mr\ Eaves\ Small\ Caps.otf");
+}
+@font-face {
+  font-family: Roboto;
+  src: local("Roboto Regular"), url("../Fonts/Roboto-Regular.ttf");
+}
+@font-face {
+  font-family: Roboto-medium;
+  src: local("Roboto Medium"), url("../Fonts/Roboto-Medium.ttf");
+}
+@font-face {
+  font-family: Roboto-bold;
+  src: local("Roboto Bold"), url("../Fonts/RobotoCondensed-Bold.ttf");
+}
+@font-face {
+  font-family: RuneD;
+  src: local("RuneD"), url("../Fonts/RUNE_D.TTF");
+}
+/*-----------------------------------------------------------
+Core Components
+These are the main components which power the entire site
+-----------------------------------------------------------*/
+html {
+  background: #14171b;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background-image: url(../ImageAssets/BackgroundParchment/background_texture.png);
+  background-position: top;
+  background-repeat: repeat;
+  padding: 0;
+}
+.content-container {
+  display: flex;
+  flex-direction: column;
+  width: 1300px;
+  height: fit-content;
+  margin: 0 auto 0;
+  align-items: center;
+  padding: 0;
+}
+.bodycontainer {
+  padding: 2%;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+a:link {
+  text-decoration: none;
+}
+.whiteInput[type="text"] {
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #d4d4d4;
+  height: 25px;
+  margin-bottom: 5px;
+  background: none;
+  color: #000;
+}
+.corner-decoration {
+  position: absolute;
+  width: 4em;
+  margin: 2px;
+  background-color: transparent;
+}
+.corner-left-top {
+  left: 0;
+  top: 0;
+}
+.corner-right-top {
+  top: 0;
+  right: 0;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+.corner-right-bottom {
+  right: 0;
+  bottom: 0;
+  -webkit-transform: scale(-1);
+  transform: scale(-1);
+}
+.corner-left-bottom {
+  left: 0;
+  bottom: 0;
+  -webkit-transform: scaleY(-1);
+  transform: scaleY(-1);
+}
+.TopMargin {
+  margin-top: 17px;
+}
+.BottomMargin {
+  margin-bottom: 5px;
+}
+.hidden {
+  visibility: hidden;
+  width: auto;
+  height: 2px;
+  vertical-align: middle;
+}
+li {
+  color: #000;
+  margin: 0 auto;
+  text-align: left;
+  align-items: left;
+  font-family: roboto;
+  font-size: 1rem;
+  margin-bottom: 8px;
+}
+ul {
+  color: #000;
+  margin: 0 auto;
+  text-align: left;
+  align-items: left;
+  font-family: roboto;
+  font-size: 1rem;
+  margin-bottom: 8px;
+}
+/*-------------------
+Custom Shells Core Assets
+--------------------------*/
+.photo {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+table {
+  width: 100%;
+  margin-bottom: 25px;
+  margin-top: 10px;
+  height: 25px;
+  overflow-y: auto;
+  table-layout: fixed;
+}
+.fixedHead {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+table,
+td,
+th {
+  border: 1px solid #eceae8;
+  border-collapse: collapse;
+}
+table,
+td {
+  font-family: roboto;
+  font-size: 0.9rem;
+}
+thead {
+  border-bottom: 3px solid #d0cac5;
+}
+tbody,
+th {
+  text-align: left;
+  padding: 5px 10px;
+  min-width: 50px;
+}
+th {
+  background-color: #fff;
+  font-family: Roboto-bold;
+}
+hr {
+  border-top: 1px solid #555;
+}
+td {
+  padding: 3px 10px;
+}
+tr:nth-child(even) {
+  background-color: #f1f4f1;
+}
+tr:nth-child(odd) {
+  background-color: #e5e5e5;
+}
+.SpellIcon {
+  width: 45px;
+  height: 45px;
+}
+.whitecontainer {
+  background-image: url(../ImageAssets/SpellFrame/gui_bkg.png);
+  width: 625px;
+  filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.5));
+  border-radius: 5px;
+}
+.spellTop {
+  background-image: url(../ImageAssets/SpellFrame/gui_window-top.png);
+  height: 78px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.spelldsc {
+  padding: 18px 0px 0px 24px;
+  font-weight: normal;
+  font-size: 26px;
+  margin: 0px;
+  color: #ffffff;
+  font-family: PostAntiquaRoman, Palatino, serif;
+  text-shadow: 1px 1px #1f3528;
+}
+.spellMiddle {
+  min-height: 220;
+  font-weight: bold;
+  color: #f1f1f1;
+  padding: 0px 25px 10px 25px;
+  background-image: url(../ImageAssets/SpellFrame/gui_window-middle.png);
+  background-repeat: repeat-y;
+  background-size: 100%;
+}
+.spellBtm {
+  height: 42px;
+  background-image: url(../ImageAssets//SpellFrame/gui_window-bottom.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding-top: 8px;
+}
+.tri-container {
+  display: grid;
+  width: 100%;
+  column-gap: 0.2%;
+  grid-auto-flow: row;
+  justify-content: space-evenly;
+  align-content: space-evenly;
+  grid-template-columns: auto;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-areas: "Col1 Col2 Col3";
+}
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  padding: 18px 0px 0px 24px;
+  font-weight: normal;
+  font-size: 26px;
+  margin: 0px;
+  color: #ffffff;
+  font-family: PostAntiquaRoman, Palatino, serif;
+  text-shadow: 1px 1px #1f3528;
+  border: none;
+  outline: none;
+  background: rgba(76, 175, 80, 0);
+}
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.collapsible:hover {
+  color: #06885d;
+}
+.collapsible::after {
+  align-items: center;
+  justify-items: center;
+  content: "\25Ec";
+  transform: rotate(180deg);
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 19px;
+  margin-left: 4px;
+  margin-right: 7px;
+  margin-top: 2px;
+}
+.active::after {
+  content: "\25Ec";
+  transform: rotate(0deg);
+  margin-left: 4px;
+  margin-right: 7px;
+  margin-top: -3px;
+}
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0;
+  display: none;
+  overflow: hidden;
+}
+.split-container {
+  width: 100%;
+  justify-content: space-evenly;
+  align-content: space-evenly;
+  column-gap: 1.5%;
+  grid-auto-flow: row;
+  display: grid;
+  text-align: left;
+  align-items: Left;
+  grid-template-columns: repeat(6, 1fr);
+}
+.twofoursplit:nth-child(n) {
+  grid-column: span 2;
+}
+.twofoursplit:nth-child(n + 2) {
+  grid-column: span 4;
+}
+.oneonefoursplit:nth-child(n) {
+  grid-column: span 1;
+}
+.oneonefoursplit:nth-child(n + 3) {
+  grid-column: span 4;
+}
+.fouronesplit:nth-child(n) {
+  grid-column: span 5;
+}
+.fouronesplit:nth-child(n + 2) {
+  grid-column: span 1;
+}
+label {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  color: #f7f2e9;
+  font-size: 1rem;
+}
+input[type="checkbox"] {
+  float: right;
+}
+input[type="text"] {
+  border-left: 1px solid #aeab79;
+  border-top: 1px solid #aeab79;
+  border-right: 1px solid #eff2ae;
+  border-bottom: 1px solid #eff2ae;
+  color: #e3e0a6;
+  font-weight: normal;
+  background-color: #191812;
+  background: url(../ImageAssets/SpellFrame/input-textbox2.png);
+  background-position: left top;
+  background-repeat: no-repeat;
+  width: 95%;
+  height: 25px;
+  margin-bottom: 5px;
+  padding: auto;
+}
+input[type="number"] {
+  border-left: 1px solid #aeab79;
+  border-top: 1px solid #aeab79;
+  border-right: 1px solid #eff2ae;
+  border-bottom: 1px solid #eff2ae;
+  color: #e3e0a6;
+  font-weight: normal;
+  background-color: #191812;
+  background: url(../ImageAssets/SpellFrame/input-textbox2.png);
+  background-position: left top;
+  background-repeat: no-repeat;
+  width: 95%;
+  height: 25px;
+  margin-bottom: 5px;
+  padding: auto;
+}
+textarea {
+  border-left: 1px solid #aeab79;
+  border-top: 1px solid #aeab79;
+  border-right: 1px solid #eff2ae;
+  border-bottom: 1px solid #eff2ae;
+  color: #e3e0a6;
+  font-weight: normal;
+  background-color: #191812;
+  background: url(../ImageAssets/SpellFrame/input-textbox2.png);
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  width: 95%;
+  height: 75px;
+  margin-bottom: 5px;
+  padding: auto;
+}
+.inputlist {
+  border-left: 1px solid #aeab79;
+  border-top: 1px solid #aeab79;
+  border-right: 1px solid #eff2ae;
+  border-bottom: 1px solid #eff2ae;
+  color: #e3e0a6;
+  font-weight: normal;
+  background-color: #191812;
+  background: url(../ImageAssets/SpellFrame/input-textbox2.png);
+  background-position: left top;
+  background-repeat: no-repeat;
+  width: 95%;
+  height: 25px;
+  margin-bottom: 5px;
+  padding: auto;
+}
+.listbox {
+  width: 250px;
+}
+.quotetick {
+  float: right;
+}
+.quotetext {
+  text-align: center;
+  font-style: italic;
+  font-size: 1.05rem;
+}
+.source {
+  font-size: 1.3rem;
+  font-family: "Times New Roman", Times, serif;
+  display: inline-flex;
+}
+.pageno {
+  font-size: 0.7rem;
+  margin-left: 1px;
+  display: inline-flex;
+}
+/*-----------------------------------------------------------
+Homepage (Index)
+These are the elements used and needed on the Index (Homepage)
+-----------------------------------------------------------*/
+.masthead {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: block;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  margin: 0 auto -1px;
+  object-fit: cover;
+  object-position: 0 60%;
+  height: 450px;
+}
+.menuitem-shadow {
+  filter: drop-shadow(0 8px 12px rgba(0, 0, 0, 0.5));
+}
+.menuitem-container {
+  width: 100%;
+  justify-content: space-evenly;
+  align-content: space-evenly;
+  column-gap: 1.5%;
+  grid-auto-flow: row;
+  display: grid;
+  text-align: center;
+  align-items: center;
+  grid-template-columns: repeat(6, 1fr);
+}
+.menuitem {
+  background-color: #fff;
+  position: relative;
+  width: 100%;
+  margin: 0 0 25px;
+  padding: 0;
+  display: flex;
+  clip-path: polygon(100%0, 100% 93%, 93% 100%, 0 100%, 0 0);
+}
+.menuitem:nth-child(-n + 2) {
+  grid-column: span 3;
+  height: 420px;
+  width: auto;
+}
+.menuitem:nth-child(n + 3) {
+  grid-column: span 2;
+  height: 325px;
+}
+.menuitemimage {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  height: 55%;
+  object-fit: cover;
+}
+h1.menu {
+  margin-top: 0;
+  font-family: bold;
+  font-size: 1.75rem;
+  font-family: roboto-bold;
+  color: #000;
+  text-align: left;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+p.menu {
+  margin-top: -10px;
+  font-family: roboto;
+  font-size: 1rem;
+  color: #000;
+  text-align: left;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+p.readme {
+  align-items: center;
+  position: absolute;
+  bottom: 10px;
+  display: flexbox;
+  text-align: left;
+  margin: 0 10px 0px;
+  font-size: 1.1rem;
+  vertical-align: bottom;
+  font-family: roboto-bold;
+  text-transform: capitalize;
+  font-variant: small-caps;
+  color: #155305;
+}
+/*-----------------------------------------------------------
+Adventure Page (DM Notes) & Content Viewer Page
+These are the elements used and needed on the Adventure Pages
+-----------------------------------------------------------*/
+.document-container {
+  display: grid;
+  width: 100%;
+  justify-content: space-evenly;
+  align-content: space-evenly;
+  column-gap: 25px;
+  grid-auto-flow: row;
+  grid-template-columns: 250px 1050px;
+  grid-template-areas: "secondary-content primary-content";
+}
+.Adv {
+  width: 975px;
+}
+/*-----------------------------------------------------------
+Creature Page
+These are the elements used and needed on the Creature Page
+-----------------------------------------------------------*/
+/*******************************************
+NO STYLES
+********************************************/
+/*-----------------------------------------------------------
+Crit & Fail Page
+These are the elements used and needed on the Crit & Fail Pages
+-----------------------------------------------------------*/
+/*******************************************
+NO STYLES
+********************************************/
+/*-----------------------------------------------------------
+Dream Page
+These are the elements used and needed on the Dream Page
+-----------------------------------------------------------*/
+/*******************************************
+NO STYLES
+********************************************/
+/*-----------------------------------------------------------
+Items Page
+These are the elements used and needed on the Items Page
+-----------------------------------------------------------*/
+.list-container {
+  display: grid;
+  width: 100%;
+  column-gap: 0.2%;
+  grid-auto-flow: row;
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: 50% 627px;
+  column-gap: 2%;
+  grid-template-areas: "List View";
+}
+h1.listname {
+  text-align: left;
+  margin: 0;
+  font-size: 1.4rem;
+}
+.ItemContainer {
+  width: 625px;
+  height: 100%;
+  background: linear-gradient(
+      rgba(220, 220, 210, 0.5),
+      rgba(220, 220, 210, 0.5)
+    ),
+    url(../ImageAssets/BackgroundParchment/ice_background_base.png);
+  align-items: center;
+  display: block;
+  margin: 0 auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0;
+  border: solid 1px rgb(227, 227, 227);
+  margin: auto;
+}
+.ItemParchement {
+  background-image: url(../ImageAssets/BackgroundParchment/TornParchment.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: middle;
+}
+.itemBorder {
+  position: relative;
+  margin: 5px;
+  padding: 20px;
+  border: solid;
+  border-width: 3px;
+  border-color: #000000;
+}
+.item-decoration {
+  position: absolute;
+  width: 3.1em;
+  margin: -4px;
+  background-color: transparent;
+}
+.WaterColour {
+  margin: auto;
+  background: url(../ImageAssets/SpellFrame/watercolour1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.ItemImage {
+  margin: auto;
+  display: flex;
+  align-self: center;
+  width: auto;
+  height: 150px;
+  border-color: #000;
+  border-width: 2px;
+  background-blend-mode: multiply;
+}
+.hcentre {
+  justify-content: center;
+  margin: auto;
+  display: flex;
+}
+h1.itemname {
+  font-family: CinzelDecorative;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+  font-size: 1.8rem;
+  display: inline-block;
+  color: #000000;
+  padding-top: 0;
+}
+.attuneicon {
+  width: auto;
+  height: 20px;
+  vertical-align: middle;
+  display: inline-block;
+  margin-bottom: 8px;
+  margin-left: 8px;
+  margin-top: 8px;
+}
+.blackDIV {
+  margin: 0 auto 8px;
+  height: 2px;
+  width: 570px;
+  background-color: #000000;
+  align-items: center;
+}
+h2.itemSub {
+  font-family: MrEaves;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto 5px;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+}
+p.itemBody {
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+p.itemBold {
+  font-family: MrEaves;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.charges {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: MrEaves;
+  font-size: 1.3rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  max-width: 54ch;
+  margin: auto;
+}
+.submititem {
+  --button-crop-size: 16px;
+  align-items: center;
+  cursor: pointer;
+  display: inline-flex;
+  justify-content: center;
+  min-height: 35px;
+  vertical-align: middle;
+  padding: 10px 35px;
+  color: #fff;
+  font-size: 16px;
+  letter-spacing: 2.26px;
+  font-family: MrEaves;
+  font-variant: small-caps;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1;
+  border-radius: 0;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.1s ease-out;
+  position: relative;
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% calc(100% - var(--button-crop-size)),
+    calc(100% - var(--button-crop-size)) 100%,
+    0 100%
+  );
+  z-index: 2;
+  margin-left: 10px;
+  margin-right: 10px;
+  background: #2b732e;
+  background-image: linear-gradient(90deg, #2b732e, #4ead52);
+  border: 2px solid #4caf50;
+}
+.submititem:hover {
+  color: #000;
+}
+/*-----------------------------------------------------------
+Spells Page
+These are the elements used and needed on the Spells Page
+-----------------------------------------------------------*/
+.SpellContainer {
+  width: 625px;
+  height: 100%;
+  background: url(../ImageAssets/BackgroundParchment/phb_background_base.png);
+  align-items: center;
+  display: block;
+  margin: 0 auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0;
+  border: solid 1px rgb(227, 227, 227);
+  margin: auto;
+}
+.spellBorder {
+  margin: 5px;
+  padding: 20px;
+  border: solid;
+  border-width: 2px;
+  border-color: #b08f26;
+}
+h1.spellname {
+  font-family: CinzelDecorative;
+  text-align: left;
+  margin: 0;
+  font-size: 1.8rem;
+  display: inline-block;
+  color: #000000;
+  padding-top: 0;
+}
+.conicon {
+  width: auto;
+  height: 20px;
+  vertical-align: middle;
+  display: inline-block;
+  margin-bottom: 8px;
+  margin-left: 3px;
+  justify-content: right;
+}
+.icon {
+  width: auto;
+  height: 20px;
+  vertical-align: middle;
+  margin-bottom: 3px;
+}
+.spell-container {
+  display: grid;
+  width: 100%;
+  column-gap: 0.2%;
+  grid-auto-flow: row;
+  grid-template-columns: 80% 18%;
+  grid-template-areas: "Desc Image";
+}
+h2.spelltype {
+  text-align: left;
+  font-size: 1rem;
+  font-style: italic;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 8px;
+  font-family: Garamond, serif;
+}
+.bold {
+  font-weight: 700;
+}
+.standard {
+  font-size: 0.85rem;
+  text-align: left;
+  padding-bottom: 0;
+}
+.capitalize {
+  text-transform: capitalize;
+}
+.icon {
+  width: auto;
+  height: 20px;
+  vertical-align: middle;
+  margin-bottom: 3px;
+}
+.SpellImage {
+  mix-blend-mode: multiply;
+  width: auto;
+  height: 100px;
+  border: solid 2px #c5ab73;
+}
+p.spellBody {
+  font-size: 1rem;
+  display: flex;
+}
+p.spellBold {
+  font-family: MrEaves;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  display: flex;
+}
+.item-container {
+  display: grid;
+  width: 100%;
+  column-gap: 0.2%;
+  grid-auto-flow: row;
+  grid-template-columns: 74% 24%;
+  grid-template-areas: "heading sourcegraphic";
+}
+.sourcegraphic {
+  align-items: right;
+  justify-content: right;
+  text-align: right;
+}
+.cClass {
+  padding: 0;
+  background: linear-gradient(to bottom right, #2980b9, #2c3e50);
+  color: #fff;
+  vertical-align: middle;
+}
+.submitspell {
+  display: inline-flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 35px;
+  color: #fff;
+  font-size: 16px;
+  font-family: MrEaves;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2.26px;
+  font-variant: small-caps;
+  line-height: 1;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 0;
+  border: 2px solid #c909a9;
+  background: #3a193b;
+  background-image: linear-gradient(90deg, #3a193b, #a8028d);
+  transition: 0.1s ease-out;
+  z-index: 2;
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% calc(100% - 16px),
+    calc(100% - 16px) 100%,
+    0 100%
+  );
+  min-height: 35px;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.submitspell:hover {
+  color: #000;
+}
+/*-----------------------------------------------------------
+Map Page & Print Page
+These are the elements used and needed on the Map Page & Print Page
+-----------------------------------------------------------*/
+.Map {
+  width: 1250px;
+}
+.Parchment {
+  background-image: url(../ImageAssets/BackgroundParchment/MapParchment.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+}
+.MapBorder {
+  position: relative;
+  border: 2px solid #000000;
+  height: fit-content;
+  width: fit-content;
+  margin: auto;
+}
+.mapstyle {
+  display: block;
+  width: 1229px;
+  height: 100%;
+  margin: 5px;
+  align-items: center;
+  justify-items: center;
+  border: 4px solid #000000;
+  position: relative;
+}
+.mapstyle img {
+  display: block;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  -webkit-mask-image: radial-gradient(
+    circle at center,
+    rgba(0, 0, 0, 1) 80%,
+    rgba(0, 0, 0, 0) 95%
+  );
+  mask-image: radial-gradient(
+    circle at center,
+    rgba(0, 0, 0, 1) 80%,
+    rgba(0, 0, 0, 0) 95%
+  );
+}
+p.caption {
+  font-family: roboto-medium;
+  font-weight: 800;
+  text-align: center;
+  font-style: italic;
+}
+/*--------------------------------------------------------------------------------------------------------------------
+/*--------------------------------------------------------------------------------------------------------------------
+/*--------------------------------------------------------------------------------------------------------------------
+/*--------------------------------------------------------------------------------------------------------------------
+/*--------------------------------------------------------------------------------------------------------------------
+/*--------------------------------------------------------------------------------------------------------------------
+/*--------------------------------------------------------------------------------------------------------------------
+/*--------------------------------------------------------------------------------------------------------------------
+/*--------------------------------------------------------------------------------------------------------------------
+/*--------------------------------------------------------------------------------------------------------------------
+/*--------------------------------------------------------------------------------------------------------------------
+/*--------------------------------------------------------------------------------------------------------------------
+/*--------------------------------------------------------------------------------------------------------------------
+/*--------------------------------------------------------------------------------------------------------------------
+/*--------------------------------------------------------------------------------------------------------------------
+/*--------------------------------------------------------------------------------------------------------------------
+/*--------------------------------------------------------------------------------------------------------------------
+/*--------------------------------------------------------------------------------------------------------------------
+/*--------------------------------------------------------------------------------------------------------------------
+/*--------------------------------------------------------------------------------------------------------------------
+/*--------------------------------------------------------------------------------------------------------------------
+/*--------------------------------------------------------------------------------------------------------------------
+/*--------------------------------------------------------------------------------------------------------------------
+/*--------------------------------------------------------------------------------------------------------------------
+/*--------------------------------------------------------------------------------------------------------------------
+/*--------------------------------------------------------------------------------------------------------------------
+*/
+.generator-container,
+.list-container,
+.stat-container,
+.spell-container,
+.spell-heading {
+  display: grid;
+  width: 100%;
+  column-gap: 0.2%;
+  grid-auto-flow: row;
+}
+.generator-container {
+  justify-content: space-evenly;
+  align-content: space-evenly;
+  grid-template-columns: auto;
+  grid-template-areas: "Form Output";
+}
+.list-container {
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: 50% 627px;
+  column-gap: 2%;
+  grid-template-areas: "List View";
+}
+.options {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.spell-container {
+  grid-template-columns: 80% 18%;
+  grid-template-areas: "Desc Image";
+}
+.spell-heading {
+  grid-template-columns: 90% 5%;
+  grid-template-areas: "Spell-Title Spell-Con";
+}
+.stat-container {
+  justify-content: space-evenly;
+  align-content: space-evenly;
+  grid-template-columns: auto;
+  grid-template-areas: "STR DEX CON INT WIS CHA" "STRn DEXn CONn INTn WISn CHAn";
+}
+.CHA,
+.CON,
+.DEX,
+.INT,
+.STR,
+.WIS,
+.CHAn,
+.CONn,
+.DEXn,
+.INTn,
+.STRn,
+.WISn {
+  align-items: center;
+  margin: auto;
+}
+.CHA,
+.CON,
+.DEX,
+.INT,
+.STR,
+.WIS {
+  font-weight: 700;
+}
+.framecontainer,
+.dreamcontainer {
+  align-items: center;
+  display: block;
+  margin: 0 auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0;
+}
+.framecontainer,
+.dreamcontainer {
+  width: 570px;
+}
+.framecontainer {
+  background-image: url(../ImageAssets/BackgroundParchment/sword_meow_background_base.png);
+  color: #000;
+}
+.dreamcontainer {
+  background-image: url(../ImageAssets/BackgroundParchment/DreamShellBackground.jpeg);
+  color: #fff;
+}
+/* Style the list view content. */
+/*-----------------------------------------------------------
+Images & Objects
+There are a few styles here in use:
+-Masthead relates to the main hero image on the top of every single page. 
+-Object relates to anything loaded in using the auto loader or fetch
+-MapStyle is used on the various map pages.
+-Potion image is used on the alchemy gen page to control the image size next to each potion
+-----------------------------------------------------------*/
+object {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.dreamhead {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  justify-items: center;
+  margin-bottom: -1px;
+}
+/*-----------------------------------------------------------
+Borders
+On most of the generator pages, borders are used to frame the
+output, her are the controls for each of them. 
+-----------------------------------------------------------*/
+.border {
+  height: 7px;
+  width: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  display: block;
+  margin: 0;
+  border: 2px solid #000;
+}
+.creatureBG {
+  background-image: url(../ImageAssets/BackgroundParchment/GeneratorBorderMonster.jpeg);
+}
+.itemBG {
+  background-image: url(../ImageAssets/BackgroundParchment/GeneratorBorderItem.jpeg);
+}
+.dreamBG {
+  background-image: url(../ImageAssets/BackgroundParchment/GeneratorBorderDream.png);
+}
+/*-----------------------------------------------------------
+Dividers & Spacers
+Across the site it is often necessary to provide spacers and
+dividers, here are the controls for each. 
+-----------------------------------------------------------*/
+.divider {
+  margin: 0 auto;
+  height: 3px;
+  width: 650px;
+  background-color: #860954;
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.5);
+  align-items: center;
+}
+.triangleDIV {
+  margin: 4px auto;
+  width: 0;
+  height: 0;
+  border-top: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  align-items: center;
+}
+.lineDIV {
+  margin: 0 auto 8px;
+  height: 2px;
+  width: 550px;
+  background-color: #1d6673;
+  align-items: center;
+}
+.creature {
+  background-color: #1d6673;
+}
+.item {
+  background-color: #098643;
+}
+.line {
+  display: flex;
+  height: 4px;
+  width: 100%;
+  align-items: center;
+  border-bottom: 2px solid #484848;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.5);
+  margin: 0 auto;
+}
+.purpleL {
+  height: 3px;
+  width: 300px;
+  background-color: #860954;
+}
+.greyline {
+  background-color: #484848;
+  margin-top: 2px;
+  margin-bottom: 9px;
+  display: flex;
+  height: auto;
+  width: 100%;
+  align-items: center;
+  border-bottom: 2px solid #484848;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.5);
+}
+.underline {
+  margin: 0 auto;
+  height: 3px;
+  width: 300px;
+  background-color: #860954;
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.5);
+  align-items: center;
+}
+.mapfooter {
+  width: 80%;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+/*-----------------------------------------------------------
+Inputs & Outputs
+These are the various input fields, tick boxes and buttons 
+used across the site. 
+-----------------------------------------------------------*/
+.submit {
+  color: #fff;
+  padding: 0px 6px;
+  text-align: center;
+  justify-items: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 4px;
+  display: inline;
+  margin: 0px 10px;
+  width: 150px;
+  font-family: Garamond, serif;
+  background: linear-gradient(
+    180deg,
+    rgb(159, 159, 159) 0,
+    rgb(58, 58, 58) 100%
+  );
+}
+.submit:hover {
+  color: #000;
+}
+input::file-selector-button {
+  --button-crop-size: 16px;
+  align-items: center;
+  cursor: pointer;
+  display: inline-flex;
+  justify-content: center;
+  min-height: 35px;
+  vertical-align: middle;
+  padding: 10px 35px;
+  color: #fff;
+  font-size: 16px;
+  letter-spacing: 2.26px;
+  font-family: MrEaves;
+  font-variant: small-caps;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1;
+  border-radius: 0;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.1s ease-out;
+  position: relative;
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% calc(100% - var(--button-crop-size)),
+    calc(100% - var(--button-crop-size)) 100%,
+    0 100%
+  );
+  z-index: 2;
+  margin-left: 10px;
+  margin-right: 10px;
+  background: #3a3a3a;
+  background-image: linear-gradient(90deg, #3a3a3a, #9f9f9f);
+  border: 2px solid #bcbcbc;
+}
+.submitcreature {
+  display: inline-flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 35px;
+  color: #fff;
+  font-size: 16px;
+  font-family: MrEaves;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2.26px;
+  font-variant: small-caps;
+  line-height: 1;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 0;
+  border: 2px solid #59b5da;
+  background: #2b3873;
+  background-image: linear-gradient(90deg, #2b3873, #4b93af);
+  transition: 0.1s ease-out;
+  z-index: 2;
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% calc(100% - 16px),
+    calc(100% - 16px) 100%,
+    0 100%
+  );
+  min-height: 35px;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.submitdream {
+  --button-crop-size: 16px;
+  align-items: center;
+  cursor: pointer;
+  display: inline-flex;
+  justify-content: center;
+  min-height: 35px;
+  vertical-align: middle;
+  padding: 10px 35px;
+  color: #fff;
+  font-size: 16px;
+  letter-spacing: 2.26px;
+  font-family: MrEaves;
+  font-variant: small-caps;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1;
+  border-radius: 0;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.1s ease-out;
+  position: relative;
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% calc(100% - var(--button-crop-size)),
+    calc(100% - var(--button-crop-size)) 100%,
+    0 100%
+  );
+  z-index: 2;
+  margin-left: 10px;
+  margin-right: 10px;
+  background: #3a3a3a;
+  background-image: linear-gradient(90deg, #3a3a3a, #9f9f9f);
+  border: 2px solid #bcbcbc;
+}
+.submititem {
+  --button-crop-size: 16px;
+  align-items: center;
+  cursor: pointer;
+  display: inline-flex;
+  justify-content: center;
+  min-height: 35px;
+  vertical-align: middle;
+  padding: 10px 35px;
+  color: #fff;
+  font-size: 16px;
+  letter-spacing: 2.26px;
+  font-family: MrEaves;
+  font-variant: small-caps;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1;
+  border-radius: 0;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.1s ease-out;
+  position: relative;
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% calc(100% - var(--button-crop-size)),
+    calc(100% - var(--button-crop-size)) 100%,
+    0 100%
+  );
+  z-index: 2;
+  margin-left: 10px;
+  margin-right: 10px;
+  background: #2b732e;
+  background-image: linear-gradient(90deg, #2b732e, #4ead52);
+  border: 2px solid #4caf50;
+}
+.submititem:hover,
+.submitspell:hover,
+.submitcreature:hover,
+.submitdream:hover {
+  color: #000;
+}
+/* Spell Info */
+/* Item Info */
+p.index {
+  text-align: left;
+  font-size: 1rem;
+  margin: 0 auto 5px;
+}
+/*-----------------------------------------------------------
+Header Stylings
+The site uses a markdown tier of header styling from H1-H4,
+here are the controls for each. 
+-----------------------------------------------------------*/
+h1.main {
+  text-align: center;
+  align-items: center;
+  margin-bottom: 0;
+  font-family: Cinzel1;
+  text-transform: capitalize;
+  font-variant: small-caps;
+  color: #860954;
+  font-weight: bold;
+  font-size: 4.4rem;
+  margin-top: 0;
+}
+h2.main {
+  text-align: center;
+  align-items: center;
+  margin-bottom: 0;
+  font-family: Cinzel1;
+  text-transform: capitalize;
+  font-variant: small-caps;
+  color: #000;
+  margin-top: -10px;
+  font-size: 1.75rem;
+}
+h3.main {
+  text-align: center;
+  align-items: center;
+  margin-bottom: 0;
+  font-family: Cinzel1;
+  text-transform: capitalize;
+  font-variant: small-caps;
+  color: #860954;
+  margin-top: -5px;
+  font-size: 1.5rem;
+}
+h4.main {
+  text-align: center;
+  align-items: center;
+  margin-bottom: 0;
+  color: #860954;
+  margin-top: -5px;
+  font-size: 1.5rem;
+  font-family: MoonDance;
+  font-style: italic;
+}
+/*-----------------------------------------------------------
+Paragraph Stylings
+The site uses a markdown tier of header styling from H1-H4,
+here are the controls for each. 
+-----------------------------------------------------------*/
+p {
+  text-align: left;
+  margin: 0 auto;
+  font-size: 1rem;
+  margin-bottom: 0px;
+}
+p.subheading {
+  width: 50%;
+  color: #000;
+  margin: 0 auto;
+  text-align: center;
+  align-items: center;
+  font-family: Lora, Times, serif;
+  font-size: 1.25rem;
+  margin-bottom: 15px;
+}
+/*-----------------------------------------------------------
+Generator Stylings
+The site has lots of additional requirements from the various
+generators it uses. here are the controls for each of them. 
+-----------------------------------------------------------*/
+.cSource {
+  padding: 0;
+  color: #760d81;
+  background-color: #fff;
+  text-align: right;
+}
+.Damage {
+  margin: 0 1.5%;
+  padding-bottom: 1%;
+  text-align: right;
+  justify-items: right;
+  font-size: 0.9rem;
+}
+.hbody {
+  text-align: left;
+  padding-bottom: 0;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+}
+.italic {
+  font-style: italic;
+}
+.spell {
+  font-style: italic;
+  font-weight: 600;
+}
+.standard .margin {
+  padding-top: 10px;
+}
+.standard {
+  font-size: 0.85rem;
+  text-align: left;
+  padding-bottom: 0;
+}
+h1.dreamname {
+  color: #fff;
+  text-align: center;
+  padding-top: 0;
+}
+h1.indexheading {
+  text-align: left;
+  margin: 0 auto;
+  font-size: 1.4rem;
+  padding-top: 1%;
+  color: #000;
+}
+h1.listname {
+  text-align: left;
+  margin: 0;
+  font-size: 1.4rem;
+}
+h1.PotionName {
+  text-align: left;
+  margin: 0;
+  font-size: 1.75rem;
+  margin-top: 0;
+  margin-bottom: 10px;
+  padding-top: 0;
+  color: #8b0000;
+  font-family: Lora, Times, serif;
+}
+h1.shipname {
+  text-align: left;
+  margin: 0;
+  font-size: 2.4rem;
+  margin-top: 0;
+  margin-bottom: 10px;
+  padding-top: 0;
+}
+h2.creaturetype {
+  font-size: 0.9rem;
+}
+h2.indextype {
+  font-style: italic;
+  text-transform: capitalize;
+  font-size: 0.9rem;
+  font-family: Garamond, serif;
+  text-align: left;
+  margin: 0 0 1%;
+}
+h2.pheader {
+  color: black;
+  font-size: 1.4rem;
+  border-bottom: 3px solid #8b0000;
+  margin-top: 10px;
+  font-family: Lora, Times, serif;
+  text-align: left;
+}
+h2.spelltype {
+  text-align: left;
+  font-size: 1rem;
+  font-style: italic;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 8px;
+  font-family: Garamond, serif;
+}
+h3.weapon {
+  text-align: right;
+  font-size: 1rem;
+  margin: 0 1.5% 1%;
+  font-style: italic;
+  border-bottom: 1px solid #ddd;
+}
+p.index {
+  text-align: left;
+  font-size: 1rem;
+  margin: 0 auto 5px;
+}
+p.indexfooter {
+  text-align: left;
+  margin: 0 auto;
+  font-size: 1rem;
+  padding-bottom: 1%;
+}
+p.nospace {
+  margin: 0 auto 0;
+}
+/*-----------------------------------------------------------
+LocationStylings
+The site has lots of additional requirements from the various
+locations it uses. here are the controls for each of them. 
+-----------------------------------------------------------*/
+h2.location {
+  color: #000;
+  margin-top: 25px;
+  font-size: 1.6rem;
+  text-align: left;
+  align-items: left;
+  margin-bottom: 0;
+  font-family: Cinzel1;
+  text-transform: capitalize;
+  font-variant: small-caps;
+}
+h3.location {
+  margin-top: 10px;
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+  color: #860954;
+  text-align: left;
+  align-items: left;
+  font-family: Lora, Times, serif;
+}
+h4.location {
+  margin-top: 10px;
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: #000;
+  text-align: left;
+  align-items: left;
+  font-family: Lora, Times, serif;
+}
+.capital {
+  text-transform: capitalize;
+}

@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="../Foundry/CSS/ContainerObjectStyling.css" />
-    <link rel="stylesheet" href="../Foundry/CSS/FontStyling.css" />
+    <link rel="stylesheet" href="../Foundry/CSS/CoreStyling.css" />
     <link rel="stylesheet" href="../Foundry/CSS/Sources.css" />
 
-    <title>The Elfsong Tavern</title>
+    <title>Heart Of Winter</title>
     <link
       rel="shortcut icon"
       type="image/jpg"
@@ -42,13 +41,8 @@
           <br />
 
           <div id="photo">
-            <!---------------------------------------->
-            <!---------------------------------------->
-            <!------Working File--------->
-            <!---------------------------------------->
-            <!---------------------------------------->
-            <div class="CardContainer">
-              <div class="mainborder">
+            <div class="SpellContainer">
+              <div class="spellBorder">
                 <span
                   ><h1 class="spellname" id="name-out"></h1>
                   <img class="conicon" src="" id="concentration-out"
@@ -62,7 +56,7 @@
                       <span class="standard bold">Casting Time:</span>
                       <span class="standard capital" id="time-out"></span>
                       <br />
-                      <span class="standard bold">Range/Area:</span>
+                      <span class="standard bold">Range/Area:</span> -
                       <span class="standard capital" id="range-out"></span>
                       <br />
                       <span class="standard bold">Components:</span>
@@ -86,49 +80,32 @@
                     <img src="" class="SpellImage" id="spellImage" />
                   </div>
                 </div>
+                <br />
                 <div class="blackDIV"></div>
-                <p class="index">
-                  <span class="standard bold italic" id="S0H-out"></span>
-                  <span class="standard" id="S0D-out"></span>
-                </p>
-                <p class="index">
-                  <span class="standard bold italic" id="S1H-out"></span>
-                  <span class="standard" id="S1D-out"></span>
-                </p>
-                <p class="index">
-                  <span class="standard bold italic" id="S2H-out"></span>
-                  <span class="standard" id="S2D-out"></span>
-                </p>
-                <p class="index">
-                  <span class="standard bold italic" id="S3H-out"></span>
-                  <span class="standard" id="S3D-out"></span>
-                </p>
-                <p class="index">
-                  <span class="standard bold italic" id="S4H-out"></span>
-                  <span class="standard" id="S4D-out"></span>
-                </p>
-                <p class="index">
-                  <span class="standard bold italic" id="S5H-out"></span>
-                  <span class="standard" id="S5D-out"></span>
-                </p>
-                <p class="index">
-                  <span class="standard bold italic" id="S6H-out"></span>
-                  <span class="standard" id="S6D-out"></span>
-                </p>
-                <p class="index">
-                  <span class="standard bold italic" id="S7H-out"></span>
-                  <span class="standard" id="S7D-out"></span>
-                </p>
-                <p class="index">
-                  <span class="standard bold italic" id="S8H-out"></span>
-                  <span class="standard" id="S8D-out"></span>
-                </p>
+                <br />
+
+                <p class="spellBold" id="S0H-out"></p>
+                <p class="spellBody" id="S0D-out"></p>
+                <p class="spellBold" id="S1H-out"></p>
+                <p class="spellBody" id="S1D-out"></p>
+                <p class="spellBold" id="S2H-out"></p>
+                <p class="spellBody" id="S2D-out"></p>
+                <p class="spellBold" id="S3H-out"></p>
+                <p class="spellBody" id="S3D-out"></p>
+                <p class="spellBold" id="S4H-out"></p>
+                <p class="spellBody" id="S4D-out"></p>
+                <p class="spellBold" id="S5H-out"></p>
+                <p class="spellBody" id="S5D-out"></p>
+                <p class="spellBold" id="S6H-out"></p>
+                <p class="spellBody" id="S6D-out"></p>
+                <p class="spellBold" id="S7H-out"></p>
+                <p class="spellBody" id="S7D-out"></p>
+                <p class="spellBold" id="S8H-out"></p>
+                <p class="spellBody" id="S8D-out"></p>
+
                 <div id="HigherHide" class="hidden">
-                  <p></p>
-                  <p>
-                    <span class="standard bold" id="higherLevelH-out"></span>
-                    <span class="standard" id="entriesHigherLevel-out"></span>
-                  </p>
+                  <p class="spellBold" id="higherLevelH-out"></p>
+                  <p class="spellBody" id="entriesHigherLevel-out"></p>
                 </div>
                 <br />
 
@@ -373,12 +350,6 @@
               <div class="spellTop">
                 <h1 class="spelldsc">Known By</h1>
                 <br />
-                <input
-                  type="hidden"
-                  id="customIndicator"
-                  name="customIndicator"
-                  value="RML"
-                />
               </div>
               <div class="spellMiddle">
                 <label>Spell Usable By:</label><br />

@@ -8,7 +8,7 @@ head -n -1 |
 while IFS= read -r line
 do
   # Remove the first four characters and all occurrences of double quotes and commas from the line variable
-  line=$(echo "${line:4}" | tr -d ',"')
+  line=$(echo "${line}" | tr -d ',"')
 
   echo "-----------------------"
   echo "Moving: $line"

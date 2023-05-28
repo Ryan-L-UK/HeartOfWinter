@@ -228,6 +228,16 @@ h1.spellname {
   padding-top: 0;
 }
 
+h1.itemname {
+  font-family: CinzelDecorative;
+  justify-content: center;
+  margin: 0;
+  font-size: 1.8rem;
+  display: inline-block;
+  color: #000000;
+  padding-top: 0;
+}
+
 h2.creaturetype {
   font-size: 0.9rem;
 }
