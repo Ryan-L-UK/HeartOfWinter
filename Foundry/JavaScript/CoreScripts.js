@@ -133,6 +133,7 @@ function datacleanse(rawdata) {
     .replace(/\{@atk mw,rw\}/g, "Melee or Ranged Weapon Attack:")
     .replace(/\{@atk mw\}/g, "Melee Weapon Attack:")
     .replace(/\{@atk rw\}/g, "Ranged Weapon Attack:")
+    .replace(/\{@atk ms\}/g, "Melee Spell Attack:")
     .replace(/\{@atk rs\}/g, "Ranged Spell Attack:")
     .replace(/\{@hit/g, "+")
     .replace(/\{@h\}/g, "Hit: ")

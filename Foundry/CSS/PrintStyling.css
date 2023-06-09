@@ -8,7 +8,6 @@
   border: 4px solid #000000;
   position: relative;
 }
-
 .mapstyle img {
   display: block;
   top: 0;
@@ -27,7 +26,6 @@
     rgba(0, 0, 0, 0) 95%
   );
 }
-
 .Map {
   width: 2500px;
 }
@@ -39,7 +37,6 @@
   padding: 20px;
   margin: auto;
 }
-
 .MapBorder {
   position: relative;
   border: 2px solid #000000;
@@ -53,33 +50,28 @@
   margin: 2px;
   background-color: transparent;
 }
-
 .corner-left-top {
   left: 0;
   top: 0;
 }
-
 .corner-right-top {
   top: 0;
   right: 0;
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
 }
-
 .corner-right-bottom {
   right: 0;
   bottom: 0;
   -webkit-transform: scale(-1);
   transform: scale(-1);
 }
-
 .corner-left-bottom {
   left: 0;
   bottom: 0;
   -webkit-transform: scaleY(-1);
   transform: scaleY(-1);
 }
-
 .hidden {
   visibility: hidden;
   width: auto;

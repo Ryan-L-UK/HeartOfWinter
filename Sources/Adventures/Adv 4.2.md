@@ -1,25 +1,33 @@
 # The Chapel Of Summoning
 
-**Weather Forecast:** Overcast, Strong Wind
-**Moon Cycle:** Waxing gibbous Moon
+## Adventure Background
+
+The Cult of the Ouroboros has discovered an ancient holy site
+underneath the City Of The Dead. The structure is massive and
+yet well-concealed requiring some careful problem solving to be able to enter.
+
+The chapel is constructed of white howlite, which has allowed it to
+weather the tumultuous tectonic activity in the region, but even so,
+signs of its age can be seen. The weaker points of construction are
+beginning to crack from the strain, rubble from centuries of tremors
+litter the floor with pebbles and dust. Even the walls show great
+fractures, scars from a lifetime of battle against the land herself.
+
+Time is not their side. The cult needs a decisive victory here. As such,
+they have gathered together for one final summoning before the
+grand chapel succumbs to its fractures and is buried beneath the City of The Dead forever. If they are able to summon Ouroboros, it will take an army to
+bring it down, and who knows what damage it might cause while it
+runs amok.
+
+Approaching the great stone structure, your party readies themselves
+for a harrowing race against time, as the cultists rally to meet them
+in battle.
 
 # You Dropped This?
 
 ## The Siege Is Over
 
- <em>
- The crisis of war has been adverted, by your respective hands no less, and
- the criminal Le-Furr is heading off to answer his crimes. Well more like
- he is going to lose his head BECAUSE of his crimes, but either way, you
- have not heard anything since, which you can only assumed is someone good
- news, in its own little way. Each of you took some well-deserved time off
- over the past few weeks and decided to pursue some of your own interests.
- Your paths no doubt crossed at points, but you each tended to go your own
- way. You all agreed to meet mid-morning today at The Water Bowl as last
- night it appeared to be the scene of a lot of commotion. On your
- respective walks over, a couple of you heard the townsfolk telling stories
- of what happened.
- </em>
+> The crisis of war has been adverted, by your respective hands no less, and the criminal Le-Furr is heading off to answer his crimes. Well more like he is going to lose his head BECAUSE of his crimes, but either way, you have not heard anything since, which you can only assumed is someone good news, in its own little way. Each of you took some well-deserved time off over the past few weeks and decided to pursue some of your own interests. Your paths no doubt crossed at points, but you each tended to go your own way. You all agreed to meet mid-morning today at The Water Bowl as last night it appeared to be the scene of a lot of commotion. On your respective walks over, a couple of you heard the townsfolk telling stories of what happened.
 
 ## Inside The Inn
 
@@ -54,13 +62,7 @@
 
 ## The Cypher
 
- <em>
- The map is on an interesting and unusual paper. The paper itself possesses
- some form of strange shimmer about it, it’s also unusually thick. It takes
- fairly little intelligence to realise this paper is far from ordinary. But
- the problem is its complete blank, less some strange circles and crescent
- moons around the edge of the page.
- </em>
+> The map is on an interesting and unusual paper. The paper itself possesses some form of strange shimmer about it, it’s also unusually thick. It takes fairly little intelligence to realise this paper is far from ordinary. But the problem is its complete blank, less some strange circles and crescent moons around the edge of the page.
 
 - A character with a successful DC 10 Intelligence (Arcana) check
   recognizes that magical light causes the glyph’s glow.
@@ -210,24 +212,22 @@ The pillars on the left side are numbered with odd numbers from 1 to 13
 (top is 1, bottom is 13). The right side are numbered with even numbers
 from 2 to 14 (top is 2, bottom is 14). The words etched are as follows:
 
- <em>
- The words etched are as follows:
- 
- - Prime
- - Light
- - Must
- - Top
- - Be
- - King
- - Conquered
- - Rage
- - Serpent
- - Bellows
- - By
- - Overlord
- - Dark
- - Numbers
- </em>
+> The words etched are as follows:
+>
+> - Prime
+> - Light
+> - Must
+> - Top
+> - Be
+> - King
+> - Conquered
+> - Rage
+> - Serpent
+> - Bellows
+> - By
+> - Overlord
+> - Dark
+> - Numbers
 
 ## Solutions
 
@@ -241,12 +241,7 @@ to the solution. Roll with advantage if your player characters have
 relevant mathematical, numeromancy, or cryptographic skills, or are
 proficient in Navigator’s Tools, for example.
 
- <em>
- You douse each of the braziers, and the mural in front of you begins to
- illuminate. Starting from the heads an ethereal blue glow snakes its way
- to the towards the entwined tails of the dragon carvings in front of you.
- Your eyes are drawn to a dark spot where both tails cross.
- </em>
+> You douse each of the braziers, and the mural in front of you begins to illuminate. Starting from the heads an ethereal blue glow snakes its way to the towards the entwined tails of the dragon carvings in front of you. Your eyes are drawn to a dark spot where both tails cross.
 
 The tiles here are lose, and any form of tampering reveals a lever which
 can be used to open the far door. However, if the room is not totally dark
@@ -307,11 +302,7 @@ behind the altar wears a horned helmet and stands with his hands poised
 over the sacrafice, holding a ceremonial dagger. He noticed you enter and
 places the dagger down on the table and picks up a monstrous battle axe.
 
- <em>
- Interlopers. You dare to profane this sacred ground with your unhallowed
- flesh! I shall strike you down and your blood will slake the thirst of the
- mighty Ouroboros!”
- </em>
+> Interlopers. You dare to profane this sacred ground with your unhallowed flesh! I shall strike you down and your blood will slake the thirst of the mighty Ouroboros!”
 
 ## Battle With The Great Priest
 
@@ -337,7 +328,7 @@ summoning is complete.
 
 ## Battle With The Emissary Of Ouroboros
 
-Upon summoning the **Ouroboros Emissary,** Ralof Serpentsworn will fall dead, his life force having been consumed in the summoning of the great beast. The creature is not the true Ouroboros,
+Upon summoning the **Ouroboros Emissary**, Ralof Serpentsworn will fall dead, his life force having been consumed in the summoning of the great beast. The creature is not the true Ouroboros,
 but a lesser creature that serves him, taking the same shape of a
 twin-headed dragon. While no dragon god, it is nonetheless a powerful foe
 that must be destroyed lest it continues the work and calls forth the true

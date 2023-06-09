@@ -1,9 +1,5 @@
 # Written in Blood
 
-**Weather Forecast:** Clear skies, with slight temperature increase.
-
-**Moon Cycle:** Waxing gibbous Moon
-
 ## Background
 
 Every year, the Awakening Festival draws folk from across the Moonshae Isles, uniting celebrants as they tell their history in song and set the course for the upcoming year. But the mood turns grim when a group of farmers suddenly turns violent, manipulated by an unknown magical malady. In the aftermath, well-known trader **Aunt Dellie** fears for her goddaughter **Kianna**, a worker at the farm the attackers came from, deep within the outlying farmlands known as Ulgoth's Beard. When the characters investigate, they are pitted against a lurking evil that uses a young woman's grief and loneliness to lure new victims.
@@ -12,23 +8,23 @@ Every year, the Awakening Festival draws folk from across the Moonshae Isles, un
 
 The adventure begins following the characters downtime, they have elected to meet this morning and they may wish to share stories of their downtime. Today is the start of the Awakening Festive, A Day to celebrate a retelling of the land of Faerûn history, with a focus on the animal awakenings.
 
-<em>
-You all awaken this morning having had 15 days to yourself. You agreed to meet today as it is the first of a multiday event called the 'Awakening Festival'. This festival is only generally celebrated on Moonshae Isles, although a small number of folks on the mainland have been known to recognise the days significance. This annual celebration is marked by the multiday Awakening Song, a communal retelling of the land's history and a memorial to those who've passed on. Drawing particular attention to the history of awakened animals.
+> You all awaken this morning having had 15 days to yourself. You agreed to meet today as it is the first of a multiday event called the 'Awakening Festival'. This festival is only generally celebrated on Moonshae Isles, although a small number of folks on the mainland have been known to recognise the days significance. This annual celebration is marked by the multiday _Awakening Song_, a communal retelling of the land's history and a memorial to those who've passed on. Drawing particular attention to the history of awakened animals.
+>
+> You meet this morning in Waukeen's Promenade, where preparations are very much already underway. The streets are alive with vibrant music. As the history of the land is recounted through song, with a variety of musicians and bards coming together to form impromptu bands. Their performances blend together as passers-by join in during choruses, which gives a true sense of collective celebration.
 
-You meet this morning in Waukeen's Promenade, where preparations are very much already underway. The streets are alive with vibrant music. As the history of the land is recounted through song, with a variety of musicians and bards coming together to form impromptu bands. Their performances blend together as passers-by join in during choruses, which gives a true sense of collective celebration.
-</em>
-
-Anyone on the streets of Gullet Cove during the Awakening Festival hears what the locals call the Awakening Song, a collection of songs recounting local histories. Characters who spend an hour exploring the festival learn much about the history of the land. They also have advantage on Intelligence (History) checks related to the Awakening Song made for the rest of the adventure.
+Anyone on the streets of Gullet Cove during the Awakening Festival hears what the locals call the _Awakening Song_, a collection of songs recounting local histories. Characters who spend an hour exploring the festival learn much about the history of the land. They also have advantage on Intelligence (History) checks related to the _Awakening Song_ made for the rest of the adventure.
 
 During the festival, stalls throughout the community sell local crafts, (cheap) musical instruments, and street foods. Small straw dolls wearing colourful shirts and dresses are widely available for 5 cp each. A doll can be made to resemble the buyer for 7 cp. The dolls are a popular local craft and nothing more.
 
 ## Eyes of Blood
 
+{IMAGE OF BLOOD EYES}
+
 After the characters have engaged with the local festival as much as they please, the character who has the highest passive Wisdom (Perception) score notices a group of celebrants acting strangely. Read or paraphrase the following:
 
-<em> As part of the crowd begins another verse of the Awakening Song, four what appear to be farmers begin to walk into the area, however rather than singing, they stare blankly. A few moments go by before they surge forward into the celebrants, raising rusty farming implements. </em>
+> As part of the crowd begins another verse of the _Awakening Song_, four what appear to be farmers begin to walk into the area, however rather than singing, they stare blankly. A few moments go by before they surge forward into the celebrants, raising rusty farming implements.
 
-Four farmers attack the festival-goers. They use the **cultist** stat block; their rusty, bladed farming implements have the same statistics as scimitars. Any character who engages the farmers sees their eyes swirl with crimson, resembling bloody, unshed teardrops. Characters have no way of knowing it yet, but this is a mark of the soul shaker's control (see the "**Soul Shaker**" section at the end of this adventure).
+Four farmers attack the festival-goers. They use the **cultist** stat block; their rusty, bladed farming implements have the same statistics as scimitars. Any character who engages the farmers sees their eyes swirl with crimson, resembling bloody, unshed teardrops. Characters have no way of knowing it yet, but this is a mark of the soul shaker's control (see the "Soul Shaker" section at the end of this adventure).
 
 The festival-goers closest to the strange farmers panic and flee. Unless the characters do the same, the attackers target them.
 
@@ -38,13 +34,13 @@ Only one local holds their ground: a surprised woman named **Aunt Dellie** (**co
 
 When the last **farmer** is defeated, locals return to tend to the wounded. The farmers are known to many in the crowd, prompting confusion over their strange appearance and what caused them to attack. Talk of curses begins to spread.
 
-**Investigating the Farmers.** A character who fought the farmers or examines them afterward can make a DC 13 Intelligence (Arcana or Religion) check. On a success, the character can tell the farmers are being magically controlled. Spells like detect magic also reveal that the farmers are surrounded by an aura of enchantment magic. While this magic (the effects of the soul shaker's geas spell) lingers, the farmers' eyes keep their crimson hue.
+**_Investigating the Farmers._** A character who fought the farmers or examines them afterward can make a DC 13 Intelligence (Arcana or Religion) check. On a success, the character can tell the farmers are being magically controlled. Spells like _detect magic_ also reveal that the farmers are surrounded by an aura of enchantment magic. While this magic—the effects of the soul shaker's _geas_ spell—lingers, the farmers' eyes keep their crimson hue.
 
 If the farmers are healed or roused from unconsciousness, they refuse to speak. They don't attack again, but the locals keep them restrained.
 
-The characters likely don't have the resources to remove the enchantment affecting the farmers yet, only destroying the soul shaker or waiting approximately a month can do this. Even if the characters do remove the effect, the farmers are confused and remember nothing helpful.
+The characters likely don't have the resources to remove the enchantment affecting the farmers yet—only destroying the soul shaker or waiting approximately a month can do this. Even if the characters do remove the effect, the farmers are confused and remember nothing helpful.
 
-**Strange Parchment.** As the characters investigate the situation, **Aunt Dellie** notices that one of the farmers was clutching a crumpled sheet of parchment. She opens it, and nearby characters hear her curse in concerned shock. **Aunt Dellie** hands the crumpled parchment to any character who asks about it. It bears a charcoal sketch of a child struggling to swim in dark water while being grasped at by hands beneath the surface.
+**_Strange Parchment._** As the characters investigate the situation, **Aunt Dellie** notices that one of the farmers was clutching a crumpled sheet of parchment. She opens it, and nearby characters hear her curse in concerned shock. **Aunt Dellie** hands the crumpled parchment to any character who asks about it. It bears a charcoal sketch of a child struggling to swim in dark water while being grasped at by hands beneath the surface.
 
 ## A Godmother's Fear
 
@@ -67,7 +63,7 @@ The farm **Kianna** works at is 12 miles from Gullet Cove. Whether the character
 
 Once the characters are underway, read or paraphrase the following to summarize the journey:
 
-<em>The journey from Gullet Cove leads south through an area known as the Ribbon, where clustered farmhouses dot the ground on the edge of Dernal Forest. Eventually, the road dwindles to little more than a track. The trees grow denser and the farms fewer and farther between as you near the lands called Ulgoth's Beard. Ulgoth’s Beard sits in a region known as Alaron on the southern edge of the island. </em>
+> The journey from Gullet Cove leads south through an area known as the Ribbon, where clustered farmhouses dot the ground on the edge of Dernal Forest. Eventually, the road dwindles to little more than a track. The trees grow denser and the farms fewer and farther between as you near the lands called Ulgoth's Beard. Ulgoth’s Beard sits in a region known as Alaron on the southern edge of the island.
 
 Any character who succeeds on a DC 14 Intelligence (Nature) check notices that many of the farms in the Ribbon are touched by blight and the animals are thin. A basic understanding of the region will easy explain that agriculture in the region has been deteriorating for years, forcing locals to farm Ulgoth's Beard despite its dangers.
 
@@ -77,7 +73,7 @@ If the characters stop at any of the farms they pass in the Ribbon, they see no 
 
 As the characters push into Ulgoth's Beard, they near a weathered farm surrounded by crops that look healthier than those they saw in the Ribbon. Not everything about the farm is hopeful, though:
 
-<em> Growls and excited yipping resound from the field surrounding a nearby farm. The source isn't clear, but from the motion of the tall crops, something moves swiftly through the fields parallel to the road. </em>
+> Growls and excited yipping resound from the field surrounding a nearby farm. The source isn't clear, but from the motion of the tall crops, something moves swiftly through the fields parallel to the road.
 
 A character who succeeds on a DC 12 Wisdom (Perception) check realizes two groups are moving through the fields, one in pursuit of the other, though the dense crops block their view. Characters who enter the fields find visibility reduced to 10 feet. A character who succeeds on a DC 14 Wisdom (Survival) check finds the trail of whatever just moved through the fields and can easily follow it.
 
@@ -110,11 +106,13 @@ Uncle Polder allows the characters to rest at his home as long as they please. W
 
 # Part 3: Fallen Farmhouse
 
+[PICTURE]
+
 As the characters continue on their journey, they notice the environment changing around them after only another hour of travel. After they've travelled about a mile from Uncle Polder's home, read or paraphrase the following description:
 
-<em> Moving south through the region you find the small settlement known as Ulgoth’s Beard. Despite being on the edge of the sea, the air here smells stagnant and carries the taste of metal. A small group of farmhouses hunch upon the edge of a patch of green fields.
+> Moving south through the region you find the small settlement known as Ulgoth’s Beard. Despite being on the edge of the sea, the air here smells stagnant and carries the taste of metal. A small group of farmhouses hunch upon the edge of a patch of green fields.
 
-Suddenly the ground begins to shake, causing the road ahead to ripple, suddenly below you a 10-foot-square, 10-foot-deep sinkhole to opens. </em>
+Suddenly the ground begins to shake, causing the road ahead to ripple, suddenly below you a 10-foot-square, 10-foot-deep sinkhole to opens.
 
 Each creature in the area must succeed on a DC 15 Dexterity saving throw or fall 10 feet, taking 3 (1d6) bludgeoning damage. Characters who said they would be mindful of sinkholes or unstable ground after the previous tremor have advantage on this saving throw.
 
@@ -128,7 +126,7 @@ The farming community **Kianna** is a part of isn't just one farm, but a coopera
 
 As the characters approach the nearest farm, they find the surrounding fields overgrown and the plants rotting. Crows flit between perches on the fences, but there are no signs of people.
 
-Nearly all the houses have been sloppily painted with a large and muddy red X. The interiors of these farmhouses are utilitarian, featuring only a few rooms for sleeping and a small kitchen. No creatures are within, and the accumulation of dust makes it clear no one's disturbed the rooms for some time. Every farmhouse bears a sign that something's wrong. Roll on the Farmhouse Conditions table for each building to determine what.
+Nearly all the houses have been sloppily painted with a large and muddy red _X_. The interiors of these farmhouses are utilitarian, featuring only a few rooms for sleeping and a small kitchen. No creatures are within, and the accumulation of dust makes it clear no one's disturbed the rooms for some time. Every farmhouse bears a sign that something's wrong. Roll on the Farmhouse Conditions table for each building to determine what.
 
 #### Farmhouse Conditions
 
@@ -139,13 +137,13 @@ Nearly all the houses have been sloppily painted with a large and muddy red X. T
 |  3  | Human bones, freshly gnawed by animals, litter the floor of every room.                                                                   |
 |  4  | A strange image is painted on the wall in red mud. It depicts either a cluster of arms with no central body or repeating red hand prints. |
 
-A character who investigates at least two of the farmhouses can make a DC 14 Wisdom (Perception) check. On a success, they notice one farmhouse doesn't have a red X painted on it. This building is the farmhouse where **Kianna** resided, and it also serves as the pact's communal meeting house.
+A character who investigates at least two of the farmhouses can make a DC 14 Wisdom (Perception) check. On a success, they notice one farmhouse doesn't have a red _X_ painted on it. This building is the farmhouse where **Kianna** resided, and it also serves as the pact's communal meeting house.
 
 # Part 4: Kianna's Farmhouse
 
-A farmhouse near the centre of the steading serves as a main kitchen, dining area, and meeting place for the smaller houses around it. This is the farmhouse where **Kianna** was a resident. As the characters approach, read or paraphrase the following description:
+A farmhouse near the center of the steading serves as a main kitchen, dining area, and meeting place for the smaller houses around it. This is the farmhouse where **Kianna** was a resident. As the characters approach, read or paraphrase the following description:
 
-<em> This large farmhouse appears abandoned like the smaller houses around it, but no X marks it. Farming implements lie abandoned in the mud, and wild plants have grown up to the house's faded wooden porch. The crops in the surrounding field appear sickly. </em>
+> This large farmhouse appears abandoned like the smaller houses around it, but no _X_ marks it. Farming implements lie abandoned in the mud, and wild plants have grown up to the house's faded wooden porch. The crops in the surrounding field appear sickly.
 
 ## Kianna's Farmhouse Locations
 
@@ -156,33 +154,33 @@ The following locations are keyed to map 3.1.
 
 The house's yard is muddy red clay. Several rusty shovels and rakes lie scattered about.
 
-**Farming Implements.** A character who looks around the back of the house sees a pitchfork stuck into the earth near the house's northeast corner. On further investigation, they see it's stuck through the severed hand of a young woman. The characters have no way of knowing this, but the hand was once a crawling claw and was dispatched by a **farmer**.
+**_Farming Implements._** A character who looks around the back of the house sees a pitchfork stuck into the earth near the house's northeast corner. On further investigation, they see it's stuck through the severed hand of a young woman. The characters have no way of knowing this, but the hand was once a crawling claw and was dispatched by a **farmer**.
 
-**Sickly Crops.** Wheat and corn struggle to grow in the fields surrounding the house. Any character who succeeds on a DC 14 Intelligence (Nature) check can tell the plants around this farm are sickly because something's wrong with the soil. A character who succeeds on a DC 16 Wisdom (Perception) check notices raised paths through the dirt, like mole tunnels, though no creatures are obvious. Although it's not evident, the soul shaker's evil and the excavations of the crawling claws have spoiled the land around the house.
+**_Sickly Crops._** Wheat and corn struggle to grow in the fields surrounding the house. Any character who succeeds on a DC 14 Intelligence (Nature) check can tell the plants around this farm are sickly because something's wrong with the soil. A character who succeeds on a DC 16 Wisdom (Perception) check notices raised paths through the dirt, like mole tunnels, though no creatures are obvious. Although it's not evident, the soul shaker's evil and the excavations of the crawling claws have spoiled the land around the house.
 
 ### F2: Porch
 
 A large wooden porch wraps around the front and one side of the farmhouse. Its planks creak ominously when stepped on, but there is no danger here. Closed curtains shroud the windows, but the doors to the interior are unlocked and ajar. Both lead to a musty central hallway.
 
-**Doors.** The doors leading off the hallway are closed but not locked.
+**_Doors._** The doors leading off the hallway are closed but not locked.
 
 ### F3: Living Room
 
-<em> The furniture in this living room is haphazardly arranged and looks close to falling apart. Beneath, the floor is covered in hundreds of handprints painted using crimson mud. </em>
+> The furniture in this living room is haphazardly arranged and looks close to falling apart. Beneath, the floor is covered in hundreds of handprints painted using crimson mud.
 
-The art style is similar to that of the picture **Aunt Dellie** found in Gullet Cove. Any character who succeeds on a DC 14 Wisdom (Perception) check notices a break in the pattern under a chair. If the chair is moved, it reveals a muddy depiction of two children, one is reaching for the other, who is being dragged into the water by large hands. Scrapes in the muddy image form the name "Culley."
+The art style is similar to that of the picture **Aunt Dellie** found in Promise. Any character who succeeds on a DC 14 Wisdom (Perception) check notices a break in the pattern under a chair. If the chair is moved, it reveals a muddy depiction of two children—one is reaching for the other, who is being dragged into the water by large hands. Scrapes in the muddy image form the name "Culley."
 
 ### F4: Bedroom
 
 The bedroom holds a bed and writing desk for a single occupant. Most of the space is neat and orderly, but the desk is strewn with art supplies and scraps of paper bearing fragmented images.
 
-**Paintings.** Any character who riffles through the paper on the desk finds repeating images of hands, lakes, and wide eyes looking up through water. The largest work shows a pair of eyes with handprints for pupils. All these images look similar in style to the picture **Aunt Dellie** found in Gullet Cove.
+**_Paintings._** Any character who riffles through the paper on the desk finds repeating images of hands, lakes, and wide eyes looking up through water. The largest work shows a pair of eyes with handprints for pupils. All these images look similar in style to the picture **Aunt Dellie** found in Promise.
 
-**Chest.** A small chest against the wall is unlocked and holds work clothes sized for a woman. A character who searches the chest and succeeds on a DC 12 Intelligence (Investigation) check finds a pair of overalls with a pocket containing thirteen rings, plain rings, wedding bands, and formal jewellery sized for men and women, worth 2d10 gp each.
+**_Chest._** A small chest against the wall is unlocked and holds work clothes sized for a woman. A character who searches the chest and succeeds on a DC 12 Intelligence (Investigation) check finds a pair of overalls with a pocket containing thirteen rings—plain rings, wedding bands, and formal jewelry sized for men and women—worth 2d10 gp each.
 
 ### F5: Dining Room
 
-<em> A long plain table, a wooden sideboard, and several chairs lie shattered on the floor. The debris is streaked with crimson stains. </em>
+> A long plain table, a wooden sideboard, and several chairs lie shattered on the floor. The debris is streaked with crimson stains.
 
 This dining room has been ransacked, and red mud covers the furnishings and floor.
 
@@ -192,11 +190,11 @@ After the crawling claws are dispatched, any character who searches the room tho
 
 ### F6: Kitchen
 
-<em> This kitchen has been torn apart. Pots and pans are scattered everywhere, and rotting food streaks the floorboards. </em>
+> This kitchen has been torn apart. Pots and pans are scattered everywhere, and rotting food streaks the floorboards.
 
-In the centre of the room, four enchanted farmers stand facing each other, their crimson eyes unblinking. Each holds a sharp knife or farming implement. They don't react when the characters enter or if they are touched or spoken to. They react only if harmed, stolen from, or commanded by the soul shaker. Each uses the **cultist** stat block. Although the farmers are initially harmless, their appearance and lack of reaction are unnerving.
+In the center of the room, four enchanted farmers stand facing each other, their crimson eyes unblinking. Each holds a sharp knife or farming implement. They don't react when the characters enter or if they are touched or spoken to. They react only if harmed, stolen from, or commanded by the soul shaker. Each uses the **cultist** stat block. Although the farmers are initially harmless, their appearance and lack of reaction are unnerving.
 
-**Pantry.** The foodstuffs and supplies that once filled the pantry have been ransacked, and a large cupboard stands open. A trapdoor in the pantry's floor opens to reveal a 10-foot-tall ladder descending into a darkened cold-storage cellar. The stench of something rotting rises from below.
+**_Pantry._** The foodstuffs and supplies that once filled the pantry have been ransacked, and a large cupboard stands open. A trapdoor in the pantry's floor opens to reveal a 10-foot-tall ladder descending into a darkened cold-storage cellar. The stench of something rotting rises from below.
 
 ## Cellar Locations
 
@@ -211,28 +209,30 @@ The smell the characters noticed above is worse here, issuing from the tunnel. C
 
 Characters who proceed 40 feet into the tunnel see a faint light emanating from around a bend.
 
-**Tunnel Song.** As the characters move through the tunnel, the song's volume increases. The characters recognize this as part of the Awakening Song they overheard in Gullet Cove. This part of the song tells the story of a young man named Culley. Rather than its usual content, where the boy dies by drowning, the song has been sloppily rewritten to feature Culley being saved by his closest friend.
+**_Tunnel Song._** As the characters move through the tunnel, the song's volume increases. The characters recognize this as part of the Awakening Song they overheard in Promise. This part of the song tells the story of a young man named Culley. Rather than its usual content, where the boy dies by drowning, the song has been sloppily rewritten to feature Culley being saved by his closest friend.
 
 ### F8: Cavern
 
-<em> The tunnel opens into a lantern-lit, packed-dirt chamber, where the cause of the stench becomes apparent. A dozen bodies lie strewn across the floor, all wearing the clothes of farmers. Many of their limbs have been cleanly removed and set into a sizable pile on the far side of the cavern. In the centre of the room, a young woman is singing. </em>
+> The tunnel opens into a lantern-lit, packed-dirt chamber, where the cause of the stench becomes apparent. A dozen bodies lie strewn across the floor, all wearing the clothes of farmers. Many of their limbs have been cleanly removed and set into a sizable pile on the far side of the cavern. In the centre of the room, a young woman is singing.
 
 The bodies are the farmers missing from the surrounding farms, save for **Kianna**. They've been killed and dismembered by the soul shaker.
 
-**Kianna.** (chaotic neutral, human **commoner**) looks like she's in a dream state, and she holds a knife loosely, but her eyes aren't crimson like those of the other farmers. **Kianna** stops singing as soon as she notices the characters and says, "Please go. You shouldn't be here." If the characters speak with **Kianna**, she drifts between fearfully urging them to leave and coaxing them to stay and meet her friend, Culley, her mood and manner shifting erratically. Use the following points to guide the conversation:
+![{@creature Kianna|JttRC}](img/adventure/JttRC/027-03-005.kianna.webp)
+
+**_Kianna._** The young woman is **Kianna** (chaotic neutral, human **commoner**). She looks like she's in a dream state, and she holds a knife loosely, but her eyes aren't crimson like those of the other farmers. **Kianna** stops singing as soon as she notices the characters and says, "Please go. You shouldn't be here." If the characters speak with **Kianna**, she drifts between fearfully urging them to leave and coaxing them to stay and meet her friend, Culley, her mood and manner shifting erratically. Use the following points to guide the conversation:
 
 - **Kianna** confirms she's the person the party seeks. She's saddened at any talk of **Aunt Dellie** having sent the characters to find her.
 - She speaks brightly of how Culley finally came back to her after she lost him in Cradlelace Lake. It was so good to hear his voice again!
 - When **Kianna** heard Culley's voice beyond the cellar, she dug and found this old cavern.
-- Something happened to the farmers when they entered the caverns. After that they did whatever Culley said, including hurting one another and marking the houses with X's to note who had visited the cellar.
-- If asked about Culley, **Kianna** sadly says her friend drowned long ago, then cheerfully says he didn't drown because she saved him. He went away for a long while, but he came back.
+- Something happened to the farmers when they entered the caverns. After that they did whatever Culley said—including hurting one another and marking the houses with _X_'s to note who had visited the cellar.
+- If asked about Culley, **Kianna** sadly says her friend drowned long ago—then cheerfully says he didn't drown because she saved him. He went away for a long while, but he came back.
 - If asked where Culley is now, **Kianna** fearfully says he's sleeping after having fed. She believes her song helps keep him quiet, but she's tired.
 
 As the characters speak with **Kianna**, a character who succeeds on a DC 12 Wisdom (Insight) check notices **Kianna**'s eyes darting to the pile of limbs whenever she speaks brightly of Culley.
 
 If the characters ask **Kianna** to leave with them, she seems confused and scared, saying she can't. If she's coerced, or if a character investigates the pile of limbs, the soul shaker awakens.
 
-**Soul Shaker.** When the characters try to leave the area or disturb the pile of limbs, the heap begins to move, revealing itself as an Undead made entirely of arms and hands. This is a **soul shaker** (detailed at the end of this adventure). This creature has a fraction of the memories of **Kianna**'s friend Culley, but the horror has perverted those thoughts, seeking to control **Kianna**, manipulate her guilt, and use her to lure other victims into its lair. When it reveals itself, the soul shaker targets a character with its telepathy, whispering things like "Come play with us!", "Are you lonely?", and "Be with us forever!" as it attacks. It might also relate snippets from the "Fractured Soul" section of the adventure's background.
+**_Soul Shaker._** When the characters try to leave the area or disturb the pile of limbs, the heap begins to move, revealing itself as an Undead made entirely of arms and hands. This is a **soul shaker** (detailed at the end of this adventure). This creature has a fraction of the memories of **Kianna**'s friend Culley, but the horror has perverted those thoughts, seeking to control **Kianna**, manipulate her guilt, and use her to lure other victims into its lair. When it reveals itself, the soul shaker targets a character with its telepathy, whispering things like "Come play with us!", "Are you lonely?", and "Be with us forever!" as it attacks. It might also relate snippets from the "Fractured Soul" section of the adventure's background.
 
 As soon as the soul shaker awakens, if the farmers the soul shaker controls are still in area F6, it summons them to aid it. The four farmers (use the **cultist** stat block) arrive in 2 rounds.
 
@@ -244,7 +244,7 @@ Once the soul shaker is defeated, its grip on the farm's residents’ fades.
 
 ## Kianna's Story
 
-After the soul shaker is destroyed, **Kianna** collapses into unconsciousness. A character who examines her and succeeds on a successful DC 14 Wisdom (Medicine) check can tell **Kianna** is sleep deprived and has been tormented by the strange creature. She wakes after an hour, unable to remember anything that's happened in recent days except for glimpses of strange hands and menacing words spoken in her dead friend Culley's voice. **Kianna** shares that she blames herself for Culley's death at Cradlelace Lake, and when she heard his voice, she thought the gods might be giving her a chance to make amends. Now she just wants to return to Gullet Cove.
+After the soul shaker is destroyed, **Kianna** collapses into unconsciousness. A character who examines her and succeeds on a successful DC 14 Wisdom (Medicine) check can tell **Kianna** is sleep deprived and has been tormented by the strange creature. She wakes after an hour, unable to remember anything that's happened in recent days except for glimpses of strange hands and menacing words spoken in her dead friend Culley's voice. **Kianna** shares that she blames herself for Culley's death at Cradlelace Lake, and when she heard his voice, she thought the gods might be giving her a chance to make amends. Now she just wants to return to Promise.
 
 If asked about or shown her paintings from areas F3 or F4, she has no memory of creating them, though they're clearly in her art style. A character who succeeds on a DC 18 Wisdom (Insight or Medicine) check recognizes **Kianna** is no longer suffering any supernatural effects, but the character also suspects her experiences might have affected her more deeply than she realizes.
 

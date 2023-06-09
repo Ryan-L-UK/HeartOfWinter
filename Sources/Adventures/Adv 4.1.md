@@ -1,8 +1,10 @@
 # The Brink Of War
 
-**Weather Forecast:** Snow, Severe Windchill
+## Adventure Background
 
-**Moon Cycle:** Last Quarter Moon
+War has finally come to Gullet Cove, it has been a long time coming, and a single fury captain is to blame. If only you could find him. The army lay siege to the city and it is up to the adventurers to seek out a way to stop them ransaking what it left.
+
+They will have to search high and low, and through some rather unpleasant sewers to find him, but he will not want to go quietly.
 
 # The Sound Of War
 
@@ -75,15 +77,11 @@ Patrons:
 
 When players enter read:
 
-<em>
+> As you walk into the sewer you are surprised to see that it is actually incredibly well built. Significantly better than some parts of gullet cove. It would appear great care and attention was placed upon the layout of the sewers and how they would work.
+>
+> What is not a surprise however, is the onslaught to your senses. It hits you like an Owlbear. The smell alone is enough to provoke your gag reflex, it also stings your eyes to have them wide open and you find yourself squinting to reduce the pain. Everything seems to have a slippery and slimy quality and the sound, the sound is just horrible. The echo and reverberation of sewage moving through the tunnel system is a sound like nothing else. What would drive a person to come down here.
 
-As you walk into the sewer you are surprised to see that it is actually incredibly well built. Significantly better than some parts of gullet cove. It would appear great care and attention was placed upon the layout of the sewers and how they would work.
-
-What is not a surprise however, is the onslaught to your senses. It hits you like an Owlbear. The smell alone is enough to provoke your gag reflex, it also stings your eyes to have them wide open and you find yourself squinting to reduce the pain. Everything seems to have a slippery and slimy quality and the sound, the sound is just horrible. The echo and reverberation of sewage moving through the tunnel system is a sound like nothing else. What would drive a person to come down here.
-
-As a side note: DM -> Players, please assume all these doorways you see on the map are open, unless I tell you otherwise.
-
-</em>
+[MAP HERE]
 
 ## The First Area
 
@@ -93,11 +91,9 @@ As a side note: DM -> Players, please assume all these doorways you see on the m
   - They have been looted, all that remains is bones and some very tattered and ruined clothes. Including what appears to be a very old robe from the temple.
   - Thieves cant is around the wall, it looks old. but reads
 
-    <em>“Dead Men Tell No Tales. “</em>
+    > **_“Dead Men Tell No Tales."_**
 
 - You can see a small floating wooden board on the water which is somehow managing to avoid the corrosion from the water. You are a little concern however if the water may or may not be toxic. Best not to touch it.
-  - A DC 15 wisdom (perception) or intelligence (investigation) check will notice two shapes moving about underneath the water, this being two **TBC.**
-  - Regardless of whether or not the players are aware of these two creatures, the **TBC** will notice them, and will remain passive until a creature touches the water. The only way to avoid them is to either exit the sewers or not touch the water.
 - There are a couple of side tunnels, these will contain some old crates and barrels, all of which are empty. With an investigation check they will find that they once held spice, rum and other desirable goods, but they have long since been emptied.
 
 ## A Blacksmith?
@@ -129,8 +125,7 @@ There will also be a load more barrels around here, some old and some newer, mos
 
 There will also be a strange barrel around the corner with one small pouch in it. On the side of the barrel the label reads:
 
-<em>
-Whilst you can avoid things being seen if you wish, making them disappear entirely, that is a rare gift. </em>
+> Whilst you can avoid things being seen if you wish, making them disappear entirely, that is a rare gift.
 
 Inside is a single pouch of ‘Dust Of Disappearance’.
 
@@ -162,7 +157,7 @@ The main and more important thing of note, is that there appears to be a map of 
 
 These rooms have been used as the bunk option for Le-Furr and his two crewmates. They are nothing special, but it would appear each has a bed which each look quite old and moth bitten, a small space for a candle, and in general somewhere to sleep. You imagine this would have been where smugglers would have stayed.
 
-## The Well
+## The Drain
 
 This is where you will find lefurr and his companions sitting around the edge. One of the companions will be sitting with his feet dangling over the edge. Le-furr and Corazón will be standing there, discussing the plan now that all the exits have been blocked and there appears to be an army of people trying to hunt them.
 

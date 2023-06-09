@@ -21,10 +21,6 @@
           <button id="myDropdown" class="dropbtn">Adventures</button>
           <div class="dropdown-content">
             <a
-              href="http://localhost:8080/Pages/AdventuresPage.html?Adventure=Adv 0.0"
-              >Adv 0.0 Story Overview & Major Plotlines</a
-            >
-            <a
               href="http://localhost:8080/Pages/AdventuresPage.html?Adventure=Adv 1.1"
               >Adv 1.1 A Gullet Cove Hello</a
             >
@@ -79,7 +75,6 @@
           </div>
         </div>
         <!---------------------------------------->
-
         <div class="dropdown">
           <button id="myDropdown" class="dropbtn">Game Rules</button>
           <div class="dropdown-content">
@@ -109,9 +104,7 @@
             <a href="http://localhost:8080/Pages/ItemsPage.html"
               >Magical & Wonderous Items</a
             >
-
             <div class="menudiv"></div>
-
             <a href="http://localhost:8080/Pages/DreamPage.html">Dreamlands</a>
             <div class="menudiv"></div>
             <a
@@ -156,7 +149,6 @@
     </div>
   </div>
 </div>
-
 <script>
   const buttons = document.querySelectorAll(".dropbtn");
   buttons.forEach((button) => {
@@ -164,7 +156,6 @@
       event.target.nextElementSibling.classList.toggle("show");
     });
   });
-
   window.onclick = function (event) {
     var dropdowns = document.getElementsByClassName("dropdown-content");
     var i;

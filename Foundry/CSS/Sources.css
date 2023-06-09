@@ -1,4 +1,5 @@
 .HMBW,
+.Hmbrw,
 .Homebrew,
 .homebrew {
   color: gray !important;
@@ -321,7 +322,6 @@
 .Conjuration {
   color: #bd0044;
 }
-
 /*---------------------------------*/
 .common,
 .Common,
@@ -343,44 +343,36 @@
 .Unknown {
   font-weight: bold;
 }
-
 .common,
 .Common {
   color: #242528;
 }
-
 .uncommon,
 .Uncommon {
   color: #11750d;
 }
-
 .rare,
 .Rare {
   color: #4990e2;
 }
-
 .very,
 .Very {
   color: #9810e0;
 }
-
 .legendary,
 .Legendary {
   color: #fea227;
 }
-
 .artifact,
 .Artifact {
   color: #be8972;
 }
-
 .varies,
 .Varies,
 .none,
 .None {
   color: #000000;
 }
-
 .unknown,
 .Unknown {
   color: #464646;

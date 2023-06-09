@@ -44,7 +44,7 @@ menus and footers
 }
 
 .menucontainer {
-  width: 1300px;
+  width: 1400px;
   align-items: center;
   justify-content: left;
   margin: auto;
@@ -198,7 +198,7 @@ menus and footers
   align-content: space-evenly;
   column-gap: 1%;
   grid-auto-flow: row;
-  grid-template-columns: 30% 30% 30%;
+  grid-template-columns: 32% 32% 32%;
   grid-template-areas: "linksleft linkscentre linksright";
 }
 .footerlinks,
@@ -236,7 +236,7 @@ p.footer {
   color: #9b9aa7;
 }
 p.footer {
-  width: 80%;
+  width: 90%;
   text-align: center;
   align-items: center;
   font-size: 1rem;

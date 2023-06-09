@@ -1,7 +1,7 @@
 {
   "name": "Monsieur Le-Furr",
   "size": "Medium",
-  "source": "homebrew",
+  "source": "Hmbrw",
   "type": "Humanoid",
   "alignment": "Chaotic Netural",
   "ac": "17 (studded leather)",
@@ -18,12 +18,9 @@
   "languages": "Common, Feline",
   "T1H": "Lightfooted",
   "T1D": "The captain can take the dash or disengage action as a bonus action on each of its turns.",
-  "T2H": "",
+
   "T2D": "The captain makes two attacks: one with a whip, and two with a rapier.",
-  "T3H": "",
-  "T3D": "",
-  "T4H": "",
-  "T4D": "",
+
   "A1H": "Rapier.",
   "A1D": "Melee Weapon Attack: +7 to hit, reach 5ft., one target. Hit: 8 (1d8 + 4) piercing damage.",
   "A2H": "Whip.",

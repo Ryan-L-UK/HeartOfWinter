@@ -12,6 +12,6 @@ do
 
   echo "-----------------------"
   echo "Moving: $line"
-  mv "../Sources/MagicItems/$line" "./Outputs/ItemConflicts/"
+  mv "./CreatureIcons/$line" "./Outputs/ToBeUsed/"
   echo "-----------------------"
 done

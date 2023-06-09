@@ -106,9 +106,8 @@ fetch("http://localhost:8080/sources/MagicItems/")
           .replace(/White Dragon /g, "Dragon ") +
         ".png";
 
-      newImageRaw.setAttribute("class", "SpellIcon");
+      newImageRaw.setAttribute("class", "ListIcon");
       newImage.appendChild(newImageRaw);
-      // "http://localhost:8080/Foundry/ImageAssets/CoreSpellIcons/identify.png"
       //-----------------------
       //ITEM NAME
       var newName = newRow.insertCell();
@@ -152,6 +151,8 @@ fetch("http://localhost:8080/sources/MagicItems/")
         var newRarityText = document.createTextNode("N/A");
       }
       newRarity.appendChild(newRarityText);
+      newRarity.removeAttribute("class");
+      newRarity.setAttribute("class", data[prop].rarity);
       //-----------------
       var newSource = newRow.insertCell();
 

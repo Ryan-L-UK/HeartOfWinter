@@ -11,10 +11,6 @@ The list below is all the known font packaged loaded into the site
   src: local("CinzelDecorative"), url("../Fonts/CinzelDecorative-Bold.ttf");
 }
 @font-face {
-  font-family: MoonDance;
-  src: local("Moon Dance"), url("../Fonts/MoonDance-Regular.ttf");
-}
-@font-face {
   font-family: MrEaves;
   src: local("Mr Eaves"), url("../Fonts/Mr\ Eaves\ Small\ Caps.otf");
 }
@@ -29,6 +25,27 @@ The list below is all the known font packaged loaded into the site
 @font-face {
   font-family: Roboto-bold;
   src: local("Roboto Bold"), url("../Fonts/RobotoCondensed-Bold.ttf");
+}
+@font-face {
+  font-family: Merriweather;
+  src: local("Merriweather Regular"), url("../Fonts/Merriweather-Regular.ttf");
+}
+@font-face {
+  font-family: Merriweather-light;
+  src: local("Merriweather Light"), url("../Fonts/Merriweather-Light.ttf");
+}
+@font-face {
+  font-family: Merriweather-bold;
+  src: local("Merriweather Bold"), url("../Fonts/Merriweather-Bold.ttf");
+}
+@font-face {
+  font-family: Merriweather-Italic;
+  src: local("Merriweather Italic"), url("../Fonts/Merriweather-Italic.ttf");
+}
+@font-face {
+  font-family: Merriweather-BoldItalic;
+  src: local("Merriweather BoldItalic"),
+    url("../Fonts/Merriweather-BoldItalic.ttf");
 }
 @font-face {
   font-family: RuneD;
@@ -51,32 +68,32 @@ html {
 .content-container {
   display: flex;
   flex-direction: column;
-  width: 1300px;
+  width: 1400px;
   height: fit-content;
   margin: 0 auto 0;
   align-items: center;
   padding: 0;
 }
-.bodycontainer {
-  padding: 2%;
-}
 body {
   margin: 0;
   padding: 0;
 }
+.TopMargin {
+  margin-top: 17px;
+}
+.BottomMargin {
+  margin-bottom: 5px;
+}
+.hidden {
+  visibility: hidden;
+  width: auto;
+  height: 2px;
+  vertical-align: middle;
+}
 a:link {
   text-decoration: none;
 }
-.whiteInput[type="text"] {
-  box-sizing: border-box;
-  width: 100%;
-  border-radius: 5px;
-  border: 1px solid #d4d4d4;
-  height: 25px;
-  margin-bottom: 5px;
-  background: none;
-  color: #000;
-}
+/*---MAP CORNERS---*/
 .corner-decoration {
   position: absolute;
   width: 4em;
@@ -105,28 +122,16 @@ a:link {
   -webkit-transform: scaleY(-1);
   transform: scaleY(-1);
 }
-.TopMargin {
-  margin-top: 17px;
-}
-.BottomMargin {
-  margin-bottom: 5px;
-}
-.hidden {
-  visibility: hidden;
-  width: auto;
-  height: 2px;
-  vertical-align: middle;
-}
-li {
+/*---LIST ITEMS---*/
+ul {
   color: #000;
-  margin: 0 auto;
+  margin: 0;
   text-align: left;
-  align-items: left;
   font-family: roboto;
   font-size: 1rem;
   margin-bottom: 8px;
 }
-ul {
+li {
   color: #000;
   margin: 0 auto;
   text-align: left;
@@ -138,11 +143,6 @@ ul {
 /*-------------------
 Custom Shells Core Assets
 --------------------------*/
-.photo {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-}
 table {
   width: 100%;
   margin-bottom: 25px;
@@ -150,28 +150,20 @@ table {
   height: 25px;
   overflow-y: auto;
   table-layout: fixed;
+  font-family: roboto;
+  font-size: 0.9rem;
+  border: 1px solid #eceae8;
+  border-collapse: collapse;
+}
+thead {
+  border-bottom: 3px solid #d0cac5;
 }
 .fixedHead {
   position: sticky;
   top: 0;
   z-index: 1;
 }
-table,
-td,
-th {
-  border: 1px solid #eceae8;
-  border-collapse: collapse;
-}
-table,
-td {
-  font-family: roboto;
-  font-size: 0.9rem;
-}
-thead {
-  border-bottom: 3px solid #d0cac5;
-}
-tbody,
-th {
+tbody {
   text-align: left;
   padding: 5px 10px;
   min-width: 50px;
@@ -179,12 +171,18 @@ th {
 th {
   background-color: #fff;
   font-family: Roboto-bold;
-}
-hr {
-  border-top: 1px solid #555;
+  border: 1px solid #eceae8;
+  border-collapse: collapse;
+  text-align: left;
+  padding: 5px 10px;
+  min-width: 50px;
 }
 td {
   padding: 3px 10px;
+  font-family: roboto;
+  font-size: 0.9rem;
+  border: 1px solid #eceae8;
+  border-collapse: collapse;
 }
 tr:nth-child(even) {
   background-color: #f1f4f1;
@@ -192,23 +190,25 @@ tr:nth-child(even) {
 tr:nth-child(odd) {
   background-color: #e5e5e5;
 }
-.SpellIcon {
+.ListIcon {
   width: 45px;
   height: 45px;
+  object-fit: cover;
 }
-.whitecontainer {
-  background-image: url(../ImageAssets/SpellFrame/gui_bkg.png);
-  width: 625px;
-  filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.5));
-  border-radius: 5px;
+/*---CONTAINER---*/
+.photo {
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
-.spellTop {
-  background-image: url(../ImageAssets/SpellFrame/gui_window-top.png);
+/*---IWD SHELL---*/
+.listTop {
+  background-image: url(../ImageAssets/ListFrame/gui_window-top.png);
   height: 78px;
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
-.spelldsc {
+.listDsc {
   padding: 18px 0px 0px 24px;
   font-weight: normal;
   font-size: 26px;
@@ -217,34 +217,28 @@ tr:nth-child(odd) {
   font-family: PostAntiquaRoman, Palatino, serif;
   text-shadow: 1px 1px #1f3528;
 }
-.spellMiddle {
+.listMiddle {
   min-height: 220;
   font-weight: bold;
   color: #f1f1f1;
   padding: 0px 25px 10px 25px;
-  background-image: url(../ImageAssets/SpellFrame/gui_window-middle.png);
+  background-image: url(../ImageAssets/ListFrame/gui_window-middle.png);
   background-repeat: repeat-y;
   background-size: 100%;
 }
-.spellBtm {
+.listBtm {
   height: 42px;
-  background-image: url(../ImageAssets//SpellFrame/gui_window-bottom.png);
+  background-image: url(../ImageAssets/ListFrame/gui_window-bottom.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   padding-top: 8px;
 }
-.tri-container {
-  display: grid;
-  width: 100%;
-  column-gap: 0.2%;
-  grid-auto-flow: row;
-  justify-content: space-evenly;
-  align-content: space-evenly;
-  grid-template-columns: auto;
-  grid-template-columns: 33% 33% 33%;
-  grid-template-areas: "Col1 Col2 Col3";
+.whitecontainer {
+  background-image: url(../ImageAssets/ListFrame/gui_bkg.png);
+  width: 625px;
+  filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.5));
+  border-radius: 5px;
 }
-/* Style the button that is used to open and close the collapsible content */
 .collapsible {
   padding: 18px 0px 0px 24px;
   font-weight: normal;
@@ -257,7 +251,6 @@ tr:nth-child(odd) {
   outline: none;
   background: rgba(76, 175, 80, 0);
 }
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .collapsible:hover {
   color: #06885d;
 }
@@ -280,11 +273,22 @@ tr:nth-child(odd) {
   margin-right: 7px;
   margin-top: -3px;
 }
-/* Style the collapsible content. Note: hidden by default */
 .content {
   padding: 0;
   display: none;
   overflow: hidden;
+}
+/*---IWD SHELL---*/
+.tri-container {
+  display: grid;
+  width: 100%;
+  column-gap: 0.2%;
+  grid-auto-flow: row;
+  justify-content: space-evenly;
+  align-content: space-evenly;
+  grid-template-columns: auto;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-areas: "Col1 Col2 Col3";
 }
 .split-container {
   width: 100%;
@@ -315,6 +319,25 @@ tr:nth-child(odd) {
 .fouronesplit:nth-child(n + 2) {
   grid-column: span 1;
 }
+/*---BUTTONS---*/
+.options {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+/*---INPUTS---*/
+.whiteInput[type="text"] {
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #d4d4d4;
+  height: 25px;
+  margin-bottom: 5px;
+  background: none;
+  color: #000;
+}
 label {
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
   color: #f7f2e9;
@@ -331,7 +354,7 @@ input[type="text"] {
   color: #e3e0a6;
   font-weight: normal;
   background-color: #191812;
-  background: url(../ImageAssets/SpellFrame/input-textbox2.png);
+  background: url(../ImageAssets/ListFrame/input-textbox2.png);
   background-position: left top;
   background-repeat: no-repeat;
   width: 95%;
@@ -347,7 +370,7 @@ input[type="number"] {
   color: #e3e0a6;
   font-weight: normal;
   background-color: #191812;
-  background: url(../ImageAssets/SpellFrame/input-textbox2.png);
+  background: url(../ImageAssets/ListFrame/input-textbox2.png);
   background-position: left top;
   background-repeat: no-repeat;
   width: 95%;
@@ -363,7 +386,7 @@ textarea {
   color: #e3e0a6;
   font-weight: normal;
   background-color: #191812;
-  background: url(../ImageAssets/SpellFrame/input-textbox2.png);
+  background: url(../ImageAssets/ListFrame/input-textbox2.png);
   background-position: left top;
   background-repeat: no-repeat;
   background-size: auto 100%;
@@ -380,7 +403,7 @@ textarea {
   color: #e3e0a6;
   font-weight: normal;
   background-color: #191812;
-  background: url(../ImageAssets/SpellFrame/input-textbox2.png);
+  background: url(../ImageAssets/ListFrame/input-textbox2.png);
   background-position: left top;
   background-repeat: no-repeat;
   width: 95%;
@@ -398,6 +421,16 @@ textarea {
   text-align: center;
   font-style: italic;
   font-size: 1.05rem;
+}
+/*---TEXT---*/
+.capitalize {
+  text-transform: capitalize;
+}
+.italic {
+  font-style: italic;
+}
+p {
+  margin: 0;
 }
 .source {
   font-size: 1.3rem;
@@ -507,35 +540,25 @@ These are the elements used and needed on the Adventure Pages
   width: 100%;
   justify-content: space-evenly;
   align-content: space-evenly;
-  column-gap: 25px;
+  column-gap: 15px;
   grid-auto-flow: row;
-  grid-template-columns: 250px 1050px;
+  grid-template-columns: 250px 1150px;
   grid-template-areas: "secondary-content primary-content";
 }
 .Adv {
   width: 975px;
+  margin: auto;
 }
-/*-----------------------------------------------------------
-Creature Page
-These are the elements used and needed on the Creature Page
------------------------------------------------------------*/
-/*******************************************
-NO STYLES
-********************************************/
 /*-----------------------------------------------------------
 Crit & Fail Page
 These are the elements used and needed on the Crit & Fail Pages
 -----------------------------------------------------------*/
-/*******************************************
-NO STYLES
-********************************************/
+/***************************************************************************************/
 /*-----------------------------------------------------------
 Dream Page
 These are the elements used and needed on the Dream Page
 -----------------------------------------------------------*/
-/*******************************************
-NO STYLES
-********************************************/
+/***************************************************************************************/
 /*-----------------------------------------------------------
 Items Page
 These are the elements used and needed on the Items Page
@@ -547,10 +570,12 @@ These are the elements used and needed on the Items Page
   grid-auto-flow: row;
   justify-content: center;
   align-content: center;
+
   grid-template-columns: 50% 627px;
   column-gap: 2%;
   grid-template-areas: "List View";
 }
+
 h1.listname {
   text-align: left;
   margin: 0;
@@ -596,7 +621,7 @@ h1.listname {
 }
 .WaterColour {
   margin: auto;
-  background: url(../ImageAssets/SpellFrame/watercolour1.png);
+  background: url(../ImageAssets/ListFrame/watercolour1.png);
   background-size: contain;
   background-repeat: no-repeat;
   width: 150px;
@@ -719,6 +744,218 @@ p.itemBold {
   color: #000;
 }
 /*-----------------------------------------------------------
+Creature Page
+These are the elements used and needed on the Creature Page
+-----------------------------------------------------------*/
+
+.CreatureList-container {
+  display: grid;
+  width: 100%;
+  column-gap: 0.2%;
+  grid-auto-flow: row;
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: 45% 65%;
+
+  column-gap: 2%;
+  grid-template-areas: "List View";
+}
+.creatureform {
+  margin-left: 142px;
+  margin-right: 142px;
+  display: block;
+}
+.CreatureContainer {
+  width: 620px;
+  height: 100%;
+  background: url(../ImageAssets/BackgroundParchment/sword_meow_background_base.png);
+  align-items: center;
+  display: block;
+  margin: 0 auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0;
+  border: solid 1px rgb(227, 227, 227);
+  margin: auto;
+}
+.RainbowBorder {
+  justify-content: center;
+  height: 8px;
+  width: 626px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  display: block;
+  margin: 0 -4px;
+  border: 2px solid #4d4d4d;
+  background-image: url(../ImageAssets/GeneralImages/CreatureBorder.jpg);
+}
+.bodyContainer {
+  padding: 2%;
+}
+
+.Creature-container {
+  display: grid;
+  width: 100%;
+  column-gap: 5px;
+  grid-auto-flow: row;
+  grid-template-columns: 78% 19%;
+  grid-template-areas: "CreatureName CreatureToken";
+}
+.CListIcon {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+.CreatureToken {
+  position: relative;
+  width: 125px;
+  height: 125px;
+}
+
+.CreatureIcon {
+  margin: auto;
+  width: 125px;
+  height: 125px;
+}
+
+.FrameOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+h1.cName {
+  font-family: CinzelDecorative;
+  text-align: left;
+  margin: 0;
+  font-size: 1.8rem;
+  display: inline-block;
+  color: #00507a;
+  padding-top: 0;
+}
+h2.CreatureSub {
+  font-family: Merriweather-bolditalic;
+  margin: -4px auto 5px;
+  font-size: 1rem;
+  text-transform: capitalize;
+}
+.lineBreak {
+  background-color: #7606d1;
+  margin-top: 9px;
+  margin-bottom: 9px;
+  display: flex;
+  height: auto;
+  width: 98%;
+  align-items: center;
+  border-bottom: 2px solid #7606d1;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.5);
+}
+.creatureBody {
+  font-size: 0.8rem;
+  font-family: Merriweather;
+}
+.creatureBodyItalic {
+  font-size: 0.8rem;
+  font-family: Merriweather-BoldItalic;
+}
+.creatureBold {
+  font-family: Merriweather-BoldItalic;
+  font-size: 0.8rem;
+  text-transform: capitalize;
+  color: #00507a;
+}
+.stat-container {
+  margin-bottom: 8px;
+  display: grid;
+  width: 100%;
+  column-gap: 0.2%;
+  grid-auto-flow: row;
+  justify-content: space-evenly;
+  align-content: space-evenly;
+  grid-template-columns: auto;
+  grid-template-areas: "STR DEX CON INT WIS CHA" "STRn DEXn CONn INTn WISn CHAn";
+}
+.CHAn,
+.CONn,
+.DEXn,
+.INTn,
+.STRn,
+.WISn {
+  align-items: center;
+  margin: auto;
+  color: #00507a;
+  font-weight: 700;
+}
+.CHA,
+.CON,
+.DEX,
+.INT,
+.STR,
+.WIS {
+  font-weight: 700;
+  align-items: center;
+  margin: auto;
+}
+p.index {
+  text-align: left;
+  font-size: 1rem;
+  margin: 5px auto 5px;
+}
+.margin {
+  padding-top: 10px;
+}
+h1.indexheading {
+  text-align: left;
+  margin: 2px auto 13px;
+  font-size: 1.4rem;
+  padding-top: 1%;
+  color: #00507a;
+  border-bottom: #7606d1 solid 2px;
+  font-family: CinzelDecorative;
+}
+.submitcreature {
+  display: inline-flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 35px;
+  color: #fff;
+  font-size: 16px;
+  font-family: MrEaves;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2.26px;
+  font-variant: small-caps;
+  line-height: 1;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 0;
+  border: 2px solid #59b5da;
+  background: #2b3873;
+  background-image: linear-gradient(90deg, #2b3873, #4b93af);
+  transition: 0.1s ease-out;
+  z-index: 2;
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% calc(100% - 16px),
+    calc(100% - 16px) 100%,
+    0 100%
+  );
+  min-height: 35px;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.submitcreature:hover {
+  color: #000;
+}
+/*-----------------------------------------------------------
 Spells Page
 These are the elements used and needed on the Spells Page
 -----------------------------------------------------------*/
@@ -791,9 +1028,6 @@ h2.spelltype {
   font-size: 0.85rem;
   text-align: left;
   padding-bottom: 0;
-}
-.capitalize {
-  text-transform: capitalize;
 }
 .icon {
   width: auto;
@@ -954,95 +1188,57 @@ p.caption {
 /*--------------------------------------------------------------------------------------------------------------------
 /*--------------------------------------------------------------------------------------------------------------------
 /*--------------------------------------------------------------------------------------------------------------------
-*/
 .generator-container,
 .list-container,
-.stat-container,
 .spell-container,
 .spell-heading {
-  display: grid;
-  width: 100%;
-  column-gap: 0.2%;
-  grid-auto-flow: row;
+display: grid;
+width: 100%;
+column-gap: 0.2%;
+grid-auto-flow: row;
 }
 .generator-container {
-  justify-content: space-evenly;
-  align-content: space-evenly;
-  grid-template-columns: auto;
-  grid-template-areas: "Form Output";
+justify-content: space-evenly;
+align-content: space-evenly;
+grid-template-columns: auto;
+grid-template-areas: "Form Output";
 }
 .list-container {
-  justify-content: center;
-  align-content: center;
-  grid-template-columns: 50% 627px;
-  column-gap: 2%;
-  grid-template-areas: "List View";
-}
-.options {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  margin-top: 5px;
-  margin-bottom: 5px;
+justify-content: center;
+align-content: center;
+grid-template-columns: 50% 627px;
+column-gap: 2%;
+grid-template-areas: "List View";
 }
 .spell-container {
-  grid-template-columns: 80% 18%;
-  grid-template-areas: "Desc Image";
+grid-template-columns: 80% 18%;
+grid-template-areas: "Desc Image";
 }
 .spell-heading {
-  grid-template-columns: 90% 5%;
-  grid-template-areas: "Spell-Title Spell-Con";
-}
-.stat-container {
-  justify-content: space-evenly;
-  align-content: space-evenly;
-  grid-template-columns: auto;
-  grid-template-areas: "STR DEX CON INT WIS CHA" "STRn DEXn CONn INTn WISn CHAn";
-}
-.CHA,
-.CON,
-.DEX,
-.INT,
-.STR,
-.WIS,
-.CHAn,
-.CONn,
-.DEXn,
-.INTn,
-.STRn,
-.WISn {
-  align-items: center;
-  margin: auto;
-}
-.CHA,
-.CON,
-.DEX,
-.INT,
-.STR,
-.WIS {
-  font-weight: 700;
+grid-template-columns: 90% 5%;
+grid-template-areas: "Spell-Title Spell-Con";
 }
 .framecontainer,
 .dreamcontainer {
-  align-items: center;
-  display: block;
-  margin: 0 auto;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 0;
+align-items: center;
+display: block;
+margin: 0 auto;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+padding: 0;
 }
 .framecontainer,
 .dreamcontainer {
-  width: 570px;
+width: 570px;
 }
 .framecontainer {
-  background-image: url(../ImageAssets/BackgroundParchment/sword_meow_background_base.png);
-  color: #000;
+background-image: url(../ImageAssets/BackgroundParchment/sword_meow_background_base.png);
+color: #000;
 }
 .dreamcontainer {
-  background-image: url(../ImageAssets/BackgroundParchment/DreamShellBackground.jpeg);
-  color: #fff;
+background-image: url(../ImageAssets/BackgroundParchment/DreamShellBackground.jpeg);
+color: #fff;
 }
 /* Style the list view content. */
 /*-----------------------------------------------------------
@@ -1052,529 +1248,307 @@ There are a few styles here in use:
 -Object relates to anything loaded in using the auto loader or fetch
 -MapStyle is used on the various map pages.
 -Potion image is used on the alchemy gen page to control the image size next to each potion
------------------------------------------------------------*/
+-----------------------------------------------------------
 object {
-  width: 100%;
-  margin: 0;
-  padding: 0;
+width: 100%;
+margin: 0;
+padding: 0;
 }
 .dreamhead {
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  align-items: center;
-  justify-items: center;
-  margin-bottom: -1px;
+width: 100%;
+margin: 0;
+padding: 0;
+align-items: center;
+justify-items: center;
+margin-bottom: -1px;
 }
 /*-----------------------------------------------------------
 Borders
 On most of the generator pages, borders are used to frame the
 output, her are the controls for each of them. 
------------------------------------------------------------*/
+-----------------------------------------------------------
 .border {
-  height: 7px;
-  width: 580px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  align-items: center;
-  display: block;
-  margin: 0;
-  border: 2px solid #000;
+height: 7px;
+width: 580px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+align-items: center;
+display: block;
+margin: 0;
+border: 2px solid #000;
 }
 .creatureBG {
-  background-image: url(../ImageAssets/BackgroundParchment/GeneratorBorderMonster.jpeg);
+background-image: url(../ImageAssets/BackgroundParchment/GeneratorBorderMonster.jpeg);
 }
 .itemBG {
-  background-image: url(../ImageAssets/BackgroundParchment/GeneratorBorderItem.jpeg);
+background-image: url(../ImageAssets/BackgroundParchment/GeneratorBorderItem.jpeg);
 }
 .dreamBG {
-  background-image: url(../ImageAssets/BackgroundParchment/GeneratorBorderDream.png);
+background-image: url(../ImageAssets/BackgroundParchment/GeneratorBorderDream.png);
 }
 /*-----------------------------------------------------------
 Dividers & Spacers
 Across the site it is often necessary to provide spacers and
 dividers, here are the controls for each. 
------------------------------------------------------------*/
+-----------------------------------------------------------
 .divider {
-  margin: 0 auto;
-  height: 3px;
-  width: 650px;
-  background-color: #860954;
-  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.5);
-  align-items: center;
-}
-.triangleDIV {
-  margin: 4px auto;
-  width: 0;
-  height: 0;
-  border-top: 3px solid transparent;
-  border-bottom: 3px solid transparent;
-  align-items: center;
-}
-.lineDIV {
-  margin: 0 auto 8px;
-  height: 2px;
-  width: 550px;
-  background-color: #1d6673;
-  align-items: center;
-}
-.creature {
-  background-color: #1d6673;
+margin: 0 auto;
+height: 3px;
+width: 650px;
+background-color: #860954;
+box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.5);
+align-items: center;
 }
 .item {
-  background-color: #098643;
+background-color: #098643;
 }
 .line {
-  display: flex;
-  height: 4px;
-  width: 100%;
-  align-items: center;
-  border-bottom: 2px solid #484848;
-  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.5);
-  margin: 0 auto;
+display: flex;
+height: 4px;
+width: 100%;
+align-items: center;
+border-bottom: 2px solid #484848;
+box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.5);
+margin: 0 auto;
 }
 .purpleL {
-  height: 3px;
-  width: 300px;
-  background-color: #860954;
+height: 3px;
+width: 300px;
+background-color: #860954;
 }
 .greyline {
-  background-color: #484848;
-  margin-top: 2px;
-  margin-bottom: 9px;
-  display: flex;
-  height: auto;
-  width: 100%;
-  align-items: center;
-  border-bottom: 2px solid #484848;
-  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.5);
+background-color: #484848;
+margin-top: 2px;
+margin-bottom: 9px;
+display: flex;
+height: auto;
+width: 100%;
+align-items: center;
+border-bottom: 2px solid #484848;
+box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.5);
 }
 .underline {
-  margin: 0 auto;
-  height: 3px;
-  width: 300px;
-  background-color: #860954;
-  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.5);
-  align-items: center;
+margin: 0 auto;
+height: 3px;
+width: 300px;
+background-color: #860954;
+box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.5);
+align-items: center;
 }
 .mapfooter {
-  width: 80%;
-  align-items: center;
-  margin: 0;
-  padding: 0;
+width: 80%;
+align-items: center;
+margin: 0;
+padding: 0;
 }
 /*-----------------------------------------------------------
 Inputs & Outputs
 These are the various input fields, tick boxes and buttons 
 used across the site. 
------------------------------------------------------------*/
+-----------------------------------------------------------
 .submit {
-  color: #fff;
-  padding: 0px 6px;
-  text-align: center;
-  justify-items: center;
-  align-items: center;
-  text-decoration: none;
-  font-size: 16px;
-  border-radius: 4px;
-  display: inline;
-  margin: 0px 10px;
-  width: 150px;
-  font-family: Garamond, serif;
-  background: linear-gradient(
-    180deg,
-    rgb(159, 159, 159) 0,
-    rgb(58, 58, 58) 100%
-  );
+color: #fff;
+padding: 0px 6px;
+text-align: center;
+justify-items: center;
+align-items: center;
+text-decoration: none;
+font-size: 16px;
+border-radius: 4px;
+display: inline;
+margin: 0px 10px;
+width: 150px;
+font-family: Garamond, serif;
+background: linear-gradient(
+180deg,
+rgb(159, 159, 159) 0,
+rgb(58, 58, 58) 100%
+);
 }
 .submit:hover {
-  color: #000;
+color: #000;
 }
 input::file-selector-button {
-  --button-crop-size: 16px;
-  align-items: center;
-  cursor: pointer;
-  display: inline-flex;
-  justify-content: center;
-  min-height: 35px;
-  vertical-align: middle;
-  padding: 10px 35px;
-  color: #fff;
-  font-size: 16px;
-  letter-spacing: 2.26px;
-  font-family: MrEaves;
-  font-variant: small-caps;
-  font-weight: 700;
-  text-transform: uppercase;
-  line-height: 1;
-  border-radius: 0;
-  text-align: center;
-  text-decoration: none;
-  transition: 0.1s ease-out;
-  position: relative;
-  clip-path: polygon(
-    0 0,
-    100% 0,
-    100% calc(100% - var(--button-crop-size)),
-    calc(100% - var(--button-crop-size)) 100%,
-    0 100%
-  );
-  z-index: 2;
-  margin-left: 10px;
-  margin-right: 10px;
-  background: #3a3a3a;
-  background-image: linear-gradient(90deg, #3a3a3a, #9f9f9f);
-  border: 2px solid #bcbcbc;
-}
-.submitcreature {
-  display: inline-flex;
-  position: relative;
-  justify-content: center;
-  align-items: center;
-  padding: 10px 35px;
-  color: #fff;
-  font-size: 16px;
-  font-family: MrEaves;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 2.26px;
-  font-variant: small-caps;
-  line-height: 1;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 0;
-  border: 2px solid #59b5da;
-  background: #2b3873;
-  background-image: linear-gradient(90deg, #2b3873, #4b93af);
-  transition: 0.1s ease-out;
-  z-index: 2;
-  clip-path: polygon(
-    0 0,
-    100% 0,
-    100% calc(100% - 16px),
-    calc(100% - 16px) 100%,
-    0 100%
-  );
-  min-height: 35px;
-  cursor: pointer;
-  margin-left: 10px;
-  margin-right: 10px;
+--button-crop-size: 16px;
+align-items: center;
+cursor: pointer;
+display: inline-flex;
+justify-content: center;
+min-height: 35px;
+vertical-align: middle;
+padding: 10px 35px;
+color: #fff;
+font-size: 16px;
+letter-spacing: 2.26px;
+font-family: MrEaves;
+font-variant: small-caps;
+font-weight: 700;
+text-transform: uppercase;
+line-height: 1;
+border-radius: 0;
+text-align: center;
+text-decoration: none;
+transition: 0.1s ease-out;
+position: relative;
+clip-path: polygon(
+0 0,
+100% 0,
+100% calc(100% - var(--button-crop-size)),
+calc(100% - var(--button-crop-size)) 100%,
+0 100%
+);
+z-index: 2;
+margin-left: 10px;
+margin-right: 10px;
+background: #3a3a3a;
+background-image: linear-gradient(90deg, #3a3a3a, #9f9f9f);
+border: 2px solid #bcbcbc;
 }
 .submitdream {
-  --button-crop-size: 16px;
-  align-items: center;
-  cursor: pointer;
-  display: inline-flex;
-  justify-content: center;
-  min-height: 35px;
-  vertical-align: middle;
-  padding: 10px 35px;
-  color: #fff;
-  font-size: 16px;
-  letter-spacing: 2.26px;
-  font-family: MrEaves;
-  font-variant: small-caps;
-  font-weight: 700;
-  text-transform: uppercase;
-  line-height: 1;
-  border-radius: 0;
-  text-align: center;
-  text-decoration: none;
-  transition: 0.1s ease-out;
-  position: relative;
-  clip-path: polygon(
-    0 0,
-    100% 0,
-    100% calc(100% - var(--button-crop-size)),
-    calc(100% - var(--button-crop-size)) 100%,
-    0 100%
-  );
-  z-index: 2;
-  margin-left: 10px;
-  margin-right: 10px;
-  background: #3a3a3a;
-  background-image: linear-gradient(90deg, #3a3a3a, #9f9f9f);
-  border: 2px solid #bcbcbc;
+--button-crop-size: 16px;
+align-items: center;
+cursor: pointer;
+display: inline-flex;
+justify-content: center;
+min-height: 35px;
+vertical-align: middle;
+padding: 10px 35px;
+color: #fff;
+font-size: 16px;
+letter-spacing: 2.26px;
+font-family: MrEaves;
+font-variant: small-caps;
+font-weight: 700;
+text-transform: uppercase;
+line-height: 1;
+border-radius: 0;
+text-align: center;
+text-decoration: none;
+transition: 0.1s ease-out;
+position: relative;
+clip-path: polygon(
+0 0,
+100% 0,
+100% calc(100% - var(--button-crop-size)),
+calc(100% - var(--button-crop-size)) 100%,
+0 100%
+);
+z-index: 2;
+margin-left: 10px;
+margin-right: 10px;
+background: #3a3a3a;
+background-image: linear-gradient(90deg, #3a3a3a, #9f9f9f);
+border: 2px solid #bcbcbc;
 }
-.submititem {
-  --button-crop-size: 16px;
-  align-items: center;
-  cursor: pointer;
-  display: inline-flex;
-  justify-content: center;
-  min-height: 35px;
-  vertical-align: middle;
-  padding: 10px 35px;
-  color: #fff;
-  font-size: 16px;
-  letter-spacing: 2.26px;
-  font-family: MrEaves;
-  font-variant: small-caps;
-  font-weight: 700;
-  text-transform: uppercase;
-  line-height: 1;
-  border-radius: 0;
-  text-align: center;
-  text-decoration: none;
-  transition: 0.1s ease-out;
-  position: relative;
-  clip-path: polygon(
-    0 0,
-    100% 0,
-    100% calc(100% - var(--button-crop-size)),
-    calc(100% - var(--button-crop-size)) 100%,
-    0 100%
-  );
-  z-index: 2;
-  margin-left: 10px;
-  margin-right: 10px;
-  background: #2b732e;
-  background-image: linear-gradient(90deg, #2b732e, #4ead52);
-  border: 2px solid #4caf50;
-}
-.submititem:hover,
-.submitspell:hover,
-.submitcreature:hover,
 .submitdream:hover {
-  color: #000;
-}
-/* Spell Info */
-/* Item Info */
-p.index {
-  text-align: left;
-  font-size: 1rem;
-  margin: 0 auto 5px;
-}
-/*-----------------------------------------------------------
-Header Stylings
-The site uses a markdown tier of header styling from H1-H4,
-here are the controls for each. 
------------------------------------------------------------*/
-h1.main {
-  text-align: center;
-  align-items: center;
-  margin-bottom: 0;
-  font-family: Cinzel1;
-  text-transform: capitalize;
-  font-variant: small-caps;
-  color: #860954;
-  font-weight: bold;
-  font-size: 4.4rem;
-  margin-top: 0;
-}
-h2.main {
-  text-align: center;
-  align-items: center;
-  margin-bottom: 0;
-  font-family: Cinzel1;
-  text-transform: capitalize;
-  font-variant: small-caps;
-  color: #000;
-  margin-top: -10px;
-  font-size: 1.75rem;
-}
-h3.main {
-  text-align: center;
-  align-items: center;
-  margin-bottom: 0;
-  font-family: Cinzel1;
-  text-transform: capitalize;
-  font-variant: small-caps;
-  color: #860954;
-  margin-top: -5px;
-  font-size: 1.5rem;
-}
-h4.main {
-  text-align: center;
-  align-items: center;
-  margin-bottom: 0;
-  color: #860954;
-  margin-top: -5px;
-  font-size: 1.5rem;
-  font-family: MoonDance;
-  font-style: italic;
-}
-/*-----------------------------------------------------------
-Paragraph Stylings
-The site uses a markdown tier of header styling from H1-H4,
-here are the controls for each. 
------------------------------------------------------------*/
-p {
-  text-align: left;
-  margin: 0 auto;
-  font-size: 1rem;
-  margin-bottom: 0px;
-}
-p.subheading {
-  width: 50%;
-  color: #000;
-  margin: 0 auto;
-  text-align: center;
-  align-items: center;
-  font-family: Lora, Times, serif;
-  font-size: 1.25rem;
-  margin-bottom: 15px;
+color: #000;
 }
 /*-----------------------------------------------------------
 Generator Stylings
 The site has lots of additional requirements from the various
 generators it uses. here are the controls for each of them. 
------------------------------------------------------------*/
+-----------------------------------------------------------
 .cSource {
-  padding: 0;
-  color: #760d81;
-  background-color: #fff;
-  text-align: right;
+padding: 0;
+color: #760d81;
+background-color: #fff;
+text-align: right;
 }
 .Damage {
-  margin: 0 1.5%;
-  padding-bottom: 1%;
-  text-align: right;
-  justify-items: right;
-  font-size: 0.9rem;
+margin: 0 1.5%;
+padding-bottom: 1%;
+text-align: right;
+justify-items: right;
+font-size: 0.9rem;
 }
 .hbody {
-  text-align: left;
-  padding-bottom: 0;
-  font-size: 1.2rem;
-  line-height: 1.8rem;
-}
-.italic {
-  font-style: italic;
+text-align: left;
+padding-bottom: 0;
+font-size: 1.2rem;
+line-height: 1.8rem;
 }
 .spell {
-  font-style: italic;
-  font-weight: 600;
+font-style: italic;
+font-weight: 600;
 }
-.standard .margin {
-  padding-top: 10px;
-}
-.standard {
-  font-size: 0.85rem;
-  text-align: left;
-  padding-bottom: 0;
+.standard .standard {
+font-size: 0.85rem;
+text-align: left;
+padding-bottom: 0;
 }
 h1.dreamname {
-  color: #fff;
-  text-align: center;
-  padding-top: 0;
-}
-h1.indexheading {
-  text-align: left;
-  margin: 0 auto;
-  font-size: 1.4rem;
-  padding-top: 1%;
-  color: #000;
+color: #fff;
+text-align: center;
+padding-top: 0;
 }
 h1.listname {
-  text-align: left;
-  margin: 0;
-  font-size: 1.4rem;
+text-align: left;
+margin: 0;
+font-size: 1.4rem;
 }
 h1.PotionName {
-  text-align: left;
-  margin: 0;
-  font-size: 1.75rem;
-  margin-top: 0;
-  margin-bottom: 10px;
-  padding-top: 0;
-  color: #8b0000;
-  font-family: Lora, Times, serif;
+text-align: left;
+margin: 0;
+font-size: 1.75rem;
+margin-top: 0;
+margin-bottom: 10px;
+padding-top: 0;
+color: #8b0000;
+font-family: Lora, Times, serif;
 }
 h1.shipname {
-  text-align: left;
-  margin: 0;
-  font-size: 2.4rem;
-  margin-top: 0;
-  margin-bottom: 10px;
-  padding-top: 0;
+text-align: left;
+margin: 0;
+font-size: 2.4rem;
+margin-top: 0;
+margin-bottom: 10px;
+padding-top: 0;
 }
 h2.creaturetype {
-  font-size: 0.9rem;
+font-size: 0.9rem;
 }
 h2.indextype {
-  font-style: italic;
-  text-transform: capitalize;
-  font-size: 0.9rem;
-  font-family: Garamond, serif;
-  text-align: left;
-  margin: 0 0 1%;
+font-style: italic;
+text-transform: capitalize;
+font-size: 0.9rem;
+font-family: Garamond, serif;
+text-align: left;
+margin: 0 0 1%;
 }
 h2.pheader {
-  color: black;
-  font-size: 1.4rem;
-  border-bottom: 3px solid #8b0000;
-  margin-top: 10px;
-  font-family: Lora, Times, serif;
-  text-align: left;
+color: black;
+font-size: 1.4rem;
+border-bottom: 3px solid #8b0000;
+margin-top: 10px;
+font-family: Lora, Times, serif;
+text-align: left;
 }
 h2.spelltype {
-  text-align: left;
-  font-size: 1rem;
-  font-style: italic;
-  margin: 0;
-  padding: 0;
-  margin-bottom: 8px;
-  font-family: Garamond, serif;
+text-align: left;
+font-size: 1rem;
+font-style: italic;
+margin: 0;
+padding: 0;
+margin-bottom: 8px;
+font-family: Garamond, serif;
 }
 h3.weapon {
-  text-align: right;
-  font-size: 1rem;
-  margin: 0 1.5% 1%;
-  font-style: italic;
-  border-bottom: 1px solid #ddd;
+text-align: right;
+font-size: 1rem;
+margin: 0 1.5% 1%;
+font-style: italic;
+border-bottom: 1px solid #ddd;
 }
 p.index {
-  text-align: left;
-  font-size: 1rem;
-  margin: 0 auto 5px;
+text-align: left;
+font-size: 1rem;
+margin: 0 auto 5px;
 }
 p.indexfooter {
-  text-align: left;
-  margin: 0 auto;
-  font-size: 1rem;
-  padding-bottom: 1%;
+text-align: left;
+margin: 0 auto;
+font-size: 1rem;
+padding-bottom: 1%;
 }
-p.nospace {
-  margin: 0 auto 0;
-}
-/*-----------------------------------------------------------
-LocationStylings
-The site has lots of additional requirements from the various
-locations it uses. here are the controls for each of them. 
------------------------------------------------------------*/
-h2.location {
-  color: #000;
-  margin-top: 25px;
-  font-size: 1.6rem;
-  text-align: left;
-  align-items: left;
-  margin-bottom: 0;
-  font-family: Cinzel1;
-  text-transform: capitalize;
-  font-variant: small-caps;
-}
-h3.location {
-  margin-top: 10px;
-  font-size: 1.5rem;
-  margin-bottom: 5px;
-  color: #860954;
-  text-align: left;
-  align-items: left;
-  font-family: Lora, Times, serif;
-}
-h4.location {
-  margin-top: 10px;
-  font-size: 1.1rem;
-  margin-bottom: 5px;
-  margin-top: 10px;
-  margin-bottom: 5px;
-  color: #000;
-  text-align: left;
-  align-items: left;
-  font-family: Lora, Times, serif;
-}
-.capital {
-  text-transform: capitalize;
-}
+*/

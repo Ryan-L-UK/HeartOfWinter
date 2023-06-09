@@ -3,54 +3,90 @@
 fetch("http://localhost:8080/Sources/Creatures")
   .then((response) => response.json())
   .then((data) => {
+    let missingTypes = [];
+    let legendaryCreatures = [];
+    //-----------------------
+    //CREATE TABLE HEADINGS
     const tblParent = document.getElementById("cTable");
     const myTable = document.createElement("table");
     myTable.setAttribute("id", "myTable");
-    myTable.setAttribute("class", "sortable");
+    //-----------------------
     const tblHead = document.createElement("thead");
     tblHead.setAttribute("class", "fixedHead");
-
     const tblRow = document.createElement("tr");
+    //-----------------------
+    const tblImage = document.createElement("th");
+    tblImage.innerHTML = "Image";
+    tblImage.setAttribute("width", "40px");
+    //-----------------------
     const tblCName = document.createElement("th");
     tblCName.innerHTML = "Creature Name";
-    tblCName.setAttribute("width", "225px");
-
+    tblCName.setAttribute("width", "205px");
+    //-----------------------
     const tblSize = document.createElement("th");
     tblSize.innerHTML = "Size";
-    tblSize.setAttribute("width", "60px");
+    tblSize.setAttribute("width", "77px");
+    //-----------------------
     const tblType = document.createElement("th");
     tblType.innerHTML = "Type";
-    tblType.setAttribute("width", "90px");
+    tblType.setAttribute("width", "77px");
+    //-----------------------
     const tblSource = document.createElement("th");
     tblSource.innerHTML = "Source";
-    const tblEdit = document.createElement("th");
-    tblEdit.innerHTML = "Edit";
+    tblSource.setAttribute("width", "56px");
+    //-----------------------
     myTable.appendChild(tblHead);
     tblHead.appendChild(tblRow);
+    tblRow.appendChild(tblImage);
     tblRow.appendChild(tblCName);
     tblRow.appendChild(tblSize);
     tblRow.appendChild(tblType);
     tblRow.appendChild(tblSource);
-    tblRow.appendChild(tblEdit);
+    //-----------------------
+    //CREATE TABLE BODY
     const tbodyRef = document.createElement("tbody");
     myTable.appendChild(tbodyRef);
-
+    //-----------------------
+    //NAME CHECK & VARIABLE SET
     for (const prop in data) {
       if (data[prop].source.includes("UA") && data[prop].source != "UAWGE") {
-        console.warn(data[prop].name);
+        console.warn("Unearthed Arcana: " + data[prop].name);
       }
       if (data[prop].legendary != undefined) {
-        console.warn(data[prop].name);
+        legendaryCreatures.push(data[prop].name);
       }
-
       let creatureName = data[prop].name;
       var newRow = tbodyRef.insertRow();
-      //-----------------
+      //-----------------------
+      //CREATURE ICONS
+      var newImage = newRow.insertCell();
+      var newImageRaw = document.createElement("img");
+
+      newImageRaw.src =
+        "http://localhost:8080/Foundry/ImageAssets/CreatureIcons/" +
+        data[prop].name +
+        ".png";
+      newImageRaw.setAttribute("class", "CListIcon");
+      newImage.appendChild(newImageRaw);
+      //-----------------------
+      //CREATURE NAME
       var newName = newRow.insertCell();
+      const jsonAnchor = document.createElement("a");
       var newNameText = document.createTextNode(creatureName);
-      newName.appendChild(newNameText);
+      newName.appendChild(jsonAnchor);
+      var jsonlink =
+        "http://localhost:8080/Pages/CreaturePage.html?FileName=" +
+        creatureName;
+      jsonAnchor.setAttribute("href", jsonlink);
+      jsonAnchor.addEventListener("click", (event) => {
+        event.stopPropagation();
+        event.preventDefault();
+        fetchData(creatureName.replace("/", "-"));
+      });
+      jsonAnchor.appendChild(newNameText);
       newName.setAttribute("class", "bold");
       //-----------------
+      //CREATURE SIZE
       var newSize = newRow.insertCell();
       if (data[prop].customIndicator != undefined) {
         var newSizeText = document.createTextNode(
@@ -63,6 +99,7 @@ fetch("http://localhost:8080/Sources/Creatures")
       }
       newSize.appendChild(newSizeText);
       //-----------------
+      //CREATURE TYPE
       var newType = newRow.insertCell();
       if (data[prop].type != undefined && data[prop].type.type != undefined) {
         var newTypeText = document.createTextNode(
@@ -75,9 +112,11 @@ fetch("http://localhost:8080/Sources/Creatures")
         );
       } else {
         var newTypeText = document.createTextNode("N/A");
+        missingTypes.push(data[prop].name);
       }
       newType.appendChild(newTypeText);
-      //-----------------
+      //-----------------------
+      //SOURCE BOOK
       var newSource = newRow.insertCell();
       var newSourceText = document.createTextNode(
         data[prop].source.charAt(0).toUpperCase() + data[prop].source.slice(1)
@@ -85,23 +124,12 @@ fetch("http://localhost:8080/Sources/Creatures")
       newSource.appendChild(newSourceText);
       newSource.removeAttribute("class");
       newSource.setAttribute("class", data[prop].source);
-      //------------------
-      var newEdit = newRow.insertCell();
-      const jsonAnchor = document.createElement("a");
-      var newEditText = document.createTextNode("Edit");
-      newEdit.appendChild(jsonAnchor);
-      var jsonlink =
-        "http://localhost:8080/Pages/CreaturePage.html?FileName=" +
-        creatureName;
-      jsonAnchor.setAttribute("href", jsonlink);
-      jsonAnchor.addEventListener("click", (event) => {
-        event.stopPropagation();
-        event.preventDefault();
-        fetchData(creatureName.replace("/", "-"));
-      });
-      jsonAnchor.appendChild(newEditText);
     }
     tblParent.appendChild(myTable);
+    console.warn("Legendary Creatures:");
+    console.log(legendaryCreatures);
+    console.warn("Creatures Missing Types:");
+    console.log(missingTypes);
   });
 
 // ---------------------------------------------------------------------------------------------------------
@@ -126,8 +154,8 @@ function checkheader(header) {
     conditionImmune: "Condition Immunities:",
     senses: "Senses:",
     languages: "Languages:",
-    innateHeaderEntry: "Innate.",
-    spellHeaderEntry: "Spellcasting.",
+    innateHeaderEntry: "Innate:",
+    spellHeaderEntry: "Spellcasting:",
     atWill: "At will: ",
     daily1e: "1/Day Each: ",
     daily2e: "2/Day Each: ",
@@ -151,6 +179,16 @@ function showInput() {
     .forEach((Element) => (Element.innerHTML = ""));
   document.getElementById("innatebreak").classList.remove("margin");
   document.getElementById("spellbreak").classList.remove("margin");
+
+  document
+    .getElementById("CreatureImage")
+    .setAttribute(
+      "src",
+      "http://localhost:8080/Foundry/ImageAssets/CreatureIcons/" +
+        document.getElementById("name").value +
+        ".png"
+    );
+
   //---------------
   //Function Start
   var form = new FormData(document.getElementById("creatureform"));
@@ -236,7 +274,7 @@ function showInput() {
   document.getElementById("source-out").classList.add("source");
   if (source == "HOMEBREW") {
     document.getElementById("source-out").classList.add("HMBW");
-    document.getElementById("source-out").innerHTML = "Homebrew";
+    document.getElementById("source-out").innerHTML = "Hmbrw";
   } else {
     document
       .getElementById("source-out")

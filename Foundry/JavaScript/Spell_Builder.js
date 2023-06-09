@@ -60,7 +60,7 @@ fetch("http://localhost:8080/sources/Spells/")
         "http://localhost:8080/Foundry/ImageAssets/SpellIcons/" +
         data[prop].name.replace(/\//g, "-") +
         ".png";
-      newImageRaw.setAttribute("class", "SpellIcon");
+      newImageRaw.setAttribute("class", "ListIcon");
       newImage.appendChild(newImageRaw);
       //-----------------------
       //SPELL NAME
