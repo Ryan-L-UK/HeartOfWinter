@@ -766,7 +766,7 @@ These are the elements used and needed on the Creature Page
   display: block;
 }
 .CreatureContainer {
-  width: 620px;
+  width: 100%;
   height: 100%;
   background: url(../ImageAssets/BackgroundParchment/sword_meow_background_base.png);
   align-items: center;
@@ -779,6 +779,84 @@ These are the elements used and needed on the Creature Page
   border: solid 1px rgb(227, 227, 227);
   margin: auto;
 }
+.RainBorder {
+  width: 900px;
+  height: auto;
+  padding: 10px;
+  background: url(../ImageAssets/GeneralImages/CreatureBorder.jpg) repeat;
+  box-sizing: border-box;
+  border: #00507a 1px solid;
+}
+.creatureBorder {
+  margin: 5px;
+  padding: 20px;
+  border: solid;
+  border-width: 2px;
+  border-color: #00507a;
+  position: relative;
+}
+
+.HPAC {
+  display: grid;
+  width: 100%;
+  column-gap: 0.2%;
+  grid-auto-flow: row;
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: 50% 50%;
+  column-gap: 2%;
+  grid-template-areas: "HP AC";
+}
+.HP {
+  justify-content: left;
+  display: flex;
+}
+.AC {
+  justify-content: right;
+  display: flex;
+}
+.HitPointBox {
+  width: 50px;
+  margin-top: -20px;
+  margin-left: 60px;
+  margin-bottom: -60px;
+  padding: 2px;
+}
+.ACBox {
+  width: 50px;
+  margin-top: -20px;
+  margin-right: 60px;
+  margin-bottom: -60px;
+  padding: 2px;
+}
+
+h1.hp,
+h1.ac {
+  margin: 3px auto 0px;
+  font-size: 0.9rem;
+  font-family: Merriweather;
+  display: flex;
+  justify-content: center;
+}
+h1.hp-out,
+h1.ac-out {
+  font-size: 1.8rem;
+  font-family: Merriweather;
+  display: flex;
+  justify-content: center;
+  margin-top: 1px;
+}
+h1.cName {
+  font-family: CinzelDecorative;
+  justify-content: center;
+  text-align: center;
+  margin: 0px auto;
+  font-size: 1.8rem;
+  display: flex;
+  color: #000000;
+  padding-top: 0;
+}
+
 .RainbowBorder {
   justify-content: center;
   height: 8px;
@@ -829,31 +907,24 @@ These are the elements used and needed on the Creature Page
   height: 100%;
 }
 
-h1.cName {
-  font-family: CinzelDecorative;
-  text-align: left;
-  margin: 0;
-  font-size: 1.8rem;
-  display: inline-block;
-  color: #00507a;
-  padding-top: 0;
-}
 h2.CreatureSub {
   font-family: Merriweather-bolditalic;
   margin: -4px auto 5px;
   font-size: 1rem;
   text-transform: capitalize;
+  display: flex;
+  justify-content: center;
 }
 .lineBreak {
-  background-color: #7606d1;
-  margin-top: 9px;
-  margin-bottom: 9px;
   display: flex;
+  justify-content: center;
+  background-color: #7606d1;
+  margin: 0px auto 9px;
   height: auto;
-  width: 98%;
+  width: 55%;
   align-items: center;
   border-bottom: 2px solid #7606d1;
-  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.5);
 }
 .creatureBody {
   font-size: 0.8rem;

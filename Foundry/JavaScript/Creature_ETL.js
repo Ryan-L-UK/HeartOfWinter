@@ -98,22 +98,6 @@ function runETL(obj) {
       var tags = "";
     }
     // ---------------------------------------------------------------------------------------------------------
-    // CREATURE CORE INFO
-    if (obj.ac == undefined) {
-      var ac = undefined;
-    } else {
-      if (obj.ac[0].ac == undefined) {
-        var ac = obj.ac[0];
-      } else {
-        var ac = obj.ac[0].ac;
-      }
-      if (obj.ac[0].from == undefined) {
-        var from = "";
-      } else {
-        var from = " (" + datacleanse(obj.ac[0].from) + ")";
-      }
-    }
-    // ---------------------------------------------------------------------------------------------------------
     if (obj.alignment == undefined) {
       var alignTypeOut = undefined;
     } else {
@@ -333,10 +317,21 @@ function runETL(obj) {
     object["type"] = type;
     object["tags"] = tags;
     object["alignment"] = alignTypeOut + " " + alignClassOut;
-    object["ac"] = ac + from;
+
+    if (obj.ac != undefined) {
+      if (obj.ac[0].ac != undefined) {
+        object["ac"] = obj.ac[0].ac;
+      } else {
+        object["ac"] = obj.ac[0];
+      }
+    } else {
+      object["ac"] = undefined;
+    }
 
     if (obj.hp != undefined) {
-      object["hp"] = obj.hp.average + " (" + obj.hp.formula + ")";
+      object["hp"] = obj.hp.average;
+    } else {
+      object["hp"] = "N/A";
     }
 
     object["speed"] = speed;
