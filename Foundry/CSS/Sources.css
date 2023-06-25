@@ -1,3 +1,6 @@
+/*****************************
+/*           BOOKS
+/*****************************/
 .HMBW,
 .Hmbrw,
 .Homebrew,
@@ -297,7 +300,9 @@
   color: #876e38 !important;
   text-decoration-color: #876e38 !important;
 }
-/*---------------------------------*/
+/*****************************
+/*           Spells
+/*****************************/
 .Abjuration {
   color: #00b921;
 }
@@ -322,7 +327,9 @@
 .Conjuration {
   color: #bd0044;
 }
-/*---------------------------------*/
+/*****************************
+/*           RARE
+/*****************************/
 .common,
 .Common,
 .uncommon,
@@ -376,4 +383,86 @@
 .unknown,
 .Unknown {
   color: #464646;
+}
+/*****************************
+/*           TYPE & SIZE
+/*****************************/
+
+.CreatureType {
+  padding: 1px 4px 1px;
+  background-color: #850505;
+  font-family: MrEaves;
+  color: white;
+  border: 2px solid #be9c56;
+  text-transform: capitalize;
+  font-size: 1.1rem;
+  margin: 0 1px 0px;
+}
+
+.CreatureSize {
+  padding: 1px 4px 1px;
+  background-color: #22805e;
+  font-family: MrEaves;
+  color: white;
+  border: 2px solid #be9c56;
+  text-transform: capitalize;
+  font-size: 1.1rem;
+  margin: 0 1px 0px;
+}
+
+/*****************************
+/*           ALIGNMENTS
+/*****************************/
+
+.alignment {
+  padding: 1px 4px 1px;
+  font-family: MrEaves;
+  color: white;
+  border: 2px solid #be9c56;
+  text-transform: capitalize;
+  font-size: 1.1rem;
+  margin: 0 1px 0px;
+}
+
+.LawfulGood {
+  background-color: #3496a0;
+}
+
+.NeutralGood {
+  background-color: #2ca355;
+}
+
+.ChaoticGood {
+  background-color: #f9d200;
+}
+
+.LawfulNeutral {
+  background-color: #7083d6;
+}
+
+.Neutral {
+  background-color: #ececec;
+  color: #000000;
+}
+
+.ChaoticNeutral {
+  background-color: #6535d9;
+}
+
+.LawfulEvil {
+  background-color: #ef6b00;
+}
+
+.NeutralEvil {
+  background-color: #9d134b;
+}
+
+.ChaoticEvil {
+  background-color: #ff0001;
+}
+
+.AnyAlignment,
+.AnyNon-LawfulAlignment,
+.Unaligned {
+  background-color: #565656;
 }

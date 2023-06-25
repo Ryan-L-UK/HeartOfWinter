@@ -39,8 +39,17 @@ The list below is all the known font packaged loaded into the site
   src: local("Merriweather Bold"), url("../Fonts/Merriweather-Bold.ttf");
 }
 @font-face {
+  font-family: Merriweather-black;
+  src: local("Merriweather black"), url("../Fonts/Merriweather-Black.ttf");
+}
+@font-face {
   font-family: Merriweather-Italic;
   src: local("Merriweather Italic"), url("../Fonts/Merriweather-Italic.ttf");
+}
+@font-face {
+  font-family: Merriweather-BlackItalic;
+  src: local("Merriweather Black Italic"),
+    url("../Fonts/Merriweather-BlackItalic.ttf");
 }
 @font-face {
   font-family: Merriweather-BoldItalic;
@@ -194,6 +203,7 @@ tr:nth-child(odd) {
   width: 45px;
   height: 45px;
   object-fit: cover;
+  object-position: top;
 }
 /*---CONTAINER---*/
 .photo {
@@ -756,7 +766,6 @@ These are the elements used and needed on the Creature Page
   justify-content: center;
   align-content: center;
   grid-template-columns: 45% 65%;
-
   column-gap: 2%;
   grid-template-areas: "List View";
 }
@@ -829,22 +838,22 @@ These are the elements used and needed on the Creature Page
   margin-bottom: -60px;
   padding: 2px;
 }
-
 h1.hp,
 h1.ac {
   margin: 3px auto 0px;
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   font-family: Merriweather;
   display: flex;
   justify-content: center;
 }
 h1.hp-out,
 h1.ac-out {
-  font-size: 1.8rem;
+  font-size: 2.3rem;
   font-family: Merriweather;
   display: flex;
   justify-content: center;
   margin-top: 1px;
+  margin-bottom: -5px;
 }
 h1.cName {
   font-family: CinzelDecorative;
@@ -856,66 +865,25 @@ h1.cName {
   color: #000000;
   padding-top: 0;
 }
-
-.RainbowBorder {
-  justify-content: center;
-  height: 8px;
-  width: 626px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  align-items: center;
-  display: block;
-  margin: 0 -4px;
-  border: 2px solid #4d4d4d;
-  background-image: url(../ImageAssets/GeneralImages/CreatureBorder.jpg);
-}
-.bodyContainer {
-  padding: 2%;
-}
-
-.Creature-container {
+.DetailsImage {
   display: grid;
   width: 100%;
-  column-gap: 5px;
+  column-gap: 0.2%;
   grid-auto-flow: row;
-  grid-template-columns: 78% 19%;
-  grid-template-areas: "CreatureName CreatureToken";
-}
-.CListIcon {
-  width: 45px;
-  height: 45px;
-  border-radius: 50%;
-}
-.CreatureToken {
-  position: relative;
-  width: 125px;
-  height: 125px;
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: 65% 35%;
+  column-gap: 2%;
+  grid-template-areas: "CDesc CImage";
 }
 
-.CreatureIcon {
-  margin: auto;
-  width: 125px;
-  height: 125px;
-}
-
-.FrameOverlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-h2.CreatureSub {
-  font-family: Merriweather-bolditalic;
+.CreatureSub {
   margin: -4px auto 5px;
-  font-size: 1rem;
-  text-transform: capitalize;
   display: flex;
   justify-content: center;
 }
-.lineBreak {
+.underline {
+  z-index: 5;
   display: flex;
   justify-content: center;
   background-color: #7606d1;
@@ -926,6 +894,41 @@ h2.CreatureSub {
   border-bottom: 2px solid #7606d1;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.5);
 }
+.lineBreak {
+  background-color: #7606d1;
+  margin: 9px 0px 6px;
+  height: auto;
+  width: 50%;
+  border-bottom: 2px solid #7606d1;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.5);
+}
+
+.bodyContainer {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.CreatureToken {
+  float: right;
+  margin-top: -30px;
+  margin-right: -20px;
+  width: 359px;
+  max-height: 600px;
+  object-fit: contain;
+}
+
+.creatureBold {
+  font-family: Merriweather-black;
+  font-size: 0.8rem;
+  text-transform: capitalize;
+  color: #000000;
+}
+.creatureBoldItalic {
+  font-family: Merriweather-BlackItalic;
+  font-size: 0.8rem;
+  text-transform: capitalize;
+  color: #7606d1;
+}
 .creatureBody {
   font-size: 0.8rem;
   font-family: Merriweather;
@@ -933,14 +936,11 @@ h2.CreatureSub {
 .creatureBodyItalic {
   font-size: 0.8rem;
   font-family: Merriweather-BoldItalic;
-}
-.creatureBold {
-  font-family: Merriweather-BoldItalic;
-  font-size: 0.8rem;
-  text-transform: capitalize;
-  color: #00507a;
+  color: #7606d1;
 }
 .stat-container {
+  margin: auto;
+  align-content: center;
   margin-bottom: 8px;
   display: grid;
   width: 100%;
@@ -959,8 +959,9 @@ h2.CreatureSub {
 .WISn {
   align-items: center;
   margin: auto;
-  color: #00507a;
+  color: #7606d1;
   font-weight: 700;
+  font-size: 0.9rem;
 }
 .CHA,
 .CON,
@@ -971,7 +972,47 @@ h2.CreatureSub {
   font-weight: 700;
   align-items: center;
   margin: auto;
+  font-size: 0.9rem;
 }
+
+/*----*/
+.RainbowBorder {
+  justify-content: center;
+  height: 8px;
+  width: 626px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  display: block;
+  margin: 0 -4px;
+  border: 2px solid #4d4d4d;
+  background-image: url(../ImageAssets/GeneralImages/CreatureBorder.jpg);
+}
+
+.Creature-container {
+  display: grid;
+  width: 100%;
+  column-gap: 5px;
+  grid-auto-flow: row;
+  grid-template-columns: 78% 19%;
+  grid-template-areas: "CreatureName CreatureToken";
+}
+
+.CreatureIcon {
+  margin: auto;
+  width: 125px;
+  height: 125px;
+}
+
+.FrameOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 p.index {
   text-align: left;
   font-size: 1rem;
@@ -982,11 +1023,10 @@ p.index {
 }
 h1.indexheading {
   text-align: left;
-  margin: 2px auto 13px;
-  font-size: 1.4rem;
+  margin: 2px auto 6px;
+  font-size: 1.25rem;
   padding-top: 1%;
-  color: #00507a;
-  border-bottom: #7606d1 solid 2px;
+  color: #7606d1;
   font-family: CinzelDecorative;
 }
 .submitcreature {
@@ -1026,6 +1066,7 @@ h1.indexheading {
 .submitcreature:hover {
   color: #000;
 }
+
 /*-----------------------------------------------------------
 Spells Page
 These are the elements used and needed on the Spells Page

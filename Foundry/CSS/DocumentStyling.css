@@ -9,7 +9,7 @@ h1 {
   column-span: all;
   font-size: 2.6rem;
   margin-bottom: 0.5rem;
-  border-bottom: 3px solid #217252;
+  border-bottom: 3px solid #196690;
 }
 h2 {
   color: #000000;
@@ -25,7 +25,7 @@ h3 {
   font-family: MrEaves;
   margin-top: 0.2em;
   font-size: 2.1rem;
-  border-bottom: 1px solid #217252;
+  border-bottom: 1px solid #196690;
   margin: 0 0 0.2em;
 }
 h4 {

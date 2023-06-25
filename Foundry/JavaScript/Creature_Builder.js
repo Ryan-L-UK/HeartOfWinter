@@ -5,6 +5,7 @@ fetch("http://localhost:8080/Sources/Creatures")
   .then((data) => {
     let missingTypes = [];
     let legendaryCreatures = [];
+    let copyFlags = [];
     //-----------------------
     //CREATE TABLE HEADINGS
     const tblParent = document.getElementById("cTable");
@@ -55,6 +56,9 @@ fetch("http://localhost:8080/Sources/Creatures")
       if (data[prop].legendary != undefined) {
         legendaryCreatures.push(data[prop].name);
       }
+      if (data[prop]._copy != undefined) {
+        copyFlags.push(data[prop].name);
+      }
       let creatureName = data[prop].name;
       var newRow = tbodyRef.insertRow();
       //-----------------------
@@ -63,10 +67,10 @@ fetch("http://localhost:8080/Sources/Creatures")
       var newImageRaw = document.createElement("img");
 
       newImageRaw.src =
-        "http://localhost:8080/Foundry/ImageAssets/CreatureIcons/" +
+        "http://localhost:8080/Foundry/ImageAssets/CreatureImages/" +
         data[prop].name +
         ".png";
-      newImageRaw.setAttribute("class", "CListIcon");
+      newImageRaw.setAttribute("class", "ListIcon");
       newImage.appendChild(newImageRaw);
       //-----------------------
       //CREATURE NAME
@@ -126,10 +130,16 @@ fetch("http://localhost:8080/Sources/Creatures")
       newSource.setAttribute("class", data[prop].source);
     }
     tblParent.appendChild(myTable);
+    console.log("----------------------------");
     console.warn("Legendary Creatures:");
     console.log(legendaryCreatures);
+    console.log("----------------------------");
     console.warn("Creatures Missing Types:");
     console.log(missingTypes);
+    console.log("----------------------------");
+    console.warn("Creatures With _Copy Flags:");
+    console.log(copyFlags);
+    console.log("----------------------------");
   });
 
 // ---------------------------------------------------------------------------------------------------------
@@ -179,12 +189,38 @@ function showInput() {
     .forEach((Element) => (Element.innerHTML = ""));
   document.getElementById("innatebreak").classList.remove("margin");
   document.getElementById("spellbreak").classList.remove("margin");
+  document.getElementById("alignment-out").classList = [];
+  document.getElementById("alignment-out").classList.add("alignment");
+  document.getElementById("TRAITS").classList.add("hidden");
+  document.getElementById("ACTIONS").classList.add("hidden");
+  document.getElementById("LEGENDARY").classList.add("hidden");
+  document.getElementById("REACTIONS").classList.add("hidden");
+  document
+    .getElementById("alignment-out")
+    .classList.add(
+      document.getElementById("alignment").value.replace(/\s/g, "")
+    );
+  if (document.getElementById("T0D").value != "") {
+    document.getElementById("TRAITS").classList.remove("hidden");
+  }
+  if (document.getElementById("casterInnate").value != "") {
+    document.getElementById("TRAITS").classList.remove("hidden");
+  }
+  if (document.getElementById("A0D").value != "") {
+    document.getElementById("ACTIONS").classList.remove("hidden");
+  }
+  if (document.getElementById("LA0D").value != "") {
+    document.getElementById("LEGENDARY").classList.remove("hidden");
+  }
+  if (document.getElementById("RA0D").value != "") {
+    document.getElementById("REACTIONS").classList.remove("hidden");
+  }
 
   document
-    .getElementById("CreatureImage")
+    .getElementById("CreatureToken")
     .setAttribute(
       "src",
-      "http://localhost:8080/Foundry/ImageAssets/CreatureIcons/" +
+      "http://localhost:8080/Foundry/ImageAssets/CreatureImages/" +
         document.getElementById("name").value +
         ".png"
     );
@@ -238,9 +274,9 @@ function showInput() {
     } else if (key == "tags") {
       if (value != "") {
         document.getElementById(key + "-out").innerHTML =
-          "(" + document.getElementById(key).value + "), ";
+          "(" + document.getElementById(key).value + ")";
       } else {
-        document.getElementById(key + "-out").innerHTML = ",";
+        document.getElementById(key + "-out").innerHTML = "";
       }
     } else if (stats.indexOf(key) >= 0) {
       document.getElementById(key + "-out").innerHTML = checkstatrole(

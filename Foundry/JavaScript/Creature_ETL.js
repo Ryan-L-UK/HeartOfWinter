@@ -25,6 +25,8 @@ function checkalignment(alignment) {
     G: "Good",
     E: "Evil",
     A: "Any Alignment",
+
+    U: "Unaligned",
   };
   checkalignment = lookup[alignment];
   return checkalignment;
@@ -79,9 +81,9 @@ function runETL(obj) {
     console.warn("Cleric: Summoning Converter Shell");
     console.log(obj);
     // ---------------------------------------------------------------------------------------------------------
-    if (obj.legendary != undefined) {
+    if (obj._copy != undefined) {
       alert(
-        "This creature has a Legendary Marker. It is likely the creature load will have failed."
+        "This creature has a _copy marker. It data is incomplete, and the load will have failed."
       );
     }
     // ---------------------------------------------------------------------------------------------------------
@@ -100,6 +102,9 @@ function runETL(obj) {
     // ---------------------------------------------------------------------------------------------------------
     if (obj.alignment == undefined) {
       var alignTypeOut = undefined;
+    } else if (obj.alignment[0] == "NX") {
+      var alignTypeOut = "Any Non-Lawful Alignment";
+      var alignClassOut = "";
     } else {
       if (obj.alignment[0] != undefined) {
         var alignTypeOut = checkalignment(obj.alignment[0]);
@@ -118,27 +123,30 @@ function runETL(obj) {
       var walk = undefined;
     } else {
       if (obj.speed.walk >= 0) {
-        var walk = obj.speed.walk + " ft.";
+        var walk = "Walk " + obj.speed.walk + " feet";
       } else {
         var walk = "";
       }
       if (obj.speed.fly != undefined) {
         if (obj.speed.fly.number != undefined) {
           var fly =
-            ", fly " + obj.speed.fly.number + " ft. " + obj.speed.fly.condition;
+            ", Fly " +
+            obj.speed.fly.number +
+            " feet " +
+            obj.speed.fly.condition;
         } else if (obj.speed.fly > 0) {
-          var fly = ", fly " + obj.speed.fly + " ft.";
+          var fly = ", Fly " + obj.speed.fly + " feet";
         }
       } else {
         var fly = "";
       }
       if (obj.speed.swim > 0) {
-        var swim = ", swim " + obj.speed.swim + " ft.";
+        var swim = ", Swim " + obj.speed.swim + " feet";
       } else {
         var swim = "";
       }
       if (obj.speed.burrow > 0) {
-        var burrow = ", burrow " + obj.speed.burrow + " ft.";
+        var burrow = ", Burrow " + obj.speed.burrow + " feet";
       } else {
         var burrow = "";
       }
@@ -237,12 +245,62 @@ function runETL(obj) {
     }
 
     // ---------------------------------------------------------------------------------------------------------
+    // CREATURE REACTIONS
+
+    let reactionsOut = [];
+    var reactionsList = obj.reaction;
+
+    if (obj.reaction != undefined) {
+      if (reactionsList == undefined) {
+        var reactionsLength = 0;
+      } else {
+        var reactionsLength = reactionsList.length;
+      }
+
+      for (var i = 0; i < reactionsLength; i++) {
+        if (reactionsList[i].name != undefined) {
+          reactionsOut.push({
+            name: reactionsList[i].name
+              .replace(/\{@r/, "(R")
+              .replace(/\}/, ")"),
+            data: datacleanse(obj.reaction[i].entries),
+          });
+        }
+      }
+    }
+
+    // ---------------------------------------------------------------------------------------------------------
+    // CREATURE LEGENDARY ACTIONS
+
+    let LegendaryActionsOut = [];
+    var LegendaryActionsList = obj.legendary;
+
+    if (obj.legendary != undefined) {
+      if (LegendaryActionsList == undefined) {
+        var LegendaryActionsLength = 0;
+      } else {
+        var LegendaryActionsLength = LegendaryActionsList.length;
+      }
+
+      for (var i = 0; i < LegendaryActionsLength; i++) {
+        if (LegendaryActionsList[i].name != undefined) {
+          LegendaryActionsOut.push({
+            name: LegendaryActionsList[i].name
+              .replace(/\{@r/, "(R")
+              .replace(/\}/, ")"),
+            data: datacleanse(obj.legendary[i].entries),
+          });
+        }
+      }
+    }
+
+    // ---------------------------------------------------------------------------------------------------------
     if (obj.spellcasting == undefined) {
       console.log("Not A Spellcaster");
     } else {
       var spellArray = obj.spellcasting;
-      var I = spellArray.findIndex(
-        (item) => item.name === "Innate Spellcasting"
+      var I = spellArray.findIndex((item) =>
+        item.name.includes("Innate Spellcasting")
       );
       var S = spellArray.findIndex((item) => item.name === "Spellcasting");
       console.log("Innate: " + I);
@@ -356,7 +414,6 @@ function runETL(obj) {
 
     object["languages"] = langOut;
 
-    console.log(traitsOut);
     if (traitsOut != undefined) {
       var traitsOutLength = traitsOut.length;
       for (var i = 0; i < traitsOutLength; i++) {
@@ -365,11 +422,9 @@ function runETL(obj) {
       }
     } else {
       console.warn("ERROR");
-      object[T1H] = undefined;
-      object[T1D] = undefined;
+      object[T0H] = undefined;
+      object[T0D] = undefined;
     }
-
-    console.log(actionsOut);
     if (actionsOut != undefined) {
       var actionsOutLength = actionsOut.length;
       for (var i = 0; i < actionsOutLength; i++) {
@@ -378,9 +433,34 @@ function runETL(obj) {
       }
     } else {
       console.warn("ERROR");
-      object[A1H] = undefined;
-      object[A1D] = undefined;
+      object[A0H] = undefined;
+      object[A0D] = undefined;
     }
+
+    if (reactionsOut != undefined) {
+      var reactionsOutLength = reactionsOut.length;
+      for (var i = 0; i < reactionsOutLength; i++) {
+        object["RA" + [i] + "H"] = reactionsOut[i].name;
+        object["RA" + [i] + "D"] = reactionsOut[i].data;
+      }
+    } else {
+      console.warn("ERROR");
+      object[RA0H] = undefined;
+      object[RA0D] = undefined;
+    }
+
+    if (LegendaryActionsOut != undefined) {
+      var LegendaryActionsOutLength = LegendaryActionsOut.length;
+      for (var i = 0; i < LegendaryActionsOutLength; i++) {
+        object["LA" + [i] + "H"] = LegendaryActionsOut[i].name;
+        object["LA" + [i] + "D"] = LegendaryActionsOut[i].data;
+      }
+    } else {
+      console.warn("ERROR");
+      object[LA0H] = undefined;
+      object[LA0D] = undefined;
+    }
+
     object["CasterInnate"] = CasterInnate;
     object["innateHeaderEntry"] = headerentryI;
     object["spellHeaderEntry"] = headerentryS;
@@ -409,19 +489,8 @@ function runETL(obj) {
     document.getElementById("creatureform").reset();
     const objct = JSON.parse(outputJson);
     for (const prop in objct) {
+      console.log(`${objct[prop]}`);
       document.getElementById(`${prop}`).value = `${objct[prop]}`;
-      if (`${objct[prop]}` == "on") {
-        console.warn(
-          "Dungeon Master: Its worth noting that " +
-            `${prop}` +
-            " should be ticked."
-        );
-        window.alert(
-          "Dungeon Master: Its worth noting that " +
-            `${prop}` +
-            " should be ticked."
-        );
-      }
     }
     console.warn("Cleric: Summoning Ritual Complete");
   }
