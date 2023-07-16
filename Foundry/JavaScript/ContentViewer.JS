@@ -1,6 +1,7 @@
 //-----------------------------------------
 //Map Selector
 //-----------------------------------------
+const converter = new showdown.Converter({ extensions: ["table"] });
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
 const Type = urlParams.get("Type");
@@ -18,30 +19,63 @@ if (Type == "Location") {
   var ContentView = "Forge/" + FileName;
 } else if (Type == "Ruleset") {
   var ContentView = "Rules/" + FileName;
+} else if (Type == "Downtime") {
+  var ContentView = "Downtime/" + FileName;
 } else {
   console.error("Shes Dead Jim");
 }
-var ContentViewOut = "";
-ContentViewOut = "http://localhost:8080/Sources/" + ContentView + ".html";
+
+const ContentViewOut = "http://localhost:8080/Sources/" + ContentView + ".md";
+
+const fetchAndProcessImageMap = (src, imgId) => {
+  fetch(src)
+    .then((response) => response.text())
+    .then((imageMapHtml) => {
+      const tempDiv = document.createElement("div");
+      tempDiv.innerHTML = imageMapHtml;
+      const img = document.getElementById(imgId);
+      img.insertAdjacentHTML("afterend", imageMapHtml);
+      img.remove();
+      console.log("Image map processed successfully");
+    })
+    .catch((error) => {
+      console.log("Error processing image map:", error);
+    });
+};
+
 fetch(ContentViewOut)
-  .then(function (Lresponse) {
-    // When the page is loaded convert it to text
-    return Lresponse.text();
+  .then((response) => response.text())
+  .then((markdown) => {
+    const html = converter.makeHtml(markdown);
+    const div = document.createElement("div");
+    div.innerHTML = html;
+    const images = div.getElementsByTagName("img");
+    for (let i = 0; i < images.length; i++) {
+      const img = images[i];
+      const src = img.getAttribute("src");
+      if (src.endsWith(".html")) {
+        const imgId = src.replace(/\W/g, "_"); // Generate unique ID based on the image map file name
+        img.setAttribute("id", imgId);
+        fetchAndProcessImageMap(src, imgId);
+      } else {
+        img.classList.add("markdown-image");
+      }
+    }
+
+    const tables = div.getElementsByTagName("table");
+    for (let i = 0; i < tables.length; i++) {
+      const table = tables[i];
+      table.classList.add("markdown-table");
+    }
+
+    document.getElementById("Content_output").innerHTML = div.innerHTML;
+    console.log("Content loaded successfully...");
   })
-  .then(function (ContentViewHTML) {
-    // Initialize the DOM parser
-    var parser = new DOMParser();
-    // Parse the text
-    var ContentViewDoc = parser.parseFromString(ContentViewHTML, "text/html");
-    // You can now even select part of that html as you would in the regular DOM
-    // Example:
-    var ContentViewArticle = ContentViewDoc.querySelector("html").innerHTML;
-    document.getElementById("Content_output").innerHTML = ContentViewArticle;
-  })
-  .catch(function (err) {
+
+  .catch((error) => {
     console.log(
-      "Librarians: If it is not in our records, it does not exist. ",
-      err
+      "Librarians: If it is not in our records, it does not exist.",
+      error
     );
   })
   //-----------------------------------------

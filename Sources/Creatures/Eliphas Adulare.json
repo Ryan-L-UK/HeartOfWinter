@@ -1,1 +1,122 @@
-{"name":"Eliphas Adulare","isNpc":true,"isNamedCreature":true,"source":"KftGV","page":188,"_copy":{"name":"Werebear","source":"MM","_mod":{"*":[{"mode":"replaceTxt","replace":"the werebear","with":"Eliphas","flags":"i"}]}},"int":18,"spellcasting":[{"name":"Spellcasting (Humanoid or Hybrid Form Only)","headerEntries":["Eliphas casts one of the following spells, using Intelligence as the spellcasting ability (save {@dc 15}):"],"will":["{@spell light}","{@spell minor illusion}","{@spell prestidigitation}"],"daily":{"2e":["{@spell detect magic}","{@spell fog cloud}"],"1e":["{@spell phantasmal force}","{@spell shatter}"]},"ability":"int","displayAs":"action"}],"hasToken":true,"hasFluff":true}
+{
+  "name": "Eliphas Adulare",
+  "isNpc": true,
+  "isNamedCreature": true,
+  "source": "KftGV",
+  "page": 188,
+  "int": 18,
+  "spellcasting": [
+    {
+      "name": "Spellcasting (Humanoid or Hybrid Form Only)",
+      "headerEntries": [
+        "Eliphas casts one of the following spells, using Intelligence as the spellcasting ability (save {@dc 15}):"
+      ],
+      "will": [
+        "{@spell light}",
+        "{@spell minor illusion}",
+        "{@spell prestidigitation}"
+      ],
+      "daily": {
+        "2e": ["{@spell detect magic}", "{@spell fog cloud}"],
+        "1e": ["{@spell phantasmal force}", "{@spell shatter}"]
+      },
+      "ability": "int",
+      "displayAs": "action",
+      "type": "spellcasting"
+    }
+  ],
+  "hasToken": true,
+  "hasFluff": true,
+  "group": ["Lycanthropes"],
+  "size": ["M"],
+  "type": {
+    "type": "humanoid",
+    "tags": ["human", "shapechanger"]
+  },
+  "alignment": ["N", "G"],
+  "ac": [
+    {
+      "ac": 10,
+      "condition": "in humanoid form"
+    },
+    {
+      "ac": 11,
+      "from": ["natural armor"],
+      "condition": "in bear or hybrid form"
+    }
+  ],
+  "hp": {
+    "average": 135,
+    "formula": "18d8 + 54"
+  },
+  "speed": {
+    "walk": {
+      "number": 30,
+      "condition": "(40 ft., climb 30 ft. in bear or hybrid form)"
+    }
+  },
+  "str": 19,
+  "dex": 10,
+  "con": 17,
+  "wis": 12,
+  "cha": 12,
+  "skill": {
+    "perception": "+7"
+  },
+  "passive": 17,
+  "immune": [
+    {
+      "immune": ["bludgeoning", "piercing", "slashing"],
+      "note": "from nonmagical attacks that aren't silvered",
+      "cond": true
+    }
+  ],
+  "languages": ["Common (can't speak in bear form)"],
+  "cr": "5",
+  "trait": [
+    {
+      "name": "Shapechanger",
+      "entries": [
+        "Eliphas can use its action to polymorph into a Large bear-humanoid hybrid or into a Large bear, or back into its true form, which is humanoid. Its statistics, other than its size and AC, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+      ]
+    },
+    {
+      "name": "Keen Smell",
+      "entries": [
+        "Eliphas has advantage on Wisdom ({@skill Perception}) checks that rely on smell."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "entries": [
+        "In bear form, Eliphas makes two claw attacks. In humanoid form, it makes two greataxe attacks. In hybrid form, it can attack like a bear or a humanoid."
+      ]
+    },
+    {
+      "name": "Bite (Bear or Hybrid Form Only)",
+      "entries": [
+        "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}15 ({@damage 2d10 + 4}) piercing damage. If the target is a humanoid, it must succeed on a {@dc 14} Constitution saving throw or be cursed with werebear lycanthropy."
+      ]
+    },
+    {
+      "name": "Claw (Bear or Hybrid Form Only)",
+      "entries": [
+        "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d8 + 4}) slashing damage."
+      ]
+    },
+    {
+      "name": "Greataxe (Humanoid or Hybrid Form Only)",
+      "entries": [
+        "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}10 ({@damage 1d12 + 4}) slashing damage."
+      ]
+    }
+  ],
+  "attachedItems": ["greataxe|phb"],
+  "traitTags": ["Keen Senses", "Shapechanger"],
+  "actionTags": ["Multiattack"],
+  "languageTags": ["C", "CS"],
+  "damageTags": ["P", "S"],
+  "miscTags": ["MW"]
+}

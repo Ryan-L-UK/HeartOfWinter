@@ -4,7 +4,6 @@ fetch("http://localhost:8080/Sources/Creatures")
   .then((response) => response.json())
   .then((data) => {
     let missingTypes = [];
-    let legendaryCreatures = [];
     let copyFlags = [];
     //-----------------------
     //CREATE TABLE HEADINGS
@@ -53,12 +52,11 @@ fetch("http://localhost:8080/Sources/Creatures")
       if (data[prop].source.includes("UA") && data[prop].source != "UAWGE") {
         console.warn("Unearthed Arcana: " + data[prop].name);
       }
-      if (data[prop].legendary != undefined) {
-        legendaryCreatures.push(data[prop].name);
-      }
       if (data[prop]._copy != undefined) {
-        copyFlags.push(data[prop].name);
+        copyFlags.push(data[prop].name + ".json");
       }
+      //---------------------
+
       let creatureName = data[prop].name;
       var newRow = tbodyRef.insertRow();
       //-----------------------
@@ -130,9 +128,6 @@ fetch("http://localhost:8080/Sources/Creatures")
       newSource.setAttribute("class", data[prop].source);
     }
     tblParent.appendChild(myTable);
-    console.log("----------------------------");
-    console.warn("Legendary Creatures:");
-    console.log(legendaryCreatures);
     console.log("----------------------------");
     console.warn("Creatures Missing Types:");
     console.log(missingTypes);

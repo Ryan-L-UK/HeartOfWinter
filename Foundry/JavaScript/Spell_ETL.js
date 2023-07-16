@@ -170,14 +170,24 @@ function runETL(obj) {
     let entriesOut = [];
     var entriesList = obj.entries;
     var entriesLength = entriesList.length;
+
     for (var i = 0; i < entriesLength; i++) {
-      if (entriesList[i].name != undefined) {
+      var entry = entriesList[i];
+
+      if (entry.type === "list") {
+        var listItems = entry.items;
+        var listLength = listItems.length;
+
+        for (var j = 0; j < listLength; j++) {
+          entriesOut.push({ data: "#" + datacleanse(listItems[j]) });
+        }
+      } else if (entry.name !== undefined) {
         entriesOut.push({
-          name: entriesList[i].name,
-          data: datacleanse(entriesList[i].entries),
+          name: entry.name,
+          data: datacleanse(entry.entries),
         });
       } else {
-        entriesOut.push({ data: datacleanse(entriesList[i]) });
+        entriesOut.push({ data: datacleanse(entry) });
       }
     }
     if (obj.entriesHigherLevel != undefined) {

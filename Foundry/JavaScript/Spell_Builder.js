@@ -192,20 +192,28 @@ function showInput() {
 
   for (let i = 0; i <= 8; i++) {
     const index = `S${i}`;
-    document.getElementById(`${index}H-out`).innerHTML =
-      document.getElementById(`${index}H`).value;
-    if (document.getElementById(`${index}H`).value != "") {
-      document.getElementById(`${index}H-out`).classList.add("TopMargin");
-    } else {
-      document.getElementById(`${index}H-out`).classList.remove("TopMargin");
-    }
+    const headerInput = document.getElementById(`${index}H`);
+    const headerOutput = document.getElementById(`${index}H-out`);
+    const dataInput = document.getElementById(`${index}D`);
+    const dataOutput = document.getElementById(`${index}D-out`);
 
-    document.getElementById(`${index}D-out`).innerHTML =
-      document.getElementById(`${index}D`).value;
-    if (document.getElementById(`${index}D`).value != "") {
-      document.getElementById(`${index}D-out`).classList.add("BottomMargin");
+    headerOutput.innerHTML = headerInput.value;
+    headerOutput.classList.toggle("TopMargin", headerInput.value !== "");
+
+    const inputValue = dataInput.value;
+    const firstChar = inputValue.charAt(0);
+
+    if (inputValue !== "") {
+      if (firstChar === "#") {
+        dataOutput.classList.add("listPoint", "BottomMargin");
+        dataOutput.innerHTML = inputValue.substring(1);
+      } else {
+        dataOutput.classList.remove("listPoint");
+        dataOutput.classList.add("BottomMargin");
+        dataOutput.innerHTML = inputValue;
+      }
     } else {
-      document.getElementById(`${index}D-out`).classList.remove("BottomMargin");
+      dataOutput.classList.remove("listPoint", "BottomMargin");
     }
   }
 

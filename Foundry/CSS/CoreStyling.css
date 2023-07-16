@@ -337,6 +337,48 @@ tr:nth-child(odd) {
   margin-top: 5px;
   margin-bottom: 5px;
 }
+.submititem,
+.submitcreature,
+.submitspell {
+  align-items: center;
+  cursor: pointer;
+  display: inline-flex;
+  justify-content: center;
+  outline: 0;
+  border: 0;
+  margin: 0 15px 0;
+  vertical-align: middle;
+  letter-spacing: 2.26px;
+  font-family: Tiamat-Text;
+  text-transform: uppercase;
+  box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2),
+    0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+  font-size: 16px;
+  padding: 14px 30px;
+  width: auto;
+  z-index: 1;
+  border-radius: 0;
+  font-weight: 700;
+  color: #fff;
+  min-width: 175px;
+  position: relative;
+  overflow: visible;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.submititem::after,
+.submitcreature::after,
+.submitspell::after {
+  content: "";
+  background-image: url(../ImageAssets/GeneralImages/goldButton.png);
+  background-size: 100% 100%;
+  display: block;
+  position: absolute;
+  top: -4px;
+  left: -4px;
+  height: calc(100% + 8px);
+  width: calc(100% + 8px);
+}
 /*---INPUTS---*/
 .whiteInput[type="text"] {
   box-sizing: border-box;
@@ -580,12 +622,10 @@ These are the elements used and needed on the Items Page
   grid-auto-flow: row;
   justify-content: center;
   align-content: center;
-
   grid-template-columns: 50% 627px;
   column-gap: 2%;
   grid-template-areas: "List View";
 }
-
 h1.listname {
   text-align: left;
   margin: 0;
@@ -715,49 +755,18 @@ p.itemBold {
   margin: auto;
 }
 .submititem {
-  --button-crop-size: 16px;
-  align-items: center;
-  cursor: pointer;
-  display: inline-flex;
-  justify-content: center;
-  min-height: 35px;
-  vertical-align: middle;
-  padding: 10px 35px;
-  color: #fff;
-  font-size: 16px;
-  letter-spacing: 2.26px;
-  font-family: MrEaves;
-  font-variant: small-caps;
-  font-weight: 700;
-  text-transform: uppercase;
-  line-height: 1;
-  border-radius: 0;
-  text-align: center;
-  text-decoration: none;
-  transition: 0.1s ease-out;
-  position: relative;
-  clip-path: polygon(
-    0 0,
-    100% 0,
-    100% calc(100% - var(--button-crop-size)),
-    calc(100% - var(--button-crop-size)) 100%,
-    0 100%
-  );
-  z-index: 2;
-  margin-left: 10px;
-  margin-right: 10px;
-  background: #2b732e;
-  background-image: linear-gradient(90deg, #2b732e, #4ead52);
-  border: 2px solid #4caf50;
+  background-image: url(../ImageAssets/GeneralImages/itemMarble.jpeg);
 }
 .submititem:hover {
-  color: #000;
+  background-image: url(../ImageAssets/GeneralImages/GeneratorBorderItem.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: 0.45s;
 }
 /*-----------------------------------------------------------
 Creature Page
 These are the elements used and needed on the Creature Page
 -----------------------------------------------------------*/
-
 .CreatureList-container {
   display: grid;
   width: 100%;
@@ -804,7 +813,6 @@ These are the elements used and needed on the Creature Page
   border-color: #00507a;
   position: relative;
 }
-
 .HPAC {
   display: grid;
   width: 100%;
@@ -876,7 +884,6 @@ h1.cName {
   column-gap: 2%;
   grid-template-areas: "CDesc CImage";
 }
-
 .CreatureSub {
   margin: -4px auto 5px;
   display: flex;
@@ -902,12 +909,10 @@ h1.cName {
   border-bottom: 2px solid #7606d1;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.5);
 }
-
 .bodyContainer {
   width: 100%;
   margin: 0 auto;
 }
-
 .CreatureToken {
   float: right;
   margin-top: -30px;
@@ -916,7 +921,6 @@ h1.cName {
   max-height: 600px;
   object-fit: contain;
 }
-
 .creatureBold {
   font-family: Merriweather-black;
   font-size: 0.8rem;
@@ -974,7 +978,6 @@ h1.cName {
   margin: auto;
   font-size: 0.9rem;
 }
-
 /*----*/
 .RainbowBorder {
   justify-content: center;
@@ -989,7 +992,6 @@ h1.cName {
   border: 2px solid #4d4d4d;
   background-image: url(../ImageAssets/GeneralImages/CreatureBorder.jpg);
 }
-
 .Creature-container {
   display: grid;
   width: 100%;
@@ -998,13 +1000,11 @@ h1.cName {
   grid-template-columns: 78% 19%;
   grid-template-areas: "CreatureName CreatureToken";
 }
-
 .CreatureIcon {
   margin: auto;
   width: 125px;
   height: 125px;
 }
-
 .FrameOverlay {
   position: absolute;
   top: 0;
@@ -1012,7 +1012,6 @@ h1.cName {
   width: 100%;
   height: 100%;
 }
-
 p.index {
   text-align: left;
   font-size: 1rem;
@@ -1030,43 +1029,14 @@ h1.indexheading {
   font-family: CinzelDecorative;
 }
 .submitcreature {
-  display: inline-flex;
-  position: relative;
-  justify-content: center;
-  align-items: center;
-  padding: 10px 35px;
-  color: #fff;
-  font-size: 16px;
-  font-family: MrEaves;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 2.26px;
-  font-variant: small-caps;
-  line-height: 1;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 0;
-  border: 2px solid #59b5da;
-  background: #2b3873;
-  background-image: linear-gradient(90deg, #2b3873, #4b93af);
-  transition: 0.1s ease-out;
-  z-index: 2;
-  clip-path: polygon(
-    0 0,
-    100% 0,
-    100% calc(100% - 16px),
-    calc(100% - 16px) 100%,
-    0 100%
-  );
-  min-height: 35px;
-  cursor: pointer;
-  margin-left: 10px;
-  margin-right: 10px;
+  background-image: url(../ImageAssets/GeneralImages/creatureMarble.jpeg);
 }
 .submitcreature:hover {
-  color: #000;
+  background-image: url(../ImageAssets/GeneralImages/GeneratorBorderMonster.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: 0.45s;
 }
-
 /*-----------------------------------------------------------
 Spells Page
 These are the elements used and needed on the Spells Page
@@ -1164,6 +1134,13 @@ p.spellBold {
   text-transform: capitalize;
   display: flex;
 }
+.listPoint {
+  margin-left: 8px;
+}
+.listPoint::before {
+  content: "\2022";
+  margin-right: 8px;
+}
 .item-container {
   display: grid;
   width: 100%;
@@ -1184,45 +1161,16 @@ p.spellBold {
   vertical-align: middle;
 }
 .submitspell {
-  display: inline-flex;
-  position: relative;
-  justify-content: center;
-  align-items: center;
-  padding: 10px 35px;
-  color: #fff;
-  font-size: 16px;
-  font-family: MrEaves;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 2.26px;
-  font-variant: small-caps;
-  line-height: 1;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 0;
-  border: 2px solid #c909a9;
-  background: #3a193b;
-  background-image: linear-gradient(90deg, #3a193b, #a8028d);
-  transition: 0.1s ease-out;
-  z-index: 2;
-  clip-path: polygon(
-    0 0,
-    100% 0,
-    100% calc(100% - 16px),
-    calc(100% - 16px) 100%,
-    0 100%
-  );
-  min-height: 35px;
-  cursor: pointer;
-  margin-left: 10px;
-  margin-right: 10px;
+  background-image: url(../ImageAssets/GeneralImages/spellMarble.jpeg);
 }
 .submitspell:hover {
-  color: #000;
+  background-image: url(../ImageAssets/GeneralImages/GeneratorBorderSpell.avif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: 0.45s;
 }
-/*-----------------------------------------------------------
-Map Page & Print Page
-These are the elements used and needed on the Map Page & Print Page
+/*--------------------------------------------------------
+Map Page & Print Page These are the elements used and needed on the Map Page & Print Page
 -----------------------------------------------------------*/
 .Map {
   width: 1250px;
@@ -1274,393 +1222,3 @@ p.caption {
   text-align: center;
   font-style: italic;
 }
-/*--------------------------------------------------------------------------------------------------------------------
-/*--------------------------------------------------------------------------------------------------------------------
-/*--------------------------------------------------------------------------------------------------------------------
-/*--------------------------------------------------------------------------------------------------------------------
-/*--------------------------------------------------------------------------------------------------------------------
-/*--------------------------------------------------------------------------------------------------------------------
-/*--------------------------------------------------------------------------------------------------------------------
-/*--------------------------------------------------------------------------------------------------------------------
-/*--------------------------------------------------------------------------------------------------------------------
-/*--------------------------------------------------------------------------------------------------------------------
-/*--------------------------------------------------------------------------------------------------------------------
-/*--------------------------------------------------------------------------------------------------------------------
-/*--------------------------------------------------------------------------------------------------------------------
-/*--------------------------------------------------------------------------------------------------------------------
-/*--------------------------------------------------------------------------------------------------------------------
-/*--------------------------------------------------------------------------------------------------------------------
-/*--------------------------------------------------------------------------------------------------------------------
-/*--------------------------------------------------------------------------------------------------------------------
-/*--------------------------------------------------------------------------------------------------------------------
-/*--------------------------------------------------------------------------------------------------------------------
-/*--------------------------------------------------------------------------------------------------------------------
-/*--------------------------------------------------------------------------------------------------------------------
-/*--------------------------------------------------------------------------------------------------------------------
-/*--------------------------------------------------------------------------------------------------------------------
-/*--------------------------------------------------------------------------------------------------------------------
-/*--------------------------------------------------------------------------------------------------------------------
-.generator-container,
-.list-container,
-.spell-container,
-.spell-heading {
-display: grid;
-width: 100%;
-column-gap: 0.2%;
-grid-auto-flow: row;
-}
-.generator-container {
-justify-content: space-evenly;
-align-content: space-evenly;
-grid-template-columns: auto;
-grid-template-areas: "Form Output";
-}
-.list-container {
-justify-content: center;
-align-content: center;
-grid-template-columns: 50% 627px;
-column-gap: 2%;
-grid-template-areas: "List View";
-}
-.spell-container {
-grid-template-columns: 80% 18%;
-grid-template-areas: "Desc Image";
-}
-.spell-heading {
-grid-template-columns: 90% 5%;
-grid-template-areas: "Spell-Title Spell-Con";
-}
-.framecontainer,
-.dreamcontainer {
-align-items: center;
-display: block;
-margin: 0 auto;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-padding: 0;
-}
-.framecontainer,
-.dreamcontainer {
-width: 570px;
-}
-.framecontainer {
-background-image: url(../ImageAssets/BackgroundParchment/sword_meow_background_base.png);
-color: #000;
-}
-.dreamcontainer {
-background-image: url(../ImageAssets/BackgroundParchment/DreamShellBackground.jpeg);
-color: #fff;
-}
-/* Style the list view content. */
-/*-----------------------------------------------------------
-Images & Objects
-There are a few styles here in use:
--Masthead relates to the main hero image on the top of every single page. 
--Object relates to anything loaded in using the auto loader or fetch
--MapStyle is used on the various map pages.
--Potion image is used on the alchemy gen page to control the image size next to each potion
------------------------------------------------------------
-object {
-width: 100%;
-margin: 0;
-padding: 0;
-}
-.dreamhead {
-width: 100%;
-margin: 0;
-padding: 0;
-align-items: center;
-justify-items: center;
-margin-bottom: -1px;
-}
-/*-----------------------------------------------------------
-Borders
-On most of the generator pages, borders are used to frame the
-output, her are the controls for each of them. 
------------------------------------------------------------
-.border {
-height: 7px;
-width: 580px;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-align-items: center;
-display: block;
-margin: 0;
-border: 2px solid #000;
-}
-.creatureBG {
-background-image: url(../ImageAssets/BackgroundParchment/GeneratorBorderMonster.jpeg);
-}
-.itemBG {
-background-image: url(../ImageAssets/BackgroundParchment/GeneratorBorderItem.jpeg);
-}
-.dreamBG {
-background-image: url(../ImageAssets/BackgroundParchment/GeneratorBorderDream.png);
-}
-/*-----------------------------------------------------------
-Dividers & Spacers
-Across the site it is often necessary to provide spacers and
-dividers, here are the controls for each. 
------------------------------------------------------------
-.divider {
-margin: 0 auto;
-height: 3px;
-width: 650px;
-background-color: #860954;
-box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.5);
-align-items: center;
-}
-.item {
-background-color: #098643;
-}
-.line {
-display: flex;
-height: 4px;
-width: 100%;
-align-items: center;
-border-bottom: 2px solid #484848;
-box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.5);
-margin: 0 auto;
-}
-.purpleL {
-height: 3px;
-width: 300px;
-background-color: #860954;
-}
-.greyline {
-background-color: #484848;
-margin-top: 2px;
-margin-bottom: 9px;
-display: flex;
-height: auto;
-width: 100%;
-align-items: center;
-border-bottom: 2px solid #484848;
-box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.5);
-}
-.underline {
-margin: 0 auto;
-height: 3px;
-width: 300px;
-background-color: #860954;
-box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.5);
-align-items: center;
-}
-.mapfooter {
-width: 80%;
-align-items: center;
-margin: 0;
-padding: 0;
-}
-/*-----------------------------------------------------------
-Inputs & Outputs
-These are the various input fields, tick boxes and buttons 
-used across the site. 
------------------------------------------------------------
-.submit {
-color: #fff;
-padding: 0px 6px;
-text-align: center;
-justify-items: center;
-align-items: center;
-text-decoration: none;
-font-size: 16px;
-border-radius: 4px;
-display: inline;
-margin: 0px 10px;
-width: 150px;
-font-family: Garamond, serif;
-background: linear-gradient(
-180deg,
-rgb(159, 159, 159) 0,
-rgb(58, 58, 58) 100%
-);
-}
-.submit:hover {
-color: #000;
-}
-input::file-selector-button {
---button-crop-size: 16px;
-align-items: center;
-cursor: pointer;
-display: inline-flex;
-justify-content: center;
-min-height: 35px;
-vertical-align: middle;
-padding: 10px 35px;
-color: #fff;
-font-size: 16px;
-letter-spacing: 2.26px;
-font-family: MrEaves;
-font-variant: small-caps;
-font-weight: 700;
-text-transform: uppercase;
-line-height: 1;
-border-radius: 0;
-text-align: center;
-text-decoration: none;
-transition: 0.1s ease-out;
-position: relative;
-clip-path: polygon(
-0 0,
-100% 0,
-100% calc(100% - var(--button-crop-size)),
-calc(100% - var(--button-crop-size)) 100%,
-0 100%
-);
-z-index: 2;
-margin-left: 10px;
-margin-right: 10px;
-background: #3a3a3a;
-background-image: linear-gradient(90deg, #3a3a3a, #9f9f9f);
-border: 2px solid #bcbcbc;
-}
-.submitdream {
---button-crop-size: 16px;
-align-items: center;
-cursor: pointer;
-display: inline-flex;
-justify-content: center;
-min-height: 35px;
-vertical-align: middle;
-padding: 10px 35px;
-color: #fff;
-font-size: 16px;
-letter-spacing: 2.26px;
-font-family: MrEaves;
-font-variant: small-caps;
-font-weight: 700;
-text-transform: uppercase;
-line-height: 1;
-border-radius: 0;
-text-align: center;
-text-decoration: none;
-transition: 0.1s ease-out;
-position: relative;
-clip-path: polygon(
-0 0,
-100% 0,
-100% calc(100% - var(--button-crop-size)),
-calc(100% - var(--button-crop-size)) 100%,
-0 100%
-);
-z-index: 2;
-margin-left: 10px;
-margin-right: 10px;
-background: #3a3a3a;
-background-image: linear-gradient(90deg, #3a3a3a, #9f9f9f);
-border: 2px solid #bcbcbc;
-}
-.submitdream:hover {
-color: #000;
-}
-/*-----------------------------------------------------------
-Generator Stylings
-The site has lots of additional requirements from the various
-generators it uses. here are the controls for each of them. 
------------------------------------------------------------
-.cSource {
-padding: 0;
-color: #760d81;
-background-color: #fff;
-text-align: right;
-}
-.Damage {
-margin: 0 1.5%;
-padding-bottom: 1%;
-text-align: right;
-justify-items: right;
-font-size: 0.9rem;
-}
-.hbody {
-text-align: left;
-padding-bottom: 0;
-font-size: 1.2rem;
-line-height: 1.8rem;
-}
-.spell {
-font-style: italic;
-font-weight: 600;
-}
-.standard .standard {
-font-size: 0.85rem;
-text-align: left;
-padding-bottom: 0;
-}
-h1.dreamname {
-color: #fff;
-text-align: center;
-padding-top: 0;
-}
-h1.listname {
-text-align: left;
-margin: 0;
-font-size: 1.4rem;
-}
-h1.PotionName {
-text-align: left;
-margin: 0;
-font-size: 1.75rem;
-margin-top: 0;
-margin-bottom: 10px;
-padding-top: 0;
-color: #8b0000;
-font-family: Lora, Times, serif;
-}
-h1.shipname {
-text-align: left;
-margin: 0;
-font-size: 2.4rem;
-margin-top: 0;
-margin-bottom: 10px;
-padding-top: 0;
-}
-h2.creaturetype {
-font-size: 0.9rem;
-}
-h2.indextype {
-font-style: italic;
-text-transform: capitalize;
-font-size: 0.9rem;
-font-family: Garamond, serif;
-text-align: left;
-margin: 0 0 1%;
-}
-h2.pheader {
-color: black;
-font-size: 1.4rem;
-border-bottom: 3px solid #8b0000;
-margin-top: 10px;
-font-family: Lora, Times, serif;
-text-align: left;
-}
-h2.spelltype {
-text-align: left;
-font-size: 1rem;
-font-style: italic;
-margin: 0;
-padding: 0;
-margin-bottom: 8px;
-font-family: Garamond, serif;
-}
-h3.weapon {
-text-align: right;
-font-size: 1rem;
-margin: 0 1.5% 1%;
-font-style: italic;
-border-bottom: 1px solid #ddd;
-}
-p.index {
-text-align: left;
-font-size: 1rem;
-margin: 0 auto 5px;
-}
-p.indexfooter {
-text-align: left;
-margin: 0 auto;
-font-size: 1rem;
-padding-bottom: 1%;
-}
-*/

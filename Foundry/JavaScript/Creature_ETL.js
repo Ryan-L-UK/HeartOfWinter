@@ -25,7 +25,6 @@ function checkalignment(alignment) {
     G: "Good",
     E: "Evil",
     A: "Any Alignment",
-
     U: "Unaligned",
   };
   checkalignment = lookup[alignment];
@@ -222,19 +221,15 @@ function runETL(obj) {
         });
       }
     }
-
     // ---------------------------------------------------------------------------------------------------------
     // CREATURE ACTIONS
-
     let actionsOut = [];
     var actionsList = obj.action;
-
     if (actionsList == undefined) {
       var actionsLength = 0;
     } else {
       var actionsLength = actionsList.length;
     }
-
     for (var i = 0; i < actionsLength; i++) {
       if (actionsList[i].name != undefined) {
         actionsOut.push({
@@ -243,20 +238,16 @@ function runETL(obj) {
         });
       }
     }
-
     // ---------------------------------------------------------------------------------------------------------
     // CREATURE REACTIONS
-
     let reactionsOut = [];
     var reactionsList = obj.reaction;
-
     if (obj.reaction != undefined) {
       if (reactionsList == undefined) {
         var reactionsLength = 0;
       } else {
         var reactionsLength = reactionsList.length;
       }
-
       for (var i = 0; i < reactionsLength; i++) {
         if (reactionsList[i].name != undefined) {
           reactionsOut.push({
@@ -268,20 +259,16 @@ function runETL(obj) {
         }
       }
     }
-
     // ---------------------------------------------------------------------------------------------------------
     // CREATURE LEGENDARY ACTIONS
-
     let LegendaryActionsOut = [];
     var LegendaryActionsList = obj.legendary;
-
     if (obj.legendary != undefined) {
       if (LegendaryActionsList == undefined) {
         var LegendaryActionsLength = 0;
       } else {
         var LegendaryActionsLength = LegendaryActionsList.length;
       }
-
       for (var i = 0; i < LegendaryActionsLength; i++) {
         if (LegendaryActionsList[i].name != undefined) {
           LegendaryActionsOut.push({
@@ -293,14 +280,13 @@ function runETL(obj) {
         }
       }
     }
-
     // ---------------------------------------------------------------------------------------------------------
     if (obj.spellcasting == undefined) {
       console.log("Not A Spellcaster");
     } else {
       var spellArray = obj.spellcasting;
-      var I = spellArray.findIndex((item) =>
-        item.name.includes("Innate Spellcasting")
+      var I = spellArray.findIndex(
+        (item) => item.hasOwnProperty("will") || item.hasOwnProperty("daily")
       );
       var S = spellArray.findIndex((item) => item.name === "Spellcasting");
       console.log("Innate: " + I);
@@ -312,14 +298,16 @@ function runETL(obj) {
         if (obj.spellcasting[I].will != undefined) {
           var will = datacleanse(obj.spellcasting[I].will);
         }
-        if (obj.spellcasting[I].daily["1e"] != undefined) {
-          var daily1e = datacleanse(obj.spellcasting[I].daily["1e"]);
-        }
-        if (obj.spellcasting[I].daily["2e"] != undefined) {
-          var daily2e = datacleanse(obj.spellcasting[I].daily["2e"]);
-        }
-        if (obj.spellcasting[I].daily["3e"] != undefined) {
-          var daily3e = datacleanse(obj.spellcasting[I].daily["3e"]);
+        if (obj.spellcasting[I].daily != undefined) {
+          if (obj.spellcasting[I].daily["1e"] != undefined) {
+            var daily1e = datacleanse(obj.spellcasting[I].daily["1e"]);
+          }
+          if (obj.spellcasting[I].daily["2e"] != undefined) {
+            var daily2e = datacleanse(obj.spellcasting[I].daily["2e"]);
+          }
+          if (obj.spellcasting[I].daily["3e"] != undefined) {
+            var daily3e = datacleanse(obj.spellcasting[I].daily["3e"]);
+          }
         }
         if (obj.spellcasting[I].footerEntries != undefined) {
           var footerentryI = datacleanse(obj.spellcasting[I].footerEntries[0]);
@@ -375,7 +363,6 @@ function runETL(obj) {
     object["type"] = type;
     object["tags"] = tags;
     object["alignment"] = alignTypeOut + " " + alignClassOut;
-
     if (obj.ac != undefined) {
       if (obj.ac[0].ac != undefined) {
         object["ac"] = obj.ac[0].ac;
@@ -385,13 +372,11 @@ function runETL(obj) {
     } else {
       object["ac"] = undefined;
     }
-
     if (obj.hp != undefined) {
       object["hp"] = obj.hp.average;
     } else {
       object["hp"] = "N/A";
     }
-
     object["speed"] = speed;
     object["STR"] = obj["str"];
     object["DEX"] = obj["dex"];
@@ -405,15 +390,12 @@ function runETL(obj) {
     object["immune"] = immunes;
     object["vulnerable"] = vulnerables;
     object["conditionImmune"] = ConImmune;
-
     if (sensesOut.charAt(0) == ",") {
       object["senses"] = sensesOut.slice(2);
     } else {
       object["senses"] = sensesOut;
     }
-
     object["languages"] = langOut;
-
     if (traitsOut != undefined) {
       var traitsOutLength = traitsOut.length;
       for (var i = 0; i < traitsOutLength; i++) {
@@ -436,7 +418,6 @@ function runETL(obj) {
       object[A0H] = undefined;
       object[A0D] = undefined;
     }
-
     if (reactionsOut != undefined) {
       var reactionsOutLength = reactionsOut.length;
       for (var i = 0; i < reactionsOutLength; i++) {
@@ -448,7 +429,6 @@ function runETL(obj) {
       object[RA0H] = undefined;
       object[RA0D] = undefined;
     }
-
     if (LegendaryActionsOut != undefined) {
       var LegendaryActionsOutLength = LegendaryActionsOut.length;
       for (var i = 0; i < LegendaryActionsOutLength; i++) {
@@ -460,7 +440,6 @@ function runETL(obj) {
       object[LA0H] = undefined;
       object[LA0D] = undefined;
     }
-
     object["CasterInnate"] = CasterInnate;
     object["innateHeaderEntry"] = headerentryI;
     object["spellHeaderEntry"] = headerentryS;

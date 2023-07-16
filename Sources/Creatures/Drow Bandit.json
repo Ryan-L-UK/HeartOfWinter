@@ -1,1 +1,91 @@
-{"name":"Drow Bandit","source":"OotA","page":194,"_copy":{"name":"Bandit","source":"MM","_trait":{"name":"Drow","source":"PHB"}},"traitTags":["Fey Ancestry","Sunlight Sensitivity"],"spellcastingTags":["I"],"hasToken":true}
+{
+  "name": "Drow Bandit",
+  "source": "OotA",
+  "page": 194,
+  "traitTags": ["Fey Ancestry", "Sunlight Sensitivity"],
+  "spellcastingTags": ["I"],
+  "hasToken": true,
+  "size": ["M"],
+  "type": {
+    "type": "humanoid",
+    "tags": [
+      {
+        "tag": "elf",
+        "prefix": "Drow"
+      }
+    ]
+  },
+  "alignment": ["NX", "C", "G", "NY", "E"],
+  "ac": [
+    {
+      "ac": 12,
+      "from": ["{@item leather armor|phb}"]
+    }
+  ],
+  "hp": {
+    "average": 11,
+    "formula": "2d8 + 2"
+  },
+  "speed": {
+    "walk": 30
+  },
+  "str": 11,
+  "dex": 12,
+  "con": 12,
+  "int": 10,
+  "wis": 10,
+  "cha": 10,
+  "passive": 10,
+  "languages": ["any one language (usually Common)", "Elvish"],
+  "cr": "1/8",
+  "action": [
+    {
+      "name": "Scimitar",
+      "entries": [
+        "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) slashing damage."
+      ]
+    },
+    {
+      "name": "Light Crossbow",
+      "entries": [
+        "{@atk rw} {@hit 3} to hit, range 80/320 ft., one target. {@h}5 ({@damage 1d8 + 1}) piercing damage."
+      ]
+    }
+  ],
+  "attachedItems": ["light crossbow|phb", "scimitar|phb"],
+  "languageTags": ["C", "X"],
+  "damageTags": ["P", "S"],
+  "miscTags": ["MW", "RNG", "RW"],
+  "senses": ["darkvision 120 ft."],
+  "skill": {
+    "perception": "+2"
+  },
+  "spellcasting": [
+    {
+      "name": "Innate Spellcasting",
+      "headerEntries": [
+        "The drow bandit's innate spellcasting ability is Charisma (spell save {@dc 10}). The drow bandit can innately cast the following spells, requiring no material components:"
+      ],
+      "will": ["{@spell dancing lights}"],
+      "daily": {
+        "1e": ["{@spell darkness}", "{@spell faerie fire}"]
+      },
+      "ability": "cha",
+      "type": "spellcasting"
+    }
+  ],
+  "trait": [
+    {
+      "name": "Fey Ancestry",
+      "entries": [
+        "The drow bandit has advantage on saving throws against being charmed, and magic can't put the drow bandit to sleep."
+      ]
+    },
+    {
+      "name": "Sunlight Sensitivity",
+      "entries": [
+        "While in sunlight, the drow bandit has disadvantage on attack rolls, as well as on Wisdom ({@skill Perception}) checks that rely on sight."
+      ]
+    }
+  ]
+}

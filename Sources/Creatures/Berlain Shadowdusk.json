@@ -1,1 +1,165 @@
-{"name":"Berlain Shadowdusk","isNpc":true,"isNamedCreature":true,"source":"WDMM","page":283,"_copy":{"name":"Archmage","source":"MM","_mod":{"*":{"mode":"replaceTxt","replace":"the archmage","with":"Berlain","flags":"i"},"trait":{"mode":"appendArr","items":{"name":"Extra Parts","entries":["As a bonus action, Berlain can use her extra mouth and arms to cast any cantrip she has prepared."]}}}},"type":"aberration","alignment":["C","E"],"languages":["Common","Deep Speech","Grell","Undercommon"],"spellcasting":[{"name":"Spellcasting","headerEntries":["Berlain is an 18th-level spellcaster. Her spellcasting ability is Intelligence (spell save {@dc 17}, {@hit 9} to hit with spell attacks). Berlain can cast {@spell disguise self} and invisibility at will and has the following wizard spells prepared:"],"spells":{"0":{"spells":["{@spell fire bolt}","{@spell light}","{@spell mage hand}","{@spell prestidigitation}","{@spell shocking grasp}"]},"1":{"slots":4,"spells":["{@spell detect magic}","{@spell identify}","{@spell mage armor}*","{@spell magic missile}"]},"2":{"slots":3,"spells":["{@spell detect thoughts}","{@spell mirror image}","{@spell misty step}"]},"3":{"slots":3,"spells":["{@spell counterspell}","{@spell fly}","{@spell lightning bolt}"]},"4":{"slots":3,"spells":["{@spell polymorph}","{@spell fire shield}","{@spell stoneskin}*"]},"5":{"slots":3,"spells":["{@spell cone of cold}","{@spell scrying}","{@spell wall of force}"]},"6":{"slots":1,"spells":["{@spell globe of invulnerability}"]},"7":{"slots":1,"spells":["{@spell teleport}"]},"8":{"slots":1,"spells":["{@spell mind blank}*"]},"9":{"slots":1,"spells":["{@spell time stop}"]}},"footerEntries":["*Berlain casts these spells on herself before combat."],"ability":"int"}],"languageTags":["C","DS","OTH","U"],"hasToken":true,"hasFluff":true}
+{
+  "name": "Berlain Shadowdusk",
+  "isNpc": true,
+  "isNamedCreature": true,
+  "source": "WDMM",
+  "page": 283,
+  "type": "aberration",
+  "alignment": ["C", "E"],
+  "languages": ["Common", "Deep Speech", "Grell", "Undercommon"],
+  "spellcasting": [
+    {
+      "name": "Spellcasting",
+      "headerEntries": [
+        "Berlain is an 18th-level spellcaster. Her spellcasting ability is Intelligence (spell save {@dc 17}, {@hit 9} to hit with spell attacks). Berlain can cast {@spell disguise self} and invisibility at will and has the following wizard spells prepared:"
+      ],
+      "spells": {
+        "0": {
+          "spells": [
+            "{@spell fire bolt}",
+            "{@spell light}",
+            "{@spell mage hand}",
+            "{@spell prestidigitation}",
+            "{@spell shocking grasp}"
+          ]
+        },
+        "1": {
+          "slots": 4,
+          "spells": [
+            "{@spell detect magic}",
+            "{@spell identify}",
+            "{@spell mage armor}*",
+            "{@spell magic missile}"
+          ]
+        },
+        "2": {
+          "slots": 3,
+          "spells": [
+            "{@spell detect thoughts}",
+            "{@spell mirror image}",
+            "{@spell misty step}"
+          ]
+        },
+        "3": {
+          "slots": 3,
+          "spells": [
+            "{@spell counterspell}",
+            "{@spell fly}",
+            "{@spell lightning bolt}"
+          ]
+        },
+        "4": {
+          "slots": 3,
+          "spells": [
+            "{@spell polymorph}",
+            "{@spell fire shield}",
+            "{@spell stoneskin}*"
+          ]
+        },
+        "5": {
+          "slots": 3,
+          "spells": [
+            "{@spell cone of cold}",
+            "{@spell scrying}",
+            "{@spell wall of force}"
+          ]
+        },
+        "6": {
+          "slots": 1,
+          "spells": ["{@spell globe of invulnerability}"]
+        },
+        "7": {
+          "slots": 1,
+          "spells": ["{@spell teleport}"]
+        },
+        "8": {
+          "slots": 1,
+          "spells": ["{@spell mind blank}*"]
+        },
+        "9": {
+          "slots": 1,
+          "spells": ["{@spell time stop}"]
+        }
+      },
+      "footerEntries": [
+        "*Berlain casts these spells on herself before combat."
+      ],
+      "ability": "int",
+      "type": "spellcasting"
+    }
+  ],
+  "languageTags": ["C", "DS", "OTH", "U"],
+  "hasToken": true,
+  "hasFluff": true,
+  "size": ["M"],
+  "ac": [
+    12,
+    {
+      "ac": 15,
+      "condition": "with {@spell mage armor}",
+      "braces": true
+    }
+  ],
+  "hp": {
+    "average": 99,
+    "formula": "18d8 + 18"
+  },
+  "speed": {
+    "walk": 30
+  },
+  "str": 10,
+  "dex": 14,
+  "con": 12,
+  "int": 20,
+  "wis": 15,
+  "cha": 16,
+  "save": {
+    "int": "+9",
+    "wis": "+6"
+  },
+  "skill": {
+    "arcana": "+13",
+    "history": "+13"
+  },
+  "passive": 12,
+  "resist": [
+    {
+      "special": "damage from spells"
+    },
+    {
+      "resist": ["bludgeoning", "piercing", "slashing"],
+      "note": "(from stoneskin)",
+      "cond": true,
+      "preNote": "nonmagical"
+    }
+  ],
+  "cr": "12",
+  "trait": [
+    {
+      "name": "Magic Resistance",
+      "entries": [
+        "Berlain has advantage on saving throws against spells and other magical effects."
+      ]
+    },
+    {
+      "name": "Extra Parts",
+      "entries": [
+        "As a bonus action, Berlain can use her extra mouth and arms to cast any cantrip she has prepared."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Dagger",
+      "entries": [
+        "{@atk mw,rw} {@hit 6} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+      ]
+    }
+  ],
+  "attachedItems": ["dagger|phb"],
+  "traitTags": ["Magic Resistance"],
+  "damageTags": ["P"],
+  "damageTagsSpell": ["C", "F", "L", "O"],
+  "spellcastingTags": ["CW"],
+  "miscTags": ["MW", "RW", "THW"]
+}

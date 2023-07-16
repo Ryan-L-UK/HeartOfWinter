@@ -1,42 +1,60 @@
 //-----------------------------------------
 //Adventure Selector
 //-----------------------------------------
-
+const converter = new showdown.Converter({ extensions: ["table"] });
 const queryString = window.location.search;
-console.log(queryString);
-
 const urlParams = new URLSearchParams(queryString);
+const adv = urlParams.get("Adventure");
+const advOut = `http://localhost:8080/Sources/Adventures/${adv}.md`;
 
-const Adv = urlParams.get("Adventure");
-console.log(Adv);
+const fetchAndProcessImageMap = (src, imgId) => {
+  fetch(src)
+    .then((response) => response.text())
+    .then((imageMapHtml) => {
+      const tempDiv = document.createElement("div");
+      tempDiv.innerHTML = imageMapHtml;
+      const img = document.getElementById(imgId);
+      img.insertAdjacentHTML("afterend", imageMapHtml);
+      img.remove();
+      console.log("Image map processed successfully");
+    })
+    .catch((error) => {
+      console.log("Error processing image map:", error);
+    });
+};
 
-var AdvOut = "";
-AdvOut = "http://localhost:8080/Sources/Adventures/" + Adv + ".html";
-console.log(AdvOut);
+fetch(advOut)
+  .then((response) => response.text())
+  .then((markdown) => {
+    const html = converter.makeHtml(markdown);
+    const div = document.createElement("div");
+    div.innerHTML = html;
+    const images = div.getElementsByTagName("img");
+    for (let i = 0; i < images.length; i++) {
+      const img = images[i];
+      const src = img.getAttribute("src");
+      if (src.endsWith(".html")) {
+        const imgId = src.replace(/\W/g, "_"); // Generate unique ID based on the image map file name
+        img.setAttribute("id", imgId);
+        fetchAndProcessImageMap(src, imgId);
+      } else {
+        img.classList.add("markdown-image");
+      }
+    }
 
-fetch(AdvOut)
-  .then(function (Lresponse) {
-    // When the page is loaded convert it to text
-    return Lresponse.text();
+    const tables = div.getElementsByTagName("table");
+    for (let i = 0; i < tables.length; i++) {
+      const table = tables[i];
+      table.classList.add("markdown-table");
+    }
+
+    document.getElementById("Adv_output").innerHTML = div.innerHTML;
+    console.log("Adventure loaded successfully...");
   })
-  .then(function (AdventureHTML) {
-    // Initialize the DOM parser
-    var parser = new DOMParser();
-
-    // Parse the text
-    var AdventureDoc = parser.parseFromString(AdventureHTML, "text/html");
-
-    // You can now even select part of that html as you would in the regular DOM
-    // Example:
-    var AdventureArticle = AdventureDoc.querySelector("html").innerHTML;
-    document.getElementById("Adv_output").innerHTML = AdventureArticle;
-    console.log(AdventureDoc);
-    console.log("Adventure Loaded Successfully...");
-  })
-  .catch(function (err) {
+  .catch((error) => {
     console.log(
-      "Librarians: If it is not in our records, it does not exist. ",
-      err
+      "Librarians: If it is not in our records, it does not exist.",
+      error
     );
   })
 
@@ -56,7 +74,7 @@ fetch(AdvOut)
       newDiv.appendChild(newAnchor);
 
       var jumplinkspec = menuselector.replace(/[^a-zA-Z0-9 ]/g, "");
-      var jumplinkCap = "#" + jumplinkspec.replaceAll(" ", "-");
+      var jumplinkCap = "#" + jumplinkspec.replaceAll(" ", "");
       var jumplink = jumplinkCap.toLowerCase();
       console.log(elementtag + ": " + menuselector + " ---> " + jumplink);
       newAnchor.setAttribute("href", jumplink);
@@ -100,7 +118,7 @@ var stickyos = sticky - 70;
 
 // Add the sticky class to the sidenav when you reach its scroll position. Remove "sticky" when you leave the scroll position
 function myFunction() {
-  if (window.pageYOffset >= stickyos) {
+  if (window.scrollY >= stickyos) {
     console.log("Sourceror: Menu Locked...");
     sidenav.classList.add("sticky");
   } else {

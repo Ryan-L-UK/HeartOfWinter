@@ -1,1 +1,60 @@
-{"name":"F'yorl","isNpc":true,"isNamedCreature":true,"source":"IDRotF","page":183,"_copy":{"name":"Mind Flayer","source":"MM","_mod":{"*":{"mode":"replaceTxt","replace":"the mind flayer","with":"F'yorl","flags":"i"}}},"ac":[11],"hp":{"average":9,"formula":"13d8 + 13"},"cr":"0","spellcasting":null,"action":null,"actionTags":[],"spellcastingTags":[],"miscTags":[],"conditionInflict":[],"conditionInflictSpell":[],"hasToken":true}
+{
+  "name": "F'yorl",
+  "isNpc": true,
+  "isNamedCreature": true,
+  "source": "IDRotF",
+  "page": 183,
+  "ac": [11],
+  "hp": {
+    "average": 9,
+    "formula": "13d8 + 13"
+  },
+  "cr": "0",
+  "actionTags": [],
+  "spellcastingTags": [],
+  "miscTags": [],
+  "conditionInflict": [],
+  "conditionInflictSpell": [],
+  "hasToken": true,
+  "alias": ["Illithid"],
+  "size": ["M"],
+  "type": "aberration",
+  "alignment": ["L", "E"],
+  "speed": {
+    "walk": 30
+  },
+  "str": 11,
+  "dex": 12,
+  "con": 12,
+  "int": 19,
+  "wis": 17,
+  "cha": 17,
+  "save": {
+    "int": "+7",
+    "wis": "+6",
+    "cha": "+6"
+  },
+  "skill": {
+    "arcana": "+7",
+    "deception": "+6",
+    "insight": "+6",
+    "perception": "+6",
+    "persuasion": "+6",
+    "stealth": "+4"
+  },
+  "senses": ["darkvision 120 ft."],
+  "passive": 16,
+  "languages": ["Deep Speech", "Undercommon", "telepathy 120 ft."],
+  "trait": [
+    {
+      "name": "Magic Resistance",
+      "entries": [
+        "F'yorl has advantage on saving throws against spells and other magical effects."
+      ]
+    }
+  ],
+  "traitTags": ["Magic Resistance"],
+  "senseTags": ["SD"],
+  "languageTags": ["DS", "TP", "U"],
+  "damageTags": ["P", "Y"]
+}
