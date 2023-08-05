@@ -32,6 +32,7 @@ function compareAndDeleteFiles(newFilesDirectory, masterListDirectory) {
 // File 1: Split JSON Array
 const directoryPath = path.join(__dirname, "../sources");
 const outputDirectory = path.join(__dirname, "../Outputs");
+console.log("----------------------------------------------");
 
 fs.readdir(directoryPath, function (err, files) {
   if (err) {
@@ -45,10 +46,6 @@ fs.readdir(directoryPath, function (err, files) {
       return;
     }
 
-    console.warn("------------------------------------------");
-    console.warn("FILE LOADED: " + file);
-    console.warn("------------------------------------------");
-
     var fileName = "../sources/" + file;
     const data = fs.readFileSync(__dirname + "/" + fileName);
     let json = JSON.parse(data.toString());
@@ -57,7 +54,7 @@ fs.readdir(directoryPath, function (err, files) {
 
     Object.keys(json).forEach(function (key) {
       if (validKeys.includes(key)) {
-        console.warn("Array Name:", key);
+        console.log("FILE: " + file + " -> Array Name:", key);
 
         let directory = outputDirectory + "/" + key.toLowerCase();
         if (!fs.existsSync(directory)) {
@@ -77,10 +74,6 @@ fs.readdir(directoryPath, function (err, files) {
         }
       }
     });
-
-    console.warn("------------------------------------------");
-    console.warn("FILE SPLIT COMPLETED");
-    console.warn("------------------------------------------");
   });
 
   const monsterNewFilesDirectory = path.join(__dirname, "../Outputs/monster"),
@@ -92,7 +85,6 @@ fs.readdir(directoryPath, function (err, files) {
     spellMasterListDirectory = path.join(__dirname, "../../Sources/Spells"),
     itemNewFilesDirectory = path.join(__dirname, "../Outputs/item"),
     itemMasterListDirectory = path.join(__dirname, "../../Sources/MagicItems");
-
   compareAndDeleteFiles(monsterNewFilesDirectory, monsterMasterListDirectory);
   compareAndDeleteFiles(spellNewFilesDirectory, spellMasterListDirectory);
   compareAndDeleteFiles(itemNewFilesDirectory, itemMasterListDirectory);

@@ -69,3 +69,32 @@ function readFile(filePath, file) {
     });
   });
 }
+
+// Add a new route to handle updates when an item is bought
+app.post("/sources/:sourceType/buy/:itemName", express.json(), (req, res) => {
+  let filePath =
+    "/Sources/" + req.params.sourceType + "/" + req.params.itemName + ".json";
+  fs.readFile(__dirname + filePath, (err, data) => {
+    if (err) {
+      res.status(404).json({ error: "File not found" });
+    } else {
+      const obj = JSON.parse(data);
+      obj.status = "Sold"; // Update the "status" field to "Sold"
+
+      fs.writeFile(
+        __dirname + filePath,
+        JSON.stringify(obj, null, 2),
+        (err) => {
+          if (err) {
+            res.status(500).json({ error: "Failed to update file" });
+          } else {
+            res.json({
+              message: "Item successfully marked as Sold",
+              updatedData: obj,
+            });
+          }
+        }
+      );
+    }
+  });
+});

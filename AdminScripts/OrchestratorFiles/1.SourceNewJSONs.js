@@ -49,9 +49,6 @@ function copyFilesToSources() {
         }
       });
     });
-
-    console.log("File copying to sources directory completed.");
-    console.log("------------------------------------------");
   });
 
   // Copy bestiary files
@@ -89,9 +86,6 @@ function copyFilesToSources() {
         }
       });
     });
-
-    console.log("File copying to sources directory completed.");
-    console.log("------------------------------------------");
   });
 }
 

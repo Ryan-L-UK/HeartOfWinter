@@ -137,16 +137,35 @@ menus and footers
   display: block;
   text-align: left;
 }
-.dropdown .dropbtn:hover {
-  text-shadow: 0 0 20px #64da8b;
-}
+
 .dropdown .dropbtn:hover,
-.dropdown-content a:hover {
+.dropdown-content a:hover,
+.stdbtn:hover {
   text-shadow: 0 0 20px #64da8b;
 }
 .show {
   display: block;
 }
+
+.stdbtn {
+  font-size: 1rem;
+  border: 0;
+  outline: 0;
+  margin: 0;
+  color: #fff;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-weight: 700;
+  background-color: inherit;
+  font-family: inherit;
+  text-shadow: none;
+  transition: text-shadow 0.15s ease-in-out;
+  border: 0;
+  outline: 0;
+  margin: 0;
+  padding: 25px 8px;
+}
+
 /*-----------------------------------------------------------*/
 /*Footer*/
 /*-----------------------------------------------------------*/

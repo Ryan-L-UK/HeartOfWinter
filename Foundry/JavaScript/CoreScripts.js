@@ -100,26 +100,31 @@ for (i = 0; i < coll.length; i++) {
   });
 }
 //-----------------------------------------
-//TABLE FILTER
 function tableFilter() {
   // Declare variables
-  var input, filter, table, tr, td, i, txtValue;
+  var input, filter, table, tr, td, i, j, txtValue;
   input = document.getElementById("myInput");
   filter = input.value.toUpperCase();
   table = document.getElementById("myTable");
   tr = table.getElementsByTagName("tr");
 
-  // Loop through all table rows, and hide those who don't match the search query
-  for (i = 0; i < tr.length; i++) {
-    td = tr[i].getElementsByTagName("td")[1];
-    if (td) {
-      txtValue = td.textContent || td.innerText;
-      if (txtValue.toUpperCase().indexOf(filter) > -1) {
-        tr[i].style.display = "";
-      } else {
-        tr[i].style.display = "none";
+  // Specify the column indices to search (in this case, columns 1 and 2)
+  var columnsToSearch = [1, 2];
+
+  // Loop through all data rows (skip index 0 for header row), and hide those that don't match the search query
+  for (i = 1; i < tr.length; i++) {
+    var shouldDisplay = false;
+    for (j = 0; j < columnsToSearch.length; j++) {
+      td = tr[i].getElementsByTagName("td")[columnsToSearch[j]];
+      if (td) {
+        txtValue = td.textContent || td.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+          shouldDisplay = true;
+          break;
+        }
       }
     }
+    tr[i].style.display = shouldDisplay ? "" : "none";
   }
 }
 

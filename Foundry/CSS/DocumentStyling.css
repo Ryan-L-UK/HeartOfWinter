@@ -68,6 +68,7 @@ pre {
 /*****************************/
 em {
   font-style: italic;
+  font-family: Roboto-medium;
 }
 blockquote {
   display: flex;

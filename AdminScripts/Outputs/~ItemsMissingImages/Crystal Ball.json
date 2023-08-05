@@ -1,1 +1,0 @@
-{"name":"Crystal Ball","source":"DMG","page":159,"srd":true,"tier":"major","rarity":"very rare","reqAttune":true,"wondrous":true,"weight":3,"entries":["This crystal ball is about 6 inches in diameter. While touching it, you can cast the {@spell scrying} spell (save DC 17) with it."],"attachedSpells":["scrying"],"lootTables":["Magic Item Table H"]}

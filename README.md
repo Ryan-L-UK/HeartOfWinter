@@ -15,6 +15,12 @@ A Central Hub for all the world information for adventures in Gullet Cove and th
 
 ---
 
+Key Links:
+https://www.reddit.com/r/dndnext/comments/2mygq3/5th_edition_language_fonts/
+https://www.reddit.com/r/DnD/comments/2jwsx2/dnd_and_other_script_font_collection/
+https://www.reddit.com/r/DnD/comments/2hk7kp/dd_50_fonts/
+https://imgur.com/gallery/GkFEyL3
+
 ---
 
 # Gods, Demigods, Deities & Patrons

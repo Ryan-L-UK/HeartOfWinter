@@ -34,7 +34,16 @@
           <br />
         </div>
         <div class="View">
-          <h1 class="listname">Spell:</h1>
+          <div class="tri-container">
+            <div class="col1"><h1 class="listname">Spell:</h1></div>
+            <div class="col2"><h1 class="listname"></h1></div>
+            <div class="col3">
+              <button class="unidentified" onclick="encode();">
+                Unidentified
+              </button>
+            </div>
+          </div>
+
           <br />
           <div id="photo">
             <div class="SpellContainer">
@@ -100,7 +109,7 @@
                   <p class="spellBody" id="entriesHigherLevel-out"></p>
                 </div>
                 <br />
-                <div class="item-container">
+                <div class="item-container" id="item-container">
                   <div class="heading">
                     <p>
                       <span class="cClass" id="class0-out"></span>

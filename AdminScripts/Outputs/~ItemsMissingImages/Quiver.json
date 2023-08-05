@@ -1,1 +1,0 @@
-{"name":"Quiver","source":"PHB","page":153,"srd":true,"basicRules":true,"type":"G","rarity":"none","weight":1,"value":100,"entries":["A quiver can hold up to 20 {@item arrow|phb|arrows}."],"containerCapacity":{"item":[{"arrow|phb":20}]}}

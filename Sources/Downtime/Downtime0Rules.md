@@ -22,12 +22,12 @@ A character who has the time, the money, and the needed tools can use downtime t
 In addition to the appropriate tools for the item to be crafted, a character needs raw materials worth half of the item's selling cost. To determine how many workweeks it takes to create an item, divide its gold piece cost by 50. A character can complete multiple items in a workweek if the items' combined cost is 50 gp or lower. Items that cost more than 50 gp can be completed over longer periods of time, as long as the work in progress is stored in a safe location.
 A character needs to be proficient with the tools needed to craft an item and have access to the appropriate equipment. Everyone who collaborates needs to have the appropriate tool proficiency. You need to make any judgment calls regarding whether a character has the correct equipment. The following table provides some examples.
 
-| Proficiency                                                                                     | Items                                                                                                |
-| :---------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------- |
-| _[herbalism kit](http://localhost:8080/Sources/MagicItems/herbalism%20kit.png)_                 | Antitoxin, *[Potion Of Healing](http://localhost:8080/Sources/MagicItems/Potion%20Of%20Healing.png)* |
-| _[Leatherworker's tools](http://localhost:8080/Sources/MagicItems/Leatherworker's%20tools.png)_ | Leather armor, boots                                                                                 |
-| _[Smith's tools](http://localhost:8080/Sources/MagicItems/Smith's%20tools.png)_                 | Armor, weapons                                                                                       |
-| _[Weaver's tools](http://localhost:8080/Sources/MagicItems/Weaver's%20tools.png)_               | Cloaks, robes                                                                                        |
+| Proficiency             | Items                                                                                                                                                                              |
+| :---------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| _herbalism kit_         | _[Antitoxin (vial)](<http://localhost:8080/Sources/MagicItems/Antitoxin%20(vial).png>)_, *[Potion Of Healing](http://localhost:8080/Sources/MagicItems/Potion%20Of%20Healing.png)* |
+| _Leatherworker's tools_ | Leather armor, boots                                                                                                                                                               |
+| _Smith's tools_         | Armor, weapons                                                                                                                                                                     |
+| _Weaver's tools_        | Cloaks, robes                                                                                                                                                                      |
 
 If all the above requirements are met, the result of the process is an item of the desired sort. A character can sell an item crafted in this way at its listed price.
 
