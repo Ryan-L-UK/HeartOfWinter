@@ -43,7 +43,11 @@ fetch("http://localhost:8080/sources/BlackMarket/")
     for (const prop in data) {
       //-----------------
       // Data Cleanser
-      if (data[prop].status != "Sold") {
+      if (
+        data[prop].status != "Sold" &&
+        data[prop].status != "Pending" &&
+        data[prop].status == "Active"
+      ) {
         //-----------------
         let itemName = data[prop].name;
         var newRow = tbodyRef.insertRow();
@@ -250,6 +254,7 @@ function buyItem() {
           " for " +
           document.getElementById("BMCost").innerHTML
       );
+
       // You can add any additional actions or UI updates here
       location.reload();
     })
@@ -260,3 +265,20 @@ function buyItem() {
 }
 
 // ---------------------------------------------------------------------------------------------------------
+function generateItems() {
+  fetch("/generate-items", { method: "POST" })
+    .then((response) => response.json())
+    .then((data) => {
+      console.log(data); // Display the response in the console or update your UI accordingly
+    })
+    .catch((error) => {
+      console.error("Error generating items:", error);
+    })
+    .finally(() => {
+      location.reload(); // Reload the page after the process is completed
+    });
+}
+
+// Attach the function to the button's click event
+const generateButton = document.getElementById("generate-button");
+generateButton.addEventListener("click", generateItems);

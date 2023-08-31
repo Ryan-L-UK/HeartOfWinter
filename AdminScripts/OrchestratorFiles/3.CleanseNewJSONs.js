@@ -21,7 +21,7 @@ fs.readdirSync(folderPath).forEach((filename) => {
       if (type === "$") {
         // Move the file to the gemstones folder
         fs.renameSync(filePath, path.join(gemstonesFolderPath, filename));
-        console.log(`Moved file to gemstones folder: ${filename}`);
+        console.log(`Treasure Moved: ${filename}`);
         return; // Skip to the next file
       }
 
@@ -43,7 +43,7 @@ fs.readdirSync(folderPath).forEach((filename) => {
       ) {
         // Delete the file
         fs.unlinkSync(filePath);
-        console.log(`Deleted file: ${filename}`);
+        console.log(`Auto Delete: ${filename}`);
         return; // Skip to the next file
       }
     }
@@ -54,7 +54,7 @@ fs.readdirSync(folderPath).forEach((filename) => {
       if (data.tattoo === true) {
         // Delete the file
         fs.unlinkSync(filePath);
-        console.log(`Deleted file: ${filename}`);
+        console.log(`Tattoo Deleted: ${filename}`);
       }
     }
   }

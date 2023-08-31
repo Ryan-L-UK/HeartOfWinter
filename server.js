@@ -98,3 +98,73 @@ app.post("/sources/:sourceType/buy/:itemName", express.json(), (req, res) => {
     }
   });
 });
+
+app.post("/generate-items", (req, res) => {
+  const blackMarketPath = "/Sources/BlackMarket";
+
+  // Read all JSON files in the BlackMarket folder
+  fs.readdir(__dirname + blackMarketPath, (err, data) => {
+    if (err) {
+      res.status(500).json({ error: "Failed to read BlackMarket folder" });
+    } else {
+      const jsonFiles = data.filter((name) => name.includes(".json"));
+
+      // Filter out items that are not "Sold"
+      const activeItems = jsonFiles.filter((file) => {
+        const content = fs.readFileSync(
+          __dirname + blackMarketPath + "/" + file
+        );
+        const item = JSON.parse(content);
+        return item.status !== "Sold";
+      });
+
+      // Select a random number between 8 and 15 for the number of items to select
+      const minItemsToSelect = 6;
+      const maxItemsToSelect = 11;
+      const numberOfItemsToSelect =
+        Math.floor(Math.random() * (maxItemsToSelect - minItemsToSelect + 1)) +
+        minItemsToSelect;
+
+      const selectedItems = [];
+      while (
+        selectedItems.length < numberOfItemsToSelect &&
+        activeItems.length > 0
+      ) {
+        const randomIndex = Math.floor(Math.random() * activeItems.length);
+        const selectedItem = activeItems.splice(randomIndex, 1)[0];
+        selectedItems.push(selectedItem);
+      }
+
+      // Update status for selected and pending items
+      const updatedItems = [...selectedItems];
+      for (const item of activeItems) {
+        const filePath = blackMarketPath + "/" + item;
+        const content = fs.readFileSync(__dirname + filePath);
+        const parsedItem = JSON.parse(content);
+        parsedItem.status = "Pending";
+        updatedItems.push(item);
+        fs.writeFileSync(
+          __dirname + filePath,
+          JSON.stringify(parsedItem, null, 2)
+        );
+      }
+
+      // Update status for selected items
+      for (const item of selectedItems) {
+        const filePath = blackMarketPath + "/" + item;
+        const content = fs.readFileSync(__dirname + filePath);
+        const parsedItem = JSON.parse(content);
+        parsedItem.status = "Active";
+        fs.writeFileSync(
+          __dirname + filePath,
+          JSON.stringify(parsedItem, null, 2)
+        );
+      }
+
+      res.json({
+        message: "Items generated successfully",
+        generatedItems: selectedItems,
+      });
+    }
+  });
+});

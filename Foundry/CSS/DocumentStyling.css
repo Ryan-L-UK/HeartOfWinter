@@ -73,8 +73,8 @@ em {
 blockquote {
   display: flex;
   flex-direction: column;
-  width: 95%;
-  margin: 2% auto 2%;
+  width: 98%;
+  margin: 2% 0% 2%;
   background: #eff3f5;
   border-style: solid;
   border-width: 1px;
