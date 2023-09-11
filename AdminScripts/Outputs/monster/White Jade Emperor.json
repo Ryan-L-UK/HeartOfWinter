@@ -1,0 +1,1 @@
+{"name":"White Jade Emperor","isNpc":true,"isNamedCreature":true,"source":"JttRC","page":197,"_copy":{"name":"Noble","source":"MM","_trait":{"name":"Hill Dwarf","source":"PHB"},"_mod":{"*":{"mode":"replaceTxt","replace":"noble","with":"emperor"}}},"alignment":["L","N"],"hasToken":true,"hasFluffImages":true}

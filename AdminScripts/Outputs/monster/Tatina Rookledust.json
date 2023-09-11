@@ -1,0 +1,1 @@
+{"name":"Tatina Rookledust","isNpc":true,"isNamedCreature":true,"source":"DSotDQ","page":87,"_copy":{"name":"Acolyte","source":"MM","_trait":{"name":"Rock Gnome","source":"PHB"},"_mod":{"*":{"mode":"replaceTxt","replace":"the acolyte","with":"Tatina","flags":"i"}}},"alignment":["N","G"],"hasToken":true,"hasFluffImages":true}

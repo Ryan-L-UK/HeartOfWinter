@@ -1,6 +1,6 @@
 #!/bin/bash
 
-input="FileRelocationList.txt"
+input="Outputs/FileRelocationList.txt"
 # Skip the first line of the input file
 tail -n +2 "$input" |
 # Skip the last line of the input file using sed
@@ -12,6 +12,6 @@ do
 
   echo "-----------------------"
   echo "Moving: $line"
-  mv "../Sources/Creatures/$line" "./Outputs/Creature_Copies/"
+  mv "../Sources/Creatures/$line" "./Outputs/monster/"
   echo "-----------------------"
 done

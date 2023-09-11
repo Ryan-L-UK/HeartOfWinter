@@ -1,6 +1,6 @@
 #!/bin/bash
 
-input="FileRelocationList.txt"
+input="Outputs/FileRelocationList.txt"
 # Skip the first line of the input file
 tail -n +2 "$input" |
 # Skip the last line of the input file

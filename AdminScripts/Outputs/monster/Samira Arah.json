@@ -1,0 +1,1 @@
+{"name":"Samira Arah","isNpc":true,"isNamedCreature":true,"source":"JttRC","page":68,"_copy":{"name":"Spy","source":"MM","_trait":{"name":"High Elf","source":"PHB"},"_mod":{"*":{"mode":"replaceTxt","replace":"the spy","with":"Samira","flags":"i"}}},"alignment":["N"],"traitTags":["Fey Ancestry","Sneak Attack"],"hasToken":true,"hasFluffImages":true}

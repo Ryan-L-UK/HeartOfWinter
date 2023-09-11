@@ -441,6 +441,7 @@
 				"S"
 			],
 			"miscTags": [
+				"MLW",
 				"MW",
 				"RNG",
 				"RW"
@@ -582,10 +583,6 @@
 				"desert",
 				"underdark"
 			],
-			"soundClip": {
-				"type": "external",
-				"url": "https://5e.tools/audio/bestiary/purple-worm.mp3"
-			},
 			"traitTags": [
 				"Tunneler"
 			],
@@ -746,6 +743,7 @@
 				"B"
 			],
 			"miscTags": [
+				"MLW",
 				"MW",
 				"RW"
 			],

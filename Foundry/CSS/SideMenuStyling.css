@@ -39,6 +39,11 @@ a.submenu {
   padding-left: 30px;
   font-size: 0.75rem;
 }
+a.expandmenu {
+  font-size: 0.65rem;
+  padding-left: 45px;
+  text-decoration: none;
+}
 .sticky {
   position: fixed;
   top: 0;

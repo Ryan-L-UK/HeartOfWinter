@@ -1,0 +1,1 @@
+{"name":"+2 Ring of Protection","source":"TDCSR","_copy":{"name":"Ring of Protection","source":"DMG","_mod":{"entries":{"mode":"replaceTxt","replace":"\\+1","with":"+2","flags":"i"}},"_preserve":{"tier":true}},"bonusAc":"+2","bonusSavingThrow":"+2","optionalfeatures":[],"hasFluffImages":true}

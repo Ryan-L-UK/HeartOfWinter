@@ -74,7 +74,8 @@ fetch("http://localhost:8080/Sources/Creatures")
   .then((response) => response.json())
   .then((data) => {
     let missingTypes = [];
-    let copyFlags = [];
+    let simpleCopyFlags = [];
+    let allCopyFlags = [];
     //-----------------------
     //CREATE TABLE HEADINGS
     const tblParent = document.getElementById("cTable");
@@ -122,8 +123,20 @@ fetch("http://localhost:8080/Sources/Creatures")
       if (data[prop].source.includes("UA") && data[prop].source != "UAWGE") {
         console.warn("Unearthed Arcana: " + data[prop].name);
       }
+
+      //Simple Copies
+      if (
+        data[prop]._copy !== undefined &&
+        Object.keys(data[prop]._copy).length === 2 &&
+        data[prop]._copy.hasOwnProperty("name") &&
+        data[prop]._copy.hasOwnProperty("source")
+      ) {
+        simpleCopyFlags.push(data[prop].name + ".json");
+      }
+
+      //All Copies
       if (data[prop]._copy != undefined) {
-        copyFlags.push(data[prop].name + ".json");
+        allCopyFlags.push(data[prop].name + ".json");
       }
       //---------------------
 
@@ -202,8 +215,11 @@ fetch("http://localhost:8080/Sources/Creatures")
     console.warn("Creatures Missing Types:");
     console.log(missingTypes);
     console.log("----------------------------");
+    console.warn("Creatures With Simple _Copy Flags:");
+    console.log(simpleCopyFlags);
+    console.log("----------------------------");
     console.warn("Creatures With _Copy Flags:");
-    console.log(copyFlags);
+    console.log(allCopyFlags);
     console.log("----------------------------");
   });
 // ---------------------------------------------------------------------------------------------------------

@@ -4,11 +4,37 @@ function runFile(file) {
   spawnSync("node", [file], { stdio: "inherit" });
 }
 
-// Run file1
-runFile("./OrchestratorFiles/1.SourceNewJSONs.js");
+console.log(`
+-----------------------------------------------------------------------
+-----------------------------------------------------------------------
+   dMMMMMP .dMMMb  .aMMMb  dMMMMb         dMP    .aMMMb  .aMMMb  dMMMMb 
+      dMP dMP" VP dMP"dMP dMP dMP        dMP    dMP"dMP dMP"dMP dMP VMP  
+     dMP  VMMMb  dMP dMP dMP dMP        dMP    dMP dMP dMMMMMP dMP dMP  
+dK .dMP dP .dMP dMP.aMP dMP dMP        dMP    dMP.aMP dMP dMP dMP.aMP   
+VMMMP"  VMMMP"  VMMMP" dMP dMP        dMMMMMP VMMMP" dMP dMP dMMMMP"
+-----------------------------------------------------------------------
+-----------------------------------------------------------------------`);
 
-// Run file2
-runFile("./OrchestratorFiles/2.SplitNewJSONs.js");
+console.log("Sourcing New JSON Source Files");
+runFile("./OrchestratorFiles/1.SourceNewFiles.js");
 
-// Run file3
-runFile("./OrchestratorFiles/3.CleanseNewJSONs.js");
+console.log(
+  "-----------------------------------------------------------------------"
+);
+console.log("Splitting JSON Files");
+runFile("./OrchestratorFiles/2.SplitSourceFiles.js");
+
+console.log(
+  "-----------------------------------------------------------------------"
+);
+console.log("Clensing New Item Files");
+runFile("./OrchestratorFiles/3.CleanseNewItems.js");
+
+console.log(
+  "-----------------------------------------------------------------------"
+);
+console.log("Moving New Creatures Files");
+runFile("./OrchestratorFiles/4.MoveNewCreatures.js");
+console.log(
+  "-----------------------------------------------------------------------"
+);

@@ -1,0 +1,1 @@
+{"name":"Black King","isNpc":true,"source":"TDCSR","page":92,"_copy":{"name":"Stone Golem","source":"MM","_mod":{"*":{"mode":"replaceTxt","replace":"The golem","with":"The Black King","flags":"i"}}},"speed":{"walk":60},"int":18,"cha":18,"languages":["Common"],"hasFluff":true,"hasFluffImages":true}

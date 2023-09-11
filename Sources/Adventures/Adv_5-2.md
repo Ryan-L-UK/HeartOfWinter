@@ -22,8 +22,6 @@ Irenicus has used up a number of magical resources he once possessed to form ten
 
 A handful of ill-tempered elementals still roam the area. They are not loyal to Irenicus or the mercenaries, but they welcome opportunities to do battle with Irenicus's enemies—until they grow bored with Irenicus or find better allies, that is. Then they might turn on him and his mercenaries. It is often difficult to predict the whims of elementals.
 
-Two **air elementals**, two **water elementals**, and one **earth elemental** roam the lakeshore's waters, stony edges, and skies near the fortress.
-
 ### Features of the Fortress
 
 Every part of the fortress mimics some aspect of another castle, keep, or fort seen by Irenicus over the years. The result is a strange hodgepodge of architectural styles, from the mundane functionality of the central guard tower to the fanciful sweeping arches of the northern and southern walls. Those walls offer little protection against any kind of military attack or siege. Their purpose is to imitate the decorative walls of a large scholastic building Irenicus admired in Ravnica.
@@ -38,7 +36,7 @@ Irenicus doesn't care that so much of the structure serves little purpose as a f
 
 **_Sound._** Most areas have stone floors without rugs or rushes to soften them. Irenicus didn't think to include such details outside of his own keep. Every floor of every tower features a simple handbell hung from the wall somewhere, allowing the place's servants to be summoned—or to raise an alarm.
 
-## Areas of the fortress
+## Upper Level Of The Fortress
 
 The following areas correspond to labels on the maps of the Cyan fortress below.
 
@@ -76,13 +74,9 @@ This empty room lies behind a secret door. The ceiling is 10 feet high. Two arro
 
 This room lies behind a secret door.
 
-> Two arrow slits are carved into the west wall of this 10-foot-high, twenty-foot-square room. Slumped in the northeast corner is a skeleton wearing a blue wizard's robe and clutching a wand to its chest.
+> Two arrow slits are carved into the west wall of this 10-foot-high, twenty-foot-square room. Slumped in the northeast corner is a skeleton wearing a blue wizard's robe and clutching an old walking stick to its chest.
 
-The skeleton is all that remains of a wizard who froze to death. It poses no threat.
-
-#### Treasure
-
-The skeleton clutches a _wand of secrets_.
+The skeleton is all that remains of a wizard who has long since departed. It poses no threat.
 
 ### X3. Empty Barracks
 
@@ -94,7 +88,7 @@ A secret door set in one wall of each room can be pulled open to reveal area X2a
 
 ### X4. Overlook
 
-> A twenty-foot-wide balcony of black marble with a shattered railing overlooks a vast fortress. Black marble staircases at each end of the balcony descend thirty feet to the fortress floor. The vaulted ceiling is thirty feet above the balcony. The walls and ceiling are covered in an Cyan glaze, lending the gloom a golden sheen. A set of Cyan doors stands closed at the west end of the balcony. A similar pair stands open to the east.
+> A twenty-foot-wide balcony of black marble with a shattered railing overlooks a vast fortress. Black marble staircases at each end of the balcony descend thirty feet to the fortress floor. The vaulted ceiling is thirty feet above the balcony. The walls and ceiling are covered in an Cyan glaze, lending the gloom a cold sheen. A set of Cyan doors stands closed at the west end of the balcony. A similar pair stands open to the east.
 
 Anyone with a passive Wisdom (Perception) score of 12 or higher notice arrow slits in the walls overlooking the fortress (see areas X8 and X17 for more information on these arrow slits). If the characters' light source or vision extends 90 feet or more, they can see a large, faceless statue at the far end of the fortress (area X5a).
 
@@ -430,6 +424,8 @@ There are no ladders here to reach the high bookshelves. (The wizards who built 
 A book that is taken from the library disintegrates as the magic that preserves it is dispelled. The room's furnishings, which are also magically preserved, deteriorate and become brittle if taken from the room.
 
 The secret door in the center of the west wall can be pulled open to reveal an empty room (area X29). The one in the center of the south wall can be pulled open to reveal a staircase that descends 30 feet to another secret door leading to area X5.
+
+## Lower Level Of The Fortress
 
 ![Lower Level](http://localhost:8080/Sources/Adventures/ImageMaps/CaerWestfallLL.html)
 
@@ -782,29 +778,3 @@ The beneficiary of this dark gift gains the following flaw: "All I care about is
 **_East Sarcophagus._** The vestige within this sarcophagus offers the dark gift of Zhudun, the Corpse Star. Zhudun's gift is the power to raise the ancient dead. As an action, the beneficiary of this dark gift can touch the remains of a dead creature and restore it to life. The effect is identical to that of the _resurrection_ spell, except that it works regardless of how long the creature has been dead. After it has been used once, the dark gift vanishes.
 
 The beneficiary of this dark gift takes on a corpselike appearance and is easily mistaken for an undead.
-
-# Appendix A: Monsters & NPCs
-
-These statistics describe some of the key NPCs that appear in this adventure.
-
-- **Mercenary Envoy**
-- **Irenicus, Illusionist**
-
----
-
-# Appendix B: Spells
-
-The effects of these wizard spells appear in this adventure. The spell mighty fortress originally appeared in Xanathar's Guide to Everything.
-
-- _Linked Glyphs_
-- _Mighty Fortress_
-
----
-
-# Appendix C: Artifacts
-
-This appendix details three kinds of artifacts that appear throughout this adventure.
-
-- _Stone of Creation_
-- _Chip of Creation_
-- _Keystone of Creation_
