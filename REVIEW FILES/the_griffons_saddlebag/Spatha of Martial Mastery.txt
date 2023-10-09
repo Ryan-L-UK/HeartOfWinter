@@ -1,0 +1,13 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Spatha of Martial Mastery Weapon (shortsword), rare (requires attunement by a barbarian, fighter, monk, or rogue)
+___
+
+A long white ribbon trails behind this shimmering sword, whose blade is forged with swirls of gold. You gain a +1 bonus to attack and damage rolls made with this magic weapon. In addition, you gain the following benefits.
+
+𝘾𝙪𝙣𝙣𝙞𝙣𝙜 𝙎𝙩𝙧𝙞𝙠𝙚. If you have 5 or more levels in the rogue class, you can use your Cunning Action feature to make a single attack with this weapon as a bonus action if you do not use an action to make a weapon attack or cast a spell on the same turn, as you master the balance of offense and improvisation.
+
+𝙁𝙧𝙚𝙚𝙙 𝙃𝙖𝙣𝙙. If you have 5 or more levels in the barbarian class, any target you hit with this weapon while raging takes an extra 1d6 piercing damage from it, as you master both brutal blows and the free exercise of your strength. You don't gain this benefit if you're holding a weapon or shield in your other hand.
+
+𝙆𝙞 𝘾𝙝𝙖𝙣𝙣𝙚𝙡𝙞𝙣𝙜. If you have 5 or more levels in the monk class, you can use this weapon in place of any unarmed strike you make, as you master the grace and flow of your swordplay. Any feature that relies on or benefits your unarmed strikes, such as your Flurry of Blows or Martial Arts features, also applies to this weapon. In addition, whenever you use your Step of the Wind feature as a bonus action, you can immediately make one melee attack with the sword as part of that action.
+
+𝙈𝙖𝙣𝙞𝙥𝙪𝙡𝙖𝙩𝙞𝙣𝙜 𝘼𝙩𝙩𝙖𝙘𝙠. If you have 5 or more levels in the fighter class, you can take the Use an Object action or shove a target within your reach once per turn immediately after making an attack with this sword as part of the Attack action, as you master versatile tactics to shift the flow of battle. You can only push a target up to 5 feet away from you when you shove it in this way, but can choose to make the contested check using Dexterity (Acrobatics) instead of a Strength (Athletics) when you do.

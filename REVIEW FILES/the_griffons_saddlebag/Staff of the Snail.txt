@@ -1,0 +1,15 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Staff of the Snail Staff, uncommon or rare (requires attunement by a spellcaster)
+___
+
+This wooden crook has a large snail shell at its top. While holding it, the wood by the shell softens and turns into the body of a large snail, which aimlessly looks around as if to take in its surroundings. The staff can be used as a magical quarterstaff. When found, this staff is an uncommon magic item with the following properties.
+
+𝙎𝙡𝙤𝙬𝙞𝙣𝙜 𝘼𝙩𝙩𝙖𝙘𝙠. The first creature you hit with an attack with this staff on each of your turns has its walking speed reduced by 5 feet until the start of your next turn.
+
+𝙎𝙡𝙤𝙬. While holding the staff, you can use an action to cast the slow spell from it, using your spell save DC. This property can't be used again until the next dawn.
+
+𝘾𝙪𝙧𝙨𝙚. This staff is cursed, and becoming attuned to it extends the curse to you. As long as you remain cursed, you are unwilling to part with the staff, keeping it within reach at all times. While cursed, your walking speed is reduced by 5 feet, and you can feel a sense of sadness from the magically embedded snail in the staff. An "identify" spell reveals the staff has a spirit bound to it, but not the fact that it's cursed.
+
+You remain cursed until targeted by the "remove curse" spell or until either a "banishment" or "dispel magic" spell of 5th-level or higher is cast on the staff. If the staff is banished or dispelled, you can feel a great sense of relief wash over the staff as its trapped spirit is allowed to depart at last. When this happens, the staff becomes a rare magic item that isn't cursed with the alternate properties below.
+
+...See the comment below!

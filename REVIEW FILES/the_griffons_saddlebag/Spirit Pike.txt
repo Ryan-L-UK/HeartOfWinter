@@ -1,0 +1,8 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Spirit Pike
+Weapon (pike), rare (requires attunement by a cleric)
+___
+
+This magical pike's heft and technique come naturally to you once you attune to it, allowing you to wield the spirit pike with proficiency. This weapon has a number of charges equal to your Wisdom modifier (minimum of 1) that recharge each day at dawn. When you hit with a weapon attack using the pike, you can immediately expend a charge to channel divine energy through the weapon and deal an additional 1d10 radiant damage with the attack.
+
+If you cast the "spiritual weapon" spell while holding the pike, you can choose to dissolve the weapon from your hand and have the spiritual weapon take on the form of the pike. If you do, your spiritual weapon's damage die becomes a d10 but does not retain the pike's reach property. When the spell ends, the pike returns to your hand or falls to the ground at your feet if your hands are full.

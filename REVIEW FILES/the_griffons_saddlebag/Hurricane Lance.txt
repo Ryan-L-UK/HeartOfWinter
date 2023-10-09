@@ -1,0 +1,12 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Hurricane Lance
+Weapon (lance), very rare (requires attunement)
+___
+
+You gain a +2 bonus to attack and damage rolls made with this magic weapon.
+
+The lance has 4 charges. You can expend a charge to surround yourself with a flurry of wind and cast *zephyr strike* on yourself without expending a spell slot. You can expend a second charge of the weapon (no action required) to extend the spell to target any mount you are currently riding. If you dismount or are forced off your mount, the spell fades from the creature. The weapon regains 1d4 expended charges daily at dawn.
+
+In addition, you can cast 𝘵𝘩𝘶𝘯𝘥𝘦𝘳𝘸𝘢𝘷𝘦 once per day at 3rd level (save DC 18) without expending a spell slot and without requiring any somatic components. You must be holding the lance to cast the spell in this way.
+
+___

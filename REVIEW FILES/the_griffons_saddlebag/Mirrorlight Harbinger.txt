@@ -1,0 +1,12 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Mirrorlight Harbinger
+Staff, uncommon (requires attunement by a spellcaster)
+___
+
+This staff has a fist-sized mirrorlight crystal at its end and can also be used as a magic quarterstaff. While holding the staff, you can use an action to cause the staff's crystal to emit bright light in a 20-foot radius and dim light for an additional 20 feet. The light remains for 1 hour or until you use an action to end it early.
+
+The staff has 10 charges and regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff shatters like glass and is destroyed.
+
+𝙎𝙥𝙚𝙡𝙡𝙨. While holding the staff, you can use an action to expend 1 or more of its charges to cast either "color spray" (2 charges) or "silent image" (1 charge), using your spell save DC.
+
+𝙄𝙡𝙡𝙪𝙨𝙤𝙧𝙮 𝘼𝙩𝙩𝙖𝙘𝙠𝙚𝙧. While holding the staff, you can use an action to expend 1 of its charges to create an illusory duplicate of yourself in an unoccupied space that you can see up to 60 feet away from you. The duplicate immediately makes two melee spell attacks with its illusory staff against a target within 5 feet of it, using your spell attack bonus. On a hit, the target takes force damage equal to 1d8 plus your spellcasting ability modifier. The duplicate then vanishes.

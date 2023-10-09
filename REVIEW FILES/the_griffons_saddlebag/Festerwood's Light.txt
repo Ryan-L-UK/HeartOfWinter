@@ -1,0 +1,14 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Festerwood's Light
+Weapon (rapier), legendary (requires attunement)
+___
+
+This festerwood rapier's blade is inlaid with scrapings from the Lightspore, the radiant mushroom growing at the center of the festerwood. You gain a +1 bonus to attack and damage rolls made with this magic weapon. In addition, while you're attuned to this rapier, you have advantage on navigation checks to find locations within the festerwood and are immune to disease. While holding the sword, the blade sheds bright light in a 10-foot radius and dim light for another 10 feet.
+
+You can use an action to raise the blade overhead and speak its command word. When you do, all other creatures within 30 feet of you are dusted with a sudden wave of magical spores. A friendly creature affected by the spores is suddenly invigorated, allowing it to use its reaction to either make a single weapon attack or move up to half its movement speed. A hostile creature affected by the spores must succeed on a DC 17 Constitution saving throw or be incapacitated until the end of your next turn. Once this property has been used, it can't be used again until the following dusk.
+
+The rapier has 5 charges for the following properties. The weapon regains 1d3 + 2 expended charges each day at dusk.
+
+𝙎𝙥𝙤𝙧𝙚 𝘾𝙡𝙚𝙖𝙣𝙨𝙞𝙣𝙜. As an action, you can touch a willing creature with the rapier and expend 1 charge to remove 1 Spore Counter from that creature.
+
+𝙎𝙥𝙚𝙡𝙡𝙨. While holding this rapier, you can use an action to expend 1 of its charges to cast one of the following spells from it, using a spell save DC of 17 and spell attack bonus of +9: "charm person" (4th-level version), "compulsion", "confusion", "contagion", "faerie fire", "locate animals and plants", or "moonbeam" (4th-level version). In addition, you can cast the "dancing lights" cantrip at will while holding the rapier.

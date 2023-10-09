@@ -1,0 +1,8 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Plaguebane Mask
+Wondrous item, rare
+___
+
+This bird-like mask's blend of magic and science is as unique as it is helpful to its wearer. It can be easily lifted over the wearer's face to eat or speak more clearly. The mask's beak is lined with magical flowers that react and purify airborne toxins before they pass through the mask's filter. While wearing the mask, you have advantage against being poisoned or diseased from airborne sources, as well as resistance to the poison damage that they might cause.
+
+In addition, the flowers hold 3 charges and regain 1d3 expended charges each day at dawn as new flowers bloom. You can hold the beak's nostrils closed with a free hand and expend 1 charge using an action to exhale a 15 foot cone of thick pollen in front of you. Affected creatures caught in the pollen must make a DC 14 Constitution saving throw. On a failure, creatures take 1d10 poison damage and have their speed halved until the end of their next turn. On a success, the damage is halved and their speed is unchanged.

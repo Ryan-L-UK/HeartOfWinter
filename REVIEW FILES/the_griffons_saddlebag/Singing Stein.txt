@@ -1,0 +1,15 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Singing Stein
+Wondrous item, common
+___
+
+While at least a sip's worth of potable alcohol is held by this pewter stein, the face adorning the vessel comes alive to sing songs in line with the kind of beverage within it. The stein is not sentient, but does have a pleasant singing voice. If there are multiple steins in the same room, they can sing together if they have the same drinks within them.
+
+The stein sings songs a little out of key if the drink inside is poisoned and can be detected with a successful Wisdom (perception) check, as determined by the DM. If there are multiple kinds of alcohols within it, the stein either alternates between song types or does its best to combine their various lyrics.
+
+𝗘𝘅𝗮𝗺𝗽𝗹𝗲 𝗱𝗿𝗶𝗻𝗸 | 𝗧𝘆𝗽𝗲 𝗼𝗳 𝘀𝗼𝗻𝗴
+Wine | Ballad
+Rum | Sea Shanty
+Ale | Drinking song
+
+___

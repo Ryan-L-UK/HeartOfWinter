@@ -1,0 +1,8 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Shadowsmoke Dragon Pipe
+Wondrous item, rare
+___
+
+This magical wooden pipe leaves behind odorless smoke that dissipates rapidly. The head of the pipe detaches, allowing you to refill it easily. The pipe has 4 charges and regains 1d3+1 expended charges each day at dusk. As an action, you can expend a charge to blow a small, condensed smoke ring at a friendly creature (including yourself) that you can see within 30 feet of you.
+
+A creature affected by the smoke ring in this way can choose to immediately turn invisible or wear the smoke as if it were a physical ring. The ring lasts for 1 minute or until the creature uses a bonus action on one of its turns to turn invisible. A creature turned invisible by the smoke ring reappears at the start of its next turn or when they attack or cast a spell. A creature can only have 1 smoke ring at any time.

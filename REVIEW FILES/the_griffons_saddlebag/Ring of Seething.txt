@@ -1,0 +1,8 @@
+💍 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Ring of Seething
+Ring, uncommon (requires attunement)
+___
+
+This black band is cool to the touch and has several cracks throughout its otherwise smooth body. When you attune to the ring, choose a creature type: aberration, celestial, dragon, elemental, fey, fiend, or undead. While wearing the ring, its normally cool band begins to grow hot when a creature of the selected type is within 60 feet of you. In addition, you have advantage on any saving throws you make to resist being charmed or frightened by a creature of that selected type. While seemingly radiating heat, it feels only warm against your skin. Small flecks of the metal hover just above the surface of the ring when glowing in this way.
+
+𝘾𝙪𝙧𝙨𝙚. Once you attune to the ring and place it on your finger, you can’t remove it unless targeted by a "remove curse" spell. While cursed, you have disadvantage on any Charisma or Wisdom (Insight) checks you make that involve a creature of the selected type. In addition, while within 60 feet of one or more creatures of that type, you have disadvantage on any attack roll you make that targets a creature of a different type.

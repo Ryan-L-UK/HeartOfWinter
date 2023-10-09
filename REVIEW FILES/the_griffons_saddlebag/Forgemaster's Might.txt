@@ -1,0 +1,12 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Forgemaster's Might
+Weapon (warhammer or maul), legendary (requires attunement)
+___
+
+You gain a +2 bonus to attack and damage rolls made with this magic weapon. In addition, you must have a Strength score of 17 or higher to lift this great hammer, and Clerics of the Forge Domain have proficiency with this magical hammer.
+
+You can use a bonus action to speak this magic hammer's command phrase, "Light the forge", causing flames to curl up and heat the anvil-like head. These flames shed bright light in a 20-foot radius and dim light for an additional 20 feet. While the hammer is alight, it deals an additional 1d8 fire damage to any target it hits and ignores resistance to fire damage. The flames last until you use a bonus action to speak the command word "Quench," or until you drop or stow the hammer.
+
+𝙎𝙢𝙞𝙩𝙝'𝙨 𝘽𝙡𝙚𝙨𝙨𝙞𝙣𝙜. While you are attuned to this weapon, you know the *mending* cantrip, whose size limitation increases to 5 feet in any dimension when repairing metallic components. Additionally, you can cast fabricate and creation once each using the hammer. Creation is cast as a 6th level spell when cast with the hammer, and its conjured materials can be used with the fabricate spell. The casting time for these spells is one action when cast in this way, and the spells can't be used again until the next dawn. This weapon can also serve as a magically enchanted anvil, allowing skill checks made with *smith's tools* to be made with advantage when using the hammer's head as the anvil.
+
+𝙄𝙧𝙤𝙣 𝙍𝙖𝙯𝙚. The hammer deals an additional 2d8 bludgeoning damage when you hit a construct or structure with it.

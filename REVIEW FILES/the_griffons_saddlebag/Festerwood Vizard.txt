@@ -1,0 +1,8 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Festerwood Vizard
+Wondrous item, rare (requires attunement)
+___
+
+This dark wooden mask is strangely insect-like and magically conforms to fit the face of the creature that attunes to it. While wearing the mask, you gain blindsight out to a range of 10 feet. You can wear and remove the mask using an action.
+
+In addition, you can summon a "swarm of insects" (beetles) that fly out of the mask’s mouth and obey your verbal commands as an action. You can command the swarm to move and make an attack as part of the action to summon them and then again on your following turns as a bonus action. If the swarm goes 10 minutes without attacking a creature, they dissipate harmlessly to seek food elsewhere. Once this property of the mask has been used, it can't be used again until the following dusk.

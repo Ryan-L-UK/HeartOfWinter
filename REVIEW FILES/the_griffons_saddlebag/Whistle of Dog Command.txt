@@ -1,0 +1,19 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Whistle of Dog Command Wondrous item, uncommon
+___
+
+You can use an action to blow this whistle, which is only audible to dogs and wolves within 300 feet of you. When you do, choose up to four dogs or wolves that you can see that can hear the whistle. Each creature must make a DC 15 Wisdom saving throw. On a failed save, the creature is affected by a special version of the "command" spell, and it must obey your choice of one of the following commands on its next turn:
+
+𝗔𝘁𝘁𝗮𝗰𝗸. The creature moves up to its speed toward a target of your choice. If the target is within its reach at the end of this movement, the creature then makes a single attack against the target, using either its bite or claws.
+
+𝗗𝗿𝗼𝗽 𝗜𝘁. The target drops whatever it is holding and then ends its turn.
+
+𝗙𝗲𝘁𝗰𝗵. The creature uses its action to Dash and retrieve an item that it can carry in its mouth, returning with the item to its original space. The object must be within range of the creature's normal movement.
+
+𝗥𝗼𝗹𝗹 𝗢𝘃𝗲𝗿. The creature rolls over and remains prone for the turn.
+
+𝗦𝗶𝘁. The creature drops prone and then ends its turn.
+
+𝗦𝗽𝗲𝗮𝗸. The creature releases a loud howl that's audible out to 300 feet. If the creature communicates by howling, you decide the nature of the howl made.
+
+You don't need to speak in order to issue the chosen command. A shapeshifter is only affected by the whistle if it's in a dog or wolf form when the whistle is blown. Once this property of the whistle has been used, it can't be used again until the next dawn.

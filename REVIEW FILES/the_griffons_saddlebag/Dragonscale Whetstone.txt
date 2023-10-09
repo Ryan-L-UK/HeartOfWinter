@@ -1,0 +1,11 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Dragonscale Whetstone Wondrous item, rarity varies
+___
+
+Certain preserved dragon scales can take on magical properties, either naturally on their own or with the help of a skilled artificer or enchanter. These whetstones are made of such a scale and appear almost gem-like in appearance.
+
+You can use a "dragonscale whetstone" over the course of 1 minute to sharpen a bladed weapon (such as a longsword, battleaxe, or spear), granting it a variety of bonuses as shown on the table below. The bonuses remain for 1 hour and depend on the whetstone's rarity and the kind of dragon it originally came from. These bonuses are in addition to any other bonuses a weapon may have.
+
+A whetstone has 5 uses. When you use the last use, it loses its gem-like shine and becomes a nonmagical scale.
+
+| Dragon Age | Bonus Damage | Rarity | — | Wyrmling | +1d4 | Uncommon | | Young | +2d4 | Rare | | Adult | +3d4 | Very Rare | | Ancient | +4d4 | Legendary |  —  | Dragon | Bonus Damage Type | — | Black | Acid | | Blue | Lightning | | Brass | Fire | | Bronze | Lightning | | Copper | Acid | | Gold | Fire | | Green | Poison | | Red | Fire | | Silver | Cold | | White | Cold |

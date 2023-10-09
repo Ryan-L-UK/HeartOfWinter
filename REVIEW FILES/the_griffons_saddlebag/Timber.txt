@@ -1,0 +1,10 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Timber 
+Weapon (handaxe), very rare (requires attunement)
+___
+
+This magical axe is imbued with a destructive force that builds with every consecutive strike. You have a bonus to attack and damage rolls made with this magic weapon, equal to the number of charges it currently holds. Timber gains a charge every time you hit a creature or object with it, up to a maximum of three charges. When Timber gains its third charge, the built-up force explodes; it loses all charges, and the target suffers an additional 3d6 force damage, or 6d6 if it is made of wood. When this happens, if the target is no more than one size larger than you, you can allow the force to push it up to 10 feet away from you.
+
+Timber's charges last for 1 minute, but it loses all charges if you make an attack against a different target than your previous attack, or if you make an attack (with any weapon) and do not hit your target with Timber.
+
+___

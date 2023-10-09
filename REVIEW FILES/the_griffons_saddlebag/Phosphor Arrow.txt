@@ -1,0 +1,6 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Phosphor Arrow
+Weapon (arrow or bolt), uncommon
+___
+
+This ammunition is tipped with an alchemical concoction that ignites on impact, casting bright light in the space it impacts and dim light in a 5-foot radius. A creature struck by the ammunition takes 1 fire damage at the start of each of their turns and can be detected more easily, granting other creatures advantage on Wisdom (Perception) checks made to see them and being revealed if invisible. The phosphorous burns for 1 minute or until a creature spends an action to remove or snuff out the alchemical flame. The ammunition is destroyed by the alchemical solution, preventing it from being recovered once fired.

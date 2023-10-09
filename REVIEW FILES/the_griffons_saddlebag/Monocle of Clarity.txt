@@ -1,0 +1,14 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Monocle of Clarity
+Wondrous item, rare
+___
+
+This single lens has three filters that you can peer through. You can change the monocle's filter by rotating the lens' outer ring. A small arrow along the edge of the frame indicates the monocle's selected filter. The monocle has 4 charges and regains 1d3+1 each day at dawn. As an action, you can expend a charge to look through and activate one of the filters to gain one of several benefits:
+
+𝙁𝙞𝙡𝙩𝙚𝙧 𝙤𝙛 𝘾𝙤𝙢𝙥𝙧𝙚𝙝𝙚𝙣𝙙 𝙇𝙖𝙣𝙜𝙪𝙖𝙜𝙚𝙨. When you peer through this filter, you can read and comprehend any written language as per the written language portion of the "comprehend languages" spell.
+
+𝙁𝙞𝙡𝙩𝙚𝙧 𝙤𝙛 𝘿𝙖𝙧𝙠𝙫𝙞𝙨𝙞𝙤𝙣. While looking through this filter, you have darkvision out to a range of 60 feet.
+
+𝙁𝙞𝙡𝙩𝙚𝙧 𝙤𝙛 𝙎𝙚𝙚 𝙄𝙣𝙫𝙞𝙨𝙞𝙗𝙞𝙡𝙞𝙩𝙮. When gazing through this filter, you see invisible creatures and objects as if they were visible.
+
+You gain the benefits of the activated filter while you wear the monocle for 1 hour or until you change the filter.

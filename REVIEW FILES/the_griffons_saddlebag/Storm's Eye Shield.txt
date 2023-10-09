@@ -1,0 +1,15 @@
+🛡 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Storm's Eye Shield
+Armor (shield), rare (requires attunement)
+___
+
+Emblazoned on the face of this round shield is a cyclone design that magically swirls based on the likelihood and proximity of thunderstorms. While holding this shield, you have resistance to lightning damage. When you take lightning damage from a hostile source while holding this shield, you can use your reaction to cast the "thunderwave" spell (save DC 15) from it. This property can't be used again until the next dawn.
+
+In addition, while the shield is flat on the ground, you can perform a 1 minute ritual to cast the "augury" spell from it. When you do, the omens are represented by how the cyclone's design changes:
+
+• 𝗖𝗮𝗹𝗺 𝗰𝗹𝗼𝘂𝗱𝘀, for good results
+• 𝗥𝗼𝗶𝗹𝗶𝗻𝗴 𝗰𝗹𝗼𝘂𝗱𝘀, for bad results
+• 𝗔 𝗳𝗹𝗮𝘀𝗵 𝗼𝗳 𝗹𝗶𝗴𝗵𝘁𝗻𝗶𝗻𝗴, for both good and bad results
+• 𝗡𝗼𝘁𝗵𝗶𝗻𝗴, for results that aren't especially good or bad
+
+Once this property of the shield has been used, it can't be used again until it's been in the presence of another thunderstorm for at least 1 hour.

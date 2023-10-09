@@ -1,0 +1,8 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Sheer Cold
+Weapon (battleaxe), rare
+___
+
+The blade of this battleaxe is made from a shard of the Everglacier and never melts. Attacks with the axe deal cold damage instead of slashing, and you gain a +1 bonus to attack and damage rolls made with this magic weapon.
+
+When you roll a 20 on an attack roll with this weapon, the ground in the direction of the target in either a 15-foot cone or line 30 feet long and 5 feet wide (your choice) is covered in a layer of slick ice for 1 minute, making it difficult terrain. When a creature enters this area for the first time on a turn or starts its turn there, it must succeed on a DC 10 Dexterity saving throw or fall prone. In addition, the target of the weapon attack must succeed on a DC 15 Dexterity saving throw or be restrained by ice until the start of your next turn. The restrained target can use its action to make a DC 15 Strength check. On a success, the target is freed.

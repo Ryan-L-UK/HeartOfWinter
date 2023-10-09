@@ -1,0 +1,12 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Tectonic Gauntlets
+Wondrous item, artifact (requires attunement)
+___
+
+This magical set of stony gauntlets imbues your fists with the power of the Elemental Plane of Earth. While wearing and attuned to the gauntlets, your unarmed attacks deal 1d8 bludgeoning damage in place of the normal damage of your unarmed strike (unless already higher). In addition, the item's connection to the earthen plane grants it 10 charges, recharging 1d8+2 expended charges each day at dawn. When making an unarmed attack, you can expend up to five charges to extend your stony fist's reach by five feet for each charge spent. Your unarmed strikes deal double damage to objects and structures while attuned to this item.
+
+𝙋𝙤𝙬𝙚𝙧𝙜𝙡𝙤𝙫𝙚. When you hit with an unarmed strike, you can expend up to three charges to deal an additional 1d8 bludgeoning damage for each charge spent. If you spend any charges in this way, the target must also succeed on a DC 16 Strength saving throw or be pushed back 5 feet.
+
+𝙂𝙚𝙤𝙢𝙖𝙣𝙘𝙮. Alternatively, you can expend some charges on your turn to cast the following spells using the gloves: "erupting earth" (3 charges), "Maximilian's earthen grasp" (2 charges), or "wall of stone" (5 charges) with a spell save DC of 16.
+
+𝙏𝙚𝙘𝙩𝙤𝙣𝙞𝙘 𝙋𝙡𝙖𝙩𝙚 𝘼𝙧𝙢𝙤𝙧. As an action on your turn, you can allow the gauntlets' stones to envelop your entire body. For up to one hour, you gain resistance to bludgeoning, piercing, and slashing damage from nonmagical weapons, but your movement speed is halved and you have disadvantage on any Dexterity ability checks and saving throws you make while covered in the rocky plates. You can end the effect early using a bonus action on your turn. While enveloped in this way, you have the Earth Glide ability and can burrow through nonmagical, unworked earth and stone at a speed of 30 feet. While doing so, you don't disturb the material you move through. If you end this ability while still underground, you are forced out of the earth to the nearest space available and take 5 (1d10) force damage. Once you use this ability, you must finish a short or long rest before you can use it again. [...]

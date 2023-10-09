@@ -1,0 +1,10 @@
+🛡 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Barricade Shield
+Armor (shield), uncommon
+___
+
+While holding this heavy iron shield, you can use an action to plant it in the ground and expand its height and width to stretch up to 15 feet across in either direction, potentially becoming a flat defensive wall or similar platform. The edges of the shield magically conform to fit the shape of an enclosed space, such as the walls of a tunnel or hallway. While holding the expanded shield in place, your speed becomes 0 and you have disadvantage on Dexterity checks and Dexterity saving throws. Regardless of the shield's size, its weight remains the same.
+
+The expanded shield is considered a nonmagical structure that has AC 14 and 40 hit points. The shield can remain expanded for up to 1 minute before it reverts back to its normal size. The expanded shield reverts early (but is not destroyed) if it reaches 0 hit points or moves. If you're holding the expanded shield, you can choose to revert it early as a bonus action.
+
+Once this property of the shield has been used, it can't be used again until the following dawn.

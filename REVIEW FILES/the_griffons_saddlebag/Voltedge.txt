@@ -1,0 +1,6 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Voltedge
+Weapon (any sword), rare (requires attunement)
+____
+
+This split metal sword arcs with electricity between its two halves. Targets hit by the sword take an extra 1d6 lightning damage. As an action, you can focus on the sword to unleash a concentrated electrical beam of lightning in a line 60 feet long and 5 feet wide. Each creature within that line must make a DC 15 Dexterity saving throw. A creature takes 4d6 lightning damage on a failed save, or half as much on a success. Once this property of the sword has been used, it can't be used again until the following dawn.

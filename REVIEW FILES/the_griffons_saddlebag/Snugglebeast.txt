@@ -1,0 +1,6 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Snugglebeast
+Wondrous item, common (1d6), uncommon (2d6), rare (3d6), very rare (4d6)
+___
+
+When a creature regains hit points at the end of a short rest by spending one or more of its Hit Dice, that creature can regain extra hit points if it spends that short rest snuggling with one of these enchanted, stuffed toys. The kind of "snugglebeast" and the hit points it restores are determined by its rarity: 1d6 hit points (owlbear, common), 2d6 (unicorn, uncommon), 3d6 (dragon, rare), or 4d6 (tarrasque, very rare). Once this property of the "snugglebeast" has been used by a creature, that creature can't benefit from the "snugglebeast" again in this way until it finishes a long rest.

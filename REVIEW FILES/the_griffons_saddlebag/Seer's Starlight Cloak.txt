@@ -1,0 +1,15 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Seer's Starlight Cloak
+Wondrous item, uncommon (requires attunement by a cleric, druid, or wizard)
+___
+
+This deep purple cloak is hemmed with a silver lining that radiates into starburst patterns around the head and arms. When in darkness, tiny stars can be seen from within the cloak's fabric. A constellation of stars in the shape of an eye can always be seen on the front of the cloak's dramatic hood. While wearing the cloak, you can use an action to cast the "guidance" spell.
+
+While you can see the night sky and are wearing the cloak, you can use an action to cast the "augury" spell. When you do, the omens are represented by the number of shooting stars that appear in the sky:
+
+• 𝗧𝗵𝗿𝗲𝗲 𝗼𝗿 𝗺𝗼𝗿𝗲 𝘀𝗵𝗼𝗼𝘁𝗶𝗻𝗴 𝘀𝘁𝗮𝗿𝘀, for good results
+• 𝗢𝗻𝗲 𝘀𝗵𝗼𝗼𝘁𝗶𝗻𝗴 𝘀𝘁𝗮𝗿, for bad results
+• 𝗧𝘄𝗼 𝘀𝗵𝗼𝗼𝘁𝗶𝗻𝗴 𝘀𝘁𝗮𝗿𝘀, for both good and bad results
+• 𝗡𝗼𝘁𝗵𝗶𝗻𝗴, for results that aren't especially good or bad
+
+Once this property of the cloak has been used, it can't be used again until the next dusk.

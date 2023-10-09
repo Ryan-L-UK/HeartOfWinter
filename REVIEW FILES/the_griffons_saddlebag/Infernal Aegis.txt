@@ -1,0 +1,8 @@
+🛡 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Infernal Aegis
+Armor (shield), very rare (requires attunement)
+___
+
+You can speak this dark iron shield's command word using a bonus action while you hold it to cause it to become wreathed in harmless magical flames. The flames cast bright light in a 20-foot radius and dim light for another 20 feet. The flames last until you speak the command word again or until you drop or doff the shield.
+
+While holding the shield, you have a +1 bonus to AC as well as resistance to fire damage. This bonus is in addition to the shield's normal bonus to AC. In addition, the shield has 4 charges and regains 1d4 expended charges each day at dawn. While the shield is ablaze, you can expend 1 or more of its charges to cast the "fire shield" (2 charges) or "hellish rebuke" (1 charge) spell using the shield. When casting one of these spells from the shield, fire shield can only be used to create a warm shield, and hellish rebuke has a save DC of 16.

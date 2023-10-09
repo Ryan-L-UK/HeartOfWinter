@@ -1,0 +1,6 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Leeching Quarterstaff
+Weapon (quarterstaff), rare (requires attunement)
+___
+
+You gain a +1 bonus to attack and damage rolls made with this magic weapon. The staff has 6 charges and regains 1d6 expended charges daily at dawn. When you hit a target with the staff, you can expend one of its charges to siphon away some of the target's life force to deal an extra 1d6 necrotic damage with the attack. You regain health equal the amount of necrotic damage dealt in this way. This property has no effect on undead or constructs.

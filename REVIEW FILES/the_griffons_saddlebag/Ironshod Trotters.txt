@@ -1,0 +1,10 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Ironshod Trotters
+Wondrous item, uncommon (requires attunement)
+___
+
+These boots have iron horseshoes embedded in their soles. When you take the Dash action, you can move an additional 10 feet.
+
+As an action, you can click the boots together to cast "polymorph" on yourself and transform into a riding horse. The horse has a carrying capacity of 480 pounds and a walking speed of 60 feet. Your game statistics are replaced by the statistics of the beast, but you retain your alignment, personality, and Intelligence, Wisdom, and Charisma scores. You also retain all of your skill and saving throw proficiencies, in addition to gaining those of the creature. Your gear melds into the new form. You can't activate, use, wield, or otherwise benefit from any of your equipment while transformed. Any bags you were carrying do not meld into your new form, and are magically draped over your torso as saddlebags.
+
+Taking any damage while transformed causes you to revert to your normal form and take the damage as normal. You can remain in this form for up to 8 hours, or until you end it as action. Once you use this feature, you can't use it again until the following dawn.

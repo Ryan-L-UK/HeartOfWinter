@@ -1,0 +1,12 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Hcor'uk the Colossal's Portable Handheld Trebuchet of Walloping
+Weapon (flail), very rare (requires attunement)
+___
+
+You gain a +1 bonus to attack and damage rolls made with this magic weapon. The rope which binds this weapon seems to magically lighten the load it carries for the wielder. A single solid nonmagical, nonliving object measuring no more than 3 feet on a side and weighing no more than 300 pounds can be carried effortlessly by a Medium or larger creature that is attuned to the weapon. Other creatures experience the full weight of the carried object. The rope is 25 feet long when untied and seems to rustle with even the slightest of breezes.
+
+When the rope is secured around a boulder or other similar payload measuring between two and three feet on a side, it functions as a flail that deals 2d8 bludgeoning damage instead of the normal damage for a flail. The flail has both the two-handed and heavy properties.
+
+If the rope is carrying a payload and acting as a flail, you can use your action to sling its payload at a target. This ranged attack has a normal range of 30 feet and a long range of 90 feet, and deals 3d8 bludgeoning damage on a hit or 6d8 if it hits a structure. Strength is your ability modifier for this attack. You can use an action to wrap the rope around another payload within five feet of you that fits the parameters specified above.
+
+___

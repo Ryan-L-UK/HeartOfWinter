@@ -1,0 +1,10 @@
+🛡 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Coralshield Golem
+Armor (shield), uncommon (requires attunement)
+___
+
+This ancient golem is fashioned in the shape of a crab and made of a light but sturdy coral. While wearing it on your back, you can use a bonus action to instruct it to shield you. Doing so causes the crab to slowly move along your arm, and at the start of your next turn dons itself like an ordinary shield. Once equipped, you can instruct it to return to your back, doffing itself at the start of your next turn.
+
+If you do not have a free hand or refuse to drop what you're holding when the crab attempts to don itself, it returns and reattaches to your back at the start of the next turn, when it can be summoned once again. If the golem is removed from you against your will, it will slowly move toward you at a speed of 5 feet as it can see you.
+
+___

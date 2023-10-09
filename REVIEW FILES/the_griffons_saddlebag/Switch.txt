@@ -1,0 +1,10 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Switch
+Rod, very rare (requires attunement by a druid)
+___
+
+This simple, springy rod is made of twisting vines and twigs. While attuned to the rod, you can expend a use of your wild shape ability to transform the rod into a bludgeoning or piercing weapon of your choice that has neither the loading nor reach property. You are proficient with the weapon you create. A weapon that uses ammunition magically creates its own. In addition to the magical weapon's normal damage dice, the weapon deals an extra 2d8 damage of the associated type. Attacks made with the weapon use your Wisdom modifier when rolling for attack or damage.
+
+Further channeling your wild shape ability gives your flesh a similarly bark-like hardiness. You gain temporary hit points equal to 4 times your Druid level when you use you wild shape to change the rod's form, and your armor class can't be lower than 16 while wielding the transformed rod.
+
+The rod remains transformed into this weapon until you finish a short or long rest, end the transformation early using a bonus action, or expend another use of wild shape to transform the rod again. "Switch" reverts to its rod form while you are not holding it, but reshapes itself back into the weapon once it's held by you again.

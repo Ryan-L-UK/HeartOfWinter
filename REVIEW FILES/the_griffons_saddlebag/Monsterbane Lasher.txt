@@ -1,0 +1,8 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Monsterbane Lasher
+Weapon (whip), very rare
+___
+
+This large, mithral weapon was crafted by a legendary monster hunter. Attacks made with the whip are magical, and deal an extra 1d4 bludgeoning damage in addition to the weapon's damage. This whip also has the versatile property, dealing an extra 1d6 bludgeoning damage instead, but cannot be used with Dexterity when held with both hands. Using two hands to swing the weapon changes the nature of the attack, causing it to behave more like a swinging chain than a cracking whip.
+
+The whip's metal handle is segmented and engraved with seven runes that each contain a charge. When you hit a creature with an attack using the whip, you can expend one of the runes' charges to deal an additional 3d4 cold, fire, lightning, or radiant damage to the target in addition to the weapon’s damage. The runes regain 1d6+1 charges each day at dawn.

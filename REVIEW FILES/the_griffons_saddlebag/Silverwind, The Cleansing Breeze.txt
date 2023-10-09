@@ -1,0 +1,16 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Silverwind, The Cleansing Breeze
+Weapon (longsword), artifact (requires attunement)
+___
+
+This mighty longsword once belonged to Syre, the fey lord of the now fallen Syre Wood. This ancient blade was used to lead the charge against a legion of invading fiends, and still holds a power over such creatures. You gain a +1 bonus to attack and damage rolls made with this magic weapon, which has the finesse property. When you hit a fiend with an attack using this sword, that creature takes an extra 1d6 radiant damage.
+
+𝙄𝙣𝙨𝙩𝙖𝙣𝙩 𝘼𝙩𝙩𝙪𝙣𝙚𝙢𝙚𝙣𝙩. If you pull "Silverwind, the Cleansing Breeze" from the body of Malfuriel the Betrayer, you are immediately attuned to it. When this happens, you can choose to immediately end your attunement to one of your other magical items, even if it’s cursed (as if by the "remove curse" spell or similar magic). If you are already attuned to your maximum number of magic items, you must end your attunement to one of them in this way.
+
+𝙑𝙖𝙧𝙞𝙖𝙣𝙩 𝙋𝙧𝙤𝙥𝙚𝙧𝙩𝙞𝙚𝙨. Some properties of this artifact are locked behind layers of dormant magic. As you grow stronger and reach certain milestones, these properties may become available to you. This weapon can have up to 3 of the following properties active at a time. When you attune to "Silverwind", up to the first 3 properties available to you are activated. Whenever you finish a long rest, you can replace any of the activated properties with another one.
+
+• While holding this sword, you can use an action to cast the "dancing lights", "druidcraft", or "minor illusion" spell (save DC 13) from the weapon. In addition, when you reach 5th level, you can use a bonus action to cast the "true strike" spell from it.
+• (Prerequisite: Fey Ancestry trait or the fey creature type.) You are immune to disease.
+• (Prerequisite: 8th level.) Your bonus to attack and damage rolls with this weapon becomes +2, and any fiend hit by it takes an extra 2d6 radiant damage, instead of 1d6. When you reach 14th level, the bonus increases to +3, and any fiend hit by it takes an extra 3d6 radiant damage instead.
+
+... Continued in the comments!

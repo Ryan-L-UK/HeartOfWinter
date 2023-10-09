@@ -1,0 +1,7 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Shipwrecker Weapon (war pick), rare (requires attunement)
+___
+
+Barnacles and frost cover this magic war pick, which has the heavy property. Targets hit with this weapon take an extra 1d6 cold damage, and if the target is an object or structure, it takes the maximum piercing damage from the weapon, instead of rolling its weapon damage die. If the target is also a vehicle, its maximum speed is reduced by a cumulative 10 feet each time it's hit by the weapon. This penalty to speed remains for 1 minute.
+
+𝘿𝙧𝙤𝙥 𝘼𝙣𝙘𝙝𝙤𝙧. When a creature or effect would move you against your will while you're holding the war pick, you can use your reaction to immediately drop the weapon. When you do, a magical chain tethers you to the weapon, and neither you nor the weapon can be moved against your will until the end of the turn.

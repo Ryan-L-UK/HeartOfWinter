@@ -1,0 +1,16 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Indigo Stray's Conviction
+Wondrous item, legendary (requires attunement)
+___
+
+This set of midnight-colored gloves effervesce with slow wisps of smoke, and were famously worn by a royal assassin who had been freed of their bindings. At the hems are old, well-worn manacles that have been fastened to the gloves and magically clasp onto your forearms when worn. If you're missing any arms, hands, or fingers when you attune to the gloves, dark, smoky copies of the missing appendages magically rematerialize. The limbs are fully capable parts of your body and remain as long as you're attuned to the gloves.
+
+While attuned to the gloves, you have darkvision out to a range of 60 feet. You can see normally in magical and nonmagical darkness within this range. If you already have darkvision, wearing the gloves increases its range by 60 feet, although you can only see within magical darkness within the first 60 feet of its range.
+
+The gloves have 7 charges which are used for the following properties while wearing them. They regain all expended charges daily at dawn.
+
+"𝘼𝙡𝙡𝙤𝙬 𝙈𝙚!" When an attacker that you can see within 15 feet of you deals damage to a friendly creature, you can use your reaction to expend 1 of the gloves' charges to immediately move up to 15 feet, and make one weapon attack against the attacker. On a hit, you have advantage on attack rolls against that target until the end of your next turn.
+
+"𝘽𝙮 𝙃𝙞𝙨 𝙒𝙞𝙡𝙡!" You can use a bonus action to expend 3 of the gloves' charges to surround yourself with a dark, smoking aura of retribution. The aura extends from you in a 15-foot radius, creating an area of magical darkness. A creature with darkvision can't see through this darkness, and nonmagical light can't illuminate it. When a hostile creature enters this darkness for the first time on a turn or starts its turn there, it takes 2d8 necrotic damage. If you roll an 8 on both of the damage dice for this effect, the creature becomes magically grappled by the aura's smoky tendrils....
+
+...Continued in the comments below!

@@ -1,0 +1,13 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Form of Order Weapon (longsword), legendary (requires attunement)
+___
+
+The whirring of countless gears can be heard faintly from within this weapon's brass fixtures. You gain a +3 bonus to attack and damage rolls made with this magic weapon, and if your AC is an odd number without the sword, you also gain a +1 bonus to AC while you're attuned to it. AC bonuses from a spell or other temporary magical effect don't affect the bonus given by the sword.
+
+𝙀𝙦𝙪𝙖𝙡𝙞𝙯𝙚. When a creature that you can see within 30 feet of you makes an attack roll, ability check, or saving throw with advantage or disadvantage, you can use your reaction to force that creature to make a DC 16 Charisma saving throw. On a failed save, the creature makes the roll without advantage or disadvantage. A willing creature can choose to fail this saving throw.
+
+𝙁𝙞𝙚𝙡𝙙 𝙤𝙛 𝙋𝙧𝙚𝙙𝙞𝙘𝙩𝙖𝙗𝙞𝙡𝙞𝙩𝙮. You can use a bonus action to cause the blade to emit a field of predictability for 1 minute. The field is invisible and remains centered on the weapon, affecting each creature within 20 feet of it. For the duration, the first time that a creature within the field makes an attack roll or ability check on its turn, it must also make a DC 16 Charisma saving throw. On a failed save, the d20 is treated as a 10. A willing creature can choose to fail this saving throw, but must choose to do so before rolling the d20. Once this property of the sword has been used, it can't be used again until the next dawn.
+
+𝙎𝙚𝙣𝙩𝙞𝙚𝙣𝙘𝙚. The "form of order" is a sentient lawful neutral weapon with an Intelligence of 16, a Wisdom of 14, and a Charisma of 16. It has hearing and darkvision out to a range of 120 feet. The weapon can understand all languages and can communicate with the creature attuned to it telepathically while being held. However, it rarely feels the need to, and normally only communicates when prompted.
+
+...continued in the comments below!

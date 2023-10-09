@@ -1,0 +1,8 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Hexaxe
+Weapon (handaxe), uncommon (requires attunement by a warlock)
+___
+
+This unsettling magic handaxe amplifies curses bestowed on its enemies. The weapon has 3 charges and regains all expended charges each day at dusk. When you are forced to make a Constitution saving throw in order to maintain concentration on a warlock spell, you can expend a charge to add your Charisma modifier to the total of the roll.
+
+In addition, you have a +1 bonus to attack and damage rolls made with this magic weapon against creatures under the effects of a warlock spell you cast that requires concentration.

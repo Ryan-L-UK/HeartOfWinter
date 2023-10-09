@@ -1,0 +1,12 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Lightning Pylons
+Rod, rare
+___
+
+These 3-foot long rods are made using a blend of magic and science and normally come in sets of 3. The pylons are tipped with a fragment of a blue dragon's horn. Each pylon channels the latent electrical energy within these horn fragments and can extend that energy to neighboring pylons to create an electrical barrier between them. Each pylon has an electrical charge. Once that charge has been lost, It takes 12 hours for it to recharge.
+
+You can set up a pylon in an unoccupied space adjacent to you as an action. While touching a set up pylon that has an electrical charge, you can speak its command word as a bonus action to electrify it. A pylon remains electrified for 1 minute and loses its electrical charge at the end of that minute. If there is at least 1 other pylon with a charge set up within 20 feet of an already electrified one, electricity jumps and arcs between them. A pylon becomes electrified once it receives electricity from a neighboring one in this way. You can have up to 6 pylons connected like this at once. Electrified pylons are magically bound to the ground until they lose their charge.
+
+The electricity between the pylons forms a wall 10 feet high and 1 foot thick. The wall is opaque and casts bright light out to 10 feet and dim light for another 10 feet. When the wall appears, each creature within its area must make a DC 15 Dexterity saving throw. On a failure, a creature takes 5d8 lightning damage and has its speed reduced to 0 until the start of its next turn. On a success, it takes half as much damage and has its speed halved instead. Creatures who are made of metal or are wearing metal armor have disadvantage on this saving throw. A creature that ends its turn within the wall or enters it for the first time on its turn must also make the saving throw. Setting up a pylon does not force you to make this saving throw.
+
+Each pylon has AC 15 and 20 hit points. A creature that touches an electrified pylon or hits it with a melee attack using a metal weapon takes 1d8 lightning damage for each pylon connected to it, including itself. Once a pylon is reduced to 0 hit points... (Continued below)

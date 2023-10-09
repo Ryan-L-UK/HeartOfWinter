@@ -1,0 +1,15 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Scythe of the Grim Shepherd Weapon (quarterstaff), very rare (requires attunement)
+___
+
+The sharpened horns and skull of a great ram rest atop this gnarled staff to form a twin-bladed scythe. On a hit, this weapon deals either bludgeoning or slashing damage (your choice), plus an extra 1d8 necrotic damage. It gains 1 charge whenever a creature with a challenge rating of 1 or higher within 60 feet of you is slain, up to a maximum of 10 charges. The staff loses all charges whenever you finish a long rest of if your attunement to it ends. While holding the staff, you can expend 1 or more of its charges for the following properties:
+
+𝘾𝙞𝙧𝙘𝙡𝙚 𝙤𝙛 𝘿𝙚𝙖𝙩𝙝. You can use an action to expend 6 of the weapon's charges to cast the "circle of death" spell from it (save DC 16).
+
+𝘾𝙤𝙣𝙨𝙪𝙢𝙚 𝙎𝙤𝙪𝙡. You can use a bonus action to expend up to 3 of the weapon's charges to regain 1d6 + 2 hit points for each expended charge. If the grim ram is summoned, it also regains any lost hit points.
+
+𝙇𝙚𝙖𝙙 𝙩𝙝𝙚 𝘿𝙖𝙢𝙣𝙚𝙙. You can use an action to expend 1 of the weapon's charges to attempt to bring an undead creature that you can see under your control. The target must succeed on a DC 16 Wisdom saving throw or become charmed by you for 1 hour or until it takes any damage. A creature with immunity to the charmed condition still makes this saving throw, becoming charmed as normal on a failure, but makes the roll with advantage. An undead charmed in this way is indifferent toward you and your companions and automatically fails any saving throw against an effect that would turn it, such as by a cleric's Channel Divinity.
+
+𝙎𝙪𝙢𝙢𝙤𝙣 𝙂𝙧𝙞𝙢 𝙍𝙖𝙢. You can use an action to expend 2 of the weapon's charges to summon a grim ram: an all-black goat with four horns. The goat appears in an unoccupied space that you can see within 30 feet of you, and remains until it's reduced to 0 hit points or until you use this property of the weapon again. The goat is friendly to you and your companions. It uses the statistics for a giant goat...
+
+... Continued in the comment below!

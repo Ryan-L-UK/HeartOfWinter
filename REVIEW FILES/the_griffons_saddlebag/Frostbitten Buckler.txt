@@ -1,0 +1,6 @@
+🛡 New item!
+Frostbitten Buckler
+Armor (shield), uncommon
+___
+
+This icy shield has three charges that recharge each dawn. When a creature you can see hits you with a melee weapon attack, you can expend a charge using a reaction (after receiving the damage) to deal 2d4 cold damage back to the attacker, granting you that same amount of damage as temporary hit points for up to one minute.

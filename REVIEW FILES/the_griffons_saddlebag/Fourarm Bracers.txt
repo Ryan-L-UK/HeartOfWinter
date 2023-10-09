@@ -1,0 +1,11 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Fourarm Bracers 
+Wondrous item, very rare (requires attunement)
+___
+
+These bracers can summon another pair of arms below your existing ones. The spectral arms can be summoned using an action and last for up to a minute before dissolving. While active, you can use the arms to manipulate an object, open an unlocked door or container, stow or retrieve an item from an open container, or pour the contents out of a vial. Each arm can carry up to 10 pounds. The arms stay attached to your torso at all times and cannot be moved to other parts of your body, but can be turned around to face the opposite direction.
+
+In addition, the gems adorning the bracers can amplify the arms' strength for short bursts. The gems contain a total of 5 charges and recharge 1d4+1 each dawn. By uttering the bracers' command word using a bonus action and expending a charge, you can empower the arms to immediately make two unarmed weapon attacks against a target within five feet of you. The arms have a Strength modifier of +3 which is used when making the attack and use your proficiency bonus. Each strike does 1d4 magical bludgeoning damage upon a successful hit. These attacks do not benefit from the Monk's Martial Arts ability.
+
+Alternatively, you can expend a charge to double the arms' carrying capacity and extend their duration for up to five minutes.
+___

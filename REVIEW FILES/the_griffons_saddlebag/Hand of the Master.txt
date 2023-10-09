@@ -1,0 +1,8 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Hand of the Master
+Wondrous item, uncommon (requires attunement)
+___
+
+This magical white satin glove has no visible seams, and can be easily turned inside-out to wear on a left or right hand. If you are missing a hand, this glove can rest over the end of a forearm and function as if it were a normal hand. While you are attuned to the item, you can will it as an action to animate and fly from your hand to do your bidding. The floating glove functions as if you cast the "mage hand" spell without requiring a verbal component to cast. In addition to "mage hand's" normal effects, you can command the glove as a bonus action to make a melee spell attack (+5 to hit) to slap a target, magically dealing 1 point of bludgeoning damage if you hit.
+
+When you hit a creature with this attack, you can choose to force the creature to make a DC 16 Wisdom saving throw. On a failure, the creature falls under the effects of the "compelled duel" spell, targeting you as its source. Once you use this ability, you cannot use it again until the following dawn.

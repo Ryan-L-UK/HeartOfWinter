@@ -1,0 +1,8 @@
+💍 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Hushed Ring
+Ring, uncommon (requires attunement)
+___
+
+This ring creates an arcane field around you that prevents certain modes of communication. While wearing this ring, you cannot be spoken to telepathically by creatures other than the ones you choose.
+
+In addition, while wearing this ring, you can use an action to speak this ring's command word to create an aura of silence around you. The aura affects creatures other than yourself within 10 feet of you. It remains as long as you concentrate (as if concentrating on a spell), to a maximum of 1 minute. While in effect, when a creature within the aura attempts to speak, it must make a DC 13 Wisdom saving throw. On a failed save, a creature is unable to speak, and any action, bonus action, or reaction they used to speak is wasted. This property of the ring can't be used again until the next dusk.

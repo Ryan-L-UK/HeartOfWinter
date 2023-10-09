@@ -1,0 +1,8 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Fortune's Fivepence
+Wondrous item, uncommon (requires attunement)
+___
+
+This electrum coin has a smiling human woman's face on one side (heads) and a scowling fiendish woman's on the other (tails). While you're within 30 feet of the coin, you can summon it to either your hand or pocket by speaking its command word using a bonus action. Despite its unique appearance, this coin can be spent like a normal coin.
+
+𝙁𝙖𝙩𝙚 𝙁𝙡𝙞𝙥. This coin has 2 charges. You can attempt to regain expended charges once every 24 hours by flipping a coin. The coin regains 2 expended charges if it's heads, or 0 if it's tails. When you have the coin on your person and your total for an attack roll, ability check, or saving throw is 10 or lower, you can expend 1 of the coin's charges to channel its magic and forge your own luck. When you do, flip a coin. If it's heads, roll a d10 and add it to the total of your roll. If it's tails, you subtract 1d10 from the total instead. The coin loses this property if using it in this way reduces your total to 0 or lower.

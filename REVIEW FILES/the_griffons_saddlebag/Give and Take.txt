@@ -1,0 +1,12 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Give and Take
+Weapon (scimitar), very rare (requires attunement)
+___
+
+This magic pair of mythril (Give) and onyx (Take) scimitars are connected by a sturdy chain. When you engage in two-weapon fighting using both scimitars, you can add your ability modifier to the damage of the second attack.
+
+The scimitars have a collective 10 charges and regain 1d6 + 4 charges each day at midday. While holding these weapons, you can expend 1 of their charges when you hit a hostile creature with a melee attack using one of the two blades. When you do, the area around the creature is suffused with an effect depending on the blade used to hit the creature:
+
+𝙂𝙞𝙫𝙚. When you hit a target with "Give" and expend a charge from the blade, you and all other creatures within 5 feet of the target gain 2d6 temporary hit points that last for 1 minute.
+
+𝙏𝙖𝙠𝙚. When you hit a target with "Take" and expend a charge from the blade, that target takes 2d6 necrotic damage, and you and all other creatures within 5 feet of the target take half as much necrotic damage.

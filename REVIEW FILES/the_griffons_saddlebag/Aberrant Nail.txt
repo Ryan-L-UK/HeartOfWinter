@@ -1,0 +1,9 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Aberrant Nail Weapon (longsword), legendary (requires attunement)
+___
+
+This greenish blade was forged under the command of a powerful aboleth as a reward for one of its strongest mortal thralls. You gain a +2 bonus to attack and damage rolls made with this magic weapon.
+
+While attuned to this sword, your Intelligence score is 19. It has no effect on you if your Intelligence is already 19 or higher without it. When you hit with an attack using this weapon, the target takes an extra 1d8 psychic damage. While holding the sword, you have resistance to psychic damage.
+
+In addition, when you roll a 20 on an attack roll made with this sword, the target must succeed on a DC 17 Intelligence saving throw or be stunned until the start of your next turn, as it's bombarded by a deluge of unintelligible images and thoughts from a realm beyond comprehension.

@@ -1,0 +1,10 @@
+💍 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Puzzle Ring of Vitality, Life, and Power
+Ring, legendary (requires attunement by a paladin)
+___
+
+𝙏𝙝𝙚 𝙄𝙣𝙣𝙚𝙧 𝙍𝙞𝙣𝙜. This powerful ring is made of an enchanted gold blessed by a god of life and healing. While you are attuned to the ring and are wearing it, you can use your Lay On Hands ability on an ally within 10 feet of you instead of needing to touch them.
+
+𝙏𝙝𝙚 𝙊𝙪𝙩𝙚𝙧 𝙍𝙞𝙣𝙜. The inner, golden ring has a second silver puzzle ring encircling it. The silver puzzle ring is made of three powerfully enchanted bands that, when fit together in an elaborate and ever-changing puzzle, emit various auras that aid your allies. As an action, you can make an Intelligence check to try and solve one of the three puzzles in a fixed order. - The first band slides into place following a successful DC 5 Intelligence check. Once solved, the ring emits a powerful healing force to cast "aura of vitality". - The second band is solved following a successful DC 10 Intelligence check. When it slides into place, the ring's protection intensifies to also cast "aura of life". - The third and final band is solved following a successful DC 15 Intelligence check. When the band fits into place to complete the puzzle, the ring also casts the "circle of power" spell.
+
+The spells cast by the ring do not require concentration and are only active while the "aura of vitality" emitted from the first band is in effect. Once the "aura of vitality" emitted from the ring fades, so do its other magics. The ring's auras ends early if you are no longer wearing it. Once the effects end, you cannot activate the ring again until 1 day has passed for each band that you solved. If you solve all 3 bands to complete the puzzle ring, you can reduce the number of days you need to wait to use it again by 1d3. On a 3, you can dismantle and begin to reassemble the puzzle ring immediately after its auras fade.

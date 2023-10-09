@@ -1,0 +1,6 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Helm of Heroes
+Wondrous item, rare (requires attunement)
+___
+
+While wearing this helmet, you gain a +1 bonus to AC if you are wearing no armor. You can still use a shield and gain this benefit. In addition, while wearing no other armor, the helm becomes suffused with glory and glimmers for one minute whenever you land a critical hit with a weapon attack. While under this effect, you gain temporary hit points at the start of each of your turns equal to half your character level, and friendly creatures within 10 feet of you can't be frightened.

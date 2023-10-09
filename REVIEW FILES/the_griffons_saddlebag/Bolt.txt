@@ -1,0 +1,8 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Bolt
+Weapon (crossbow, heavy), very rare (requires attunement)
+___
+
+This heavy crossbow is made of metal and fires small bolts of lightning instead of normal ammunition. When you attempt to load the weapon, the string crackles with electricity and creates a loaded bolt of lightning ammunition. You gain a +2 bonus to attack and damage rolls made with this magic weapon. Ranged attacks made with the crossbow deal lightning damage instead of piercing and deal an extra 1d6 lightning damage to any target it hits. If the target is made of metal or is wearing armor made of metal, the extra damage becomes 2d6, and you make the attack with advantage.
+
+In addition, this crossbow acts as a small lightning rod. If another creature within 10 feet of you takes lightning damage while you're wielding the crossbow, you also take 1d6 lightning damage for every 10 damage the other creature took.

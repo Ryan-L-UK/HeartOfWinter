@@ -1,0 +1,10 @@
+🛡 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Retaliating Shield of Ink 
+Armor (shield), uncommon
+___
+
+This shield has a hidden compartment inside that can spray thick, viscous squid ink at attacking creatures. When an adjacent creature fails to hit you with a melee attack, you can use a reaction to press a button on the handle of the shield. When you do, dark ink sprays from the front of the shield at the creature. The attacking creature must succeed on a DC 13 Dexterity saving throw or be blinded until the beginning of its next turn.
+
+The shield can hold up to three uses of the ink before needing to be refilled again. It takes one minute to refill one of the shield's three ink canisters, and requires a vial of Giant Squid ink worth 20gp for every canister you refill. Alternatively, you can fill a canister with a vial of writing ink worth 10gp, but the shield's Dexterity saving throw DC becomes 10 instead.
+
+This is a mechanical item whose purpose and functionality can be understood following a successful Intelligence check (DC 13). On a success, you can interpret what the shield does, how to use it, and how to take care of it. You also understand that filling the shield with other volatile or sticky liquids such as acid, poison, grog, oil, or any other solid material such as sand, will damage the machinery inside. Should this happen, you can have it repaired at a blacksmith for 150gp or half the item's cost (whichever is lower).

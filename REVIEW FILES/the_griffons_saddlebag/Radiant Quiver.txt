@@ -1,0 +1,11 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Radiant Quiver Wondrous item, rarity varies (requires attunement)
+___
+
+A "radiant quiver" produces special ammunition for your ranged weapon attacks. The ammunition is made of pure light, and appears in your hand when you reach into it without picking a different piece of ammunition. If the quiver is kept in direct sunlight for at least 1 hour, it magically produces up to 20 pieces of the special ammunition at the end of the hour.
+
+The quiver can hold up to 20 pieces of this ammunition at a time, which remain until used and don't count toward the total amount you can normally store in a quiver. A piece of this ammunition is lost if another creature attempts to use it or if it's removed from the quiver and not fired before the start of your next turn. On a hit, the ammunition deals radiant damage, instead of its normal damage type, and it deals extra damage based on the quiver's rarity, as shown in the table below. The ammunition is then lost. This bonus damage is doubled if the target is a fiend or undead.
+
+Once fired, the ammunition sheds bright light in a 10-foot radius and dim light for an additional 10 feet while flying through the air. Very rare versions of the quiver produce ammunition made of sunlight. A creature hit by ammunition made of sunlight in this way is considered to be in sunlight until the end of your next turn.
+...
+The last property, "Light Cannon", is in the comment below!

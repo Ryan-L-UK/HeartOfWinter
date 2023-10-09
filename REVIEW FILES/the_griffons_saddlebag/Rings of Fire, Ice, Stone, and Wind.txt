@@ -1,0 +1,10 @@
+💍 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Rings of Fire, Ice, Stone, and Wind
+Ring, rarity varies
+___
+
+These rings are made of various elements — either magical fire (rare), ice (very rare), stone (rare), or wind (uncommon). While wearing one of these rings, you can use it to cast an elemental wall spell associated its material: "wall of fire", "wall of ice", "wall of stone", or "wind wall". When the ring is used in this way, it can't be used again until the following dawn.
+
+The wall created by the ring is always in a 15-foot radius circle centered around you. The height and thickness of the walls vary by type: "wall of fire" is 20 feet tall and 1 foot thick, "wall of ice" is 10 feet tall and 1 foot thick, "wall of stone" is 10 feet high and 6 inches thick, and "wind wall" is 15 feet high and 1 foot thick.
+
+The walls have a spell save DC of 14 (uncommon), 15 (rare), or 16 (very rare).

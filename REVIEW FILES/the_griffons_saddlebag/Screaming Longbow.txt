@@ -1,0 +1,9 @@
+⚔️ New item!
+Screaming Longbow
+Weapon (longbow), rare (requires attunement)
+___
+​
+
+Arrows fired from this sickly and ornate longbow let out a screeching howl as they fly. Creatures struck by each of these arrows take an additional 2d4 thunder damage. When you land a critical hit with a shot fired from this weapon, all creatures within 5 feet of your target must succeed on a Constitution saving throw (DC 16) or be deafened for one minute.
+
+Creatures within 80 (unobstructed) feet of these arrows' flight paths become aware of your presence as your arrows scream by.

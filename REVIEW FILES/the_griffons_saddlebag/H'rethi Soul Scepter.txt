@@ -1,0 +1,16 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+H'rethi Soul Scepter
+Rod, legendary (requires attunement by a spellcaster)
+___
+
+This golden scepter has an empty basin at its end that's always hot to the touch, as if it had had been left out in the sun. While attuned to the rod, you can walk normally on difficult terrain caused by sand and can withstand temperatures as hot as 200 degrees Fahrenheit.
+
+The rod has 20 charges for the following properties. It regains 2d6 + 8 expended charges daily at dawn. If the rod is reduced to 0 charges, roll a d20. On a 1, the rod disappears in a burst of sand.
+
+𝙎𝙖𝙣𝙙𝙗𝙡𝙖𝙨𝙩. While holding the rod, you can use an action to expend 1 charge and send out a cascade of pressurized sand at a target you can see within 60 feet of you. Make a ranged attack roll using the scepter with an attack bonus of +10. On a hit, the sand deals 4d6 bludgeoning damage and disappears after the attack.
+
+𝙎𝙖𝙣𝙙 𝙎𝙪𝙢𝙢𝙤𝙣. While holding the rod, you can use an action to expend 3 charges to cause the ground in a 30-foot radius centered on a point you can see within 60 feet of you to turn to shifting sands for up to 1 minute. You can end the effect early as a bonus action. The area becomes sandy, difficult terrain for the duration.
+
+𝙎𝙖𝙣𝙙𝙨𝙩𝙤𝙧𝙢. While holding the rod, you can use an action to expend 5 charges to cause a flurry of sand to whip up and swirl around you. The sand creates a blistering maelstrom that follows you in a 15-foot radius, 30-foot-high cylinder and makes the area heavily obscured for creatures other than you. It remains so long as you concentrate (as if concentrating on a spell), to a maximum of 1 hour. Arrows, bolts, and other ordinary projectiles fly upward and automatically miss when they enter the area. Any creature that moves into the sandstorm for the first time on their turn or starts their turn there must make a DC 17 Constitution saving throw. A creature takes 4d10 bludgeoning damage on a failed save, or half as much damage on a successful one. You are immune to this bludgeoning damage. The sand disappears once the storm subsides.
+.
+...Continued in the comments!

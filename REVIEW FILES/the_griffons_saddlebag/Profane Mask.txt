@@ -1,0 +1,6 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Profane Mask
+Wondrous item, common
+___
+
+This cloth mask converts the words that pass through it into vile obscenities. While wearing this mask over your mouth, your words are heard as angry insults and swears instead of the ones you intend. You do not hear these words. A creature can make a DC 10 Intelligence (Investigation) or Wisdom (Insight) check to determine that the words it hears are not your own. Verbal spell components, command words, and actual obscenities you say are unaffected by the mask's magic and are heard normally by creatures within earshot.

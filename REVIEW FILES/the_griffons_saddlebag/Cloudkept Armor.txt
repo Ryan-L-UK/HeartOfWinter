@@ -1,0 +1,13 @@
+🛡 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Cloudkept Armor Armor (padded or hide), very rare (requires attunement)
+___
+
+This armor is buoyed by motes of captured clouds, which have been woven together into a fabric-like hide. While wearing it, you gain a +2 bonus to AC, and your jump distance is increased by 10 feet. If the armor normally imposes disadvantage on Dexterity (Stealth) checks, the "cloudkept" version of the armor doesn't. In addition, the maximum amount of bludgeoning damage you can take from falling is reduced to 1d6.
+
+You can use an action to cast the "gaseous form" spell from the armor while wearing it, targeting only yourself. This version of the spell has the following changes:
+
+• The spell lasts for 1 minute, instead of 1 hour.
+• You retain your normal form, instead of becoming a cloud, but look as though you're made of mist. While in your misty form, you retain your normal walking speed and gain a flying speed equal to it.
+• For the duration, you can use a bonus action to revert to your physical form, or back into your misty form again.
+
+Once cast in this way, the spell can't be cast from the armor again until the next dawn."

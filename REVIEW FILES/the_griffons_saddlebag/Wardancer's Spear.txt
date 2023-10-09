@@ -1,0 +1,8 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Wardancer's Spear
+Weapon (spear), rare
+___
+
+This double-bladed spear is extraordinarily light and perfectly balanced for use with one hand. While holding this magic spear with one hand, it has the finesse property. Whenever you take the Attack action and make a melee attack with the spear using only one hand, you can use a bonus action to make an additional attack with the spear. You don't add your ability modifier to the damage of the bonus attack, unless that modifier is negative.
+
+Immediately after you use your bonus action in this way, you can move up to 10 feet without provoking opportunity attacks, though you can't move farther than your remaining movement would allow.

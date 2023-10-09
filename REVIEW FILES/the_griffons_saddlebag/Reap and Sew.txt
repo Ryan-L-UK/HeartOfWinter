@@ -1,0 +1,16 @@
+⚔️ New item!
+Reap and Sew
+Weapon (light crossbow), rare (requires attunement)
+___
+
+This magical crossbow grants the wielder a +2 bonus to attack and damage rolls made with the weapon.
+
+The crossbow comes with a special needle-like bolt that is magically bound to it. When fired, this bolt leaves a faint thread of ethereal energy behind it as it flies. Creatures struck by the bolt take force damage instead of piercing, as it effortlessly passes through them. Immediately after making an attack, the bolt flies back to the crossbow and reloads itself neatly, making it immediately ready for another shot. When the needle-like bolt is used, this crossbow ignores the loading property.
+
+This weapon has 4 charges, recharging 1d4 each dawn. You can expend a charge following a successful attack with the crossbow to attach the bolt's arcane thread to a point on the ground within 5 feet of the target. If the tethered creature attempts to move more than 10 feet away from that point before the end of your next turn, it must succeed on a DC16 Strength saving throw or be forced to remain within 10 feet of the point you chose until the start of its next turn.
+
+While attuned to this weapon, you can cast the 𝘮𝘦𝘯𝘥𝘪𝘯𝘨 cantrip at will.
+
+If this crossbow's unique bolt is somehow destroyed or lost, the bolt reappears, already loaded into the crossbow, after 24 hours so long as both the bolt and crossbow are on the same plane of existence. The crossbow functions as a normal, nonmagical weapon while separated from the bolt.
+
+𝘾𝙪𝙧𝙨𝙚. Once attuned to this weapon, you must make a DC12 Wisdom saving throw whenever you attempt to take a short or long rest. On a failure, you are overcome with the urge to craft and are forced to sew, knit, crochet, or cross-stitch feverishly for at least an hour before being able to rest. When firing the crossbow, you can sometimes hear the bolt giggle as it careens towards its target. The curse remains even if the attunement ends, but can be undone by any effect that removes a curse such as a 𝘨𝘳𝘦𝘢𝘵𝘦𝘳 𝘳𝘦𝘴𝘵𝘰𝘳𝘢𝘵𝘪𝘰𝘯 or 𝘳𝘦𝘮𝘰𝘷𝘦 𝘤𝘶𝘳𝘴𝘦 spell.

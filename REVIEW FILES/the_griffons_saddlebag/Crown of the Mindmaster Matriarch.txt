@@ -1,0 +1,8 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Crown of the Mindmaster Matriarch
+Wondrous item, rare (requires attunement by a wizard)
+___
+
+This golden crown is inset with a powerful fire ruby and veiled with light, mithral chain. The crown's descending prongs overlap with your temples and third eye, expanding your mind's commanding reach. While wearing this crown, you can use an action to cast the "telepathic bond" spell from it.
+
+In addition, while wearing the crown, you can use an action to cast the "dominate person" spell using your spell save DC from it. On a failed save, a creature is affected by the spell for the duration, and for the next 24 hours after the spell ends, you have advantage on Charisma checks you make to interact with it. If the target is connected to you through your telepathic bond, it has disadvantage on the saving throw to resist this spell's effects when cast in this way. Once this property has been used, it can't be used again until the next dawn.

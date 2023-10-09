@@ -1,0 +1,6 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Splintershot
+Weapon (shortbow), rare
+___
+
+This shortbow can cause a nonmagical nocked arrow to magically shatter and unleash a devastating spray of shrapnel. On your turn, you can use an action to force creatures within a 15 foot cone to make a DC 15 Dexterity saving throw. On a failed save, creatures within the cone take 2d6 magical piercing damage from the splintered shrapnel, or 3d6 if it was within 5 feet of you. This ability destroys the arrow used when creating the spray.

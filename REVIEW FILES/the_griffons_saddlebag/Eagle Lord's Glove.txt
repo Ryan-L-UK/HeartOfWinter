@@ -1,0 +1,12 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Eagle Lord's Glove
+Wondrous item, uncommon (requires attunement)
+___
+
+This thick, rigid glove is elegantly ornamented with eagle feathers and fitted with an enchanted silk lining. While attuned to the item, you can use the glove to cast the "find familiar" spell as an action instead of its normal casting time. When you do, the familiar takes the form of an eagle. If the familiar falls to 0 hit points, it can't be summoned again until the following dawn. Otherwise, the familiar remains so long as the wearer is attuned to this item.
+
+In addition, you can concentrate on the glove for 1 hour to summon a giant eagle. The giant eagle magically appears before you in an empty space within 30 feet of you. The eagle is also considered fey, and disappears when it drops to 0 hit points, dismissed as an action, or after 12 hours have passed. Once the giant eagle disappears, it can't be summoned again until 2 days have passed.
+
+The giant eagle is friendly to you and your companions. Roll initiative for the giant eagle, which has its own turns. It obeys any verbal commands that you issue (no action required by you). If you don't issue any commands, it defends itself from hostile creatures, but otherwise takes no action.
+
+The giant eagle has a carrying capacity of 480 pounds and can fly at up to 8 miles an hour. It must rest 1 hour for every 3 hours it flies, and it can’t fly for more than 9 hours.

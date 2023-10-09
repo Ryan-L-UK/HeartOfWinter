@@ -1,0 +1,18 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Hydra Charm
+Wondrous item, very rare (requires attunement)
+___
+
+This golden talisman is made of five twisting hydra heads and hung from a simple gold chain. While wearing this talisman, you gain the following benefits:
+.
+• When you use your reaction to make an opportunity attack, you can make a second attack against that same target as part of that reaction.
+.
+• You can make an opportunity attack, even if you've already used your reaction.
+.
+• When you are forced to make a saving throw against being blinded, charmed, deafened, frightened, stunned, or incapacitated, you can use your reaction to make the saving throw with advantage.
+.
+• When you take more than 25 damage from a single attack or effect, you can use your reaction to regain 10 hit points. If this damage would reduce you to 0 hit points but not kill you outright, you remain at 1 hit point instead and do not regain 10 hit points.
+.
+• When your head would be cut off by an effect, such as by a "vorpal sword", you can use your reaction to negate the effect.
+
+Once a benefit of the talisman has been used, that benefit can't be used again until you finish a long rest.

@@ -1,0 +1,20 @@
+🧪 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Snake Oil Potion, rarity varies
+___
+
+"Snake oil" is an unreliable concoction of alchemy, druidic knowledge, and luck. When found, the potion's rarity is random: Common (90 percent) or Rare (10 percent). Only an "identify" spell or similar magic can determine the rarity of the potion.
+
+When you use an action to drink the potion, roll a d6 to determine its effects based on the rarity of the potion. Unless it says otherwise, an effect remains for 1 hour. If the potion is a rare variant, it gains both the Common and Rare effects of the potion.
+
+d6 | Common | Rare —
+1 | Nothing happens.| —
+-
+2| Your eyes become yellow and reptilian. | You have blindsight out to a range of 10 feet for 1d4 hours.
+-
+3| Your tongue becomes forked. | You have advantage on Wisdom (Perception) checks that rely on smell for 24 hours.
+-
+4| Your skin becomes scaled, like a snake. | You have resistance to poison and acid damage.
+-
+5| Your footsteps create gentle rattling noises. | You gain the benefits of the "freedom of movement" spell.
+-
+6| Whenever you make an "S" sound, it's pronounced like a hiss.| You grow snakelike fangs. You can use a bonus action to make a bite attack using these fangs. On a hit, the target takes 1d4 piercing damage, plus an extra 2d8 poison damage.

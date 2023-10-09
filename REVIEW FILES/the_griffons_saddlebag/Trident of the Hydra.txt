@@ -1,0 +1,8 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Trident of the Hydra
+Weapon (trident), rare
+___
+
+This oddly shaped trident is made of hammered mythril and has a shortened handle. Its short grip prevents it from being wielded with two hands, but is well-balanced and light enough for single-handed combat. When you throw the trident at a target, the forked end magically splits apart midair into three separate spears, allowing you to make three ranged weapon attack rolls against the original target. Each spear does 1d6 magical piercing damage. You don't add an ability modifier to the spears' damage rolls. After the attack, two spears of your choice dissipate, allowing the remaining one to regrow two barbed prongs and reform the trident.
+
+You have a +1 bonus to all attack and damage rolls you make with this magic weapon.

@@ -1,0 +1,12 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Staff of Favorable Winds
+Staff, very rare (requires attunement by a tempest cleric, druid, sorcerer, warlock, or wizard)
+___
+
+While you hold this staff, areas affected by strong winds do not count as difficult terrain for you.
+
+The staff has 10 charges. While holding it, you can expend 1 or more of its charges to cast one of the following spells from it using the required casting time as well as your spell save DC:  𝘤𝘰𝘯𝘦 𝘰𝘧 𝘤𝘰𝘭𝘥 (5 charges), 𝘤𝘰𝘯𝘵𝘳𝘰𝘭 𝘸𝘪𝘯𝘥𝘴 (5 charges), 𝘧𝘦𝘢𝘵𝘩𝘦𝘳𝘧𝘢𝘭𝘭 (1 charge), 𝘴𝘬𝘺𝘸𝘳𝘪𝘵𝘦 (2 charges), or 𝘸𝘪𝘯𝘥 𝘸𝘢𝘭𝘭 (3 charges). In addition, while holding the staff you can cast the 𝘨𝘶𝘴𝘵 cantrip at will.
+
+The staff regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff turns to dust and is blown away by a sudden flurry of wind.
+
+___

@@ -1,0 +1,6 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Mirrorlight Stinger
+Weapon (any bow), rare
+___
+
+This bow is decorated with mirrorlight crystals, allowing it to recreate illusions of the arrows fired from it. When you take the Attack action using the bow, you can use a bonus action to make a special ranged weapon attack with it. This attack fires an illusory arrow from the bow, and on a hit, it deals force damage instead of piercing damage. You don't add your ability modifier to the damage of this special attack, unless that modifier is negative. The illusory arrow vanishes immediately after the attack.

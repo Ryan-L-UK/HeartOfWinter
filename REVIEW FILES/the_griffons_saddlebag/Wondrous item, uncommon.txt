@@ -1,0 +1,15 @@
+Bramble Token Cuff
+Wondrous item, uncommon
+___
+
+This green ear cuff magically grips and coils around your ear while you're wearing it. You can use an action to speak the cuff's command word and throw it on the ground at a point you can see within 30 feet of you. The cuff then shatters, destroying it, and immediately grows into a mass of twisting vines and thorns in one of the following shapes of your choice:
+
+𝘾𝙞𝙧𝙘𝙡𝙚. The thorns grow in a 20-foot-radius circle on the ground that's centered on the point where the cuff landed. The area becomes difficult terrain for the duration, and when a creature moves into or within the area, it takes 2d4 piercing damage for every 5 feet it travels.
+
+𝘾𝙤𝙣𝙚. The thorns extend in a 30-foot cone originating from the point where the cuff landed in a direction of your choice. Each creature in the area must make a DC 13 Strength saving throw. On a failed save, a creature takes 2d8 piercing damage and is grappled for the duration. A creature can use its action to make a DC 13 Strength check, freeing itself or another creature within its reach from the thorns on a success. Dealing 10 fire or slashing damage to the thorns (AC 10) also frees the creature without harming it, ending the effect. On a successful save, a creature takes half as much piercing damage and isn't grappled.
+
+𝘾𝙮𝙡𝙞𝙣𝙙𝙚𝙧. The thorns erupt into a towering pillar of scraggly vines. The pillar is a 5-foot-radius, 40-foot-high cylinder. If the space isn't large enough for the vines, they harmlessly grow to fit the space. A creature in the area of the cylinder when it appears is either pushed to the nearest unoccupied space within 5 feet of it or is lifted on top of the pillar (its choice).
+
+𝙇𝙞𝙣𝙚. The thorns create a dense wall of bramble-like brush in a straight line up to 30 feet long, 10 feet high, and 6 inches thick. A creature can move through the wall using an action to pull and fight through the tangled mass of painful thorns....
+
+...Continued (a little more) in the comment below!

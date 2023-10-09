@@ -1,0 +1,8 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Ether Spear
+Weapon (spear), very rare (requires attunement)
+___
+
+This spear can slip through the ethereal plane to reach its destination. You gain a +2 bonus to attack and damage rolls made with this magic weapon, which deals force damage instead of piercing damage. When you take the Attack action with the spear, you can choose a point you can see within 20 feet of you. The end of the spear vanishes and reappears at that point, allowing you to make melee weapon attacks with the spear against a creature in or adjacent to that space until the end of your turn. You ignore half-cover with these attacks and treat three-quarters cover as if it were half cover.
+
+You can use a bonus action to see 60 feet into the ethereal plane for one minute, and can use the spear to attack creatures you can see on that plane. Once you use this ability to see into the other plane, you cannot use it again until you finish a short or long rest.

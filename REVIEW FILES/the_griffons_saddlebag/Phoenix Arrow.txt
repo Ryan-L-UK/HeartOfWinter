@@ -1,0 +1,10 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Phoenix Arrow 
+Weapon (a bolt or arrow), rare
+___
+
+This magical piece of ammunition is fletched with enchanted phoenix feathers and grants you a +1 bonus to attack and damage rolls made with it. The bolt or arrow is magically bound to a small quiver. When fired, the bolt or arrow bursts into flame upon impacting its target and deals magical fire damage instead of piercing from the attack. At the start of your next turn, the arrow is consumed by the flames and reappears in the quiver it was bound to.
+
+You can speak the ammunition's command word as a bonus action to set it ablaze before loosing the bolt or arrow. When you do, the ammunition begins its magical process early and burns out if shot beyond 30 feet. If fired in this way, the bolt or arrow deals an additional 1d6 fire damage and immediately reappears in the bound quiver after the attack.
+
+You can store other arrows in the quiver, but can only have one Phoenix Arrow bound to the quiver at a time. If the arrow is ever destroyed, it reappears in the quiver after 24 hours. Firing the arrow into an antimagic field renders it nonmagical while it's within the field, allowing it to be permanently destroyed while in that state.

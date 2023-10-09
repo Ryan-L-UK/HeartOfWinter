@@ -1,0 +1,10 @@
+🛡 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Windswept Wyvernplate 
+Armor (halfplate), rare (requires attunement)
+___
+
+This half plate armor feels like any other when first put on. Once attuned, however, the armor seems to breathe along with you, growing lighter with your inhalations. While you are attuned to this armor, you can hold your breath at any point to both lighten the armor and quiet its clattering, negating the usual disadvantage imposed on Dexterity (stealth) checks by half plate. If you speak while holding your breath, whether it be to your party or to cast a spell requiring verbal components, you will need to stand still until you can take another breath in order to retain any previous Dexterity (stealth) roll you made.
+
+In addition, if you are falling while wearing this armor, you can hold your breath as a reaction to cast 𝘧𝘦𝘢𝘵𝘩𝘦𝘳𝘧𝘢𝘭𝘭, targeting only yourself, at will. While falling in this way, you must succeed on a Constitution saving throw, as if maintaining concentration, each time you take damage to continue holding your breath or else the spell effects end. If you fail and begin falling again, you can use your reaction on your next turn to hold your breath again and slow your descent.
+
+___

@@ -1,0 +1,10 @@
+💍 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Ring of Eldritch Ire
+Ring, rare (requires attunement by a warlock)
+___
+
+This cold, warped ring has three yellow gemstones adorning its surface that swivel and move like strange eyes. While wearing this ring, you can extend the finger wearing it toward a creature that you can see within 60 feet of you as a bonus action. When you do, that creature becomes marked for 1 hour. The mark is lost if you fall unconscious or end it early using a bonus action. You know a marked creature's general distance and direction from you at all times while it's on the same plane of existence as you. In addition, you perceive a marked creature within 60 feet of you as though you had truesight, and can see through any illusion that stands between you and the marked creature.
+
+A marked creature appears to be shrouded in a dark, sharpening mist that magically helps you focus on it with attacks and spells. You gain a +1 bonus to your attack and damage rolls when you attack a marked creature, and a marked creature has a -1 penalty to its saving throws against spells you cast.
+
+Once this ring has been used, it can't be used again until the following dusk.

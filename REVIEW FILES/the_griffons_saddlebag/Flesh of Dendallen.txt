@@ -1,0 +1,10 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Flesh of Dendallen
+Wondrous item, very rare (requires attunement)
+___
+
+This patchwork shirt is made of necrotically enchanted pieces of stitched-together flesh. The shirt has 6 charges and regains 1d4+2 expended charges each day at dusk. While attuned to and wearing the flesh of Dendallen, you can expend 1 charge to cast the "false life" spell as a bonus action. In addition, while you have less than half your total maximum hit points remaining, you regain hit points equal to 1d4 + your Constitution modifier (minimum 1) at the beginning of each of your turns. You do not regenerate health if you are unconscious or have taken either fire or radiant damage since your last turn.
+
+𝘾𝙪𝙧𝙨𝙚. When you attune to the flesh of Dendallen and wear it, the fleshy fabric begins to bubble and hiss as your skin quickly begins to fuse to it. Make a DC 20 Strength saving throw. On a success, you're able to safely remove the clothing before you attune to the item, but are aware of the curse's effects. On a failure, the garment attaches to your flesh and destroys any nonmagical clothing covered by it. Magical items worn beneath the flesh of Dendallen rise to the surface as the fleshy shirt seeps through them to attach itself to your skin. While you wear it, you are considered to be undead in addition to any other creature type you already are and are vulnerable to radiant damage.
+
+Once you are attuned to the flesh of Dendallen, you cannot remove it unless you are targeted by the remove curse spell or similar magic. When you remove it, you take 4d10 slashing damage as the shirt is peeled from your skin. Removing the flesh of Dendallen is an agonizing and difficult task, leaving you with 1 point of exhaustion. In addition, for 24 hours after separating from the shirt, you are vulnerable to bludgeoning, piercing, and slashing damage.

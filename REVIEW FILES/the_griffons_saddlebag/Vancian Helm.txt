@@ -1,0 +1,12 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Vancian Helm
+Wondrous item, rare (requires attunement)
+___
+
+This helmet is made from the reclaimed and partially disenchanted remains of a shield guardian. The helm is no longer bound to an amulet. You gain a +1 bonus to AC while you wear this helmet.
+
+𝙎𝙥𝙚𝙡𝙡 𝙎𝙩𝙤𝙧𝙞𝙣𝙜. Any creature can cast a spell of 1st through 4th level into it by touching the helm as the spell is cast. The spell has no effect, other than to be stored in the helm. The helm can only hold one spell at a time.
+
+While wearing this helmet, you can cast any spell stored in it. The spell uses the slot level, spell save DC, spell attack bonus, and spellcasting ability of the original caster, but is otherwise treated as if you cast the spell. When the spell is cast or a new spell is stored, any previously stored spell is lost.
+
+If a spell is cast at 5th level or above into the helm, the spell is expended without effect. When this happens, you take 2d6 psychic damage if you are also wearing the helmet. While a spell is stored within the helmet, your eyes glow with brilliant color of your choice.

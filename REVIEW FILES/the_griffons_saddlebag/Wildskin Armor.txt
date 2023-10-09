@@ -1,0 +1,8 @@
+🛡 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Wildskin Armor
+Armor (hide), uncommon (requires attunement by a druid)
+___
+
+This enchanted hide armor magically conforms to your body and moves naturally with your movements.
+
+While wearing this armor, you can choose to have it reinforce your new form when you transform. When you do, your AC while you are transformed by Wild Shape is equal to 14 + your Dexterity modifier (maximum 2), unless it's already higher. You gain this benefit even if the armor merges into your new form. Once this property has been used, it can't be used again until the next dawn.

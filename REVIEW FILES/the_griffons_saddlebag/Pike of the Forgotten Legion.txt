@@ -1,0 +1,10 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Pike of the Forgotten Legion
+Weapon (pike), legendary (requires attunement)
+___
+
+You gain a +2 bonus to attack and damage rolls made with this magic weapon. This weapon has 6 charges and regains 1d4+2 expended charges each day at dusk. While holding the pike, you can expend 1 or more of its charges to cast one of the following spells from it (save DC 16): "mirror image" (1 charge), "phantom steed" (1 charge), "speak with dead" (1 charge), or "spirit guardians" (2 charges).
+.
+𝙎𝙥𝙚𝙘𝙩𝙧𝙖𝙡 𝙬𝙖𝙧𝙧𝙞𝙤𝙧. Once on your turn when you hit a creature with an attack using the pike, you can choose to summon a spectral warrior from the weapon. Until the start of your next turn, that creature is haunted by the warrior. That creature has disadvantage on any weapon attack it makes against you until the start of your next turn. This property has no effect against undead creatures.
+
+𝙃𝙖𝙪𝙣𝙩𝙞𝙣𝙜 𝙥𝙝𝙖𝙡𝙖𝙣𝙭. You can use an action while holding the pike to expend 3 charges and point it forward commandingly. 5 spectral, pike-wielding warriors appear before you and march in a 25 by 50-foot line in a direction you choose. Any creature within that line's area must make a DC 16 Intelligence saving throw. On a failure, a creature takes 3d10 necrotic and 3d10 psychic damage and are under the effects of the weapon's spectral warriors property. On a success, the creature takes half damage and isn't affected by the spectral warriors. Undead creatures automatically succeed on the saving throw. Once this feature of the pike has been used, it can't be used again until you finish a short or long rest.

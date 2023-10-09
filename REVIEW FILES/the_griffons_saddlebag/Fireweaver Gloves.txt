@@ -1,0 +1,8 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Fireweaver Gloves
+Wondrous item, uncommon (requires attunement)
+___
+
+While wearing these fine golden gloves, you can hold and carry small nonmagical flames (such as that of a torch or candle) as if they were tangible objects and can sculpt them like clay. Once sculpted, a flame retains its form for 1 minute before returning to normal. A nonmagical flame carried in this way burns brightly for 1 hour before dying. If you drop or throw the carried flame, it immediately burns out.
+
+These gloves have 1 charge that recharges each day at dawn. While wearing the gloves, you can expend 1 charge to cast the "continual flame" spell without material components, creating the flame in the palm of your hand or allowing it to encompass an entire glove. The flame dies after 1 minute of not being in contact with the glove. In addition, when you take fire damage from a magical source, you can use your reaction to reduce that damage by 1d8 + 2, provided that you have a free hand. If you reduce the damage to 0, you regain 1 charge.

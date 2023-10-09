@@ -1,0 +1,15 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Mourningsteel Eclipse Weapon (morningstar), rare
+___
+
+This dreadful spiked weapon is designed to represent the sting of the moon-covered sun. Forged from mourningsteel, the metal that makes this weapon has been steeped in the blood and misery of fallen warriors of brutal conflicts. When you hit with an attack using this magic weapon, the target takes an extra 1d6 necrotic damage.
+
+While holding this morningstar, you can use an action to speak its command word to cast the "darkness" spell from it with the following changes:
+
+• The darkness extends from you in a 10-foot-radius sphere and moves with you
+
+• While holding the morningstar, you can see through this magical darkness as if it were dim light.
+
+• When you hit a creature within the darkness using the morningstar, its bonus necrotic damage increases to 1d8.
+
+The spell ends early if you drop or stow the morningstar. Once used, this property of the weapon can't be used again until the next dusk.

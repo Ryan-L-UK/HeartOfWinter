@@ -1,0 +1,11 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Echo of the Oni Wondrous item, very rare (requires attunement)
+___
+
+This tattered leather cloak is lined with a blue, silken lining with gold and white patterns. The cloak contains the lingering power of an oni. While wearing it, you gain a flying speed equal to your walking speed and can hover, but can only fly up to 1 foot off the ground while doing so. In addition, you have advantage on Dexterity (Stealth) checks, and when you reduce a hostile creature to 0 hit points, you become invisible until the start of your next turn or until you make an attack or cast a spell.
+
+𝘼𝙫𝙖𝙩𝙖𝙧 𝙤𝙛 𝙩𝙝𝙚 𝙊𝙣𝙞. You can use an action while wearing the cloak to draw more of the oni's power from the cloak. When you do, you cast a version of the "enlarge/reduce" spell on yourself from the cloak, using only the spell's enlarge option, with the following changes:
+* You immediately gain 10 temporary hit points, which last until the spell ends.
+* You're no longer limited in how high you can fly while wearing the cloak.
+
+𝘾𝙪𝙧𝙨𝙚. This cloak is cursed, a fact that is only revealed when the curse is extended to you. Each time you use the Avatar of the Oni property of this cloak, there is a permanent and cumulative 5 percent chance that the cloak's curse is extended to you. While cursed, the oni's malevolence takes hold of you: your skin turns blue and a pair of sharp ivory horns extends from your forehead, and you are unwilling to part with the cloak. In addition, the cloak casts "suggestion" on you at will (save DC 16), urging you to work toward whatever evil the oni's will desires at the GM's discretion. You remain cursed in this way until the cloak is targeted by a "dispel evil and good" spell, at which point your form returns to normal and the cloak loses this curse and the Avatar of the Oni property. A "remove curse" spell fails to end your attunement to the cloak or any of these effects, but does magically reveal the nature of the curse to the creature who cast the spell.

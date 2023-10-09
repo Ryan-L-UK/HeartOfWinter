@@ -1,0 +1,8 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Boreal Pendant
+Wondrous item, very rare (requires attunement)
+___
+
+This enlarged, floating snowflake is magically held in place and changes its shape as temperatures fluctuate. While attuned to the pendant you have resistance to cold damage, allowing you to withstand temperatures up to -50 degrees Fahrenheit. In addition, the pendant gives off an aura of cheeriness and lets you to cast the friends cantrip at will. The snowflake contains 8 charges and regains 1d6+2 expended charges each day at dawn. While wearing it, you can expend some of its charges to cast either hypnotic pattern (3 charges) or Snilloc's snowball swarm (2 charges), using either your spell save DC or the item's DC of 15, whichever is higher. If you expend the pendant's last charge, roll a d20. On a 1, the snowflake melts into a puddle of water and is lost.
+
+___

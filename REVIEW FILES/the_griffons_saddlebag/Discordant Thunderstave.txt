@@ -1,0 +1,6 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Discordant Thunderstave
+Weapon (quarterstaff), uncommon (requires attunement)
+___
+
+This thin, hollow quarterstaff has the finesse property and reverberates when it strikes a target. You gain a +1 bonus to attack and damage rolls made with this magic weapon. When you hit a target with this weapon and roll the maximum amount of bludgeoning damage on the weapon's damage die, the hollow staff shudders and emits a deep, thunderous sound. When that happens, roll the weapon's damage die again and add it to the total damage of the attack. Extra damage added in this way is thunder damage.

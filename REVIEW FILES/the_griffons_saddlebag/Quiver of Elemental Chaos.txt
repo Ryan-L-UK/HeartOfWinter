@@ -1,0 +1,17 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Quiver of Elemental Chaos
+Wondrous item, legendary (requires attunement)
+___
+
+This quiver has a lid with 5 holes in it and has depictions of the Elemental Planes on its side. It has 4 buttons along its top that correspond to each of the four elements: Air, Earth, Fire, and Water.
+
+𝙀𝙡𝙚𝙢𝙚𝙣𝙩𝙖𝙡 𝘼𝙢𝙢𝙪𝙣𝙞𝙩𝙞𝙤𝙣. The quiver can display up to 5 arrows or bolts at a time, which appear through the holes in its lid. You can press one of the quiver's buttons as a bonus action to cause it to create and display up to 5 elemental arrows or bolts. The type of arrow or bolt depends on the button you press. You can choose to store old or excess ammunition in the quiver for use at a later time whenever you press one of its buttons. The quiver can produce up to 5 of each type of ammunition in this way each day. Unused ammunition, whether stored inside the quiver or elsewhere, vanishes daily at dawn.
+Any arrow or bolt created by this quiver is magical and has the following properties based on its element. If it's held by a creature other than you or it hits or misses a target, the ammunition is no longer magical.
+
+𝘼𝙞𝙧 𝘼𝙢𝙢𝙪𝙣𝙞𝙩𝙞𝙤𝙣. This ammunition is weightless and whistles softly as it moves. This piece of ammunition can be fired at its long range without disadvantage and deals an extra 1d6 thunder damage to any target it hits. In addition, any atmospheric effect that the arrow passes through, such as a "fog cloud" or "stinking cloud", is dispelled.
+
+𝙀𝙖𝙧𝙩𝙝 𝘼𝙢𝙢𝙪𝙣𝙞𝙩𝙞𝙤𝙣. This ammunition carries an uncanny force behind it and turns to stone at its end. When you hit with a ranged attack using this ammunition, the target takes an extra 2d6 bludgeoning damage and must succeed on a DC 17 Strength saving throw or be pushed 10 feet away from you.
+
+𝙁𝙞𝙧𝙚 𝘼𝙢𝙢𝙪𝙣𝙞𝙩𝙞𝙤𝙣. This ammunition has tongues of fire licking up its side and spews embers at the slightest movement. When shot, it erupts into a plume of white-hot flame. This piece of ammunition deals an extra 1d6 fire damage to any target it hits. Hit or miss, the ammunition explodes. The target and...
+.
+... Continued in the comments below!

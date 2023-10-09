@@ -1,0 +1,13 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Sovereignseed Duffel Wondrous item, legendary
+___
+
+This messenger bag is linked to an extraplanar garden. You can use an action to pull a seed from the bag and place or throw it at a target or point that you can see within 30 feet of you. Alternatively, you can pull a seed from the bag when you make a ranged attack with a sling, using the seed as a sling bullet once on each of your turns. You choose which seed to draw from the bag each time; each one has an effect that triggers upon impact. A seed's effect is centered at the point of impact or at a point of your choice within 5 feet of the target it hits, unless otherwise specified. A seed's effect fails if there isn't a point on the ground within 5 feet of the point of impact or target. At the end of a seed's duration, it turns to a small pile of fertile soil.
+
+The following seeds can be pulled from the duffel. Up to 5 seeds can be pulled from the duffel in this way each day, regaining all expended seeds daily at dawn.
+
+• 𝘽𝙖𝙢𝙗𝙤𝙤 𝘾𝙤𝙡𝙤𝙣𝙣𝙖𝙙𝙚. A dense copse of bamboo erupts from the ground in a 5-foot-radius cylinder that's up to 60 feet tall. Its area is heavily obscured, and it provides total cover. Any creature in the area when it appears is pushed to an adjacent unoccupied space and must succeed on a DC 17 Dexterity saving throw or take 3d10 piercing damage. The bamboo has AC 17, 60 hit points, and is vulnerable to fire damage. It lasts for 1 hour or until it's reduced to 0 hit points.
+
+• 𝙃𝙖𝙯𝙚 𝘽𝙡𝙤𝙤𝙢. When the seed impacts, you dissolve into mist and reappear in an unoccupied space within 5 feet of the point.
+
+...Contined in the comments!

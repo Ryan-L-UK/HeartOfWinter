@@ -1,0 +1,14 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Couatl Herald's Lash
+Weapon (whip), rare (requires attunement by a creature of good alignment)
+___
+
+This slender whip's grip is feathered and comfortable to wield. Its weight has been magically reduced and gently sways on its own. This weapon has the light property. You gain a +1 bonus to attack and damage rolls made with this magic weapon.
+
+When you take the Attack action and use this whip to make an attack against a Medium or smaller target, you can choose forgo the attack and force the target to make a DC 15 Dexterity saving throw instead. On a failure, the target is grappled by the whip and takes 1d4 bludgeoning damage as it's constricted by the whip. If you replace another attack with the whip in this way against a target who's already grappled by it, that target becomes restrained by the whip instead upon failing the saving throw.
+
+A target grappled or restrained by the whip can use an action to make a DC 15 Strength or Dexterity check (target’s choice). On a success, it is no longer grappled or restrained by the whip.
+
+Until this grapple or restraint ends, you can't use the whip against a different target. Moving more than 10 feet away from the target ends the grapple or restraint.
+
+𝙁𝙡𝙞𝙜𝙝𝙩 𝙤𝙛 𝙩𝙝𝙚 𝘾𝙤𝙪𝙖𝙩𝙡𝙨. While you're attuned to 3 items with this feature, you gain a flying speed of 30 feet. If you already have a flying speed, this speed is in addition to your existing flying speed.

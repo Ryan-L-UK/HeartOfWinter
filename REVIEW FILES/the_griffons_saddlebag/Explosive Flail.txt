@@ -1,0 +1,5 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Explosive Flail Weapon (flail), uncommon
+___
+
+The head of this magic flail floats softly on its own, as if by a gentle current, and is covered in blunt metal prongs. The weapon's head releases a controlled explosion when it impacts a target. The first target you hit with this flail on each of your turns takes an extra 1d4 fire damage. If you roll a 4 on the fire damage die in this way, any creature within 5 feet of the target (other than you) also takes 4 fire damage.

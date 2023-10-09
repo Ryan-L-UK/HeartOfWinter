@@ -1,0 +1,52 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Doomsday Cookie
+Wondrous item, uncommon
+___
+
+This black sugar paste cookie is made using a grim recipe passed down through generations of clerics devout to gods of death. Inside this hollow cookie is an enchanted piece of blank paper whose writing is revealed upon breaking the cookie The writing on the paper attempts to predict the cause of death for the creature who opened it. When you open this cookie, roll a d20 and use the table below to determine the paper's prediction.
+
+Once a creature's fortune has been predicted this way, all future doomsday cookie papers will predict the same outcome for them. If a creature dies in a way foretold by the cookie (at your DM's discretion) the cookie's paper transforms into a scroll of "revivify". This scroll can only be used on the creature whose passing it foretold. If the scroll is unused within 1 minute, it crumbles into dust.
+
+Regardless of its grim foretellings, the cookie itself is a delicious snack that is sweet, salty, and smoky.
+
+d20 | Prediction
+-
+1 | "Your fiery passions burn too hot."
+-
+2 | "The light of the full moon casts the deepest shadows."
+-
+3 | "Vainglorious you stumble, entranced by your own reflection."
+-
+4 | "Great heights bring all who reach them low."
+-
+5 | "Betrayal strikes deeper than any blade."
+-
+6 | "Hasty hands make for quick lives."
+-
+7 | "Look behind you."
+-
+8 | "Getting ahead of yourself may separate you both."
+-
+9 | "What a fine meal."
+-
+10 | "Nature knows no morality."
+-
+11 | "The crushing weight of the world is too much."
+-
+12 | "Your demise is met with revelry, gnashing jaws and gluttony."
+-
+13 | "Beware the viridian, in color and emotion."
+-
+14 | "Mortality is shed as quickly as skin or clothing."
+-
+15 | "Hold on to each breath, savor it as your last."
+-
+16 | "70% of accidents happen in the home."
+-
+17 | "Stars die as new ones rise."
+-
+18 | "Cold. So cold."
+-
+19 | "The stench of failure burns your nostrils."
+-
+20 | "Rocks fall. You die.

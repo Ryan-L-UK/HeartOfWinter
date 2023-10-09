@@ -1,0 +1,16 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Staff of the Reverent Warrior
+Staff, rare (requires attunement by a spellcaster)
+___
+
+This staff was made by a once-famed warrior who retired, using the blades he wielded as a means of worship instead of war. This staff is adorned with blades and channels the inner focus of warriors. This staff can be wielded as a magic quarterstaff that grants a +2 bonus to attack and damage rolls made with it. In addition, attacks made with this weapon can deal either bludgeoning, piercing, or slashing damage.
+
+This staff has 10 charges. While holding the staff, you can use it to cast the "true strike" cantrip at will. When casting "true strike" in this way, you can choose to expend 1 or more of the staff's charges to enhance the spell in one of the following ways:
+.
+* You can expend 1 charge to reveal the target's weaknesses to your allies, granting the next attack roll against the target advantage.
+* You can expend 1 charge to cast the spell as a bonus action instead of its normal casting time.
+* You can expend 1 charge to cast the spell without requiring concentration.
+* You can expend 1 charge to cause the target to take an extra 2d6 damage from the next attack that hits it.
+
+You can expend multiple charges to combine two or more of these additional spell effects when casting the "true strike" cantrip in this way.
+The staff regains 1d6 + 4 expended charges each day at dawn. If you expend the last charge, roll a d20. On a 1, the staff becomes a nonmagical quarterstaff, but can still be used to deal either bludgeoning, piercing, or slashing damage with its attacks.

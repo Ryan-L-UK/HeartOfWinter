@@ -1,0 +1,8 @@
+🧪 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Potion of Dragon's Breath
+Potion, uncommon (3d6), rare (4d6), or very rare (5d6)
+___
+
+This potion is crafted using the harvested stomach and gizzard of a fallen dragon. Drinking this potion replicates the "dragon's breath" spell cast at second level, whose elemental and area of effects are determined by dragon it was sourced from: found on the table on page 34 of the Player's Handbook. Materials from Young dragons produce uncommon potions (dealing 3d6 damage with the breath weapon, save DC 14), whereas Adult and Ancient dragons produce rare (4d6, DC 16) and very rare (5d6, DC 18) results, respectively.
+
+It takes one week and proficiency with alchemist's supplies to create the potion, requiring two hours of undisturbed, concentrated work each day in order to prepare it. Failing to tend to the potion causes the potion to reset, requiring another week to craft. When forced to reset the potion, roll a d20. On a 1, the potion's ingredients become spoiled and are lost.

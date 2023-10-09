@@ -1,0 +1,32 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Wild Dice
+Wondrous item, rare
+___
+
+This set of two chipped and weathered wood six-sided dice are infused with unpredictable magic. They come in a small velvet bag whose pattern changes based on the dice's last roll. Otherwise, the dice appear completely unassuming.
+
+The dice have a total of 6 charges and regain 1d6 expended charges daily at dawn. As an action, you can expend 1 of their charges to roll them, tossing them at a point you can see within 30 feet of you when you do. The dice's effect is determined by the total of the roll as listed in the table and described below. Unless the effect says otherwise, the dice disappear at the end of the effect and reappear in the pouch at the start of the following turn. Rolling the dice again while an effect is still active does nothing. An effect that requires a saving throw has a DC of 15.
+
+2d6 | Effect
+—
+2 | Slither
+3 | Nullify
+4 | Slick
+5 | Misty
+6 | Jelly
+7 | Lucky
+8 | Bramble
+9 | Alarm
+10 | Revelry
+11 | Zap
+12 | Explode
+
+𝘼𝙡𝙖𝙧𝙢. As the dice come to a halt, an ear-piercing alarm rings out from them for 1 minute, audible out to a range of 300 feet. Any sleeping creatures within that range are immediately awakened, and every creature that can hear the alarm is immune to any effect that would put them to sleep for the duration.
+
+𝘽𝙧𝙖𝙢𝙗𝙡𝙚. The dice crack open like seeds and grow into gnarled brambles, casting the "entangle" spell from them (no concentration required) centered on the point in which they landed. The dice are then lost until the next dawn, at which point they reappear in the velvet bag.
+
+𝙀𝙭𝙥𝙡𝙤𝙙𝙚. The dice glow red hot and smoke before detonating into a fiery blaze, as if by the "fireball" spell centered on the point in which they landed. The dice are then lost until the next dawn, at which point they reappear in the velvet bag.
+
+𝙅𝙚𝙡𝙡𝙮. The dice ripple and jiggle, then dissolve into a pale slime. At the start of your next turn, the slime grows into a gelatinous cube with half its normal hit points in an unoccupied space nearest to the point where the dice landed. This cube remains for 1 minute or...
+
+...Continued in the comment below!

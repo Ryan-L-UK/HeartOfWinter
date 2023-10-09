@@ -1,0 +1,10 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Amulet of Equilibrium
+Wondrous item, uncommon (requires attunement)
+___
+
+This spiraling pendant is made of three magic-sensitive panes of colored crystal, with each piece being attuned to a different arcane element. If you can cast spells, you can use the amulet as a spellcasting focus while you're attuned to it.
+
+The amulet has 4 charges and regains 2 expended charges each day at dawn. Whenever you would deal cold, fire, or lightning damage to a creature with an effect that targets only that creature, you can expend any number of charges to reroll that many of the effect's damage dice.
+
+Whenever you take cold, fire, or lightning damage from a hostile source, you regain 1 charge.

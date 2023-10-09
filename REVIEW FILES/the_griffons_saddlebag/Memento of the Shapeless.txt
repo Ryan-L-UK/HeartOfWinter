@@ -1,0 +1,14 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Memento of the Shapeless
+Weapon (any melee weapon without the reach or heavy property), legendary (requires attunement)
+___
+
+This weapon has been forged using the magically preserved remains of an ancient mimic. You gain a +2 bonus to attack and damage rolls made with this magic weapon.
+
+As a bonus action, you can use the weapon's command word to order the weapon to reshape itself into another weapon you have proficiency with. The weapon must be a melee weapon that lacks the heavy and reach properties.
+
+When you successfully land an attack with this weapon, you can allow the weapon to revert to its natural, sticky pseudopod form and attempt to grapple the target following the attack (no action required). It must succeed on a DC13 Strength saving throw or become grappled by the weapon. If you successfully grapple a creature with the weapon, you cannot attack or grapple another creature with it while you maintain the hold. If you release the weapon while it is grappling a creature, the weapon immediately releases the creature.
+
+𝙋𝙨𝙚𝙪𝙥𝙚𝙧𝙥𝙤𝙙. As an action, you can channel the spirit of the dead mimic into a fury.  Choose a creature within 30 feet of you. The weapon stretches, like a tendril, towards its victim and ignores half and three-quarters cover. Make an attack roll against the target. On a hit, the creature takes 6d8 bludgeoning damage. After the attack, the weapon retracts back into its previous form. If you attempt to grapple the target, the save DC increases to 15 for the duration of this attack. If the affected creature fails its saving throw, it is dragged up to 15 feet closer to you before escaping the pseudopod's grasp. If it failed the saving throw by 5 or more, it is dragged to a space adjacent to you and remains grappled. Once you have used this ability, you cannot use it again until you finish a short or long rest.
+
+𝙇𝙞𝙢𝙗 𝙧𝙚𝙥𝙡𝙖𝙘𝙚𝙢𝙚𝙣𝙩. See the comment below for this feature - the description has exceeded Instagram's character count! Whoops!

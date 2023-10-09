@@ -1,0 +1,10 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Galvanic Steelsnare
+Weapon (net), rare
+___
+
+This magic net is made with fine steel chains and has the heavy property. Magic, leaden weights line the edge of the net and send shocking pulses throughout the metal. The net is resistant to slashing damage and has immunity to all other damage types. A creature restrained by the net can only make one attack on each of its turns, even if it can normally make multiple.
+
+While a creature within 30 feet of you is restrained by the net, you can speak its command word as a bonus action to deal 1d6 lightning damage to the restrained creature. A restrained creature made of metal or wearing metal armor takes 2d6 lightning damage instead. When you use this property of the net, it can't be used again until the start of your next turn.
+
+A creature can use its action to make a DC 15 Strength check, freeing itself or another creature within its reach on a success. A Small or smaller creature has disadvantage on this ability check. Dealing 15 slashing damage to the net (AC 12) also frees the creature without harming it, ending the effect and destroying the net. When destroyed, the net magically repairs itself after 1d6 + 1 days.

@@ -1,0 +1,5 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Gossiper's Ear Cuff Wondrous item, rare
+___
+
+While wearing this ear cuff, you can use an action to cast the "message" cantrip from it. In addition, you automatically hear the message of any spell that targets a creature within 120 feet of you, such as by a "message" or "sending" spell. Messages overheard in this way sound like whispers to you, regardless of the original message.

@@ -1,0 +1,10 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+War Standard of Battlecries
+Wondrous item, very rare (requires attunement)
+___
+
+This magical emblazoned battle standard reinforces the fervor of nearby allies. The standard stands up to 10 feet tall but can be collapsed down to 2 feet tall for transport. The standard can be extended to its full height and held aloft using one hand or planted upright in an unoccupied space on solid terrain as an action. You can retrieve the planted standard when you enter the same space as it (no action required). While the standard is extended to its full height, allies within 15 feet of the held or planted standard gain a +3 bonus to their initiative.
+
+This standard has 4 charges and regains 1d4 expended charges each day at dawn. If you are within 15 feet of the extended standard, you can expend 1 of its charges to shout its command word, "Charge!" and take the Dash action as a bonus action. When you do, other allies within 15 feet of the standard can take the Dash action as a bonus action on their next turn.
+
+You can concentrate on the banner over the course of a short rest to change the emblem depicted on it.

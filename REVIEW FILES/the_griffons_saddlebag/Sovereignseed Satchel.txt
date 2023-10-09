@@ -1,0 +1,14 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Sovereignseed Satchel
+Wondrous item, rare
+___
+
+This unassuming leather satchel is embroidered with a floral pattern and is connected to a strange garden on a special demiplane. The garden produces 4 magical seeds daily at dawn, which automatically appear at the bottom of the bag each day. When you open the bag to retrieve the seeds for the first time each day, roll 4d6 and consult the table below to determine the nature of each seed. Any unused seeds turn to dust and are destroyed daily at dawn when the bag produces a new batch of seeds.
+
+|d6|Seed|
+———
+|1| Binding Bur. You can throw this jagged bur as if it were a dart or use it as a sling bullet. A Large or smaller creature hit by the bur must succeed on a DC 15 Strength saving throw or be restrained by it for 1 minute, as the bur rapidly grows to form a series of entangling plants around it. A creature restrained in this way can use its action to make a DC 15 Strength check, freeing itself on a success. The bur withers and is destroyed once a creature succeeds on the saving throw or is no longer restrained by it.
+|2| Bouncing Bloom. You can use an action to plant this seed in the ground in an unoccupied space within your reach. When you do, a 5-foot-radius flower immediately grows in the space. A creature that jumps from the flower is propelled three times the normal distance, up to the creature's remaining movement, without the need for a running start. The flower withers away and is destroyed after 10 minutes or after it's been used to propel a creature in this way ten times.
+|3| Cloaking Cotton. You can use an action to hurl this boll into the air at a point within 5 feet of you. When you do, the boll erupts into an opaque cloud in a 20-foot-radius sphere, centered on that point. The sphere spreads around corners, and its area is heavily obscured. The sphere does not move with you. The cloud remains for 1 minute, until it's dispersed by a wind of moderate or greater speed (at least 10 miles per hour), or until 5 or more fire damage is dealt to a target within the area.
+
+...Continued in the comment below!

@@ -1,0 +1,7 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Torchbearer's Sling Weapon (sling), uncommon
+___
+
+An empty brazier hangs suspended at the center of this sling. Any Tiny nonmagical flammable object or sling bullet that's placed in the brazier immediately sputters and catches fire, shedding bright light in a 20 foot radius and dim light for an additional 20 feet. If a sling bullet is launched from the weapon, it deals an extra 1d4 fire damage to any target it hits. The bullet then quickly extinguishes.
+
+If the sling bullet is a piece of coal or charcoal, the extra fire damage is 1d6 instead; the bullet then crumbles and is destroyed.

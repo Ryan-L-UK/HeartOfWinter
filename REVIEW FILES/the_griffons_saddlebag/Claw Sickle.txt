@@ -1,0 +1,7 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Claw Sickle Weapon (sickle), uncommon (requires attunement by a creature cursed with lycanthropy)
+___
+
+You can benefit from this magic weapon's following properties even if you aren't attuned to it. The sickle deals 2d4 slashing damage on a hit, instead of 1d4, and if you're wielding a "claw sickle" in either hand and engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.
+
+If you're attuned to a "claw sickle", you also gain a +1 bonus to any attack or damage rolls you make with any "claw sickles" you're holding.

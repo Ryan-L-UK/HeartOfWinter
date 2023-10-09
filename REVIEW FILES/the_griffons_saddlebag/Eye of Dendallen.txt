@@ -1,0 +1,14 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Eye of Dendallen
+Wondrous item, rare (requires attunement)
+___
+
+While you are attuned to this item, you can cast "see invisibility" on yourself at will.
+
+𝘾𝙪𝙧𝙨𝙚. When you attune to the eye of Dendallen, you are suddenly overcome with the urge to see what it sees. Make a DC 20 Wisdom saving throw. On a success, you're able to resist the enchantment and are aware of the curse's effects, but are not attuned to it. On a failure, you forcefully tear out one of your own eyes, taking 4d10 necrotic damage, allowing the eye of Dendallen to crawl into its place. If you are already missing an eye, you are simply compelled to allow the eye to crawl into the empty socket.
+
+You can see normally while the eye of Dendallen remains in your socket, but can choose to close your other eye to see through its magically enhanced lens using a bonus action. Looking through the eye grants you darkvision of up to 120 feet, and are able to peer through both magical and nonmagical darkness using it. The eye moves slower than a normal eye, leaving slight trails and motion blurs behind it as you look through it. While looking only through the eye of Dendallen, you have disadvantage on any attack you make as well as ability checks that rely on depth perception. You can open your other eye and regain your normal vision using another bonus action.
+
+𝘿𝙚𝙣𝙙𝙖𝙡𝙡𝙚𝙣 𝙛𝙖𝙢𝙞𝙡𝙞𝙖𝙧. The eye is a gruesome familiar. As an action, you can command the eye to crawl out of its socket and move independently of you. Use the abilities described in the "find familiar" spell when commanding the eye of Dendallen. The eye has five hit points, an AC of 12, a movement and climbing speed of 20 feet, does not require air to breathe, and has a +6 bonus to Dexterity (stealth) checks. If the eye is slain or you dismiss it, it reappears inside your open eye socket with a sickly sound. If it was slain, you cannot use its magical sight or command it as a familiar again until the following dusk.
+
+Targeting the eye with the "remove curse" spell or unattuning to it causes the eye to pull itself out of the socket and crawl away. Slaying the eye while it is unattuned to a creature destroys the item.

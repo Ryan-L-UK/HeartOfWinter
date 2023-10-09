@@ -1,0 +1,10 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Grass Whistle Blade
+Weapon (dagger), very rare (requires attunement)
+___
+
+This dagger's blade is actually a large, enchanted blade of grass. As wind passes over the blade, it creates a soft, sweet note that magically begins to lull creatures to sleep. You gain a +2 bonus to attack and damage rolls made with this magic weapon.
+
+This blade has 4 charges and regains 1d4 expended charges each day at dawn. When you hit a creature with a melee attack using this dagger, you can choose to expend 1 charge and forgo the attack's damage to attempt to put the creature to sleep. When you do, you swing the blade in a pattern around the creature that creates a magical lullaby. Roll 10d8; the total is how many hit points of the creature this can affect. If the total number of hit points you roll is greater than the target's remaining hit points, that creature falls unconscious for 1 minute or until it takes damage or another creature uses an action to shake or slap that creature awake. If the target is not put to sleep, it takes 3d8 psychic damage instead.
+
+Undead and creatures immune to being charmed can't be put to sleep by this effect.

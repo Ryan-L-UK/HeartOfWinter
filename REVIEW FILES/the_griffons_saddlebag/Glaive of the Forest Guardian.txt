@@ -1,0 +1,13 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Glaive of the Forest Guardian
+Weapon (glaive), rare (requires attunement)
+___
+
+The blade of this weapon is made of clear green crystal, and has decorative vines and flora wrapping around its metallic haft. While the weapon is on your person, You have advantage on saving throws against being charmed, and magic can't put you to sleep. If you're a fey or have the Fey Ancestry trait, you can use an action to cast the "plant growth" spell from the weapon while you're holding it. Once the glaive has been used to cast this spell, it can't do so again until the next dawn.
+
+In addition, while in a forest, you gain the following benefits while the glaive is on your person:
+
+* Moving through nonmagical difficult terrain costs you no extra movement.
+* You can't become lost except by magical means.
+* Whenever you make an Intelligence or Wisdom check related to the forest you're in, your proficiency bonus is doubled if it applies to the check.
+* If you're a ranger, your climbing, swimming, and walking speeds also increase by 5 feet.

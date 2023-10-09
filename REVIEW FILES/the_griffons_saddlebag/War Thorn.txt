@@ -1,0 +1,7 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+War Thorn Weapon (war pick), uncommon
+___
+
+A large thorn grows from this magic war pick's wooden haft to form the head of the weapon. When you use this weapon to hit a creature with an opportunity attack as the result of that creature's movement, that creature's speed is reduced by 10 feet until the end of the turn.
+
+If you are a druid and can cast the “shillelagh” spell, you can also cast that spell on this weapon. For the duration of the spell, you are considered to be proficient with this weapon.

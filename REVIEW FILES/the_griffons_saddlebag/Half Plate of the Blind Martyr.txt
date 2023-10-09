@@ -1,0 +1,17 @@
+🛡 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Half Plate of the Blind Martyr
+Armor (half plate), legendary (requires attunement by a cleric)
+___
+
+This dark, battle-scarred half plate armor honors the blind valkyrie, a twisted symbol of impartial war, justice, and repentance. You gain a +2 bonus to AC while wearing this armor.
+
+𝘾𝙝𝙖𝙧𝙜𝙚𝙨. This armor has 8 charges and regains 1d4 + 4 expended charges daily at midday. While wearing the armor, you can use an action to expend 1 or more of its charges to cast one of the following spells from it, using your spell save DC, spellcasting ability modifier, and spell attack bonus:
+.
+• 1 𝘾𝙝𝙖𝙧𝙜𝙚. "Cure wounds", "inflict wounds".
+• 2 𝘾𝙝𝙖𝙧𝙜𝙚𝙨. "Blindness/deafness", "lesser restoration".
+• 3 𝘾𝙝𝙖𝙧𝙜𝙚𝙨. "Bestow curse", "remove curse".
+• 4 𝘾𝙝𝙖𝙧𝙜𝙚𝙨. "Banishment", "death ward".
+• 5 𝘾𝙝𝙖𝙧𝙜𝙚𝙨. "Contagion", "mass cure wounds".
+• 6 𝘾𝙝𝙖𝙧𝙜𝙚𝙨. "Harm", "heal".
+.
+𝘾𝙪𝙧𝙨𝙚. This armor is cursed, and attuning to it extends that curse to you. This curse can only be ended by a "wish" spell, removing the armor fails to end the curse. While you're cursed, you are blind, but have blindsight out to a range of 60 feet while wearing this armor. In addition, whenever you hit a creature with an attack or cast a spell that affects a creature other than yourself, you take 3 psychic damage. This damage ignores resistance and immunity.

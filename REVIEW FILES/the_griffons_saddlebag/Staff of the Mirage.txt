@@ -1,0 +1,8 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Staff of the Mirage
+Staff, rare (requires attunement by a wizard)
+___
+
+This magical staff has 10 charges that can be used to cast the following spells. It regains 1d6+4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff loses its properties and becomes a nonmagical quarterstaff.
+
+𝙎𝙥𝙚𝙡𝙡𝙨. You can use an action to expend 1 or more of the staff's charges to cast one of the following spells from it, using your spell save DC + 2 for these spells: "disguise self" (1 charge), "hallucinatory terrain" (4 charges), "invisibility" (2 charges), "mirror image" (2 charges), "mislead" (5 charges), "silent image" (1 charge).

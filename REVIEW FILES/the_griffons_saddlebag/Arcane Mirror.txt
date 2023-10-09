@@ -1,0 +1,10 @@
+🛡 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Arcane Mirror
+Armor (shield), very rare (requires attunement)
+___
+
+This reflective shield is coated with an impenetrable weaving of abjuration magic and can sometimes reflect dangerous magics back at their source.
+
+The shield has 8 charges and regains 1d6 + 2 expended charges each day at dawn. When you are the only target of a spell that misses you or whose saving throw you succeed, you can use your reaction to expend a number of charges equal to the level in which the spell was cast (minimum of 1). When you do, you can reflect some of the spell's evaded magics back at its source and force it to make a Dexterity saving throw. On a failed save, the targets takes 1d8 radiant damage for each expended charge, or half as much on a success. The save DC for this effect is equal to 8 + your proficiency bonus + the number of expended charges. If you reflect a spell in this way that would cause you to take half damage on a successful save, you instead take no damage.
+
+Alternatively, you expend 2 charges to cast the "shield" spell.

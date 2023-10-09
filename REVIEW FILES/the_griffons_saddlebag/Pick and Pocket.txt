@@ -1,0 +1,8 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Pick and Pocket
+Weapon (dagger), rare
+___
+
+This brass and steel dagger can also be used as part of a set of thieves' tools when picking locks. You gain a +1 bonus to attack and damage rolls made with this magic weapon, as well as on any ability check you make using thieves' tools to pick open a lock, provided you use the dagger as part of the set of tools.
+
+While holding the dagger in one hand and a small enough object in another, you can use an action to speak the dagger's command word and twist it in the air as if it were a key. When you do, the object is shunted into a special demiplane, where it remains until you use an action to speak the command word again and twist the dagger in the opposite direction. If you have a free hand, the stored object reappears in it when the object is removed from the demiplane in this way. Otherwise, it reappears at your feet. Only one object can be stored in the demiplane at a time. The object can't be magical and must be no more than 1 foot on a side and weigh no more than 10 pounds. If the dagger is destroyed, any object within the demiplane reappears in the nearest unoccupied space within 5 feet of where the weapon was.

@@ -1,0 +1,6 @@
+🛡 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Festerwood Buckler
+Armor (shield), uncommon
+___
+
+This festerwood shield is riddled with amber pustules that glow with a low, yellow light. While holding this magic shield, the pustules emit bright light in front of you in a 5-foot radius and dim light for another 5 feet. In addition, when a creature within 5 feet of you misses you with a melee attack, you can use your reaction to bash that creature with the shield and force it to make a DC 13 Dexterity saving throw. On a failure, that creature takes 1d4 + 1 acid damage.

@@ -1,0 +1,12 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Sword of the Spelldrinker
+Weapon (longsword), legendary (requires attunement)
+___
+
+This sword seems to absorb the light that touches it, making it appear darker than the deepest midnight. You gain a +2 bonus to attack and damage rolls made with this magic weapon. While you hold this sword, any magical light, darkness, or atmospheric effect within a 10-foot radius of you is treated as nonmagical and breathable.
+
+In addition, this sword has 2 charges and regains 1 expended charge each day at dusk. You can expend 1 of its charges to cast the "counterspell" spell at 5th level. If the triggering spell is cast at 6th level or higher, this "counterspell" automatically fails. If you successfully interrupt a spell in this way, you can choose to absorb the spell into the sword instead of dispersing it. The absorbed spell must have a casting time of one action or bonus action. The sword can only have one spell absorbed in this way at a time.
+
+You can release an absorbed spell as an action. When you do, the spell uses the slot level, spell save DC, spell attack bonus, and spellcasting ability of the original caster, but is otherwise treated as if you cast the spell.
+
+The spell remains absorbed for up to 8 hours or until released from the sword. Absorbing a new spell replaces the one stored within the sword.

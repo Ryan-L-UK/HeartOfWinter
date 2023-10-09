@@ -1,0 +1,13 @@
+🛡 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Time Warden Armor Armor (breastplate), very rare (requires attunement)
+___
+
+This silver and brass breastplate is adorned with subtle clock designs. While wearing this armor, you are immune to the "slow" spell and don’t suffer the negative effects of "haste" when it ends on you.
+
+When you roll initiative while wearing this armor, use the number rolled on the d20, before adding any modifiers, to determine which of the following effects occur:
+
+d20  |  Effect 
+—
+1–5  | Any attack roll made against you before the start of your second turn of combat is made with disadvantage.
+- 6–15  |        You add 1d12 to the total of your initiative. 
+- 16–20 | At the start of your first turn, you can use a bonus action to take the Dash action. If you take the Attack action on that turn, you can make one additional weapon attack as part of that Attack action. You make this additional attack roll with advantage.

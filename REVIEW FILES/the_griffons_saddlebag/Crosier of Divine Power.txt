@@ -1,0 +1,9 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Crosier of Divine Power
+Staff, very rare (requires attunement by a cleric or paladin)
+___
+
+This staff can be wielded as a magic quarterstaff that grants a +3 bonus to attack and damage rolls made with it.
+This staff is enchanted with powerful holy magic that manifests as radiant motes of power during times of need. At the start of each of your turns in combat, roll a d6. On a 6, a mote of power appears above the head of the staff. When you hit a target with the staff or heal a creature with a spell or magical effect while holding it, you can expend 1 mote to add 2d6 to the total hit points healed or damage dealt. Extra damage done in this way is radiant damage.
+
+Each mote lasts for 1 minute or until it's expended. When you roll for initiative against a hostile creature, the staff creates 2 motes.

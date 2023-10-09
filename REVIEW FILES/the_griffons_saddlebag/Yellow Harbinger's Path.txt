@@ -1,0 +1,16 @@
+🛡 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Yellow Harbinger's Path
+Armor (light or medium), very rare (requires attunement by a creature with a Dexterity of 17 or higher)
+___
+
+This burnt yellow armor is the mark of a royal scout. Its magical construction is unyielding to all but the most lithe and capable of scouts and huntsmen.
+
+While wearing the armor, you gain a +5 bonus to any Dexterity (Stealth) check you make. While you have more than half your Hit Dice remaining, you can choose to expend 2 of them as an action to extend this property to creatures of your choice within 30 feet of you for 1 hour. When you do, each affected creature, including yourself, has advantage on initiative rolls and can't be tracked except by magical means. A creature only benefits from this effect if it remains within 30 feet of you.
+
+The armor has 7 charges and regains all expended charges daily at dawn. While wearing the armor, you can expend 1 or more of its charges to use one of the following properties:
+
+"𝘼𝙩 𝘼𝙧𝙧𝙤𝙬'𝙨 𝙇𝙚𝙣𝙜𝙩𝙝!" When a creature that you can see within 60 feet of you uses its reaction to make an opportunity attack, you can use your reaction to expend 1 of the armor's charges to summon a spectral arrow from the air above it. The arrow flies harmlessly in front of the attacking creature and disappears, distracting them from the attack and causing the roll to be made with disadvantage. If the attacking creature has blindsight, this property has no effect. If you're concentrating on the hunter's mark spell, you can choose to move your mark to this creature as part of your reaction.
+
+Alternatively, if a hostile creature ends its turn within 5 feet of you, you can use your reaction to expend 2 charges to immediately move up to half your speed, without provoking opportunity attacks.
+
+... Continued in the comments below!

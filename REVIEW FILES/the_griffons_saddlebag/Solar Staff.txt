@@ -1,0 +1,15 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Solar Staff Staff, very rare (requires attunement by a cleric, druid, sorcerer, or wizard)
+___
+
+This staff ends in an open semi-circle at its head. While holding it, you can use a bonus action to cause a floating orb of pure radiance to spring into existence at the center of the half-circle, or to make the orb disappear. The orb sheds bright light in a 15-foot radius and dim light for an additional 15 feet. The light is sunlight.
+
+You can use a bonus action while holding the staff to cause the orb to fly up to 20 feet. If you drop or stow the staff, or if the orb is ever farther than 150 feet away from you, the orb flickers out and disappears.
+
+This staff has 10 charges for the following properties:
+
+𝙎𝙥𝙚𝙡𝙡𝙨. While holding the staff, you can use an action to expend some of its charges to cast either the "daylight" (2 charges) or "sunbeam" spell (4 charges) from it, using your spell save DC. Each spell can originate from either you or the orb of light when cast in this way.
+
+𝙋𝙪𝙧𝙞𝙛𝙮𝙞𝙣𝙜 𝙇𝙞𝙜𝙝𝙩. While holding the staff, you can use an action to expend 1 of its charges to cause the orb to glow with a purifying brilliance. Until the start of your next turn, any hostile creature that enters the orb's bright light for the first time on a turn or starts its turn there must succeed on a Constitution saving throw against your spell save DC or take 3d6 radiant damage. Undead creatures have disadvantage on the saving throw.
+
+The staff regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge from the staff, roll a d20. On a 1, the staff glows brilliant white before it turns to dust and is destroyed.

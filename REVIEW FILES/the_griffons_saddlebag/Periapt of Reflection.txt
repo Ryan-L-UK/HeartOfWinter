@@ -1,0 +1,10 @@
+🛡 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Periapt of Reflection
+Wondrous Item, rare (requires attunement)
+___
+
+This perfectly reflective charm magically helps you meditate and focus your mind. While wearing the necklace, you can use your reaction to reroll any failed Charisma, Intelligence, or Wisdom saving throw using the necklace's magic. You must use the new result.
+
+𝘾𝙪𝙧𝙨𝙚. This curse is revealed and is extended to you when you use the necklace to reroll a saving throw and roll a 1 on the new roll. While you're cursed, the mirrored surface of the necklace dulls into an ugly, flat gray when you wear it. The curse persists even if you are no longer wearing the necklace, and you remain cursed until targeted by the "remove curse" spell or similar magic.
+
+While you're cursed, your reflection in any mirrored surface within 10 feet of you turns into an ugly, horrifying visage of your deepest insecurities. In addition, whenever you fail a Charisma, Intelligence, or Wisdom saving throw (including the roll that reveals this curse), you take 1d8 psychic damage.

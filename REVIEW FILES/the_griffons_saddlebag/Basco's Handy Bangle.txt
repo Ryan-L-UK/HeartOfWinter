@@ -1,0 +1,8 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Basco's Handy Bangle 
+Wondrous item, rare
+___
+
+This shiny platinum bangle is inlaid with arcane runes that seem to each be written by a different hand. Labels can be read behind each of the adorning runes on the inside of the bracelet. As an action on your turn, you can touch one of the runes and say the command phrase, "I can do this," to gain proficiency in the rune's associated tool for the next 24 hours. The rune glows with arcane energy while its knowledge is being shared with the wearer. Once a rune is activated in this way, it cannot be activated again for 1d4 days.
+
+There are ten runes on the bangle that can be activated in this way: Alchemist's supplies, Carpenter's tools, Cook's utensils, Leatherworker's tools, Smith's tools, Tinker's tools, Instruments (Drum, Flute, Lute, Lyre), Navigator's tools, Thieve's tools, Vehicles (water). If you already have proficiency in one or more of these tools, you can double your proficiency bonus with it when the rune is active.

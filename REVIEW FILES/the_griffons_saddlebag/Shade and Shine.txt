@@ -1,0 +1,15 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Shade and Shine Weapon (handaxe), legendary (requires attunement)
+___
+
+These two axes are magically bound and count as a single magic item with regard to the number of magic items you can attune to. You gain a +2 bonus to attack and damage rolls made with these magic weapons, which return to your open hand after you make a ranged attack with them. If the two axes are separated and you are holding one of them, you can use a bonus action to cause the other one to teleport and reappear in your open hand or at your feet (your choice each time).
+
+When you make an opportunity attack using the axes, you can make two attacks against the provoking creature instead of one, once with each axe.
+
+𝙎𝙝𝙖𝙙𝙚. The first axe, named Shade, is made from an inky black metal. Thin plumes of smoke emanate from several small holes found across it. While holding Shade, you can use a bonus action to exude a dark aura, which lasts for 10 minutes or until you use the weapons' Shine property. For the duration, any creature within 10 feet of you that attacks you immediately takes 2d6 necrotic damage, as smoke-like blades lash out and strike it in return. In addition, your attacks with "Shade and Shine" deal an extra 1d6 necrotic damage to any target you hit with them. Once this property has been used, it can't be used again until the next dawn.
+
+𝙎𝙝𝙞𝙣𝙚. The second axe, named Shine, is made from a pale silver metal. Thin rays of light glimmer from a series of small holes found across it. While holding Shine, you can use a bonus action to exude a brilliant aura, which lasts for 10 minutes or until you use the weapons' Shade property. For the duration, any creature within 10 feet of you that attacks you immediately takes 2d6 radiant damage, as blades of pure radiance appear in a flash of light and strike it. In addition, your attacks with "Shade and Shine" deal an extra 1d6 radiant damage to any target you hit with them. Once this property has been used, it can't be used again until the next dawn.
+
+𝙎𝙥𝙚𝙘𝙞𝙖𝙡 𝙍𝙚𝙖𝙘𝙩𝙞𝙤𝙣. While holding at least one of the axes, you can use a special reaction when a creature that you...
+
+... Continued in the comment below!

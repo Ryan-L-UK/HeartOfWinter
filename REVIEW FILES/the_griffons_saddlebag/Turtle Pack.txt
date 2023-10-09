@@ -1,0 +1,13 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Turtle Pack Wondrous item, rare
+___
+
+This backpack is armored with the shell of a mighty turtle. Wearing or removing the backpack requires an action. It functions as a "handy haversack" with the following changes and additional benefits:
+
+• The backpack has only the central pouch of the haversack.
+• The backpack always weighs 20 pounds, regardless of its contents.
+• The backpack can't be destroyed by being torn or pierced.
+• While wearing the backpack, you can hold your breath for up to 1 hour.
+• While wearing the backpack, you gain a +2 bonus to AC until the start of your next turn whenever you take the Dodge action.
+
+While useful, the bag is a little unwieldy. A creature wearing the backpack can only stand up from being prone by using an action unless another friendly creature is within 5 feet of it.

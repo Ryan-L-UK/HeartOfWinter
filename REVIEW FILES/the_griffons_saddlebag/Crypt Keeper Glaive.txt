@@ -1,0 +1,18 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Crypt Keeper Glaive
+Weapon (glaive), legendary (requires attunement)
+___
+
+You gain a +3 bonus to attack and damage rolls made with this magic weapon.
+
+When you use the glaive to reduce a Small or larger creature that is hostile toward you to 0 hit points, roll a d10. You gain temporary hit points equal to that number.
+
+In addition, the glaive's blade begins to glow with a sickly green haze whenever you gain temporary hit points in this way. While glowing, the first successful melee weapon attack you make with the glaive deals extra necrotic damage equal to the number of temporary hit points you gained. Once you deal this bonus damage, the haze fades.
+
+The haze and any remaining temporary hit points are lost after one minute.
+
+Undead creatures killed by this weapon cannot be raised from the dead again.
+
+𝙎𝙞𝙭 𝙛𝙚𝙚𝙩 𝙪𝙣𝙙𝙚𝙧. The first time on your turn that you land a successful melee attack with this weapon against a creature that is prone, the weapon's damage die is maximized.
+
+___

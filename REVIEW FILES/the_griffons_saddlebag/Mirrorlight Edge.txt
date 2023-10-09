@@ -1,0 +1,10 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Mirrorlight Edge
+Weapon (scimitar), rare (requires attunement)
+___
+
+This roughly hewn crystalline sword bends light in unexpected and dangerous ways. As an action, you can command the scimitar to emit up to 2 ghostly projections of itself. The sword can have up to 2 of these projections at any time, which last until dismissed (no action required). When you make a melee attack with this weapon, the projections become razor-sharp. Targets hit by the sword take an extra 1d4 slashing damage for each projection the sword has.
+
+When swung, the distorted light and projections make the sword difficult to see. When you miss with a melee attack using the sword while it has at least 1 projection, you can choose to reroll the attack using 1 of the projections. You must use the new roll. After the attack, the projection fades.
+
+The sword emits dim light in a 5-foot radius while it has 1 projection and 10 feet while it has 2. Sheathing the scimitar contains the projections' light without dismissing them.

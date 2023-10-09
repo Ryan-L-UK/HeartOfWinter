@@ -1,0 +1,10 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Basilisk Dagger
+Weapon (dagger), rare
+___
+
+This magic dagger was made from pieces of a slain basilisk and still retains some of its properties. The dagger deals an extra 1d4 poison damage to any target it hits.
+
+In addition, whenever you score a critical hit using this weapon against a creature, that creature is forced to make a DC 14 Constitution saving throw. On a failed save, that creature becomes restrained as it magically begins to turn to stone. If it failed the saving throw, the creature must repeat the saving throw at the start of your next turn. On a success, the effect ends, and it is no longer restrained. On a failure, the creature is petrified for 1 minute or until freed by the "greater restoration" spell or other magic.
+
+Once this property of the dagger has been used, it can't be used again in this way for 1 minute.

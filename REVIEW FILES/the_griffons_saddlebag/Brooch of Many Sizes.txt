@@ -1,0 +1,10 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Brooch of Many Sizes
+Wondrous item, rare
+___
+
+This metal brooch can be used to secure a cape or pinned to adorn a piece of clothing and features a rotatable dial. As an action, a willing creature wearing the brooch can cast the "enlarge/reduce" spell on itself by turning the dial toward either the larger or smaller figure adorning the sides of the brooch. Once this ability has been used, it can't be used again until the following dawn.
+
+The creature can choose to overload the brooch as a bonus action once the spell has been cast by forcibly twisting the dial beyond its normal limits. When it does, the creature's size changes by an additional category: growing either a second size larger if it had cast the "enlarge" spell or a second size smaller if it had cast the "reduce" spell beforehand. The creature's size can't be larger than Huge or smaller than Tiny in this way, and its damage and weight is increased or decreased as if it were affected by a second instance of the "enlarge/reduce" spell.
+
+When a creature returns to its original size after overloading the brooch, it can't move or take actions until after its next turn. Once the brooch has been overloaded, it can't be use again until 7 days have passed.

@@ -1,0 +1,10 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Sharkrazor Mantle
+Wondrous item, rare (requires attunement)
+___
+
+You have a swimming speed of 60 feet and can breathe underwater while you wear this shark-skinned cloak. If a creature successfully grapples or restrains you by touching you, that creature takes 1d4 piercing damage upon that success and again at the end of each of its subsequent turns while it continues to physically hold you.
+
+In addition, the cloak magically sharpens your teeth. If you make a melee attack while underwater against a creature on your turn, you can use a bonus action to make a bite attack against that same creature if it's below it hit point maximum. This attack uses a damage die of 1d4, deals piercing damage, and uses your Strength modifier when rolling for attack and damage. The target can't be a construct, plant, or undead creature.
+
+𝘾𝙪𝙧𝙨𝙚. This cloak amplifies and sweetens the scent of blood to the point of distraction. Attuning to the cloak curses you until you're targeted by the remove curse spell or similar magic: removing the cloak fails to end the curse. While cursed, if you're within 60 feet of another creature that's below its hit point maximum, any attack you make against a creature who has all of its hit points, as well as any Wisdom (Perception) check you make, is made with with disadvantage. This effect only applies if the creature below its hit point maximum is neither a construct, plant, or undead creature.

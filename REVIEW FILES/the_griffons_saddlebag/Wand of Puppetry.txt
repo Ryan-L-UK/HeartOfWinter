@@ -1,0 +1,11 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Wand of Puppetry
+Wand, very rare (requires attunement by a spellcaster)
+
+This wand is made of wood and looks like the handle of a marionette. The wand has 7 charges. While holding the wand, you can use an action to expend 1 or more of its charges to attach a number of magical strings equal to the charges spent to a humanoid that you can see within 60 feet of you. You can attach 1 string to each of the creature's limbs, including its head. For example, a humanoid with two legs, two arms, and only one head could have a maximum of 5 strings attached to it. The strings are invisible, but can be seen by a creature with a successful DC 16 Intelligence (Arcana) check. Dealing 10 slashing damage with a magical weapon attack to one of the strings (AC 10) causes it to detach and disappear. At the end of each of its turns, a strung creature can make a DC 16 Strength saving throw, breaking free of and destroying any number of the strings connected to it on a success. The strings break early if the creature is more than 100 feet away from you.
+
+While a creature has a string attached to one or more of its limbs, the following effects occur depending on the location of the strings:
+
+𝘼𝙧𝙢 𝙤𝙧 𝙃𝙖𝙣𝙙. A creature with a string attached to one of its arms or hands must succeed on a DC 16 Strength saving throw each time it attempts to use it, such as making a weapon attack, climbing a wall, or using an item. On a failed save, the action, attack, check, or saving throw fails and is lost. If an action requires multiple arms and only one of the creature's arms has a string attached, it makes this saving throw with advantage. If the strung arm is holding a shield, the creature doesn't gain the benefits of holding it for the duration. In addition, you can use an action to force the creature to make a DC 16 Strength saving throw, dropping any number of items it's holding with the strung arms or hands on a failure.
+...
+Continued in the comments below!

@@ -1,0 +1,6 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Harp of Valor
+Weapon (shortbow), very rare (requires attunement by a bard)
+___
+
+This elegant bow has 10 strings and can be used as a harp and spellcasting focus. You are proficient with harps while attuned to this weapon, and Charisma (Performance) checks made using the bow as a harp are made with advantage. You have a +2 bonus to damage rolls on ranged weapon attacks made with this magic weapon, and arrows fired from the bow deal thunder damage instead of piercing. In addition, the bow has 10 charges and regains 1d6+4 charges each day at dawn. You can expend 1 to 5 of its charges as an action to cast either "thunderwave" or "magic missile" at a spell level equal to the number of charges you expend using your spellcasting modifier and spell save DC.

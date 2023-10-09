@@ -1,0 +1,8 @@
+🛡 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Helmsman's Shelter
+Armor (shield), rare (requires attunement)
+___
+
+This large, repurposed ship's wheel protects its wielder as well as offers some degree of control over the seas. You gain a +1 bonus to your AC while wielding this shield in addition to the shield's normal bonus to AC. While attuned to the shield, you gain proficiency with water vehicles.
+
+This shield has 5 charges and regains all expended charges each day at dawn. While wielding the shield, you can expend 4 charges to cast "control water" using a spell save DC of 15. Alternatively, you can expend 1 charge as an action to attempt to gain control of a water vehicle you can see within 300 feet of you that has a rudder. When you do, if that water vehicle has a creature currently controlling its direction, you can make a Strength (Athletics) check contested by the other creature's Strength (Athletics) check. On a success, you wrestle control away from the creature and can alter the direction of the water vehicle by up to 90 degrees. A creature can use its action to regain control of the water vehicle by succeeding on a Strength (Athletics) check contested by your Strength (Athletics) check. If there is no creature currently controlling the direction of the water vehicle you chose, you automatically succeed on the ability check.

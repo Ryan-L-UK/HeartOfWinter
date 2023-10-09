@@ -1,0 +1,6 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Rocborne Robe
+Wondrous item, uncommon (requires attunement)
+___
+
+This warm canvas robe is lined with roc down. While wearing it, you can withstand temperatures up to -50 degrees Fahrenheit. In addition, the cloak has 5 charges and regains 1d4 + 1 expended charges daily at dawn. While wearing the cloak, you can use an action to expend 1 charge and unfurl the robe. The robe opens into two large stylized wings before flapping back down, buffeting the area in front of you and refolding into the robe. The wings create a line of wind 15 feet wide and 10 feet long in front of you, forcing any affected Medium or smaller creature within the area to make a DC 13 Strength saving throw. A creature that fails the saving throw is pushed back 10 feet from the powerful wind. At the same time, you are flung away, flying 10 feet backwards without provoking opportunity attacks.

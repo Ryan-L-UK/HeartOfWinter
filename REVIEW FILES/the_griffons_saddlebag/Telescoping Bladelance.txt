@@ -1,0 +1,8 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Telescoping Bladelance
+Weapon (lance), uncommon
+___
+
+This mechanical lance has bladed edges on either side of the weapon's base and has the heavy property. You can use a bonus action on your turn to extend or retract the weapon by twisting the metallic band around the handle. While extended, the weapon behaves as a normal lance. While retracted, the end of the lance nests inside the wider, bladed base of the weapon and can be used as a makeshift greatsword instead. The damage die for the retracted lance is still a d12, but deals slashing damage instead of piercing.
+
+You can choose to release the spring-loaded mechanism and extend the retracted lance using a bonus action following an attack. If the target is a creature no more than one size larger than you, it must succeed on a DC 14 Strength saving throw or be forced backward up to 5 feet. If you extend the lance immediately after successfully hitting the creature, the creature makes the saving throw with disadvantage.

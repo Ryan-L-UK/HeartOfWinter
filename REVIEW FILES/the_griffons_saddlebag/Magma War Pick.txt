@@ -1,0 +1,10 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Magma War Pick
+Weapon (war pick), rare
+___
+
+You gain a +1 bonus to attack and damage rolls made with this magic weapon. When you land a hit with this war pick, the impact deals an additional 1d4 fire damage.
+
+This weapon has 3 charges and regains 1d3 expended charges daily at dawn. When you hit a creature that is either made of metal or wearing metal armor, you can expend a charge to inflict an extra 2d8 fire damage to the creature.
+
+___

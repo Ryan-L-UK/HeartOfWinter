@@ -1,0 +1,10 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Vigilus
+Weapon (crossbow, hand), rare (requires attunement)
+___
+
+This elegant, intricately decorated hand crossbow features a sizable polished gemstone set into its frame. It has a small, springloaded case of 6 bolts attached to its side that automatically reload the crossbow once fired. While the case has bolts inside it, the crossbow ignores its loading property. Once the case is empty, you or another creature can use an action to load it with up to 6 bolts again.
+
+As an action, you can unfurl the crossbow's three collapsible legs and plant it firmly on the ground to become a Small defensive construct. It has 10 hit points, an Armor Class of 12, and automatically fails Dexterity and Strength saving throws and passes all others. If reduced to 0 hit points, it falls over and can't be deployed again in this way for 1 minute. You can quickly retrieve the deployed crossbow using a bonus action when you enter the same space as it.
+
+Once deployed, the crossbow magically draws itself and loads the next bolt in it's case, if any. You can use a bonus action on each of your turns when you are within 30 feet of the crossbow to command it to attack a target you can see within 30 feet of it. The crossbow uses your attack roll and ability score modifier to damage rolls. The first time an invisible creature enters a space within 30 feet of the crossbow on its turn, the crossbow emits a small chirping sound audible out to 60 feet.

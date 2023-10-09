@@ -1,0 +1,12 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Shadow Drinker
+Weapon (dagger), very rare (requires attunement)
+___
+
+You gain a +1 bonus to attack and damage rolls you make with this magic weapon.
+
+When you hit another creature with this dagger with a melee attack, you can absorb the creature's shadow into the dagger for up to 10 minutes. While you have a creature's shadow absorbed, you are considered invisible while in dim light or darkness. If you successfully land an attack from invisibility with this dagger, it harnesses the malevolent shadow to deal an additional 1d6 necrotic damage. This damage increases to 2d6 if the attack was against the shadow-less creature. After you make an attack or cast a spell while you are invisible, the shadow is released and you become visible once more.
+
+You may only have one creature's shadow absorbed at a time and cannot steal a creature's shadow more than once every 24 hours. You can choose to release an absorbed shadow early as a bonus action on your turn.
+
+𝘾𝙪𝙧𝙨𝙚. While you are attuned to this weapon, you are vulnerable to radiant damage.

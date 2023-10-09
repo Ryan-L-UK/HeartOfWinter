@@ -1,0 +1,7 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Wraith's Circlet Wondrous item, uncommon (requires attunement)
+___
+
+While wearing this dark silver circlet in dim light or darkness, a smoky mantle of shadow covers your head like a dark hood. While covered in this way, you can move through creatures as if they were difficult terrain, regardless of their size, and you have advantage on Dexterity (Stealth) checks. If you end your turn in another creature's space, you are shunted to the last unoccupied space you occupied, and you take 1d10 force damage.
+
+𝙒𝙧𝙖𝙞𝙩𝙝'𝙨 𝙀𝙣𝙨𝙚𝙢𝙗𝙡𝙚. Dying doesn’t end your attunement to this magic item. In addition, if you’re attuned to three items with this named property, you treat bright light (but not sunlight) as if it were dim light or darkness for the purposes of the items’ various properties, and you can use a bonus action to reveal or suppress one or more of the items’ visual effects. While an item’s visual effects are suppressed, you don’t gain the benefits of that item’s other properties.

@@ -1,0 +1,5 @@
+🛡 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Bastion Chain Armor (chain mail), rare (requires attunement)
+___
+
+The chains of this armor shift naturally with your movements. You gain a +1 bonus to AC while you wear this armor, which doesn't impose disadvantage on Dexterity (Stealth) checks you make. In addition, the chains flow around you reflexively when you're surrounded; the armor's bonus to AC increases to +2 when three or more hostile creatures are within 5 feet of you.

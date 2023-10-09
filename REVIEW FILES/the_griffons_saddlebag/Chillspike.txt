@@ -1,0 +1,10 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Chillspike
+Weapon (pike), legendary (requires attunement)
+___
+
+This cold steel weapon from the Everglacier is topped with a menacing ice spike that never melts. You gain a +1 bonus to attack and damage rolls made with this magic weapon. When you hit with an attack using this pike, the target takes an extra 1d10 cold damage. In addition, the weapon and its properties ignore resistance to cold damage.
+
+When you reduce a Large or smaller creature to 0 hit points using this weapon, you can choose to encase that creature in ice. An encased creature is prevented from falling prone and is held in place by a shell of ice for 1 minute. If the creature is unconscious, it does not make death saving throws while it's encased in the ice. The ice has AC 12, 20 hit points, immunity to poison and psychic damage, and vulnerability to fire and thunder damage. If the encased creature is healed or the ice is destroyed, the ice crumbles and releases the creature.
+
+𝙀𝙫𝙚𝙧𝙜𝙡𝙖𝙘𝙞𝙚𝙧'𝙨 𝙁𝙪𝙧𝙮. As an action, you can plunge the pike into the ground at your feet. When you do, the blade of the pike magically vanishes into the earth and summons up to three icy spikes from the ground nearby. Choose up to 3 different targets on the ground you can see within 20 feet of you. An affected target must succeed on a DC 16 Dexterity saving throw or take 2d8 cold damage as an frozen spike erupts from the ground beneath them. Immediately after using this property, the spikes recede into the ground, and the icy blade of the pike reappears.

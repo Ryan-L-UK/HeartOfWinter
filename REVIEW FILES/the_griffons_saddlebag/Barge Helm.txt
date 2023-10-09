@@ -1,0 +1,6 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Barge Helm
+Wondrous item, uncommon
+___
+
+While you wear this rugged, flat-topped helm, you can run headlong at a target to attempt to bowl it over.  If you move at least 10 feet in a straight line towards a target on your turn, you can use an action to attempt to barrel into it and knock it down. Make a melee weapon attack with the helmet, which you are proficient in. On a hit you deal 1d8 bludgeoning damage, and if the target is a creature no more than one size larger than you, it must succeed on a Strength (athletics) or Dexterity (acrobatics) check contested against your Strength (athletics) check or be knocked back 5 feet and prone. If the target is an object or structure, the damage you deal with the attack is doubled.

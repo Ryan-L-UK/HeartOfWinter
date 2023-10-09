@@ -1,0 +1,8 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Purging Dagger
+Weapon (dagger), very rare (requires attunement)
+___
+
+This chiseled wooden dagger is a relic crafted from the bough of an ancient, holy tree, and is always miraculously sharp. You gain a +1 bonus to attack and damage rolls made with this magic weapon. The dagger deals an extra 1d4 radiant damage to any target it hits. The extra damage increases to 2d4 when you use the dagger to attack an undead creature, causing blue tongues of holy flame flash along the weapon's edge.
+
+When you roll a 20 on an Attack roll made with this weapon against an undead creature, you can choose to plunge the blade in the creature's body and leave it there. When you do, the dagger emits bright light in a 15-foot radius and dim light for another 15 feet. The light is sunlight. While the blade is lodged within the creature in this way, the creature takes 3d4 radiant damage at the start of each of its turns, and the dagger continues to emit sunlight. The affected target or any creature that can reach it can use an action to attempt a DC 16 Strength check to remove the blade and end this effect. When the effect ends, the blade vanishes and reappears on the ground at your feet or into your hand if you have one free. You can end the effect early using a bonus action on your turn.

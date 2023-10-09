@@ -1,0 +1,21 @@
+💎New item!
+Heart of the Sleeveless
+Wondrous item, common
+___
+
+This vest is made from a luxurious, silky material that seems to always make the wearer appear more fit. The clothing gently hugs the wearer, redistributing weight and muscle to flatter and accentuate their physique. It seems to deflate sadly once taken off.
+
+While worn, the fabric's color changes with the wearer's mood or flash of emotion. Refer to the table below for the item's colors when under different emotions. While unworn, the fabric's color becomes a muted blue.
+
+Emotions and Colors
+---------------------
+Anger |  Red
+Anticipation |  Orange
+Joy |  Yellow
+Love |  Lime
+Fear |  Green
+Sadness |  Blue
+Disappointed |  Indigo
+Disgust |  Purple
+Jealousy |  Black
+Surprise |  White

@@ -1,0 +1,10 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Bard-in-a-Box
+Wondrous item, common
+___
+
+This small music box can play songs at the request of the holder. As a bonus action, you can command the box to play a song that it knows, causing the contraption to emit a slightly tinny rendition of the musical number at a moderate volume. The box can know up to five songs at a time, and can not recreate lyrics or other creature sounds. It has a small knob on the side that adjusts the box's volume, being as quiet as a whisper to as loud as a scream.
+
+Sheet music can be fed into the box through a narrow slot along the bottom of the device. Sheet music must be labeled with a song title, page number, and instrument in order to be replayed. Pages failing to meet the requirements causes the box to make a sad, trumpeting noise, and are spat back out. Once a sheet is successfully fed into the box, it is consumed and cannot be retrieved.
+
+If the new piece of music will cause the box to forget an older one, it quickly plays several bars of the now-forgotten number before slowing to a stop.

@@ -1,0 +1,6 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Festerwood Masher
+Weapon (a maul or warhammer), very rare (requires attunement)
+___
+
+This heavy festerwood hammer has amber pustules on its end that have enriched the wood with corrosive properties. You gain a +1 bonus to attack and damage rolls made with this magic weapon. In addition, this hammer has 3 charges that can be used when striking a target. When you hit a target with the hammer, you can choose to expend 1 charge to magically release some of the corrosive acid stored within the wood. When you do, if the target is Large or smaller, that target takes a -1 penalty to its AC that lasts for 1 minute. A Huge or Gargantuan target takes this penalty only after you've expended either 2 or 3 charges in this way, respectively. Targets take an extra 1d4 acid damage for each -1 penalty to AC they have in this way each time they're hit by the hammer. The hammer regains all expended charges each day at dusk.

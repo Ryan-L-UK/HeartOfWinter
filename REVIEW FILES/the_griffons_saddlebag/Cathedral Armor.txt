@@ -1,0 +1,7 @@
+🛡 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Cathedral Armor Armor (breastplate), very rare (requires attunement by a cleric or paladin)
+___
+
+The front of this magic armor is covered in a panel of stained glass. Attuning to the armor causes the design of the glass to change to depict your deity, oaths, or similar divine order. You have a +2 bonus to AC while wearing this armor.
+
+While wearing the armor, you can use an action to cast the "prismatic spray" spell from it, using your spell save DC. Alternatively, you can cast this spell as part of using your Channel Divinity. The Channel Divinity must require an action to use, and you choose whether the spell is cast before or after the effects of the Channel Divinity resolve. If your deity is aligned to a particular damage type, such as fire or lightning, you can choose that damage type's respective color, instead of rolling a d8 to determine it, as part of casting the spell from the armor. The armor can't be used to cast this spell again until the next dawn.

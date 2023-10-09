@@ -1,0 +1,5 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Lifeburst Weapon (mace), rare (requires attunement by a cleric or paladin)
+___
+
+You gain a +1 bonus to attack and damage rolls made with this magic weapon. This mace can be used to channel your holy magic. When you hit a creature with this mace, you can expend one spell slot to restore hit points to up to four creatures of your choice within 5 feet of the target of the attack. The amount of hit points restored is equal to 1d6 per spell level you expend, up to 3rd. Once you expend a spell slot in this way, you can't expend another spell slot of the same level using the mace again until the next dawn.

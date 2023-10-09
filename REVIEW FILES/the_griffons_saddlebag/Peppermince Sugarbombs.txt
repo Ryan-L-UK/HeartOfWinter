@@ -1,0 +1,8 @@
+🍬 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Peppermince Sugarbombs
+Wondrous item, uncommon
+___
+
+This hard, minty sugarbomb slowly dissolves in the eater's mouth over the course of one hour. At any point, the creature eating the sugarbomb can use a bonus action to crunch down on the candy to activate its magic and break it into tiny, painful shards. The creature immediately takes 1d6 points of piercing damage from the candy splinters, but any melee attack it makes with a piercing or slashing weapon gains a +2 bonus to its damage rolls for a number of rounds equal to the amount of piercing damage it took from the sugarbomb's painful splinters.
+
+𝙐𝙥𝙨𝙚𝙩 𝙨𝙩𝙤𝙢𝙖𝙘𝙝. You can only be under the effects of one sugarbomb that has this property at a time. Eating a sugarbomb while already under the effects of another one ends the first one's effect early and forces you to make a DC 13 Constitution saving throw. On a failed save, you become poisoned for 1 minute.

@@ -1,0 +1,22 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Hatred, the Wrathful Edge
+Weapon (greataxe), artifact (requires attunement by a creature the axe deems worthy)
+___
+
+This black iron axe was forged in the scorching fires of the Magmarath Caldera and has been the decisive end for countless mortal souls. Used as the mark of a Tribunal in the caldera's city, the weapon is an embodiment of anger and spite, and has been enchanted with blood magic that bubbles to the surface each time it's used to end a life. Glimmering veins of lava flicker from its dark metal surface, and roiling, volcanic sparks trail behind it in its wake when swung.
+
+You gain a +3 bonus to attack and damage rolls made with this magic weapon, which deals an extra 2d6 fire or lightning damage (your choice) to any target it hits. When you reduce a living creature to 0 hit points using this weapon, you gain a number of temporary hit points equal to the fire or lightning damage dealt as part of the attack.
+
+𝙀𝙭𝙥𝙡𝙤𝙨𝙞𝙫𝙚 𝙍𝙖𝙜𝙚. If you're a barbarian, the first time you enter a rage after finishing a short or long rest, up to 6 creatures of your choice within 10 feet of you take 4d6 fire or lightning damage (your choice). In addition, while raging, any creature that touches you or hits you with a melee attack while within 5 feet of you takes 1d6 fire or lightning damage (your choice).
+
+𝙁𝙞𝙚𝙣𝙙𝙞𝙨𝙝 𝙈𝙞𝙣𝙙. You can speak, read, and write Abyssal and Infernal while attuned to this weapon.
+
+𝙍𝙖𝙣𝙙𝙤𝙢 𝙋𝙧𝙤𝙥𝙚𝙧𝙩𝙞𝙚𝙨. "Hatred, the Wrathful Edge" has the following random properties:
+* 1 minor beneficial property
+* 1 major beneficial property
+* 1 minor detrimental property
+* 1 major detrimental property
+
+𝙑𝙤𝙡𝙘𝙖𝙣𝙞𝙘 𝙄𝙢𝙢𝙪𝙣𝙞𝙩𝙮. You are immune to fire damage while attuned to this weapon. In addition, you can stand on and walk across molten rock as if it were solid ground.
+
+Continued in the comments below!

@@ -1,0 +1,6 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Arcanist's Magnificent Magnifier
+Wondrous item, uncommon
+___
+
+This magical magnifying glass helps deduce the arcane nature of items. While looking through the glass at an object within 1 foot of you, your proficiency bonus is doubled for any Intelligence (Arcana) or Intelligence (Investigation) check you make regarding that object's magical properties. In addition, you can speak the glass's command word as an action to cast the "identify" spell from it, targeting an object with the spell that you can see through the glass within 1 foot of you. Each time you do, there is a cumulative 5 percent chance that the glass shatters and is destroyed after casting the spell.

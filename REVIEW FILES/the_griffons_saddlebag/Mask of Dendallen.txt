@@ -1,0 +1,22 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Mask of Dendallen
+Wondrous item, very rare (requires attunement)
+___
+
+This skull mask covers the face of the wearer and offers several benefits while worn. The mask has 5 charges and regains all expended charges each day at dusk. As an action, you can expend 1 charge to cast either the "bestow curse", "fear", "speak with dead", or "tongues" spell using a save DC of 16. You have advantage on Constitution saving throws you make in order to maintain concentration on a spell you cast in this way. In addition, you can read all writing.
+
+𝘾𝙪𝙧𝙨𝙚. When you place this mask over your face, make a DC 16 Intelligence saving throw. On a success, you are aware of the curse's effects and can immediately remove the mask before it takes hold. On a failure, it magically latches on to your face and can't be removed unless targeted by the "remove curse" spell. You take 5d10 psychic damage when the curse takes hold, and the skin surrounding the mask is riddled with blacked veins and sickly gray skin. While you wear the mask, you cannot smell or taste anything and automatically fail any check relying on smell or taste. Your voice also changes. Use the table below to determine the new voice. In addition, whenever you roll a 1 on an ability check, saving throw, or attack roll, you take 1d10 psychic damage.
+
+d6 | Change to your voice
+—
+1 | your voice deepens and does not echo.
+—
+2 | Your voice becomes raspy and overly enunciates consonant sounds.
+—
+3 | Your voice becomes quiet, almost a whisper, but can still be heard as if it were spoken at a normal volume.
+—
+4 | Your voice becomes high pitched, and your laugh maniacal.
+—
+5 | Your words become slurred, as if your tongue is suddenly too large for your mouth, and your spit releases a faint hiss when it escapes your mouth.
+—
+6 | Your voice becomes that of another ally's and changes each time you complete a long rest.

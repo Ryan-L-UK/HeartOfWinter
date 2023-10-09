@@ -1,0 +1,19 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Morath, Scepter of the Soul Vortex
+Rod, artifact (requires attunement by a sorcerer, warlock, or wizard)
+___
+
+This torch-like scepter almost hums with necrotic energy and appeared when the first soul was returned to the Material Plane after its death. Since then, it has been lost and found throughout its gruesome, storied history.
+
+While attuned to the rod, you have resistance to necrotic damage, and you know the "chill touch" cantrip as if it were from your class's spell list. If you are a warlock, you also gain a +3 bonus to your spell attack rolls and saving throw DCs of your warlock spells while holding the rod.
+
+An eerie, green flame erupts from the head of this rod when you hold it, shedding bright light in a 20-foot radius and dim light for an additional 20 feet. While holding the rod, you can use a bonus action to mentally snuff out or relight the flames. While the flames are lit, you can use an action to make a ranged spell attack with it, using your spell attack bonus and spell save DC, out to a range of 30 feet. When you do, the flaming rod emits a phantasmal skull that flies out to attack the target. On a hit, the target takes 3d8 necrotic damage, and if the target is a creature, you regain hit points equal to half the amount of necrotic damage dealt. The skull disappears immediately after the attack.
+
+𝙍𝙖𝙣𝙙𝙤𝙢 𝙋𝙧𝙤𝙥𝙚𝙧𝙩𝙞𝙚𝙨. "Morath, Scepter of the Soul Vortex" has the following random properties:
+* 1 minor beneficial property
+* 1 minor detrimental property
+* 1 major detrimental property
+
+𝙎𝙥𝙚𝙡𝙡𝙨. The rod has 8 charges and regains 1d3 + 1 expended charges daily at dawn. When you reduce a humanoid to 0 hit points, the rod regains 1 expended charge. While holding the rod, you can use an action to expend 1 or more of its charges to cast one of the following spells from it, using your spell attack bonus and spell save DC: "bestow curse" (1 charge), "circle of death" (4 charges), "confusion" (2 charges), "insect plague" (3 charges), "ray of enfeeblement" (1 charge), or "speak with dead" (1 charge).
+
+...Continued below in the comments!

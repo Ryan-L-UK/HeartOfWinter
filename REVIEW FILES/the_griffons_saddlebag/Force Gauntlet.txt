@@ -1,0 +1,6 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Force Gauntlet
+Wondrous item, rare (requires attunement)
+___
+
+This jeweled gauntlet has 5 charges and regains 1d4 + 1 charges each day at dawn. When you make a melee weapon attack with a hand that's wearing the gauntlet, you can choose to expend 1 charge as part of that attack. If you hit, that target takes an extra 2d6 force damage and is forced to make a DC 15 Strength saving throw. On a failure, that target is pushed up to 10 feet away from you. On a success, you're pushed 10 feet away from it instead. Targets two or more sizes larger than you automatically succeed on this saving throw.

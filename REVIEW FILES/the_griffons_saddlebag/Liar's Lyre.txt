@@ -1,0 +1,6 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Liar's Lyre
+Wondrous item, uncommon (requires attunement by a bard)
+___
+
+This magical instrument's strings reverberate at the sound of a lie you tell, allowing you to weave tall tales and convince others of your lies more easily. You have advantage on any Charisma (Deception) check you make when you spend at least 1 minute attempting to convince a creature of a lie. In addition, when you cast the "vicious mockery" and are holding the lyre, the spell save DC is increased by 1. You are proficient with this lyre while you are attuned to the instrument.

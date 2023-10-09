@@ -1,0 +1,8 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Gloves of Healing
+Wondrous item, rare
+___
+
+These silken gloves enhance the rejuvenating power of healers and clerics. While wearing the gloves, whenever you cast a spell of 1st level or higher to restore hit points to one creature, the creature regains additional hit points equal to your proficiency bonus.
+
+Alternatively, a creature can regain these additional hit points if you use a healer's kit to stabilize or restore hit points to  it. Once a creature regains extra hit points from a healer's kit in this way, it can't do so again until it finishes a short or long rest.

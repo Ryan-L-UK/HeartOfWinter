@@ -1,0 +1,6 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Timeshifter's Mantle
+Wondrous item, rare
+___
+
+If a Large or smaller creature hits you with a melee attack while you’re wearing this cloak, you can use your reaction to cause time to briefly warp around you. After taking the damage from the attack, you can immediately move up to half your speed without provoking opportunity attacks, and the attacking creature’s speed is reduced to 0 until the start of its next turn. Once this property of the cloak has been used, it can’t be used again until the following dawn.

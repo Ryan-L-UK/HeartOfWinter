@@ -1,0 +1,18 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Ionbreaker, the Tempest's Reach
+Weapon (longbow), artifact (requires attunement)
+___
+
+This bow was crafted by a powerful djinni in the Stormheart: a perpetual maelstrom of wind and electricity in the Elemental Plane of Air. Lost to time, it has remained in the storm for untold centuries absorbing the volatile magic that runs rampant within the Stormheart. You gain a +3 bonus to attack and damage rolls made with this magic weapon.
+
+𝘼 𝙎𝙩𝙤𝙧𝙢 𝙞𝙨 𝘾𝙤𝙢𝙞𝙣𝙜. While the bow is on your person, you add a d10 to your initiative at the start of every combat.
+
+𝙁𝙖𝙨𝙩 𝙖𝙨 𝙇𝙞𝙜𝙝𝙩𝙞𝙣𝙜. When you take the Attack action, you can make a single attack with the bow as a bonus action.
+
+𝘿𝙞𝙨𝙘𝙝𝙖𝙧𝙜𝙚. A target and any creature within 5 feet of it takes 1d8 lightning damage the first time that target is hit by a ranged attack from the bow on your turn. A creature can only take lighting damage from this property once each round.
+
+𝘾𝙝𝙖𝙞𝙣𝙚𝙙 𝘾𝙤𝙣𝙙𝙪𝙞𝙩𝙨. When you hit a target with a ranged attack from the bow, that target becomes a conduit for electricity for 1 minute. You can speak the bow's command word as a bonus action to cause all conduits within 60 feet of you to electrify. When you do, 5-foot wide lines of electricity arc between all affected conduits that are within 30 feet of each other. Each conduit takes 2d8 lightning damage, and all other creatures within the lines of electricity are forced to make a DC 18 Dexterity saving throw. On a failed save, a creature takes 2d8 lightning damage, and half as much damage on a successful one. Once a conduit has been electrified in this way, it is no longer a conduit. A creature or object can only take lightning damage from this property once each round.
+
+𝙈𝙖𝙚𝙡𝙨𝙩𝙧𝙤𝙢 𝙈𝙖𝙧𝙠𝙨𝙢𝙖𝙣. When you miss a target with a ranged attack from the bow, you can reroll the attack against a different target you can see within 30 feet of the first one. You have disadvantage on this attack. You can use this property of the bow once on each of your turns.
+
+𝙕𝙚𝙥𝙝𝙮𝙧 𝙎𝙩𝙚𝙥. While holding the bow, you gain a hover speed equal to your... Contrinued in the comments!

@@ -1,0 +1,14 @@
+💍 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Starmetal ring
+Ring, rare
+___
+
+This dense, roughly crafted metal ring seems to have an otherworldly pull on other metallic items.
+
+While wearing the ring, you can spend an hour holding onto an object weighing no more than 25 pounds that is made of at least 50% metal. If the ring and metallic item are in contact for the full hour, they form a powerful and magically controllable magnetic bond. You can only have one item bound to the ring in this way at a time.
+
+When the bound item is no more than 40 feet away from you and unobstructed, you can use your bonus action to magically pull it toward your outstretched hand at a speed of 20 feet per round.
+
+If another creature or object is partially obstructing the path your bound item will take, the item moves at half its regular speed until it moves past the obstruction, bouncing harmlessly against the obstruction until it's able to pass by.
+
+___

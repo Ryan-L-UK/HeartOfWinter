@@ -1,0 +1,19 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Staff of Awakening Staff, artifact (requires attunement by a spellcaster)
+___
+
+This fey staff's shaft is hewn from the wood of an ancient, mysterious oak in the Ebony Glade, whose roots are said to have absorbed the dreams of elves from long ago. A perfect sphere of amber from that same oak hangs suspended in the center of it. While attuned to the staff, you are immune to the "dream" and "sleep" spells.
+
+𝘾𝙝𝙖𝙧𝙜𝙚𝙨. The staff has 10 charges for the following properties. It regains all expended charges daily at dawn. If you expend the staff's last charge and are not fey or lack the Fey Ancestry trait, roll a d20. On a 1, the staff disappears into a dreamlike mist and returns to the Ebony Glade in the realm of the fey.
+
+𝙎𝙡𝙚𝙚𝙥. While holding the staff, you can use an action to expend 1 of its charges to cast the "sleep" spell from it. This version of the spell uses 3d8 to determine the maximum number of hit points for the spell, but targets a single creature within the spell's range instead. You can use the staff to cast the normal version of the spell at 1st level by expending 2 or more of its charges in this way, instead. For every 2 charges you spend after the 2nd, the level of the spell increases by 1.
+
+𝘿𝙤𝙧𝙢𝙖𝙣𝙩 𝙋𝙧𝙤𝙥𝙚𝙧𝙩𝙞𝙚𝙨. Some properties of this artifact are locked behind layers of dormant magic. As you grow stronger and reach certain milestones, these properties may become available to you.
+
+[Prerequisite: 5th level] 𝙉𝙞𝙜𝙝𝙩𝙢𝙖𝙧𝙚. This staff can be wielded as a magic quarterstaff that deals an extra 1d8 psychic damage to any creature it hits. When you fail to put a creature to sleep with a "sleep" spell cast from the staff, that creature takes an amount of psychic damage equal to half the spell's remaining hit point total.
+
+[Prerequisite: 5th level] 𝙍𝙚𝙨𝙩𝙚𝙙. While attuned to the staff, the amount of time you need to finish a long rest is halved, down to a minimum of 4 hours.
+
+[Prerequisite: 9th level] 𝘿𝙧𝙚𝙖𝙢 𝙒𝙖𝙡𝙠𝙚𝙧. "Sleep" spells you cast roll an extra die when determining the spell's total number of hit points. In addition, you can reroll any 1 or 2...
+
+...Continued in the comments below!

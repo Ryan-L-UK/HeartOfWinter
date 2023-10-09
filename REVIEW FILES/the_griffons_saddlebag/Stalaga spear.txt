@@ -1,0 +1,10 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Stalaga spear
+Weapon (spear), very rare (requires attunement)
+___
+
+This magic spear is made of dark, polished granite and has a large ruby set in its head. While made of stone, it weighs no more than a normal spear and is enchanted to prevent it from shattering. You gain a +1 bonus to attack and damage rolls made with this magic weapon.
+
+This spear has 4 charges and regains 1d4 expended charges each day at dawn. While standing on unworked stone or earth, you can expend 1 charge as an action to plunge the spear into the ground. The spear vanishes into the ground and emerges as a sharp stone spike that's 1 foot wide and 10 foot long from another surface made of unworked stone or earth that you can see within 60 feet of you, such as the ground or a cave wall. The spike erupts from the surface and forces any creature within a line 5 feet wide and 10 feet long to make a DC 15 Dexterity saving throw. On a failed save, a creature takes 4d6 piercing damage and is pushed up to 5 feet away from the spike. On a success, a creature takes half as much damage and is not pushed.
+
+You can recover the spear by speaking its command word as a bonus action while in or adjacent to a space occupied by the stone spike. When you do, the spike disintegrates and falls away, leaving only the spear at its center. The spike lasts for 1 minute or until you reclaim it in this way.

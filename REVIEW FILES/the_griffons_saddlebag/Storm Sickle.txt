@@ -1,0 +1,6 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Storm Sickle
+Weapon (sickle), rare
+___
+
+This sickle sparks with electricity as beads of water form and drip from its blade. You can make a ranged attack with this weapon instead of a melee one whenever you take the Attack action by slashing through the air to send out a blade of storming wind. Ranged attacks with the sickle use Strength as your modifier for its attack and damage rolls and have a normal range of 20 feet and a long range of 60 feet. Any target hit by an attack from the sickle takes an extra 1d4 lightning damage.

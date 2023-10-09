@@ -1,0 +1,6 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Healing Arrow
+Weapon (an arrow or bolt), uncommon
+___
+
+This magic ammunition is made by the elder clerics of nature and hunting deities. An attack made with this ammunition deals no damage to any target hit by it. When you hit a creature other than yourself with this ammunition, that creature regains hit points equal to 2d4 + your Dexterity and Wisdom modifiers (minimum 1). If the target is a friendly creature, you have advantage on the attack. Once it hits a creature, this ammunition dissolves into pure healing magic before it's destroyed. This ammunition has no effect on undead or constructs.

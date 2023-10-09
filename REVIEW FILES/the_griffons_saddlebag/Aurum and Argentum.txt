@@ -1,0 +1,8 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Aurum and Argentum
+Weapon (Dagger), rare
+___
+
+This gold and silver set of daggers seem ordinary when used on their own, but are magically amplified when used in tandem. When you hold one of the daggers in each hand, they are considered magical and grant you a +1 bonus to attack and damage rolls made with them. When you engage in two-weapon fighting using both daggers, you can add your ability modifier to the damage of the second attack. You can make this second attack with advantage if you hit with the first dagger as part of the Attack action.
+
+In addition, if a target is hit by both daggers in the same round, it takes an additional 1d4 piercing damage from the second attack and cannot make an attack of opportunity against you for the rest of your turn.

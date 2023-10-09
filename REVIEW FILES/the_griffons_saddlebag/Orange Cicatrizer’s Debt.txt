@@ -1,0 +1,14 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Orange Cicatrizer’s Debt Wondrous item, legendary (requires attunement by a creature with a Wisdom score of 17 or higher)
+___
+
+This wide-collared necklace is made with beads, precious metals, and amber. While you have at least half your Hit Dice remaining, you can use an action to spend 1 of them and regain a number of hit points equal to your Constitution modifier plus the maximum number possible on the die.
+
+The necklace has 7 charges and regains all expended charges daily at dawn. While wearing it, ritualistic burn scars appear on your chest and upper arms: the mark of the fireweaver. The scars are painless, but remain until you're no longer attuned to the necklace and are targeted by the "greater restoration" spell or similar magic.
+
+While wearing the necklace, you can expend 1 or more of its charges to call upon the fireweaver's talents using the following commands:
+
+"𝘽𝙪𝙧𝙣 𝙩𝙝𝙚 𝘼𝙛𝙛𝙡𝙞𝙘𝙩𝙞𝙤𝙣!" When a creature that you can see within 60 feet of you makes a saving throw against being blinded, deafened, diseased, paralyzed, petrified, or poisoned, you can expend 1 of the necklace's charges as a reaction to grant that creature a bonus to the save equal to 1d10. Regardless of whether the saving throw succeeds or fails, the creature also gains a number of temporary hit points equal to the roll's bonus.
+
+"𝙇𝙚𝙩 𝙩𝙝𝙚 𝙁𝙡𝙖𝙢𝙚 𝙋𝙧𝙤𝙩𝙚𝙘𝙩 𝙔𝙤𝙪!" As a bonus action, you can expend 2 of the necklace's charges to ward a creature that you can see within 60 feet of you against harm. A warded creature has resistance to all damage. Each time it takes damage, you take the same amount of damage. If the damage was dealt by an attacker within 5 feet of the warded creature, the attacker also takes 2d10 fire damage. The ward lasts for 1 hour or until you end it using another bonus action. You can only have one ward active at a time. When another creature that you can see within 60 feet of you takes damage, you can use your reaction to transfer the ward to that creature instead. You make this decision before the damage is dealt. Alternatively, you can transfer the ward as a bonus action to another creature within range.
+...Continue below!

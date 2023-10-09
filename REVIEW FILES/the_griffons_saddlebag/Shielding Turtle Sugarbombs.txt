@@ -1,0 +1,8 @@
+🍬 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Shielding Turtle Sugarbombs
+Wondrous item, uncommon
+___
+
+These sticky chocolate candies are filled with an enchanted molasses and caramel center and come in packs of 2. When you eat this sugarbomb as an action, your movement speeds are reduced by 10 feet for one minute. If you are proficient with shields and are wearing one on your back, you gain the benefits of that shield as if you were wielding it while your speed is reduced in this way. You cannot wield a shield and gain the benefits of a worn one at the same time.
+
+𝙐𝙥𝙨𝙚𝙩 𝙨𝙩𝙤𝙢𝙖𝙘𝙝. You can only be under the effects of one sugarbomb that has this property at a time. Eating a sugarbomb while already under the effects of another one ends the first one's effect early and forces you to make a DC 13 Constitution saving throw. On a failed save, you become poisoned for 1 minute.

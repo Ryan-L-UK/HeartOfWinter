@@ -1,0 +1,8 @@
+🛡 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Dragon Turtle Shield
+Armor (shield), rare
+___
+
+This magical shield is made from a piece of reclaimed dragon turtle shell. The brass dragon turtle head sculpture adorning its front magically creates and heats a small reservoir of water that replenishes each day at dawn. When you take fire damage, you can use your reaction to speak the shield's command word to superheat the water inside and halve the fire damage you take from the attack, effect, or spell that triggered it. The superheated water is released as dense cloud of steam centered on a point adjacent to you, heavily obscuring the area in a 20-foot radius sphere that spreads around corners. The cloud does not move with you and lasts for 1 minute or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it.
+
+Once this property of the shield has been used, its reservoir is emptied and can't be used again until the next dawn or it's submerged in nonmagical salt water for at least 1 hour.

@@ -1,0 +1,6 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Festerwood Claymore
+Weapon (greatsword), rare
+___
+
+This heavy, dark wood is incredibly strong and forms part of the symbiotic relationship it shares with the destructive beetles that live inside. When you roll a 20 on an attack roll made with this magic greatsword against a creature, some of the sword's beetles leave the weapon and latch onto the target. The beetles bite and hamper the creature for its next 1d4 turns. While affected by the beetles in this way, the creature takes 1d6 piercing damage at the start of each of its turns and its movement speed is halved. The creature or one of its allies can use an action to swat away and remove the beetles to end the effect early. If the target is a plant creature or magical plant, this property deals the maximum damage to it on each of its turns and lasts for 4 turns unless ended early.

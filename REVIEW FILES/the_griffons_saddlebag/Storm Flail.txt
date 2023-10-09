@@ -1,0 +1,12 @@
+⚔️ New item!
+Storm Flail
+Weapon (flail), rare (requires attunement)
+___
+
+The flail has three charges and regains 1d3 each dawn. You can cast thunderwave at first level while attuned to this weapon by expending one of these charges as an action (save DC 14). The ball of the flail is the origin of the spell. As long as the flail has one or more charges, you deal an additional 1d6 lightning damage to the first target you hit with it each turn.
+
+If you make a melee weapon attack using this weapon, you may immediately expend one of its charges to cast thunderwave as a bonus action in the direction of your last attacked target.
+
+The ball of the flail is attached to the chain with a powerful electrical connection, but can be released at will. You can make a ranged weapon attack to fling the ball at a creature you can see within 20/60 feet, or a point you can see within range. As a bonus action after releasing the ball, you can magnetically pull it back. When you do, it slowly rolls its way back up to 15 feet towards the flail. It magically reattaches itself to the end of the chain when it enters the same space as the flail.
+
+While the ball is detached from the flail, the area of effect for thunderwave becomes a 15' sphere. You automatically succeed on the saving throw if you're affected by a thunderwave spell you cast.

@@ -1,0 +1,18 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Red Queen's Burden
+Weapon (glaive), legendary (requires attunement)
+___
+
+This brass, battle-scarred glaive was famously wielded by a tyrannical queen. You must have a Strength score of 17 or higher to wield this weapon. The queen's intensity still burns inside this weapon, making its handle always warm to the touch. You gain a +1 bonus to attack and damage rolls made with this magic weapon, and it deals an extra 1d6 fire damage to any target it hits.
+
+The glaive has 7 charges and regains 1d4 + 1 expended charges daily at dawn. While holding it, a magical, illusory crown appears on your head. The crown is brass and has a number of horns equal to the number of charges the weapon has remaining. When you expend 1 or more charges from the glaive, the horns adorning the illusory crown burn away in a shower of embers.
+
+While holding the glaive, you can expend 1 or more of its charges to impose your will on the creatures around you, using the following commands:
+.
+"𝙀𝙭𝙚𝙘𝙪𝙩𝙚." Immediately after you use the Attack action to attack with the glaive, you can expend 1 charge to command a willing creature to use its reaction to make one weapon attack. The creature must be able to see and hear you. If the attack hits, it deals an extra 2d6 fire damage.
+.
+"𝙎𝙪𝙧𝙫𝙞𝙫𝙚." As a bonus action, you can expend 1 or more charges to grant a creature other than you temporary hit points equal to 5 times the number of charges you expend, plus your Strength modifier. The creature must be able to see and hear you.
+.
+"𝘾𝙤𝙬𝙚𝙧." When you hit a target with the glaive, you can expend 2 charges to exude an imposing aura of dominance. All hostile creatures within 15 feet of you must succeed on a DC 17 Wisdom saving throw or be frightened of you until the end of your next turn. The target of the attack has disadvantage on the saving throw.
+
+Alternatively, while holding the glaive, you can expend 2 of its charges at the start of your turn (no action required) to become an unyielding pillar of defense. When you do, your movement speed becomes 0 and you gain the following benefits until the start of your next turn: ...Continued in the comments below!

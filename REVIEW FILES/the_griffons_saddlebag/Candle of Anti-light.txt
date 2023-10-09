@@ -1,0 +1,6 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Candle of Anti-light
+Wondrous item, uncommon
+___
+
+While burning, this dark candle sheds magical darkness in a 10 foot radius. It can be lit for up to one hour before it's consumed, and can be snuffed or relit like a normal candle. Completely covering the candle with something opaque contains the darkness within it. A creature with darkvision can’t see through this darkness, and nonmagical light can’t illuminate it.

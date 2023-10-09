@@ -1,0 +1,7 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Grimoire of the Green Arts Wondrous item, very rare (requires attunement by a wizard)
+___
+
+This green leather book has a gilded cover and painted imagery of sage and witch hazel. The following spells are written in the book using a strange form of Druidic that's only legible to the creature attuned to it: "conjure animals", "dominate beast", "goodberry", "pass without trace", "speak with plants", "transport via plants", and "wall of thorns". While attuned to the book, you know the "druidcraft" cantrip, and you can prepare the book's spells as if they were wizard spells whenever you finish a long rest.
+
+If you have the "polymorph" spell prepared while the book is on your person and cast it on yourself, you can choose to retain your Intelligence, Wisdom, and Charisma scores for the duration of the spell. Once this property has been used, it can't be used again until the next dawn.

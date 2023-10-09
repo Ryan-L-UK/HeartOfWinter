@@ -1,0 +1,12 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Quake Hammer 
+Weapon (light hammer), rare (requires attunement)
+___
+
+You gain a +2 bonus to attack and damage rolls made with this magic weapon.
+
+Once per day, you can to smash this hammer into the ground as an action to cast *Earth Tremor* at second level. The point of impact on the ground is the center of the spell's affected area, regardless of whether you throw or hold onto the hammer when casting the spell.
+
+The DC for this spell is equal to 8 + your proficiency bonus + your Strength modifier.
+
+___

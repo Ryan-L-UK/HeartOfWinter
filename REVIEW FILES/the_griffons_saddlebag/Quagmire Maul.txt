@@ -1,0 +1,10 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Quagmire Maul
+Weapon (maul), very rare (requires attunement)
+___
+
+This old, withered hammer seemingly belongs in a swamp. Regardless of the conditions the hammer is kept in, it is always damp and smells of bog water. You gain a +2 bonus to attack and damage rolls made with this magic weapon.
+
+This hammer has 10 charges and regains 1d6 + 4 expended charges each day at dawn. As an action, you can expend 1 or more of the hammer's charges to slam it into the ground and transform the area around you into sickly, swamp-like terrain that remains for 1 minute. When you do, choose a space within 5 feet of you. You create a swamp that fills that space and adjacent spaces in a 5-foot radius with a thick muck up to 1 foot deep. For each additional expended charge after the first, the radius of the swamp increased by 5 feet. This area is considered difficult terrain. While you're holding the hammer, you can traverse the magical swamp as if it were normal terrain.
+
+If you expend the last charge from the hammer, roll a d20. On a 1, the hammer turns to a viscous muck in your hands and is destroyed.

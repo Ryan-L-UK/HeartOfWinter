@@ -1,0 +1,5 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Jotun Frostcleaver Weapon (greataxe), rare (requires attunement)
+___
+
+When you hit with an attack using this magic greataxe, the target takes an extra 1d6 cold damage. While holding it, you can speak its command word using a bonus action to cast the "enlarge/reduce" spell (Enlarge only) on yourself. For the duration, the weapon's cold damage die is a d8, and whenever you make a Constitution saving throw to maintain concentration on the spell, you can roll a d8 and add the number rolled to the saving throw. In addition, when you roll a 7 or 8 on the weapon's cold damage die, the target's speed is reduced by 10 feet until the start of your next turn. Once the axe has been used to cast this spell, it can't do so again until the next dawn.

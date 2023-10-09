@@ -1,0 +1,20 @@
+🛡 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Nightstalker Armor of the Northeastern Wind
+Armor (plate), rare (requires attunement)
+___
+
+This unusual armor is composed of blue metal plates with a horned helm, and was tempered by the frigid breath of an oni.
+
+𝙍𝙚𝙩𝙧𝙞𝙗𝙪𝙩𝙞𝙫𝙚 𝘾𝙤𝙡𝙙. When you take damage from a creature that is within 5 feet of you while wearing this armor, you can use your reaction to deal 1d6 cold damage to that creature.
+
+𝙁𝙧𝙚𝙚𝙯𝙞𝙣𝙜 𝙁𝙤𝙜. While wearing this armor, you can use a bonus action to speak its command word to cast the "gaseous form" spell from it, targeting yourself only, with the following changes:
+.
+• You take the form of a frigid cloud of fog, creating illusory frost on objects you touch.
+.
+• You can take the Attack action while in this form. When you do, your attacks are unarmed strikes that deal 1d6 cold damage, instead of their normal damage.
+.
+• You can use the armor's Retributive Cold property.
+.
+• The spell has a duration of 1 minute.
+
+Once this property has been used, it can't be used again until the next dusk.

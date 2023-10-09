@@ -1,0 +1,7 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Bloodscryer Oculus
+Wondrous item, legendary (requires attunement by a ranger)
+
+These red goggles have a second set of lenses that adjust their distance from your eye to magnify and focus on targets. While you’re attuned to the eyepiece, you are unaffected by visual obscurity such as fog or smoke and can see up to 60 feet in magical and nonmagical darkness. If you already have darkvision, wearing the goggles increases its range by 60 feet. Additionally, you gain advantage on Wisdom (Perception) checks that rely on sight.
+
+These lenses also are imbued with several innate spells. You can cast the following spells using the oculus, but can only target creatures whose blood you can see: "hunter's mark" (3rd-level version), "locate creature", or "scrying". Casting a spell in this way does not require you to concentrate on the spell in order to maintain it. Once the oculus casts a spell in this way, it can't be used to cast that spell again until the following dawn.

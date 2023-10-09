@@ -1,0 +1,17 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Chromacloth 
+Weapon (sling), uncommon
+___
+
+This silken cloth is enchanted using a unique blend of abjuration and evocation magic, allowing it to be used for a number of purposes. At any one time it can be one of four colors: red, yellow, green, or blue. You can change the Chromacloth's color using an action on your turn to one of these four colors.
+
+You can wear the Chromacloth as a headband or wrap to gain resistance to the damage type associated with the cloth's color. Once the cloth reduces damage taken in this way, it cannot do so again until the following dawn.
+
+Alternatively, the cloth can be fashioned to be an effective sling: dealing damage as a sling normally would, but changing the damage type of the ammunition to match the sling's color.  Refer to the table below for a reference of the Chromacloth's associated damage types:
+
+𝘾𝙤𝙡𝙤𝙧 | 𝘿𝙖𝙢𝙖𝙜𝙚 𝙩𝙮𝙥𝙚
+Red | Fire
+Yellow | Lightning
+Green | Poison
+Blue | Cold
+___

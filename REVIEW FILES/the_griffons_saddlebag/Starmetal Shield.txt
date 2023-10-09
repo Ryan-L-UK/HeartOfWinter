@@ -1,0 +1,10 @@
+🛡 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Starmetal Shield
+Armor (shield), legendary (requires attunement)
+___
+
+This open metal shield and gauntlet offer a +1 bonus to your armor class instead of a shield's normal bonus. Whenever you're the target of an attack made with a metallic weapon or projectile, the bonus becomes +3 instead. The shield hovers above the gauntlet to protect you as if you were wielding it, leaving your hands free.
+
+𝙎𝙝𝙤𝙤𝙩𝙞𝙣𝙜 𝙨𝙩𝙖𝙧. As an action on your turn, you can throw the shield at a cluster of enemies, bouncing between up to three targets you can see before it returns to your arm. Select up to three creatures, inanimate objects, or solid surfaces. The first target must be within 30 feet of you, and if there are additional targets, they must be within 10 feet of the previous one. You cannot select a creature more than once.
+
+Make ranged weapons attack using the shield against the three targets. You are proficient with the attack and add either your Dexterity or Strength modifier to its attack and damage rolls. Attacks against creatures that hit deal 2d8 magical slashing damage and ricochet toward the next target. If you miss an attack or target an inanimate object or point on a solid surface, the shield bounces harmlessly off of it. The shield immediately returns to the gauntlet after reaching your last target, rolling harmlessly around anything blocking its path.

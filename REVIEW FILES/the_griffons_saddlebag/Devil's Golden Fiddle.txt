@@ -1,0 +1,17 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Devil's Golden Fiddle Wondrous item, rare (requires attunement)
+___
+
+A "devil's golden fiddle" is a magical trophy among accomplished musicians. Its gilded exterior is marked by embossed, bat-like wings and a carved devil's head. If you're not attuned to the instrument and attempt to play it, you must succeed on a DC 15 Charisma saving throw or take 1d6 psychic damage. Regardless, the fiddle remains silent.
+
+While holding it, you can use a bonus action to play a magical note on it that causes the fiddle to float in the air beside you. While floating in this way, the fiddle magically plays a soft but jaunty tune. The fiddle’s tune can be used in place of the verbal component for any bard spell, even if it's floating and playing itself. A creature benefiting from "see invisibility" or with truesight sees a spectral imp playing the fiddle while it floats.
+
+𝘾𝙝𝙖𝙧𝙜𝙚𝙨. The fiddle has 4 charges for the following properties and regains all expended charges daily at dawn.
+
+𝙎𝙥𝙚𝙡𝙡𝙨. If you're holding the fiddle, or if the fiddle is playing on its own, you can use an action to expend some charges to cast either the "invisibility" (2 charges) or "polymorph" spell (3 charges, transforming the target into either a rat, raven, or spider; save DC 15) from it. Alternatively, when a creature within 30 feet of you that you can see misses with an attack or fails an ability check, you can use a reaction to expend 1 of the fiddle's charges to cast the "vicious mockery" cantrip from it (save DC 15) against that creature. The creature has disadvantage on the saving throw.
+
+𝙋𝙡𝙖𝙮 𝙇𝙞𝙠𝙚 𝙃𝙚𝙡𝙡. When you make a Charisma (Performance) check using the fiddle, you can expend 1 or more of its charges to add 1d6 to the check for each expended charge. If you're a bard, this bonus uses your Bardic Inspiration die instead, but doesn't expend any uses of your Bardic Inspiration feature.
+
+𝘿𝙖𝙣𝙘𝙚 𝙤𝙛 𝙩𝙝𝙚 𝘿𝙚𝙫𝙞𝙡. This property is only revealed when you lose in a musical competition against another creature. When you do, your attunement to the fiddle ends, and the fiddle immediately becomes attuned to...
+
+...Continued in the comment below!

@@ -1,0 +1,6 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Starbreaker
+Weapon (morningstar), rare (requires attunement)
+___
+
+This glowing morningstar casts bright light in a 20 foot radius and dim light for an additional 20 feet while wielded. You gain a +2 bonus to attack and damage rolls made with this magic weapon. Attacks made with the morningstar deal an extra 1d4 radiant damage to any target it hits. In addition, you can cast the "daylight" spell using the weapon. Once you cast this spell, you cannot do so again until the following dawn.

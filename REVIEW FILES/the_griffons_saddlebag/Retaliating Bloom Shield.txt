@@ -1,0 +1,10 @@
+🛡 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Retaliating Bloom Shield
+Armor (shield), rare
+___
+
+This steel shield hides a slim chamber in its center where magical flora grow and release their toxic pollen. The chamber is covered using an intricate, interlocking series of metal plates and flaps that, once released, resembles a flower.
+
+When a Large or smaller creature within 5 feet of you misses you with a melee attack, you can use your reaction to release the chamber's mechanism: exposing and releasing the flowers' pollen in the face of the attacking creature. That creature must succeed on a DC 15 Constitution saving throw or take 3d10 poison damage and be poisoned for 1 minute. On a success, the creature takes half the damage and isn't poisoned. Once the pollen has been released in this way, this property of the shield can't be used again until the following dusk when the flowers release another wave of pollen.
+
+Curious, whirring mechanisms inside the shield automatically retract the chamber's unfurled metallic plates at dusk. Alternatively, you can manually collapse the chamber's coverings over the course of 1 minute.

@@ -1,0 +1,8 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Knight's Standard of Vigor
+Weapon (pike), rare (requires attunement)
+___
+
+You gain a +1 bonus to attack and damage rolls made with this magic weapon. While wielding this brass pike, you radiate health and vitality. You and other friendly creatures within 10 feet of you are considered proficient in saving throws made to resist becoming poisoned. In addition, when an affected creature other than you regains hit points while in combat from a spell or potion, you can use your reaction to heal that ally for an additional 1d6+2 hit points.
+
+You can concentrate on the weapon's flag over the course of a short rest to change its design and color.

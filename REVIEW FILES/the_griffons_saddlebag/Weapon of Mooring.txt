@@ -1,0 +1,6 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Weapon of Mooring
+Weapon (battleaxe, longsword, or warhammer), rare (requires attunement)
+___
+
+These weapons are made of a dense iron and have the heavy property. You gain a +1 bonus to attack and damage rolls you make with one of these magic weapons. Each time you hit a Large or smaller creature with a melee attack using one of these weapons, that creature's movement speed is reduced by 5 feet until the end of their next turn.

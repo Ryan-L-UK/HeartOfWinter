@@ -1,0 +1,6 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Axe Beak Tomahawk
+Weapon (handaxe), uncommon
+___
+
+This magic handaxe is made from the remains of a slain axe beak. The first time on your turn that you hit a creature that has a flying speed with an attack using this axe, that creature is forced to make a DC 14 Strength saving throw. Each time that a creature fails this saving throw, that creature's flying speed is reduced by 15 feet for 1 minute.

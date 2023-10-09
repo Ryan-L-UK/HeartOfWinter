@@ -1,0 +1,6 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Weapon of Showmanship
+Weapon (any), common
+___
+
+When you reduce a Small or larger creature to 0 hit points or score a critical hit against a target with an attack using this weapon, you can create a harmless sensory effect or illusion such as that from the "prestidigitation" cantrip. The effect can appear on the target of the attack or in the area immediately surrounding it.

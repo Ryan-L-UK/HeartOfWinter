@@ -1,0 +1,8 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Nightstalker's Kanabo
+Weapon (greatclub), very rare (requires attunement)
+___
+
+This studded greatclub once belonged to a hungering oni and excels at subterfuge. You gain a +1 bonus to attack and damage rolls made with this magic weapon. This weapon has the heavy property. When you hit a sleeping creature with this weapon, that creature takes an extra 2d8 psychic damage from the attack. In addition, when you roll a 20 on an attack roll with this weapon, the target of the attack must succeed on a DC 16 Constitution saving throw or magically fall asleep until either the end of your next turn, the sleeper takes damage, or someone uses an action to shake or slap the sleeper awake. While the target is asleep, it is unconscious. Undead and creatures immune to being charmed automatically succeed on this saving throw.
+
+The weapon has 3 charges and regains 1d3 expended charges each day at dusk. While holding the weapon, you can expend 1 charge as a bonus action to cast either the "invisibility" (targeting only yourself) or "sleep" (3rd-level version) spell using the kanabo.

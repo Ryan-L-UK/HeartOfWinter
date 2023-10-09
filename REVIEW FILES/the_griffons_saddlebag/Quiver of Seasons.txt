@@ -1,0 +1,17 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Quiver of Seasons Wondrous item, rare (requires attunement)
+___
+
+This slender quiver is decorated with a forest of silhouetted trees. You can use a bonus action on each of your turns to speak the quiver's command word to change its season, which also changes its color and design: Spring (green, trees with silver leaves), Summer (yellow, rays of silver sunlight), Autumn (orange, silver leaves falling), or Winter (blue, silver veins on trees).
+
+The quiver has 8 charges and regains 1d6 + 2 expended charges daily at dawn. When you make a ranged attack using a weapon to fire ammunition drawn from this quiver, you can expend 1 of the quiver's charges to infuse that ammunition with the quiver's seasonal magic. That ammunition gains the following benefits depending on the quiver's associated season:
+
+𝙎𝙥𝙧𝙞𝙣𝙜. The ammunition is wrapped by verdant brambles. On a hit, the brambles wrap around the target and deal an extra 1d10 piercing damage. The target must succeed on a DC 15 Strength saving throw or be restrained by the brambles until the end of your next turn. A creature can use its action to make a DC 15 Strength check, freeing itself or another creature within its reach from the brambles on a success.
+
+𝙎𝙪𝙢𝙢𝙚𝙧. The ammunition is scorched by wildfire. On a hit, flames erupt from it that deal an extra 1d10 fire damage to the target. The target must succeed on a DC 15 Dexterity saving throw or take an extra 1d10 fire damage at the start of its next turn.
+
+𝘼𝙪𝙩𝙪𝙢𝙣. The ammunition is touched by decaying fungus. On a hit, a cloud of sickening spores bursts from it that deals an extra 1d10 necrotic damage to the target. The target must succeed on a DC 15 Constitution saving throw or be poisoned until the end of your next turn. This has no effect on undead or constructs.
+
+𝙒𝙞𝙣𝙩𝙚𝙧. The ammunition is covered in biting frost. On a hit, ice splinters outward from it that deals an extra 1d10 cold damage. The target must make a DC 15 Constitution saving throw. On a failed save, the target's speed is halved until the end of your next turn. For the duration of this effect, it can't use reactions, and...
+
+...Continued in the comment below!

@@ -1,0 +1,12 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Celestial Circlet
+Wondrous item, very rare (requires attunement by a good-aligned cleric)
+___
+
+This golden circlet radiates holy energy. A thin halo hovers above your head while you wear it, emitting bright light in a 20-foot radius and dim light for another 20 feet. Small motes of holy light swirl around the apex of the circlet.
+
+While you wear the circlet, you are always under the effects of the "protection from evil and good" spell. This effect only applies to one creature type. You can choose a new creature type (other than celestials) to be protected against daily at dawn.
+
+The circlet has 7 charges. As an action, you can expend 1 or more of the circlet's charges to cast either "cure wounds" (1 charge per spell level, up to 4th) or "spirit guardians" (3 charges) from it, using your spell save DC and spellcasting ability modifier. Immediately before or after you cast a spell from the circlet in this way, you can use your bonus action to fly up to 10 feet without provoking opportunity attacks. When you do, you are carried away on a pair of angelic wings.
+
+The circlet regains 1d4 + 3 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the halo vanishes and the circlet becomes mundane and nonmagical.

@@ -1,0 +1,8 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Knight's Standard of Valor
+Weapon (halberd), rare (requires attunement)
+___
+
+You gain a +1 bonus to attack and damage rolls made with this magic weapon. While wielding this emblazoned halberd, you give off a 10-foot radius aura of fervor and valor that affects you and other friendly creatures within it. Allied creatures within the aura are considered proficient in saving throws made to resist becoming frightened, and if they begin their turn within the aura, gain a +5-foot bonus to their movement speed until the end of their turn.
+
+You can concentrate on the halberd's flag over the course of a short rest to change the colors and design of the weapon's adornments.

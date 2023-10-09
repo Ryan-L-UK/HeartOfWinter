@@ -1,0 +1,7 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Executioner's Mercy Weapon (greatsword), very rare (requires attunement by a lawful creature)
+___
+
+This heavy blade is inscribed with old tenets of justice and mercy. When you hit a prone or restrained creature for the first time on each of your turns with an attack using this magic weapon, it deals an extra 10 force damage, and one creature of your choice that you can see within 10 feet of you gains 10 temporary hit points.
+
+The sword has 4 charges and regains all expended charges daily at dawn. As a bonus action, you can expend 1 of the weapon's charges to touch a creature within your reach with the flat of the blade. For 1 minute, that creature becomes warded against death. While this ward is active, the creature has resistance to slashing damage, and if it is reduced to 0 hit points but not killed outright, the ward is consumed and the creature drops to 1 hit point instead. The effect then ends.

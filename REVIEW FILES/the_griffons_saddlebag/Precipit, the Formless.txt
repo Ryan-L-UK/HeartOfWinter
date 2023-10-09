@@ -1,0 +1,14 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Precipit, the Formless
+Staff, artifact (requires attunement)
+___
+
+This magic coral staff was first found within the Great Reef of the Elemental Plane of Water. Its origins beyond that are entirely unknown, with some suggesting it was made by the plane itself rather than forged or crafted by a mere creature's hands. Attuning to the staff bestows some of its planar powers to you, allowing you to breathe underwater and ignore any of the drawbacks caused by a deep, underwater environment. In addition, while holding the staff, you have resistance to cold damage.
+
+This staff has 15 charges which are used to power its various properties. The staff regains 1d8 + 7 expended charges daily at dawn.
+
+𝙎𝙩𝙖𝙩𝙚 𝘾𝙝𝙖𝙣𝙜𝙚. The staff has a powerful control over the various states of water. As a bonus action, you can mentally command the staff's ever-present bounty of water to change its state into a gas, liquid, or solid. The properties of each state are listed below. Alternatively, you can expend 1 charge as a reaction when you are the target of an attack or spell to force the staff to change its state more rapidly. When you do, the staff's change is immediate: potentially affecting the outcome of the incoming attack or spell. You take this reaction when you know you are the target of the attack or spell, but before knowing the result of the roll.
+
+𝙂𝙖𝙨. When the staff enters its gaseous state, the water surrounding the staff becomes a fine mist. While holding the staff in this state, you gain the following properties: • You have resistance to bludgeoning and piercing damage. • Your movement speed is increased by 10 feet. • You gain a flying speed equal to your walking speed. • You can pass through a hostile creature's space without reducing your movement speed. • Attacks of opportunity against you are made with disadvantage.
+
+𝙂𝙖𝙨 𝙎𝙥𝙚𝙡𝙡𝙨. While holding the staff in its gas state, you can expend 1 or more of the staff's charges on your turn to cast the following spells from it (save DC 18): "cloudkill" (5 charges), "fog cloud" (1 charge), "gaseous form" (3 charges), "misty step" (2 charges), or "wind walk" (6 charges). Continued below!

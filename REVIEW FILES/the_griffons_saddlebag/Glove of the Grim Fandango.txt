@@ -1,0 +1,8 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Glove of the Grim Fandango 
+Wondrous item, rare (requires attunement by a bard)
+___
+
+Once attuned to the glove and wearing it on your dominant hand, musical tools come naturally to you. You have proficiency with all instruments, and after playing an instrument for longer than one minute, spectral forms appear beside you to accompany your song. The spectral forms are wispy and ethereal, but their illusory instruments complement your own. When you play an instrument for at least a minute, you have advantage on any check you make with it for musical effect.
+
+You can use an action to play an instrument and cast one of the following spells from the glove: "fear", "phantasmal force", "speak with dead". Once the glove has been used to cast a spell, it can't be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC.

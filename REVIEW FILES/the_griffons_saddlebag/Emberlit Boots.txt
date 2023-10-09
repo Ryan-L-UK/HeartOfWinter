@@ -1,0 +1,8 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Emberlit Boots
+Wondrous item, rare (requires attunement)
+___
+
+These heavy boots' volcanic stones rearrange themselves to better fit your feet once you attune to them. Despite their appearance, the stones are remarkably light and comfortable, keeping your feet at a pleasant and consistent temperature. While wearing the boots on your feet, you can walk across dangerously hot surfaces (such as burning coals or shallow pools of magma) without harm. You have resistance to fire damage while you're attuned to the boots and wearing them.
+
+In addition, these boots have 10 charges and regain 1d6+4 expended charges each day at dawn. When you walk 5 or more feet on your turn, you can expend 1 or more charges to set the ground alight behind you. For each expended charge, the ground in a 5-foot space in which you moved through begins to smolder and crackle with hot embers. Until the start of your next turn, any creature that enters or starts their turn in a space that you've set alight in this way must succeed on a DC 15 Dexterity saving throw or take 2d6 fire damage. The affected ground must be solid and can't be covered in water. Creatures that hover or fly through this terrain are immune to this effect, and any small, nonmagical plant growing there is incinerated.

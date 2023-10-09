@@ -1,0 +1,8 @@
+🍬 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Frefil's Tiny Tasty Tongue Twisty Sugarbombs
+Wondrous item, uncommon
+___
+
+This small bag of marble sized gumballs contains 12 enchanted candies. While the color and flavor of each gumball is different, each one's effect is the same. As an action, you can begin chewing one of these sugarbombs to release its magic. For the next 5 minutes while you chew the candy, you understand the literal meaning of any spoken language that you hear. In addition, if you speak while chewing the sugarbomb, your accent changes to match that of the creature you're listening to: allowing you to sound like a local with minimal effort. The candy's magic and flavor fade 5 minutes after you first start to chew it.
+
+𝙐𝙥𝙨𝙚𝙩 𝙨𝙩𝙤𝙢𝙖𝙘𝙝. You can only be under the effects of one sugarbomb that has this property at a time. Eating a sugarbomb while already under the effects of another one ends the first one's effect early and forces you to make a DC 13 Constitution saving throw. On a failed save, you become poisoned for 1 minute.

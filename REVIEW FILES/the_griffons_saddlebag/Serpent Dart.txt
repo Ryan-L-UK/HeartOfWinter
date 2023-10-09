@@ -1,0 +1,8 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Serpent Dart
+Weapon (dart), uncommon
+___
+
+You can use an action to cause thick, emerald green poison to coat the dart. The poison remains for 1 minute or until an attack using this weapon hits a creature. That creature must succeed on a DC 14 Constitution saving throw or take an extra 2d8 poison damage from the attack and become poisoned for 1 minute. The dart can't be used this way again until the next dawn.
+
+___

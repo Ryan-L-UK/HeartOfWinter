@@ -1,0 +1,8 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Giantcraft Ambusher
+Weapon (greataxe), rare (requires attunement)
+___
+
+This dark metal axe contains the brute force of a fire giant inside and requires a Strength of 13 or higher in order to wield it. You gain a +1 bonus to attack and damage rolls made with this magic weapon.
+
+You can speak the weapon's command word as a bonus action to magically enlarge it. When you do, the weapon grows to three times its normal size until the start of your next turn. While enlarged, this axe has the reach property and deals an extra 2d12 slashing damage to any target it hits. The axe's weight doesn't change. While the axe is enlarged, it does not impose disadvantage on your attack rolls due to its larger size. Once this property of the axe has been used, it can't be used again until the next dawn.

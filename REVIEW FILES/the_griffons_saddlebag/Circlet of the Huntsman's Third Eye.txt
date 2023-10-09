@@ -1,0 +1,10 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Circlet of the Huntsman's Third Eye
+Wondrous item, very rare (requires attunement)
+___
+
+This metallic barbed circlet features a grotesque, yet ornate, severed eye hanging from its center. The eye rests on the forehead of the creature wearing it. While attuned to the circlet and wearing it, you can call upon the sharpened instincts of the eye's original owner, granting you advantage on Wisdom (Survival) checks.
+
+The circlet holds 5 charges and regains all expended charges each day at dawn. You can expend 1 of its charges as a bonus action to cast "hunter's mark" on a creature within the spell's range. You make Constitution saving throws to maintain concentration on "hunter's mark" cast in this way with advantage. In addition, you can expend 1 charge as a bonus action on another turn or as a second charge when you cast "hunter's mark" in this way to gain truesight out to 120 feet for 1 minute.
+
+Curse. Attuning to the circlet curses you until you are targeted by the "remove curse" spell or similar magic: removing the circlet fails to end the curse. While cursed, whenever you roll a 1 on an attack roll or ability check, you take 1d6 psychic damage as the eye's intense frustration stabs into your mind.

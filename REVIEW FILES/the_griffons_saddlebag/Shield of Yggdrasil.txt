@@ -1,0 +1,12 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Shield of Yggdrasil
+Armor (shield), very rare (requires attunement)
+___
+
+You must have a strength of 17 or higher in order to wield this massive, magical tower shield. The shield is of dwarven make and functions as a small battlement, granting you an additional +1 bonus to your AC while you wear it. This bonus is in addition to the shield's normal bonus to AC. It is embossed with the form of an immense tree.
+
+Stand Strong. As a bonus action on your turn, you can plant this shield on the ground to barricade yourself behind it. While planted in this way and worn, your movement speed is reduced to 5 feet, but the shield grants you half-cover and reduces any nonmagical bludgeoning, piercing, and slashing damage you receive by your Constitution modifier (minimum of 1). The shield has 3 charges and regains all expended charges each day at dawn. When you plant the shield, you can expend a charge to cause tiny, magical roots to spread out around the shield. Enemy creatures within ten feet of the shield are slowed by these magical roots and treat it as if were difficult terrain.
+
+You can choose to use an action instead of a bonus action in order to plant the shield while doffing it. While planted on the ground and unworn, any magical roots around the shield remain in place, and any creature immediately behind the shield has half cover from incoming projectiles.
+
+You can uproot the shield as an action. The shield falls down and withdraws its magical roots early if you either fall unconscious or it is knocked over following a successful DC 20 Strength (athletics) check.

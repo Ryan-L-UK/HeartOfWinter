@@ -1,0 +1,10 @@
+⚔️ New item!
+Kraken's Whip
+Weapon (whip), uncommon
+___
+
+This whip is made using the shrunken tentacle of a great sea creature. It still moves slightly on its own.
+
+As an action, you may try to wrap a Medium or smaller creature within the weapon's range using the whip's tentacle. The target must succeed on a Strength saving throw (DC 14) or become constricted by the tentacle, dealing 1d4+2 bludgeoning damage immediately after failing the saving throw and again at the end of each of its subsequent turns while gripped by the tentacle. The creature may reattempt the saving throw as an action each turn to try and escape the tentacle again. While holding a creature in this way, you cannot make attacks with the whip. You may end this affect at any time (no action required).
+.
+While constricted, a creature cannot move or be more than 10' away from you in any direction, and your speed is halved. If you drop the whip while a creature is gripped by the tentacle, both your and the creature's movement returns to normal, although the tentacle will continue to hold and damage the creature until it breaks free.

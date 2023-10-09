@@ -1,0 +1,10 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Battlebrew Maul
+Weapon (maul), rare
+___
+
+The head of this maul is an alchemical keg that generates battlebrew liquor. It holds up to 4 gallons of the liquor and creates 1 gallon each day at dawn and every time you roll for initiative (up to once an hour). A creature can remove or reattach the handle of the maul from the keg as an action to pour out or stopper the refreshing liquor. Its sweet flavor and warm aftertaste make it a favorite drink among tired adventurers.
+
+You gain a +1 bonus to attack and damage rolls made with this magic weapon. While in combat, the liquor begins to become volatile and warm. When you roll a 20 on an attack roll made with this weapon, the target takes an extra 2d8 acid damage from the attack as the keg briefly buckles from the force and sprays out a mist of the heated liquor.
+
+For 1 minute after taking acid damage in this way, the next time that target takes fire damage, it takes an extra 2d8 fire damage as the lingering liquor ignites around them. Dealing acid damage again in this way resets the duration of the effect.

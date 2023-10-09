@@ -1,0 +1,10 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Dragon-Kindled Edge 
+Weapon (longsword), legendary (requires attunement)
+___
+
+This magnificent blade is crafted from the remains of a great Ancient dragon. You gain a +3 bonus to attack and damage rolls you make with this magic weapon. When you hit a dragon with this weapon, the dragon takes an extra 2d6 damage of the weapon's type. For the purpose of this weapon, "dragon" refers to any creature with the dragon type, including dragon turtles and wyverns. In addition, while you are attuned to this weapon, you can read and understand draconic.
+
+𝙆𝙞𝙣𝙙𝙡𝙚𝙙 𝙘𝙡𝙚𝙖𝙫𝙚. When you are the target of a hostile dragon's breath attack, you can use your reaction to hold the blade in front of you. If you do, the sword cleaves through the breath attack, leaving you and creatures behind you in a 30 foot cone unscathed by the attack. Once you use this ability, you cannot do so again until the following dawn. If you cleave a breath attack in this way, the blade becomes charged with powerful draconic magic, shedding dim light in a 10 foot radius around the sword the color of the dragon's breath for up to one minute. The next melee weapon attack you land against a creature using this blade while it sheds light deals an additional 6d6 damage of the dragon breath's damage type. This empowered attack cuts through damage resistances, and treats damage immunities as if they were resistances instead.
+
+𝙇𝙚𝙨𝙨𝙚𝙧 𝘿𝙧𝙖𝙘𝙤𝙣𝙞𝙘 𝙧𝙚𝙨𝙞𝙨𝙩𝙖𝙣𝙘𝙚. If you roll a saving throw and fail by 4 or less, you can choose to succeed on it instead. Once you use this ability, you cannot use it again until the following dawn.

@@ -1,0 +1,6 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Braided Quarterstaff
+Weapon (quarterstaff), uncommon
+___
+
+This magical quarterstaff is made of a tightly-knit length of braided rope. As a bonus action, you can speak the weapon's command word to release its knotted form, loosening itself into a 50 foot length of thick, hempen rope. Speaking the command word again causes the rope to tighten up again into the shape of the quarterstaff. If a creature is restrained by the rope when you speak its command word, the rope tightens around the creature but does not crush them in an effort to knot itself again. Creatures restrained in this way can use an action to attempt to escape from the coiled rope (escape DC 15). Tying a non-living item no larger than six inches on a side to the end the rope does not prevent it from reforming into the quarterstaff. The rope can only be broken by magical means. If broken, the rope cannot be transformed back into a quarterstaff.

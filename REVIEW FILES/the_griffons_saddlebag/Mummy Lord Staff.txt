@@ -1,0 +1,13 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Mummy Lord Staff Staff, very rare (requires attunement by a bard, cleric, sorcerer, warlock, or wizard)
+___
+
+This staff is wrapped in old mummy wrappings salvaged from an unknown burial ground. Its sinewy haft is made from a flesh-colored wood. It can be wielded as a magic quarterstaff that grants a +1 bonus to attack and damage rolls made with it.
+
+𝘾𝙝𝙖𝙧𝙜𝙚𝙨. The staff has 10 charges. It regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff is destroyed and turns to dust.
+
+𝙎𝙥𝙚𝙡𝙡𝙨. While holding the staff, you can use an action to expend some of its charges to cast either "blight" (4 charges) or "ray of enfeeblement" (2 charges) from it, using your spell attack bonus and spell save DC. Alternatively, you can expend 3 or more of the staff's charges to cast the "bestow curse" spell from it, using your spell save DC. For 3 charges, you cast the 3rd-level version of the spell. You can increase the spell slot level by one for each additional charge you expend, up to 7th level.
+
+𝙍𝙤𝙩𝙩𝙞𝙣𝙜 𝙏𝙤𝙪𝙘𝙝. Once per turn when you hit a creature with the staff, you can expend 1 charge to deal an extra 3d6 necrotic damage to the target. Until it finishes a long rest, that target's hit point maximum is reduced by the amount of necrotic damage dealt by this property. If the target's hit point maximum is reduced to 0 in this way, it dies, and its body is turned to dust.
+
+𝘾𝙪𝙧𝙨𝙚. This staff is cursed, and attuning to it extends the curse to you. You remain cursed until you're targeted by the "remove curse" spell or similar magic. While cursed, your hit point maximum is reduced by 3d6 each time you drop to 0 hit points. If your hit point maximum is reduced to 0 in this way, you die, and your body is turned to dust. Your hit point maximum remains reduced in this way until you're targeted by the "greater restoration" spell, even if the curse on you ends.

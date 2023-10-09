@@ -1,0 +1,18 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Bloodmire Soulflame Lantern
+Wondrous item, legendary (requires attunement)
+___
+
+This iron lantern is surrounded by six glass panels and has a sharp spike in its center where a wick would normally be. When you attune to the lantern, it suddenly springs to life with a crimson flame at the top of the spike, shedding bright light in a 30-foot radius and dim light for an additional 30 feet. The flame is magical and can't be extinguished by any means while it burns within the lantern. While the lantern is on your person, you can use a bonus action to mentally expand or reduce the lantern's light, to a maximum of 30 feet each or a minimum of 10 feet each. As part of this bonus action, you can also cause the lantern's glass panels to magically turn black or clear, allowing you to choose whether the lantern's light is shed in a radius, a cone, or entirely hidden by the darkened glass.
+
+While the lantern is on your person, you gain the following benefits:
+
+• You have advantage on Wisdom (Perception) checks that rely on sight.
+• You have resistance to necrotic damage and are immune to disease.
+• When you drop to 0 hit points, you can use your reaction to spend one Hit Die to heal yourself. Roll the die, add your Constitution modifier, and regain a number of hit points equal to the total (minimum of 1). This property can't be used again for 1d12 hours.
+• When a creature within the lantern's light (including you) reduces a living target to 0 hit points, that creature gains 1d8 temporary hit points.
+• You see anything within the lantern's bright light as if you had truesight.
+• Any fiend or undead creature within the lantern's bright light doesn't gain the benefits of any damage resistances it may have, and if it has an ability that would normally take effect when the creature is reduced to 0 hit points, it doesn't.
+
+𝘾𝙪𝙧𝙨𝙚. This lantern is cursed, and attuning to it extends that curse to you. You remain cursed as long as you remain attuned to the lantern, which can only be ended with a "wish" spell or by the touch of a powerful fey creature. Even if you die, your attunement to the lantern doesn't end until 7 days have passed.
+...Continued below!

@@ -1,0 +1,6 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Fire Dervish Cloak
+Wondrous item, rare (requires attunement)
+___
+
+This flowing cloak sounds like a crackling fire when you walk in it. The cloak has 5 charges and regains all expended charges each day at dawn. Once per turn, you can replace any amount of your walking movement speed in order to spin in place instead. You can expend a charge for every ten feet of movement you sacrifice in this way as part of your movement, causing the cloak to erupt in an inferno around you as you spin. Creatures within 5 feet of you must succeed on a Dexterity saving throw or take 1d6 fire damage for every charge you spend in this way. When a creature takes damage from the cloak in this way, that creature can't make opportunity attacks against you for the rest of your turn. The DC for this feature is equal to 8 + your proficiency bonus + your Dexterity modifier.

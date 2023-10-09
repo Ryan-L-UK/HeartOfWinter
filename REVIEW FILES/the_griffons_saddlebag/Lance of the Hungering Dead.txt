@@ -1,0 +1,6 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Lance of the Hungering Dead
+Weapon (lance), very rare (requires attunement)
+___
+
+This magical, gruesome lance can drain the life force from another creature. The first time on your turn when you hit a hostile living creature with a melee weapon attack using the lance, you deal an extra 1d12 necrotic damage. You gain temporary hit points equal to half the necrotic damage dealt, rounded up. Temporary hit points gained from this attack fade after one hour.

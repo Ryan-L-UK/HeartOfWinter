@@ -1,0 +1,24 @@
+🍬 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Frefil's Jolly Oozebean Sugarbombs
+Wondrous item, uncommon
+___
+
+You can eat one of these delicious, jelly-filled sweets as a bonus action on your turn. Each one comes with a side effect that lasts for one hour and depends on the associated color and flavor of the bean. Refer to the table below when determining the bean's effects.
+
+You can only benefit from one sugarbomb before needing to finish a long rest. Eating extra sugarbombs before finishing a long rest upsets your stomach and forces you to make a DC 12 Constitution saving throw. On a failed save, you are forced to spend your action on your next turn retching and reeling.
+
+White / Chilled Peppermint / Gummy exterior with a watery center : You can breathe underwater.
+
+Black / Bubbling Licorice / Thick, but effervescent : You have resistance to acid damage and can safely eat otherwise inedible & nonpoisonous organic materials.
+
+Blue / Sour Lemon-lime / Pleasantly gummy, but slightly numbs the mouth : Grappling or being grappled deals 1d8 acid damage to the other creature.
+
+Gray / Hot Spiced Mead / Harder exterior with a gooey center : You have advantage on saving throws against being charmed or frightened.
+
+Gold / Caramel / Rubbery and chewy : You gain a climbing speed equal to your movement speed.
+
+Red / Cinnamon Strawberry / Thick and coats the tongue slightly : You gain 1d8+4 temporary hit points.
+
+Green / Savory Apple / Spongey center covered with a dissolving shell : You have resistance to poison damage and  advantage on ability checks to escape grapples or restraints.
+
+Yellow / Mustard Currant / Slippery and resilient : You have resistance against lightning damage and immunity against damage from the "magic missile" spell.

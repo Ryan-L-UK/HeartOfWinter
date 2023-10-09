@@ -1,0 +1,14 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Davy Jones' Key
+Weapon (trident), legendary (requires attunement)
+___
+
+This powerful trident is made of verdigris-covered bronze. You gain a +1 bonus to attack and damage rolls made with this magic weapon. The bonus increase to +3 while you are underwater.
+
+When you roll a 20 on an attack roll made with this weapon against a creature, that creature must succeed on a DC 15 Constitution saving throw or begin to suffocate. At the end of each of its turns, a creature suffocating in this way can make another Constitution saving throw. On a successful save or when it drops to 0 hit points, the creature can breathe again. A suffocating creature can't speak. A creature is immune to this effect if it doesn't need to breathe or has legendary actions.
+
+𝙍𝙚𝙡𝙚𝙖𝙨𝙚 𝙩𝙝𝙚 𝙆𝙧𝙖𝙠𝙚𝙣. You can use an action to speak the trident's command word to open a 15-foot-radius eldritch gate centered on a point you can see on the ground within 60 feet of you, turning the ground in the area into difficult terrain. If you are underwater, the point does not need to be on the ground. The gate is one-way. When the gate opens, up to 3 massive kraken tentacles appear through the gate, forcing any Large or smaller creature in the tentacle's space into the nearest unoccupied space. Each tentacle is treated as a Large monstrosity with 60 hit points, AC 18, a reach of 30 feet, immunity to all conditions, and a +7 bonus to all ability checks and saving throws. A tentacle can move anywhere within the gate's area on your turn (no action required) without provoking opportunity attacks. You can use your reaction to make an attack of opportunity with the tentacle. A tentacle remains until it falls to 0 hit points or the gate closes.
+
+When the tentacles appear, they immediately make up to 3 melee attacks, one with each tentacle, against targets you can see within the tentacles' reach with an attack bonus of +10. On a hit, a target takes 3d6 bludgeoning damage, and if the target is Large or smaller, it is also grappled (escape DC 17).
+.
+...Continued in the comments!

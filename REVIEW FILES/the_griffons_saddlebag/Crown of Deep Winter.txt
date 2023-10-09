@@ -1,0 +1,8 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Crown of Deep Winter
+Wondrous item, very rare (requires attunement)
+___
+
+This icy crown is made using ice from the Everglacier. While wearing the crown, you have resistance to cold damage. In addition, you can use the crown to cast the "fire shield" spell, making only a chill shield when you do. Once the crown has cast this spell, it can't cast it again until the following dawn.
+
+𝙁𝙧𝙤𝙯𝙚𝙣 𝘽𝙪𝙧𝙨𝙩. When a creature you can see within 5 feet of you hits you with an attack while you wear the crown, you can use your reaction to cause the area around to erupt in sharp icicles. When you do, all creatures within 5 feet of you must succeed on a DC 16 Dexterity saving throw or take 2d8 cold damage. This property of the crown can't be used again until you complete a short or long rest.

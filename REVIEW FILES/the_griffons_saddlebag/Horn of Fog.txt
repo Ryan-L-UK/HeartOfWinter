@@ -1,0 +1,11 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Horn of Fog Wondrous item, uncommon
+___
+
+You can use an action to blow this horn, which is audible out to 300 feet. When you do, you can choose one of the following effects:
+
+𝘾𝙧𝙚𝙖𝙩𝙚 𝙁𝙤𝙜. You cast the "fog cloud" spell (2nd-level version; no concentration required) from the horn, centered on your location. The fog remains for 1 minute.
+
+𝘿𝙚𝙛𝙤𝙜. Any fog, mist, or similar atmospheric effect within 300 feet of you is dispersed. If the fog extends beyond that range, only the space within that radius is cleared of it. The space remains magically clear of the fog for 1 minute, after which time the fog can re-enter the space.
+
+Once either of the properties of the horn have been used, the horn can't be used again until the next dawn.

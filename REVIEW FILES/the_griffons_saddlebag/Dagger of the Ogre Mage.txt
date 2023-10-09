@@ -1,0 +1,10 @@
+⚔️ New item!
+Dagger of the Ogre Mage
+Weapon (shortsword), uncommon (requires attunement)
+___
+
+You gain a +1 bonus to attack and damage rolls made with this magic weapon.
+
+This blade's hilt is hollow, made to accommodate up to 3 spell scrolls. Cantrip scrolls left within the compartment for one minute activate one of the three clear gems adorning the blade's grip. Once activated, these cantrips can be cast at-will by the wielder using their spellcasting modifier. If they do not have a spellcasting modifier, use their Intelligence modifier instead. They have proficiency with the cantrips cast from it. Cantrips cast from the blade use the weapon as an arcane focus, and allow the wielder to perform any somatic components using the weapon instead of a free hand. Scrolls are not consumed when cast from the sword.
+
+When a cantrip cast from the sword would deal damage, the weapon's damage type changes to match the cantrip's for up to one minute. The wielder can end this effect early (no action required).

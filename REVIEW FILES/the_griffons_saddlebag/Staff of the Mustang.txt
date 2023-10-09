@@ -1,0 +1,8 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Staff of the Mustang
+Staff, rare (requires attunement)
+___
+
+This dark wooden staff is magical and carved in the shape of a majestic stallion. This staff has 10 charges. While holding the staff, you can expend 1 of its charges to cast the "phantom steed" spell as an action, instead of it's normal casting time, using the staff. Alternatively, while holding the staff, you can expend 1 charge and speak the staff's command word to take the Dash action using a bonus action instead.
+
+The staff regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff breaks in two as if bitten and is destroyed. When this happens, the sound of hooves can be heard galloping away in an indiscernible direction.

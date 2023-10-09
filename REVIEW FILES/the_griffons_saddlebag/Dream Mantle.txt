@@ -1,0 +1,8 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Dream Mantle
+Wondrous item, very rare (requires attunement)
+___
+
+This short purple and blue cape is almost iridescent and is magically difficult to focus on from afar. The mantle creates shifting, floating mirages of far away places around you that are visible to distant creatures. Once attuned to the cloak, creatures 30 or more feet away from you make their perception checks to detect as well as ranged attacks against you with disadvantage, so long as they rely on sight in order to make them. This property is suppressed while you are incapacitated, restrained, or otherwise unable to move.
+
+In addition, you can cast "dream" (DC 16) at its lowest level once attuned to the mantle, using yourself as the messenger within the dream. Once you have cast the spell using the cloak, you cannot do so again for another 7 days.

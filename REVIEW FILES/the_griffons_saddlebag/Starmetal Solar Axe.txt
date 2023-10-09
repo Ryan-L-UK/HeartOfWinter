@@ -1,0 +1,16 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Starmetal Solar Axe
+Weapon (greataxe), legendary (requires attunement)
+___
+
+This heavy metal magical weapon is forged using iron from the stars. While you're attuned to this weapon, you can call upon its latent stellar energy to catalyze change within the metal and create endothermic and exothermic reactions. The weapon can be fused into a greataxe or fissioned into two separated battleaxes. The weapon has the following properties based on its current state:
+
+𝙁𝙪𝙨𝙚𝙙 𝙎𝙩𝙖𝙩𝙚. While wielding the fused greataxe, you gain a +1 bonus to attack and damage rolls made with this magic weapon. While you hold this axe, flames erupt from its edges and a small star burns in its center. These flames shed bright light in a 20-foot radius and dim light for an additional 20 feet. The light is sunlight. The greataxe deals an extra 2d6 fire damage to any target it hits.
+
+𝙁𝙞𝙨𝙨𝙞𝙤𝙣𝙚𝙙 𝙎𝙩𝙖𝙩𝙚. While wielding the two fissioned battleaxes, you gain a +1 bonus to attack and damage rolls made with them. The weapons are bitter cold to the touch and deal an extra 1d6 cold damage to any target they hit. The axes orbit you slowly while they aren't being held or stowed. You can retrieve a floating battleaxe as if it were sheathed. In addition, when you take the Attack action, you can use a bonus action to make one melee weapon attack with an orbiting battleaxe against a creature you can see within 20 feet of you.
+
+𝙎𝙩𝙖𝙩𝙚 𝘾𝙝𝙖𝙣𝙜𝙚. This weapon can change between its two states using the following properties:
+
+𝙁𝙞𝙨𝙨𝙞𝙤𝙣. While holding the fused greataxe, you can use a bonus action to speak the weapon's command word to split it apart into its "fissioned state". When you do, electrical energy is released, forcing creatures within 30 feet of you to make a DC 17 Dexterity saving throw. A creature takes 3d6 lightning damage on a failed save, or half as much lightning damage on a successful one. This property can't be used again for 12 hours.
+
+𝙁𝙪𝙨𝙞𝙤𝙣. While holding both battleaxes, you can use a bonus action to speak the weapon's other command word to recombine the two battleaxes into its "fused state". When you do... 🔽 Continued below!

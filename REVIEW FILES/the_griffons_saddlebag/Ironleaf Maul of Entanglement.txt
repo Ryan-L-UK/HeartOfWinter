@@ -1,0 +1,8 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Ironleaf Maul of Entanglement 
+Weapon (maul), rare (requires attunement)
+___
+
+Despite the head of this maul being made from vines, it seems impossibly solid and carries with it a formidable heft. You gain a +1 bonus to attack and damage rolls made with this magic weapon. The maul has three charges and regains 1d3 expended charges each day at dawn. While wielding the maul, you can expend a charge using a bonus action to cast 𝘌𝘯𝘴𝘯𝘢𝘳𝘪𝘯𝘨 𝘚𝘵𝘳𝘪𝘬𝘦 at first level. The DC for this spell is equal to 8 + your proficiency bonus + your Strength modifier.
+
+___

@@ -1,0 +1,11 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Wand of Branding Wand, rare (requires attunement)
+___
+
+This wand has 7 charges for the following properties. While holding the wand, you can use an action to change the shape of the metal brand at its end. The brand can be no larger than 4 inches in any dimension.
+
+𝙎𝙥𝙚𝙡𝙡𝙨. While holding the wand, you can use an action to expend 1 or more of its charges to cast one of the following spells from it, using a spell attack bonus of +7 and save DC of 15: "branding smite", "heat metal", or "scorching ray". For 1 charge, you cast the 2nd-level version of the spell. You can increase the spell slot level by one for each additional charge you expend. This version of "branding smite" deals fire damage, instead of radiant damage. It also has a range of 30 feet, instead of self, and can be cast on any creature that you can see within that range.
+
+𝘽𝙧𝙖𝙣𝙙. You can use an action to expend 1 of the wand's charges to make a melee spell attack with it, using a spell attack bonus of +7. On a hit, the target takes 3d6 fire damage and is branded for 1 minute. When a branded target takes fire damage, the creature that dealt the damage can reroll any 1s or 2s on the fire damage dice. It must use the new roll, even if it's a 1 or 2.
+
+The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll a d20. On a 1, the wand becomes a nonmagical branding iron.

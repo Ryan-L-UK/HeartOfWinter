@@ -1,0 +1,6 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Necrolace
+Wondrous item, rare (requires attunement by a spellcaster)
+___
+
+While attuned to this delicate necklace, you absorb portions of the fallen spirits of the creatures you slay. When you reduce a Small or larger creature who is hostile toward you to 0 hit points, the necklace emits a faint glow and gains a charge. The necklace can hold up to 3 charges, and when found already contains 1d3 charges. As a bonus action on your turn, you can expend any number of held charges to release the souls and harness their energies to turn death into life. For each charge you use, you suffer 1d8 necrotic damage, and another creature you can see within 30 feet of you regains twice the amount of health that you lost. Damage you receive in this way cannot be reduced by any means. Being reduced to 0 hit points from the necrotic damage dealt to yourself renders you unconscious, but stable, and heals the other creature for twice the amount of hit points you had remaining when you used the necrolace.

@@ -1,0 +1,12 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Sundersludge Net
+Weapon (net), uncommon (requires attunement)
+___
+
+This gelatinous net is made with the enchanted remains of a gray ooze. A creature takes 1d6 acid damage when it's restrained by the net and again at the end of each of its turns it remains restrained. If the creature is wearing nonmagical metal armor, its armor is partly corroded and takes a permanent and cumulative −1 penalty to the AC it offers whenever it takes acid damage at the end of one of its turns. The armor is destroyed if the penalty reduces its AC to 10. A creature other than you who touches the net takes 1d6 acid damage.
+
+The net's sticky composition makes it more difficult to escape than a mundane one. A creature can use its action to make a DC 13 Strength check, freeing itself or another creature within its reach on a success. The net has resistance to all damage types. Dealing 10 slashing damage to the net (AC 12) also frees the creature without harming it, ending the effect and tearing the net apart.
+
+The torn net is harmless. If more than half of the net can be salvaged and stored within a container large enough to hold 1 gallon of liquid for 12 hours, the net is repaired and can be used once more. Your attunement to the net ends if the net remains destroyed for longer than 2 days.
+
+You're immune to damage from the net while you're attuned to it. Picking up the net after throwing it renders it harmless until the next time you throw it. The net doesn't deal any acid damage if no creature is attuned to it.

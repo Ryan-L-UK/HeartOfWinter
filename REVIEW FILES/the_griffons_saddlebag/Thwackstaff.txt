@@ -1,0 +1,8 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Thwackstaff
+Weapon (quarterstaff), uncommon (requires attunement)
+___
+
+This festive quarterstaff is decorated with ribbons and other glittering elements. It is perfectly balanced and seems to be made to perform with. This magic quarterstaff has the finesse property and gives you a +1 bonus to Charisma (Performance) checks you make in order to put on an entertaining performance using the quarterstaff.
+
+𝙋𝙪𝙣𝙞𝙨𝙝𝙞𝙣𝙜 𝙋𝙖𝙧𝙧𝙮.This quarterstaff has 3 charges and regains all expended charges each day at dawn. While you're holding this quarterstaff and another creature hits you with a melee attack, you can expend 1 charge as a reaction to add 1d6 to your AC for that attack, potentially causing it to miss you. If the attack misses you because of this bonus to AC, you can immediately make a melee attack with the quarterstaff against the attacking creature as part of your reaction. If you hit, you also add the number you rolled on the d6 to the damage of this attack.

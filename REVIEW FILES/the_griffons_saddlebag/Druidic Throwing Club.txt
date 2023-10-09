@@ -1,0 +1,6 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Druidic Throwing Club
+Weapon (club), rare (requires attunement by a druid, ranger, nature cleric, or oath of the ancients paladin)
+___
+
+This magical wooden club has the thrown property (20/60). While attuned, you know the *shillelagh* cantrip, or can choose another druid cantrip if you know it already. If enchanted by the *shillelagh* cantrip, the spell's effects are maintained even when the weapon is thrown. If you miss with a ranged weapon attack with the club, you can immediately make another ranged attack roll against a different creature within 5 feet of the original target. Hit or miss, the club magically returns to you after the attack.

@@ -1,0 +1,8 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Belt of the Raid Leader
+Wondrous item, rare (requires attunement by a half-orc)
+___
+
+This thick, worg leather belt is reinforced with heavy iron rivets and secured with an equally heavy iron skull buckle. As an action, you can let loose a powerful war cry. When you do, up to 3 other creatures of your choice gain advantage on attack rolls until the start of your next turn. The creatures you choose must be within 30 feet of you and able to hear the war cry. When you use your action to make this war cry, you can make one weapon attack as a bonus action.
+
+Once this property of the the belt has been used, it can't be used again until the following dawn.

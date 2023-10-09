@@ -1,0 +1,10 @@
+🛡 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Couatl Herald's Scales
+Armor (scale mail), rare (requires attunement by a creature of good alignment)
+___
+
+This enchanted armor is made from couatl scales that were collected by a generous celestial. You gain a +1 bonus to AC while you wear this armor. This armor does not impose disadvantage on Dexterity (Stealth) checks.
+
+𝙏𝙤𝙤𝙩𝙝 𝙖𝙣𝙙 𝙎𝙘𝙖𝙡𝙚. When you take damage from a creature within 10 feet of you, you can use your reaction to channel the good spirit within the armor and cause a bright, spectral couatl to appear above you. The spectral form strikes at the creature who damaged you, forcing it to make a DC 15 Dexterity saving throw. On a failure, the creature takes 4d10 radiant damage, or half as much damage on a success. Once this property of the armor has been used, it can't be used again until the following dawn.
+
+𝙁𝙡𝙞𝙜𝙝𝙩 𝙤𝙛 𝙩𝙝𝙚 𝘾𝙤𝙪𝙖𝙩𝙡𝙨. While you're attuned to 3 items with this feature, you gain a flying speed of 30 feet. If you already have a flying speed, this speed is in addition to your existing flying speed.

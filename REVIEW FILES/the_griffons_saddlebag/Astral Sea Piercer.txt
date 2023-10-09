@@ -1,0 +1,10 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Astral Sea Piercer
+Weapon (war pick), legendary (requires attunement)
+___
+
+This golden war pick was forged in the the depths of the Astral Plane and leaves a trail of extraplanar energy behind it when swung. You gain a +3 bonus to attack and damage rolls made with this magic weapon, and your attacks with it deal an extra 1d4 force damage to any target it hits. When in the Astral Plane, you always know the direction of the nearest portal to another plane of existence.
+
+𝙋𝙤𝙧𝙩𝙖𝙡. The weapon has 4 charges and regains 1d3+1 expended charges each day at dawn. As a bonus action, you can expend one of its charges and slam the war pick into any flat, solid surface that's at least 5 feet across in any direction. When you do, you create a small rift in the the planar fabric of existence. The rift lasts for one minute. If you expend a second charge in this way while another rift within 300 feet is open, both rifts tear open and become a brief portal between the two points. The portal is open until the end of your next turn or until you close it early at any time (no action required). When the portal closes, the rifts are lost. Creatures and objects Medium and smaller can travel freely through the portal while it's open, carrying any momentum through to the other side.
+
+Alternatively, you can expend one of the weapon's charges when you make an attack with it against a Medium or larger creature. If you hit, the creature becomes the surface of one of your rifts and takes an extra 2d4 force damage from the attack. Rifts placed on a creature in this way move with the creature. When a portal opens between two rifts, and at least one of them is on a Medium creature you attacked in this way, the creature must succeed on a DC 20 Charisma saving throw or be immediately shunted through the portal to the other rift's location. Large and larger creatures automatically succeed on the saving throw. Rifts placed on targets in this way separate from them and remain fixed in three-dimensional space once a second rift is opened to create a portal. (Continued in the comments)

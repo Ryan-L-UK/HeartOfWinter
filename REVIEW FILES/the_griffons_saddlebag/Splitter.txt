@@ -1,0 +1,12 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Splitter
+Weapon (halberd), very rare (requires attunement)
+___
+
+This halberd's haft is made of rough, dark wood and is miraculously easy to heft. The bladed end of the halberd looks like a hatchet that's been absorbed by the hewn wood. While holding the halberd with two hands, you can speak its command word as a bonus action to split the weapon into its more basic components. When you do, the halberd deconstructs in your hands, leaving you with a handaxe in one hand and quarterstaff in the other. Both the handaxe and quarterstaff have the light property. You can combine the two weapons to reform the halberd by speaking its command word again as a bonus action while you're holding both the handaxe and quarterstaff.
+
+You gain a +3 bonus to attack and damage rolls made with this magic weapon. If the weapon is split into the handaxe and quarterstaff, you gain a +1 bonus with each weapon instead.
+
+𝙃𝙖𝙡𝙗𝙚𝙧𝙙. If you're wielding the halberd and roll a 10 on the damage die for an attack against a creature, that creature's energy is sapped. The creature's speed is reduced by 10 feet until the end of its next turn, and your speed is increased by 10 feet until the end of your turn.
+
+𝙃𝙖𝙣𝙙𝙖𝙭𝙚 𝙖𝙣𝙙 𝙌𝙪𝙖𝙧𝙩𝙚𝙧𝙨𝙩𝙖𝙛𝙛. If you're wielding the handaxe and quarterstaff in either hand, you gain a +1 bonus to AC and can add your ability modifier to the damage of your offhand attacks. The quarterstaff deals necrotic damage, and its damage die is maximized if it hits a nonmagical plant or plant creature. If you make a ranged attack with the handaxe, it flies back to your hand immediately after the attack.

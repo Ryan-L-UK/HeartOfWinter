@@ -1,0 +1,10 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Fife of Dragonsong
+Weapon (blowgun), rare (requires attunement by a bard)
+___
+
+This magical fife can be played as an instrument or wielded as a deadly weapon. You are proficient with the "fife of dragonsong" as both an instrument and blowgun while you're attuned to it. You gain a +1 bonus to attack and damage rolls made with this magic weapon, and any target hit by it takes an extra 1d6 thunder damage from the attack.
+
+𝘿𝙧𝙖𝙜𝙤𝙣𝙨𝙤𝙣𝙜. As an action, you can expend one of your uses of Bardic Inspiration to play a powerful note that repels foes and empowers allies. The note is audible out to 100 feet. Hostile creatures within a 15-foot cone must make a DC 15 Constitution saving throw. On a failed save, a creature takes 2d6 thunder damage and is pushed 10 feet away from you. On a successful save, the creature takes half as much damage and is not pushed.
+
+An ally within the cone that can hear the note is bolstered by it instead. A friendly creature affected by the note has its speed increased by 10 feet until the end of its next turn and gains 2d6 temporary hit points that last for 10 minutes.

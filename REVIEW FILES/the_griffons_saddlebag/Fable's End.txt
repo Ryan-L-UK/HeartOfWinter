@@ -1,0 +1,8 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Fable's End
+Weapon (mace), very rare (requires attunement)
+___
+
+You gain a +1 bonus to attack and damage rolls you make with this magic weapon. Whenever you score a critical hit with Fable's End against a Large or smaller creature, it must succeed on a DC 13 Charisma saving throw or be banished to its native or other plane of existence. At the end of its next turn, the target reappears in the space it left or in the nearest unoccupied space if that space is occupied. You score a critical hit against Fey creatures on a roll of 19 or 20, and they have disadvantage on the saving throw against being banished. When a creature is banished in this way, the weapon's center emits a brief, magenta glow.
+
+___

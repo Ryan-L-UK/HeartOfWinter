@@ -1,0 +1,8 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Runic Ammunition
+Weapon (a bolt, arrow, or piece of sling ammunition), rare
+___
+
+Runic ammunition resembles normal bolts, arrows, or stones that are etched with runes and are magically discordant to spellcasters. Creatures concentrating on a spell when they're hit by a piece of runic ammunition make the resulting Constitution saving throw to maintain concentration with disadvantage.
+
+You have a +1 bonus to attack and damage rolls made with this piece of magic ammunition. Once it hits a target, the ammunition is no longer magical.

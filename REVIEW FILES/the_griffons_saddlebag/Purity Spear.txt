@@ -1,0 +1,14 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Purity Spear
+Weapon (spear), legendary (requires attunement by a good-aligned creature)
+___
+
+This beautiful spear has a long shaft carved of ivory, and the tip of the spear ends in the spiraling horn of a unicorn. You gain a +2 bonus to attack and damage rolls made with this magic weapon.
+
+While attuned to the spear, you are immune to the poisoned condition and have immunity to poison damage. In addition, you have advantage on Constitution and Wisdom saving throws against spells and other magical effects.
+
+The spear has 10 charges and regains 1d6+4 expended charges each day at dawn. You can expend 1 or more charges to cast the following spells from it using a spell DC of 17: "calm emotions" (2 charges), "detect evil and good" (1 charge), "dispel evil and good" (5 charges), "greater restoration" (5 charges), "misty step" (2 charge), and "purify food and drink" (1 charge). In addition, you can expend 1 charge to touch a creature with the spear as an action. That creature regains 2d8+2 hit points and is cured of any poison or disease afflicting it.
+
+𝘾𝙝𝙖𝙧𝙜𝙚. If you move at least 20 feet straight toward a target and hit it with the spear on the same turn, the target takes an extra 2d8 piercing damage.
+
+𝘾𝙪𝙧𝙨𝙚 𝙗𝙧𝙚𝙖𝙠𝙚𝙧. While attuned to the spear, you are immune to being cursed by spells and other abilities. For the purposes of this property, a curse refers to any spell or ability that has "curse" in its name or description. If you are already afflicted with a curse when you attune to the spear or are attuned to a cursed item, you suppress the effects of the curse for as long as you remain attuned to the spear. If you break your attunement with the spear, the curse is no longer suppressed.

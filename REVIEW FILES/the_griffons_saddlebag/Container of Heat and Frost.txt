@@ -1,0 +1,8 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Container of Heat and Frost 
+Wondrous item, common
+___
+
+This dense metal container is adorned with three arcane designs along the edge of its removable lid. When filled with up to one gallon of watery liquid, the vessel can either heat, chill, or maintain the liquid's temperature. As an action, you can press one of the arcane symbols to heat the liquid to a boil (212 degrees Fahrenheit), chill it (33 degrees Fahrenheit), or keep it at temperature for up to 24 hours.
+
+It takes one minute for the vessel to heat or cool a liquid down, and, once at temperature, maintains it. Liquids placed inside without activating the arcane designs will maintain its temperature for up to one hour before becoming tepid.

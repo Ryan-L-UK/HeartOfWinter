@@ -1,0 +1,15 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Hag's Claw Weapon (dagger), legendary (requires attunement)
+___
+
+The metal of this wicked knife is said to be folded with the hair of a hag, giving it a dark, wave-like pattern that sizzles with corrupting magic. Its handle, curved like the blade, is made from long finger bones that ever-so-slightly curl to hold your hand.
+
+You have a +2 bonus to attack and damage rolls made with this magic weapon. Once on each of your turns when you hit a creature with the dagger, it takes an extra 1d8 acid damage. If you had advantage on the attack roll, the target must also succeed on a DC 17 Constitution saving throw or take an additional 1d8 acid damage and be poisoned until the end of your next turn. While poisoned in this way, a creature makes Constitution saving throws with disadvantage. If you reduce a Small or larger hostile creature to 0 hit points with this weapon, you gain the benefits of the "greater invisibility" spell (no concentration required) until the end of your next turn.
+
+𝘾𝙪𝙧𝙨𝙚. This dagger is cursed, and becoming attuned to it extends the curse to you. As long as you remain cursed, you are unwilling to part with the dagger, keeping it within reach at all times. You also have disadvantage on attack rolls with weapons other than this one, unless no foe is within 60 feet of you that you can see or hear.
+
+Whenever you reduce a creature to 0 hit points using the dagger, there's a 10 percent chance that your appearance changes to more closely resemble the hag that was used to make the weapon. For example, your teeth show signs of decay, your laugh turns to a cackle, and your hair loses its color and grows stringy. Once this happens for a third time, you become possessed by the spirit of the hag: your alignment changes to neutral evil, and you regard your allies as manipulatable threats. You remain possessed by the hag until the curse ends.
+
+A single "remove curse" spell (or similar magic) fails to end the dagger's curse if your appearance has begun to change as a result of it. For each time your appearance has changed in this way, an additional use of "remove curse" or similar spell...
+
+...Last bit in the comment below!

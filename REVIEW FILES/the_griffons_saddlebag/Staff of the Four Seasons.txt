@@ -1,0 +1,17 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Staff of the Four Seasons
+Staff, very rare (requires attunement by a nature cleric, druid, oath of the ancients paladin, warlock, wizard, or sorcerer)
+___
+
+This magical staff changes with the seasons. You can spend ten minutes concentrating on the staff to change it to a different season. It remains in this new form for the next 8 hours before reverting to the current season again.
+
+This staff can be wielded as a magic quarterstaff that grants a +2 bonus to attack and damage rolls made with it. In addition, your melee attacks with the staff deal an extra 1d8 cold (Winter), radiant (Spring), fire (Summer), or necrotic (Autumn) damage based on the season as long as there is at least one charge remaining on the staff.
+
+This staff has 8 charges. While holding it, you can expend 1 or more of its charges to cast one of the following spells from it as an action (depending on the season) using your spell attack modifier spell save DC:
+
+𝙒𝙞𝙣𝙩𝙚𝙧. Ray of sickness (1 charge), darkvision (2 charges), sleet storm (3 charges) 
+𝙎𝙥𝙧𝙞𝙣𝙜. Guiding bolt (1 charge), moonbeam (2 charges), plant growth (3 charges) 
+𝙎𝙪𝙢𝙢𝙚𝙧. Burning hands (1 charge), spike growth (2 charges), fireball (3 charges) 
+𝘼𝙪𝙩𝙪𝙢𝙣. Inflict wounds (1 charge), pass without trace (2 charges), vampiric touch (3 charges)
+
+The staff regains 1d6 +2 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff loses all foliage and vitality, becoming a gnarled, nonmagical quarterstaff.

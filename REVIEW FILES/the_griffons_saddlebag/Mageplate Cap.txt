@@ -1,0 +1,6 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Mageplate Cap
+Wondrous item, rare (requires attunement by a wizard or sorcerer)
+___
+
+This pointed hat is fitted with chain and metal that have been enchanted with empowering abjuration magic. The cap has 4 charges and regains 1d4 expended charges each day at dawn. While wearing the cap, you can expend a charge to cast the "shield" spell. In addition, whenever you are the target of the "mage armor" spell, your base AC becomes 14 + your Dexterity modifier instead of the spell's normal change to your AC.

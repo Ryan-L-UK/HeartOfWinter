@@ -1,0 +1,6 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Silver Eagle Weapons
+Weapon (greataxe, greatsword, lance, or maul), uncommon
+___
+
+You gain a +1 bonus to attack and damage rolls made with these silvered, magic weapons of elven make. These weapons deal 2d6 damage instead of their normal damage dice, and landing a critical hit with the weapon doesn't double the weapon's damage dice. Whenever you land an attack with the weapon and roll the same number on both of the weapon's damage dice, you can immediately roll another d6 and add it to the weapon's damage dice. You can continue rolling extra damage dice until you roll a number that does not match the previous rolls.

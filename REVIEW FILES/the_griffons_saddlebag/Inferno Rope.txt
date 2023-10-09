@@ -1,0 +1,8 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Inferno Rope
+Wondrous item, uncommon
+___
+
+This 10-foot long rope smells of sulfur and crackles with embers when moved. As an action, you can lay the rope down in a line on solid ground and set it ablaze using its command word. When you do, the rope becomes a 15-foot tall wall of vertical fire along its length. The flames are visible, but not opaque, and are 1 inch thick. Creatures within 5 feet of the flames when first ignited must succeed on a DC 14 Dexterity saving throw or take 2d4 fire damage. A creature setting the rope ablaze automatically succeed on the saving throw. The flames last for 1 minute and cast bright light in a 15-foot radius and dim light for another 15 feet. A creature must succeed on a DC 14 Dexterity saving throw when it crosses the line of fire for the first time on its turn or ends its turn there or take 2d4 fire damage.
+
+The rope rematerializes at the base of the flames after 1 minute. Once the rope has been lit, it can't be used again in this way until the next dawn. The rope can only be cut by magical means and becomes a nonmagical length of rope when cut in this way.

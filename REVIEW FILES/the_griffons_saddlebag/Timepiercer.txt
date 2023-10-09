@@ -1,0 +1,8 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Timepiercer
+Weapon (rapier), very rare (requires attunement)
+___
+
+This item appears to be a sword hilt that has a small hole on either end of it. The hilt is made of clear quartz and contains an hourglass with sand inside it. Despite the holes on the hilt, the sand never seems to flow out of the hourglass. You can speak the hilt's command word as a bonus action to cause it to form a thin blade made of sand at its end. The hourglass spills sand from the bottom of the hilt that circulates up and around to form the guard and blade of the rapier before it returns to the hourglass again through the hole at the top of the hilt. You can speak the hilt's command word again to cause all the sand to return to the hourglass. While the blade is formed, you gain a +2 bonus to attack and damage rolls made with this magic weapon.
+
+While holding the hilt, you can use it to cast the "haste" or "slow" spell (save DC 16). You have advantage on Constitution saving throws you make in order to maintain concentration on a spell cast in this way. Once a spell has been cast using the hilt, it can't be used to cast that spell again until the following dawn. The sands in the hourglass move quickly while you concentrate on a "haste" spell cast in this way, or more slowly when you concentrate on a "slow" spell.

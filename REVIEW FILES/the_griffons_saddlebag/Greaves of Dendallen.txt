@@ -1,0 +1,10 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Greaves of Dendallen
+Wondrous item, rare (requires attunement)
+___
+
+While wearing these skeletal greaves, your walking speed increases by 5 feet and you gain a climbing speed equal to your walking speed. In addition, while wearing the greaves, you can stand on and move across any liquid surface as if it were solid ground.
+
+𝘾𝙪𝙧𝙨𝙚. When you don the "greaves of Dendallen" and begin to attune to them, you feel your legs begin to ache. Make a DC 17 Constitution saving throw. On a success, you're able to safely remove the greaves before you attune to the item, but are aware of the curse's effects. On a failure, once you attune to the item, you take 6d8 necrotic damage as the bones in your legs fracture. This damage ignores resistance and immunity. Your legs remain broken but do not impair your movement so long as you wear the greaves.  Once you are attuned to the item, you can't remove the greaves until targeted by the "remove curse" spell or similar magic.
+
+Once you are no longer attuned to this item, your walking speed becomes 0. While your speed is less than your normal walking speed, at the end of a long rest, you regain 10 feet of your normal walking speed. The "regenerate" spell can restore your walking speed to normal.

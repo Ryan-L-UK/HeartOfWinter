@@ -1,0 +1,8 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Mockingblade
+Weapon (shortsword), uncommon (requires attunement by a bard)
+___
+
+This magic sword helps you more effectively add insult to injury. When you hit a creature with this sword, you can immediately use the weapon to cast the "vicious mockery" cantrip as a bonus action against that same creature using your spell save DC. When you do, any words you use to insult the creature appear written along the blade for 1 minute or until replaced by a new insult.
+
+When a creature rolls a 20 on its saving throw to resist the "vicious mockery" cantrip when cast in this way, the face on the sword's hilt screams insults at you instead. The screams are audible out to 30 feet and are filled with insults directed at your deepest insecurities and regrets. Any creature that hears these insults is made aware of your weaknesses, granting it advantage on the next attack roll it makes against you until the start of your next turn. Once the sword screams at you in this way, it can't be used to cast the "vicious mockery" cantrip again until 1d4 days have passed.

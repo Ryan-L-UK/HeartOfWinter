@@ -1,0 +1,6 @@
+🧪 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Potion of Spell Recovery
+Potion, rare
+___
+
+You regain 1d3 + 3 expended spell slot levels. You can recover a total number of combined spell slot levels equal to or less than the number you roll when you drink this potion. None of the slots can be 6th level or higher.

@@ -1,0 +1,8 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Omenbringer's Mantle
+Wondrous item, very rare (requires attunement)
+___
+
+This raven-feathered mantle is almost iridescent. While wearing this mantle, you have resistance to necrotic damage and descend 60 feet per round when you fall, taking no damage from falling.
+
+In addition, while wearing the mantle, you can use it to cast the "find familiar" spell as an action instead of its normal casting time. When you do, the familiar takes the form of a raven. If the familiar falls to 0 hit points, it can’t be summoned again until the following dusk. Otherwise, the familiar remains so long as you are attuned to the mantle.

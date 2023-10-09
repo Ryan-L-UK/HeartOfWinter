@@ -1,0 +1,10 @@
+⚔ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Planar Rapier
+Weapon (rapier), very rare (requires attunement)
+___
+
+You gain a +2 bonus to attack and damage rolls made with this magic weapon. This thin blade seems to toe the line between planes of existence, occasionally allowing it to bend them to extend beyond its normal reach. The rapier has 5 charges and regains 1d4+1 expended charges each day at dawn.
+
+You can extend the range of a melee attack you make with the rapier to ten feet when you expend one of its charges. You can extend the rapier either before or after you make the attack. If you expend the charge after hitting with a melee attack with the rapier against a creature within 5 feet of you, you can pierce through the target to immediately make an additional melee attack against another creature 5 feet behind the original target provided that it's still within 10 feet of you. The second creature does not benefit from using the original as cover when you make this attack. Whenever you expend a charge, the planes around the blade suddenly begin to tear, dealing an additional 2d8 force damage to each target you hit with the rapier while it's extended.
+
+After the attack, the blade returns to its normal size.

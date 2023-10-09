@@ -1,0 +1,8 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Frozen Dagger 
+Weapon (dagger), uncommon (requires attunement)
+___
+
+Attacks made with this dagger deal cold damage instead of piercing. If you score a critical hit with this weapon, the target must succeed on a Constitution saving throw (save DC 12) or be paralyzed until the end of its next turn, frozen in place and unable to move. If it succeeds, its movement speed is halved instead.
+
+___

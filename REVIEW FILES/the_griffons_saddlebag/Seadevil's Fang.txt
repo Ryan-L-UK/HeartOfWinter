@@ -1,0 +1,7 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Seadevil's Fang Weapon (greatsword), rare
+___
+
+This watery blue blade feels like a rumbling tide while held. You gain a +1 bonus to attack and damage rolls made with this magic weapon. While holding it, you can use a bonus action to cause its blade to become inky and black until the start of your next turn. For the duration, creatures hit by the blade are marked with the black ink for 1 minute.
+
+If a creature becomes invisible while marked or is already invisible, it instead becomes pitch dark and is outlined by a mystical purple aura for the duration of the invisibility. That creature gains no benefit from being invisible, and magical, inky tentacles reach up from the ground to grapple it for 1 minute (escape DC 15). Once a creature has been grappled in this way, it can't be grappled by the tentacles again for 24 hours.

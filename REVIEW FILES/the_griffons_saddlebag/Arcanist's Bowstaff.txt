@@ -1,0 +1,12 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Arcanist's Bowstaff
+Weapon (quarterstaff), very rare (requires attunement by a creature with an Intelligence of 17 or higher)
+___
+
+When you attune to the quarterstaff, it remains solid in your grip but feels pliable within your mind. When you attack with the weapon, you can choose to use your Intelligence modifier for the attack and damage rolls made with it. You must use the same modifier for both rolls.
+
+Whenever you take the Attack action, you can choose to make your attacks at range. When you do, you can use your mind to telekinetically curve the quarterstaff into the form of a longbow. The bow is magically strung with an arcane energy that arcs between the rings on either end of the weapon. A glowing, magical arrow is drawn into existence whenever the arcing energy is pulled back. The arrow disappears after it hits or misses its target. When you make a ranged attack with the quarterstaff in this way, the weapon is treated as a magical longbow. This longbow can only use the ammunition that it generates and does not have the heavy property. While you're attuned to the arcanist's bowstaff, you're proficient with this longbow when using it in this way.
+
+You gain a +2 bonus to attack and damage rolls made with this magic weapon.
+
+In addition, the quarterstaff has 8 charges and regains 1d6+2 charges each day at dawn. Whenever you take the attack action, you can expend 1 charge to immediately cast "magic missile" at first level as a bonus action. When you do, the missiles fly from the drawn bow or sculpted faces adorning the weapon.

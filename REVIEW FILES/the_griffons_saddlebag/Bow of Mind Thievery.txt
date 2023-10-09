@@ -1,0 +1,6 @@
+⚔️ New item!
+Bow of Mind Thievery
+Weapon (shortbow), rare (requires attunement)
+___
+
+Your ranged weapon attacks made with this bow deal an additional 1d4 psychic damage to creatures you hit with it. Once per day, you can designate a humanoid struck with an arrow fired from this weapon to make a DC 15 Wisdom saving throw (after dealing the arrow's damage). On a failed save, the target falls under the effects of the Dominate Person spell for up to one minute. In addition to sharing a telepathic link with the creature, you can choose to look through its eyes and hear through its ears instead of your own: blinding and deafening you while you do.

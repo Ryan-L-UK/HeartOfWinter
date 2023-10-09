@@ -1,0 +1,10 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Polaris Magistrate Gavel
+Weapon (light hammer), rare (requires attunement by a lawful creature)
+___
+
+This wooden gavel is from Polaris, a floating city suspended by astral magic. You gain a +2 bonus to attack and damage rolls made with this magic weapon, which you are proficient with while you're attuned to it.
+
+The gavel has 3 charges and regains all expended charges daily at dawn. As an action while holding the gavel, you can expend 1 of its charges to cast the "command" spell from it, or 2 charges to cast the "zone of truth" spell, using a spell save DC of 15. Alternatively, you can expend 2 charges to cast the "command" spell from the gavel at 2nd level.
+
+Creatures you hit with this weapon have disadvantage on saving throws against spells you cast from the gavel until the end of your next turn.

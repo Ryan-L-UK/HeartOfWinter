@@ -1,0 +1,8 @@
+💍 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Enchantment Breaker
+Ring, rare
+___
+
+This ring's tiny chains rotate slowly around your finger when worn. Whenever you are affected by a spell that restores hit points such as *cure wounds* or *healing word,* you can use your reaction to reattempt the saving throw against an enchantment spell that is already affecting you.
+
+𝙎𝙝𝙖𝙩𝙩𝙚𝙧 𝙀𝙣𝙘𝙝𝙖𝙣𝙩𝙢𝙚𝙣𝙩. When you are targeted by an enemy enchantment spell or fail a saving throw against one, you can use your reaction to weaken the arcane chains of the enchantment on you and other allies within 10 feet: causing you and nearby allies to roll the enchantment's saving throw with advantage. Once you activate this feature it cannot be used again for 1d4 days. While this ability is inactive, the chain links hang limply around the ring.

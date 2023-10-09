@@ -1,0 +1,8 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Ceratopper
+Wondrous item, very rare (requires attunement)
+___
+
+This adamantine helm is fashioned in the likeness of a triceratops and decorated with painted designs. You have a +1 bonus to AC while you wear this helmet. In addition, if you move at least 20 feet towards a target and then attack them with a melee weapon attack on the same turn, you can choose to make a special attack using the helmet instead of the weapon. The helmet deals 3d4 piercing damage and uses Strength for its attack and damage rolls, and you are proficient with it. If you hit and the target is no more than one size larger than you, it must also succeed on a DC 13 Strength saving throw or be knocked prone.
+
+In addition, while wearing the helmet, you can use it to cast the "polymorph" spell on yourself as an action to transform into a triceratops. This property of the helmet can't be used again until 2 days have passed.

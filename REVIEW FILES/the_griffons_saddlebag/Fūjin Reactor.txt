@@ -1,0 +1,14 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Fūjin Reactor Rod, legendary (requires attunement by a spellcaster)
+
+A glass orb rests at the top of this mechanical scepter, which can be used as a spellcasting focus. At its center is the essence of a powerful wind spirit that's been known by a myriad of names over the course of centuries. Fans hum within the rod, releasing a constant breeze from either of its ends. While holding the rod, you have a flying speed of 30 feet and can hover.
+
+Magic causes the spirit within the rod to stir. Whenever you use an action to cast a spell of 1st level or higher while holding the rod, you can choose to activate one of the following effects from it, using your spell attack bonus and spell save DC; the spell must be cast using a spell slot of a level no lower than the one listed in each option. Once you activate an effect, it can't be activated again until the next dawn. If you stow or drop the rod during the duration of an effect, it immediately ends.
+
+𝘼𝙧𝙘𝙖𝙣𝙚 𝙁𝙪𝙨𝙞𝙤𝙣 1: 𝙎𝙩𝙚𝙥 𝙤𝙛 𝙂𝙖𝙤𝙝 (1𝙨𝙩 𝙡𝙚𝙫𝙚𝙡 𝙤𝙧 𝙝𝙞𝙜𝙝𝙚𝙧). You can immediately use a bonus action to move up to 10 feet for each slot level used to cast the initial spell, without provoking opportunity attacks. At the end of this movement, the rod releases a blast of wind that extends from you in a 10-foot radius: each creature of your choice within that area is pushed up to 10 feet away from you.
+
+𝘼𝙧𝙘𝙖𝙣𝙚 𝙁𝙪𝙨𝙞𝙤𝙣 2: 𝙁𝙞𝙨𝙩 𝙤𝙛 𝘼𝙢𝙪𝙣 (3𝙧𝙙 𝙡𝙚𝙫𝙚𝙡 𝙤𝙧 𝙝𝙞𝙜𝙝𝙚𝙧). Before the end of your turn, you can use a bonus action to make a single melee spell attack, using the hand holding the rod. When you do, a giant fist of compressed wind surrounds your hand. On a hit, the target takes 1d10 bludgeoning damage for each slot level used to cast the initial spell. It is also pushed a number of feet away from you equal to 10 times the spell slot's level.
+
+𝘼𝙧𝙘𝙖𝙣𝙚 𝙁𝙪𝙨𝙞𝙤𝙣 3: 𝙅𝙖𝙫𝙚𝙡𝙞𝙣𝙨 𝙤𝙛 𝙉𝙟𝙤𝙧𝙙 (5𝙩𝙝 𝙡𝙚𝙫𝙚𝙡 𝙤𝙧 𝙝𝙞𝙜𝙝𝙚𝙧). You can immediately use a bonus action to summon a number of javelins in the air above you, which float as if by an unseen wind. The javelins are made of magical force....
+
+Continued in the comment below!

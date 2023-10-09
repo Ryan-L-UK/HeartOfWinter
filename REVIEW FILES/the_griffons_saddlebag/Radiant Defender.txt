@@ -1,0 +1,6 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Radiant Defender
+Weapon (maul), rare (requires attunement)
+___
+
+This maul has a narrow shield covering its handle that can be rotated to protect the wielder's grip. You gain a +1 bonus to attack and damage rolls made with this magic weapon. While wielding this guarded maul, taking the Dodge action also gives you a +2 bonus to your AC until the start of your next turn. In addition, when you take the Dodge action and a creature misses you with a melee attack, you can use your reaction to make a melee weapon attack with the maul against that creature. If you hit, the attack deals an extra 1d8 radiant damage. Once you use your reaction to make an attack in this way, you lose the +2 bonus to your AC.

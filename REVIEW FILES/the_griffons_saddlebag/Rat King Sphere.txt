@@ -1,0 +1,17 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Rat King Sphere Wondrous item, uncommon (requires attunement)
+___
+
+This hollow metal sphere is covered with illustrations of rats, one of which is gilded and wears a small crown. The sphere is 6 inches in diameter and weighs 3 pounds. Holes of various sizes dot its surface, allowing you to peer inside. The sphere is completely empty while a creature isn't attuned to it.
+
+While you're attuned to the sphere and it's on your person, ordinary rats, giant rats, and swarms of rats are indifferent toward you and will not attack you unless you threaten or harm them.
+
+The sphere contains a special demiplane made for rats. If a creature is attuned to the sphere at dawn, or the first time a creature attunes to the sphere each day, it magically summons a swarm of rats to the demiplane within. The rats can peer through the demiplane and see outside of the sphere through its various holes.
+
+You can use an action while holding the sphere to speak one of its three command words as described below. To do so, the sphere must have a swarm of rats inside it.
+
+𝙎𝙪𝙢𝙢𝙤𝙣 𝙂𝙞𝙖𝙣𝙩 𝙍𝙖𝙩. When you speak the first command word, the swarm of rats coalesces into a giant rat, which magically appears in an unoccupied space that you can see within 10 feet of you. This giant rat has 24 hit points and is friendly to you and your companions. It shares your initiative but takes its turn immediately after yours. On your turn, you can mentally command the rat (no action required) if it is within 60 feet of you and you aren't incapacitated. You decide what action the rat takes and where it moves during its next turn, or you can issue it a general command, such as to attack your enemies or guard a location. By using a bonus action to speak the command word again, you return the rat to the sphere's demiplane, at which point it becomes a swarm again. It then regains all its hit points. If the rat is reduced to 0 hit points, it and the swarm that created it disappear.
+
+𝙎𝙬𝙖𝙧𝙢 𝙏𝙚𝙩𝙝𝙚𝙧. When you speak the second command word, you also throw the sphere at a creature you can see within 30 feet of you.
+...
+Continued in the comment below!

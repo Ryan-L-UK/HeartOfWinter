@@ -1,0 +1,7 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+King Crab Claymore Weapon (greatsword), rare (requires attunement)
+___
+
+You have a +1 bonus to attack and damage rolls made with this magic weapon. While you're attuned to the weapon, crabs and giant crabs are indifferent toward you and will not attack you unless you threaten or harm them. In addition, crabs and giant crabs understand the meaning of your words, though you have no special ability to understand them in return. You have advantage on ability checks you make to influence or interact with crabs.
+
+The sword emits a brief, fiery glow when you roll initiative. Until the end of your first turn of combat, attacks with the sword score a critical hit on a roll of 18, 19, or 20. The first time on each of your turns when you score a critical hit with the sword, the target of the attack is also assaulted with crab-like claws made of fire. That target must make a DC 15 Dexterity saving throw, taking 2d6 fire damage on a failed save, or half as much damage on a successful one. On a failed saving throw, the target is magically grappled (escape DC 15) by the flaming pincers for 1 minute or until it successfully escapes using an action. Until the grapple ends, that target takes 1d6 fire damage at the end of each of its turns.

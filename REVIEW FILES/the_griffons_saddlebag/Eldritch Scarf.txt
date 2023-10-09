@@ -1,0 +1,14 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Eldritch Scarf
+Wondrous item, rare
+___
+
+This dark, silky scarf moves slightly on its own in a breeze that no one can feel and absorb more light than it reflects. It is always wrinkled. The scarf has an extradimensional space within the folds of its fabric that can only be reached while it's worn. The space holds 60 pounds of material, not exceeding a volume of 6 cubic feet. The scarf always weighs 1 pound, regardless of its contents. Placing an object in the scarf follows the normal rules for interacting with objects. When placing an item in the extradimensional space, your hand appears to simply place it inside one of scarf's loose folds.
+
+Despite being able to place items in the scarf, reaching back into it fails to return them to your grasp. The frayed ends of the scarf are actually wisp-like hands that slowly twist and curl on their own. While wearing the scarf, you can mentally command the hands as a bonus action to reach into the extradimensional space and retrieve a stored item. If the scarf is destroyed, its contents are lost forever. Ironing or otherwise flattening the scarf causes the items stored inside to be squeezed out, spilling forth unharmed from the ends of the scarf.
+
+You can also command the hands as an action to manipulate a simple object, such as open an unlocked door, stow or retrieve an item from an open container, or pour the contents out of a vial. The hands have a reach of 5 feet. The hands can't attack, activate magic items, or carry more than 10 pounds. The hands hold onto any item retrieved from the scarf weighing no more than 10 pounds until taken from them (no action required). If the retrieved item weighs more than 10 pounds, the hands pull it from the scarf and drop it on the ground at your feet.
+
+A living creature can't be placed inside the scarf.
+
+Placing the scarf inside an extradimensional space created by a "bag of holding", "portable hole", or similar item instantly destroys both items and opens a gate to the Astral Plane. The gate originates where the one item was placed inside the other. Any creature within 10 feet of the gate is sucked through it and deposited in a random location on the Astral Plane.

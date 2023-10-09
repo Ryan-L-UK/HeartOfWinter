@@ -1,0 +1,10 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Wisplight Lantern
+Wondrous item, rare
+___
+
+This dark hooded lantern glows with a magical blue flame and can reveal the demise of a creature no longer among the living. The lantern sheds bright, bluish light in a 20-foot radius and dim light for an additional 20 feet. You can use an action to reduce the light's reach or cover it completely.
+
+The lantern has 4 charges and regains 1d3+1 expended charges each day at dusk. As an action, you can expend a charge by touching it to a Large or smaller corpse within 5 feet of you. When you do, a ghostly blue illusion of the fallen creature appears above its corpse to silently reenact the last 6 seconds of its life. The illusion only shows the creature's actions and reactions, such as reacting to an unseen monster or trying to extinguish the flames of a fiery trap, but does not show the monster or effect causing the actions or reactions. This ability has no effect on undead creatures. Once a corpse's death has been revealed in this way, it cannot be shown again.
+
+Alternatively, you can expend a charge as an action while holding the lantern aloft and speaking its command word. If there are any undead creatures within 60 feet of you that are not behind total cover, the lantern's light flashes a foreboding red color before returning to its normal blue glow.

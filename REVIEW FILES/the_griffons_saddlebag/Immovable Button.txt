@@ -1,0 +1,10 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Immovable Button
+Wondrous item, common
+___
+
+Pressing this iron shirt button against a piece of fabric and commanding "Hold!" using a bonus action causes the button to magically attach itself to the cloth, magically fixing itself in place even if it is defying gravity. The button must be attached to a piece of fabric that is either unworn or worn by a willing creature. It can hold up to 500 pounds of weight and magically prevents the cloth from tearing due to tension. More weight causes the button to deactivate and fall.
+
+A creature can use an action to make a DC 20 Strength check, moving the fixed button up to 10 feet on a success. A creature can make an Intelligence (investigation) check (DC 14) to determine that this button is magical, and if already activated, knows that the fabric around the button can be cut away. The button remains fixed in place for one minute before falling. Once it has been used in this way, it becomes a regular, non-magical button.
+
+___

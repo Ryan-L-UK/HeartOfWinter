@@ -1,0 +1,12 @@
+💍 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Band of Mirrored Essence
+Ring, rare (requires attunement)
+___
+
+This unassuming ring is polished to a mirror finish. When you reduce a hostile Small or larger creature to 0 hit points while wearing this ring, you can use your reaction to absorb a portion of its essence. Looking into the ring shows the reflection of the creature whose essence is held inside. As an action, you can expend the captured essence to either take on its appearance or assume one of its features.
+
+If you take on the appearance of the creature, it must be a creature up to one size larger or smaller than you. You do not physically change in size or shape, but your body is shrouded in a convincing illusion. Another creature can see through the illusion by succeeding on a DC 16 Intelligence (investigation) check. Physical interaction with the illusory mantle you assume reveals it to be an illusion, because things can pass through it. While disguised in this way, your voice changes to reflect the sounds or voice the original creature would make, and can understand any of the creature's known languages, but cannot speak ones that you don't already know. The illusion lasts for up to eight hours or until you dismiss it as a bonus action or fall unconscious.
+
+If you take on a feature of the creature, your body or mind physically change to accommodate the new ability. You can choose to appropriate either a known skill or saving throw proficiency, damage resistance, condition immunity, sense, or language. Additionally, if the creature could breathe underwater, you can choose to assume that feature instead. Your mind and body revert to their original form after eight hours or until you dismiss it as a bonus action or fall unconscious.
+
+Once you capture an essence in this way, you cannot do so again until you finish a short or long rest. You can only have one essence at a time. If you attempt to store a new essence in the ring while one is already stored, you replace the original essence.

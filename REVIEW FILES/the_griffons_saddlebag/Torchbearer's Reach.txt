@@ -1,0 +1,10 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Torchbearer's Reach
+Weapon (whip), uncommon
+___
+
+This weapon has the Light property and does fire damage instead of slashing. When held, a magical flame forms at the top of the whip's handle. The flame gives off bright light in a 20-foot radius and dim light for another 20 feet. You can stretch the flame to form a 10-foot long coil of fire (no action required) by snapping the handle and flame down as if to crack the whip. The flame does not harm you while you are wielding the whip, allowing you to snuff out the fire with your hand in order to extinguish the whip.
+
+While the fire is magical, it cannot remain lit when submerged in water. The fire is not a physical form and cannot be used to bind a creature or retrieve objects from afar, but can be used to light other fires.
+
+___

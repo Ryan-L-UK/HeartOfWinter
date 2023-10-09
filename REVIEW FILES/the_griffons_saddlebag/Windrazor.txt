@@ -1,0 +1,10 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Windrazor
+Weapon (longsword), legendary (requires attunement)
+___
+
+You gain a +2 bonus to attack and damage rolls made with this magic weapon. This weapon has the finesse property. The sword has 10 charges and regains 1d6+4 expended charges daily at dawn. While holding the blade, you can expend one of its charges to cast *heroism,* or three charges to cast *wind wall* (save DC 18). Your spellcasting modifier is +5 when casting *heroism* with this weapon.
+
+𝘼𝙞𝙧 𝙧𝙚𝙣𝙙. This weapon can manipulate the air around it to generate blades of wind, delivering devastating slashing attacks from range. When you take the Attack action, you can expend a charge to make a special ranged weapon attack with this weapon on a target up to 30 feet away. If you have the Extra Attack feature, you can expend one or more charges to use this special attack for any of the attacks you make as part of the Attack action.
+
+𝙎𝙪𝙙𝙙𝙚𝙣 𝙨𝙩𝙤𝙧𝙢. When you hold the sword and take damage from a creature that is within 5 feet of you, you can use your reaction to expend a charge and make one melee attack with the sword against that creature. Additionally, if a creature hits you with a ranged weapon attack, you can use your reaction to expend a charge and slash at the projectile, reducing the damage you take by 1d10 + your Dexterity or Strength modifier. If you reduce the damage to 0, you destroy the projectile.

@@ -1,0 +1,7 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Gorgon War Pick Weapon (war pick), rare (requires attunement)
+___
+
+This war pick is made from the metal armor of a gorgon and designed in its visage. You gain a +2 bonus to attack and damage rolls made with this magic weapon. If you move at least 20 feet straight toward a target and then hit it with this weapon on the same turn, that target takes an extra 1d8 piercing damage from the attack.
+
+When you roll a 20 on an attack roll against a creature with this weapon, the war pick's metal emits a small plume of weakened gorgon breath. When it does, the target's body begins to stiffen, and it takes a cumulative –10 foot penalty to its speed until it finishes a short or long rest, or until it's targeted by the lesser restoration spell or similar magic. This penalty can't reduce a creature's speed lower than 5 feet.

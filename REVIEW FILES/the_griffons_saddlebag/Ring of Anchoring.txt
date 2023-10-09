@@ -1,0 +1,8 @@
+💍 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Ring of Anchoring
+Ring, rare (requires attunement)
+___
+
+While attuned to this ring, you can breathe normally while underwater.
+
+𝗖𝘂𝗿𝘀𝗲𝗱. When you attune to this hammered lead ring, the arm that is wearing it becomes unbearably heavy once you are submerged in water. Make a DC 20 Strength (athletics) check. On a failure, your arm is pulled to the ground, holding you in place. You can reattempt to move your arm after one minute. On a success, you can move your arm, albeit sluggishly, for one hour. While you can move your arm, your speed is reduced to 10 feet (unless it is already lower), attack rolls made with the arm are made with disadvantage, and you make any Strength or Dexterity checks with disadvantage as well. You cannot remove this ring once you are cursed by it, and you remain cursed until you are targeted by the remove curse spell or similar magic. You can remove the ring and the curse without magic by physically removing the finger that is wearing it. If you are pulled down by the curse while in water, you are dragged down at a rate of 30 feet per turn. Once you have escaped the water, your arm's weight returns to normal.

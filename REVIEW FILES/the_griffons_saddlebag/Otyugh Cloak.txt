@@ -1,0 +1,10 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Otyugh Cloak
+Wondrous item, rare (requires attunement)
+___
+
+This gruesome, leathery pelt of a slain otyugh is enchanted to retain some of its natural abilities. A single tendril bearing three eyes hangs from the back of the cloak's hood. While attuned to the cloak, you can use an action to telepathically communicate with a creature you can see within 60 feet of you that can understand a language, sending either simple messages or images when you do. The receiving creature cannot respond to these messages.
+
+The tendril hanging from the hood is 2 feet long and offers some limited articulation. While wearing the cloak, you can use an action to mentally control the tendril enough to manipulate a simple object, such as open an unlocked door, stow or retrieve an item from an open container, or pour the contents out of a vial. The tendril can't attack, activate magic items, or carry more than 10 pounds.
+
+In addition, you can pull up the cloak's hood using an action. While the hood is lifted, you can close your eyes to see through the fallen otyugh's eyes on the tendril that hangs from the hood of the cloak. You can control the sickly tendril's position and gaze while looking through the eyes in this way. When you do, you have darkvision out to a range of 60 feet. If you already have darkvision, the hood increases its range by 60 feet. You return to your normal senses when you reopen your eyes or you lower the hood. You can lower the hood on your turn using an action.

@@ -1,0 +1,10 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Weapon of Verdict
+Weapon (any melee weapon), uncommon (requires attunement by a good-aligned creature)
+___
+
+These polished wooden weapons are traditionally used by the clerics and paladins of a righteous order to punish evildoers and aid the needy. Each of these magic weapon is blessed by a powerful priest or celestial. It has 3 charges and regains 1d3 charges daily at dawn. You can use these charges to create the following effects:
+
+𝘾𝙤𝙣𝙙𝙚𝙢𝙣. When you hit a creature with this weapon, you can expend 1 charge to deal an extra 1d8 fire damage to the target.
+
+𝘾𝙤𝙢𝙢𝙚𝙣𝙙. As an action, you can expend 1 charge to touch a creature other than yourself with this weapon to restore 1d8 + 2 hit points to that creature.

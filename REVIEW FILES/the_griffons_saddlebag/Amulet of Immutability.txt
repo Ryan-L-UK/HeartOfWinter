@@ -1,0 +1,8 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Amulet of Immutability
+Wondrous item, rare (requires attunement)
+___
+
+This adamantine amulet protects you from magic that would threaten to alter your form against your will. While wearing the amulet, you have advantage on saving throws against transmutation spells of 5th level or lower that would transform or control you, such as "enlarge/reduce", "levitate", or "slow".
+
+In addition, when you are targeted by the "polymorph" spell, you can choose to automatically succeed on the saving throw.

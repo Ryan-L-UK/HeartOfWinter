@@ -1,0 +1,8 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Mourningsteel Saber
+Weapon (rapier), rare (requires attunement)
+___
+
+This once-rusted cavalry saber was reforged with mourningsteel scavenged from the same battlefield where it was separated from its long-dead owner. Attacks with this weapon deal slashing damage instead of piercing damage, and when you hit with it, the target takes an extra 1d6 necrotic damage. If you're mounted, the extra necrotic damage increases to 1d8.
+
+In addition, you can use a bonus action while holding the weapon to inspire your allies into a rallying charge. Choose up to six creatures that can see and hear you. Until the start of your next turn, those creatures' speeds increase by 10 feet, and the first target that each of them hit before the start of your turn takes an extra 1d6 necrotic damage. If a chosen creature is frightened, the effects of that condition are suppressed until the start of your next turn. Once this property of the weapon has been used, it can't be used again until the next dusk.

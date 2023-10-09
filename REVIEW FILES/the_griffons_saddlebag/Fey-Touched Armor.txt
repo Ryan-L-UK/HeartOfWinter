@@ -1,0 +1,7 @@
+🛡 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Fey-Touched Armor Armor (light, medium, or heavy), uncommon
+___
+
+While wearing the armor, you are immune to the "faerie fire" spell, and other creatures have disadvantage on any check made to discern a disguise you're wearing, such as by a mundane disguise or the "disguise self" spell.
+
+If you are a fey or have the Fey Ancestry trait, you can use an action to cast the "disguise self" spell from the armor while wearing it (save DC 13). The spell ends early if the armor is removed. Once this property of the armor has been used, it can't be used again until the next dawn.

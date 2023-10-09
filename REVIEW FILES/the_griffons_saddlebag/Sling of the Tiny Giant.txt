@@ -1,0 +1,6 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Sling of the Tiny Giant
+Weapon (sling), rare
+___
+
+This wicked sling is devastating against foes larger than yourself. You gain a +1 bonus to attack and damage rolls made with this magic weapon, and when you hit a creature with a ranged weapon attack using this sling, the creature takes an extra 1d4 force damage for each size larger than you it is (up to 3d4 extra damage). In addition, when you roll a 20 on an attack roll made with this weapon, the target must succeed on a DC 15 Strength saving throw or be pushed up to 10 feet away from you and knocked prone. If the affected creature is Large or bigger, it has disadvantage on the saving throw.

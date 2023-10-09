@@ -1,0 +1,8 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Bounty Hunter Enforcer
+Weapon (quarterstaff), uncommon
+___
+
+This quarterstaff has a hollow metal head filled with a mechanically spring-loaded net. When you hit with a melee attack using the weapon, you can press a button on the staff's handle to release the mechanism holding the net, restraining the creature if is Large or smaller. The withheld net follows the net's normal rules, but cannot be detached from the quarterstaff without cutting it off and destroying the net. You can replace the net with another one by spending one minute reattaching it to the staff's mechanism. Once the net has been released, you can retract and reset it, potentially releasing a creature caught inside, using a bonus action. Your attacks with the weapon are made with disadvantage while the net is released, and you can't attack with the quarterstaff while it holds a creature in its net.
+
+This staff also has the thrown property (20/60). When you make a ranged weapon attack using the quarterstaff, you can use a bonus action to prime the net's mechanism to trigger upon impact.

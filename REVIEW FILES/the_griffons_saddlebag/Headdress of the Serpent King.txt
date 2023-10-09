@@ -1,0 +1,10 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Headdress of the Serpent King
+Wondrous item, uncommon (requires attunement)
+___
+
+This gold and emerald green headdress channels old and twisting serpentine magic to your bidding. If you take poison damage while wearing this headdress, that damage is reduced by your Constitution modifier.
+
+While wearing the headdress, ordinary snakes and snakes with a challenge rating of 1/4 or lower are indifferent toward you and will not attack you unless you threaten or harm them. In addition, you can use an action to cast the "animal messenger" spell from it, but can only target snakes with it.
+
+𝘾𝙪𝙧𝙨𝙚. This headdress is cursed, and becoming attuned to it extends that curse to you until you are targeted by the "remove curse" spell. Removing the headdress fails to end the curse on you. While cursed, your speech is slightly changed: you hiss slightly when pronouncing "s" sounds.

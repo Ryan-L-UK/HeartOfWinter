@@ -1,0 +1,16 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Astral Bracelet
+Wondrous item, very rare (attunement requirement varies)
+___
+
+An "astral bracelet" is a powerful magical bangle that allows its wearer to see, commune, or otherwise manifest things using powers beyond the Material Plane. The metal and glyphs of each bracelet are related to the kind of power that it holds. You can pull the bracelet off and hold it in the palm of your hand as an action. When you do, the bracelet unfurls to reveal the four inner rings collapsed within it, transforming the bracelet into an astronomical sphere. While the bracelet is transformed into the astronomical sphere, its inner rings slowly spin on their own.
+
+The bracelet has 10 charges and regains 2d4 + 2 expended charges each day dawn. While holding the astronomical sphere, you can expend 1 or more of its charges to cast one of its spells. The sphere's spinning rings magically fold up again into the wearable bracelet if you expend the last charge from the sphere. You can fold the rings back into place early as an action. You can wear the bracelet again once its rings are folded up again (no action required). Each bracelet can cast a different array of spells and may require different creatures to attune to them. Spells cast using the bracelet while it's an astronomical sphere have a spell save DC of 16. Components that cost less than 100 gp are ignored when casting a spell in this way.
+
+Bracelet | Requires attunement by | Spells
+—
+Astral Bracelet of Energy | A sorcerer or wizard | Counterspell (3 charges), floating disk (1 charge), globe of invulnerability (6 charges), hallucinatory terrain (4 charges), hypnotic pattern (3 charges), protection from energy (3 charges), resilient sphere (4 charges)
+—
+Astral Bracelet of Heavens | A cleric or paladin | Detect evil and good (1 charge), dispel evil and good (5 charges), divination (4 charges), magic circle (3 charges), protection from evil and good (1 charge), spirit guardians (3 charges), warding bond (2 charges)
+—
+(Continued in the comments)

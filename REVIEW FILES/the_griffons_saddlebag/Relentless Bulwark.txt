@@ -1,0 +1,6 @@
+🛡 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Relentless Bulwark
+Armor (shield), uncommon (requires attunement by a cleric or paladin)
+___
+
+This hefty metal shield is virtually impenetrable. The shield has 6 charges and regains 1d4+2 expended charges each day at dawn. While holding the shield, you can use a bonus action to expend 1 charge to cast "shield of faith". When you would fail a Constitution saving throw to maintain concentration on a "shield of faith" spell cast using the shield, you can use your reaction to expend another charge to succeed on the saving throw instead. You can only use this reaction in this way while holding the shield.

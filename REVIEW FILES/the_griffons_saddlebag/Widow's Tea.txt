@@ -1,0 +1,8 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Widow's Tea
+Wondrous item, rare
+___
+
+This dark ceramic tea set comes with a teapot and two matching teacups. The malignant spirit of a hag lives within the teapot and corrupts the first cup of tea that it pours into one of the matching teacups. The first creature that drinks this cup of tea must make a DC 15 Constitution saving throw as the hag's spirit assaults it from the inside. On a failed save, a creature takes 4d6 poison damage and is paralyzed for 1 minute. On a successful save, a creature takes half as much damage and isn't paralyzed. At the end of each of its turns, a paralyzed creature can make another DC 15 Constitution saving throw. On a success, it is no longer paralyzed.
+
+Once this property has been used, it can't be used again until 1d4 + 3 days have passed.

@@ -1,0 +1,8 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Phase Axe
+Weapon (battleaxe), rare (requires attunement)
+___
+
+This beautiful, crystalline battleaxe seems to be almost transparent when looking at the bladed head from different angles. You gain a +1 bonus to attack and damage rolls made with this magic weapon. This weapon has the thrown property (20/60 ft.). Once a turn when you hit with a ranged attack using this weapon, you can choose another creature within 10 feet of the target to make a DC 15 Dexterity saving throw. On a failed save, the chosen creature takes 1d8 force damage.
+
+If you can see the weapon and are within 60 feet of it, you can use a bonus action to recall the axe back to your outstretched hand. When you do, the axe phases through any obstacle in its path no more than 5 feet thick or made of lead.

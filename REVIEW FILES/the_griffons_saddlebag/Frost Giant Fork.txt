@@ -1,0 +1,8 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Frost Giant Fork
+Weapon (trident), rare (requires attunement)
+___
+
+This massive utensil comes from the table of a frost giant. Latent jotun magic flows through this make-shift trident and drives your hunger to nearly aggressive levels. You gain a +1 bonus to attack and damage rolls made with this magic weapon, and once per turn when you successfully land a melee weapon attack using the fork against a creature, you can immediately attempt a bite attack against that target using a bonus action. Your jaws and teeth are fortified to have the strength and density of the weapon's original owner, allowing this follow-up bite attack to deal 1d6 piercing damage. You are proficient with the attack and use your Strength modifier when rolling for its attack and damage while you are attuned to the weapon.
+
+𝘾𝙪𝙧𝙨𝙚. While attuned to this weapon, your hunger is almost insatiable. You need to eat twice the normal amount every day, and incur a level of exhaustion if you go a day without eating enough.

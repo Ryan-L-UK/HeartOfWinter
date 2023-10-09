@@ -1,0 +1,16 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Battleborn Gloves Wondrous item, legendary (requires attunement)
+___
+
+These gloves have been worn by generations of great warriors and bear the marks and remembrances of their prowess. While wearing the gloves, your Strength or Dexterity score increases by 2 (your choice), up to a maximum of 22. Alternatively, you can increase both your Strength and Dexterity scores by 1. You make this decision when you first attune to the gloves.
+
+The gloves have 10 charges. While wearing them, you can expend 1 or more of their charges for the following properties.
+
+𝙁𝙞𝙜𝙝𝙩𝙞𝙣𝙜 𝙎𝙩𝙮𝙡𝙚 𝙈𝙖𝙨𝙩𝙚𝙧. You can use an action to expend 1 charge to gain one Fighting Style option of your choice from the fighter class. If you already have a style, the one you choose must be different. You can use this property to gain up to two Fighting styles; if you use it to choose a third style, it replaces one of the other two (your choice which one). Runes that line the metal cuffs of the gloves indicate which Fighting Styles you've chosen.
+
+𝙎𝙞𝙣𝙜𝙡𝙚-𝙃𝙖𝙣𝙙𝙚𝙙. You can expend 3 of the glove's charges as a bonus action to temporarily bolster your might: you can wield a two-handed weapon with one hand instead for 1 minute. Alternatively, you can use a bonus action to expend 1 of the gloves' charges to make a single attack with a weapon you're wielding with one hand.
+
+𝙒𝙖𝙧𝙧𝙞𝙤𝙧'𝙨 𝙎𝙥𝙞𝙧𝙞𝙩. If you are a fighter, you can expend 2 charges (no action required) to regain a use of your Action Surge or Second Wind feature. Once you do, you can't regain another use of that feature with this property again until you finish a long rest.
+The gloves regain all expended charges when you finish a long rest. When this happens, any Fighting Style you gained with them is lost until you expend a charge to select it again. If you use the last charge from the gloves, make a DC 15 Constitution saving throw. On a failed save, you gain one level of exhaustion.
+...
+Contrinued in the comment below!

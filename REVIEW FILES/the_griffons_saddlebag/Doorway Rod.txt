@@ -1,0 +1,7 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Doorway Scepter Rod, rare (requires attunement)
+___
+
+A silver and brass door knocker hangs from the top of this rod. While holding the rod, you can use an action to cast either the "dimension door", "knock", or "passwall" spell from it. Once a spell has been cast in this way, that spell can't be cast from the rod again until the next dawn.
+
+Alternatively, you can use a bonus action to minimize and transform the rod into a lockpick, which functions as a set of thieves' tools and grants a +2 bonus to any ability check you make that uses it. The rod remains in this form until you use a bonus action to return it to its normal form or until you're no longer holding it.

@@ -1,0 +1,11 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Dragonwing Scimitars Weapon (scimitar), legendary (requires attunement)
+___
+
+This pair of twin scimitars features draconic guards and winglike blades. Despite there being two weapons, they are considered to be a single item for the purposes of attuning to them. While holding one of the swords, you always know the general direction and distance of the other.
+
+𝘾𝙝𝙧𝙤𝙢𝙖𝙩𝙞𝙘 𝘾𝙝𝙖𝙣𝙜𝙚. Each of the swords is associated with a damage type: either acid, cold, fire, lightning or poison. Any target hit by one of the scimitars takes an extra 1d10 damage of its associated type. While one of them is in your hand, you can use a bonus action to change its damage type to a different one. When you do, the color of its metal changes to reflect the new damage type.
+
+𝘿𝙧𝙖𝙘𝙤𝙣𝙞𝙘 𝙍𝙞𝙥𝙤𝙨𝙩𝙚. While holding each of the swords in either hand, you can use your reaction when you're hit by a melee attack to gain a +4 bonus to your AC against the triggering attack, potentially causing it to miss you. If the attack misses as a result of this reaction and the attacker is within 5 feet of you, you can immediately make an opportunity attack against the attacker using one of the scimitars.
+
+𝙒𝙞𝙣𝙜𝙚𝙙 𝙍𝙪𝙨𝙝. While you're holding the two swords in either hand, you gain a flying speed equal to your walking speed whenever you take the Dash action. You lose this speed at the end of your turn, falling if you are in the air and nothing else is holding you aloft.

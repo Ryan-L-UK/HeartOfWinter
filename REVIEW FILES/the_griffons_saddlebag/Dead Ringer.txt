@@ -1,0 +1,6 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Dead Ringer
+Wonderous item, rare
+___
+
+This bronze mask lets out a deep, sonorous ring when struck. While wearing the mask, whenever you are reduced to 0 hitpoints or roll a failed death saving throw, the three enemy creatures nearest you within 30 feet must succeed on a Wisdom saving throw (save DC 15) or take 2d12 necrotic damage. This item has no effect on creatures who are not missing any hitpoints or are deafened. If you are healed or stabilized after falling to 0 hit points, the mask cannot use this feature again for another 24 hours.

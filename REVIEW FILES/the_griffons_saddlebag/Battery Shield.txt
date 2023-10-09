@@ -1,0 +1,5 @@
+🛡 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Battery Shield Armor (shield), uncommon
+___
+
+This shield builds up a small electrostatic charge while worn. When a creature makes a melee attack against you using a metal weapon and the attack roll misses by 2 or less, that creature takes 1d4 lightning damage.

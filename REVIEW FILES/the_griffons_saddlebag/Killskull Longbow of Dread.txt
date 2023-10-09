@@ -1,0 +1,8 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Killskull Longbow of Dread
+Weapon (longbow), rare (requires attunement)
+___
+
+This magic longbow is adorned with a bear skull and claws. The bow holds up to 4 charges and gains 1 charge whenever you reduce a Small or larger creature to 0 hit points with it. For each charge the bow has, a small, etched line appears on the bear skull adorning the weapon. The etched line vanishes from the skull when its charge is expended.
+
+When you hit a creature with an arrow fired from this bow, you can expend 1 charge to cause that creature to take an extra 1d8 psychic damage and  make a DC 15 Wisdom saving throw. On a failure, a creature is frightened of you for 1 minute. At the end of each of its turns, the creature can repeat the saving throw, ending the effect on itself on a success.

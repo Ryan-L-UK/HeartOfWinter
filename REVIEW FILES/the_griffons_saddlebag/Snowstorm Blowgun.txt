@@ -1,0 +1,5 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Snowstorm Blowgun Weapon (blowgun), rare
+___
+
+This cold, metal blowgun is 3 feet long and has a vented chamber at its end that billows with a frigid mist. You can use an action to make a special ranged weapon attack using this magic blowgun, targeting one creature or object within the weapon's range. When you do so, you fire three icicle darts from it, with a separate attack roll for each dart. On a hit, a dart deals cold damage equal to 1d4 + your Dexterity modifier, instead of the weapon's normal damage.

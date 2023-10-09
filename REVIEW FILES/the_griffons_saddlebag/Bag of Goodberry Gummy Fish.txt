@@ -1,0 +1,9 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Bag of Goodberry Gummy Fish Wondrous item, uncommon
+___
+
+"Goodberry gummy fish" are gooey sweets that look like Tiny, gelatinous fish. When found, they typically come in bags of 1d6 + 10 gummies, which are almost always red.
+
+A "goodberry gummy fish" functions like a single goodberry, as if by the "goodberry" spell, except that eating a gummy also grants you a swimming speed of 30 feet for 1 hour.
+
+Alternatively, you can use an action to submerge a gummy in water to magically animate it, using the quipper's statistics. If you submerge 5 or more gummies in water at the same time, they become a swarm of quippers instead of five separate ones. The quippers are friendly to you, but aren't magically compelled to obey any of your commands. After 1 hour, the animated gummies dissolve and are destroyed.

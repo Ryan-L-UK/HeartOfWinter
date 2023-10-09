@@ -1,0 +1,7 @@
+📜 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Scroll of Rugs Scroll, uncommon
+___
+
+You can use an action to unfurl this illustrated scroll and speak its command word, which is typically written along the edge of the scroll. When you do, the scroll transforms into a special plush "carpet of flying", which is commanded using the same command word as the scroll. This carpet is 2 feet wide and 6 feet long, has a carrying capacity of 100 pounds, and has a flying speed of 60 feet. It can carry up to twice this weight, but it flies at half speed if it carries more than its normal capacity. After 1 hour, the carpet loses its magic.
+
+When you use this scroll, roll a d20. On a 1, the scroll transforms into a hostile rug of smothering in the nearest unoccupied space within 5 feet of you. This property of the scroll is only revealed when you first speak the scroll's command word. An "identify" spell fails to reveal it.

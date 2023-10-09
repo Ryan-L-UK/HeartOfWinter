@@ -1,0 +1,7 @@
+🛡 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Chromatic Obsidian Breastplate Armor (breastplate), rare (requires attunement)
+___
+
+You gain a +1 bonus to AC while wearing this dark, prismatic armor. While wearing it, you can use your reaction to reduce any radiant damage you take by 1d8 + 5. When you do, you release a brilliant spectrum of colors. Each creature of your choice within 5 feet of you takes the same amount of damage you reduced in this way. The damage's type is random, depending on the color of the light that strikes each creature. Roll a d6 and use the table below to determine the damage type dealt to each creature.
+
+| d6 | Light Color | Damage Type | — | 1–2 | Blue or Purple | Cold | - | 3–4 | Red or Orange | Fire | - | 5–6 | Yellow or Green | Lightning |

@@ -1,0 +1,6 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Ouroboros Rapier
+Weapon (rapier), very rare (requires attunement)
+___
+
+You gain a +1 bonus to attack and damage rolls you make with this magic weapon. Whenever you roll an 8 on the damage die for an attack with this weapon, you can immediately roll another 1d8 and add it to the total. In addition, when you land a critical hit with the rapier against a creature, it must make a DC 14 Constitution saving throw. On a failure, the creature is poisoned for 1 minute and takes 3d6 poison damage. On a success, the creature is not poisoned, and the poison damage is halved.

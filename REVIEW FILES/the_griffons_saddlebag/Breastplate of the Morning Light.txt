@@ -1,0 +1,6 @@
+🛡 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Breastplate of the Morning Light 
+Armor (breastplate), rare (requires attunement by a cleric or paladin)
+___
+
+You have a +1 bonus to your AC. You can use an action on your turn to channel the armor's magic and cause it emit a flash of blinding, radiant light. When you do, all other creatures within 10 feet of you are forced to make a DC 14 Constitution saving throw. On a failure, a creature is blinded until the end of its next turn. Undead creatures have disadvantage on the saving throw, and take 2d8 radiant damage on a failure. Once you use this feature, you can't use it again until the following dawn.

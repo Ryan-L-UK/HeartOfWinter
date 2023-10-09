@@ -1,0 +1,6 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Discharge Gauntlets
+Wondrous item, rare
+___
+
+These metallic gauntlets have several sharp points extending from its knuckles and are lined with an insulating material. Unarmed punching attacks you make while wearing these gauntlets deal piercing damage instead of bludgeoning. In addition, the gauntlets hold 6 charges and regain 1d6 each day at dawn. When you hit a creature with an unarmed attack using your fists, you can expend 1 charge to deal an additional 1d8 lightning damage. When you do, the target must succeed on a DC 14 Constitution saving throw or be unable to use its reaction until the start of its next turn. While the gauntlets hold at least 1 charge, they give off occasional snaps and sparks of electricity.

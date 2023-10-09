@@ -1,0 +1,12 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Shaedenstaff
+Staff, very rare (requires attunement by a sorcerer, warlock, or wizard)
+___
+
+This staff is made from the reclaimed horn of a huge undead creature. While you're attuned to the staff, you have advantage on saving throws to retain your sanity against the environment effects of being in a fallen plane of shadowy existence.
+
+The staff has 15 charges for the following properties and regains 2d6 + 3 expended charges each day at dusk. If you expend the last charge, roll a d20. On a 1, the staff disintegrates in a plume of pitch black smoke and emits a terrifying scream audible out to 300 feet.
+
+𝘼𝙣𝙣𝙞𝙝𝙞𝙡𝙖𝙩𝙞𝙣𝙜 𝙨𝙩𝙧𝙞𝙠𝙚. When you hit with a melee attack using the staff, you can expend 1 charge to deal an extra 1d10 necrotic damage to the target.
+
+𝙎𝙥𝙚𝙡𝙡𝙨. While holding the staff, you can use an action to expend 1 or more of its charges to cast one of the following spells from it, using your spell save DC: "calm emotions" (1 charge), "darkness" (2 charges), "dispel evil and good" (5 charges), "inflict wounds" (3rd-level version, 3 charges), or "circle of death" (6 charges).

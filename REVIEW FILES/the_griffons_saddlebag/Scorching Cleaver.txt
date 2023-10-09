@@ -1,0 +1,8 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Scorching Cleaver
+Weapon (battleaxe), very rare (requires attunement)
+___
+
+You gain a +2 bonus to attack rolls made with this magic weapon. The battleaxe holds up to 8 charges and regains 1d8 expended charges each day at dawn. As long as there is at least 1 charge remaining, attacks made with it deal an extra 1d8 fire damage to any target it hits, and the battleaxe regains 3 expended charges each time you roll a 20 on an attack roll with it.
+
+𝙀𝙧𝙪𝙥𝙩𝙞𝙣𝙜 𝙨𝙡𝙖𝙨𝙝. As an action, you can expend 3 or more of the weapon's charges to slash the air in front you. When you do, a line of flame 5 feet wide and 30 feet long erupts from the blade. Each creature in the line must succeed on a Dexterity saving throw or take fire damage equal to 1d6 per charge spent. If you expend all of the weapon's remaining charges in this way, the inferno deals an extra 3d6 fire damage and creatures take half damage on a successful save instead of none at all. The DC for this saving throw is equal to 8 + your proficiency bonus + the number of charges spent. Any flammable object caught in the blaze that isn't being worn or carried is ignited.

@@ -1,0 +1,8 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Sword of Resonance
+Weapon (longsword), rare (requires attunement by a bard)
+___
+
+This peculiar brass longsword is hollow and has strings that run along its magical blade, allowing you to use this sword as both a lute and spellcasting focus. You are proficient with lutes while you are attuned to the sword. In addition, this sword has the finesse property due to the hollow blade's dramatically reduced weight.
+
+You gain a +2 bonus to attack and damage rolls made with this magic weapon. The sword's hollow metal blade magically amplifies the music made when using the sword as an instrument. Whenever you expend a use of your Bardic Inspiration, the sword begins to reverberate with thunderous energy. The next time you hit a target before the end of your next turn with a melee weapon attack using the sword, that target takes an extra 1d8 thunder damage from the attack.

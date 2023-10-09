@@ -1,0 +1,8 @@
+⚔️ 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Knight's Standard of Virtue
+Weapon (glaive), rare (requires attunement)
+___
+
+You gain a +1 bonus to attack and damage rolls made with this magic weapon. While wielding this decorated glaive, you give off an aura of righteousness. The aura affects you and other friendly creatures within 10 feet of you. Affected creatures within the aura are considered proficient in saving throws made to resist becoming charmed. In addition, an affected creature within the aura can use their reaction to reduce the damage they take from an evil-aligned creature's melee weapon attack by 1d6+2.
+
+You can concentrate on the weapon's flag over the course of a short rest to change its design and color.

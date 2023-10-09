@@ -1,0 +1,6 @@
+🛡 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Tarrasque Plate
+Armor (plate), legendary (requires attunement)
+___
+
+This impenetrable armor is made from refined fragments of a tarrasque's armored hide and retains some of its original properties. You have resistance to damage from spells and a +1 bonus to AC while wearing this armor. In addition whenever you're targeted by a magic missile spell, a line spell, or a spell that requires a ranged attack roll, roll a d6. On a 6, you are unaffected by the spell, and the effect is reflected back at the caster as though it originated from you, turning the caster into the target.

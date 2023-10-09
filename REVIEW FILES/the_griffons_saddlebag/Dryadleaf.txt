@@ -1,0 +1,10 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Dryadleaf
+Wondrous Item, common
+___
+
+This magical plant only grows at the base of trees that are often stepped through by a dryad. Its leaves slowly shift as if brushed by a breeze. Touching the plant, even gently, causes its leaves to stop their gentle swaying for 1 minute. These plants are frequently cultivated by druids to train younger members of their circle to listen with more than just their ears.
+
+Dryadleaf plants only grow up to 4 leaves at a time and are found in the wild with 1d4 matured leaves. Leaves are fully matured once they have a light green edge along their rim. A creature can eat 1 of the plant's fully grown leaves as an action. Once it does, that creature can speak to beasts and plants for 1 minute as if they shared a language. Once picked, a leaf retains this property for 7 days.
+
+A creature can repot the plant following a successful DC 15 Intelligence (Nature) or Wisdom (Survival) check. On a failure, the delicate plant is irreversibly damaged and dies. Once repotted, the plant can survive with surprisingly little air, allowing it to survive in an extradimensional space such as a bag of holding or portable hole. So long as it's watered lightly each day and given a moderate amount of sunlight (weather and environment permitting), the plant grows 1d4 missing leaves every 7 days.

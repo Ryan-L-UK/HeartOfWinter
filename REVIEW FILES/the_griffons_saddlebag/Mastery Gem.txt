@@ -1,0 +1,8 @@
+💎 𝗡𝗲𝘄 𝗶𝘁𝗲𝗺!
+Mastery Gem
+Wondrous item, legendary
+___
+
+This cut red gemstone seems to glint with some sort of liquid inside. The gem is impervious to attacks and damaging effects. The gem contains magic absorbed from countless other sources that it uses to overpower the requirements of certain item attunements. While holding the gem against another item that requires attunement by a class or race other than you, you can attune to the new item nonetheless. The new item can be neither legendary nor an artifact. The gem fuses to the surface of the new item and encases the area around it in a crystalline shell.
+
+You can unattune to the new item as normal, even if the item is cursed. Unattuning to cursed items in this way breaks the curse's effects on you. When you unattune to the new item, the gem detaches from the item, allowing you to use it on another item. The crystalline shell remains on the unattuned item. The crystal absorbs any of the item's magic when it's removed in this way, causing the item to become mundane and nonmagical once you unattune to it.
